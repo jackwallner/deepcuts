@@ -599,5 +599,127 @@
         "artist": "Parliament"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "disco-funk-c01",
+      "title": "Don't Leave Me This Way",
+      "artist": "Thelma Houston",
+      "year": 1976,
+      "album": "Any Way You Like It",
+      "original": "Harold Melvin & The Blue Notes",
+      "originalYear": 1975,
+      "decoys": [
+        "Gladys Knight & the Pips",
+        "The Spinners",
+        "The O'Jays"
+      ],
+      "note": "Harold Melvin and the Blue Notes, with Teddy Pendergrass singing lead, recorded it in 1975. Houston's 1976 disco version reached number one in the US and won a Grammy."
+    },
+    {
+      "id": "disco-funk-c02",
+      "title": "Never Can Say Goodbye",
+      "artist": "Gloria Gaynor",
+      "year": 1974,
+      "album": "Never Can Say Goodbye",
+      "original": "The Jackson 5",
+      "originalYear": 1971,
+      "decoys": [
+        "Isaac Hayes",
+        "Diana Ross",
+        "The Supremes"
+      ],
+      "note": "Clifton Davis wrote it, and the Jackson 5 had a hit with it in 1971. Gaynor's 1974 disco version ran across a continuous side of her album and became a club favorite."
+    },
+    {
+      "id": "disco-funk-c03",
+      "title": "Knock on Wood",
+      "artist": "Amii Stewart",
+      "year": 1978,
+      "album": "Knock On Wood",
+      "original": "Eddie Floyd",
+      "originalYear": 1966,
+      "decoys": [
+        "Wilson Pickett",
+        "Otis Redding",
+        "Sam & Dave"
+      ],
+      "note": "Eddie Floyd and Steve Cropper wrote it, and Floyd recorded it for Stax in 1966. Stewart's disco version went to number one in the US in 1979."
+    },
+    {
+      "id": "disco-funk-c04",
+      "title": "I'm Every Woman",
+      "artist": "Whitney Houston",
+      "year": 1992,
+      "album": "The Bodyguard (Original Soundtrack Album)",
+      "original": "Chaka Khan",
+      "originalYear": 1978,
+      "decoys": [
+        "Gladys Knight",
+        "Patti LaBelle",
+        "Aretha Franklin"
+      ],
+      "note": "Ashford and Simpson wrote it for Chaka Khan's 1978 solo debut. Houston's recording for The Bodyguard became a house dance hit."
+    },
+    {
+      "id": "disco-funk-c05",
+      "title": "Can't Take My Eyes Off You",
+      "artist": "Boys Town Gang",
+      "year": 1982,
+      "album": "Disc Charge",
+      "original": "Frankie Valli",
+      "originalYear": 1967,
+      "decoys": [
+        "Andy Williams",
+        "Gloria Gaynor",
+        "Lauryn Hill"
+      ],
+      "note": "Bob Crewe and Bob Gaudio wrote it, and Valli's 1967 version was a hit. The Boys Town Gang, a San Francisco group, made it a Hi-NRG dance track in 1982."
+    },
+    {
+      "id": "disco-funk-c06",
+      "title": "Higher Ground",
+      "artist": "Red Hot Chili Peppers",
+      "year": 1989,
+      "album": "Mother's Milk",
+      "original": "Stevie Wonder",
+      "originalYear": 1973,
+      "decoys": [
+        "Marvin Gaye",
+        "Curtis Mayfield",
+        "Sly & the Family Stone"
+      ],
+      "note": "Wonder released it on Innervisions in 1973. The Peppers' version, driven by Flea's slap bass, was a single from Mother's Milk."
+    },
+    {
+      "id": "disco-funk-c07",
+      "title": "Got to Get You into My Life",
+      "artist": "Earth, Wind & Fire",
+      "year": 1978,
+      "album": "The Best of Earth, Wind & Fire, Vol. 1",
+      "original": "The Beatles",
+      "originalYear": 1966,
+      "decoys": [
+        "The Rolling Stones",
+        "The Temptations",
+        "Wilson Pickett"
+      ],
+      "note": "The Beatles recorded it on Revolver with a brass section, and Paul McCartney has said it is an ode to marijuana. Earth, Wind & Fire's version, for the 1978 Sgt. Pepper film, reached the US top ten."
+    },
+    {
+      "id": "disco-funk-c08",
+      "title": "Disco Inferno",
+      "artist": "Tina Turner",
+      "year": 1993,
+      "album": "What's Love Got to Do with It",
+      "original": "The Trammps",
+      "originalYear": 1976,
+      "decoys": [
+        "Chic",
+        "KC and the Sunshine Band",
+        "The O'Jays"
+      ],
+      "note": "The Trammps recorded it in 1976, and it appeared on the Saturday Night Fever soundtrack. Turner re-recorded it for her 1993 biopic soundtrack."
+    }
   ]
 }

@@ -903,5 +903,127 @@
         "artist": "The Allman Brothers Band"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "southern-rock-c01",
+      "title": "Statesboro Blues",
+      "artist": "The Allman Brothers Band",
+      "year": 1971,
+      "album": "At Fillmore East",
+      "original": "Blind Willie McTell",
+      "originalYear": 1928,
+      "decoys": [
+        "Robert Johnson",
+        "Lead Belly",
+        "Taj Mahal"
+      ],
+      "note": "Blind Willie McTell recorded it in Atlanta in 1928. The Allmans reportedly learned it from Taj Mahal's 1968 recording, and Duane Allman's slide guitar made it a live favorite."
+    },
+    {
+      "id": "southern-rock-c02",
+      "title": "Hard to Handle",
+      "artist": "The Black Crowes",
+      "year": 1990,
+      "album": "Shake Your Money Maker",
+      "original": "Otis Redding",
+      "originalYear": 1968,
+      "decoys": [
+        "Wilson Pickett",
+        "Sam & Dave",
+        "Eddie Floyd"
+      ],
+      "note": "Redding recorded it in 1967, shortly before his death, and it came out in 1968. The Black Crowes' 1990 version was the breakthrough single from their debut album."
+    },
+    {
+      "id": "southern-rock-c03",
+      "title": "Call Me the Breeze",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1974,
+      "album": "Second Helping",
+      "original": "J.J. Cale",
+      "originalYear": 1972,
+      "decoys": [
+        "Leon Russell",
+        "Delbert McClinton",
+        "Tony Joe White"
+      ],
+      "note": "J.J. Cale released it on his debut album Naturally. Skynyrd put it on Second Helping in 1974, and it became a staple of their live shows."
+    },
+    {
+      "id": "southern-rock-c04",
+      "title": "Texas Flood",
+      "artist": "Stevie Ray Vaughan & Double Trouble",
+      "year": 1983,
+      "album": "Texas Flood",
+      "original": "Larry Davis",
+      "originalYear": 1958,
+      "decoys": [
+        "Albert Collins",
+        "T-Bone Walker",
+        "Freddie King"
+      ],
+      "note": "Larry Davis recorded it in the late 1950s. Vaughan made it the title track of his 1983 debut album."
+    },
+    {
+      "id": "southern-rock-c05",
+      "title": "Honky Tonk Night Time Man",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1977,
+      "album": "Street Survivors",
+      "original": "Merle Haggard",
+      "originalYear": 1974,
+      "decoys": [
+        "Waylon Jennings",
+        "Willie Nelson",
+        "Buck Owens"
+      ],
+      "note": "Merle Haggard recorded it in the mid 1970s. Skynyrd included it on Street Survivors, which came out days before the 1977 plane crash."
+    },
+    {
+      "id": "southern-rock-c06",
+      "title": "Susie Q",
+      "artist": "Creedence Clearwater Revival",
+      "year": 1968,
+      "album": "Creedence Clearwater Revival",
+      "original": "Dale Hawkins",
+      "originalYear": 1957,
+      "decoys": [
+        "Chuck Berry",
+        "Bo Diddley",
+        "Jerry Lee Lewis"
+      ],
+      "note": "Dale Hawkins recorded it in Shreveport in 1957, with James Burton on guitar. Creedence stretched it past eight minutes for their 1968 debut."
+    },
+    {
+      "id": "southern-rock-c07",
+      "title": "I Put a Spell on You",
+      "artist": "Creedence Clearwater Revival",
+      "year": 1968,
+      "album": "Creedence Clearwater Revival",
+      "original": "Screamin' Jay Hawkins",
+      "originalYear": 1956,
+      "decoys": [
+        "Nina Simone",
+        "Little Richard",
+        "Fats Domino"
+      ],
+      "note": "Hawkins reportedly intended a ballad, but the 1956 session turned wild. John Fogerty's version came out in 1968 as Creedence's second single."
+    },
+    {
+      "id": "southern-rock-c08",
+      "title": "Little Wing",
+      "artist": "Stevie Ray Vaughan & Double Trouble",
+      "year": 1984,
+      "album": "Couldn't Stand the Weather",
+      "original": "The Jimi Hendrix Experience",
+      "originalYear": 1967,
+      "decoys": [
+        "Cream",
+        "Traffic",
+        "Jeff Beck"
+      ],
+      "note": "Hendrix put it on Axis: Bold as Love in 1967. Vaughan recorded it for Couldn't Stand the Weather and kept it in his sets for the rest of his career."
+    }
   ]
 }

@@ -600,5 +600,127 @@
         "artist": "Oasis"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "grunge-alt-c01",
+      "title": "The Man Who Sold the World",
+      "artist": "Nirvana",
+      "year": 1994,
+      "album": "MTV Unplugged In New York",
+      "original": "David Bowie",
+      "originalYear": 1970,
+      "decoys": [
+        "Lou Reed",
+        "Iggy Pop",
+        "T. Rex"
+      ],
+      "note": "Bowie released it in 1970. Nirvana played it at their November 1993 MTV Unplugged taping, and the recording came out in 1994."
+    },
+    {
+      "id": "grunge-alt-c02",
+      "title": "Oh, Me",
+      "artist": "Nirvana",
+      "year": 1994,
+      "album": "MTV Unplugged In New York",
+      "original": "Meat Puppets",
+      "originalYear": 1984,
+      "decoys": [
+        "Hüsker Dü",
+        "Minutemen",
+        "The Replacements"
+      ],
+      "note": "The Meat Puppets released it on Meat Puppets II in 1984. Curt and Cris Kirkwood joined Nirvana on stage to play it at the Unplugged taping."
+    },
+    {
+      "id": "grunge-alt-c03",
+      "title": "Last Kiss",
+      "artist": "Pearl Jam",
+      "year": 1999,
+      "album": "Lost Dogs",
+      "original": "Wayne Cochran",
+      "originalYear": 1961,
+      "decoys": [
+        "J. Frank Wilson & the Cavaliers",
+        "Del Shannon",
+        "Ricky Nelson"
+      ],
+      "note": "Wayne Cochran wrote it and released it in 1961, and J. Frank Wilson and the Cavaliers had the big hit in 1964. Pearl Jam's version began as a fan club single and reached number two in the US."
+    },
+    {
+      "id": "grunge-alt-c04",
+      "title": "Personal Jesus",
+      "artist": "Johnny Cash",
+      "year": 2002,
+      "album": "American IV: The Man Comes Around",
+      "original": "Depeche Mode",
+      "originalYear": 1989,
+      "decoys": [
+        "Nine Inch Nails",
+        "The Cure",
+        "New Order"
+      ],
+      "note": "Martin Gore has said he was inspired by Priscilla Presley's memoir Elvis and Me. Cash recorded it for American IV."
+    },
+    {
+      "id": "grunge-alt-c05",
+      "title": "Landslide",
+      "artist": "The Smashing Pumpkins",
+      "year": 1994,
+      "album": "Pisces Iscariot",
+      "original": "Fleetwood Mac",
+      "originalYear": 1975,
+      "decoys": [
+        "Stevie Nicks",
+        "Carly Simon",
+        "Joni Mitchell"
+      ],
+      "note": "Stevie Nicks wrote it, and Fleetwood Mac released it on their 1975 self-titled album. Nicks has said she wrote it while deciding whether to continue in music."
+    },
+    {
+      "id": "grunge-alt-c06",
+      "title": "Sweet Jane",
+      "artist": "Cowboy Junkies",
+      "year": 1988,
+      "album": "The Trinity Session",
+      "original": "The Velvet Underground",
+      "originalYear": 1970,
+      "decoys": [
+        "Lou Reed",
+        "David Bowie",
+        "Iggy Pop"
+      ],
+      "note": "The Velvet Underground released it on Loaded in 1970. The Cowboy Junkies recorded their quiet version in a single session in a Toronto church, reportedly around one microphone."
+    },
+    {
+      "id": "grunge-alt-c07",
+      "title": "Superman",
+      "artist": "R.E.M.",
+      "year": 1986,
+      "album": "Lifes Rich Pageant",
+      "original": "The Clique",
+      "originalYear": 1969,
+      "decoys": [
+        "The Monkees",
+        "The Association",
+        "The Turtles"
+      ],
+      "note": "Gary Zekley wrote it, and the Clique recorded it in 1969. On R.E.M.'s version Mike Mills sings lead."
+    },
+    {
+      "id": "grunge-alt-c08",
+      "title": "Africa",
+      "artist": "Weezer",
+      "year": 2018,
+      "album": "Weezer (Teal Album)",
+      "original": "Toto",
+      "originalYear": 1982,
+      "decoys": [
+        "Journey",
+        "Foreigner",
+        "Chicago"
+      ],
+      "note": "Toto released it on Toto IV in 1982. Weezer's version reportedly followed a fan's online campaign asking them to cover it."
+    }
   ]
 }

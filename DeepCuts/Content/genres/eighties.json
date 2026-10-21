@@ -600,5 +600,127 @@
         "artist": "Tracy Chapman"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "eighties-c01",
+      "title": "Tainted Love",
+      "artist": "Soft Cell",
+      "year": 1981,
+      "album": "Non-Stop Erotic Cabaret",
+      "original": "Gloria Jones",
+      "originalYear": 1964,
+      "decoys": [
+        "Diana Ross",
+        "Dusty Springfield",
+        "Martha Reeves"
+      ],
+      "note": "Ed Cobb wrote it, and Gloria Jones, who later became Marc Bolan's partner, released it in 1964. Soft Cell's synth version reached number one in the UK."
+    },
+    {
+      "id": "eighties-c02",
+      "title": "I Love Rock 'n' Roll",
+      "artist": "Joan Jett & The Blackhearts",
+      "year": 1981,
+      "album": "I Love Rock 'N' Roll",
+      "original": "The Arrows",
+      "originalYear": 1975,
+      "decoys": [
+        "Sweet",
+        "Suzi Quatro",
+        "Slade"
+      ],
+      "note": "Alan Merrill and Jake Hooker wrote it, and Merrill's band the Arrows recorded it in 1975. Jett reportedly heard the Arrows play it on British TV while on tour."
+    },
+    {
+      "id": "eighties-c03",
+      "title": "Venus",
+      "artist": "Bananarama",
+      "year": 1986,
+      "album": "True Confessions",
+      "original": "Shocking Blue",
+      "originalYear": 1969,
+      "decoys": [
+        "Golden Earring",
+        "Focus",
+        "Tee Set"
+      ],
+      "note": "The Dutch band Shocking Blue took it to number one in the US in 1970. Bananarama's 1986 version, produced by Stock Aitken Waterman, also reached number one in the US."
+    },
+    {
+      "id": "eighties-c04",
+      "title": "Pass the Dutchie",
+      "artist": "Musical Youth",
+      "year": 1982,
+      "album": "The Youth Of Today",
+      "original": "The Mighty Diamonds",
+      "originalYear": 1981,
+      "decoys": [
+        "Black Uhuru",
+        "Third World",
+        "Culture"
+      ],
+      "note": "The Mighty Diamonds recorded it as Pass the Kouchie. Musical Youth, a group of British schoolboys, reportedly changed the word to dutchie, the Jamaican word for a cooking pot."
+    },
+    {
+      "id": "eighties-c05",
+      "title": "Funky Town",
+      "artist": "Pseudo Echo",
+      "year": 1986,
+      "album": "Funky Town - Single",
+      "original": "Lipps Inc.",
+      "originalYear": 1980,
+      "decoys": [
+        "Chic",
+        "KC and the Sunshine Band",
+        "Donna Summer"
+      ],
+      "note": "Steven Greenberg wrote and produced it as Lipps Inc., with Cynthia Johnson singing, and it went to number one in the US in 1980. The Australian band Pseudo Echo took it into the US top ten in 1987."
+    },
+    {
+      "id": "eighties-c06",
+      "title": "Dancing in the Street",
+      "artist": "David Bowie & Mick Jagger",
+      "year": 1985,
+      "album": "Dancing In the Street - EP",
+      "original": "Martha Reeves & The Vandellas",
+      "originalYear": 1964,
+      "decoys": [
+        "The Supremes",
+        "Mary Wells",
+        "The Four Tops"
+      ],
+      "note": "Marvin Gaye co-wrote it, and Martha and the Vandellas had the 1964 hit. Bowie and Jagger recorded it for Live Aid famine relief, and it went to number one in the UK."
+    },
+    {
+      "id": "eighties-c07",
+      "title": "You Keep Me Hangin' On",
+      "artist": "Kim Wilde",
+      "year": 1986,
+      "album": "Another Step",
+      "original": "The Supremes",
+      "originalYear": 1966,
+      "decoys": [
+        "Martha Reeves & The Vandellas",
+        "Mary Wells",
+        "The Marvelettes"
+      ],
+      "note": "Holland-Dozier-Holland wrote it for the Supremes' 1966 number one. Wilde's electropop version also reached number one in the US."
+    },
+    {
+      "id": "eighties-c08",
+      "title": "Red Red Wine",
+      "artist": "UB40",
+      "year": 1983,
+      "album": "Labour of Love",
+      "original": "Neil Diamond",
+      "originalYear": 1967,
+      "decoys": [
+        "Bob Dylan",
+        "Paul Simon",
+        "Leonard Cohen"
+      ],
+      "note": "Diamond wrote it for his 1967 album Just for You. UB40's reggae version, reportedly based on Tony Tribe's 1969 cover, reached number one in the UK in 1983 and in the US in 1988."
+    }
   ]
 }

@@ -900,5 +900,127 @@
         "artist": "The Who"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "classic-rock-c01",
+      "title": "Black Magic Woman",
+      "artist": "Santana",
+      "year": 1970,
+      "album": "Abraxas",
+      "original": "Fleetwood Mac",
+      "originalYear": 1968,
+      "decoys": [
+        "Cream",
+        "John Mayall & the Bluesbreakers",
+        "Free"
+      ],
+      "note": "Peter Green wrote it for the early Fleetwood Mac. Santana joined it to a Gabor Szabo instrumental, Gypsy Queen, and had a hit with the medley in 1970."
+    },
+    {
+      "id": "classic-rock-c02",
+      "title": "Proud Mary",
+      "artist": "Ike & Tina Turner",
+      "year": 1970,
+      "album": "Workin' Together",
+      "original": "Creedence Clearwater Revival",
+      "originalYear": 1969,
+      "decoys": [
+        "The Band",
+        "Steppenwolf",
+        "Three Dog Night"
+      ],
+      "note": "John Fogerty wrote it for Creedence's 1969 album Bayou Country. Tina Turner's version opens with a slow spoken introduction before the tempo jumps."
+    },
+    {
+      "id": "classic-rock-c03",
+      "title": "Cocaine",
+      "artist": "Eric Clapton",
+      "year": 1977,
+      "album": "Slowhand",
+      "original": "J.J. Cale",
+      "originalYear": 1976,
+      "decoys": [
+        "Leon Russell",
+        "Tony Joe White",
+        "Taj Mahal"
+      ],
+      "note": "J.J. Cale released it on his 1976 album Troubadour. Clapton recorded it a year later for Slowhand, one of several Cale songs he made famous."
+    },
+    {
+      "id": "classic-rock-c04",
+      "title": "With a Little Help from My Friends",
+      "artist": "Joe Cocker",
+      "year": 1968,
+      "album": "With a Little Help from My Friends",
+      "original": "The Beatles",
+      "originalYear": 1967,
+      "decoys": [
+        "The Rolling Stones",
+        "The Hollies",
+        "The Animals"
+      ],
+      "note": "The Beatles recorded it for Sgt. Pepper in 1967, with Ringo Starr singing. Cocker's slowed, soulful arrangement went to number one in the UK in late 1968."
+    },
+    {
+      "id": "classic-rock-c05",
+      "title": "Dazed and Confused",
+      "artist": "Led Zeppelin",
+      "year": 1969,
+      "album": "Led Zeppelin",
+      "original": "Jake Holmes",
+      "originalYear": 1967,
+      "decoys": [
+        "Donovan",
+        "Tim Buckley",
+        "Fred Neil"
+      ],
+      "note": "Jake Holmes released it on his 1967 debut album. Jimmy Page credited himself on Led Zeppelin's version, and Holmes later sued; the dispute reportedly ended in a settlement."
+    },
+    {
+      "id": "classic-rock-c06",
+      "title": "I Shot the Sheriff",
+      "artist": "Eric Clapton",
+      "year": 1974,
+      "album": "461 Ocean Boulevard",
+      "original": "Bob Marley & The Wailers",
+      "originalYear": 1973,
+      "decoys": [
+        "Peter Tosh",
+        "Jimmy Cliff",
+        "Toots and the Maytals"
+      ],
+      "note": "The Wailers released it on Burnin' in 1973. Clapton's version reached number one in the US in 1974 and introduced Marley to many rock listeners."
+    },
+    {
+      "id": "classic-rock-c07",
+      "title": "Love Hurts",
+      "artist": "Nazareth",
+      "year": 1975,
+      "album": "Hair of the Dog",
+      "original": "The Everly Brothers",
+      "originalYear": 1960,
+      "decoys": [
+        "Gene Pitney",
+        "Gram Parsons",
+        "Del Shannon"
+      ],
+      "note": "Boudleaux Bryant wrote it, and the Everly Brothers recorded it in 1960. Nazareth's power ballad version, with Dan McCafferty's raspy vocal, reached the US top ten in 1975."
+    },
+    {
+      "id": "classic-rock-c08",
+      "title": "Blinded by the Light",
+      "artist": "Manfred Mann's Earth Band",
+      "year": 1976,
+      "album": "The Roaring Silence",
+      "original": "Bruce Springsteen",
+      "originalYear": 1973,
+      "decoys": [
+        "Bob Dylan",
+        "Van Morrison",
+        "Billy Joel"
+      ],
+      "note": "Springsteen released it on his 1973 debut album. The Earth Band's recording reached number one on the US pop chart in early 1977."
+    }
   ]
 }
