@@ -10,24 +10,33 @@ struct StoriesView: View {
                     VStack(alignment: .leading, spacing: 6) {
                         Kicker(text: "Liner notes")
                         Text("Stories").font(Theme.display(40)).foregroundStyle(Theme.ink)
-                        Text("How the records got made, and the people who made them.")
+                        Text("How the records got made, the people who made them, and the nights they played live.")
                             .font(.subheadline).foregroundStyle(Theme.inkSoft)
                     }
                     .padding(.top, 12)
 
                     let all = app.library.stories(focus: app.progress.focus)
-                    VStack(alignment: .leading, spacing: 16) {
-                        ForEach(all, id: \.story.id) { pair in
-                            NavigationLink(value: pair.story) { StoryRow(story: pair.story, genre: pair.genre) }
-                                .buttonStyle(.plain)
-                        }
+                    let concerts = all.filter { $0.story.isConcert }
+                    if !concerts.isEmpty {
+                        shelf("Concerts", concerts)
                     }
+                    shelf(concerts.isEmpty ? nil : "Records & People", all.filter { !$0.story.isConcert })
                 }
                 .padding(.horizontal, Theme.gutter)
                 .padding(.bottom, 32)
             }
             .background(Theme.paper.ignoresSafeArea())
             .navigationDestination(for: Story.self) { StoryView(story: $0) }
+        }
+    }
+
+    private func shelf(_ title: String?, _ stories: [(story: Story, genre: Genre)]) -> some View {
+        VStack(alignment: .leading, spacing: 16) {
+            if let title { SectionHeader(title: title) }
+            ForEach(stories, id: \.story.id) { pair in
+                NavigationLink(value: pair.story) { StoryRow(story: pair.story, genre: pair.genre) }
+                    .buttonStyle(.plain)
+            }
         }
     }
 }
@@ -40,7 +49,7 @@ struct StoryRow: View {
     var body: some View {
         let read = app.progress.data.readStories.contains(story.id)
         HStack(alignment: .top, spacing: 14) {
-            ArtworkView(songID: story.songs.first, size: 76, corner: 4)
+            ArtworkView(songID: app.library.artKey(for: story), size: 76, corner: 4)
             VStack(alignment: .leading, spacing: 4) {
                 Kicker(text: "\(genre.name) · \(String(story.year))", color: Theme.crate(genre.id))
                 Text(story.title).font(Theme.serif(.headline, weight: .bold)).foregroundStyle(Theme.ink)
@@ -67,7 +76,7 @@ struct StoryView: View {
         let songs = story.songs.compactMap { app.library.song($0) }
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
-                ArtworkView(songID: story.songs.first, size: 300, corner: 6)
+                ArtworkView(songID: app.library.artKey(for: story), size: 300, corner: 6)
                     .frame(maxWidth: .infinity)
                     .shadow(color: .black.opacity(0.18), radius: 16, y: 8)
                     .padding(.top, 8)

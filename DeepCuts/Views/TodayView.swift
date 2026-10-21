@@ -41,7 +41,7 @@ struct TodayView: View {
             SectionHeader(title: "Liner Notes", trailing: "\(story.readingMinutes) min read")
             NavigationLink(value: story) {
                 HStack(alignment: .top, spacing: 14) {
-                    ArtworkView(songID: story.songs.first, size: 92, corner: 4)
+                    ArtworkView(songID: app.library.artKey(for: story), size: 92, corner: 4)
                     VStack(alignment: .leading, spacing: 6) {
                         Kicker(text: "\(genre.name) · \(String(story.year))", color: Theme.crate(genre.id))
                         Text(story.title).font(Theme.serif(.title3, weight: .bold)).foregroundStyle(Theme.ink)
@@ -113,11 +113,11 @@ struct MomentRow: View {
                 .foregroundStyle(Theme.accent)
                 .frame(width: 48, alignment: .leading)
             VStack(alignment: .leading, spacing: 3) {
-                Text(moment.kind == .born ? "Born: \(moment.text)" : moment.text)
+                Text(moment.kind == .born ? "Born: \(moment.displayText)" : moment.displayText)
                     .font(.subheadline).foregroundStyle(Theme.ink)
                     .fixedSize(horizontal: false, vertical: true)
                 if let connection = moment.connection {
-                    Label(connection, systemImage: "opticaldisc").font(.caption.weight(.semibold)).foregroundStyle(Theme.inkSoft)
+                    Label("In your crates: \(connection)", systemImage: "opticaldisc").font(.caption.weight(.semibold)).foregroundStyle(Theme.inkSoft)
                 }
             }
             Spacer(minLength: 0)
@@ -146,7 +146,6 @@ struct DailyMixCard: View {
                     Kicker(text: "Today's Mix", color: Theme.onSleeve.opacity(0.7))
                     if let result {
                         Text("\(result.correct) of \(result.total)").font(Theme.display(44)).foregroundStyle(Theme.onSleeve)
-                        Text(verdict(result)).font(.subheadline).foregroundStyle(Theme.onSleeve.opacity(0.8))
                     } else {
                         Text("10 questions").font(Theme.display(32)).foregroundStyle(Theme.onSleeve)
                         Text(crateLine).font(.subheadline).foregroundStyle(Theme.onSleeve.opacity(0.8))
@@ -156,10 +155,10 @@ struct DailyMixCard: View {
                 Spacer(minLength: 8)
                 fan(songs)
             }
-            if streak > 0 {
-                Label(streak == 1 ? "1 day streak" : "\(streak) day streak", systemImage: "flame.fill")
+            if streak > 1 {
+                Text("\(streak) days in a row")
                     .font(.subheadline.weight(.semibold))
-                    .foregroundStyle(Color(hex: 0xF0A35E))
+                    .foregroundStyle(Theme.onSleeve.opacity(0.8))
             }
             if result == nil {
                 Button("Play today's mix") { app.startDaily() }

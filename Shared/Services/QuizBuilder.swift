@@ -30,6 +30,7 @@ struct QuizBuilder {
     static let triviaCount = 10
     static let tuneCount = 6
     static let firstOfCount = 8
+    static let coversCount = 6
 
     // MARK: Rounds
 
@@ -37,20 +38,28 @@ struct QuizBuilder {
         switch mode {
         case .trivia: trivia(genres: genres, count: Self.triviaCount, seen: seen, rng: &rng)
         case .tune: tunes(genres: genres, count: Self.tuneCount, rng: &rng)
+        case .covers: covers(genres: genres, count: Self.coversCount, rng: &rng)
         case .firstOf: firstOf(genres: genres, count: Self.firstOfCount, rng: &rng)
         }
     }
 
-    /// Today's mix: 7 trivia, 2 clips and 1 matchup from the focus crates, the same for everyone with those crates.
-    func daily(day: String, genres: [Genre]) -> [QuizItem] {
+    /// Whether a mode can build a round from these crates.
+    func offers(_ mode: QuizMode, genres: [Genre]) -> Bool {
+        mode != .covers || genres.contains { $0.coverSongs.contains { library.hasPreview($0.id) } }
+    }
+
+    /// Today's mix: 2 clips, 1 cover, 1 matchup and trivia from the focus crates.
+    func daily(day: String, genres: [Genre], seen: Set<String> = []) -> [QuizItem] {
         var rng = SeededRandom(string: "daily-\(day)-\(genres.map(\.id).sorted().joined(separator: ","))")
         let clips = tunes(genres: genres, count: 2, rng: &rng)
         let matchup = firstOf(genres: genres, count: 1, rng: &rng)
-        // Crates without clips or matchups still get a full ten.
-        var items = trivia(genres: genres, count: 10 - clips.count - matchup.count, seen: [], rng: &rng)
+        let cover = covers(genres: genres, count: 1, rng: &rng)
+        // Crates without clips, covers or matchups still get a full ten.
+        var items = trivia(genres: genres, count: 10 - clips.count - matchup.count - cover.count, seen: seen, rng: &rng)
         for (offset, clip) in clips.enumerated() {
             items.insert(clip, at: min(items.count, 2 + offset * 4))
         }
+        items.insert(contentsOf: cover, at: max(0, items.count - 1))
         items.append(contentsOf: matchup)
         return items
     }
@@ -108,6 +117,23 @@ struct QuizBuilder {
                 audioSongID: song.id))
         }
         return items
+    }
+
+    /// Play a famous cover; pick who released the song first.
+    func covers(genres: [Genre], count: Int, rng: inout some RandomNumberGenerator) -> [QuizItem] {
+        let playable = genres.flatMap { genre in
+            genre.coverSongs.filter { library.hasPreview($0.id) && $0.decoys.count >= 3 }.map { (genre, $0) }
+        }.shuffled(using: &rng)
+        return playable.prefix(count).map { genre, cover in
+            let options = ([cover.original] + cover.decoys.prefix(3)).shuffled(using: &rng)
+            return QuizItem(
+                id: "cover-\(cover.id)", mode: .covers, genreID: genre.id,
+                prompt: "\(cover.artist) had a hit with \"\(cover.title)\" in \(cover.year). Who recorded it first?",
+                choices: options.map { Choice(title: $0) },
+                correctIndex: options.firstIndex(of: cover.original) ?? 0,
+                fact: "\(cover.original) released it in \(cover.originalYear). \(cover.note)",
+                audioSongID: cover.id)
+        }
     }
 
     /// Two records from the same crate a few years apart. Pick the one released first.

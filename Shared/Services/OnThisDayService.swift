@@ -12,6 +12,11 @@ struct MusicMoment: Identifiable, Hashable, Sendable {
     let link: URL?
     /// A library artist named in the Wikipedia summary ("Toto" for Steve Lukather).
     var connection: String? = nil
+
+    /// Wikipedia's line without the "(died 2017)" tail.
+    var displayText: String {
+        text.replacingOccurrences(of: #"\s*\(died \d{4}\)"#, with: "", options: .regularExpression)
+    }
 }
 
 enum OnThisDay {

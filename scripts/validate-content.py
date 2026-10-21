@@ -63,8 +63,24 @@ def main() -> int:
             errors.append(f"{gid}: fewer than 4 artists with previews; Name That Tune can't build a round")
         if catalog and len(playable) < len(songs):
             warnings.append(f"{gid}: {len(songs) - len(playable)} songs without a preview")
+        for c in g.get("covers", []):
+            ids[c["id"]] += 1
+            for key in ("title", "artist", "album", "original", "note"):
+                if not c.get(key):
+                    errors.append(f"{c['id']}: missing {key}")
+            if not (1900 <= c.get("originalYear", 0) <= c.get("year", 0) <= 2024):
+                errors.append(f"{c['id']}: originalYear {c.get('originalYear')} must be on or before the cover's {c.get('year')}")
+            options = [c.get("original", "")] + c.get("decoys", [])
+            if len(c.get("decoys", [])) != 3 or len({o.strip().lower() for o in options}) != 4:
+                errors.append(f"{c['id']}: needs 3 decoys distinct from the original")
+            if c.get("artist", "").strip().lower() in {o.strip().lower() for o in options}:
+                errors.append(f"{c['id']}: the cover artist can't be a choice")
+            if catalog and not catalog.get(c["id"], {}).get("previewUrl"):
+                warnings.append(f"{c['id']}: no preview, left out of Who Did It First?")
         for st in stories:
             ids[st["id"]] += 1
+            if st.get("kind") not in (None, "concert"):
+                errors.append(f"{st['id']}: unknown kind {st.get('kind')!r}")
             words = len(st.get("body", "").split())
             if words < 200:
                 errors.append(f"{st['id']}: story is only {words} words")

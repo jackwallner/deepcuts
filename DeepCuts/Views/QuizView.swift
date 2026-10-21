@@ -101,13 +101,13 @@ struct QuizView: View {
             Kicker(text: [genre?.name, item.mode == .trivia ? nil : item.mode.title].compactMap { $0 }.joined(separator: " · "),
                    color: Theme.crate(item.genreID))
             Text(item.prompt)
-                .font(Theme.serif(item.mode == .trivia ? .title2 : .title, weight: .bold))
+                .font(Theme.serif(item.mode == .trivia || item.mode == .covers ? .title2 : .title, weight: .bold))
                 .foregroundStyle(Theme.ink)
                 .fixedSize(horizontal: false, vertical: true)
                 .accessibilityIdentifier("quiz-prompt")
         }
         switch item.mode {
-        case .tune:
+        case .tune, .covers:
             turntable
             choiceList
         case .firstOf:
@@ -142,7 +142,7 @@ struct QuizView: View {
     // MARK: Name That Tune
 
     private var clipFailed: Bool {
-        item.mode == .tune && app.player.songID == item.audioSongID && app.player.state == .failed && picked == nil
+        item.audioSongID != nil && app.player.songID == item.audioSongID && app.player.state == .failed && picked == nil
     }
 
     private var turntable: some View {
@@ -205,21 +205,28 @@ struct QuizView: View {
         let right = choice == item.correctIndex
         let answer = item.choices[item.correctIndex]
         return VStack(alignment: .leading, spacing: 8) {
-            Label(right ? "Right" : "Not quite", systemImage: right ? "checkmark.circle.fill" : "xmark.circle.fill")
+            Label(right ? "Right" : "The answer", systemImage: right ? "checkmark.circle.fill" : "xmark.circle.fill")
                 .font(.headline)
                 .foregroundStyle(right ? Theme.correct : Theme.accent)
-            if !right && item.mode != .firstOf {
-                Text("It's \(answer.title)\(answer.subtitle.map { " by \($0)" } ?? "").")
+            if !right {
+                Text("\(answer.title)\(answer.subtitle.map { ", \($0)" } ?? "")")
                     .font(.body.weight(.semibold)).foregroundStyle(Theme.ink)
             }
             Text(item.fact).font(.body).foregroundStyle(Theme.ink.opacity(0.85))
                 .fixedSize(horizontal: false, vertical: true)
+            if let id = item.audioSongID, let link = app.library.catalog[id]?.trackViewUrl.flatMap(URL.init(string:)) {
+                Link(destination: link) {
+                    Label("Full song in Apple Music", systemImage: "arrow.up.right.square")
+                        .font(.subheadline.weight(.semibold))
+                }
+                .padding(.top, 4)
+            }
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .card()
         .transition(.move(edge: .bottom).combined(with: .opacity))
-        .accessibilityElement(children: .combine)
+        .accessibilityElement(children: .contain)
         .accessibilityIdentifier("quiz-reveal")
     }
 
@@ -346,11 +353,6 @@ struct ResultView: View {
                     Kicker(text: spec.isDaily ? "Today's Mix" : "\(spec.title) · \(spec.mode?.title ?? "")", color: Theme.accent)
                     Text("\(correct) of \(total)").font(Theme.display(64)).foregroundStyle(Theme.ink)
                         .accessibilityIdentifier("result-score")
-                    if spec.isDaily {
-                        let streak = app.progress.streak()
-                        Label(streak == 1 ? "Streak started" : "\(streak) day streak", systemImage: "flame.fill")
-                            .font(.headline).foregroundStyle(Color(hex: 0xD9822B))
-                    }
                 }
                 .padding(.top, 8)
 
@@ -403,7 +405,7 @@ struct ResultView: View {
                 .font(.body)
                 .padding(.top, 2)
             VStack(alignment: .leading, spacing: 3) {
-                Text(item.mode == .trivia ? item.prompt : item.mode.title)
+                Text(item.mode == .trivia || item.mode == .covers ? item.prompt : item.mode.title)
                     .font(.subheadline).foregroundStyle(Theme.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
                 Text(answer.title + (answer.subtitle.map { ", \($0)" } ?? ""))

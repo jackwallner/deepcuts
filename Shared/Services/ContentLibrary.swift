@@ -7,7 +7,7 @@ final class ContentLibrary: Sendable {
     static let order = [
         "classic-rock", "british-invasion", "southern-rock", "heavy-metal", "prog-rock",
         "motown-soul", "folk-singer-songwriter", "yacht-rock", "punk-new-wave", "eighties",
-        "grunge-alt", "pop", "country", "blues", "disco-funk", "hip-hop",
+        "grunge-alt", "pop", "modern-pop", "country", "blues", "disco-funk", "hip-hop",
     ]
 
     let genres: [Genre]
@@ -57,6 +57,11 @@ final class ContentLibrary: Sendable {
     func artworkURL(for songID: String, size: Int = 600) -> URL? {
         guard let raw = catalog[songID]?.artworkUrl else { return nil }
         return URL(string: raw.replacingOccurrences(of: "600x600", with: "\(size)x\(size)"))
+    }
+
+    /// Catalog key for a story's art: its album cover, else its first song's sleeve.
+    func artKey(for story: Story) -> String? {
+        catalog[story.coverKey]?.artworkUrl != nil ? story.coverKey : story.songs.first
     }
 
     func hasPreview(_ songID: String) -> Bool { catalog[songID]?.previewUrl != nil }
