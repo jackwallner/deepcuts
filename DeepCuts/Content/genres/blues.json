@@ -255,12 +255,12 @@
       "id": "blues-q20",
       "prompt": "T-Bone Walker, who wrote \"Call It Stormy Monday,\" helped popularize which instrument in the blues in the 1940s?",
       "choices": [
-        "The electric bass",
-        "The pedal steel",
-        "The electric organ",
-        "The electric guitar"
+        "The electric guitar",
+        "The Hammond organ",
+        "The amplified harmonica",
+        "The pedal steel guitar"
       ],
-      "answer": 3,
+      "answer": 0,
       "fact": "Walker's smooth lead style influenced B.B. King, Chuck Berry and many others.",
       "difficulty": 2
     },
@@ -392,6 +392,58 @@
       ],
       "answer": 1,
       "fact": "Its strong sales to Black listeners showed record companies there was a market, and a wave of blues recordings followed.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q31",
+      "prompt": "Before it became Chess Records in 1950, the Chicago label was called what?",
+      "choices": [
+        "Cobra Records",
+        "United Records",
+        "Aristocrat Records",
+        "Chance Records"
+      ],
+      "answer": 2,
+      "fact": "Muddy Waters made his first Chicago records for Aristocrat, including \"I Can't Be Satisfied\" in 1948.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q32",
+      "prompt": "Elmore James's first hit, \"Dust My Broom\" (1951), was released on which small independent label?",
+      "choices": [
+        "Modern Records",
+        "Excello Records",
+        "Specialty Records",
+        "Trumpet Records"
+      ],
+      "answer": 3,
+      "fact": "Lillian McMurry ran Trumpet from Jackson, Mississippi, and the song reached the R&B chart in 1952.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q33",
+      "prompt": "Magic Sam's debut album West Side Soul came out on which independent Chicago label?",
+      "choices": [
+        "Delmark Records",
+        "Chess Records",
+        "Vee-Jay Records",
+        "Cadet Records"
+      ],
+      "answer": 0,
+      "fact": "Bob Koester's label recorded the album in Chicago in 1967.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q34",
+      "prompt": "Texas guitarist Albert Collins, famed for his Telecaster, was nicknamed what?",
+      "choices": [
+        "The Texas Cannonball",
+        "The Iceman",
+        "The Boss of the Blues",
+        "The Delta Dynamo"
+      ],
+      "answer": 1,
+      "fact": "He was also called the Master of the Telecaster, and instrumentals such as \"Frosty\" fed his cool image.",
       "difficulty": 3
     }
   ],
@@ -560,7 +612,7 @@
       "title": "The Blues Comes Back",
       "dek": "How young British players returned the blues to America",
       "year": 1969,
-      "body": "By the late 1950s the blues was fading from the American pop charts. Rock and roll and soul had taken the place of the guitar-and-harmonica music of Chicago and the Delta. But across the Atlantic, young people in Britain had been listening carefully to imported records by Muddy Waters, Howlin' Wolf and Jimmy Reed.\n\nIn 1958 Muddy Waters toured Britain. Audiences there were used to acoustic folk-blues, and his loud electric guitar surprised them. Some reviewers complained. Others, young musicians in the crowd, were thrilled. Around London, Alexis Korner and Cyril Davies formed a band, Blues Incorporated, that played the Chicago style. Young players such as Mick Jagger, Keith Richards, Brian Jones and Charlie Watts sat in with them.\n\nThe result was a wave of British bands that played the blues in their own way. The Rolling Stones took their name from a Muddy Waters song. The Yardbirds featured a series of guitarists, among them Eric Clapton, Jeff Beck and Jimmy Page. In 1966 Clapton joined John Mayall's Bluesbreakers and recorded a landmark album, with a ringing guitar tone that fans called unforgettable.\n\nThis had a surprising effect in the United States. American listeners who heard the British bands wanted to know where the music came from. Many discovered the Black artists whose songs the British had covered. Older bluesmen found new audiences. Muddy Waters played for rock crowds, and John Lee Hooker and Howlin' Wolf made records with British stars.\n\nOne bluesman who benefited was B.B. King. For years he had played the Black club circuit, known as the chitlin' circuit. In 1969 he released \"The Thrill Is Gone,\" a slow, minor-key blues with a string arrangement that became his biggest hit. That year the Rolling Stones invited him to open for them on their American tour, which put him in front of huge rock audiences.\n\nKing kept touring for decades, and he often credited the British players with bringing new listeners to the blues. By the 1980s young Americans such as Stevie Ray Vaughan were carrying it forward, and the music continues in the work of artists who follow them.",
+      "body": "By the late 1950s the blues was fading from the American pop charts. Rock and roll and soul had taken the place of the guitar-and-harmonica music of Chicago and the Delta. But across the Atlantic, young people in Britain had been listening carefully to imported records by Muddy Waters, Howlin' Wolf and Jimmy Reed.\n\nIn 1958 Muddy Waters toured Britain. Audiences there were used to acoustic folk-blues, and his loud electric guitar surprised them. Some reviewers complained. Others, young musicians in the crowd, were thrilled. Around London, Alexis Korner and Cyril Davies formed a band, Blues Incorporated, that played the Chicago style. Young players such as Mick Jagger, Keith Richards, Brian Jones and Charlie Watts sat in with them.\n\nThe result was a wave of British bands that played the blues in their own way. The Rolling Stones took their name from a Muddy Waters song. The Yardbirds featured a series of guitarists, among them Eric Clapton, Jeff Beck and Jimmy Page. Clapton joined John Mayall's Bluesbreakers in 1965, left for a spell and returned the same year, and in 1966 he recorded a landmark album with the band, with a ringing guitar tone that fans called unforgettable.\n\nThis had a surprising effect in the United States. American listeners who heard the British bands wanted to know where the music came from. Many discovered the Black artists whose songs the British had covered. Older bluesmen found new audiences. Muddy Waters played for rock crowds, and John Lee Hooker and Howlin' Wolf made records with British stars.\n\nOne bluesman who benefited was B.B. King. For years he had played the Black club circuit, known as the chitlin' circuit. In 1969 he released \"The Thrill Is Gone,\" a slow, minor-key blues with a string arrangement that became his biggest hit. That year the Rolling Stones invited him to open for them on their American tour, which put him in front of huge rock audiences.\n\nKing kept touring for decades, and he often credited the British players with bringing new listeners to the blues. By the 1980s young Americans such as Stevie Ray Vaughan were carrying it forward, and the music continues in the work of artists who follow them.",
       "songs": [
         "blues-s13"
       ],
@@ -720,6 +772,21 @@
         "Roy Brown"
       ],
       "note": "Floyd Dixon is generally credited with the first recording. The Blues Brothers' live version came from their 1978 shows opening for Steve Martin."
+    },
+    {
+      "id": "blues-c09",
+      "title": "Texas Flood",
+      "artist": "Stevie Ray Vaughan & Double Trouble",
+      "year": 1983,
+      "album": "Texas Flood",
+      "original": "Larry Davis",
+      "originalYear": 1958,
+      "decoys": [
+        "Albert Collins",
+        "T-Bone Walker",
+        "Freddie King"
+      ],
+      "note": "Larry Davis recorded it for Duke Records in Houston in 1958, with Fenton Robinson on guitar. Vaughan made it the title track of his 1983 debut album."
     }
   ]
 }
