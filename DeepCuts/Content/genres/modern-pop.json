@@ -1,8 +1,8 @@
 {
   "id": "modern-pop",
   "name": "Modern Pop",
-  "blurb": "From Mariah to Billie: the hit makers and happy accidents of modern pop.",
-  "era": "1990-2019",
+  "blurb": "From Mariah to Olivia: the hit makers and happy accidents of modern pop.",
+  "era": "1990-2024",
   "questions": [
     {
       "id": "modern-pop-q01",
@@ -149,16 +149,16 @@
     },
     {
       "id": "modern-pop-q12",
-      "prompt": "Which producer co-wrote \"Rolling in the Deep\" with Adele?",
+      "prompt": "Why did Taylor Swift start re-recording her early albums as \"Taylor's Version\"?",
       "choices": [
-        "Paul Epworth",
-        "Mark Ronson",
-        "Max Martin",
-        "Greg Kurstin"
+        "To regain control of her master recordings",
+        "To fix poor audio on the originals",
+        "To make the albums longer with new songs",
+        "To settle a dispute with her first band"
       ],
       "answer": 0,
-      "fact": "Epworth has said the song began the day after Adele arrived at the studio angry about a breakup.",
-      "difficulty": 2
+      "fact": "Her first six albums' masters were sold when her old label was bought in 2019, and Fearless (Taylor's Version) came out in April 2021.",
+      "difficulty": 1
     },
     {
       "id": "modern-pop-q13",
@@ -188,15 +188,15 @@
     },
     {
       "id": "modern-pop-q15",
-      "prompt": "Mariah Carey co-wrote \"All I Want for Christmas Is You\" with which songwriter and producer?",
+      "prompt": "In what year did Mariah Carey's \"All I Want for Christmas Is You\" first reach number one on the US Hot 100?",
       "choices": [
-        "Ben Margulies",
-        "Jermaine Dupri",
-        "David Foster",
-        "Walter Afanasieff"
+        "1994",
+        "2005",
+        "2012",
+        "2019"
       ],
       "answer": 3,
-      "fact": "The two have said they wrote it quickly, in a session that reportedly lasted only minutes, and they built it on the sound of 1960s girl-group Christmas records.",
+      "fact": "She released it in 1994 on Merry Christmas, and it first topped the chart 25 years later, in December 2019.",
       "difficulty": 2
     },
     {
@@ -266,16 +266,16 @@
     },
     {
       "id": "modern-pop-q21",
-      "prompt": "\"Genie in a Bottle\" co-writer Steve Kipner also co-wrote which Olivia Newton-John hit?",
+      "prompt": "At the 2003 MTV Video Music Awards, Madonna kissed which two pop stars on stage?",
       "choices": [
-        "Xanadu",
-        "Physical",
-        "Hopelessly Devoted to You",
-        "Magic"
+        "Britney Spears and Christina Aguilera",
+        "Jessica Simpson and Mandy Moore",
+        "Pink and Avril Lavigne",
+        "Beyonce and Kelly Rowland"
       ],
-      "answer": 1,
-      "fact": "Aguilera, a former Mickey Mouse Club cast member, was 18 when the song launched her solo career in 1999.",
-      "difficulty": 3
+      "answer": 0,
+      "fact": "They opened the show with a mash-up of \"Like a Virgin\" and \"Hollywood\", with Madonna in a tuxedo and the other two in wedding dresses.",
+      "difficulty": 2
     },
     {
       "id": "modern-pop-q22",
@@ -292,42 +292,42 @@
     },
     {
       "id": "modern-pop-q23",
-      "prompt": "Before he became a pop hitmaker, Max Martin sang in what kind of band?",
+      "prompt": "Which 2012 K-pop hit by Psy became the first YouTube video to reach one billion views?",
       "choices": [
-        "A church gospel choir",
-        "A folk duo",
-        "A punk trio",
-        "A Swedish hard-rock band"
+        "Call Me Maybe",
+        "Gentleman",
+        "Harlem Shake",
+        "Gangnam Style"
       ],
       "answer": 3,
-      "fact": "The band was called It's Alive, and Martin, born Karl Martin Sandberg, joined Denniz PoP's Cheiron Studios in the early 1990s.",
-      "difficulty": 3
+      "fact": "The video passed one billion views in December 2012, and the horse-riding dance spread around the world.",
+      "difficulty": 1
     },
     {
       "id": "modern-pop-q24",
-      "prompt": "Mariah Carey's demo tape reportedly reached Columbia Records chief Tommy Mottola at a party through which singer?",
+      "prompt": "In December 2013, Beyonce stunned fans by doing what with her self-titled album?",
       "choices": [
-        "Brenda K. Starr",
-        "Gloria Estefan",
-        "Paula Abdul",
-        "Lisa Stansfield"
+        "Releasing it overnight with no warning",
+        "Handing it out free at her concerts",
+        "Releasing it only on vinyl for a year",
+        "Premiering it live during the Grammys"
       ],
       "answer": 0,
-      "fact": "Carey co-wrote \"Vision of Love\" with Ben Margulies, and Columbia signed her in 1988.",
-      "difficulty": 3
+      "fact": "It arrived on iTunes at midnight in mid-December 2013 as a \"visual album\" with a video for every song.",
+      "difficulty": 2
     },
     {
       "id": "modern-pop-q25",
-      "prompt": "Auto-Tune's inventor, Andy Hildebrand, previously worked with what kind of data?",
+      "prompt": "What news did Rihanna share during her 2023 Super Bowl halftime show?",
       "choices": [
-        "Weather satellite imagery",
-        "Submarine sonar",
-        "Seismic data for oil exploration",
-        "Radio astronomy signals"
+        "She was retiring from touring",
+        "She was expecting her second child",
+        "She had signed with a new label",
+        "She was launching a fashion line"
       ],
-      "answer": 2,
-      "fact": "He applied the same signal-processing math to pitch detection, and Auto-Tune came out in 1997.",
-      "difficulty": 3
+      "answer": 1,
+      "fact": "She performed hits such as \"Umbrella\" and \"Diamonds\", and her representative confirmed the pregnancy after the show.",
+      "difficulty": 2
     },
     {
       "id": "modern-pop-q26",
@@ -370,16 +370,16 @@
     },
     {
       "id": "modern-pop-q29",
-      "prompt": "The one-take, black-and-white \"Single Ladies\" video drew on a routine called \"Mexican Breakfast\" by which choreographer?",
+      "prompt": "Which pop star's 2015 Super Bowl halftime show turned a dancing shark into a viral meme?",
       "choices": [
-        "Jerome Robbins",
-        "Bob Fosse",
-        "Busby Berkeley",
-        "Martha Graham"
+        "Lady Gaga",
+        "Katy Perry",
+        "Rihanna",
+        "Taylor Swift"
       ],
       "answer": 1,
-      "fact": "Beyonce has credited Fosse's style as an inspiration, and choreographers JaQuel Knight and Frank Gatson helped shape the routine.",
-      "difficulty": 3
+      "fact": "The dancer dubbed \"Left Shark\" became an internet sensation after the show at Super Bowl XLIX in Glendale, Arizona.",
+      "difficulty": 1
     },
     {
       "id": "modern-pop-q30",
@@ -392,7 +392,215 @@
       ],
       "answer": 2,
       "fact": "Madonna recruited dancers from that scene for the video and her Blond Ambition tour.",
-      "difficulty": 3
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q31",
+      "prompt": "Taylor Swift began her recording career in which genre?",
+      "choices": [
+        "Pop punk",
+        "Folk",
+        "Country",
+        "R&B"
+      ],
+      "answer": 2,
+      "fact": "Her self-titled debut came out in 2006, and she moved fully into pop with 1989 in 2014.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q32",
+      "prompt": "Beyonce first became famous as a member of which group?",
+      "choices": [
+        "En Vogue",
+        "TLC",
+        "Danity Kane",
+        "Destiny's Child"
+      ],
+      "answer": 3,
+      "fact": "The Houston group, with Kelly Rowland and Michelle Williams among its members, had hits such as \"Say My Name\" and \"Survivor\".",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q33",
+      "prompt": "Which 2020 Dua Lipa album includes \"Don't Start Now\" and \"Levitating\"?",
+      "choices": [
+        "Future Nostalgia",
+        "Radical Optimism",
+        "Dua Lipa",
+        "Disco Revival"
+      ],
+      "answer": 0,
+      "fact": "It came out in March 2020, as lockdowns began, and leans on disco and dance-pop.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q34",
+      "prompt": "Bruno Mars teamed up with Anderson .Paak in 2021 to form which duo?",
+      "choices": [
+        "Velvet Groove",
+        "Silk Sonic",
+        "Satin Soul",
+        "Golden Hour"
+      ],
+      "answer": 1,
+      "fact": "Their single \"Leave the Door Open\" won Record of the Year and Song of the Year at the 2022 Grammys.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q35",
+      "prompt": "Which 2004 Usher hit features Lil Jon and Ludacris?",
+      "choices": [
+        "Burn",
+        "My Boo",
+        "Yeah!",
+        "Caught Up"
+      ],
+      "answer": 2,
+      "fact": "It was the lead single from Confessions and spent 12 weeks at number one in the US.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q36",
+      "prompt": "Which 2009 Black Eyed Peas hit became a party anthem for weddings and graduations?",
+      "choices": [
+        "Where Is the Love?",
+        "Boom Boom Pow",
+        "Meet Me Halfway",
+        "I Gotta Feeling"
+      ],
+      "answer": 3,
+      "fact": "It came from the album The E.N.D. and spent 14 weeks at number one in the US.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q37",
+      "prompt": "Ariana Grande's \"7 rings\" borrows its melody from a song in which musical?",
+      "choices": [
+        "The Sound of Music",
+        "Mary Poppins",
+        "Oliver!",
+        "The Wizard of Oz"
+      ],
+      "answer": 0,
+      "fact": "The tune is \"My Favorite Things\" by Rodgers and Hammerstein, and the song went to number one in 2019.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q38",
+      "prompt": "Justin Timberlake rose to fame in which boy band before going solo?",
+      "choices": [
+        "Backstreet Boys",
+        "*NSYNC",
+        "98 Degrees",
+        "O-Town"
+      ],
+      "answer": 1,
+      "fact": "He launched his solo career with the 2002 album Justified.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q39",
+      "prompt": "Lady Gaga won an Oscar for \"Shallow\", a song she sang with Bradley Cooper in which film?",
+      "choices": [
+        "La La Land",
+        "The Greatest Showman",
+        "A Star Is Born",
+        "Bohemian Rhapsody"
+      ],
+      "answer": 2,
+      "fact": "The song won the Academy Award for Best Original Song in 2019 and also won Grammys.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q40",
+      "prompt": "Which island nation is Rihanna from?",
+      "choices": [
+        "Jamaica",
+        "Trinidad and Tobago",
+        "The Bahamas",
+        "Barbados"
+      ],
+      "answer": 3,
+      "fact": "Her first single, \"Pon de Replay\", came out in 2005, and Barbados named her a National Hero in 2021.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q41",
+      "prompt": "Which Adele single, from the 2015 album 25, opens with \"Hello, it's me\"?",
+      "choices": [
+        "Hello",
+        "Easy on Me",
+        "Skyfall",
+        "When We Were Young"
+      ],
+      "answer": 0,
+      "fact": "It was the lead single from 25, which came out in November 2015.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q42",
+      "prompt": "Which Ed Sheeran album, named for a math symbol, includes \"Shape of You\" and \"Perfect\"?",
+      "choices": [
+        "x (Multiply)",
+        "÷ (Divide)",
+        "+ (Plus)",
+        "= (Equals)"
+      ],
+      "answer": 1,
+      "fact": "Sheeran titles his albums with math symbols, starting with + in 2011.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q43",
+      "prompt": "Billie Eilish sang the title song for which James Bond film?",
+      "choices": [
+        "Skyfall",
+        "Spectre",
+        "No Time to Die",
+        "Quantum of Solace"
+      ],
+      "answer": 2,
+      "fact": "She and her brother Finneas won the Oscar for Best Original Song for it in 2022.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q44",
+      "prompt": "Which singer, born Abel Tesfaye in Toronto, released \"Blinding Lights\"?",
+      "choices": [
+        "Drake",
+        "Post Malone",
+        "Frank Ocean",
+        "The Weeknd"
+      ],
+      "answer": 3,
+      "fact": "The song came from the 2020 album After Hours and reached number one in the US.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q45",
+      "prompt": "Harry Styles first became famous as a member of which group?",
+      "choices": [
+        "One Direction",
+        "The Wanted",
+        "JLS",
+        "Union J"
+      ],
+      "answer": 0,
+      "fact": "The band formed on the UK's The X Factor in 2010, and Styles later released \"As It Was\" on his 2022 album Harry's House.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q46",
+      "prompt": "Before \"drivers license\", Olivia Rodrigo starred in a Disney+ series based on which movie franchise?",
+      "choices": [
+        "Camp Rock",
+        "High School Musical",
+        "Descendants",
+        "Teen Beach Movie"
+      ],
+      "answer": 1,
+      "fact": "The series is High School Musical: The Musical: The Series, where she played Nini, and \"drivers license\" reached number one in January 2021, when she was 17.",
+      "difficulty": 2
     }
   ],
   "songs": [
@@ -523,6 +731,70 @@
       "year": 2019,
       "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
       "note": "Eilish and her brother Finneas made it in his bedroom studio, on an album that swept the major 2020 Grammys."
+    },
+    {
+      "id": "modern-pop-s17",
+      "title": "Don't Start Now",
+      "artist": "Dua Lipa",
+      "year": 2019,
+      "album": "Future Nostalgia",
+      "note": "Dua Lipa wrote it with Caroline Ailin, Ian Kirkpatrick and Emily Warren, and it led off her second album."
+    },
+    {
+      "id": "modern-pop-s18",
+      "title": "Yeah!",
+      "artist": "Usher featuring Lil Jon and Ludacris",
+      "year": 2004,
+      "album": "Confessions",
+      "note": "Lil Jon produced the crunk-flavored track, which was the lead single from Confessions."
+    },
+    {
+      "id": "modern-pop-s19",
+      "title": "I Gotta Feeling",
+      "artist": "Black Eyed Peas",
+      "year": 2009,
+      "album": "The E.N.D.",
+      "note": "David Guetta co-produced it, and it followed \"Boom Boom Pow\" to number one."
+    },
+    {
+      "id": "modern-pop-s20",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "year": 2019,
+      "album": "After Hours",
+      "note": "Max Martin co-produced it, and its synths nod to 1980s pop."
+    },
+    {
+      "id": "modern-pop-s21",
+      "title": "drivers license",
+      "artist": "Olivia Rodrigo",
+      "year": 2021,
+      "album": "SOUR",
+      "note": "Rodrigo wrote it with producer Dan Nigro, and it was her debut single."
+    },
+    {
+      "id": "modern-pop-s22",
+      "title": "As It Was",
+      "artist": "Harry Styles",
+      "year": 2022,
+      "album": "Harry's House",
+      "note": "Styles co-wrote it with Tyler Johnson and Kid Harpoon, and it debuted at number one in the US."
+    },
+    {
+      "id": "modern-pop-s23",
+      "title": "SexyBack",
+      "artist": "Justin Timberlake featuring Timbaland",
+      "year": 2006,
+      "album": "FutureSex/LoveSounds",
+      "note": "Timbaland produced it, and it was the lead single from Timberlake's second album."
+    },
+    {
+      "id": "modern-pop-s24",
+      "title": "7 rings",
+      "artist": "Ariana Grande",
+      "year": 2019,
+      "album": "thank u, next",
+      "note": "It followed the title track to number one in the US."
     }
   ],
   "stories": [
