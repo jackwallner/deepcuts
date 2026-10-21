@@ -287,7 +287,7 @@
         "The Dixie Cat"
       ],
       "answer": 1,
-      "fact": "It was shut down in 1973 after a Houston TV reporter exposed it, and it later inspired The Best Little Whorehouse in Texas.",
+      "fact": "Fans and critics have long noted the resemblance to Hooker's boogie groove.",
       "difficulty": 3
     },
     {
@@ -392,6 +392,266 @@
       ],
       "answer": 1,
       "fact": "Daniels played on Dylan's Nashville Skyline, Self Portrait and New Morning, and on Leonard Cohen's Songs from a Room, all around 1969 and 1970.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q31",
+      "prompt": "Which member of ZZ Top is the only one of the three without a long beard?",
+      "choices": [
+        "Frank Beard",
+        "Billy Gibbons",
+        "Dusty Hill",
+        "Joe Hill"
+      ],
+      "answer": 0,
+      "fact": "The drummer's surname is the running joke: Billy Gibbons and bassist Dusty Hill are the two with the famous long beards.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q32",
+      "prompt": "The Allman Brothers lived communally in a large house in which Georgia city, now a museum?",
+      "choices": [
+        "Atlanta",
+        "Savannah",
+        "Macon",
+        "Athens"
+      ],
+      "answer": 2,
+      "fact": "Known as the Big House, it was a gathering place for the band, its families and friends in the early 1970s.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q33",
+      "prompt": "Lynyrd Skynyrd's lineup in the 1970s was famous for how many guitarists?",
+      "choices": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "answer": 1,
+      "fact": "Gary Rossington, Allen Collins and Ed King, and later Steve Gaines in King's place, gave the band its layered guitar sound.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q34",
+      "prompt": "The 1983 ZZ Top album Eliminator is built around what kind of car?",
+      "choices": [
+        "A black 1969 Camaro",
+        "A yellow 1957 Chevy",
+        "A red 1933 Ford hot rod",
+        "A white 1964 Mustang"
+      ],
+      "answer": 2,
+      "fact": "The custom coupe starred on the cover and in the band's videos, and it was built for Billy Gibbons.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q35",
+      "prompt": "Dickey Betts wrote the Allman Brothers instrumental \"Jessica\" for whom?",
+      "choices": [
+        "His mother",
+        "His wife",
+        "His horse",
+        "His young daughter"
+      ],
+      "answer": 3,
+      "fact": "The sunny melody is often described as capturing the energy of a small child at play.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q36",
+      "prompt": "The title of Lynyrd Skynyrd's 1973 debut album is what?",
+      "choices": [
+        "A pronunciation guide to the band's name",
+        "A tribute to their high school coach",
+        "A line from a Bobby Womack song",
+        "The street where they rehearsed"
+      ],
+      "answer": 0,
+      "fact": "The title spelled out how to say the band's name, which fans and DJs often got wrong.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q37",
+      "prompt": "Which Nashville event did Charlie Daniels host each year, bringing all-star friends on stage?",
+      "choices": [
+        "The Southern Jubilee",
+        "The Volunteer Jam",
+        "The Music City Stomp",
+        "The Dixie Roundup"
+      ],
+      "answer": 1,
+      "fact": "Started in the 1970s, the Volunteer Jam brought rock, country and bluegrass players into one long show.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q38",
+      "prompt": "Molly Hatchet's album covers were painted by which fantasy artist?",
+      "choices": [
+        "Boris Vallejo",
+        "Roger Dean",
+        "Frank Frazetta",
+        "H. R. Giger"
+      ],
+      "answer": 2,
+      "fact": "Frazetta's muscular sword-and-sorcery paintings suited the band's hard-charging, heavy sound.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q39",
+      "prompt": "\"Gimme Three Steps\" was reportedly inspired by a night when Allen Collins asked a woman to do what?",
+      "choices": [
+        "Sing",
+        "Marry him",
+        "Leave the bar",
+        "Dance"
+      ],
+      "answer": 3,
+      "fact": "Her boyfriend reportedly showed up with a gun, and Collins is said to have talked his way out of trouble.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q40",
+      "prompt": "Duane Allman reportedly urged which soul singer to record \"Hey Jude\" in 1968?",
+      "choices": [
+        "Wilson Pickett",
+        "Otis Redding",
+        "Percy Sledge",
+        "Joe Tex"
+      ],
+      "answer": 0,
+      "fact": "Duane played guitar on the Muscle Shoals session, an early showcase of his playing before the Allman Brothers.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q41",
+      "prompt": "Duane Allman added slide guitar to which Eric Clapton-led album?",
+      "choices": [
+        "461 Ocean Boulevard",
+        "Layla and Other Assorted Love Songs",
+        "Slowhand",
+        "Unplugged"
+      ],
+      "answer": 1,
+      "fact": "The two guitarists struck up a friendship in Miami in 1970, and Allman's slide is all over the record.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q42",
+      "prompt": "ZZ Top's \"La Grange\" shares a groove with which bluesman's \"Boogie Chillen\"?",
+      "choices": [
+        "Howlin' Wolf",
+        "Muddy Waters",
+        "John Lee Hooker",
+        "B. B. King"
+      ],
+      "answer": 2,
+      "fact": "Fans and critics have long noted the resemblance to Hooker's boogie groove.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q43",
+      "prompt": "Billy Gibbons's prized 1959 Les Paul guitar is known by what nickname?",
+      "choices": [
+        "Lucille",
+        "Blackie",
+        "Old Faithful",
+        "Pearly Gates"
+      ],
+      "answer": 3,
+      "fact": "Gibbons has long called it his favorite instrument, and its thick tone anchors many ZZ Top records.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q44",
+      "prompt": "Which Atlantic Records engineer-producer worked on the Allman Brothers' At Fillmore East and on Clapton's Layla?",
+      "choices": [
+        "Tom Dowd",
+        "Jerry Wexler",
+        "Ahmet Ertegun",
+        "Rick Hall"
+      ],
+      "answer": 0,
+      "fact": "Dowd had also engineered sessions for Ray Charles and Aretha Franklin at Atlantic.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q45",
+      "prompt": "Gregg Allman co-wrote \"Midnight Rider\" with a member of the band's road crew. What was his name?",
+      "choices": [
+        "Twiggs Lyndon",
+        "Robert Payne",
+        "Red Dog",
+        "Joe Dan Petty"
+      ],
+      "answer": 1,
+      "fact": "Payne is credited as co-writer on the song, which Gregg built from his own acoustic playing.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q46",
+      "prompt": "Before the Allman Brothers, Duane and Gregg's band Hour Glass made two albums for which label?",
+      "choices": [
+        "Capricorn Records",
+        "Atlantic Records",
+        "Liberty Records",
+        "Stax Records"
+      ],
+      "answer": 2,
+      "fact": "Hour Glass reportedly struggled with a label that wanted pop songs, and the brothers later found their own sound.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q47",
+      "prompt": "Which pianist joined the Allman Brothers in 1972 and later became a Rolling Stones touring keyboardist?",
+      "choices": [
+        "Jimmy Nalls",
+        "Dan Toler",
+        "Johnny Neel",
+        "Chuck Leavell"
+      ],
+      "answer": 3,
+      "fact": "Leavell's piano is a key part of Brothers and Sisters, and his Stones role began in the 1980s.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q48",
+      "prompt": "Molly Hatchet's name comes from a folk legend about what?",
+      "choices": [
+        "A woman who killed men with a hatchet",
+        "A Georgia sea monster",
+        "A gold-rush ghost town",
+        "A Civil War field cannon"
+      ],
+      "answer": 0,
+      "fact": "The band, formed in Jacksonville, Florida, took the grisly legend as a badge.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q49",
+      "prompt": "Dickey Betts wrote \"Blue Sky\" about whom?",
+      "choices": [
+        "His favorite guitar",
+        "His then-wife, nicknamed Bluesky",
+        "A small-town radio station",
+        "His childhood home"
+      ],
+      "answer": 1,
+      "fact": "Betts has said the song honored Sandy Bluesky Wabegijig, and its twin-guitar harmony became a fan favorite.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q50",
+      "prompt": "Gregg Allman has said he wrote \"Whipping Post\" late one night using what as a makeshift desk?",
+      "choices": [
+        "A car hood",
+        "A pool table",
+        "An ironing board",
+        "A piano lid"
+      ],
+      "answer": 2,
+      "fact": "The story is that he scribbled the lyrics at a desperate hour, and the song grew into a Fillmore East showpiece.",
       "difficulty": 3
     }
   ],

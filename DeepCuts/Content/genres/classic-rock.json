@@ -393,6 +393,266 @@
       "answer": 1,
       "fact": "The two had been schoolmates, and their shared taste for American blues gave them a reason to start a band.",
       "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q31",
+      "prompt": "The cover of Pink Floyd's The Dark Side of the Moon shows a beam of light passing through what?",
+      "choices": [
+        "A glass prism",
+        "A telescope lens",
+        "A crystal ball",
+        "A window pane"
+      ],
+      "answer": 0,
+      "fact": "The sleeve was designed by Storm Thorgerson and Hipgnosis, and the prism and spectrum image became one of rock's best-known covers.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q32",
+      "prompt": "Which Who drummer was known for smashing his kit on stage and died in September 1978?",
+      "choices": [
+        "John Entwistle",
+        "Kenney Jones",
+        "Keith Moon",
+        "Mitch Mitchell"
+      ],
+      "answer": 2,
+      "fact": "Moon died at 32, and Kenney Jones took over the drum seat.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q33",
+      "prompt": "The Who's rock opera Tommy centers on a boy who becomes a champion at what?",
+      "choices": [
+        "Billiards",
+        "Pinball",
+        "Chess",
+        "Bowling"
+      ],
+      "answer": 1,
+      "fact": "Released in 1969, Tommy produced \"Pinball Wizard\" and was later made into a 1975 film.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q34",
+      "prompt": "Which Eagle sang lead on \"Hotel California\"?",
+      "choices": [
+        "Glenn Frey",
+        "Joe Walsh",
+        "Don Henley",
+        "Timothy B. Schmit"
+      ],
+      "answer": 2,
+      "fact": "Henley wrote it with Don Felder and Glenn Frey, and sang it on the 1976 album.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q35",
+      "prompt": "The first pressings of the Rolling Stones' Sticky Fingers came with what working feature on the sleeve?",
+      "choices": [
+        "A pop-up tongue",
+        "A pull-out poster",
+        "A peel-off sticker",
+        "A zipper"
+      ],
+      "answer": 3,
+      "fact": "The 1971 cover concept is credited to Andy Warhol and showed a jeans zipper that really opened.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q36",
+      "prompt": "Steppenwolf's \"Born to Be Wild\" was part of the soundtrack of which 1969 road movie?",
+      "choices": [
+        "Easy Rider",
+        "Two-Lane Blacktop",
+        "Vanishing Point",
+        "Bonnie and Clyde"
+      ],
+      "answer": 0,
+      "fact": "Songwriter Mars Bonfire, brother of the band's drummer, wrote it, and its line about heavy metal thunder is often cited as an early use of the term.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q37",
+      "prompt": "\"Eye of the Tiger\" was written for which 1982 movie?",
+      "choices": [
+        "Rambo: First Blood",
+        "Rocky III",
+        "Over the Top",
+        "Fast Times at Ridgemont High"
+      ],
+      "answer": 1,
+      "fact": "Sylvester Stallone reportedly wanted a different song first, then asked Survivor to write one for the film.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q38",
+      "prompt": "Which songwriter wrote \"All Along the Watchtower\", which Jimi Hendrix turned into a classic in 1968?",
+      "choices": [
+        "Neil Young",
+        "Van Morrison",
+        "Bob Dylan",
+        "Leonard Cohen"
+      ],
+      "answer": 2,
+      "fact": "Dylan released it on John Wesley Harding in late 1967, and he has since played it in an arrangement close to Hendrix's.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q39",
+      "prompt": "Much of Led Zeppelin IV was recorded in an English country house using which band's mobile studio?",
+      "choices": [
+        "The Who",
+        "The Kinks",
+        "The Moody Blues",
+        "The Rolling Stones"
+      ],
+      "answer": 3,
+      "fact": "Sessions at Headley Grange, a former workhouse in Hampshire, used the Stones' mobile unit, which reportedly helped give the drums a huge room sound.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q40",
+      "prompt": "Joe Walsh joined the Eagles in 1975 to replace which founding member?",
+      "choices": [
+        "Bernie Leadon",
+        "Randy Meisner",
+        "Don Felder",
+        "Glenn Frey"
+      ],
+      "answer": 0,
+      "fact": "Leadon left after One of These Nights, and Walsh brought a harder guitar edge to Hotel California.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q41",
+      "prompt": "Fleetwood Mac began in 1967 as a British blues band led by which guitarist?",
+      "choices": [
+        "Danny Kirwan",
+        "Peter Green",
+        "Bob Welch",
+        "Jeremy Spencer"
+      ],
+      "answer": 1,
+      "fact": "Green named the group for the rhythm section of Mick Fleetwood and John McVie, and left in 1970.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q42",
+      "prompt": "Which pop star reportedly urged Queen to release \"Another One Bites the Dust\" as a single?",
+      "choices": [
+        "Prince",
+        "Stevie Wonder",
+        "Michael Jackson",
+        "Elton John"
+      ],
+      "answer": 2,
+      "fact": "The story goes that he saw the band in Los Angeles in 1980 and pushed for it, and John Deacon had written the bass riff.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q43",
+      "prompt": "Pink Floyd's Wish You Were Here (1975) is widely seen as a tribute to which former bandmate?",
+      "choices": [
+        "Roger Waters",
+        "Rick Wright",
+        "Bob Klose",
+        "Syd Barrett"
+      ],
+      "answer": 3,
+      "fact": "Barrett reportedly turned up at the Abbey Road sessions looking so changed that the band barely recognized him.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q44",
+      "prompt": "Cream's farewell concerts in November 1968 were played at which London hall?",
+      "choices": [
+        "The Royal Albert Hall",
+        "The Marquee Club",
+        "Wembley Arena",
+        "The Roundhouse"
+      ],
+      "answer": 0,
+      "fact": "The shows were filmed, and Ginger Baker, Jack Bruce and Eric Clapton went their separate ways soon after.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q45",
+      "prompt": "In 1979, Tom Petty took what unusual legal step in a fight over his record contract?",
+      "choices": [
+        "He sued his manager",
+        "He filed for bankruptcy",
+        "He changed the band's name",
+        "He signed with a rival label"
+      ],
+      "answer": 1,
+      "fact": "A label sale had moved his contract to a new company, and the standoff came right before Damn the Torpedoes.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q46",
+      "prompt": "\"Baba O'Riley\" was meant for an unfinished Pete Townshend project called what?",
+      "choices": [
+        "Quadrophenia",
+        "Rael",
+        "Lifehouse",
+        "Tommy 2"
+      ],
+      "answer": 2,
+      "fact": "Lifehouse was a sci-fi rock opera idea that was never completed, but several of its songs ended up on Who's Next.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q47",
+      "prompt": "Brian May built his Red Special guitar with his father, using wood from what?",
+      "choices": [
+        "A church pew",
+        "A barn door",
+        "A piano frame",
+        "An old fireplace"
+      ],
+      "answer": 3,
+      "fact": "The neck is reportedly made from a fireplace mantel, and the pair began work on it in the early 1960s.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q48",
+      "prompt": "Joe Walsh's \"Rocky Mountain Way\" features a guitar effect that shapes the sound with the player's mouth. What is it?",
+      "choices": [
+        "A talk box",
+        "A wah pedal",
+        "A Leslie speaker",
+        "A fuzz box"
+      ],
+      "answer": 0,
+      "fact": "Walsh used a talk box on the 1973 track, and the effect later became a signature of Peter Frampton's records too.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q49",
+      "prompt": "Jim Morrison and Ray Manzarek first met as students in which university's film program?",
+      "choices": [
+        "USC",
+        "UCLA",
+        "NYU",
+        "Berkeley"
+      ],
+      "answer": 1,
+      "fact": "Manzarek has said he heard Morrison sing a few lines on a beach in Venice, which led to forming the Doors.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q50",
+      "prompt": "Boston founder Tom Scholz worked as a product designer for which company while building the first demos?",
+      "choices": [
+        "Kodak",
+        "Xerox",
+        "Polaroid",
+        "Bell Labs"
+      ],
+      "answer": 2,
+      "fact": "The MIT-trained Scholz recorded the early tracks in his basement, and much of the debut grew out of those demos.",
+      "difficulty": 3
     }
   ],
   "songs": [
