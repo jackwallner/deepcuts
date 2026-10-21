@@ -253,15 +253,15 @@
     },
     {
       "id": "eighties-q20",
-      "prompt": "Johnny Marr has said he turned up at the door of which singer in 1982 to suggest writing songs together?",
+      "prompt": "Which Police song did Puff Daddy sample for his 1997 tribute \"I'll Be Missing You\"?",
       "choices": [
-        "Ian Curtis",
-        "Robert Smith",
-        "Billy Bragg",
-        "Morrissey"
+        "Every Breath You Take",
+        "Roxanne",
+        "Message in a Bottle",
+        "Don't Stand So Close to Me"
       ],
-      "answer": 3,
-      "fact": "The two went on to form the Smiths in Manchester.",
+      "answer": 0,
+      "fact": "Puff Daddy, Faith Evans and 112 recorded it for the Notorious B.I.G., and Sting is credited as a writer.",
       "difficulty": 2
     },
     {
@@ -279,16 +279,16 @@
     },
     {
       "id": "eighties-q22",
-      "prompt": "Who wrote \"Don't You (Forget About Me)\", the song Simple Minds recorded for The Breakfast Club?",
+      "prompt": "Starting with \"Saving All My Love for You\" in 1985, Whitney Houston scored how many consecutive US number ones?",
       "choices": [
-        "Jim Kerr and Charlie Burchill",
-        "Keith Forsey and Steve Schiff",
-        "John Hughes and Howard Deutch",
-        "Pete Townshend and Eric Clapton"
+        "Four",
+        "Seven",
+        "Five",
+        "Six"
       ],
       "answer": 1,
-      "fact": "Billy Idol and Bryan Ferry reportedly turned the song down, and Simple Minds also hesitated before recording it.",
-      "difficulty": 3
+      "fact": "The run ended in 1988 after \"Where Do Broken Hearts Go\", topping the six in a row the Beatles and the Bee Gees had managed.",
+      "difficulty": 2
     },
     {
       "id": "eighties-q23",
@@ -344,16 +344,16 @@
     },
     {
       "id": "eighties-q27",
-      "prompt": "Which Italian producer co-wrote Berlin's \"Take My Breath Away\" for the film Top Gun?",
+      "prompt": "Huey Lewis and the News wrote \"The Power of Love\" for which 1985 film?",
       "choices": [
-        "Trevor Horn",
-        "Giorgio Moroder",
-        "Nile Rodgers",
-        "Quincy Jones"
+        "Ghostbusters",
+        "Back to the Future",
+        "The Breakfast Club",
+        "Teen Wolf"
       ],
       "answer": 1,
-      "fact": "The song won the Academy Award for Best Original Song.",
-      "difficulty": 3
+      "fact": "Lewis also appears in the film, as the school judge who tells Marty McFly's band they are too loud.",
+      "difficulty": 2
     },
     {
       "id": "eighties-q28",
