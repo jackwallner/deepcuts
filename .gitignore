@@ -1,0 +1,15 @@
+.DS_Store
+.build/
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xcodeproj/
+.env
+.env.*
+Config/Secrets.xcconfig
+supabase/.temp/
+fastlane/report.xml
+fastlane/metadata.bak.*
+fastlane/screenshots/
+fastlane/metadata*/review_information/phone_number.txt

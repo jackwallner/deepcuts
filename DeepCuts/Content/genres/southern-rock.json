@@ -1,0 +1,562 @@
+{
+  "id": "southern-rock",
+  "name": "Southern Rock",
+  "blurb": "Twin guitars, Georgia mud and the long jams that put the South on the radio.",
+  "era": "1969-1983",
+  "questions": [
+    {
+      "id": "southern-rock-q01",
+      "prompt": "Which band's name came from a high school gym teacher who sent boys with long hair to the principal?",
+      "choices": [
+        "Lynyrd Skynyrd",
+        "The Marshall Tucker Band",
+        "Molly Hatchet",
+        "The Outlaws"
+      ],
+      "answer": 0,
+      "fact": "Leonard Skinner taught at Robert E. Lee High School in Jacksonville, Florida. The band bent the spelling and later made peace with him.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q02",
+      "prompt": "Which musician died in a motorcycle accident in Macon, Georgia, in October 1971?",
+      "choices": [
+        "Gregg Allman",
+        "Dickey Betts",
+        "Duane Allman",
+        "Ronnie Van Zant"
+      ],
+      "answer": 2,
+      "fact": "Bassist Berry Oakley died in a similar motorcycle crash a year later, a few blocks from the same spot.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q03",
+      "prompt": "In \"The Devil Went Down to Georgia\", what prize does the Devil put up against Johnny's soul?",
+      "choices": [
+        "A bag of silver",
+        "A fiddle of gold",
+        "A mansion on a hill",
+        "A record contract"
+      ],
+      "answer": 1,
+      "fact": "The Charlie Daniels Band's 1979 hit reached the Top 10 and won a Grammy in 1980 for Best Country Vocal Performance by a duo or group.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q04",
+      "prompt": "\"Sweet Home Alabama\" was Lynyrd Skynyrd's answer to songs by which singer?",
+      "choices": [
+        "Bob Dylan",
+        "Bruce Springsteen",
+        "Joni Mitchell",
+        "Neil Young"
+      ],
+      "answer": 3,
+      "fact": "Young's \"Southern Man\" and \"Alabama\" criticized the South, and Ronnie Van Zant answered with a song of his own. Van Zant said he was a fan of Young's music.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q05",
+      "prompt": "Which band recorded the 1971 live album At Fillmore East?",
+      "choices": [
+        "The Marshall Tucker Band",
+        "Lynyrd Skynyrd",
+        "ZZ Top",
+        "The Allman Brothers Band"
+      ],
+      "answer": 3,
+      "fact": "It was recorded over two nights in March 1971 and is widely regarded as one of the finest live rock albums ever made.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q06",
+      "prompt": "ZZ Top was formed in 1969 in which Texas city?",
+      "choices": [
+        "Dallas",
+        "Houston",
+        "Austin",
+        "San Antonio"
+      ],
+      "answer": 1,
+      "fact": "Billy Gibbons, Dusty Hill and Frank Beard became a trio in 1970. Gibbons had previously fronted the psychedelic band Moving Sidewalks.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q07",
+      "prompt": "Which Lynyrd Skynyrd song starts as a slow ballad and ends with a long guitar jam?",
+      "choices": [
+        "Sweet Home Alabama",
+        "Simple Man",
+        "Free Bird",
+        "Gimme Three Steps"
+      ],
+      "answer": 2,
+      "fact": "The album version runs more than nine minutes, and most of that is the fast guitar finale.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q08",
+      "prompt": "Gregg Allman's signature keyboard sound came from which instrument?",
+      "choices": [
+        "Hammond B-3 organ",
+        "Fender Rhodes electric piano",
+        "Mellotron",
+        "Wurlitzer"
+      ],
+      "answer": 0,
+      "fact": "Gregg wrote \"Whipping Post\" and \"Midnight Rider\", and his gritty voice anchored the band's sound.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q09",
+      "prompt": "Muscle Shoals, the town famous for its recording studios, is in which state?",
+      "choices": [
+        "Alabama",
+        "Georgia",
+        "Mississippi",
+        "Tennessee"
+      ],
+      "answer": 0,
+      "fact": "Aretha Franklin and Wilson Pickett recorded hits there, and the Rolling Stones cut \"Brown Sugar\" at Muscle Shoals Sound in 1969.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q10",
+      "prompt": "Which Lynyrd Skynyrd singer died in the plane crash of October 1977?",
+      "choices": [
+        "Gary Rossington",
+        "Allen Collins",
+        "Ronnie Van Zant",
+        "Billy Powell"
+      ],
+      "answer": 2,
+      "fact": "Van Zant, guitarist Steve Gaines and backup singer Cassie Gaines were among those killed. The album Street Survivors had come out days earlier.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q11",
+      "prompt": "The 1977 Lynyrd Skynyrd plane crash happened in which state?",
+      "choices": [
+        "Louisiana",
+        "Mississippi",
+        "Alabama",
+        "Arkansas"
+      ],
+      "answer": 1,
+      "fact": "The plane, which was flying from South Carolina to Baton Rouge, ran low on fuel and went down in a forest near Gillsburg.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q12",
+      "prompt": "Which rhythm section from Muscle Shoals is name-checked in \"Sweet Home Alabama\"?",
+      "choices": [
+        "The Funk Brothers",
+        "The Wrecking Crew",
+        "The Memphis Boys",
+        "The Swampers"
+      ],
+      "answer": 3,
+      "fact": "The Swampers played on hits by Aretha Franklin, Wilson Pickett and Paul Simon, and had a studio of their own.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q13",
+      "prompt": "Which producer, famous for the organ on \"Like a Rolling Stone\", signed Skynyrd and produced their early albums?",
+      "choices": [
+        "Tom Dowd",
+        "Jimmy Miller",
+        "Jerry Wexler",
+        "Al Kooper"
+      ],
+      "answer": 3,
+      "fact": "Kooper discovered the band playing at Funocchio's, a club in Atlanta, and signed them to his Sounds of the South label.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q14",
+      "prompt": "38 Special's Donnie Van Zant is the younger brother of which Skynyrd founder?",
+      "choices": [
+        "Gary Rossington",
+        "Ronnie Van Zant",
+        "Allen Collins",
+        "Ed King"
+      ],
+      "answer": 1,
+      "fact": "Another brother, Johnny Van Zant, took over as Skynyrd's singer when the band reformed in 1987.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q15",
+      "prompt": "Which Allman Brothers guitarist wrote \"Ramblin' Man\"?",
+      "choices": [
+        "Duane Allman",
+        "Berry Oakley",
+        "Dickey Betts",
+        "Butch Trucks"
+      ],
+      "answer": 2,
+      "fact": "The song reached No. 2 on the Billboard Hot 100 in 1973, the band's biggest hit single.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q16",
+      "prompt": "Capricorn Records, home of the Allman Brothers, was based in which Georgia city?",
+      "choices": [
+        "Macon",
+        "Atlanta",
+        "Savannah",
+        "Athens"
+      ],
+      "answer": 0,
+      "fact": "Founder Phil Walden had been Otis Redding's manager, and Macon was Redding's hometown.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q17",
+      "prompt": "The Allman Brothers Band had two drummers. One was Butch Trucks. Who was the other?",
+      "choices": [
+        "Jaimoe (Jai Johanny Johanson)",
+        "Artimus Pyle",
+        "Frank Beard",
+        "Charlie Hayward"
+      ],
+      "answer": 0,
+      "fact": "The twin-drum, twin-guitar format gave the band its rolling, jazz-tinged power.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q18",
+      "prompt": "Which 1983 ZZ Top album includes \"Gimme All Your Lovin'\", \"Sharp Dressed Man\" and \"Legs\"?",
+      "choices": [
+        "Tres Hombres",
+        "Afterburner",
+        "Eliminator",
+        "Degüello"
+      ],
+      "answer": 2,
+      "fact": "The cover shows a customized 1933 Ford coupe, which appeared in the band's videos on MTV.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q19",
+      "prompt": "Which Skynyrd keyboardist first came to the band as a roadie?",
+      "choices": [
+        "Bob Burns",
+        "Billy Powell",
+        "Leon Wilkeson",
+        "Artimus Pyle"
+      ],
+      "answer": 1,
+      "fact": "Powell impressed Ronnie Van Zant with his piano playing, and his keyboard part opens \"Free Bird\".",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q20",
+      "prompt": "Which Allman Brothers instrumental is now known as the theme to the BBC's Top Gear?",
+      "choices": [
+        "In Memory of Elizabeth Reed",
+        "Hot 'Lanta",
+        "Les Brers in A Minor",
+        "Jessica"
+      ],
+      "answer": 3,
+      "fact": "Dickey Betts named the tune for his young daughter, and wrote it on acoustic guitar before the band added the full arrangement.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q21",
+      "prompt": "The Allman Brothers' version of \"Statesboro Blues\" was a cover of a song by which bluesman?",
+      "choices": [
+        "Lead Belly",
+        "Robert Johnson",
+        "Howlin' Wolf",
+        "Blind Willie McTell"
+      ],
+      "answer": 3,
+      "fact": "McTell recorded the song in 1928, and Duane Allman took the slide-guitar arrangement from Taj Mahal's version.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q22",
+      "prompt": "ZZ Top's \"La Grange\" is about a notorious brothel near La Grange, Texas. What was it called?",
+      "choices": [
+        "The Moonlight Ranch",
+        "The Chicken Ranch",
+        "The Longhorn Lodge",
+        "The Dixie Cat"
+      ],
+      "answer": 1,
+      "fact": "It was shut down in 1973 after a Houston TV reporter exposed it, and it later inspired The Best Little Whorehouse in Texas.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q23",
+      "prompt": "The Marshall Tucker Band took its name from the key ring of whom?",
+      "choices": [
+        "A Confederate general",
+        "Their first manager",
+        "A blind piano tuner from their rehearsal building",
+        "A Spartanburg football coach"
+      ],
+      "answer": 2,
+      "fact": "There was no band member named Marshall Tucker. The group came from Spartanburg, South Carolina.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q24",
+      "prompt": "Skynyrd's \"Call Me the Breeze\" was written by which songwriter?",
+      "choices": [
+        "J. J. Cale",
+        "Leon Russell",
+        "Delbert McClinton",
+        "Bobby Whitlock"
+      ],
+      "answer": 0,
+      "fact": "Cale also wrote \"After Midnight\" and \"Cocaine\", both made famous by Eric Clapton.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q25",
+      "prompt": "The Atlanta Rhythm Section grew out of the lineup that recorded the hit \"Spooky\". What was that group called?",
+      "choices": [
+        "The Classics IV",
+        "The Box Tops",
+        "The Grass Roots",
+        "Paul Revere and the Raiders"
+      ],
+      "answer": 0,
+      "fact": "Songwriters Buddy Buie and J. R. Cobb wrote for the Classics IV before forming their own band, which later hit with \"So into You\".",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q26",
+      "prompt": "The title Eat a Peach came from a remark by which Allman Brother?",
+      "choices": [
+        "Gregg Allman",
+        "Dickey Betts",
+        "Duane Allman",
+        "Berry Oakley"
+      ],
+      "answer": 2,
+      "fact": "Duane told an interviewer he ate a peach for peace whenever he was in Georgia. The album came out in 1972, after his death.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q27",
+      "prompt": "Which Skynyrd guitarist had earlier played guitar in the Strawberry Alarm Clock of \"Incense and Peppermints\"?",
+      "choices": [
+        "Steve Gaines",
+        "Ed King",
+        "Allen Collins",
+        "Gary Rossington"
+      ],
+      "answer": 1,
+      "fact": "King co-wrote \"Sweet Home Alabama\" with Ronnie Van Zant and Gary Rossington.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q28",
+      "prompt": "The Allman Brothers' \"Whipping Post\" is famous for which unusual time signature?",
+      "choices": [
+        "7/4",
+        "5/4",
+        "9/8",
+        "11/4"
+      ],
+      "answer": 3,
+      "fact": "The live version on At Fillmore East runs over 22 minutes.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q29",
+      "prompt": "Which Tampa band, nicknamed the Florida Guitar Army, recorded \"Green Grass and High Tides\"?",
+      "choices": [
+        "Molly Hatchet",
+        "Wet Willie",
+        "Blackfoot",
+        "The Outlaws"
+      ],
+      "answer": 3,
+      "fact": "The 1975 album track runs well over eight minutes, much of it a twin-guitar jam.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q30",
+      "prompt": "Before his own hits, Charlie Daniels played sessions in Nashville for which songwriter?",
+      "choices": [
+        "Leonard Cohen",
+        "Bob Dylan",
+        "Neil Young",
+        "Paul Simon"
+      ],
+      "answer": 1,
+      "fact": "Daniels played on Dylan's Nashville Skyline, Self Portrait and New Morning, all released around 1969 and 1970.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "southern-rock-s01",
+      "title": "Whipping Post",
+      "artist": "The Allman Brothers Band",
+      "year": 1969,
+      "album": "The Allman Brothers Band",
+      "note": "Gregg Allman wrote it, and the song's 11/4 groove makes it one of rock's famous odd-meter songs."
+    },
+    {
+      "id": "southern-rock-s02",
+      "title": "Midnight Rider",
+      "artist": "The Allman Brothers Band",
+      "year": 1970,
+      "album": "Idlewild South",
+      "note": "Gregg Allman wrote it with roadie Robert Payne."
+    },
+    {
+      "id": "southern-rock-s03",
+      "title": "Melissa",
+      "artist": "The Allman Brothers Band",
+      "year": 1972,
+      "album": "Eat a Peach",
+      "note": "A gentle Gregg Allman ballad that appears on the album released after Duane's death."
+    },
+    {
+      "id": "southern-rock-s04",
+      "title": "Ramblin' Man",
+      "artist": "The Allman Brothers Band",
+      "year": 1973,
+      "album": "Brothers and Sisters",
+      "note": "Dickey Betts wrote it, and it reached No. 2 on the Billboard Hot 100."
+    },
+    {
+      "id": "southern-rock-s05",
+      "title": "Free Bird",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1973,
+      "album": "(Pronounced 'Leh-'nérd 'Skin-'nérd)",
+      "note": "The band's debut album was produced by Al Kooper."
+    },
+    {
+      "id": "southern-rock-s06",
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1974,
+      "album": "Second Helping",
+      "note": "It was recorded at Studio One in Doraville, Georgia, and reached the US Top 10."
+    },
+    {
+      "id": "southern-rock-s07",
+      "title": "Keep On Smilin'",
+      "artist": "Wet Willie",
+      "year": 1974,
+      "album": "Keep on Smilin'",
+      "note": "The Mobile, Alabama, band was signed to Capricorn Records, and this was its biggest hit."
+    },
+    {
+      "id": "southern-rock-s08",
+      "title": "Tush",
+      "artist": "ZZ Top",
+      "year": 1975,
+      "album": "Fandango!",
+      "note": "The song reached No. 20 on the Billboard Hot 100."
+    },
+    {
+      "id": "southern-rock-s09",
+      "title": "Green Grass and High Tides",
+      "artist": "The Outlaws",
+      "year": 1975,
+      "album": "Outlaws",
+      "note": "The album version runs well over eight minutes and is built around a long twin-guitar jam."
+    },
+    {
+      "id": "southern-rock-s10",
+      "title": "Heard It in a Love Song",
+      "artist": "The Marshall Tucker Band",
+      "year": 1977,
+      "album": "Carolina Dreams",
+      "note": "Toy Caldwell wrote it, and it was the band's biggest US pop hit."
+    },
+    {
+      "id": "southern-rock-s11",
+      "title": "That Smell",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1977,
+      "album": "Street Survivors",
+      "note": "The album came out three days before the fatal plane crash."
+    },
+    {
+      "id": "southern-rock-s12",
+      "title": "Imaginary Lover",
+      "artist": "Atlanta Rhythm Section",
+      "year": 1978,
+      "album": "Champagne Jam",
+      "note": "The song reached the US Top 10."
+    },
+    {
+      "id": "southern-rock-s13",
+      "title": "Flirtin' with Disaster",
+      "artist": "Molly Hatchet",
+      "year": 1979,
+      "album": "Flirtin' with Disaster",
+      "note": "The Jacksonville band's three-guitar attack drew comparisons to Lynyrd Skynyrd's."
+    },
+    {
+      "id": "southern-rock-s14",
+      "title": "The Devil Went Down to Georgia",
+      "artist": "The Charlie Daniels Band",
+      "year": 1979,
+      "album": "Million Mile Reflections",
+      "note": "The song reached No. 3 on the Billboard Hot 100."
+    },
+    {
+      "id": "southern-rock-s15",
+      "title": "Hold On Loosely",
+      "artist": "38 Special",
+      "year": 1981,
+      "album": "Wild-Eyed Southern Boys",
+      "note": "Jim Peterik of Ides of March and Survivor co-wrote it with band members."
+    },
+    {
+      "id": "southern-rock-s16",
+      "title": "Sharp Dressed Man",
+      "artist": "ZZ Top",
+      "year": 1983,
+      "album": "Eliminator",
+      "note": "The video for the song became a staple of early MTV."
+    }
+  ],
+  "stories": [
+    {
+      "id": "southern-rock-st1",
+      "title": "Fillmore East, March 1971",
+      "dek": "Six musicians, two drummers and the best live album of its day",
+      "year": 1971,
+      "body": "By the beginning of 1971 the Allman Brothers Band was a small group with a big reputation. They came from Macon, Georgia, where their label Capricorn Records had set up shop, and they were known as one of the best live bands in America. Duane Allman and Dickey Betts played lead guitar, Gregg Allman sang and played the Hammond B-3 organ, Berry Oakley played bass, and two drummers, Butch Trucks and Jaimoe, laid down the rhythm. Their first two studio albums had not sold well. On stage, though, they were something else.\n\nThe band's manager, Phil Walden, and producer Tom Dowd decided to capture them on tape at the Fillmore East, the New York theater run by promoter Bill Graham. The band played two nights, on March 12 and 13, 1971. The late shows ran into the early hours, and Dowd's team recorded every note.\n\nWhat happened on those nights was a long, loose, joyful conversation between musicians who trusted each other. Duane's slide guitar and Betts's melodic leads wound around one another like two voices in harmony. They opened with \"Statesboro Blues\", a song by the old Georgia bluesman Blind Willie McTell. They played \"Whipping Post\", Gregg's song, which stretched past 22 minutes, and the instrumental \"In Memory of Elizabeth Reed\", which let the guitar players flow into jazz.\n\nThe result was At Fillmore East, released in July 1971. It reached the US Top 20, and it made the band stars. Critics later compared it to the best live records ever made, and it proved that a rock group could improvise at length without losing the song. It also set the template for Southern rock: dual lead guitars, twin drummers, and a blues feel.\n\nThe band played the closing night at the Fillmore East that June, when Graham shut the venue down, and they seemed to be on the verge of a long career. Then, on October 29, 1971, Duane Allman, 24 years old, was killed in a motorcycle accident in Macon. Berry Oakley died in a similar crash just over a year later, a few blocks away.\n\nThe band carried on, and its next studio album, Brothers and Sisters, brought them \"Ramblin' Man\", their biggest hit. Yet fans still return to those March nights, when the original lineup was at its best, and tape was running.",
+      "songs": [
+        "southern-rock-s01",
+        "southern-rock-s02"
+      ]
+    },
+    {
+      "id": "southern-rock-st2",
+      "title": "Answering Neil Young",
+      "dek": "How \"Sweet Home Alabama\" came to be",
+      "year": 1974,
+      "body": "In 1970 Neil Young released a song called \"Southern Man\". It was a hard look at racism in the American South, with Young's guitar growling behind a slow, ominous beat. Two years later he followed it with \"Alabama\", which asked the state some pointed questions. Many Southern musicians heard those songs as an outsider's lecture. One of them was Ronnie Van Zant, the singer for a Jacksonville band called Lynyrd Skynyrd.\n\nVan Zant was proud of his home and bristled at the idea that the South could be dismissed in a song. By 1974 Skynyrd had a record deal and a loyal following, and they were working on their second album, Second Helping, at Studio One in Doraville, Georgia. Guitarist Ed King had been playing a bright riff in the studio, and Van Zant, Gary Rossington and King worked it into a song. Van Zant wrote lyrics with a fiercely proud tone. The song name-checked Neil Young and told him a Southern man didn't need him around.\n\nThe song had its own flavor. There was a line about Birmingham and its governor, a sly joke about Watergate (\"Now Watergate does not bother me, does your conscience bother you?\"), and a tip of the hat to the Swampers, the Muscle Shoals session musicians who had played on so many hits. Backing singers chanted \"boo, boo, boo\" in the background, and the song was given a swampy, upbeat bounce. Al Kooper, who produced the band, helped them polish it.\n\n\"Sweet Home Alabama\" reached the US Top 10 that fall and became the band's signature song. It was often taken as a flat-out rebuttal to Young, but the story was more friendly than that. Van Zant said in interviews that he admired Young's music, and the song was meant more as a spirited reply than a feud.\n\nThe song has since taken on a life of its own, played at ballparks and weddings and everywhere in between. Few songs started as an argument and ended up as a party. This one did, and its famous opening riff is still one of the first things a guitar student learns.",
+      "songs": [
+        "southern-rock-s06"
+      ]
+    },
+    {
+      "id": "southern-rock-st3",
+      "title": "Three Days After Street Survivors",
+      "dek": "The 1977 crash that stopped Lynyrd Skynyrd",
+      "year": 1977,
+      "body": "In the fall of 1977 Lynyrd Skynyrd was riding high. The band had spent several years touring relentlessly, and its albums sold well. A new record, Street Survivors, came out on October 17, 1977, and it sold briskly from the start. The cover showed the band standing in a wall of flames, a striking image. Guitarist Steve Gaines, who had joined the previous year, gave the group a new energy, and Ronnie Van Zant was writing some of his best songs, including \"That Smell\", which warned of the dangers of drink and drugs.\n\nOn October 20, the band was flying from Greenville, South Carolina, to Baton Rouge, Louisiana, in a chartered Convair 240 propeller plane. Somewhere over Mississippi, the aircraft ran short of fuel. The pilots tried to reach an airport, and the engines failed. The plane came down in a swampy forest near Gillsburg, Mississippi.\n\nSix people died: Ronnie Van Zant; Steve Gaines and his sister Cassie, who sang backup; assistant road manager Dean Kilpatrick; and the two pilots. Many others on board, including Gary Rossington, Allen Collins and Billy Powell, were badly injured but survived. The survivors spent months in hospitals, and some of them were permanently marked by their injuries.\n\nThe record company pulled the original Street Survivors cover with the flames, out of respect for those who had died, and replaced it with a plain black background. The album went platinum, and fans bought it in huge numbers. The band, however, was done. Remaining members drifted into other groups, such as the Rossington-Collins Band, and Allen Collins was left paralyzed in a car crash in 1986.\n\nIn 1987 the surviving members reunited for a tribute tour, with Ronnie's younger brother Johnny Van Zant on vocals. What was meant as a one-time event turned into a long-running revival, and the band continued to tour for decades with Rossington as its anchor.\n\nVan Zant was 29 years old when he died. In his short life he had written some of rock's best-known songs, including \"Free Bird\" and \"Sweet Home Alabama\". The band's early records still sound alive, and at their concerts the crowd sings along to \"Free Bird\" as a tribute to the man who wrote it.",
+      "songs": [
+        "southern-rock-s05",
+        "southern-rock-s11"
+      ]
+    }
+  ]
+}

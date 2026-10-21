@@ -1,0 +1,560 @@
+{
+  "id": "folk-singer-songwriter",
+  "name": "Folk & Singer-Songwriters",
+  "blurb": "Acoustic guitars, hard truths and the songwriters who made rock grow up.",
+  "era": "1962-1982",
+  "questions": [
+    {
+      "id": "folk-singer-songwriter-q01",
+      "prompt": "At which 1965 festival did Bob Dylan play his famous electric set?",
+      "choices": [
+        "Newport Folk Festival",
+        "Monterey Pop Festival",
+        "Woodstock",
+        "Isle of Wight Festival"
+      ],
+      "answer": 0,
+      "fact": "He played with members of the Paul Butterfield Blues Band, and accounts still differ about how much of the booing was aimed at him and how much at the poor sound.",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q02",
+      "prompt": "Bob Dylan was born with what surname?",
+      "choices": [
+        "Zimmer",
+        "Zeller",
+        "Zimmerman",
+        "Zilkowski"
+      ],
+      "answer": 2,
+      "fact": "He was born Robert Allen Zimmerman in Duluth, Minnesota, and grew up in Hibbing.",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q03",
+      "prompt": "Which Canadian songwriter wrote \"Big Yellow Taxi\" and the 1971 album Blue?",
+      "choices": [
+        "Carole King",
+        "Joni Mitchell",
+        "Carly Simon",
+        "Joan Baez"
+      ],
+      "answer": 1,
+      "fact": "She has said the song came from a hotel window view of a parking lot on her first trip to Hawaii.",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q04",
+      "prompt": "Which singer-songwriter's 1971 album Tapestry spent 15 weeks at No. 1 and won four Grammys?",
+      "choices": [
+        "Carly Simon",
+        "Joni Mitchell",
+        "Judy Collins",
+        "Carole King"
+      ],
+      "answer": 3,
+      "fact": "Her songs included \"It's Too Late\" and \"You've Got a Friend\", and she had written hits as a teenager with her husband Gerry Goffin.",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q05",
+      "prompt": "Simon and Garfunkel wrote songs for which 1967 film?",
+      "choices": [
+        "Easy Rider",
+        "Bonnie and Clyde",
+        "Midnight Cowboy",
+        "The Graduate"
+      ],
+      "answer": 3,
+      "fact": "\"Mrs. Robinson\" from the film won the Grammy for Record of the Year in 1969.",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q06",
+      "prompt": "Which singer-songwriter had his only US No. 1 single with \"Heart of Gold\" in 1972?",
+      "choices": [
+        "Gordon Lightfoot",
+        "Neil Young",
+        "Bob Seger",
+        "Jackson Browne"
+      ],
+      "answer": 1,
+      "fact": "Linda Ronstadt and James Taylor sang backing vocals on the song, which comes from the album Harvest.",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q07",
+      "prompt": "Which folk trio took Bob Dylan's \"Blowin' in the Wind\" to No. 2 in 1963?",
+      "choices": [
+        "The Kingston Trio",
+        "The Weavers",
+        "Peter, Paul and Mary",
+        "The Chad Mitchell Trio"
+      ],
+      "answer": 2,
+      "fact": "Their cover introduced Dylan's songwriting to a huge audience, and the trio also recorded \"Puff, the Magic Dragon\".",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q08",
+      "prompt": "Which singer of \"Peace Train\" and \"Wild World\" adopted the name Yusuf Islam in 1978?",
+      "choices": [
+        "Cat Stevens",
+        "Donovan",
+        "Al Stewart",
+        "Gordon Lightfoot"
+      ],
+      "answer": 0,
+      "fact": "He converted to Islam in 1977 and later returned to music under his new name.",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q09",
+      "prompt": "In 2016 Bob Dylan received which honor?",
+      "choices": [
+        "The Nobel Prize in Literature",
+        "The Pulitzer Prize for Music",
+        "The Kennedy Center Honors",
+        "The Presidential Medal of Freedom"
+      ],
+      "answer": 0,
+      "fact": "The Swedish Academy cited him for creating new poetic expressions within the great American song tradition.",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q10",
+      "prompt": "Which Canadian poet-turned-songwriter wrote \"Hallelujah\"?",
+      "choices": [
+        "Gordon Lightfoot",
+        "Neil Young",
+        "Leonard Cohen",
+        "Bruce Cockburn"
+      ],
+      "answer": 2,
+      "fact": "The song first appeared on his 1984 album Various Positions, and Jeff Buckley's 1994 cover made it famous.",
+      "difficulty": 1
+    },
+    {
+      "id": "folk-singer-songwriter-q11",
+      "prompt": "Which band's 1965 cover of Dylan's \"Mr. Tambourine Man\" went to No. 1 and launched folk rock?",
+      "choices": [
+        "The Lovin' Spoonful",
+        "The Byrds",
+        "The Turtles",
+        "The Mamas and the Papas"
+      ],
+      "answer": 1,
+      "fact": "Only Roger McGuinn of the Byrds played on the recording, with his chiming 12-string Rickenbacker, joined by studio musicians.",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q12",
+      "prompt": "Woody Guthrie wrote \"This Land Is Your Land\" in 1940 as a response to which popular song?",
+      "choices": [
+        "The Star-Spangled Banner",
+        "America the Beautiful",
+        "Yankee Doodle",
+        "God Bless America"
+      ],
+      "answer": 3,
+      "fact": "Guthrie's first title for it was \"God Blessed America for Me\", and he scrawled a slogan on his guitar: \"This Machine Kills Fascists\".",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q13",
+      "prompt": "Simon and Garfunkel's \"Bridge Over Troubled Water\" was reportedly inspired by a gospel song from which group?",
+      "choices": [
+        "The Staple Singers",
+        "The Dixie Hummingbirds",
+        "The Soul Stirrers",
+        "The Swan Silvertones"
+      ],
+      "answer": 3,
+      "fact": "Paul Simon wrote the song, Art Garfunkel sang the lead vocal, and it stayed at No. 1 for six weeks in 1970.",
+      "difficulty": 3
+    },
+    {
+      "id": "folk-singer-songwriter-q14",
+      "prompt": "Which Dylan album, released in 1965, has an electric first side and an acoustic second side?",
+      "choices": [
+        "Highway 61 Revisited",
+        "Bringing It All Back Home",
+        "Blonde on Blonde",
+        "Another Side of Bob Dylan"
+      ],
+      "answer": 1,
+      "fact": "It includes \"Subterranean Homesick Blues\" and \"Mr. Tambourine Man\".",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q15",
+      "prompt": "Which folk singer had the first hit with Joni Mitchell's \"Both Sides, Now\"?",
+      "choices": [
+        "Joan Baez",
+        "Mary Travers",
+        "Judy Collins",
+        "Linda Ronstadt"
+      ],
+      "answer": 2,
+      "fact": "Collins's version reached the US Top 10 in 1968, and Mitchell recorded her own version on the album Clouds in 1969.",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q16",
+      "prompt": "Whose version of Carole King's \"You've Got a Friend\" reached No. 1 in 1971?",
+      "choices": [
+        "James Taylor",
+        "Cat Stevens",
+        "Jackson Browne",
+        "Don McLean"
+      ],
+      "answer": 0,
+      "fact": "The song won the Grammy for Song of the Year, and Taylor won a Grammy for his performance of it.",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q17",
+      "prompt": "Which singer-songwriter, a former Rhodes Scholar, wrote Janis Joplin's posthumous No. 1 \"Me and Bobby McGee\"?",
+      "choices": [
+        "Kris Kristofferson",
+        "Willie Nelson",
+        "Gordon Lightfoot",
+        "Tom Waits"
+      ],
+      "answer": 0,
+      "fact": "Producer Fred Foster co-wrote it, and Joplin recorded her version shortly before her death in October 1970.",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q18",
+      "prompt": "The Gordon Lightfoot song \"The Wreck of the Edmund Fitzgerald\" is about a freighter lost on which Great Lake?",
+      "choices": [
+        "Lake Michigan",
+        "Lake Huron",
+        "Lake Superior",
+        "Lake Erie"
+      ],
+      "answer": 2,
+      "fact": "The ship sank in a storm on November 10, 1975, and all 29 crew members were lost.",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q19",
+      "prompt": "Neil Young wrote \"Ohio\" after the May 1970 shootings at which university?",
+      "choices": [
+        "Ohio State University",
+        "Kent State University",
+        "Case Western Reserve University",
+        "Miami University"
+      ],
+      "answer": 1,
+      "fact": "Crosby, Stills, Nash and Young recorded and released the song within weeks.",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q20",
+      "prompt": "Which Dylan album cover shows him walking arm in arm with his girlfriend down a snowy New York street?",
+      "choices": [
+        "The Times They Are a-Changin'",
+        "Another Side of Bob Dylan",
+        "Bringing It All Back Home",
+        "The Freewheelin' Bob Dylan"
+      ],
+      "answer": 3,
+      "fact": "The girlfriend was Suze Rotolo, and the photograph was taken on Jones Street in Greenwich Village.",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q21",
+      "prompt": "Which producer added electric instruments to Simon and Garfunkel's \"The Sound of Silence\" without the duo's involvement?",
+      "choices": [
+        "Phil Spector",
+        "Bob Johnston",
+        "Richard Perry",
+        "Tom Wilson"
+      ],
+      "answer": 3,
+      "fact": "Wilson used musicians from Dylan's \"Like a Rolling Stone\" sessions, and the remix went to No. 1 in January 1966.",
+      "difficulty": 3
+    },
+    {
+      "id": "folk-singer-songwriter-q22",
+      "prompt": "\"Like a Rolling Stone\" peaked at No. 2 on the Hot 100 in 1965, behind which song?",
+      "choices": [
+        "\"Satisfaction\" by the Rolling Stones",
+        "\"Help!\" by the Beatles",
+        "\"Eve of Destruction\" by Barry McGuire",
+        "\"Hang On Sloopy\" by the McCoys"
+      ],
+      "answer": 1,
+      "fact": "At about six minutes, it was far longer than the typical radio single of the time.",
+      "difficulty": 3
+    },
+    {
+      "id": "folk-singer-songwriter-q23",
+      "prompt": "Nick Drake recorded his 1972 album Pink Moon, just voice and guitar plus a little piano, in about how long?",
+      "choices": [
+        "Two weeks",
+        "Two months",
+        "Two nights",
+        "Two years"
+      ],
+      "answer": 2,
+      "fact": "The two late-night sessions took place at Sound Techniques studio in London.",
+      "difficulty": 3
+    },
+    {
+      "id": "folk-singer-songwriter-q24",
+      "prompt": "Leonard Cohen's \"Suzanne\" was inspired by a woman he knew in which city?",
+      "choices": [
+        "Montreal",
+        "Toronto",
+        "Halifax",
+        "Vancouver"
+      ],
+      "answer": 0,
+      "fact": "Judy Collins recorded the song in 1966, a year before Cohen released his own debut album.",
+      "difficulty": 3
+    },
+    {
+      "id": "folk-singer-songwriter-q25",
+      "prompt": "Before his 1971 debut album, John Prine worked as what?",
+      "choices": [
+        "A mail carrier",
+        "A schoolteacher",
+        "A truck driver",
+        "A bartender"
+      ],
+      "answer": 0,
+      "fact": "Kris Kristofferson helped bring him to wide attention after hearing him at a Chicago folk club.",
+      "difficulty": 3
+    },
+    {
+      "id": "folk-singer-songwriter-q26",
+      "prompt": "Townes Van Zandt's \"Pancho and Lefty\" became a No. 1 country hit in 1983 for which duo?",
+      "choices": [
+        "Waylon Jennings and Kris Kristofferson",
+        "Johnny Cash and Willie Nelson",
+        "Willie Nelson and Merle Haggard",
+        "Emmylou Harris and Gram Parsons"
+      ],
+      "answer": 2,
+      "fact": "Van Zandt, who was born in Fort Worth, Texas, wrote the song in the early 1970s.",
+      "difficulty": 2
+    },
+    {
+      "id": "folk-singer-songwriter-q27",
+      "prompt": "Joni Mitchell skipped Woodstock in 1969 to appear on which television show?",
+      "choices": [
+        "The Tonight Show",
+        "The Dick Cavett Show",
+        "The Ed Sullivan Show",
+        "The Smothers Brothers Comedy Hour"
+      ],
+      "answer": 1,
+      "fact": "She wrote \"Woodstock\" in a New York hotel room, based on what her then-boyfriend Graham Nash told her about the festival.",
+      "difficulty": 3
+    },
+    {
+      "id": "folk-singer-songwriter-q28",
+      "prompt": "Dylan and the Band's 1967 Basement Tapes were partly recorded in a house in Saugerties, New York, known as what?",
+      "choices": [
+        "The Red Barn",
+        "Blue Heaven",
+        "Green Acres",
+        "Big Pink"
+      ],
+      "answer": 3,
+      "fact": "The Band took the name for their debut album, Music from Big Pink, released in 1968.",
+      "difficulty": 3
+    },
+    {
+      "id": "folk-singer-songwriter-q29",
+      "prompt": "In 1963 Dylan walked off The Ed Sullivan Show after CBS refused to let him perform a song about which group?",
+      "choices": [
+        "The Teamsters",
+        "The FBI",
+        "The American Legion",
+        "The John Birch Society"
+      ],
+      "answer": 3,
+      "fact": "The song was \"Talkin' John Birch Paranoid Blues\", and the incident added to Dylan's reputation as an uncompromising songwriter.",
+      "difficulty": 3
+    },
+    {
+      "id": "folk-singer-songwriter-q30",
+      "prompt": "Bruce Springsteen's 1982 album Nebraska was recorded at home on what?",
+      "choices": [
+        "A mobile recording truck",
+        "A four-track cassette recorder",
+        "A reel-to-reel eight-track",
+        "A digital recorder"
+      ],
+      "answer": 1,
+      "fact": "He intended the tape to be demos, but he and the band could not match the mood in the studio, so the cassette was released.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "folk-singer-songwriter-s01",
+      "title": "Blowin' in the Wind",
+      "artist": "Bob Dylan",
+      "year": 1963,
+      "album": "The Freewheelin' Bob Dylan",
+      "note": "Peter, Paul and Mary's cover reached No. 2 on the US chart that same year."
+    },
+    {
+      "id": "folk-singer-songwriter-s02",
+      "title": "The Sound of Silence",
+      "artist": "Simon & Garfunkel",
+      "year": 1964,
+      "album": "Wednesday Morning, 3 A.M.",
+      "note": "Producer Tom Wilson added electric instruments in 1965, and the new version topped the US chart."
+    },
+    {
+      "id": "folk-singer-songwriter-s03",
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "year": 1965,
+      "album": "Highway 61 Revisited",
+      "note": "Al Kooper's improvised organ part became a signature of the recording."
+    },
+    {
+      "id": "folk-singer-songwriter-s04",
+      "title": "Sunshine Superman",
+      "artist": "Donovan",
+      "year": 1966,
+      "album": "Sunshine Superman",
+      "note": "It reached No. 1 in the US in September 1966."
+    },
+    {
+      "id": "folk-singer-songwriter-s05",
+      "title": "Suzanne",
+      "artist": "Leonard Cohen",
+      "year": 1967,
+      "album": "Songs of Leonard Cohen",
+      "note": "Judy Collins recorded it before Cohen's own debut came out."
+    },
+    {
+      "id": "folk-singer-songwriter-s06",
+      "title": "Mrs. Robinson",
+      "artist": "Simon & Garfunkel",
+      "year": 1968,
+      "album": "Bookends",
+      "note": "It was used in The Graduate and won the Grammy for Record of the Year."
+    },
+    {
+      "id": "folk-singer-songwriter-s07",
+      "title": "Both Sides Now",
+      "artist": "Joni Mitchell",
+      "year": 1969,
+      "album": "Clouds",
+      "note": "Judy Collins had a hit with the song in 1968."
+    },
+    {
+      "id": "folk-singer-songwriter-s08",
+      "title": "Bridge over Troubled Water",
+      "artist": "Simon & Garfunkel",
+      "year": 1970,
+      "album": "Bridge over Troubled Water",
+      "note": "Art Garfunkel sang the lead vocal."
+    },
+    {
+      "id": "folk-singer-songwriter-s09",
+      "title": "Fire and Rain",
+      "artist": "James Taylor",
+      "year": 1970,
+      "album": "Sweet Baby James",
+      "note": "Taylor wrote it about the death of a friend and his own struggles."
+    },
+    {
+      "id": "folk-singer-songwriter-s10",
+      "title": "You've Got a Friend",
+      "artist": "Carole King",
+      "year": 1971,
+      "album": "Tapestry",
+      "note": "James Taylor's version of the song reached No. 1 the same year."
+    },
+    {
+      "id": "folk-singer-songwriter-s11",
+      "title": "Heart of Gold",
+      "artist": "Neil Young",
+      "year": 1972,
+      "album": "Harvest",
+      "note": "It is Young's only No. 1 single in the US."
+    },
+    {
+      "id": "folk-singer-songwriter-s12",
+      "title": "Bad, Bad Leroy Brown",
+      "artist": "Jim Croce",
+      "year": 1973,
+      "album": "Life and Times",
+      "note": "It reached No. 1 in 1973, shortly before Croce died in a plane crash."
+    },
+    {
+      "id": "folk-singer-songwriter-s13",
+      "title": "Annie's Song",
+      "artist": "John Denver",
+      "year": 1974,
+      "album": "Back Home Again",
+      "note": "Denver reportedly wrote it in about ten minutes on a ski lift."
+    },
+    {
+      "id": "folk-singer-songwriter-s14",
+      "title": "Tangled Up in Blue",
+      "artist": "Bob Dylan",
+      "year": 1975,
+      "album": "Blood on the Tracks",
+      "note": "The song's shifting perspective is one of Dylan's best-known narrative experiments."
+    },
+    {
+      "id": "folk-singer-songwriter-s15",
+      "title": "The Wreck of the Edmund Fitzgerald",
+      "artist": "Gordon Lightfoot",
+      "year": 1976,
+      "album": "Summertime Dream",
+      "note": "Lightfoot wrote it after reading a magazine article about the 1975 sinking."
+    },
+    {
+      "id": "folk-singer-songwriter-s16",
+      "title": "Atlantic City",
+      "artist": "Bruce Springsteen",
+      "year": 1982,
+      "album": "Nebraska",
+      "note": "The album was recorded as home demos on a four-track cassette recorder."
+    }
+  ],
+  "stories": [
+    {
+      "id": "folk-singer-songwriter-st1",
+      "title": "Dylan Plugs In at Newport",
+      "dek": "The July night that split a folk festival",
+      "year": 1965,
+      "body": "By the summer of 1965 Bob Dylan was the most closely watched songwriter in America. Only a few years earlier he had been a young singer in the coffeehouses of Greenwich Village, playing an acoustic guitar and singing songs about injustice. The folk community had embraced him as its leader. The Newport Folk Festival, in Rhode Island, was the center of that world, and Dylan had played there two years in a row to rapturous crowds.\n\nBut his music was changing. In March he had released Bringing It All Back Home, with an electric side, and in June he had gone into a New York studio and recorded a long, snarling song called \"Like a Rolling Stone\". An organist named Al Kooper, who had only come to watch, sat down at the keyboard and improvised a part that gave the track its distinctive sound. When the record came out in July, it climbed the charts.\n\nDylan arrived at Newport on July 25 with a band that included members of the Paul Butterfield Blues Band, including guitarist Mike Bloomfield. They had rehearsed a loud, rough set the night before. Many in the audience, expecting a solo acoustic performance, did not know what was coming.\n\nThe band walked on stage in the evening and played three songs: \"Maggie's Farm\", \"Like a Rolling Stone\" and \"It Takes a Lot to Laugh, It Takes a Train to Cry\". The sound was loud and, by most accounts, poorly mixed. There were boos. Whether they were aimed at the electric guitars, at the muddy sound, or at the short set is still a matter of debate among those who were there. Dylan left the stage, and later came back with an acoustic guitar to sing \"It's All Over Now, Baby Blue\" and \"Mr. Tambourine Man\", a gesture some saw as a farewell to the folk world.\n\nOver the years the story has been embroidered. A popular legend has Pete Seeger threatening to cut the sound cables with an axe, though Seeger himself said he was upset only because he could not understand the words. The truth is that Dylan did not abandon folk music so much as stretch it, bringing the poetry of the coffeehouse into the volume of rock and roll.\n\nA year later, on a tour of England, an audience member in Manchester shouted \"Judas!\" at him. Dylan told his band to play it loud. He had made his choice. Within a few years many folk singers were plugging in, and the line between folk and rock had blurred for good.",
+      "songs": [
+        "folk-singer-songwriter-s03"
+      ]
+    },
+    {
+      "id": "folk-singer-songwriter-st2",
+      "title": "Tapestry",
+      "dek": "A Brill Building songwriter finds her own voice",
+      "year": 1971,
+      "body": "In the early 1960s Carole King was a teenage songwriter working in an office building on Broadway in New York, alongside other young songwriters who turned out hit after hit. With her husband, the lyricist Gerry Goffin, she wrote \"Will You Love Me Tomorrow\", which became a No. 1 hit for the Shirelles when she was only 18. She also wrote songs such as \"Up on the Roof\" for the Drifters and \"(You Make Me Feel Like) A Natural Woman\" for Aretha Franklin. Millions knew her songs, but almost nobody knew her name.\n\nBy the end of the decade her marriage with Goffin had ended. King moved to Laurel Canyon, a hillside neighborhood in Los Angeles where musicians such as Joni Mitchell and James Taylor lived. It was an informal, friendly scene, and she began to perform her own songs, often accompanying herself on piano. Producer Lou Adler encouraged her to make a record.\n\nShe recorded Tapestry in early 1971 at A&M Studios, working with a small group of friends, including Taylor on guitar and backing vocals. The songs were direct, honest and sung in a warm, unfussy voice. \"It's Too Late\" was a calm farewell to a love that had faded. \"So Far Away\" described the pain of distance. Even songs she had written for others, like \"A Natural Woman\" and \"Will You Love Me Tomorrow\", took on new meaning when she sang them herself. \"You've Got a Friend\" was a simple promise of loyalty, and Taylor recorded his own version.\n\nThe album came out in February 1971, and it was a huge success. It spent 15 weeks at No. 1 on the Billboard album chart and stayed on the chart for more than 300 weeks. At the 1972 Grammy Awards, King won four trophies: Album of the Year, Record of the Year for \"It's Too Late\", Song of the Year for \"You've Got a Friend\" and Best Pop Vocal Performance, Female. It became one of the best-selling albums of all time.\n\nThe record also helped define a new style. The singer-songwriter era was built on personal, reflective songs, and Tapestry became its most visible monument. King had spent a decade writing hits in the shadows. In one winter, she became a star in her own right, and she showed that a woman at a piano with her own words could fill a stadium.",
+      "songs": [
+        "folk-singer-songwriter-s10"
+      ]
+    },
+    {
+      "id": "folk-singer-songwriter-st3",
+      "title": "The Sound of Silence, Remixed",
+      "dek": "The flop that turned into a No. 1 hit",
+      "year": 1965,
+      "body": "Paul Simon and Art Garfunkel had known each other since they were boys in Forest Hills, Queens. As teenagers they had recorded a minor hit under the name Tom and Jerry, and in the early 1960s they began playing as a folk duo in Greenwich Village. In 1964 they signed with Columbia Records and made an acoustic album, Wednesday Morning, 3 A.M. It included a quiet, haunting song Simon had written called \"The Sound of Silence\".\n\nThe album sold very poorly. The two friends drifted apart. Garfunkel went back to his graduate studies at Columbia University, and Simon moved to England, where he played in folk clubs and recorded a solo album. It looked as though the duo was finished.\n\nBack in New York, the folk-rock boom was starting. The Byrds had topped the charts with an electric version of Dylan's \"Mr. Tambourine Man\". Tom Wilson, a Columbia producer who had been working with Bob Dylan, noticed that radio stations in Boston and Florida were playing \"The Sound of Silence\" from the old album. In June 1965 he went into a studio with the same musicians who had played on Dylan's \"Like a Rolling Stone\" sessions, and he added electric guitar, bass and drums to Simon and Garfunkel's original recording. He did not tell the duo, and he did not ask.\n\nColumbia released the remixed version as a single in September 1965. Simon and Garfunkel had not been consulted, and they were reportedly surprised by the result. But it caught on in a hurry. On the chart dated January 1, 1966, it reached No. 1 on the Billboard Hot 100.\n\nSimon returned to America, and the two reunited to record a new album, Sounds of Silence, which came out in January 1966. They went on to a run of hits, including \"Mrs. Robinson\", \"Scarborough Fair\" and \"Bridge Over Troubled Water\", before parting in 1970.\n\nThe episode is a good reminder of how much of pop history is accident. A quiet acoustic track, written by a young man in his early 20s and ignored on release, found a second life through a producer's gamble. Simon had written a song about silence, and it took a drum kit to make the world listen.",
+      "songs": [
+        "folk-singer-songwriter-s02"
+      ]
+    }
+  ]
+}

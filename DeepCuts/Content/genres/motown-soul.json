@@ -1,0 +1,562 @@
+{
+  "id": "motown-soul",
+  "name": "Motown & Soul",
+  "blurb": "Detroit hit factories, Memphis grit and the voices that changed American music.",
+  "era": "1959-1977",
+  "questions": [
+    {
+      "id": "motown-soul-q01",
+      "prompt": "Which singer, known as the Queen of Soul, took \"Respect\" to No. 1 in 1967?",
+      "choices": [
+        "Aretha Franklin",
+        "Diana Ross",
+        "Gladys Knight",
+        "Tina Turner"
+      ],
+      "answer": 0,
+      "fact": "Otis Redding wrote and first recorded the song. Aretha added the spelled-out \"R-E-S-P-E-C-T\" and the \"sock it to me\" lines.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q02",
+      "prompt": "Which Motown singer's 1971 album What's Going On responded to war, poverty and unrest?",
+      "choices": [
+        "Stevie Wonder",
+        "Smokey Robinson",
+        "Marvin Gaye",
+        "Levi Stubbs"
+      ],
+      "answer": 2,
+      "fact": "The title song was co-written by Renaldo \"Obie\" Benson of the Four Tops, who was shaken by police violence he saw at an anti-war protest in Berkeley.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q03",
+      "prompt": "Diana Ross, Mary Wilson and Florence Ballard made up which Motown trio?",
+      "choices": [
+        "The Marvelettes",
+        "The Supremes",
+        "The Vandellas",
+        "The Velvelettes"
+      ],
+      "answer": 1,
+      "fact": "Between 1964 and 1965 they scored five consecutive No. 1 hits on the Billboard Hot 100.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q04",
+      "prompt": "What name was on the sign over Motown's Detroit headquarters on West Grand Boulevard?",
+      "choices": [
+        "Soulville Studios",
+        "Tamla Town Hall",
+        "Motor City Music",
+        "Hitsville U.S.A."
+      ],
+      "answer": 3,
+      "fact": "The modest house served as Motown's home until 1972, when the company moved to Los Angeles. It is now a museum.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q05",
+      "prompt": "Which singer was known as the Godfather of Soul and \"the hardest-working man in show business\"?",
+      "choices": [
+        "Wilson Pickett",
+        "Sam Cooke",
+        "Percy Sledge",
+        "James Brown"
+      ],
+      "answer": 3,
+      "fact": "His 1965 hit \"I Got You (I Feel Good)\" and his tight, rhythmic band helped lay the foundation for funk.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q06",
+      "prompt": "Stax Records, home of Otis Redding and Sam and Dave, was based in which city?",
+      "choices": [
+        "Detroit",
+        "Memphis",
+        "Muscle Shoals",
+        "Philadelphia"
+      ],
+      "answer": 1,
+      "fact": "Stax occupied a converted movie theater on East McLemore Avenue, and its house band was Booker T. and the M.G.'s.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q07",
+      "prompt": "Which Supremes lead singer left in 1970 to start a solo career?",
+      "choices": [
+        "Mary Wilson",
+        "Florence Ballard",
+        "Diana Ross",
+        "Cindy Birdsong"
+      ],
+      "answer": 2,
+      "fact": "Her second solo single, a cover of \"Ain't No Mountain High Enough\", went to No. 1.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q08",
+      "prompt": "Which Motown group took \"My Girl\" to No. 1 in 1965?",
+      "choices": [
+        "The Temptations",
+        "The Four Tops",
+        "The Miracles",
+        "The Contours"
+      ],
+      "answer": 0,
+      "fact": "Smokey Robinson and Ronald White wrote it, and David Ruffin sang lead.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q09",
+      "prompt": "Which singer's \"(Sittin' On) The Dock of the Bay\" became a No. 1 hit after his death in 1967?",
+      "choices": [
+        "Otis Redding",
+        "Sam Cooke",
+        "Wilson Pickett",
+        "Solomon Burke"
+      ],
+      "answer": 0,
+      "fact": "Redding died in a plane crash in a Wisconsin lake at age 26, just days after recording the song.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q10",
+      "prompt": "Which Motown star played the clavinet riff and the drums on \"Superstition\"?",
+      "choices": [
+        "Marvin Gaye",
+        "Smokey Robinson",
+        "Stevie Wonder",
+        "Lionel Richie"
+      ],
+      "answer": 2,
+      "fact": "Wonder recorded most of the track himself, and it topped the Billboard Hot 100 in January 1973.",
+      "difficulty": 1
+    },
+    {
+      "id": "motown-soul-q11",
+      "prompt": "At 13, which prodigy took the live recording \"Fingertips (Pt. 2)\" to No. 1 in 1963?",
+      "choices": [
+        "Michael Jackson",
+        "Little Stevie Wonder",
+        "Marvin Gaye",
+        "Smokey Robinson"
+      ],
+      "answer": 1,
+      "fact": "He was one of the youngest artists ever to top the Hot 100, and the single was taken from a Motortown Revue concert.",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q12",
+      "prompt": "Which songwriting trio wrote \"Baby Love\", \"You Can't Hurry Love\" and \"Reach Out I'll Be There\"?",
+      "choices": [
+        "Ashford and Simpson",
+        "Gamble and Huff",
+        "Leiber and Stoller",
+        "Holland-Dozier-Holland"
+      ],
+      "answer": 3,
+      "fact": "They left Motown in 1968 after a royalty dispute and founded their own labels, Invictus and Hot Wax.",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q13",
+      "prompt": "Which singer partnered with Marvin Gaye on \"Ain't No Mountain High Enough\" in 1967?",
+      "choices": [
+        "Kim Weston",
+        "Mary Wells",
+        "Martha Reeves",
+        "Tammi Terrell"
+      ],
+      "answer": 3,
+      "fact": "Terrell collapsed on stage in Gaye's arms in 1967 and died of a brain tumor in 1970 at the age of 24.",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q14",
+      "prompt": "Marvin Gaye's 1968 \"I Heard It Through the Grapevine\" was a hit a year earlier for which group?",
+      "choices": [
+        "The Four Tops",
+        "Gladys Knight and the Pips",
+        "The Temptations",
+        "Martha and the Vandellas"
+      ],
+      "answer": 1,
+      "fact": "The Pips' 1967 version reached No. 2. Barrett Strong and Norman Whitfield wrote the song.",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q15",
+      "prompt": "Isaac Hayes's \"Theme from Shaft\" won which award in 1972?",
+      "choices": [
+        "The Grammy for Album of the Year",
+        "The Tony for Best Score",
+        "The Oscar for Best Song",
+        "The Pulitzer Prize for Music"
+      ],
+      "answer": 2,
+      "fact": "Hayes was the first African American to win the Oscar for Best Original Song.",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q16",
+      "prompt": "Curtis Mayfield wrote \"People Get Ready\" for which vocal group?",
+      "choices": [
+        "The Impressions",
+        "The Spinners",
+        "The O'Jays",
+        "The Drifters"
+      ],
+      "answer": 0,
+      "fact": "The 1965 song, a gospel-flavored plea for unity, was later covered by Aretha Franklin and Jeff Beck, and Bob Marley borrowed from it for \"One Love\".",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q17",
+      "prompt": "Which girl group gave Motown its first No. 1 pop single in 1961 with \"Please Mr. Postman\"?",
+      "choices": [
+        "The Marvelettes",
+        "The Supremes",
+        "The Shirelles",
+        "The Chiffons"
+      ],
+      "answer": 0,
+      "fact": "The Beatles covered the song in 1963, and the Carpenters took it back to No. 1 in 1975.",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q18",
+      "prompt": "Gamble and Huff's label, home of the O'Jays and Harold Melvin and the Blue Notes, was called what?",
+      "choices": [
+        "Invictus Records",
+        "Hi Records",
+        "Philadelphia International Records",
+        "Scepter Records"
+      ],
+      "answer": 2,
+      "fact": "Founded in 1971, it built the lush \"Philly Sound\" with the studio band MFSB.",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q19",
+      "prompt": "Which band, led by Sly Stone, was one of the first major rock-soul groups with Black and white men and women?",
+      "choices": [
+        "Parliament",
+        "Sly and the Family Stone",
+        "Earth, Wind and Fire",
+        "Kool and the Gang"
+      ],
+      "answer": 1,
+      "fact": "They had a hit with \"Everyday People\" in 1968 and played a famous set at Woodstock in 1969.",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q20",
+      "prompt": "Which group's 1964 hit \"Dancing in the Street\" was co-written by Marvin Gaye?",
+      "choices": [
+        "The Supremes",
+        "The Marvelettes",
+        "The Velvelettes",
+        "Martha and the Vandellas"
+      ],
+      "answer": 3,
+      "fact": "David Bowie and Mick Jagger released a cover in 1985 to raise money for famine relief.",
+      "difficulty": 2
+    },
+    {
+      "id": "motown-soul-q21",
+      "prompt": "Berry Gordy borrowed how much from his family to start Motown's first label in 1959?",
+      "choices": [
+        "$8,000",
+        "$80,000",
+        "$80",
+        "$800"
+      ],
+      "answer": 3,
+      "fact": "He used it to found Tamla Records, and Motown was incorporated the following year.",
+      "difficulty": 3
+    },
+    {
+      "id": "motown-soul-q22",
+      "prompt": "What was the nickname of Motown's cramped Studio A, where many hits were recorded?",
+      "choices": [
+        "The Hit Factory",
+        "The Snakepit",
+        "The Garage",
+        "The Pressing Plant"
+      ],
+      "answer": 1,
+      "fact": "The small room held the Funk Brothers, Motown's uncredited house band, who played on hit after hit.",
+      "difficulty": 3
+    },
+    {
+      "id": "motown-soul-q23",
+      "prompt": "Which Stax guitarist co-wrote \"(Sittin' On) The Dock of the Bay\" with Otis Redding?",
+      "choices": [
+        "Isaac Hayes",
+        "Booker T. Jones",
+        "Steve Cropper",
+        "Donald \"Duck\" Dunn"
+      ],
+      "answer": 2,
+      "fact": "Cropper finished the track after Redding's death and added the sound of waves and seagulls.",
+      "difficulty": 3
+    },
+    {
+      "id": "motown-soul-q24",
+      "prompt": "James Brown paid for the recording of Live at the Apollo himself because his label's owner doubted it would sell. Which label?",
+      "choices": [
+        "King Records",
+        "Atlantic Records",
+        "Chess Records",
+        "Specialty Records"
+      ],
+      "answer": 0,
+      "fact": "The 1963 album reached No. 2 on the Billboard 200 and is often named among the greatest live albums.",
+      "difficulty": 3
+    },
+    {
+      "id": "motown-soul-q25",
+      "prompt": "The Temptations formed from the merger of two Detroit groups. Which pair?",
+      "choices": [
+        "The Primes and the Distants",
+        "The Contours and the Elgins",
+        "The Spinners and the Vandellas",
+        "The Miracles and the Satintones"
+      ],
+      "answer": 0,
+      "fact": "Otis Williams and Melvin Franklin came from the Distants, and Eddie Kendricks and Paul Williams from the Primes.",
+      "difficulty": 3
+    },
+    {
+      "id": "motown-soul-q26",
+      "prompt": "Sam Cooke wrote \"A Change Is Gonna Come\" after being moved by which song?",
+      "choices": [
+        "\"We Shall Overcome\"",
+        "\"Strange Fruit\"",
+        "\"Blowin' in the Wind\"",
+        "\"Where Have All the Flowers Gone\""
+      ],
+      "answer": 2,
+      "fact": "The single was released in December 1964, days after Cooke was shot and killed in Los Angeles.",
+      "difficulty": 3
+    },
+    {
+      "id": "motown-soul-q27",
+      "prompt": "Al Green's early 1970s hits were recorded at Royal Studios in Memphis for which label?",
+      "choices": [
+        "Stax Records",
+        "Hi Records",
+        "Sun Records",
+        "Goldwax Records"
+      ],
+      "answer": 1,
+      "fact": "Producer Willie Mitchell shaped Green's sound with a tight rhythm section and warm horns.",
+      "difficulty": 3
+    },
+    {
+      "id": "motown-soul-q28",
+      "prompt": "Which Atlantic producer, who had coined the term \"rhythm and blues\" as a magazine writer, produced Aretha Franklin's 1967 breakthrough?",
+      "choices": [
+        "Berry Gordy",
+        "Sam Phillips",
+        "Chips Moman",
+        "Jerry Wexler"
+      ],
+      "answer": 3,
+      "fact": "The first sessions for I Never Loved a Man the Way I Love You were cut at FAME Studios in Muscle Shoals.",
+      "difficulty": 3
+    },
+    {
+      "id": "motown-soul-q29",
+      "prompt": "Stevie Wonder originally wrote \"Superstition\" for which guitarist?",
+      "choices": [
+        "Eric Clapton",
+        "Carlos Santana",
+        "Jimi Hendrix",
+        "Jeff Beck"
+      ],
+      "answer": 3,
+      "fact": "Motown wanted Wonder's own version released first, and Beck recorded it in 1973 with Beck, Bogert and Appice.",
+      "difficulty": 3
+    },
+    {
+      "id": "motown-soul-q30",
+      "prompt": "Motown bassist James Jamerson gave what name to his Fender Precision Bass?",
+      "choices": [
+        "Lucille",
+        "The Funk Machine",
+        "Old Betsy",
+        "The Hitmaker"
+      ],
+      "answer": 1,
+      "fact": "Jamerson played on dozens of hits as a member of the Funk Brothers but was not credited on an album until What's Going On.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "motown-soul-s01",
+      "title": "Shop Around",
+      "artist": "The Miracles",
+      "year": 1960,
+      "album": "Hi... We're the Miracles",
+      "note": "It was Motown's first million-selling single."
+    },
+    {
+      "id": "motown-soul-s02",
+      "title": "Please Mr. Postman",
+      "artist": "The Marvelettes",
+      "year": 1961,
+      "album": "Please Mr. Postman",
+      "note": "It was Motown's first No. 1 on the Billboard Hot 100."
+    },
+    {
+      "id": "motown-soul-s03",
+      "title": "Do You Love Me",
+      "artist": "The Contours",
+      "year": 1962,
+      "album": "Do You Love Me (Now That I Can Dance)",
+      "note": "Berry Gordy wrote it, and it was a hit again in 1987 after Dirty Dancing."
+    },
+    {
+      "id": "motown-soul-s04",
+      "title": "Heat Wave",
+      "artist": "Martha and the Vandellas",
+      "year": 1963,
+      "album": "Heat Wave",
+      "note": "Holland-Dozier-Holland wrote it, and it was the group's first Top 10 hit."
+    },
+    {
+      "id": "motown-soul-s05",
+      "title": "My Girl",
+      "artist": "The Temptations",
+      "year": 1964,
+      "album": "The Temptations Sing Smokey",
+      "note": "David Ruffin sang lead on the group's first No. 1."
+    },
+    {
+      "id": "motown-soul-s06",
+      "title": "Stop! In the Name of Love",
+      "artist": "The Supremes",
+      "year": 1965,
+      "album": "More Hits by The Supremes",
+      "note": "It was the Supremes' fourth straight No. 1."
+    },
+    {
+      "id": "motown-soul-s07",
+      "title": "Reach Out I'll Be There",
+      "artist": "Four Tops",
+      "year": 1966,
+      "album": "Reach Out",
+      "note": "It topped the charts in both the US and the UK."
+    },
+    {
+      "id": "motown-soul-s08",
+      "title": "Respect",
+      "artist": "Aretha Franklin",
+      "year": 1967,
+      "album": "I Never Loved a Man the Way I Love You",
+      "note": "Otis Redding wrote it, and Aretha's version went to No. 1."
+    },
+    {
+      "id": "motown-soul-s09",
+      "title": "(Sittin' On) The Dock of the Bay",
+      "artist": "Otis Redding",
+      "year": 1968,
+      "album": "The Dock of the Bay",
+      "note": "It became the first posthumous No. 1 single in US chart history."
+    },
+    {
+      "id": "motown-soul-s10",
+      "title": "I Heard It Through the Grapevine",
+      "artist": "Marvin Gaye",
+      "year": 1968,
+      "album": "In the Groove",
+      "note": "It was a No. 1 hit for seven weeks in the US."
+    },
+    {
+      "id": "motown-soul-s11",
+      "title": "I Want You Back",
+      "artist": "The Jackson 5",
+      "year": 1969,
+      "album": "Diana Ross Presents The Jackson 5",
+      "note": "Michael Jackson was 11 when the group's first Motown single came out."
+    },
+    {
+      "id": "motown-soul-s12",
+      "title": "Signed, Sealed, Delivered I'm Yours",
+      "artist": "Stevie Wonder",
+      "year": 1970,
+      "album": "Signed, Sealed & Delivered",
+      "note": "Wonder co-wrote it with his mother, Lula Mae Hardaway, and others."
+    },
+    {
+      "id": "motown-soul-s13",
+      "title": "What's Going On",
+      "artist": "Marvin Gaye",
+      "year": 1971,
+      "album": "What's Going On",
+      "note": "Gaye produced the album himself."
+    },
+    {
+      "id": "motown-soul-s14",
+      "title": "Let's Stay Together",
+      "artist": "Al Green",
+      "year": 1971,
+      "album": "Let's Stay Together",
+      "note": "Producer Willie Mitchell recorded it at Royal Studios in Memphis."
+    },
+    {
+      "id": "motown-soul-s15",
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "year": 1972,
+      "album": "Talking Book",
+      "note": "The clavinet riff opens the song."
+    },
+    {
+      "id": "motown-soul-s16",
+      "title": "Midnight Train to Georgia",
+      "artist": "Gladys Knight & The Pips",
+      "year": 1973,
+      "album": "Imagination",
+      "note": "The song was first written as \"Midnight Plane to Houston\"."
+    }
+  ],
+  "stories": [
+    {
+      "id": "motown-soul-st1",
+      "title": "Hitsville, U.S.A.",
+      "dek": "Berry Gordy's assembly line for hit records",
+      "year": 1959,
+      "body": "Berry Gordy Jr. was a Detroit songwriter who had worked on the Lincoln-Mercury assembly line. He noticed that a car came off the line better and faster if each worker did one job well. In 1959 he borrowed $800 from his family and decided to apply the same idea to music. He founded Tamla Records, and a year later he incorporated Motown, whose name was short for Motor Town, the nickname of the city.\n\nGordy bought a two-story house at 2648 West Grand Boulevard and hung a sign across the front reading \"Hitsville U.S.A.\" He turned the garage and a back room into a recording studio, which the musicians called the Snakepit. The band that played there, called the Funk Brothers, included bassist James Jamerson and drummer Benny Benjamin, jazz players who gave the records their swing.\n\nThe company worked like a factory. Songwriters and producers competed to write the best song, and every Friday morning a quality control team met to vote on which records would be released. Gordy often had the last word. Singers also took classes. A teacher named Maxine Powell taught manners and posture, and the choreographer Cholly Atkins worked out stage routines, so that Motown acts could appear in any club or TV studio in the country.\n\nThe first big success came in 1960, when the Miracles, led by a young songwriter and singer named Smokey Robinson, released \"Shop Around\", Motown's first million-selling single. In 1961 the Marvelettes, a group of high school girls from nearby Inkster, scored the company's first No. 1 pop hit with \"Please Mr. Postman\". The sound was soon known as the Sound of Young America: tambourines, handclaps, bright horns and a driving bass over a gospel-tinged vocal.\n\nBy the mid-1960s the stream of hits was extraordinary. The Supremes, the Four Tops, the Temptations, Martha and the Vandellas and a teenage Stevie Wonder all recorded in the little house, and the songwriting team of Holland-Dozier-Holland supplied many of the biggest numbers. The label was also notable for crossing the color line at a time when American radio and society were still largely segregated. Gordy aimed for a crossover audience, and he got one.\n\nMotown moved to Los Angeles in 1972, but the house on West Grand Boulevard remains. Now a museum, it still includes the tiny studio, and visitors can stand where some of the century's best records were made.",
+      "songs": [
+        "motown-soul-s01",
+        "motown-soul-s02"
+      ]
+    },
+    {
+      "id": "motown-soul-st2",
+      "title": "Marvin Gaye Asks What's Going On",
+      "dek": "The record Berry Gordy did not want to release",
+      "year": 1971,
+      "body": "By 1970 Marvin Gaye was one of Motown's biggest stars, but he was unhappy. His singing partner Tammi Terrell had died that March, and he had withdrawn from performing. He was also thinking about the world around him. His brother Frankie had come home from Vietnam with stories of what he had seen, and American cities were churning with protests and unrest.\n\nAround the same time, Renaldo \"Obie\" Benson of the Four Tops had been on tour in California. He saw police clashing with anti-war demonstrators in Berkeley, and he was disturbed. With the songwriter Al Cleveland, he began to write a song that asked what was going on. The Four Tops did not want to record it, so Benson took the song to Gaye. Gaye added a melody and new lyrics and made it his own.\n\nIn the summer of 1970 Gaye brought the Funk Brothers into Motown's Studio A in Detroit. The sessions were relaxed and loose, with the singer double-tracking his own voice, and with the musicians improvising around his ideas. The result was a seamless flow of songs about war, poverty, the environment and faith. It was also a different kind of Motown record, with strings and congas, and a mood that was gentle and reflective.\n\nBerry Gordy was not convinced. He thought the song was too political and too different from the radio hits the company was known for. He is reported to have called it the worst thing he had heard. Gaye stood firm, and went on a strike of sorts, refusing to record anything more until the record was released. Eventually Motown put the single out in January 1971. It sold well, and the company changed its mind. It reached No. 2 on the Billboard Hot 100.\n\nThe album, What's Going On, followed in May. It was one of the first Motown albums to give credit to the musicians, and Gaye produced it himself. James Jamerson, who played bass on much of it, was credited by name. The album sold well and became one of the best-loved records of the 1970s.\n\nHalf a century later, the questions Gaye asked still feel urgent. What began as an act of artistic defiance changed what a soul album could be, and it gave Motown artists new freedom to write and produce their own work.",
+      "songs": [
+        "motown-soul-s13"
+      ]
+    },
+    {
+      "id": "motown-soul-st3",
+      "title": "Dock of the Bay",
+      "dek": "Otis Redding's last song",
+      "year": 1967,
+      "body": "Otis Redding grew up in Macon, Georgia, and began singing in church and in local talent shows. By the mid-1960s he was the leading male voice at Stax Records in Memphis, a studio in a converted movie theater on East McLemore Avenue. With the house band, Booker T. and the M.G.'s, he recorded hits such as \"These Arms of Mine\" and \"Try a Little Tenderness\". He also wrote \"Respect\", which Aretha Franklin turned into a No. 1 hit in 1967.\n\nIn June 1967 he played the Monterey Pop Festival in California. The audience was made up of rock fans, not soul fans, and many had never heard him. His set was a triumph, and he came away with a new audience. Not long afterward he rented a houseboat in Sausalito, across the bay from San Francisco, where he began to write a new song. Watching the ships roll in and out of the harbor, he came up with a mood of loneliness and waiting.\n\nRedding took the idea back to Memphis and finished the song with Stax guitarist Steve Cropper. It was a quieter, more reflective piece than his usual work. They recorded the song in late November and early December 1967. As the track neared its end, Redding had not written a final verse. He whistled instead, planning to fill the space later. Cropper added the sound of waves and seagulls.\n\nOn December 10, 1967, Redding and his band, the Bar-Kays, were flying to a gig in Madison, Wisconsin. Their plane crashed into Lake Monona, and Redding was killed at the age of 26, along with four members of the Bar-Kays. The song was not finished. Cropper and others worked from the tape, and Stax released the record in January 1968.\n\n\"(Sittin' On) The Dock of the Bay\" reached No. 1 on the Billboard Hot 100 in March 1968. It was the first posthumous No. 1 single in the history of the chart. The whistling at the end, which Redding had meant as a placeholder, became one of the most recognizable parts of the recording.\n\nThe song's gentle sadness still strikes a chord with listeners. It showed that a singer known for fiery ballads could also be a quiet poet, and it left behind a hint of what he might have done next.",
+      "songs": [
+        "motown-soul-s08",
+        "motown-soul-s09"
+      ]
+    }
+  ]
+}
