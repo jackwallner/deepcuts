@@ -6,16 +6,16 @@
   "questions": [
     {
       "id": "prog-rock-q01",
-      "prompt": "Which band's 1973 album The Dark Side of the Moon has a prism and a rainbow on its cover?",
+      "prompt": "Which 23-minute Genesis epic, divided into seven sections, fills side two of the 1972 album Foxtrot?",
       "choices": [
-        "Pink Floyd",
-        "Yes",
-        "Genesis",
-        "King Crimson"
+        "Supper's Ready",
+        "The Musical Box",
+        "The Knife",
+        "Firth of Fifth"
       ],
       "answer": 0,
-      "fact": "The cover was designed by Storm Thorgerson and Aubrey Powell of the design group Hipgnosis.",
-      "difficulty": 1
+      "fact": "Peter Gabriel sang it, and it became the centerpiece of the band's theatrical live shows.",
+      "difficulty": 2
     },
     {
       "id": "prog-rock-q02",
@@ -214,16 +214,16 @@
     },
     {
       "id": "prog-rock-q17",
-      "prompt": "Rush drummer Neil Peart, who wrote most of the band's lyrics, joined in 1974 replacing which drummer?",
+      "prompt": "Besides bass and vocals, Geddy Lee played which instrument on Rush's records from the late 1970s onward?",
       "choices": [
-        "John Rutsey",
-        "Bill Bruford",
-        "Phil Collins",
-        "Alan White"
+        "Synthesizers",
+        "Violin",
+        "Saxophone",
+        "Pedal steel"
       ],
       "answer": 0,
-      "fact": "Rutsey left over health problems and a dislike of touring, and Peart's lyrics later drew on ideas from writers such as Ayn Rand for \"2112\".",
-      "difficulty": 3
+      "fact": "He added synthesizers and bass pedals to the trio's sound, and the synth lines are prominent on \"Tom Sawyer\".",
+      "difficulty": 2
     },
     {
       "id": "prog-rock-q18",
@@ -240,24 +240,24 @@
     },
     {
       "id": "prog-rock-q19",
-      "prompt": "After Peter Gabriel left Genesis in 1975, the band auditioned many singers before choosing which member as its new frontman?",
+      "prompt": "Which 1973 Genesis album includes \"I Know What I Like (In Your Wardrobe)\"?",
       "choices": [
-        "Steve Hackett",
-        "Phil Collins",
-        "Mike Rutherford",
-        "Tony Banks"
+        "Selling England by the Pound",
+        "The Lamb Lies Down on Broadway",
+        "Wind & Wuthering",
+        "Nursery Cryme"
       ],
-      "answer": 1,
-      "fact": "Collins had sung backing vocals and demo parts, and he agreed to take the lead after the auditions went nowhere.",
+      "answer": 0,
+      "fact": "The album reached number three in the UK.",
       "difficulty": 2
     },
     {
       "id": "prog-rock-q20",
       "prompt": "Which band's 1979 album Breakfast in America shows a waitress posing as the Statue of Liberty?",
       "choices": [
-        "Kansas",
-        "Styx",
-        "Boston",
+        "10cc",
+        "Electric Light Orchestra",
+        "The Alan Parsons Project",
         "Supertramp"
       ],
       "answer": 3,
@@ -314,7 +314,7 @@
       ],
       "answer": 0,
       "fact": "Bruford left right after Close to the Edge, and he later formed his own jazz-rock band.",
-      "difficulty": 3
+      "difficulty": 2
     },
     {
       "id": "prog-rock-q25",
@@ -353,7 +353,7 @@
       ],
       "answer": 1,
       "fact": "Dubois wrote the original poem, and Neil Peart reworked it into the lyrics.",
-      "difficulty": 3
+      "difficulty": 2
     },
     {
       "id": "prog-rock-q28",
@@ -392,6 +392,58 @@
       ],
       "answer": 1,
       "fact": "The album sleeve thanks the \"genius of Ayn Rand\", whose novella Anthem inspired the story.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q31",
+      "prompt": "Where was Mike Oldfield's Tubular Bells largely recorded?",
+      "choices": [
+        "Abbey Road Studios",
+        "The Manor, in Oxfordshire",
+        "Rockfield Studios in Wales",
+        "Trident Studios in London"
+      ],
+      "answer": 1,
+      "fact": "Richard Branson's residential studio let Oldfield record the album in sessions between autumn 1972 and spring 1973.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q32",
+      "prompt": "The mock newspaper wrapped around Jethro Tull's Thick as a Brick is called what?",
+      "choices": [
+        "The Wickford Gazette",
+        "The Thornbury Post",
+        "The St. Cleve Chronicle",
+        "The Bostock Herald"
+      ],
+      "answer": 2,
+      "fact": "The 12-page spoof of a small-town paper, dated 7 January 1972, carries the full lyrics alongside fake news items and ads.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q33",
+      "prompt": "Decca originally wanted the Moody Blues to make a rock version of which classical work to show off stereo sound?",
+      "choices": [
+        "Dvořák's New World Symphony",
+        "Beethoven's Fifth Symphony",
+        "Holst's The Planets",
+        "Vivaldi's Four Seasons"
+      ],
+      "answer": 0,
+      "fact": "The band reportedly steered the project toward its own songs, which became Days of Future Passed.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q34",
+      "prompt": "Emerson, Lake & Palmer's second-ever concert, in August 1970, was at which festival?",
+      "choices": [
+        "The Bath Festival",
+        "The Isle of Wight Festival",
+        "The Atlanta Pop Festival",
+        "The Reading Festival"
+      ],
+      "answer": 1,
+      "fact": "Their set centered on Pictures at an Exhibition and ended with stage-side cannons.",
       "difficulty": 3
     }
   ],
@@ -618,34 +670,34 @@
       "note": "Paul Simon wrote it for Bookends. Yes recorded it in 1971 as a long showpiece, released it as a single in 1972, and later collected it on Yesterdays."
     },
     {
-      "id": "prog-rock-c02",
-      "title": "Jealous Guy",
-      "artist": "Roxy Music",
-      "year": 1981,
-      "album": "The Best of Roxy Music",
-      "original": "John Lennon",
-      "originalYear": 1971,
+      "id": "prog-rock-c09",
+      "title": "I See You",
+      "artist": "Yes",
+      "year": 1969,
+      "album": "Yes",
+      "original": "The Byrds",
+      "originalYear": 1967,
       "decoys": [
-        "Paul McCartney",
-        "George Harrison",
-        "Harry Nilsson"
+        "The Mamas & the Papas",
+        "Love",
+        "The Turtles"
       ],
-      "note": "Lennon released it on Imagine in 1971. Roxy Music recorded it after Lennon's death in 1980, and it reached number one in the UK."
+      "note": "Roger McGuinn and David Crosby wrote it, and the Byrds released it on Younger Than Yesterday in 1967. Yes reworked it with long instrumental passages on their 1969 debut."
     },
     {
-      "id": "prog-rock-c03",
-      "title": "Go Now",
-      "artist": "The Moody Blues",
-      "year": 1964,
-      "album": "The Magnificent Moodies",
-      "original": "Bessie Banks",
-      "originalYear": 1964,
+      "id": "prog-rock-c10",
+      "title": "Seven and Seven Is",
+      "artist": "Rush",
+      "year": 2004,
+      "album": "Feedback",
+      "original": "Love",
+      "originalYear": 1966,
       "decoys": [
-        "Dionne Warwick",
-        "Dusty Springfield",
-        "Mary Wells"
+        "The Doors",
+        "The Seeds",
+        "The Standells"
       ],
-      "note": "Larry Banks and Milton Bennett wrote it, and Bessie Banks released it in 1964. The Moody Blues, with Denny Laine singing, took it to number one in the UK in early 1965."
+      "note": "Arthur Lee wrote it for Love, which released it as a single in 1966. Rush recorded it for Feedback, a 2004 EP of songs that inspired the band in its early years."
     },
     {
       "id": "prog-rock-c04",
