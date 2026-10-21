@@ -14,6 +14,7 @@ import pathlib
 import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 
@@ -24,7 +25,7 @@ PAUSE = 3.2
 
 
 def norm(s: str) -> str:
-    s = s.lower().replace("&", "and")
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower().replace("&", "and")
     s = re.sub(r"\(.*?\)|\[.*?\]", "", s)
     s = re.split(r" - (?:\d{4} )?(?:remaster|remastered|mono|stereo|single|live|version|edit|radio)", s)[0]
     s = re.sub(r"[^a-z0-9 ]", "", s)
@@ -59,12 +60,15 @@ def best(song: dict, results: list[dict]) -> dict | None:
         if t != title and not t.startswith(title + " "):
             continue
         name = (r.get("trackName", "") + " " + r.get("collectionName", "")).lower()
-        live = "live" in name and "live" not in song["title"].lower()
+        # A live album (MTV Unplugged) wants the live take, not a rehearsal or studio cut.
+        live_album = any(w in song.get("album", "").lower() for w in ("live", "unplugged"))
+        live = "live" in name and "live" not in song["title"].lower() and not live_album
         compilation = r.get("collectionArtistName") not in (None, r.get("artistName"))
         karaoke = any(w in name for w in ("karaoke", "tribute", "cover", "re-recorded", "rerecorded"))
         raw = r.get("trackName", "").lower()
         alternate = any(w in raw and w not in song["title"].lower()
-                        for w in ("remix", "mix]", "mix)", "acoustic", "demo", "instrumental", "version", "take"))
+                        for w in ("remix", "mix]", "mix)", "edit", "rehearsal", "acoustic", "demo", "instrumental", "version", "take")
+                        if not (live_album and w == "acoustic"))
         if karaoke:
             continue
         # Prefer the original album over hits packages, for the right artwork.
@@ -77,22 +81,58 @@ def best(song: dict, results: list[dict]) -> dict | None:
     return ok[0][6] if ok else None
 
 
-def album_search(album: str, artist: str) -> dict | None:
-    url = "https://itunes.apple.com/search?" + urllib.parse.urlencode(
-        {"term": f"{album} {artist}", "entity": "album", "limit": 25, "country": "US"})
+def fetch(params: dict, path: str = "search") -> list[dict]:
+    url = f"https://itunes.apple.com/{path}?" + urllib.parse.urlencode({**params, "country": "US"})
     try:
         with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "deepcuts/1.0"}), timeout=30) as r:
-            results = json.load(r).get("results", [])
+            return json.load(r).get("results", [])
     except Exception as e:  # noqa: BLE001
-        print(f"  album search failed: {album}: {e}", file=sys.stderr)
-        return None
+        print(f"  lookup failed: {params}: {e}", file=sys.stderr)
+        return []
+
+
+def artist_albums(artist: str) -> list[dict]:
+    """The artist's own discography, so tribute albums can't outrank the real one."""
+    who = norm(artist)
+    for r in fetch({"term": artist, "entity": "musicArtist", "limit": 5}):
+        if norm(r.get("artistName", "")) == who:
+            time.sleep(PAUSE)
+            return [a for a in fetch({"id": r["artistId"], "entity": "album", "limit": 200}, "lookup")
+                    if a.get("wrapperType") == "collection"]
+    return []
+
+
+def artist_songs(artist: str) -> list[dict]:
+    who = norm(artist)
+    for r in fetch({"term": artist, "entity": "musicArtist", "limit": 5}):
+        if norm(r.get("artistName", "")) == who:
+            time.sleep(PAUSE)
+            return fetch({"id": r["artistId"], "entity": "song", "limit": 200}, "lookup")
+    return []
+
+
+def album_search(album: str, artist: str) -> dict | None:
     want, who = norm(album), norm(artist)
-    hits = [r for r in results
-            if (who in norm(r.get("artistName", "")) or norm(r.get("artistName", "")) in who)
-            and (norm(r.get("collectionName", "")) == want or norm(r.get("collectionName", "")).startswith(want + " "))]
-    # The plain edition first, then the oldest.
-    hits.sort(key=lambda r: (norm(r.get("collectionName", "")) != want, r.get("releaseDate", "9999")))
-    return hits[0] if hits else None
+    alt = ("live", "single", "remix", "karaoke", "tribute", "ep")
+
+    def pick(results: list[dict]) -> dict | None:
+        hits = [r for r in results
+                if (who in norm(r.get("artistName", "")) or norm(r.get("artistName", "")) in who)
+                and (norm(r.get("collectionName", "")) == want or norm(r.get("collectionName", "")).startswith(want + " "))
+                and ("remix" not in r.get("collectionName", "").lower() or "remix" in album.lower())]
+        # The plain edition first, then studio over live/single/remix, then the oldest.
+        def key(r: dict) -> tuple:
+            name = r.get("collectionName", "").lower()
+            odd = any(re.search(rf"\b{w}\b", name) and w not in album.lower() for w in alt)
+            return (norm(name) != want, odd, r.get("releaseDate", "9999"))
+        hits.sort(key=key)
+        return hits[0] if hits else None
+
+    hit = pick(artist_albums(artist)) if who != "various artists" else None
+    if not hit:
+        time.sleep(PAUSE)
+        hit = pick(fetch({"term": f"{album} {artist}", "entity": "album", "limit": 25}))
+    return hit
 
 
 def resolve_covers(catalog: dict, refresh: bool, only: str | None, problems: list[str]) -> None:
@@ -146,6 +186,8 @@ def main() -> int:
             if not hit:
                 hit = best(song, search(song["title"]))
                 time.sleep(PAUSE)
+            if not hit:
+                hit = best(song, artist_songs(song["artist"]))
             if not hit:
                 problems.append(f"NO MATCH  {song['id']}: {song['title']} / {song['artist']}")
                 catalog.pop(song["id"], None)
