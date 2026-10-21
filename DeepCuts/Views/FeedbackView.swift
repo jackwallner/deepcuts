@@ -7,6 +7,9 @@ struct FeedbackView: View {
     @Environment(AppModel.self) private var app
     @Environment(\.dismiss) private var dismiss
     let context: String
+    var title = "Suggest a change"
+    var pitch = "Add a genre, fix a wrong answer, change how something works. Jack's build assistant picks it up right away and sends a new TestFlight build, usually within the hour."
+    var placeholder = "For example: Add a crate for '50s rock and roll, Elvis, Chuck Berry, Buddy Holly."
 
     @State private var text = ""
     @State private var name = ""
@@ -42,8 +45,8 @@ struct FeedbackView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("Suggest a change").font(Theme.display(30)).foregroundStyle(Theme.ink)
-                    Text("Add a genre, fix a wrong answer, change how something works. Jack's build assistant picks it up right away and sends a new TestFlight build, usually within the hour.")
+                    Text(title).font(Theme.display(30)).foregroundStyle(Theme.ink)
+                    Text(pitch)
                         .font(.subheadline).foregroundStyle(Theme.inkSoft)
                         .fixedSize(horizontal: false, vertical: true)
                 }
@@ -51,7 +54,7 @@ struct FeedbackView: View {
 
                 ZStack(alignment: .topLeading) {
                     if text.isEmpty {
-                        Text("For example: Add a crate for '50s rock and roll, Elvis, Chuck Berry, Buddy Holly.")
+                        Text(placeholder)
                             .foregroundStyle(Theme.inkSoft.opacity(0.7))
                             .padding(.horizontal, 17).padding(.vertical, 16)
                             .allowsHitTesting(false)

@@ -38,7 +38,7 @@ final class DeepCutsUITests: XCTestCase {
         let crate = app.buttons["open-classic-rock"]
         XCTAssertTrue(crate.waitForExistence(timeout: 10))
         crate.tap()
-        for mode in ["trivia", "firstOf"] {
+        for mode in ["trivia", "hard", "firstOf"] {
             let button = app.buttons["mode-\(mode)"]
             XCTAssertTrue(button.waitForExistence(timeout: 5))
             button.tap()
@@ -51,6 +51,23 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertTrue(story.waitForExistence(timeout: 5))
         story.tap()
         XCTAssertTrue(app.staticTexts["Listen"].waitForExistence(timeout: 5))
+    }
+
+    func testReportAProblemFromAnAnswer() {
+        let app = launch(["-ui-focus", "classic-rock"])
+        let play = app.buttons["play-daily"]
+        XCTAssertTrue(play.waitForExistence(timeout: 10))
+        play.tap()
+        let choice = app.buttons["choice-0"]
+        XCTAssertTrue(choice.waitForExistence(timeout: 10))
+        choice.tap()
+        let report = app.buttons["quiz-report"]
+        XCTAssertTrue(report.waitForExistence(timeout: 5))
+        report.tap()
+        XCTAssertTrue(app.textViews["feedback-text"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Report a problem"].exists)
+        app.buttons["Cancel"].tap()
+        XCTAssertTrue(app.buttons["quiz-next"].waitForExistence(timeout: 5), "back on the same question")
     }
 
     func testSuggestionSends() {
