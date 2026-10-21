@@ -25,7 +25,7 @@ struct StoriesView: View {
                 .padding(.horizontal, Theme.gutter)
                 .padding(.bottom, 32)
             }
-            .background(Theme.paper.ignoresSafeArea())
+            .paperPage()
             .navigationDestination(for: Story.self) { StoryView(story: $0) }
         }
     }
@@ -119,7 +119,7 @@ struct StoryView: View {
             .padding(.horizontal, Theme.gutter)
             .padding(.bottom, 40)
         }
-        .background(Theme.paper.ignoresSafeArea())
+        .paperPage()
         .navigationBarTitleDisplayMode(.inline)
         .onAppear { app.progress.markRead(story) }
         .onDisappear { app.player.stop() }

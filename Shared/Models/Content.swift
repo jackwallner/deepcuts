@@ -48,10 +48,14 @@ struct CoverSong: Codable, Identifiable, Hashable, Sendable {
     let decoys: [String]
     let note: String
 
+    /// Who had it first, then the story, without saying the year twice.
+    var originNote: String {
+        note.contains(String(originalYear)) ? note : "First released by \(original) in \(originalYear). \(note)"
+    }
+
     /// As a record row: the cover, with who had it first.
     var asSong: Song {
-        Song(id: id, title: title, artist: artist, year: year, album: album,
-             note: "First released by \(original) in \(originalYear). \(note)")
+        Song(id: id, title: title, artist: artist, year: year, album: album, note: originNote)
     }
 }
 

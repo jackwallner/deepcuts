@@ -131,7 +131,7 @@ struct QuizBuilder {
                 prompt: "\(cover.artist) had a hit with \"\(cover.title)\" in \(cover.year). Who recorded it first?",
                 choices: options.map { Choice(title: $0) },
                 correctIndex: options.firstIndex(of: cover.original) ?? 0,
-                fact: "\(cover.original) released it in \(cover.originalYear). \(cover.note)",
+                fact: cover.originNote,
                 audioSongID: cover.id)
         }
     }

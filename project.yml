@@ -7,8 +7,8 @@ options:
   minimumXcodeGenVersion: "2.38"
 
 configFiles:
-  Debug: Config/Secrets.xcconfig
-  Release: Config/Secrets.xcconfig
+  Debug: Config/App.xcconfig
+  Release: Config/App.xcconfig
 
 settings:
   base:

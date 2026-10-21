@@ -22,7 +22,7 @@ struct YouView: View {
                 .padding(.horizontal, Theme.gutter)
                 .padding(.bottom, 32)
             }
-            .background(Theme.paper.ignoresSafeArea())
+            .paperPage()
             .task { await app.refreshFeedback() }
             .refreshable { await app.refreshFeedback() }
             .sheet(isPresented: $editingFocus) {
@@ -68,7 +68,7 @@ struct YouView: View {
                     HStack {
                         Text(genre.name).font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)
                         Spacer()
-                        Text(tally.accuracy.map { "\(Int(($0 * 100).rounded()))% of \(tally.answered)" } ?? "Not played yet")
+                        Text(tally.answered == 0 ? "Not played yet" : "\(tally.correct) of \(tally.answered) right")
                             .font(.caption).foregroundStyle(Theme.inkSoft)
                     }
                     Meter(value: tally.accuracy ?? 0, color: Theme.crate(genre.id))

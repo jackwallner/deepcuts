@@ -28,7 +28,7 @@ struct PlayView: View {
                 .padding(.horizontal, Theme.gutter)
                 .padding(.bottom, 32)
             }
-            .background(Theme.paper.ignoresSafeArea())
+            .paperPage()
             .navigationDestination(for: String.self) { id in
                 if let genre = app.library.genre(id) { CrateView(genre: genre) }
             }
@@ -152,7 +152,7 @@ struct CrateView: View {
             .padding(.horizontal, Theme.gutter)
             .padding(.bottom, 32)
         }
-        .background(Theme.paper.ignoresSafeArea())
+        .paperPage()
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear { app.player.stop() }
     }
