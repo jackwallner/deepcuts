@@ -53,7 +53,8 @@ def best(song: dict, results: list[dict]) -> dict | None:
         if r.get("kind") != "song" or not r.get("previewUrl"):
             continue
         a, t = norm(r.get("artistName", "")), norm(r.get("trackName", ""))
-        if not (artist in a or a in artist) or not a:
+        # Billing changes over time: "Martha and the Vandellas" is "Martha Reeves & The Vandellas" today.
+        if not a or not (artist in a or a in artist or set(artist.split()) <= set(a.split())):
             continue
         if t != title and not t.startswith(title + " "):
             continue
@@ -61,6 +62,9 @@ def best(song: dict, results: list[dict]) -> dict | None:
         live = "live" in name and "live" not in song["title"].lower()
         compilation = r.get("collectionArtistName") not in (None, r.get("artistName"))
         karaoke = any(w in name for w in ("karaoke", "tribute", "cover", "re-recorded", "rerecorded"))
+        raw = r.get("trackName", "").lower()
+        alternate = any(w in raw and w not in song["title"].lower()
+                        for w in ("remix", "mix]", "mix)", "acoustic", "demo", "instrumental", "version", "take"))
         if karaoke:
             continue
         # Prefer the original album over hits packages, for the right artwork.
@@ -68,7 +72,7 @@ def best(song: dict, results: list[dict]) -> dict | None:
         collection = norm(r.get("collectionName", ""))
         on_album = bool(album) and (collection == album or collection.startswith(album + " "))
         hits = any(w in collection for w in ("hits", "best of", "essential", "greatest", "collection", "anthology", "gold"))
-        ok.append((live, not on_album, hits, compilation, t != title, r.get("releaseDate", "9999"), r))
+        ok.append((live or alternate, not on_album, hits, compilation, t != title, r.get("releaseDate", "9999"), r))
     ok.sort(key=lambda x: x[:6])
     return ok[0][6] if ok else None
 
