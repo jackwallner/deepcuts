@@ -1,0 +1,573 @@
+{
+  "id": "modern-pop",
+  "name": "Modern Pop",
+  "blurb": "From Mariah to Billie: the hit makers and happy accidents of modern pop.",
+  "era": "1990-2019",
+  "questions": [
+    {
+      "id": "modern-pop-q01",
+      "prompt": "Which Spice Girl was the first to leave the group, in May 1998?",
+      "choices": [
+        "Mel B",
+        "Geri Halliwell",
+        "Emma Bunton",
+        "Victoria Beckham"
+      ],
+      "answer": 1,
+      "fact": "The other four carried on and released the album Forever in 2000.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q02",
+      "prompt": "Beyonce's 2008 double album I Am... features which alter ego in its title?",
+      "choices": [
+        "Sasha Fierce",
+        "Roxie Hart",
+        "Foxy Cleopatra",
+        "Queen Bee"
+      ],
+      "answer": 0,
+      "fact": "The album paired a ballad disc, with \"If I Were a Boy\", with an uptempo disc that included \"Single Ladies (Put a Ring on It)\".",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q03",
+      "prompt": "At the 2010 MTV Video Music Awards, which star accepted Video of the Year wearing a dress made of raw meat?",
+      "choices": [
+        "Lady Gaga",
+        "Katy Perry",
+        "Rihanna",
+        "Pink"
+      ],
+      "answer": 0,
+      "fact": "She tied the outfit to a political message about the military's \"Don't Ask, Don't Tell\" policy, and the dress was later preserved as jerky and displayed at the Rock Hall.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q04",
+      "prompt": "Which group released the 1996 hit \"Wannabe\"?",
+      "choices": [
+        "All Saints",
+        "TLC",
+        "Destiny's Child",
+        "The Spice Girls"
+      ],
+      "answer": 3,
+      "fact": "The five members got their nicknames, Scary, Sporty, Baby, Ginger and Posh, from a British pop magazine.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q05",
+      "prompt": "Which British singer released \"Rolling in the Deep\" in 2010?",
+      "choices": [
+        "Amy Winehouse",
+        "Dua Lipa",
+        "Duffy",
+        "Adele"
+      ],
+      "answer": 3,
+      "fact": "She has named her albums for her age while she made them, with titles like 19, 21 and 25.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q06",
+      "prompt": "In the video for \"...Baby One More Time\", Britney Spears dances through a school hallway dressed as what?",
+      "choices": [
+        "A cheerleader",
+        "A gymnast",
+        "A schoolgirl",
+        "A flight attendant"
+      ],
+      "answer": 2,
+      "fact": "Spears reportedly pushed for the school setting after rejecting an earlier cartoon concept for the video.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q07",
+      "prompt": "Taylor Swift's 2014 album 1989 is named after what?",
+      "choices": [
+        "A famous album from that year",
+        "Her home address",
+        "Her birth year",
+        "The year of her first concert"
+      ],
+      "answer": 2,
+      "fact": "It was her first fully pop album, written and recorded with producers including Max Martin and Shellback.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q08",
+      "prompt": "Who was the first winner of American Idol in 2002?",
+      "choices": [
+        "Kelly Clarkson",
+        "Carrie Underwood",
+        "Jennifer Hudson",
+        "Fantasia Barrino"
+      ],
+      "answer": 0,
+      "fact": "She went on to record \"Since U Been Gone\", which became one of the defining pop songs of the 2000s.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q09",
+      "prompt": "Britney Spears was a cast member of The Mickey Mouse Club in the early 1990s alongside which future boy-band star?",
+      "choices": [
+        "Nick Carter",
+        "Justin Timberlake",
+        "Aaron Carter",
+        "Joey McIntyre"
+      ],
+      "answer": 1,
+      "fact": "The revived show also featured Christina Aguilera, JC Chasez, Ryan Gosling and Keri Russell.",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q10",
+      "prompt": "Which pop star was born Stefani Germanotta?",
+      "choices": [
+        "Katy Perry",
+        "Pink",
+        "Lady Gaga",
+        "Lorde"
+      ],
+      "answer": 2,
+      "fact": "Her stage name came from the Queen song \"Radio Ga Ga\".",
+      "difficulty": 1
+    },
+    {
+      "id": "modern-pop-q11",
+      "prompt": "Which Swedish songwriter and producer wrote Britney Spears's \"...Baby One More Time\"?",
+      "choices": [
+        "Benny Andersson",
+        "Max Martin",
+        "Stig Anderson",
+        "Robyn"
+      ],
+      "answer": 1,
+      "fact": "Martin also wrote hits for the Backstreet Boys, Katy Perry and Taylor Swift.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q12",
+      "prompt": "Which producer co-wrote \"Rolling in the Deep\" with Adele?",
+      "choices": [
+        "Paul Epworth",
+        "Mark Ronson",
+        "Max Martin",
+        "Greg Kurstin"
+      ],
+      "answer": 0,
+      "fact": "Epworth has said the song began the day after Adele arrived at the studio angry about a breakup.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q13",
+      "prompt": "Pharrell Williams's \"Happy\" first appeared in which animated film?",
+      "choices": [
+        "Shrek 2",
+        "Frozen",
+        "Minions",
+        "Despicable Me 2"
+      ],
+      "answer": 3,
+      "fact": "The song was nominated for the Academy Award for Best Original Song.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q14",
+      "prompt": "Which actor suggested that Whitney Houston record \"I Will Always Love You\" for The Bodyguard?",
+      "choices": [
+        "Denzel Washington",
+        "Eddie Murphy",
+        "Kevin Costner",
+        "Kevin Kline"
+      ],
+      "answer": 2,
+      "fact": "Dolly Parton wrote the song in 1973, and she has said she turned down Elvis Presley's manager when he asked for half of the publishing.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q15",
+      "prompt": "Mariah Carey co-wrote \"All I Want for Christmas Is You\" with which songwriter and producer?",
+      "choices": [
+        "Ben Margulies",
+        "Jermaine Dupri",
+        "David Foster",
+        "Walter Afanasieff"
+      ],
+      "answer": 3,
+      "fact": "The two have said they wrote it quickly, in a session that reportedly lasted only minutes, and they built it on the sound of 1960s girl-group Christmas records.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q16",
+      "prompt": "Lorde has said \"Royals\" was inspired by a National Geographic photo of a player from which sport?",
+      "choices": [
+        "Basketball",
+        "Baseball",
+        "Boxing",
+        "Cricket"
+      ],
+      "answer": 1,
+      "fact": "The player was George Brett of the Kansas City Royals, and Lorde wrote the song at 16 with producer Joel Little in Auckland.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q17",
+      "prompt": "Where did Billie Eilish and her brother Finneas make most of her debut album?",
+      "choices": [
+        "On a tour bus",
+        "In Finneas's bedroom",
+        "In a Nashville studio",
+        "In Max Martin's studio"
+      ],
+      "answer": 1,
+      "fact": "The album won Album of the Year at the 2020 Grammys, when she was 18.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q18",
+      "prompt": "Which manager found Justin Bieber on YouTube in 2008?",
+      "choices": [
+        "Simon Cowell",
+        "Clive Davis",
+        "Scooter Braun",
+        "L.A. Reid"
+      ],
+      "answer": 2,
+      "fact": "Braun reportedly stumbled on the videos while searching for a different singer, and Usher and Justin Timberlake both showed interest in signing the 13-year-old.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q19",
+      "prompt": "Who composed the music for \"My Heart Will Go On\" from Titanic?",
+      "choices": [
+        "Hans Zimmer",
+        "John Williams",
+        "David Foster",
+        "James Horner"
+      ],
+      "answer": 3,
+      "fact": "Horner reportedly worked on the song with lyricist Will Jennings and Celine Dion before director James Cameron, who did not want a pop song, heard it.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q20",
+      "prompt": "Which Matchbox Twenty singer wrote the lyrics and sang on Santana's \"Smooth\"?",
+      "choices": [
+        "Rob Thomas",
+        "Gavin Rossdale",
+        "Chris Martin",
+        "Adam Levine"
+      ],
+      "answer": 0,
+      "fact": "The album Supernatural won eight Grammys at the 2000 ceremony, tying a record set by Michael Jackson.",
+      "difficulty": 2
+    },
+    {
+      "id": "modern-pop-q21",
+      "prompt": "\"Genie in a Bottle\" co-writer Steve Kipner also co-wrote which Olivia Newton-John hit?",
+      "choices": [
+        "Xanadu",
+        "Physical",
+        "Hopelessly Devoted to You",
+        "Magic"
+      ],
+      "answer": 1,
+      "fact": "Aguilera, a former Mickey Mouse Club cast member, was 18 when the song launched her solo career in 1999.",
+      "difficulty": 3
+    },
+    {
+      "id": "modern-pop-q22",
+      "prompt": "The horn riff on Beyonce's \"Crazy in Love\" samples which group's 1970 song?",
+      "choices": [
+        "The Stylistics",
+        "The Chi-Lites",
+        "The Delfonics",
+        "The Spinners"
+      ],
+      "answer": 1,
+      "fact": "Jay-Z raps a guest verse on the song, which came from her 2003 debut album Dangerously in Love.",
+      "difficulty": 3
+    },
+    {
+      "id": "modern-pop-q23",
+      "prompt": "Before he became a pop hitmaker, Max Martin sang in what kind of band?",
+      "choices": [
+        "A church gospel choir",
+        "A folk duo",
+        "A punk trio",
+        "A Swedish hard-rock band"
+      ],
+      "answer": 3,
+      "fact": "The band was called It's Alive, and Martin, born Karl Martin Sandberg, joined Denniz PoP's Cheiron Studios in the early 1990s.",
+      "difficulty": 3
+    },
+    {
+      "id": "modern-pop-q24",
+      "prompt": "Mariah Carey's demo tape reportedly reached Columbia Records chief Tommy Mottola at a party through which singer?",
+      "choices": [
+        "Brenda K. Starr",
+        "Gloria Estefan",
+        "Paula Abdul",
+        "Lisa Stansfield"
+      ],
+      "answer": 0,
+      "fact": "Carey co-wrote \"Vision of Love\" with Ben Margulies, and Columbia signed her in 1988.",
+      "difficulty": 3
+    },
+    {
+      "id": "modern-pop-q25",
+      "prompt": "Auto-Tune's inventor, Andy Hildebrand, previously worked with what kind of data?",
+      "choices": [
+        "Weather satellite imagery",
+        "Submarine sonar",
+        "Seismic data for oil exploration",
+        "Radio astronomy signals"
+      ],
+      "answer": 2,
+      "fact": "He applied the same signal-processing math to pitch detection, and Auto-Tune came out in 1997.",
+      "difficulty": 3
+    },
+    {
+      "id": "modern-pop-q26",
+      "prompt": "Which songwriter and producer co-wrote Kelly Clarkson's \"Since U Been Gone\" with Max Martin?",
+      "choices": [
+        "Timbaland",
+        "Pharrell Williams",
+        "Dr. Luke",
+        "Rodney Jerkins"
+      ],
+      "answer": 2,
+      "fact": "Its blend of pop hooks and loud rock guitars is often cited as a template for 2000s pop.",
+      "difficulty": 3
+    },
+    {
+      "id": "modern-pop-q27",
+      "prompt": "Which pop star was reportedly offered \"Umbrella\" before Rihanna recorded it?",
+      "choices": [
+        "Britney Spears",
+        "Gwen Stefani",
+        "Ashanti",
+        "Jessica Simpson"
+      ],
+      "answer": 0,
+      "fact": "The-Dream and Tricky Stewart wrote it, and Jay-Z's opening verse was added to the Rihanna recording.",
+      "difficulty": 3
+    },
+    {
+      "id": "modern-pop-q28",
+      "prompt": "Which studio effect is usually credited for the robotic vocal sound on Cher's 1998 hit \"Believe\"?",
+      "choices": [
+        "A vocoder",
+        "A harmonizer",
+        "A talk box",
+        "Auto-Tune"
+      ],
+      "answer": 3,
+      "fact": "The producers have said they pushed the pitch-correction software to an extreme setting, and the effect then spread across pop.",
+      "difficulty": 3
+    },
+    {
+      "id": "modern-pop-q29",
+      "prompt": "The one-take, black-and-white \"Single Ladies\" video drew on a routine called \"Mexican Breakfast\" by which choreographer?",
+      "choices": [
+        "Jerome Robbins",
+        "Bob Fosse",
+        "Busby Berkeley",
+        "Martha Graham"
+      ],
+      "answer": 1,
+      "fact": "Beyonce has credited Fosse's style as an inspiration, and choreographers JaQuel Knight and Frank Gatson helped shape the routine.",
+      "difficulty": 3
+    },
+    {
+      "id": "modern-pop-q30",
+      "prompt": "Madonna's 1990 hit \"Vogue\" borrowed its dance style from which community's ballroom scene?",
+      "choices": [
+        "Miami's",
+        "Chicago's",
+        "Harlem's",
+        "Detroit's"
+      ],
+      "answer": 2,
+      "fact": "Madonna recruited dancers from that scene for the video and her Blond Ambition tour.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "modern-pop-s01",
+      "title": "Vision of Love",
+      "artist": "Mariah Carey",
+      "year": 1990,
+      "album": "Mariah Carey",
+      "note": "Carey wrote it with Ben Margulies, and its long, flowing vocal runs set off a wave of imitators."
+    },
+    {
+      "id": "modern-pop-s02",
+      "title": "Wannabe",
+      "artist": "Spice Girls",
+      "year": 1996,
+      "album": "Spice",
+      "note": "The group wrote it with Matt Rowe and Richard Stannard, and the video was filmed in a single take in a London hotel."
+    },
+    {
+      "id": "modern-pop-s03",
+      "title": "Believe",
+      "artist": "Cher",
+      "year": 1998,
+      "album": "Believe",
+      "note": "Producers pushed Auto-Tune to an extreme setting, and the robotic vocal effect became known as the Cher effect."
+    },
+    {
+      "id": "modern-pop-s04",
+      "title": "...Baby One More Time",
+      "artist": "Britney Spears",
+      "year": 1998,
+      "album": "...Baby One More Time",
+      "note": "Max Martin wrote it, reportedly after TLC passed on it, and Spears recorded it at Cheiron Studios in Stockholm."
+    },
+    {
+      "id": "modern-pop-s05",
+      "title": "Genie in a Bottle",
+      "artist": "Christina Aguilera",
+      "year": 1999,
+      "album": "Christina Aguilera",
+      "note": "Aguilera, a former Mickey Mouse Club cast member, was 18 when this single launched her solo career."
+    },
+    {
+      "id": "modern-pop-s06",
+      "title": "Crazy in Love",
+      "artist": "Beyonce featuring Jay-Z",
+      "year": 2003,
+      "album": "Dangerously in Love",
+      "note": "A horn sample from the Chi-Lites' 1970 song \"Are You My Woman (Tell Me So)\" drives the track."
+    },
+    {
+      "id": "modern-pop-s07",
+      "title": "Since U Been Gone",
+      "artist": "Kelly Clarkson",
+      "year": 2004,
+      "album": "Breakaway",
+      "note": "Max Martin and Dr. Luke wrote it, and its stomping guitars made a pop singer sound like a rock band."
+    },
+    {
+      "id": "modern-pop-s08",
+      "title": "Umbrella",
+      "artist": "Rihanna featuring Jay-Z",
+      "year": 2007,
+      "album": "Good Girl Gone Bad",
+      "note": "The-Dream and Tricky Stewart wrote it, and it was reportedly offered to Britney Spears first."
+    },
+    {
+      "id": "modern-pop-s09",
+      "title": "Poker Face",
+      "artist": "Lady Gaga",
+      "year": 2008,
+      "album": "The Fame",
+      "note": "Gaga has said she wrote it about hiding thoughts of a woman while with a man, with the title borrowed from the card table."
+    },
+    {
+      "id": "modern-pop-s10",
+      "title": "Bad Romance",
+      "artist": "Lady Gaga",
+      "year": 2009,
+      "album": "The Fame Monster",
+      "note": "Its video won Video of the Year at the 2010 MTV VMAs, the night she wore the meat dress."
+    },
+    {
+      "id": "modern-pop-s11",
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "year": 2010,
+      "album": "21",
+      "note": "Adele has said she wrote it with producer Paul Epworth the day after a breakup row."
+    },
+    {
+      "id": "modern-pop-s12",
+      "title": "Someone Like You",
+      "artist": "Adele",
+      "year": 2011,
+      "album": "21",
+      "note": "Adele wrote it with Dan Wilson, and her solo-piano performance at the 2011 BRIT Awards sent it soaring."
+    },
+    {
+      "id": "modern-pop-s13",
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "year": 2013,
+      "album": "Despicable Me 2 (Original Motion Picture Soundtrack)",
+      "note": "Its 24-hour interactive video, with people dancing across Los Angeles, helped make the song a global hit."
+    },
+    {
+      "id": "modern-pop-s14",
+      "title": "Shake It Off",
+      "artist": "Taylor Swift",
+      "year": 2014,
+      "album": "1989",
+      "note": "Max Martin and Shellback co-wrote it, and the video had Swift try dance styles from ballet to cheerleading."
+    },
+    {
+      "id": "modern-pop-s15",
+      "title": "Uptown Funk",
+      "artist": "Mark Ronson featuring Bruno Mars",
+      "year": 2014,
+      "album": "Uptown Special",
+      "note": "The song took months to finish, and writing credits grew after its resemblance to older funk records was noted."
+    },
+    {
+      "id": "modern-pop-s16",
+      "title": "bad guy",
+      "artist": "Billie Eilish",
+      "year": 2019,
+      "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+      "note": "Eilish and her brother Finneas made it in his bedroom studio, on an album that swept the major 2020 Grammys."
+    }
+  ],
+  "stories": [
+    {
+      "id": "modern-pop-st1",
+      "title": "The Swedish Hit Factory",
+      "dek": "How a Stockholm studio taught radio how to build a pop song",
+      "year": 1998,
+      "body": "In the early 1990s a small Stockholm studio called Cheiron became the quiet engine room of world pop. Its founder, a DJ turned producer who called himself Denniz PoP, had a feel for hooks that were bright, simple and impossible to forget. Working with him was a young musician named Karl Martin Sandberg, who had sung in a Swedish hard-rock band called It's Alive. He took the name Max Martin, and he and PoP began writing songs together.\n\nThe sound they built was careful and cold-eyed. Martin has described writing melodies first and fitting words to them afterward, sometimes picking syllables for how they felt in the mouth rather than for meaning. That habit helps explain why lines from their songs stick even when the words are odd. Their studio also worked quickly, turning out demos that singers could learn in an afternoon.\n\nCheiron's early hits came from acts such as Ace of Base, and then the Backstreet Boys, whose early singles were recorded in Stockholm. Then, in 1997, Martin and his colleague Rami Yacoub worked on a song for a teenage singer from Louisiana. The track was called \"...Baby One More Time\". The song has often been reported to have been offered to TLC first. Britney Spears sang it in Stockholm, and the record came out in the fall of 1998.\n\nThe timing was almost cruel. Denniz PoP, who had been fighting stomach cancer, died in August 1998 at 35, only weeks before the song reached the public. Cheiron wound down by 2000, and Martin carried the sound out of the studio and into the wider world.\n\nSpears's single opened a long run for him. He wrote or co-wrote hits for the Backstreet Boys, NSYNC, Kelly Clarkson, Katy Perry, Pink, Taylor Swift, the Weeknd and many others. The same pattern repeated again and again: a clean beat, a chorus that arrives early and an economy that leaves no room for filler.\n\nMany of those hits borrowed from rock, dance and country, but the method stayed the same. A Swedish studio with a few keyboards and a lot of tape had taught the world's radio stations how a pop song should be built.",
+      "songs": [
+        "modern-pop-s04"
+      ],
+      "cover": {
+        "album": "...Baby One More Time",
+        "artist": "Britney Spears"
+      }
+    },
+    {
+      "id": "modern-pop-st2",
+      "title": "Adele's 21",
+      "dek": "A breakup, a piano and the album that won six Grammys",
+      "year": 2011,
+      "body": "In 2008 Adele was a 19-year-old from London with a debut album, 19, and a gift for sounding older than her years. A few years later she was in the studio with a heartbreak that would make an even bigger record.\n\nShe has said that the song \"Rolling in the Deep\" began on the day after a breakup, when she walked into a London studio angry. Producer Paul Epworth, who had worked with indie bands before, built a pounding beat while she sang in a low, furious voice. They have said the core of the song came together quickly, and the finished record kept its stomping drum and gospel shout of a chorus.\n\nHer new album, named 21 for her age, was shaped by the same breakup. It was recorded in several places, with different producers, including Rick Rubin, who helped on some tracks. Rubin has been known for stripped-down work, and several songs on the album have little more than piano, guitar and her voice. The ballad \"Someone Like You\" was written with Dan Wilson, who earlier led the band Semisonic, after she learned that her former partner had moved on. At the 2011 BRIT Awards she sang it at a piano with no band, and the song surged up the charts in the days afterward.\n\nAdele was not a typical star. She relied on her voice and a plain-spoken manner, and the album stayed on charts around the world for years. Then her voice failed her. In late 2011, after a hemorrhage on a vocal cord, she cancelled tour dates and had surgery. When she returned at the 2012 Grammy Awards, she sang \"Rolling in the Deep\" and won six awards for the album and its songs, including Album of the Year.\n\nThe result was a record about a private heartache that millions of listeners took for their own, and one more proof that a plain voice and a good song can still beat the biggest production.",
+      "songs": [
+        "modern-pop-s11",
+        "modern-pop-s12"
+      ],
+      "cover": {
+        "album": "21",
+        "artist": "Adele"
+      }
+    },
+    {
+      "id": "modern-pop-st3",
+      "title": "Believe and Auto-Tune",
+      "dek": "The robotic voice that came from a seismic engineer",
+      "year": 1998,
+      "body": "In 1998 Cher was 52 years old and had been famous for more than three decades. She was an unlikely star for the dance clubs of the new decade. But her label gave her a new song, \"Believe\", and a pair of British producers, Mark Taylor and Brian Rawling, who had an idea.\n\nThe song was written by several people, including members of a British songwriting group. When the producers recorded Cher's vocal, they ran it through a piece of software called Auto-Tune. The program had come out in 1997 and was meant to be invisible, quietly nudging a singer's off-key notes into place. Taylor and Rawling instead pushed the setting to its extreme, so that her voice jumped from note to note in a robotic step. The effect was strange and exciting, and it sounded like nothing else on radio.\n\nThe software's creator was an engineer named Andy Hildebrand, who had come to music from the oil business, where he analyzed seismic data. The same math could find the pitch of a voice, and he built it into a plug-in.\n\nThe producers were worried that other studios would copy the sound, so they said, for a time, that they had used a vocoder or a similar device. Cher also faced doubts from her label, which reportedly asked for a different treatment. She is said to have refused, telling executives that the song should stay as it was. The record came out in the fall of 1998 and became a hit in dozens of countries.\n\nSoon, other singers were using the effect on purpose. In the years that followed, hip-hop and R&B singers such as T-Pain turned it into a style. By the 2010s Auto-Tune was everywhere, both as a hidden fix and a creative choice.\n\nFor Cher, \"Believe\" was a second wind. She had helped turn a tool made to hide errors into a new instrument, and a quirk of software became part of pop's sound.",
+      "songs": [
+        "modern-pop-s03"
+      ],
+      "cover": {
+        "album": "Believe",
+        "artist": "Cher"
+      }
+    }
+  ]
+}

@@ -58,15 +58,15 @@
     },
     {
       "id": "grunge-alt-q05",
-      "prompt": "In which city were the Smashing Pumpkins formed?",
+      "prompt": "Which 1993 Smashing Pumpkins album, produced by Butch Vig, includes \"Today\"?",
       "choices": [
-        "Seattle",
-        "Minneapolis",
-        "Detroit",
-        "Chicago"
+        "Gish",
+        "Mellon Collie and the Infinite Sadness",
+        "Adore",
+        "Siamese Dream"
       ],
       "answer": 3,
-      "fact": "Billy Corgan fronted the band, and its 1995 double album Mellon Collie and the Infinite Sadness was a huge hit.",
+      "fact": "Billy Corgan reportedly played most of the guitar and bass parts himself, and the sessions took place in Atlanta.",
       "difficulty": 1
     },
     {
@@ -318,15 +318,15 @@
     },
     {
       "id": "grunge-alt-q25",
-      "prompt": "Pavement, whose debut was Slanted and Enchanted, formed in which California city?",
+      "prompt": "Pavement's 1994 song \"Range Life\" takes shots at the Smashing Pumpkins and which other band?",
       "choices": [
-        "Stockton",
-        "Berkeley",
-        "Sacramento",
-        "Fresno"
+        "Stone Temple Pilots",
+        "Pearl Jam",
+        "Soundgarden",
+        "Bush"
       ],
       "answer": 0,
-      "fact": "Stephen Malkmus and Scott Kannberg recorded early music at home, and the band became a cornerstone of American indie rock.",
+      "fact": "The song is on Crooked Rain, Crooked Rain, which Pavement made with producer Mitch Easter.",
       "difficulty": 3
     },
     {

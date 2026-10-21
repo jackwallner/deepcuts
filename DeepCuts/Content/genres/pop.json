@@ -1,8 +1,8 @@
 {
   "id": "pop",
-  "name": "Pop",
-  "blurb": "From the Wall of Sound to the streaming age: sixty years of songs everyone knows.",
-  "era": "1960s-2010s",
+  "name": "Pop Classics",
+  "blurb": "Wall of Sound to Thriller: the pop songs everyone knows, and how they were made.",
+  "era": "1960-1989",
   "questions": [
     {
       "id": "pop-q01",
@@ -45,28 +45,28 @@
     },
     {
       "id": "pop-q04",
-      "prompt": "Which group released the 1996 hit \"Wannabe\"?",
+      "prompt": "Which Michael Jackson album, produced by Quincy Jones, includes \"Billie Jean\" and \"Beat It\"?",
       "choices": [
-        "All Saints",
-        "TLC",
-        "Destiny's Child",
-        "The Spice Girls"
+        "Bad",
+        "Off the Wall",
+        "Thriller",
+        "Dangerous"
       ],
-      "answer": 3,
-      "fact": "The five members got their nicknames, Scary, Sporty, Baby, Ginger and Posh, from a British pop magazine.",
+      "answer": 2,
+      "fact": "The title track's 1983 video, directed by John Landis, ran close to 14 minutes and was treated as a short film.",
       "difficulty": 1
     },
     {
       "id": "pop-q05",
-      "prompt": "Which British singer released \"Rolling in the Deep\" in 2010?",
+      "prompt": "Madonna performed \"Like a Virgin\" at the first MTV Video Music Awards in 1984 wearing what?",
       "choices": [
-        "Amy Winehouse",
-        "Dua Lipa",
-        "Duffy",
-        "Adele"
+        "A tuxedo",
+        "A cowboy outfit",
+        "A leather jacket",
+        "A wedding dress"
       ],
       "answer": 3,
-      "fact": "She has named her albums for her age while she made them, with titles like 19, 21 and 25.",
+      "fact": "She rolled across the stage and lost a shoe, and her \"Boy Toy\" belt became part of her early look.",
       "difficulty": 1
     },
     {
@@ -84,28 +84,28 @@
     },
     {
       "id": "pop-q07",
-      "prompt": "Taylor Swift's 2014 album 1989 is named after what?",
+      "prompt": "Barry, Robin and Maurice Gibb were the three brothers of which group?",
       "choices": [
-        "A famous album from that year",
-        "Her home address",
-        "Her birth year",
-        "The year of her first concert"
+        "The Osmonds",
+        "The Righteous Brothers",
+        "The Walker Brothers",
+        "The Bee Gees"
       ],
-      "answer": 2,
-      "fact": "It was her first fully pop album, written and recorded with producers including Max Martin and Shellback.",
+      "answer": 3,
+      "fact": "Robin and Maurice were fraternal twins, and the family moved from the Isle of Man to Australia in 1958.",
       "difficulty": 1
     },
     {
       "id": "pop-q08",
-      "prompt": "Who was the first winner of American Idol in 2002?",
+      "prompt": "Fans at which Boston ballpark traditionally sing \"Sweet Caroline\" in the eighth inning?",
       "choices": [
-        "Kelly Clarkson",
-        "Carrie Underwood",
-        "Jennifer Hudson",
-        "Fantasia Barrino"
+        "Fenway Park",
+        "Wrigley Field",
+        "Dodger Stadium",
+        "Yankee Stadium"
       ],
       "answer": 0,
-      "fact": "She went on to record \"Since U Been Gone\", which became one of the defining pop songs of the 2000s.",
+      "fact": "Neil Diamond himself made a surprise appearance there in April 2013, days after the Boston Marathon bombing.",
       "difficulty": 1
     },
     {
@@ -123,29 +123,29 @@
     },
     {
       "id": "pop-q10",
-      "prompt": "Which pop star was born Stefani Germanotta?",
+      "prompt": "Who was Karen Carpenter's brother and musical partner in the Carpenters?",
       "choices": [
-        "Katy Perry",
-        "Pink",
-        "Lady Gaga",
-        "Lorde"
+        "Robert",
+        "Ronald",
+        "Richard",
+        "Raymond"
       ],
       "answer": 2,
-      "fact": "Her stage name came from the Queen song \"Radio Ga Ga\".",
+      "fact": "A&M Records co-founder Herb Alpert signed the duo in 1969 after hearing a demo tape.",
       "difficulty": 1
     },
     {
       "id": "pop-q11",
-      "prompt": "Which Swedish songwriter and producer wrote Britney Spears's \"...Baby One More Time\"?",
+      "prompt": "Which 1966 Beach Boys album includes \"Wouldn't It Be Nice\" and \"God Only Knows\"?",
       "choices": [
-        "Benny Andersson",
-        "Max Martin",
-        "Stig Anderson",
-        "Robyn"
+        "Surf's Up",
+        "Pet Sounds",
+        "Smiley Smile",
+        "Sunflower"
       ],
       "answer": 1,
-      "fact": "Martin also wrote hits for the Backstreet Boys, Katy Perry and Taylor Swift.",
-      "difficulty": 2
+      "fact": "Brian Wilson has said the Beatles' Rubber Soul pushed him to make it, and Paul McCartney has called \"God Only Knows\" one of the greatest songs ever written.",
+      "difficulty": 1
     },
     {
       "id": "pop-q12",
@@ -162,28 +162,28 @@
     },
     {
       "id": "pop-q13",
-      "prompt": "Pharrell Williams's \"Happy\" first appeared in which animated film?",
+      "prompt": "Elton John's 1973 album Goodbye Yellow Brick Road takes its title from which film?",
       "choices": [
-        "Shrek 2",
-        "Frozen",
-        "Minions",
-        "Despicable Me 2"
+        "Mary Poppins",
+        "The Wizard of Oz",
+        "Gone with the Wind",
+        "Singin' in the Rain"
       ],
-      "answer": 3,
-      "fact": "The song was nominated for the Academy Award for Best Original Song.",
-      "difficulty": 2
+      "answer": 1,
+      "fact": "Sessions began in Jamaica but moved to France after problems with the studio's piano and equipment.",
+      "difficulty": 1
     },
     {
       "id": "pop-q14",
-      "prompt": "Tony Hatch said he got the idea for \"Downtown\" on his first visit to which city?",
+      "prompt": "A&M Records co-founder Herb Alpert suggested which Bacharach and David song to the Carpenters?",
       "choices": [
-        "Chicago",
-        "New York",
-        "Los Angeles",
-        "Paris"
+        "(They Long to Be) Close to You",
+        "Walk On By",
+        "I Say a Little Prayer",
+        "Do You Know the Way to San Jose"
       ],
-      "answer": 1,
-      "fact": "Petula Clark's recording became a hit in both Britain and the United States in the winter of 1964 and 1965.",
+      "answer": 0,
+      "fact": "Richard Carpenter reworked the arrangement, and the duo's recording from 1970 became their breakthrough.",
       "difficulty": 2
     },
     {
@@ -279,15 +279,15 @@
     },
     {
       "id": "pop-q22",
-      "prompt": "The horn riff on Beyonce's \"Crazy in Love\" samples which group's 1970 song?",
+      "prompt": "Under what stage name did Billy Joel play piano at a Los Angeles bar in the early 1970s?",
       "choices": [
-        "The Stylistics",
-        "The Chi-Lites",
-        "The Delfonics",
-        "The Spinners"
+        "Bill Stone",
+        "William Hill",
+        "Bill Martin",
+        "Billy Gibbs"
       ],
-      "answer": 1,
-      "fact": "Jay-Z raps a guest verse on the song, which came from her 2003 debut album Dangerously in Love.",
+      "answer": 2,
+      "fact": "He worked at the Executive Room around 1972 and 1973, and the experience inspired \"Piano Man\".",
       "difficulty": 3
     },
     {
@@ -305,16 +305,16 @@
     },
     {
       "id": "pop-q24",
-      "prompt": "Mariah Carey's demo tape reportedly reached Columbia Records chief Tommy Mottola at a party through which singer?",
+      "prompt": "Which guitarist played the famous solo on Michael Jackson's \"Beat It\"?",
       "choices": [
-        "Brenda K. Starr",
-        "Gloria Estefan",
-        "Paula Abdul",
-        "Lisa Stansfield"
+        "Slash",
+        "Eddie Van Halen",
+        "Jeff Beck",
+        "Carlos Santana"
       ],
-      "answer": 0,
-      "fact": "Carey co-wrote \"Vision of Love\" with Ben Margulies, and Columbia signed her in 1988.",
-      "difficulty": 3
+      "answer": 1,
+      "fact": "Van Halen has said he did it as a favor and took no payment, and members of Toto played on the track.",
+      "difficulty": 2
     },
     {
       "id": "pop-q25",
@@ -331,16 +331,16 @@
     },
     {
       "id": "pop-q26",
-      "prompt": "Which songwriter and producer co-wrote Kelly Clarkson's \"Since U Been Gone\" with Max Martin?",
+      "prompt": "Which producer suggested the title \"(You Make Me Feel Like) A Natural Woman\" to Carole King and Gerry Goffin?",
       "choices": [
-        "Timbaland",
-        "Pharrell Williams",
-        "Dr. Luke",
-        "Rodney Jerkins"
+        "Phil Spector",
+        "Leiber and Stoller",
+        "Jerry Wexler",
+        "Ahmet Ertegun"
       ],
       "answer": 2,
-      "fact": "The song was the lead single from Clarkson's 2004 album Breakaway.",
-      "difficulty": 3
+      "fact": "Aretha Franklin recorded the song in 1967, and it later appeared on her album Lady Soul.",
+      "difficulty": 2
     },
     {
       "id": "pop-q27",
@@ -357,16 +357,16 @@
     },
     {
       "id": "pop-q28",
-      "prompt": "Which studio effect is usually credited for the robotic vocal sound on Cher's 1998 hit \"Believe\"?",
+      "prompt": "Which Beach Boy was the only member of the band who actually surfed?",
       "choices": [
-        "A vocoder",
-        "A harmonizer",
-        "A talk box",
-        "Auto-Tune"
+        "Dennis Wilson",
+        "Brian Wilson",
+        "Carl Wilson",
+        "Al Jardine"
       ],
-      "answer": 3,
-      "fact": "The producers have said they pushed the pitch-correction software to an extreme setting, and the effect then spread across pop.",
-      "difficulty": 3
+      "answer": 0,
+      "fact": "Dennis, the group's drummer, drowned off Marina del Rey in December 1983.",
+      "difficulty": 2
     },
     {
       "id": "pop-q29",
@@ -393,6 +393,266 @@
       "answer": 1,
       "fact": "Diamond revealed it in 2007 at Caroline Kennedy's 50th birthday. Years later he said the song was really about his wife Marcia, but he needed a three-syllable name.",
       "difficulty": 3
+    },
+    {
+      "id": "pop-q31",
+      "prompt": "Which actress is often credited with popularizing the nickname \"King of Pop\" for Michael Jackson?",
+      "choices": [
+        "Liza Minnelli",
+        "Audrey Hepburn",
+        "Sophia Loren",
+        "Elizabeth Taylor"
+      ],
+      "answer": 3,
+      "fact": "She presented him with an award at the 1989 Soul Train Music Awards and called him the true king of pop, rock and soul.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q32",
+      "prompt": "Which stage musical built from ABBA songs opened in London in 1999 and became a 2008 film?",
+      "choices": [
+        "Mamma Mia!",
+        "Grease",
+        "Hairspray",
+        "Rent"
+      ],
+      "answer": 0,
+      "fact": "Producer Judy Craymer built the show around the group's catalog, with Benny Andersson and Bjorn Ulvaeus involved, and Meryl Streep starred in the film.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q33",
+      "prompt": "Which Tom Cruise film features the Beach Boys' 1988 hit \"Kokomo\"?",
+      "choices": [
+        "Top Gun",
+        "Risky Business",
+        "Cocktail",
+        "Rain Man"
+      ],
+      "answer": 2,
+      "fact": "Terry Melcher, Doris Day's son, co-wrote and produced the song with Mike Love, John Phillips and Scott McKenzie.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q34",
+      "prompt": "Which band made a hit of Neil Diamond's \"I'm a Believer\" in 1966?",
+      "choices": [
+        "The Archies",
+        "The Turtles",
+        "The Monkees",
+        "The Lovin' Spoonful"
+      ],
+      "answer": 2,
+      "fact": "Jeff Barry produced the record, and Smash Mouth later covered it for the film Shrek.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q35",
+      "prompt": "Which 1977 Billy Joel album includes \"Just the Way You Are\" and \"Only the Good Die Young\"?",
+      "choices": [
+        "52nd Street",
+        "Glass Houses",
+        "Turnstiles",
+        "The Stranger"
+      ],
+      "answer": 3,
+      "fact": "Producer Phil Ramone recorded much of it with Joel's own touring band rather than session players.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q36",
+      "prompt": "\"We've Only Just Begun\" began life as a TV commercial for what?",
+      "choices": [
+        "A wedding-dress shop",
+        "A California bank",
+        "A car maker",
+        "A cigarette brand"
+      ],
+      "answer": 1,
+      "fact": "Paul Williams wrote it for a bank ad, and Richard Carpenter heard the jingle and asked him to expand it into a full song.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q37",
+      "prompt": "Billy Joel has said \"Uptown Girl\" was meant as a tribute to the sound of which group?",
+      "choices": [
+        "The Beach Boys",
+        "The Drifters",
+        "The Righteous Brothers",
+        "The Four Seasons"
+      ],
+      "answer": 3,
+      "fact": "He aimed for the falsetto and sound of Frankie Valli's records, and the video starred Christie Brinkley, whom he married in 1985.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q38",
+      "prompt": "Elton John's 1976 duet \"Don't Go Breaking My Heart\" was sung with which singer?",
+      "choices": [
+        "Dusty Springfield",
+        "Cilla Black",
+        "Kiki Dee",
+        "Olivia Newton-John"
+      ],
+      "answer": 2,
+      "fact": "Elton and Bernie Taupin wrote it under the joke pseudonyms Ann Orson and Carte Blanche.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q39",
+      "prompt": "Where did Bernie Taupin write the words to \"Your Song\"?",
+      "choices": [
+        "In a Soho recording studio",
+        "In a pub in Pinner",
+        "At his parents' farm in Lincolnshire",
+        "At the breakfast table in Elton's mother's flat"
+      ],
+      "answer": 3,
+      "fact": "Taupin and Elton were then sharing the north London flat of Elton's mother and stepfather, and Elton has said the music took only minutes.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q40",
+      "prompt": "\"Surfin' U.S.A.\" borrowed its melody from which Chuck Berry song?",
+      "choices": [
+        "Sweet Little Sixteen",
+        "Johnny B. Goode",
+        "Maybellene",
+        "Roll Over Beethoven"
+      ],
+      "answer": 0,
+      "fact": "Berry's publisher took action, and Berry was later given a songwriting credit.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q41",
+      "prompt": "Madonna's \"Material Girl\" video re-creates a scene from which Marilyn Monroe film?",
+      "choices": [
+        "Some Like It Hot",
+        "Gentlemen Prefer Blondes",
+        "The Seven Year Itch",
+        "Bus Stop"
+      ],
+      "answer": 1,
+      "fact": "Mary Lambert, who also directed the \"Like a Virgin\" video, made the clip in the style of Monroe's diamond number.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q42",
+      "prompt": "Arista chief Clive Davis first heard a teenage Whitney Houston sing in 1983 at what kind of place?",
+      "choices": [
+        "A Newark church service",
+        "A television talent show",
+        "A Detroit recording studio",
+        "A New York nightclub where her mother was performing"
+      ],
+      "answer": 3,
+      "fact": "Davis has said he signed her soon after, and Houston's debut album came out in 1985.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q43",
+      "prompt": "Carole King and Gerry Goffin wrote \"The Loco-Motion\" for whom, who also babysat their daughter?",
+      "choices": [
+        "Little Eva",
+        "Darlene Love",
+        "Lesley Gore",
+        "Shelley Fabares"
+      ],
+      "answer": 0,
+      "fact": "Eva Boyd's 1962 recording was later revived by Grand Funk Railroad in 1974 and Kylie Minogue in 1987.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q44",
+      "prompt": "Which duet, written by the Bee Gees, did Kenny Rogers and Dolly Parton record in 1983?",
+      "choices": [
+        "Endless Love",
+        "Islands in the Stream",
+        "Lucille",
+        "Jolene"
+      ],
+      "answer": 1,
+      "fact": "Barry Gibb produced the record, and the song was written by Barry, Robin and Maurice Gibb.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q45",
+      "prompt": "Which lyricist teamed with Benny Andersson and Bjorn Ulvaeus on the 1984 concept album Chess?",
+      "choices": [
+        "Hal David",
+        "Tim Rice",
+        "Don Black",
+        "Alan Jay Lerner"
+      ],
+      "answer": 1,
+      "fact": "The project produced \"One Night in Bangkok\" and \"I Know Him So Well\" before it reached the stage in 1986.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q46",
+      "prompt": "Brian Wilson wrote \"Don't Worry Baby\" as his answer to which Phil Spector hit?",
+      "choices": [
+        "Then He Kissed Me",
+        "Da Doo Ron Ron",
+        "Be My Baby",
+        "You've Lost That Lovin' Feelin'"
+      ],
+      "answer": 2,
+      "fact": "Wilson has said he was obsessed with \"Be My Baby\", and Roger Christian wrote the hot-rod lyric about a nervous drag racer.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q47",
+      "prompt": "Elton John wrote \"Philadelphia Freedom\" for which tennis star?",
+      "choices": [
+        "Chris Evert",
+        "Arthur Ashe",
+        "Martina Navratilova",
+        "Billie Jean King"
+      ],
+      "answer": 3,
+      "fact": "King's World TeamTennis squad was the Philadelphia Freedoms, and the song nods to the sound of Philadelphia soul.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q48",
+      "prompt": "Neil Diamond starred in a 1980 remake of which film?",
+      "choices": [
+        "The Jazz Singer",
+        "A Star Is Born",
+        "Saturday Night Fever",
+        "The Blues Brothers"
+      ],
+      "answer": 0,
+      "fact": "Laurence Olivier co-starred, and the soundtrack included \"Love on the Rocks\" and \"America\".",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q49",
+      "prompt": "Billy Steinberg and Tom Kelly, who wrote \"Like a Virgin\", also wrote \"True Colors\" for which singer?",
+      "choices": [
+        "Pat Benatar",
+        "Cyndi Lauper",
+        "Belinda Carlisle",
+        "Stevie Nicks"
+      ],
+      "answer": 1,
+      "fact": "They also wrote Heart's \"Alone\", and Steinberg has said \"Like a Virgin\" grew out of his own painful romance.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q50",
+      "prompt": "Who co-wrote Fleetwood Mac's \"Little Lies\" with Christine McVie?",
+      "choices": [
+        "Richard Dashut",
+        "Lindsey Buckingham",
+        "Eddy Quintela",
+        "Peter Green"
+      ],
+      "answer": 2,
+      "fact": "Quintela, a songwriter, was McVie's husband in the late 1980s, and the song came from the 1987 album Tango in the Night.",
+      "difficulty": 3
     }
   ],
   "songs": [
@@ -406,123 +666,123 @@
     },
     {
       "id": "pop-s02",
-      "title": "Downtown",
-      "artist": "Petula Clark",
-      "year": 1964,
-      "album": "Downtown",
-      "note": "Tony Hatch wrote the song after visiting New York."
-    },
-    {
-      "id": "pop-s03",
       "title": "Good Vibrations",
       "artist": "The Beach Boys",
       "year": 1966,
       "album": "Smiley Smile",
-      "note": "Brian Wilson called it a pocket symphony, and it features an electro-theremin."
+      "note": "Brian Wilson called it a pocket symphony, and its eerie whistle comes from an electro-theremin."
+    },
+    {
+      "id": "pop-s03",
+      "title": "Sweet Caroline",
+      "artist": "Neil Diamond",
+      "year": 1969,
+      "album": "Brother Love's Travelling Salvation Show",
+      "note": "Diamond has said the song began with the need for a three-syllable name, and fans now sing it at Fenway Park."
     },
     {
       "id": "pop-s04",
+      "title": "(They Long to Be) Close to You",
+      "artist": "Carpenters",
+      "year": 1970,
+      "album": "Close to You",
+      "note": "Herb Alpert suggested the song to Richard Carpenter, who reworked it into the version that made the duo stars."
+    },
+    {
+      "id": "pop-s05",
+      "title": "Your Song",
+      "artist": "Elton John",
+      "year": 1970,
+      "album": "Elton John",
+      "note": "Bernie Taupin wrote the words over breakfast, and Elton John set them to music in a few minutes."
+    },
+    {
+      "id": "pop-s06",
       "title": "Rocket Man (I Think It's Going to Be a Long, Long Time)",
       "artist": "Elton John",
       "year": 1972,
       "album": "Honky Chateau",
-      "note": "Bernie Taupin wrote the words, and the track has become one of Elton John's best-known songs."
+      "note": "Taupin has said a Ray Bradbury story inspired the lyric, and the track was recorded in France."
     },
     {
-      "id": "pop-s05",
+      "id": "pop-s07",
       "title": "Dancing Queen",
       "artist": "ABBA",
       "year": 1976,
       "album": "Arrival",
-      "note": "The group performed it on Swedish television during a royal wedding gala."
+      "note": "ABBA first performed it on Swedish television on the eve of a royal wedding."
     },
     {
-      "id": "pop-s06",
+      "id": "pop-s08",
       "title": "Just the Way You Are",
       "artist": "Billy Joel",
       "year": 1977,
       "album": "The Stranger",
-      "note": "Jazz saxophonist Phil Woods plays the alto sax solo."
+      "note": "Joel reportedly doubted the song until friends in the studio urged him to keep it, and Phil Woods played the alto solo."
     },
     {
-      "id": "pop-s07",
+      "id": "pop-s09",
+      "title": "How Deep Is Your Love",
+      "artist": "Bee Gees",
+      "year": 1977,
+      "album": "Saturday Night Fever (The Original Movie Soundtrack)",
+      "note": "The Bee Gees recorded it at the Chateau d'Herouville in France, the studio where Elton John had made Honky Chateau."
+    },
+    {
+      "id": "pop-s10",
       "title": "Rock with You",
       "artist": "Michael Jackson",
       "year": 1979,
       "album": "Off the Wall",
-      "note": "Rod Temperton wrote the song, and Quincy Jones produced it."
+      "note": "Rod Temperton wrote it, and Quincy Jones produced the album that made Jackson a solo star."
     },
     {
-      "id": "pop-s08",
+      "id": "pop-s11",
+      "title": "Beat It",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "album": "Thriller",
+      "note": "Eddie Van Halen played the guitar solo, reportedly without payment, as a favor to Quincy Jones."
+    },
+    {
+      "id": "pop-s12",
+      "title": "Maneater",
+      "artist": "Daryl Hall & John Oates",
+      "year": 1982,
+      "album": "H2O",
+      "note": "Oates has said the title character was inspired as much by New York in the early 1980s as by any one woman."
+    },
+    {
+      "id": "pop-s13",
       "title": "Total Eclipse of the Heart",
       "artist": "Bonnie Tyler",
       "year": 1983,
       "album": "Faster Than the Speed of Night",
-      "note": "Jim Steinman wrote and produced the dramatic power ballad."
-    },
-    {
-      "id": "pop-s09",
-      "title": "Vision of Love",
-      "artist": "Mariah Carey",
-      "year": 1990,
-      "album": "Mariah Carey",
-      "note": "Carey co-wrote her debut single with Ben Margulies."
-    },
-    {
-      "id": "pop-s10",
-      "title": "Wannabe",
-      "artist": "Spice Girls",
-      "year": 1996,
-      "album": "Spice",
-      "note": "The song was the group's first single."
-    },
-    {
-      "id": "pop-s11",
-      "title": "...Baby One More Time",
-      "artist": "Britney Spears",
-      "year": 1998,
-      "album": "...Baby One More Time",
-      "note": "Max Martin wrote the song and helped define pop in the late 1990s."
-    },
-    {
-      "id": "pop-s12",
-      "title": "Crazy in Love",
-      "artist": "Beyonce featuring Jay-Z",
-      "year": 2003,
-      "album": "Dangerously in Love",
-      "note": "A horn sample from a 1970 song by the Chi-Lites drives the track."
-    },
-    {
-      "id": "pop-s13",
-      "title": "Since U Been Gone",
-      "artist": "Kelly Clarkson",
-      "year": 2004,
-      "album": "Breakaway",
-      "note": "Max Martin and Dr. Luke wrote the song."
+      "note": "Jim Steinman wrote and produced it, and the album version runs about seven minutes."
     },
     {
       "id": "pop-s14",
-      "title": "Rolling in the Deep",
-      "artist": "Adele",
-      "year": 2010,
-      "album": "21",
-      "note": "Adele and producer Paul Epworth wrote the song after a breakup."
+      "title": "Like a Virgin",
+      "artist": "Madonna",
+      "year": 1984,
+      "album": "Like a Virgin",
+      "note": "Songwriter Billy Steinberg has said he wrote it from his own tangled love life, and Nile Rodgers produced the album."
     },
     {
       "id": "pop-s15",
-      "title": "Happy",
-      "artist": "Pharrell Williams",
-      "year": 2013,
-      "album": "Despicable Me 2 (Original Motion Picture Soundtrack)",
-      "note": "The song was nominated for the Academy Award for Best Original Song."
+      "title": "Greatest Love of All",
+      "artist": "Whitney Houston",
+      "year": 1985,
+      "album": "Whitney Houston",
+      "note": "George Benson first recorded it in 1977, and Linda Creed wrote the words while battling cancer."
     },
     {
       "id": "pop-s16",
-      "title": "Shake It Off",
-      "artist": "Taylor Swift",
-      "year": 2014,
-      "album": "1989",
-      "note": "Max Martin and Shellback co-wrote the song with Swift."
+      "title": "Everywhere",
+      "artist": "Fleetwood Mac",
+      "year": 1987,
+      "album": "Tango in the Night",
+      "note": "Christine McVie wrote and sang it, and Lindsey Buckingham's bright guitar and harmonies helped make it a favorite."
     }
   ],
   "stories": [
@@ -533,8 +793,12 @@
       "year": 1966,
       "body": "By 1966 Brian Wilson was no longer touring with the Beach Boys. The band was on the road playing surf and car songs while he stayed home in California writing and producing. After the album Pet Sounds, he wanted to make something even more ambitious: a single that would be a small symphony.\n\nHe later said the idea came from his mother, who once told him that dogs bark at some people because they can sense their vibrations. The thought stuck. Wilson began to write a song about feelings that could be felt but not seen, and he decided to make the recording in pieces. Over several months he worked at studios across Los Angeles, including Gold Star, Western and Columbia. At each one he recorded a different section of music with the Los Angeles studio players sometimes called the Wrecking Crew. Each studio had its own sound, and Wilson used that to his advantage.\n\nThe recording included cellos, organ and an unusual instrument called the electro-theremin. It was not a true theremin, but it produced a similar sweeping, eerie whistle. The musician who played it, Paul Tanner, was a former trombonist from the Glenn Miller orchestra who had helped design the device. That sound became the song's hook and gave listeners a strange, thrilling shiver.\n\nWilson then edited the sections together on tape into a three-and-a-half-minute record. Mike Love wrote the final lyrics. The cost of the recording was reportedly enormous for a single in that era. When Capitol Records released it in October 1966, the song soared to the top of the charts in both the United States and Britain.\n\nFor Wilson, it should have been a triumph. He began work on a larger album, called Smile, which was meant to build on the same ideas. But the project proved difficult. The band argued, Wilson grew anxious, and the recording was shelved in 1967. For decades the music circulated only among fans. Wilson finally completed a new version in 2004, and the original sessions were released in 2011 as The Smile Sessions.\n\n\"Good Vibrations\" remained the single piece that showed what he had been aiming for. It proved that a pop record could be built like a film score, from many small parts, and that a three-minute song could be as daring as anything in rock.",
       "songs": [
-        "pop-s03"
-      ]
+        "pop-s02"
+      ],
+      "cover": {
+        "album": "The Smile Sessions",
+        "artist": "The Beach Boys"
+      }
     },
     {
       "id": "pop-st2",
@@ -543,8 +807,12 @@
       "year": 1974,
       "body": "In the early 1970s two Swedish songwriters, Björn Ulvaeus and Benny Andersson, were looking for a way to become known outside their country. Each had been in a popular band at home. They met in 1966 and began writing together. Björn married a singer, Agnetha Fältskog, in 1971, and Benny was with another singer, Anni-Frid Lyngstad, known as Frida. The four were two couples, and they began recording together.\n\nTheir manager, Stig Anderson, saw a way forward in the Eurovision Song Contest, a televised event watched across Europe. In 1973 they entered a song and finished third in the Swedish selection. A year later they tried again with \"Waterloo\", a rousing song with a thumping beat. On April 6, 1974, in Brighton, England, the group appeared in glittery costumes and won. Eurovision had rarely launched a career this large, and the song became a hit across Europe.\n\nABBA, a name made from the initials of their first names, then went on a remarkable run. They recorded in Stockholm, and later at their own Polar Studios. They wrote their own songs, with Björn on lyrics and Benny on music, and they spent weeks perfecting a sound of layered voices, bright keyboards and a clear, polished mix.\n\nIn June 1976 they performed a new song, \"Dancing Queen,\" on a television gala in Stockholm on the eve of the wedding of King Carl XVI Gustaf and Silvia Sommerlath. It was a soaring song with a classic piano opening. It became one of the group's best-known recordings, and it remains a staple of dance floors and weddings.\n\nThe group's songs grew more emotional as the years passed. Both marriages ended, and their lives were in the public eye. Yet they continued to release strong work, including the album Super Trouper in 1980, until the group stopped working together in the early 1980s.\n\nInterest in the music never faded. In 1999 a stage musical, Mamma Mia!, put their songs into a new story. It ran for years in London and around the world and later became a hit film. A group that began as an entry in a song contest had become part of the world's shared pop memory.",
       "songs": [
-        "pop-s05"
-      ]
+        "pop-s07"
+      ],
+      "cover": {
+        "album": "Arrival",
+        "artist": "ABBA"
+      }
     },
     {
       "id": "pop-st3",
@@ -553,8 +821,87 @@
       "year": 1970,
       "body": "In 1967 two young men answered the same advertisement in a British music paper. Liberty Records was looking for new songwriters. One was Reginald Dwight, a piano player from the London suburbs who had been playing in a band and had a gift for melody. The other was Bernie Taupin, a teenager from Lincolnshire who wrote verses about the American West but had no music. The label's talent scout saw that they were a perfect match, though neither had met the other.\n\nThey began to work together by mail. Taupin would write lyrics and send them to Dwight, who by then was calling himself Elton John, and Elton would set them to music. That was how they worked for decades. They seldom wrote in the same room. According to a story that John has often told, he wrote the tune for \"Your Song\" in about twenty minutes.\n\nSuccess came in 1970. In August Elton John played his first American show at the Troubadour in Los Angeles. Before an audience that included music-industry people he pounded the piano, leapt around the stage and sang with an energy that few had expected. The next morning, reviews called him a star. His album Elton John and its single \"Your Song\" were hits.\n\nA string of albums followed. Honky Château in 1972 included \"Rocket Man,\" a song that Taupin has said was inspired by a Ray Bradbury story. Goodbye Yellow Brick Road in 1973 included \"Candle in the Wind,\" Taupin's tribute to Marilyn Monroe. In the mid-1970s John was among the biggest stars in the world, known for oversized glasses and feathered costumes.\n\nThe partnership continued to produce hits. In 1997, after the death of Princess Diana, Taupin rewrote the words of \"Candle in the Wind\" for her funeral, and Elton sang it at Westminster Abbey. The record was among the best-selling singles of all time.\n\nThe two men remained friends and collaborators for more than fifty years. The pairing remains one of the most successful songwriting partnerships in popular music.",
       "songs": [
+        "pop-s05",
+        "pop-s06"
+      ],
+      "cover": {
+        "album": "Honky Chateau",
+        "artist": "Elton John"
+      }
+    },
+    {
+      "id": "pop-st4",
+      "title": "Close to You",
+      "dek": "How the Carpenters found their sound with a song nobody wanted",
+      "year": 1970,
+      "body": "Karen and Richard Carpenter grew up in New Haven, Connecticut, and moved with their parents to Downey, California, in 1963. Richard played piano and arranged; Karen, a few years younger, played drums and, as it turned out, had one of the most distinctive voices in pop. After years of local gigs and a demo tape, they were signed in 1969 by A&M Records, the label that trumpet player Herb Alpert had started with Jerry Moss.\n\nTheir first album did not set the world on fire. Then, in 1970, Alpert suggested a song he thought might suit them. It was \"(They Long to Be) Close to You\", written by Burt Bacharach and Hal David, and it was already known. Singer Richard Chamberlain had recorded it in 1963, and Dionne Warwick, among others, had sung it too. None of those versions had found a large audience.\n\nRichard changed the arrangement. He built a gentle, steady rhythm and set Karen's low, warm voice at the front, with the group's multi-tracked harmonies behind her. In the studio, Richard has said, he and Karen layered their voices many times to produce a sound like a small choir. The record has no flash at all, and that was the point. When it was released that summer, it caught on quickly on the radio, helped by a wistful quality that made listeners feel it was meant for them alone.\n\nThe song launched a remarkable run. \"We've Only Just Begun\" followed, born of a bank commercial, then \"Superstar\" and \"Rainy Days and Mondays\". Between 1970 and the end of the decade the duo recorded a long string of soft-pop favorites, and they were a regular presence on American radio. Critics were sometimes cool, but their records were beautifully made, and the voice at the heart of them had an unusual honesty.\n\nKaren died in February 1983, at only 32, of heart failure linked to anorexia nervosa. Her death helped bring the illness wider attention. Richard kept her recordings in circulation, and the songs from those years still sound as warm as they did when they first reached the radio.",
+      "songs": [
         "pop-s04"
-      ]
+      ],
+      "cover": {
+        "album": "Close to You",
+        "artist": "Carpenters"
+      }
+    },
+    {
+      "id": "pop-st5",
+      "title": "Making Thriller",
+      "dek": "Quincy Jones, a guitar favor and the album that broke records",
+      "year": 1982,
+      "body": "When Michael Jackson was 21, he already had a childhood as a star behind him. He wanted to make a record that no one would mistake for the work of a former child singer. In 1979 he turned to Quincy Jones, a veteran arranger who had worked with Frank Sinatra and Count Basie, and the result, Off the Wall, was a bright, sophisticated album. It included \"Rock with You\", written by Rod Temperton, an English keyboardist who had come to Jones's attention through the band Heatwave.\n\nJackson and Jones made a second album with higher ambitions. Thriller came out in November 1982. Temperton wrote the title track, and the horror-movie star Vincent Price spoke the rap that closes it. Jackson wrote \"Billie Jean\" and \"Beat It\" himself. Jones has said he asked Jackson to shorten the long opening of \"Billie Jean\", and Jackson insisted that the groove was the point. Jones gave in.\n\n\"Beat It\" was meant to bring rock listeners into the record. Jones reached out to Eddie Van Halen, the guitarist of Van Halen, who came to the studio and, by his own account, played the solo as a favor, with no pay. He has said that he first thought the call might be a prank. Toto's Steve Lukather and Jeff Porcaro played on the track as well, and the song fused rock guitar with a dance rhythm in a way few records had managed.\n\nThe video for \"Thriller\", directed by John Landis, followed in December 1983. It ran close to 14 minutes and was staged like a horror film. Music television had been a small channel only a couple of years before, and Jackson's clips helped turn it into an event for a broad audience.\n\nAt the 1984 Grammy Awards, Thriller won eight awards, a record at the time. The album stayed on the charts for years. For Jones and Jackson, who had both been told that they had done enough, it showed that a pop album could be made with the care of a film score and the energy of a street dance.",
+      "songs": [
+        "pop-s10",
+        "pop-s11"
+      ],
+      "cover": {
+        "album": "Thriller",
+        "artist": "Michael Jackson"
+      }
+    },
+    {
+      "id": "pop-st6",
+      "title": "The Stranger",
+      "dek": "Billy Joel, Phil Ramone and a ballad that almost got cut",
+      "year": 1977,
+      "body": "By 1977 Billy Joel had already learned how hard the record business could be. His first album, Cold Spring Harbor, was released with the tape running too fast, so that his voice sounded higher than it had. He fled to Los Angeles, played piano in a bar under the name Bill Martin, and then signed with Columbia. Piano Man, in 1973, gave him a hit, but his next albums sold only modestly.\n\nFor his fifth album, Joel wanted a change. He had a touring band that knew his songs, and he wanted a producer who could capture them in the studio. He found Phil Ramone, a New York engineer and producer who had worked with Paul Simon and Burt Bacharach. Ramone recorded Joel with his own players, including drummer Liberty DeVitto and saxophonist Richie Cannata, rather than with hired hands, and he gave the sound a polish that Joel's earlier records had lacked.\n\nThe album, The Stranger, held a series of New York stories. \"Movin' Out (Anthony's Song)\" was about the working-class ambitions of his neighbors. \"Only the Good Die Young\" teased a Catholic girl, and drew complaints from some Catholic groups and a few radio stations. Joel has said the controversy only helped the song. \"Scenes from an Italian Restaurant\" ran like a small movie in three parts.\n\nOne song nearly stayed off the album. \"Just the Way You Are\" was a quiet ballad that Joel had written for his wife and manager, Elizabeth Weber. He reportedly thought it was too soft, but Linda Ronstadt and Phoebe Snow, who heard it in the studio, urged him to keep it. Ramone asked the jazz saxophonist Phil Woods to play an alto solo, and Woods's airy melody became one of the most recognizable lines on the record.\n\n\"Just the Way You Are\" won the Grammy Awards for Record of the Year and Song of the Year in 1979. The Stranger made Joel an album star, not only a singles artist. The marriage did not last, ending in divorce in 1982, but the song became a wedding standard anyway. A producer's patience, a loyal band and a ballad that almost got cut turned a struggling singer into a star.",
+      "songs": [
+        "pop-s08"
+      ],
+      "cover": {
+        "album": "The Stranger",
+        "artist": "Billy Joel"
+      }
+    },
+    {
+      "id": "pop-st7",
+      "title": "Elton and John at the Garden",
+      "dek": "Thanksgiving 1974, a lost bet and a Beatle on stage",
+      "year": 1974,
+      "body": "On Thanksgiving night, November 28, 1974, Madison Square Garden was full for Elton John's concert. Few in the crowd knew what was about to happen. In 1974 John Lennon was deep in the long separation from Yoko Ono that he later called his lost weekend. He was making an album in New York, Walls and Bridges, and Elton had joined in, playing piano and singing harmony on a song called \"Whatever Gets You thru the Night\".\n\nThe two made a friendly wager. Lennon did not think the single would be a big hit. Elton said that if it reached No. 1, Lennon would have to join him on stage at the Garden. When the single topped the American chart in mid-November, Lennon kept his word, though he was reportedly so nervous that he felt sick beforehand.\n\nElton introduced his guest to the crowd, and the roar was enormous. Lennon stepped up and played guitar on \"Whatever Gets You thru the Night\". He and Elton then did their version of \"Lucy in the Sky with Diamonds\", a Beatles song that Elton had just released as a single with Lennon on guitar and backing vocals under the pseudonym Dr. Winston O'Boogie.\n\nThen came the final song. Lennon dedicated it to an old estranged fiancé of his named Paul. He launched into \"I Saw Her Standing There\", with the same rocking energy that the Beatles had brought to their first album.\n\nBackstage, Yoko Ono was waiting. She had come to the show, and Lennon is said to have been moved when she sent a gardenia to his dressing room. The two reconciled in the months that followed, and Lennon returned to their home in New York early in 1975.\n\nThe night is widely described as Lennon's last full concert appearance. A short time later he stopped touring, becoming a full-time father when his son Sean was born in October 1975. The recording of the Garden show circulated for years, a rare chance to hear a Beatle on a big stage with a friend.",
+      "songs": [
+        "pop-s06"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Caribou",
+        "artist": "Elton John"
+      }
+    },
+    {
+      "id": "pop-st8",
+      "title": "Motown 25",
+      "dek": "The night Michael Jackson slid backward into history",
+      "year": 1983,
+      "body": "In March 1983 a television special called Motown 25: Yesterday, Today, Forever was taped at the Pasadena Civic Auditorium. Berry Gordy, who had founded Motown in Detroit in 1959, wanted to bring back as many of his stars as he could. Diana Ross and the Supremes reunited for part of the night. The Temptations and Four Tops traded songs, and Marvin Gaye sang \"What's Going On\". Smokey Robinson and Stevie Wonder were there. The comedian Richard Pryor was the host.\n\nMichael Jackson was a harder get. He had left Motown for Epic Records, and his new album, Thriller, was already on the radio. He agreed to join his brothers for a medley of Jackson 5 hits, including Jermaine, who had stayed with the label when the others left, and he said he would come only if he could also sing a new song by himself. Gordy agreed.\n\nAfter the group medley, Jackson stood alone on the stage in a black sequined jacket, short black trousers, white socks and a single glittering glove. He told the crowd that those old songs were great, but that he liked the new ones better. Then he launched into \"Billie Jean\".\n\nFor a few seconds he did something that looked like gliding backward while appearing to walk forward. It was the moonwalk, a step that street dancers had used for years, and Jackson, who had picked it up from dancers such as Jeffrey Daniel of the group Shalamar, made it his own. The audience gasped and then roared. He has said that the great dancer Fred Astaire phoned him the next day to tell him he was a hell of a mover.\n\nThe show aired on NBC in May 1983 and drew a huge audience. Jackson's performance was the moment that people talked about at school and at work the next morning. It made \"Billie Jean\" more than a hit record, since it was now something people had to see. The video that had already begun to play on MTV took on new life.\n\nYears later, Motown 25 is remembered for the reunions and the music, but above all for one man in a fedora who made a single sliding step into a piece of pop history.",
+      "songs": [
+        "pop-s10",
+        "pop-s11"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Diana Ross Presents The Jackson 5",
+        "artist": "The Jackson 5"
+      }
     }
   ]
 }

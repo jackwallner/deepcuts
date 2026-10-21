@@ -84,7 +84,7 @@
     },
     {
       "id": "country-q07",
-      "prompt": "Which Canadian-born singer released the 1997 hit \"Man! I Feel Like a Woman!\"?",
+      "prompt": "Which singer co-wrote \"Man! I Feel Like a Woman!\" with her then-husband and producer Mutt Lange?",
       "choices": [
         "Faith Hill",
         "Martina McBride",
@@ -92,7 +92,7 @@
         "LeAnn Rimes"
       ],
       "answer": 2,
-      "fact": "She wrote her biggest hits with her then-husband, the producer Mutt Lange.",
+      "fact": "The video nods to Robert Palmer's \"Addicted to Love\", with a band of men playing behind her.",
       "difficulty": 1
     },
     {
@@ -110,7 +110,7 @@
     },
     {
       "id": "country-q09",
-      "prompt": "Which Texas singer is known as the King of Country?",
+      "prompt": "Which singer, nicknamed the King of Country, recorded \"Amarillo by Morning\"?",
       "choices": [
         "George Strait",
         "Randy Travis",
@@ -118,7 +118,7 @@
         "Conway Twitty"
       ],
       "answer": 0,
-      "fact": "He served in the U.S. Army before he began his music career, and he recorded \"Amarillo by Morning\" in 1982.",
+      "fact": "Strait served in the U.S. Army, where he sang in a country band while stationed in Hawaii.",
       "difficulty": 1
     },
     {
@@ -426,7 +426,7 @@
       "artist": "Glen Campbell",
       "year": 1967,
       "album": "Gentle on My Mind",
-      "note": "John Hartford wrote the song, and Campbell's recording won him Grammy Awards."
+      "note": "John Hartford has said he wrote it after seeing the film Doctor Zhivago."
     },
     {
       "id": "country-s05",

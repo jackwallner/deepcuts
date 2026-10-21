@@ -227,7 +227,7 @@
     },
     {
       "id": "british-invasion-q18",
-      "prompt": "Which Beatles single first reached No. 1 in the United States in early 1964?",
+      "prompt": "A 15-year-old fan's letter to a Washington DJ in December 1963 pushed Capitol to rush which Beatles single into stores?",
       "choices": [
         "She Loves You",
         "Love Me Do",
@@ -235,7 +235,7 @@
         "Can't Buy Me Love"
       ],
       "answer": 2,
-      "fact": "Capitol moved the release up to late December 1963 after American fans began requesting it on radio.",
+      "fact": "Marsha Albert wrote to DJ Carroll James, who played a British import on the air, and Capitol moved the release up from mid-January to December 26.",
       "difficulty": 2
     },
     {
@@ -279,33 +279,33 @@
     },
     {
       "id": "british-invasion-q22",
-      "prompt": "Tom Jones was born in which Welsh town?",
+      "prompt": "Tom Jones's 1965 hit \"It's Not Unusual\" was reportedly written with which other singer in mind?",
       "choices": [
-        "Swansea",
-        "Pontypridd",
-        "Merthyr Tydfil",
-        "Wrexham"
+        "Cilla Black",
+        "Sandie Shaw",
+        "Dusty Springfield",
+        "Lulu"
       ],
       "answer": 1,
-      "fact": "His 1965 debut hit, \"It's Not Unusual\", was written with another singer in mind but became his signature song.",
+      "fact": "Songwriters Gordon Mills and Les Reed wrote it, and Jones's own demo of the song was strong enough that it became his signature.",
       "difficulty": 3
     },
     {
       "id": "british-invasion-q23",
-      "prompt": "Which band's \"Glad All Over\" knocked the Beatles' \"I Want to Hold Your Hand\" from the top of the UK chart in January 1964?",
+      "prompt": "Which British band made 18 appearances on The Ed Sullivan Show, more than any other British act?",
       "choices": [
         "Gerry and the Pacemakers",
-        "Freddie and the Dreamers",
+        "Herman's Hermits",
         "The Dave Clark Five",
-        "The Swinging Blue Jeans"
+        "The Searchers"
       ],
       "answer": 2,
-      "fact": "The Tottenham quintet was a stomping, saxophone-driven rival to the Beatles and made many appearances on Ed Sullivan's show.",
+      "fact": "Leader Dave Clark kept ownership of the group's master recordings, and kept them off the market for decades.",
       "difficulty": 3
     },
     {
       "id": "british-invasion-q24",
-      "prompt": "Which band had a UK No. 1 in 1968 with a Bob Dylan song, \"The Mighty Quinn\"?",
+      "prompt": "Which band recorded Bob Dylan's \"The Mighty Quinn\" in 1968, before Dylan himself released a version?",
       "choices": [
         "Manfred Mann",
         "Herman's Hermits",
@@ -313,7 +313,7 @@
         "The Searchers"
       ],
       "answer": 0,
-      "fact": "Dylan had recorded it at the time of his Basement Tapes sessions, and Manfred Mann's version reached the top ten in the US too.",
+      "fact": "Dylan wrote it during the 1967 Basement Tapes sessions, and his own live version did not appear until the Isle of Wight recording on Self Portrait in 1970.",
       "difficulty": 3
     },
     {
@@ -357,7 +357,7 @@
     },
     {
       "id": "british-invasion-q28",
-      "prompt": "The Rolling Stones' first UK No. 1, \"It's All Over Now\", was a cover of which group?",
+      "prompt": "The Rolling Stones' \"It's All Over Now\", recorded at Chess Studios in 1964, was a cover of which group?",
       "choices": [
         "The Drifters",
         "The Coasters",
@@ -402,7 +402,7 @@
       "artist": "The Beatles",
       "year": 1962,
       "album": "Please Please Me",
-      "note": "The band's first single reached No. 17 in the UK, and a 1964 US reissue went to No. 1."
+      "note": "John Lennon's harmonica opens it, and producer George Martin had session drummer Andy White play on the version heard on the album."
     },
     {
       "id": "british-invasion-s02",
@@ -426,7 +426,7 @@
       "artist": "The Animals",
       "year": 1964,
       "album": "The Animals",
-      "note": "Alan Price's organ and Eric Burdon's vocal turned a folk standard into a No. 1 hit."
+      "note": "The recording credited the arrangement to Alan Price alone, a decision that stirred resentment in the band for years."
     },
     {
       "id": "british-invasion-s05",
@@ -434,7 +434,7 @@
       "artist": "Petula Clark",
       "year": 1964,
       "album": "Downtown",
-      "note": "Tony Hatch wrote it after a visit to New York, and it was Clark's first US No. 1."
+      "note": "Tony Hatch has said he got the idea on his first visit to New York, and the song became a hit on both sides of the Atlantic."
     },
     {
       "id": "british-invasion-s06",
@@ -482,7 +482,7 @@
       "artist": "The Kinks",
       "year": 1967,
       "album": "Something Else by the Kinks",
-      "note": "Ray Davies wrote it, and it reached No. 2 on the UK chart."
+      "note": "Ray Davies has said the song began as \"Liverpool Sunset\", and its lovers, Terry and Julie, are among the best-known characters in British pop."
     },
     {
       "id": "british-invasion-s12",
@@ -551,7 +551,7 @@
       "title": "The Zombies' Lost Masterpiece",
       "dek": "A band that broke up before its biggest hit",
       "year": 1968,
-      "body": "The Zombies were from St Albans, north of London, and had a hit in 1964 with \"She's Not There\". By 1967 they were struggling. Their later singles had not sold, the schedule of touring was heavy, and money was tight. Even so, keyboardist Rod Argent, bassist Chris White and singer Colin Blunstone decided to make an album the way they wanted.\n\nThey signed a small contract with CBS and booked time at Abbey Road, the same studio the Beatles had made their records in. The budget was tiny, so they had to be quick and careful. They used the studio's Mellotron, which let them play tape-based string and flute sounds from a keyboard, and the engineers who had worked with the Beatles, including Geoff Emerick, helped them with the sound. White and Argent wrote nearly all the songs, and the band layered their harmonies on top of baroque keyboard parts.\n\nThe finished album, Odessey and Oracle, was rich and strange. It had songs about war, death and loneliness, and it also had warm pop melodies. The cover was painted by a friend, Terry Quirk, who misspelled the word Odyssey, and the band decided to keep it.\n\nBy the time the sessions finished, the group had already come to the end of the road. The band decided it could not go on, and the Zombies broke up in December 1967, months before their album came out. Columbia released it in Britain in April 1968, and it vanished almost at once.\n\nThe story would have ended there, but in the United States Al Kooper, then working as a producer and musician for CBS, heard a copy and loved it. He insisted the label release it. A single, \"Time of the Season\", with Blunstone's breathy vocal and Argent's organ, was issued in the United States, and in early 1969 it began to climb the charts. It reached No. 3 on the Billboard Hot 100. The band had split more than a year earlier.\n\nOdessey and Oracle slowly found its audience, and critics now place it among the finest albums of the era. Argent and Blunstone later reunited and played the album in full on stage, four decades after it was recorded.",
+      "body": "The Zombies were from St Albans, north of London, and had a hit in 1964 with \"She's Not There\". By 1967 they were struggling. Their later singles had not sold, the schedule of touring was heavy, and money was tight. Even so, keyboardist Rod Argent, bassist Chris White and singer Colin Blunstone decided to make an album the way they wanted.\n\nThey signed a small contract with CBS and booked time at Abbey Road, the same studio the Beatles had made their records in. The budget was tiny, so they had to be quick and careful. They used the studio's Mellotron, which let them play tape-based string and flute sounds from a keyboard, and the engineers who had worked with the Beatles, including Geoff Emerick, helped them with the sound. White and Argent wrote nearly all the songs, and the band layered their harmonies on top of baroque keyboard parts.\n\nThe finished album, Odessey and Oracle, was rich and strange. It had songs about war, death and loneliness, and it also had warm pop melodies. The cover was painted by a friend, Terry Quirk, who misspelled the word Odyssey, and the band decided to keep it.\n\nBy the time the sessions finished, the group had already come to the end of the road. The band decided it could not go on, and the Zombies broke up in December 1967, months before their album came out. CBS released it in Britain in April 1968, and it vanished almost at once.\n\nThe story would have ended there, but in the United States Al Kooper, then working as a producer and musician for CBS, heard a copy and loved it. He insisted the label release it. A single, \"Time of the Season\", with Blunstone's breathy vocal and Argent's organ, was issued in the United States, and in early 1969 it began to climb the charts. It reached No. 3 on the Billboard Hot 100. The band had split more than a year earlier.\n\nOdessey and Oracle slowly found its audience, and critics now place it among the finest albums of the era. Argent and Blunstone later reunited and played the album in full on stage, four decades after it was recorded.",
       "songs": [
         "british-invasion-s14"
       ]

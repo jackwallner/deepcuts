@@ -240,15 +240,15 @@
     },
     {
       "id": "classic-rock-q19",
-      "prompt": "Which band opened the Wembley Stadium half of Live Aid in July 1985?",
+      "prompt": "The cover photograph of Hotel California shows which famous Beverly Hills landmark?",
       "choices": [
-        "Queen",
-        "Status Quo",
-        "Dire Straits",
-        "The Who"
+        "The Chateau Marmont",
+        "The Beverly Hills Hotel",
+        "The Hollywood Roosevelt",
+        "The Beverly Wilshire"
       ],
       "answer": 1,
-      "fact": "They kicked off at noon with \"Rockin' All Over the World\", and the set that followed by Queen is often named the day's best.",
+      "fact": "Photographer David Alexander shot the hotel at sunset, and the pink building has been tied to the album ever since.",
       "difficulty": 2
     },
     {
@@ -274,7 +274,7 @@
         "Fritz"
       ],
       "answer": 3,
-      "fact": "Mick Fleetwood heard their 1973 duo album Buckingham Nicks at Sound City studio and invited Buckingham to join, on the condition that Nicks come too.",
+      "fact": "Fritz, the Bay Area band where they met, reportedly opened shows for acts such as Jimi Hendrix and Janis Joplin. Mick Fleetwood later heard the duo's 1973 album Buckingham Nicks at Sound City and invited Buckingham to join, on the condition that Nicks come too.",
       "difficulty": 3
     },
     {
@@ -292,15 +292,15 @@
     },
     {
       "id": "classic-rock-q23",
-      "prompt": "How many weeks did \"Bohemian Rhapsody\" spend at No. 1 on the UK chart in 1975-76?",
+      "prompt": "Which London DJ played \"Bohemian Rhapsody\" 14 times over a weekend in 1975, helping force the label to release it?",
       "choices": [
-        "Three",
-        "Five",
-        "Nine",
-        "Fourteen"
+        "John Peel",
+        "Tony Blackburn",
+        "Kenny Everett",
+        "Alan Freeman"
       ],
       "answer": 2,
-      "fact": "At 5:55, the song ignored every rule about single length, and it returned to No. 1 in 1991-92 after Freddie Mercury's death.",
+      "fact": "Everett had been given an advance copy by Freddie Mercury, and EMI had worried that a six-minute single was too long for radio.",
       "difficulty": 3
     },
     {
@@ -313,7 +313,7 @@
         "Hackney"
       ],
       "answer": 0,
-      "fact": "He has said the band played on to a nearly empty room, and the song became a Top 5 US hit for Dire Straits in 1979.",
+      "fact": "He has said the band played on to a nearly empty room, and the song's dry humor comes from that scene.",
       "difficulty": 3
     },
     {
@@ -326,7 +326,7 @@
         "Every Picture Tells a Story"
       ],
       "answer": 0,
-      "fact": "A DJ flipped the single in 1971, and \"Maggie May\" went to No. 1 in both the US and the UK.",
+      "fact": "A DJ flipped the single in 1971, and Ray Jackson of Lindisfarne played the mandolin, reportedly without credit on the first pressings.",
       "difficulty": 3
     },
     {
@@ -370,28 +370,28 @@
     },
     {
       "id": "classic-rock-q29",
-      "prompt": "Tom Petty and the Heartbreakers came out of which Florida city?",
+      "prompt": "Which Fleetwood Mac singer duets with Tom Petty on \"Stop Draggin' My Heart Around\"?",
       "choices": [
-        "Jacksonville",
-        "Tampa",
-        "Orlando",
-        "Gainesville"
+        "Christine McVie",
+        "Linda Ronstadt",
+        "Emmylou Harris",
+        "Stevie Nicks"
       ],
       "answer": 3,
-      "fact": "Petty's earlier band, Mudcrutch, formed in Gainesville, and the band moved to Los Angeles in the mid-1970s.",
+      "fact": "Petty and guitarist Mike Campbell wrote the song, and producer Jimmy Iovine, who was working on Nicks's solo debut Bella Donna, brought the two stars together.",
       "difficulty": 3
     },
     {
       "id": "classic-rock-q30",
-      "prompt": "In 1961 Mick Jagger and Keith Richards reconnected on a train platform in which English town?",
+      "prompt": "What was Mick Jagger carrying when Keith Richards recognized him on a train platform in 1961?",
       "choices": [
-        "Croydon",
-        "Dartford",
-        "Bromley",
-        "Slough"
+        "His first guitar",
+        "Records by Chuck Berry and Muddy Waters",
+        "A harmonica and a drumstick",
+        "A stack of art-school sketches"
       ],
       "answer": 1,
-      "fact": "Jagger was carrying Chuck Berry and Muddy Waters records, which gave the two former schoolmates a reason to start a band.",
+      "fact": "The two had been schoolmates, and their shared taste for American blues gave them a reason to start a band.",
       "difficulty": 3
     }
   ],
@@ -458,7 +458,7 @@
       "artist": "Bad Company",
       "year": 1974,
       "album": "Bad Company",
-      "note": "It was the first single from the band's debut album and reached the US Top 5."
+      "note": "The band recorded its debut at Headley Grange, the country house where Led Zeppelin had made records, and Mick Ralphs wrote this song."
     },
     {
       "id": "classic-rock-s09",
@@ -474,7 +474,7 @@
       "artist": "Eagles",
       "year": 1976,
       "album": "Hotel California",
-      "note": "It won the Grammy for Record of the Year."
+      "note": "Don Felder wrote the music on a demo, and Don Henley and Glenn Frey wrote lyrics about the excess of Southern California."
     },
     {
       "id": "classic-rock-s11",
@@ -482,7 +482,7 @@
       "artist": "Fleetwood Mac",
       "year": 1977,
       "album": "Rumours",
-      "note": "It was the band's only No. 1 single in the United States."
+      "note": "Stevie Nicks has said she wrote it in minutes, sitting on the bed in a small studio room at the Record Plant in Sausalito."
     },
     {
       "id": "classic-rock-s12",
@@ -510,11 +510,11 @@
     },
     {
       "id": "classic-rock-s15",
-      "title": "Don't Stop Believin'",
-      "artist": "Journey",
-      "year": 1981,
-      "album": "Escape",
-      "note": "Its chorus does not arrive until the final minute of the song."
+      "title": "More Than a Feeling",
+      "artist": "Boston",
+      "year": 1976,
+      "album": "Boston",
+      "note": "Tom Scholz built the demo in his basement studio near Boston, and the finished record kept much of that sound."
     },
     {
       "id": "classic-rock-s16",

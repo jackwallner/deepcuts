@@ -97,7 +97,7 @@
     },
     {
       "id": "hip-hop-q08",
-      "prompt": "Which rapper, born in New York City, recorded \"California Love\" with Dr. Dre?",
+      "prompt": "Which rapper signed to Death Row Records after Suge Knight posted his bail in 1995, then recorded \"California Love\" with Dr. Dre?",
       "choices": [
         "2Pac",
         "Snoop Dogg",
@@ -105,7 +105,7 @@
         "Warren G"
       ],
       "answer": 0,
-      "fact": "Tupac Shakur was born in East Harlem, and he later moved to California.",
+      "fact": "Roger Troutman of Zapp sang the talk-box hook, and the video drew on the film Mad Max Beyond Thunderdome.",
       "difficulty": 1
     },
     {
@@ -266,15 +266,15 @@
     },
     {
       "id": "hip-hop-q21",
-      "prompt": "DJ Kool Herc, who helped start hip-hop in the Bronx, was born in which country?",
+      "prompt": "At his 1973 Bronx party, DJ Kool Herc used two copies of the same record to extend what part of a funk song?",
       "choices": [
-        "Trinidad",
-        "Barbados",
-        "Cuba",
-        "Jamaica"
+        "The opening vocal",
+        "The final fade-out",
+        "The spoken intro",
+        "The instrumental break"
       ],
       "answer": 3,
-      "fact": "He brought the Jamaican sound-system tradition with him when he moved to New York as a boy.",
+      "fact": "He called the technique the Merry-Go-Round, and dancers who waited for the break became known as b-boys and b-girls.",
       "difficulty": 3
     },
     {
@@ -514,7 +514,7 @@
       "artist": "Kanye West",
       "year": 2004,
       "album": "The College Dropout",
-      "note": "Radio programmers were wary of the subject, but the song won a Grammy."
+      "note": "The hook samples a gospel choir's \"Walk with Me\", and West feared radio would shun the subject."
     },
     {
       "id": "hip-hop-s16",

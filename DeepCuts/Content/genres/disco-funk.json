@@ -188,15 +188,15 @@
     },
     {
       "id": "disco-funk-q15",
-      "prompt": "Giorgio Moroder, who produced Donna Summer's \"I Feel Love,\" was born in which country?",
+      "prompt": "Giorgio Moroder built Donna Summer's \"I Feel Love\" mainly around which instrument?",
       "choices": [
-        "Germany",
-        "Austria",
-        "Italy",
-        "Switzerland"
+        "A Fender Rhodes",
+        "A Hammond organ",
+        "A Moog synthesizer",
+        "A Mellotron"
       ],
       "answer": 2,
-      "fact": "Moroder worked in Munich, and the track's pulsing sound came from a Moog synthesizer.",
+      "fact": "Moroder and co-writer Pete Bellotte worked at Musicland Studios in Munich, and Brian Eno reportedly called the track the sound of the future.",
       "difficulty": 2
     },
     {
@@ -227,29 +227,29 @@
     },
     {
       "id": "disco-funk-q18",
-      "prompt": "Kool & the Gang, who recorded \"Celebration\" in 1980, formed in which New Jersey city?",
+      "prompt": "Brazilian arranger Eumir Deodato, known for a funky 1973 \"Also Sprach Zarathustra\", produced \"Celebration\" for which group?",
       "choices": [
-        "Newark",
-        "Trenton",
-        "Jersey City",
-        "Camden"
+        "Earth, Wind & Fire",
+        "Chic",
+        "Kool & the Gang",
+        "The Commodores"
       ],
       "answer": 2,
-      "fact": "The band started in the 1960s as a jazz group, and it later became a major funk and pop act.",
-      "difficulty": 2
+      "fact": "Deodato produced the group's 1979 revival with the album Ladies' Night and its new singer, James \"J.T.\" Taylor.",
+      "difficulty": 3
     },
     {
       "id": "disco-funk-q19",
-      "prompt": "From which country did the Average White Band, who recorded \"Pick Up the Pieces,\" come?",
+      "prompt": "Which singer is often credited with giving the Average White Band its name?",
       "choices": [
-        "England",
-        "Scotland",
-        "Ireland",
-        "Wales"
+        "Aretha Franklin",
+        "Bonnie Bramlett",
+        "Ruth Brown",
+        "Etta James"
       ],
       "answer": 1,
-      "fact": "The band's instrumental reached the top of the American singles chart in 1975.",
-      "difficulty": 2
+      "fact": "The Scottish band's 1974 album AWB, known as the White Album, includes the instrumental \"Pick Up the Pieces\".",
+      "difficulty": 3
     },
     {
       "id": "disco-funk-q20",
