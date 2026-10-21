@@ -266,15 +266,15 @@
     },
     {
       "id": "southern-rock-q21",
-      "prompt": "The Allman Brothers' version of \"Statesboro Blues\" was a cover of a song by which bluesman?",
+      "prompt": "Who produced The Allman Brothers Band's 1969 debut album?",
       "choices": [
-        "Lead Belly",
-        "Robert Johnson",
-        "Howlin' Wolf",
-        "Blind Willie McTell"
+        "Tom Dowd",
+        "Jerry Wexler",
+        "Johnny Sandlin",
+        "Adrian Barber"
       ],
       "answer": 3,
-      "fact": "McTell recorded the song in 1928, and Duane Allman took the slide-guitar arrangement from Taj Mahal's version.",
+      "fact": "Tom Dowd was reportedly unavailable, so Atlantic house engineer Adrian Barber produced the sessions in New York.",
       "difficulty": 3
     },
     {
@@ -287,16 +287,16 @@
         "The Dixie Cat"
       ],
       "answer": 1,
-      "fact": "Fans and critics have long noted the resemblance to Hooker's boogie groove.",
+      "fact": "The Chicken Ranch closed in 1973 after a Houston TV reporter's exposé, and its story inspired the musical The Best Little Whorehouse in Texas.",
       "difficulty": 3
     },
     {
       "id": "southern-rock-q23",
       "prompt": "The Marshall Tucker Band took its name from the key ring of whom?",
       "choices": [
-        "A Confederate general",
-        "Their first manager",
-        "A blind piano tuner from their rehearsal building",
+        "A Confederate cavalry general",
+        "The band's first road manager",
+        "A blind piano tuner they knew",
         "A Spartanburg football coach"
       ],
       "answer": 2,
@@ -305,15 +305,15 @@
     },
     {
       "id": "southern-rock-q24",
-      "prompt": "Skynyrd's \"Call Me the Breeze\" was written by which songwriter?",
+      "prompt": "What everyday object did Gary Rossington use as his slide on \"Free Bird\"?",
       "choices": [
-        "J. J. Cale",
-        "Leon Russell",
-        "Delbert McClinton",
-        "Bobby Whitlock"
+        "A Coricidin bottle",
+        "A Zippo lighter",
+        "A pocketknife",
+        "A brass pipe"
       ],
       "answer": 0,
-      "fact": "Cale also wrote \"After Midnight\" and \"Cocaine\", both made famous by Eric Clapton.",
+      "fact": "He followed Duane Allman's example of using a glass cold-medicine bottle, and played the part on a Gibson SG.",
       "difficulty": 3
     },
     {
@@ -435,29 +435,29 @@
     },
     {
       "id": "southern-rock-q34",
-      "prompt": "The 1983 ZZ Top album Eliminator is built around what kind of car?",
+      "prompt": "Which 1973 ZZ Top album, whose Spanish title means \"three men\", includes \"La Grange\"?",
       "choices": [
-        "A black 1969 Camaro",
-        "A yellow 1957 Chevy",
-        "A red 1933 Ford hot rod",
-        "A white 1964 Mustang"
+        "Tres Hombres",
+        "Fandango!",
+        "Rio Grande Mud",
+        "Degüello"
       ],
-      "answer": 2,
-      "fact": "The custom coupe starred on the cover and in the band's videos, and it was built for Billy Gibbons.",
-      "difficulty": 1
+      "answer": 0,
+      "fact": "It was recorded at Ardent Studios in Memphis and carried the band's breakthrough single.",
+      "difficulty": 2
     },
     {
       "id": "southern-rock-q35",
-      "prompt": "Dickey Betts wrote the Allman Brothers instrumental \"Jessica\" for whom?",
+      "prompt": "The Allman Brothers Band formed in which Florida city in 1969?",
       "choices": [
-        "His mother",
-        "His wife",
-        "His horse",
-        "His young daughter"
+        "Tampa",
+        "Daytona Beach",
+        "Orlando",
+        "Jacksonville"
       ],
       "answer": 3,
-      "fact": "The sunny melody is often described as capturing the energy of a small child at play.",
-      "difficulty": 1
+      "fact": "The group moved north to Macon, Georgia, soon afterward to sign with Phil Walden's Capricorn Records.",
+      "difficulty": 2
     },
     {
       "id": "southern-rock-q36",
@@ -539,15 +539,15 @@
     },
     {
       "id": "southern-rock-q42",
-      "prompt": "ZZ Top's \"La Grange\" shares a groove with which bluesman's \"Boogie Chillen\"?",
+      "prompt": "Wet Willie, the Capricorn band behind \"Keep On Smilin'\", came from which Alabama city?",
       "choices": [
-        "Howlin' Wolf",
-        "Muddy Waters",
-        "John Lee Hooker",
-        "B. B. King"
+        "Birmingham",
+        "Montgomery",
+        "Mobile",
+        "Huntsville"
       ],
       "answer": 2,
-      "fact": "Fans and critics have long noted the resemblance to Hooker's boogie groove.",
+      "fact": "Singer Jimmy Hall's soul-and-gospel-flavored voice led a band that mixed Southern rock with R&B.",
       "difficulty": 2
     },
     {
@@ -620,9 +620,9 @@
       "prompt": "Molly Hatchet's name comes from a folk legend about what?",
       "choices": [
         "A woman who killed men with a hatchet",
-        "A Georgia sea monster",
-        "A gold-rush ghost town",
-        "A Civil War field cannon"
+        "A swamp monster said to roam Georgia",
+        "A ghost town from the Georgia gold rush",
+        "A Civil War cannon that never fired"
       ],
       "answer": 0,
       "fact": "The band, formed in Jacksonville, Florida, took the grisly legend as a badge.",
@@ -652,6 +652,58 @@
       ],
       "answer": 2,
       "fact": "The story is that he scribbled the lyrics at a desperate hour, and the song grew into a Fillmore East showpiece.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q51",
+      "prompt": "Before it became Lynyrd Skynyrd, the Jacksonville band went by which name?",
+      "choices": [
+        "The Rebel Yell",
+        "The Kudzu Kings",
+        "My Backyard",
+        "Skinner's Boys"
+      ],
+      "answer": 2,
+      "fact": "The group also used the names The Noble Five and The One Percent before settling on Lynyrd Skynyrd.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q52",
+      "prompt": "Which producer, known for early Cheap Trick albums, made Molly Hatchet's 1978 debut?",
+      "choices": [
+        "Tom Dowd",
+        "Bob Ezrin",
+        "Bill Szymczyk",
+        "Tom Werman"
+      ],
+      "answer": 3,
+      "fact": "He also produced Ted Nugent, and the album credits Pat Armstrong as a producer too.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q53",
+      "prompt": "Who has managed ZZ Top since the start and is credited as producer of Tres Hombres and Eliminator?",
+      "choices": [
+        "Bill Ham",
+        "Bill Graham",
+        "Tom Dowd",
+        "Phil Walden"
+      ],
+      "answer": 0,
+      "fact": "Ham is also credited as producer of the band's 1975 album Fandango!.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q54",
+      "prompt": "Side one of ZZ Top's Fandango! was recorded live in 1974 in which city?",
+      "choices": [
+        "Memphis",
+        "New Orleans",
+        "Austin",
+        "Houston"
+      ],
+      "answer": 1,
+      "fact": "The live tracks came from The Warehouse, and side two held new studio songs such as \"Tush\".",
       "difficulty": 3
     }
   ],
@@ -694,7 +746,7 @@
       "artist": "Lynyrd Skynyrd",
       "year": 1973,
       "album": "(Pronounced 'Leh-'nérd 'Skin-'nérd)",
-      "note": "The band's debut album was produced by Al Kooper."
+      "note": "Allen Collins and Ronnie Van Zant wrote it, and the song's second half is a long, fast guitar finale."
     },
     {
       "id": "southern-rock-s06",
@@ -951,19 +1003,19 @@
       "note": "J.J. Cale released it on his debut album Naturally. Skynyrd put it on Second Helping in 1974, and it became a staple of their live shows."
     },
     {
-      "id": "southern-rock-c04",
-      "title": "Texas Flood",
-      "artist": "Stevie Ray Vaughan & Double Trouble",
-      "year": 1983,
-      "album": "Texas Flood",
-      "original": "Larry Davis",
-      "originalYear": 1958,
+      "id": "southern-rock-c12",
+      "title": "T for Texas",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1976,
+      "album": "One More from the Road",
+      "original": "Jimmie Rodgers",
+      "originalYear": 1927,
       "decoys": [
-        "Albert Collins",
-        "T-Bone Walker",
-        "Freddie King"
+        "Hank Williams",
+        "Bob Wills",
+        "Gene Autry"
       ],
-      "note": "Larry Davis recorded it in the late 1950s. Vaughan made it the title track of his 1983 debut album."
+      "note": "Jimmie Rodgers recorded it in 1927 as Blue Yodel. Skynyrd played it as a loud three-guitar rocker on the live album One More from the Road."
     },
     {
       "id": "southern-rock-c05",
@@ -981,49 +1033,49 @@
       "note": "Merle Haggard recorded it in the mid 1970s. Skynyrd included it on Street Survivors, which came out days before the 1977 plane crash."
     },
     {
-      "id": "southern-rock-c06",
-      "title": "Susie Q",
-      "artist": "Creedence Clearwater Revival",
-      "year": 1968,
-      "album": "Creedence Clearwater Revival",
-      "original": "Dale Hawkins",
-      "originalYear": 1957,
+      "id": "southern-rock-c09",
+      "title": "Dreams I'll Never See",
+      "artist": "Molly Hatchet",
+      "year": 1978,
+      "album": "Molly Hatchet",
+      "original": "The Allman Brothers Band",
+      "originalYear": 1969,
       "decoys": [
-        "Chuck Berry",
-        "Bo Diddley",
-        "Jerry Lee Lewis"
+        "Lynyrd Skynyrd",
+        "The Marshall Tucker Band",
+        "The Outlaws"
       ],
-      "note": "Dale Hawkins recorded it in Shreveport in 1957, with James Burton on guitar. Creedence stretched it past eight minutes for their 1968 debut."
+      "note": "Gregg Allman wrote it as \"Dreams\" for the Allman Brothers' 1969 debut. Molly Hatchet turned it into a slow-burning showpiece on its own 1978 debut."
     },
     {
-      "id": "southern-rock-c07",
-      "title": "I Put a Spell on You",
-      "artist": "Creedence Clearwater Revival",
-      "year": 1968,
-      "album": "Creedence Clearwater Revival",
-      "original": "Screamin' Jay Hawkins",
-      "originalYear": 1956,
+      "id": "southern-rock-c10",
+      "title": "Trouble No More",
+      "artist": "The Allman Brothers Band",
+      "year": 1969,
+      "album": "The Allman Brothers Band",
+      "original": "Muddy Waters",
+      "originalYear": 1955,
       "decoys": [
-        "Nina Simone",
-        "Little Richard",
-        "Fats Domino"
+        "Howlin' Wolf",
+        "Elmore James",
+        "Little Walter"
       ],
-      "note": "Hawkins reportedly intended a ballad, but the 1956 session turned wild. John Fogerty's version came out in 1968 as Creedence's second single."
+      "note": "Muddy Waters recorded it for Chess in 1955, reworking an older blues. The Allmans put it on their 1969 debut and kept it in their sets for decades."
     },
     {
-      "id": "southern-rock-c08",
-      "title": "Little Wing",
-      "artist": "Stevie Ray Vaughan & Double Trouble",
-      "year": 1984,
-      "album": "Couldn't Stand the Weather",
-      "original": "The Jimi Hendrix Experience",
-      "originalYear": 1967,
+      "id": "southern-rock-c11",
+      "title": "You Don't Love Me",
+      "artist": "The Allman Brothers Band",
+      "year": 1971,
+      "album": "At Fillmore East",
+      "original": "Willie Cobbs",
+      "originalYear": 1961,
       "decoys": [
-        "Cream",
-        "Traffic",
-        "Jeff Beck"
+        "Junior Wells",
+        "Magic Sam",
+        "Freddie King"
       ],
-      "note": "Hendrix put it on Axis: Bold as Love in 1967. Vaughan recorded it for Couldn't Stand the Weather and kept it in his sets for the rest of his career."
+      "note": "Willie Cobbs recorded it in Memphis, adapting an earlier Bo Diddley song. The Allmans stretched it past nineteen minutes on At Fillmore East, built from both nights of the March 1971 shows."
     }
   ]
 }
