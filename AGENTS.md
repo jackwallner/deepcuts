@@ -1,8 +1,10 @@
 # Deep Cuts Project Guide
 
 Music trivia and music history by focus area ("crates": Classic Rock, Southern Rock,
-British Invasion, Heavy Metal, ...). Daily 10-question mix, Name That Tune with Apple
-Music previews, Which Came First?, long-form stories, and Wikipedia's On This Day.
+British Invasion, Heavy Metal, ...). Daily 10-question mix (at most one hard question, ends on a
+cover), Trivia, The Hard Ones (difficulty 3 only), Name That Tune with Apple Music previews,
+Who Did It First? (covers), Which Came First?, long-form and concert stories, and Wikipedia's
+On This Day.
 Idea from Jack's dad (John Wallner, `wallners@gmail.com`), who is the first tester.
 XcodeGen project/scheme: `DeepCuts`, sim lease owner `deepcuts`.
 App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com.jackwallner.deepcuts`.
@@ -28,12 +30,13 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
   question, song year and story must be fact-checked; when unsure, cut it. No em dashes in content.
 - After editing content: `python3 scripts/validate-content.py` (also gates `scripts/testflight.sh`),
   and for new songs `python3 scripts/resolve-catalog.py` (about 20 lookups a minute) then review its
-  NO MATCH / YEAR lines. A new crate also needs an entry in `ContentLibrary.order` and
+  NO MATCH / YEAR lines. `scripts/edit-content.py <crate> <id> '<json>'` sets fields on one item
+  without reformatting the file. A new crate also needs an entry in `ContentLibrary.order` and
   `Theme.crate`/`Theme.crateSymbol`.
 - Design: warm paper, ink, one record-label red (`Theme`), New York serif headlines, real album art.
   No gradients, no emoji icons, nothing that looks generated. Keep it simple.
-- `Config/Secrets.xcconfig` (not committed) holds the feedback URL and app key; without it the
-  app builds but can't send suggestions. Values live in `~/.tester_feedback`.
+- `Config/App.xcconfig` optionally includes `Config/Secrets.xcconfig` (not committed), which holds
+  the feedback URL and app key; without it the app builds (gh-sim works) but can't send suggestions. Values live in `~/.tester_feedback`.
 - Tests: `xcodebuild test -project DeepCuts.xcodeproj -scheme DeepCuts -destination id=<leased UDID>`.
   UI tests launch with `-ui-reset -ui-feedback-stub` (never send real feedback from a test: a real
   suggestion starts a build session). `-ui-focus classic-rock,southern-rock` skips onboarding.
@@ -46,7 +49,8 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
   radio listener knows.
 
 ## Tester feedback loop
-The You tab and Today screen have "Suggest a change". It posts to the `tester-feedback` function;
+The You tab and Today screen have "Suggest a change", and every answer card has "Report a problem",
+which attaches the question id, prompt and answer as `screen` context. It posts to the `tester-feedback` function;
 the ops poller on the MacBook Pro (`~/ios/ops/ops/feedback.py`) sees it within a minute, opens a
 silent #ops thread and starts an Opus session on the Air in this repo with the suggestion as the
 prompt. That session implements it, tests, commits, pushes, runs `./scripts/testflight.sh`, and
