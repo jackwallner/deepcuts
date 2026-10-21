@@ -600,5 +600,127 @@
         "artist": "Bob Dylan"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "folk-singer-songwriter-c01",
+      "title": "Hallelujah",
+      "artist": "Jeff Buckley",
+      "year": 1994,
+      "album": "Grace",
+      "original": "Leonard Cohen",
+      "originalYear": 1984,
+      "decoys": [
+        "Bob Dylan",
+        "John Cale",
+        "Neil Young"
+      ],
+      "note": "Cohen released it on Various Positions in 1984. Buckley built his recording on John Cale's 1991 arrangement, and it became far better known than Cohen's version."
+    },
+    {
+      "id": "folk-singer-songwriter-c02",
+      "title": "Mr. Tambourine Man",
+      "artist": "The Byrds",
+      "year": 1965,
+      "album": "Mr. Tambourine Man",
+      "original": "Bob Dylan",
+      "originalYear": 1965,
+      "decoys": [
+        "Joan Baez",
+        "Pete Seeger",
+        "Peter, Paul and Mary"
+      ],
+      "note": "Dylan recorded it for Bringing It All Back Home in early 1965. On the Byrds' version only Roger McGuinn played, alongside session musicians, and it went to number one."
+    },
+    {
+      "id": "folk-singer-songwriter-c03",
+      "title": "Both Sides, Now",
+      "artist": "Joni Mitchell",
+      "year": 1969,
+      "album": "Clouds",
+      "original": "Judy Collins",
+      "originalYear": 1967,
+      "decoys": [
+        "Joan Baez",
+        "Dave Van Ronk",
+        "Mimi Fariña"
+      ],
+      "note": "Judy Collins recorded Mitchell's song in 1967 on Wildflowers and had the hit. Mitchell released her own recording on Clouds two years later."
+    },
+    {
+      "id": "folk-singer-songwriter-c04",
+      "title": "Suzanne",
+      "artist": "Leonard Cohen",
+      "year": 1967,
+      "album": "Songs of Leonard Cohen",
+      "original": "Judy Collins",
+      "originalYear": 1966,
+      "decoys": [
+        "Joan Baez",
+        "Joni Mitchell",
+        "Gordon Lightfoot"
+      ],
+      "note": "Collins included it on In My Life in 1966, a year before Cohen released his own version on his debut album."
+    },
+    {
+      "id": "folk-singer-songwriter-c05",
+      "title": "Four Strong Winds",
+      "artist": "Neil Young",
+      "year": 1978,
+      "album": "Comes a Time",
+      "original": "Ian & Sylvia",
+      "originalYear": 1963,
+      "decoys": [
+        "Gordon Lightfoot",
+        "Joni Mitchell",
+        "Bob Dylan"
+      ],
+      "note": "Ian Tyson wrote it and the duo released it in 1963. A 2005 CBC Radio listener poll reportedly named it the greatest Canadian song."
+    },
+    {
+      "id": "folk-singer-songwriter-c06",
+      "title": "Angel from Montgomery",
+      "artist": "Bonnie Raitt",
+      "year": 1974,
+      "album": "Streetlights",
+      "original": "John Prine",
+      "originalYear": 1971,
+      "decoys": [
+        "Steve Goodman",
+        "Townes Van Zandt",
+        "Kris Kristofferson"
+      ],
+      "note": "Prine released it on his 1971 debut. Raitt recorded it in 1974 and has often performed it since, sometimes with Prine."
+    },
+    {
+      "id": "folk-singer-songwriter-c07",
+      "title": "Everybody's Talkin'",
+      "artist": "Harry Nilsson",
+      "year": 1968,
+      "album": "Aerial Ballet",
+      "original": "Fred Neil",
+      "originalYear": 1966,
+      "decoys": [
+        "Tim Hardin",
+        "Eric Andersen",
+        "Tim Buckley"
+      ],
+      "note": "Fred Neil's song first appeared on his 1966 album Fred Neil. Nilsson's 1968 recording went nowhere until it was used in the 1969 film Midnight Cowboy."
+    },
+    {
+      "id": "folk-singer-songwriter-c08",
+      "title": "Mr. Bojangles",
+      "artist": "Nitty Gritty Dirt Band",
+      "year": 1970,
+      "album": "Uncle Charlie and His Dog Teddy",
+      "original": "Jerry Jeff Walker",
+      "originalYear": 1968,
+      "decoys": [
+        "Bob Dylan",
+        "David Bromberg",
+        "Arlo Guthrie"
+      ],
+      "note": "Walker has said he wrote it after meeting a street performer in a New Orleans jail. The Dirt Band's 1970 version was the first big hit for the song."
+    }
   ]
 }

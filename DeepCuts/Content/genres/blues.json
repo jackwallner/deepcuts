@@ -599,5 +599,127 @@
         "artist": "Muddy Waters"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "blues-c01",
+      "title": "The Thrill Is Gone",
+      "artist": "B.B. King",
+      "year": 1969,
+      "album": "Completely Well",
+      "original": "Roy Hawkins",
+      "originalYear": 1951,
+      "decoys": [
+        "Muddy Waters",
+        "T-Bone Walker",
+        "Lowell Fulson"
+      ],
+      "note": "Roy Hawkins recorded it in 1951. King's 1969 remake, with strings added and a slow minor-key groove, became his signature song and a crossover hit."
+    },
+    {
+      "id": "blues-c02",
+      "title": "Got My Mojo Working",
+      "artist": "Muddy Waters",
+      "year": 1956,
+      "album": "The Chess Box",
+      "original": "Ann Cole",
+      "originalYear": 1956,
+      "decoys": [
+        "Big Maybelle",
+        "LaVern Baker",
+        "Ruth Brown"
+      ],
+      "note": "Ann Cole recorded the Preston Foster song first. Waters took it over and it became his show closer, most famously at Newport in 1960."
+    },
+    {
+      "id": "blues-c03",
+      "title": "Born Under a Bad Sign",
+      "artist": "Cream",
+      "year": 1968,
+      "album": "Wheels of Fire",
+      "original": "Albert King",
+      "originalYear": 1967,
+      "decoys": [
+        "Freddie King",
+        "Otis Rush",
+        "Buddy Guy"
+      ],
+      "note": "Booker T. Jones and William Bell wrote it for Albert King at Stax in 1967. Cream put a studio version on Wheels of Fire the next year."
+    },
+    {
+      "id": "blues-c04",
+      "title": "I Can't Quit You Baby",
+      "artist": "Led Zeppelin",
+      "year": 1969,
+      "album": "Led Zeppelin",
+      "original": "Otis Rush",
+      "originalYear": 1956,
+      "decoys": [
+        "Howlin' Wolf",
+        "Muddy Waters",
+        "Buddy Guy"
+      ],
+      "note": "Otis Rush cut Willie Dixon's song for Cobra Records in 1956. Led Zeppelin recorded it for their debut album, with Robert Plant singing and Jimmy Page's guitar out front."
+    },
+    {
+      "id": "blues-c05",
+      "title": "Little Red Rooster",
+      "artist": "The Rolling Stones",
+      "year": 1964,
+      "album": "The Rolling Stones, Now!",
+      "original": "Howlin' Wolf",
+      "originalYear": 1961,
+      "decoys": [
+        "Muddy Waters",
+        "Sam Cooke",
+        "John Lee Hooker"
+      ],
+      "note": "Howlin' Wolf recorded Willie Dixon's song for Chess in 1961, and Sam Cooke had a hit with it in 1963. The Stones' slide guitar version, with Brian Jones, went to number one in the UK in 1964."
+    },
+    {
+      "id": "blues-c06",
+      "title": "Hound Dog",
+      "artist": "Elvis Presley",
+      "year": 1956,
+      "album": "Elvis' Golden Records",
+      "original": "Big Mama Thornton",
+      "originalYear": 1953,
+      "decoys": [
+        "Freddie Bell and the Bellboys",
+        "Ruth Brown",
+        "Wynonie Harris"
+      ],
+      "note": "Willie Mae Thornton recorded the Leiber and Stoller song in 1952, and it was released in 1953. Presley reportedly modeled his version on a Las Vegas lounge arrangement by Freddie Bell and the Bellboys."
+    },
+    {
+      "id": "blues-c07",
+      "title": "Smokestack Lightning",
+      "artist": "The Yardbirds",
+      "year": 1964,
+      "album": "Five Live Yardbirds",
+      "original": "Howlin' Wolf",
+      "originalYear": 1956,
+      "decoys": [
+        "Muddy Waters",
+        "Sonny Boy Williamson II",
+        "Elmore James"
+      ],
+      "note": "Howlin' Wolf cut it for Chess in 1956. The Yardbirds stretched it into a long guitar workout at the Marquee Club in London, with Eric Clapton in the band."
+    },
+    {
+      "id": "blues-c08",
+      "title": "Hey Bartender",
+      "artist": "The Blues Brothers",
+      "year": 1978,
+      "album": "Briefcase Full of Blues",
+      "original": "Floyd Dixon",
+      "originalYear": 1954,
+      "decoys": [
+        "Charles Brown",
+        "Amos Milburn",
+        "Roy Brown"
+      ],
+      "note": "Floyd Dixon is generally credited with the first recording. The Blues Brothers' live version came from their 1978 shows opening for Steve Martin."
+    }
   ]
 }

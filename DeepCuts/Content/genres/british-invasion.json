@@ -901,5 +901,127 @@
         "artist": "Jimi Hendrix"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "british-invasion-c01",
+      "title": "Twist and Shout",
+      "artist": "The Beatles",
+      "year": 1963,
+      "album": "Please Please Me",
+      "original": "The Top Notes",
+      "originalYear": 1961,
+      "decoys": [
+        "The Isley Brothers",
+        "Chuck Berry",
+        "Little Richard"
+      ],
+      "note": "Phil Spector produced the Top Notes' 1961 version, and the Isley Brothers had the 1962 hit. The Beatles reportedly recorded theirs in one take at the end of the Please Please Me session."
+    },
+    {
+      "id": "british-invasion-c02",
+      "title": "You Really Got a Hold on Me",
+      "artist": "The Beatles",
+      "year": 1963,
+      "album": "With The Beatles",
+      "original": "The Miracles",
+      "originalYear": 1962,
+      "decoys": [
+        "Marvin Gaye",
+        "The Four Tops",
+        "The Marvelettes"
+      ],
+      "note": "Smokey Robinson wrote it and the Miracles had the 1962 hit. The Beatles put it on With the Beatles, with John Lennon and George Harrison sharing the vocal."
+    },
+    {
+      "id": "british-invasion-c03",
+      "title": "Needles and Pins",
+      "artist": "The Searchers",
+      "year": 1964,
+      "album": "It's the Searchers",
+      "original": "Jackie DeShannon",
+      "originalYear": 1963,
+      "decoys": [
+        "Dusty Springfield",
+        "Lesley Gore",
+        "Cilla Black"
+      ],
+      "note": "Jackie DeShannon recorded the Sonny Bono and Jack Nitzsche song in 1963. The Searchers' jangling version, released in 1964, reached number one in the UK."
+    },
+    {
+      "id": "british-invasion-c04",
+      "title": "Not Fade Away",
+      "artist": "The Rolling Stones",
+      "year": 1964,
+      "album": "England's Newest Hit Makers",
+      "original": "The Crickets",
+      "originalYear": 1957,
+      "decoys": [
+        "Chuck Berry",
+        "Bo Diddley",
+        "Little Richard"
+      ],
+      "note": "Buddy Holly's group the Crickets released it in 1957. The Stones leaned on a Bo Diddley style beat and took it into the UK top three in early 1964."
+    },
+    {
+      "id": "british-invasion-c05",
+      "title": "It's All Over Now",
+      "artist": "The Rolling Stones",
+      "year": 1964,
+      "album": "12 x 5",
+      "original": "The Valentinos",
+      "originalYear": 1964,
+      "decoys": [
+        "Sam Cooke",
+        "Wilson Pickett",
+        "Otis Redding"
+      ],
+      "note": "The Valentinos were a family group led by Bobby Womack, who wrote it. The Stones' cover gave them their first UK number one that summer."
+    },
+    {
+      "id": "british-invasion-c06",
+      "title": "Shout",
+      "artist": "Lulu & The Luvvers",
+      "year": 1964,
+      "album": "Something to Shout About",
+      "original": "The Isley Brothers",
+      "originalYear": 1959,
+      "decoys": [
+        "Jackie Wilson",
+        "Sam Cooke",
+        "Ray Charles"
+      ],
+      "note": "The Isley Brothers released it in 1959, and it reportedly grew out of an ad lib on stage. Lulu was about fifteen when she and her band recorded it, and it became her first hit."
+    },
+    {
+      "id": "british-invasion-c07",
+      "title": "Baby, Please Don't Go",
+      "artist": "Them",
+      "year": 1964,
+      "album": "The Complete Them (1964-1967)",
+      "original": "Big Joe Williams",
+      "originalYear": 1935,
+      "decoys": [
+        "Muddy Waters",
+        "Lightnin' Hopkins",
+        "John Lee Hooker"
+      ],
+      "note": "Big Joe Williams recorded it in 1935, and it became a blues standard. Them's 1964 version, sung by a young Van Morrison, turned it into a garage rock staple."
+    },
+    {
+      "id": "british-invasion-c08",
+      "title": "Do Wah Diddy Diddy",
+      "artist": "Manfred Mann",
+      "year": 1964,
+      "album": "Mann Made Hits",
+      "original": "The Exciters",
+      "originalYear": 1963,
+      "decoys": [
+        "The Ronettes",
+        "The Crystals",
+        "The Shirelles"
+      ],
+      "note": "Jeff Barry and Ellie Greenwich wrote it, and the Exciters recorded it in 1963. Manfred Mann's 1964 version reached number one in both the UK and the US."
+    }
   ]
 }

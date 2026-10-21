@@ -599,5 +599,127 @@
         "artist": "Johnny Cash"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "country-c01",
+      "title": "Hurt",
+      "artist": "Johnny Cash",
+      "year": 2002,
+      "album": "American IV: The Man Comes Around",
+      "original": "Nine Inch Nails",
+      "originalYear": 1994,
+      "decoys": [
+        "Depeche Mode",
+        "Marilyn Manson",
+        "Tool"
+      ],
+      "note": "Trent Reznor wrote it for The Downward Spiral. Reznor has said that after hearing Cash's recording, the song no longer felt like his."
+    },
+    {
+      "id": "country-c02",
+      "title": "Blue Eyes Crying in the Rain",
+      "artist": "Willie Nelson",
+      "year": 1975,
+      "album": "Red Headed Stranger",
+      "original": "Roy Acuff",
+      "originalYear": 1947,
+      "decoys": [
+        "Hank Williams",
+        "Ernest Tubb",
+        "Eddy Arnold"
+      ],
+      "note": "Fred Rose wrote it, and Roy Acuff recorded it in 1947. Nelson's sparse remake on Red Headed Stranger gave him a number one country single."
+    },
+    {
+      "id": "country-c03",
+      "title": "Mammas Don't Let Your Babies Grow Up to Be Cowboys",
+      "artist": "Waylon Jennings & Willie Nelson",
+      "year": 1978,
+      "album": "Waylon & Willie",
+      "original": "Ed Bruce",
+      "originalYear": 1975,
+      "decoys": [
+        "Merle Haggard",
+        "Kris Kristofferson",
+        "Tom T. Hall"
+      ],
+      "note": "Ed Bruce and his wife Patsy wrote it, and Bruce released it in 1975. Waylon and Willie's duet won a Grammy."
+    },
+    {
+      "id": "country-c04",
+      "title": "Fast Car",
+      "artist": "Luke Combs",
+      "year": 2023,
+      "album": "Gettin' Old",
+      "original": "Tracy Chapman",
+      "originalYear": 1988,
+      "decoys": [
+        "Bonnie Raitt",
+        "Suzanne Vega",
+        "Melissa Etheridge"
+      ],
+      "note": "Chapman released it on her 1988 debut. After Combs's 2023 version, she won the CMA Song of the Year award as its writer."
+    },
+    {
+      "id": "country-c05",
+      "title": "Gentle on My Mind",
+      "artist": "Glen Campbell",
+      "year": 1967,
+      "album": "Gentle On My Mind",
+      "original": "John Hartford",
+      "originalYear": 1967,
+      "decoys": [
+        "Roger Miller",
+        "Merle Haggard",
+        "Johnny Cash"
+      ],
+      "note": "Hartford wrote it, reportedly after seeing the film Doctor Zhivago, and released his own version the same year. Campbell's recording became the one most listeners know."
+    },
+    {
+      "id": "country-c06",
+      "title": "Blue Bayou",
+      "artist": "Linda Ronstadt",
+      "year": 1977,
+      "album": "Simple Dreams",
+      "original": "Roy Orbison",
+      "originalYear": 1963,
+      "decoys": [
+        "Don Gibson",
+        "Brenda Lee",
+        "Jim Reeves"
+      ],
+      "note": "Orbison and Joe Melson wrote it, and Orbison released it in 1963. Ronstadt's 1977 version was among her biggest hits, reaching number three in the US."
+    },
+    {
+      "id": "country-c07",
+      "title": "I Can't Stop Loving You",
+      "artist": "Ray Charles",
+      "year": 1962,
+      "album": "Modern Sounds in Country and Western Music",
+      "original": "Don Gibson",
+      "originalYear": 1958,
+      "decoys": [
+        "Hank Snow",
+        "Webb Pierce",
+        "Faron Young"
+      ],
+      "note": "Don Gibson wrote it and released it in 1958 as the flip side of Oh, Lonesome Me. Charles's 1962 version, on Modern Sounds in Country and Western Music, spent five weeks at number one in the US."
+    },
+    {
+      "id": "country-c08",
+      "title": "Rhinestone Cowboy",
+      "artist": "Glen Campbell",
+      "year": 1975,
+      "album": "Rhinestone Cowboy",
+      "original": "Larry Weiss",
+      "originalYear": 1974,
+      "decoys": [
+        "Kris Kristofferson",
+        "Jimmy Webb",
+        "John Denver"
+      ],
+      "note": "Larry Weiss wrote and released it in 1974. Campbell reportedly heard it on the radio while on tour and made it his biggest hit."
+    }
   ]
 }

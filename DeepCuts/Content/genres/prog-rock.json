@@ -600,5 +600,127 @@
         "artist": "King Crimson"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "prog-rock-c01",
+      "title": "America",
+      "artist": "Yes",
+      "year": 1971,
+      "album": "Yesterdays",
+      "original": "Simon & Garfunkel",
+      "originalYear": 1968,
+      "decoys": [
+        "The Byrds",
+        "The Beatles",
+        "Peter, Paul and Mary"
+      ],
+      "note": "Paul Simon wrote it for Bookends. Yes recorded it in 1971 as a long showpiece, released it as a single in 1972, and later collected it on Yesterdays."
+    },
+    {
+      "id": "prog-rock-c02",
+      "title": "Jealous Guy",
+      "artist": "Roxy Music",
+      "year": 1981,
+      "album": "The Best of Roxy Music",
+      "original": "John Lennon",
+      "originalYear": 1971,
+      "decoys": [
+        "Paul McCartney",
+        "George Harrison",
+        "Harry Nilsson"
+      ],
+      "note": "Lennon released it on Imagine in 1971. Roxy Music recorded it after Lennon's death in 1980, and it reached number one in the UK."
+    },
+    {
+      "id": "prog-rock-c03",
+      "title": "Go Now",
+      "artist": "The Moody Blues",
+      "year": 1964,
+      "album": "The Magnificent Moodies",
+      "original": "Bessie Banks",
+      "originalYear": 1964,
+      "decoys": [
+        "Dionne Warwick",
+        "Dusty Springfield",
+        "Mary Wells"
+      ],
+      "note": "Larry Banks and Milton Bennett wrote it, and Bessie Banks released it in 1964. The Moody Blues, with Denny Laine singing, took it to number one in the UK in early 1965."
+    },
+    {
+      "id": "prog-rock-c04",
+      "title": "Heroes",
+      "artist": "Peter Gabriel",
+      "year": 2010,
+      "album": "Scratch My Back (Special Edition)",
+      "original": "David Bowie",
+      "originalYear": 1977,
+      "decoys": [
+        "Iggy Pop",
+        "Lou Reed",
+        "Brian Eno"
+      ],
+      "note": "Bowie released it in 1977. Gabriel's version is on an album of covers recorded with an orchestra and no guitars or drums."
+    },
+    {
+      "id": "prog-rock-c05",
+      "title": "The Book of Love",
+      "artist": "Peter Gabriel",
+      "year": 2009,
+      "album": "Scratch My Back (Special Edition)",
+      "original": "The Magnetic Fields",
+      "originalYear": 1999,
+      "decoys": [
+        "Neutral Milk Hotel",
+        "Belle and Sebastian",
+        "Elliott Smith"
+      ],
+      "note": "Stephin Merritt wrote it for the Magnetic Fields' 1999 album 69 Love Songs. Gabriel's hushed version has also been used in film and television."
+    },
+    {
+      "id": "prog-rock-c06",
+      "title": "Summertime Blues",
+      "artist": "Rush",
+      "year": 2004,
+      "album": "Feedback",
+      "original": "Eddie Cochran",
+      "originalYear": 1958,
+      "decoys": [
+        "Gene Vincent",
+        "Buddy Holly",
+        "Little Richard"
+      ],
+      "note": "Cochran co-wrote and released it in 1958. Rush recorded it for Feedback, a 2004 EP of covers of songs from their early years."
+    },
+    {
+      "id": "prog-rock-c07",
+      "title": "Every Little Thing",
+      "artist": "Yes",
+      "year": 1969,
+      "album": "Yes (Deluxe Edition)",
+      "original": "The Beatles",
+      "originalYear": 1964,
+      "decoys": [
+        "The Zombies",
+        "The Kinks",
+        "The Hollies"
+      ],
+      "note": "The Beatles put it on Beatles for Sale in 1964. Yes reworked it on their 1969 debut, and their version quotes a snippet of Day Tripper."
+    },
+    {
+      "id": "prog-rock-c08",
+      "title": "Nut Rocker",
+      "artist": "Emerson, Lake & Palmer",
+      "year": 1971,
+      "album": "Pictures at an Exhibition",
+      "original": "B. Bumble and the Stingers",
+      "originalYear": 1962,
+      "decoys": [
+        "The Ventures",
+        "Duane Eddy",
+        "The Tornados"
+      ],
+      "note": "B. Bumble and the Stingers had a 1962 hit with a rock arrangement of Tchaikovsky's march from The Nutcracker, credited to Kim Fowley. ELP played it as an encore on their live album Pictures at an Exhibition."
+    }
   ]
 }

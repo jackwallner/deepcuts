@@ -601,5 +601,127 @@
         "artist": "2Pac"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "hip-hop-c01",
+      "title": "Walk This Way",
+      "artist": "Run-DMC",
+      "year": 1986,
+      "album": "Raising Hell",
+      "original": "Aerosmith",
+      "originalYear": 1975,
+      "decoys": [
+        "Led Zeppelin",
+        "Kiss",
+        "Van Halen"
+      ],
+      "note": "Aerosmith released it on Toys in the Attic in 1975. Run-DMC reportedly did not know the song at first, and Steven Tyler and Joe Perry joined the recording."
+    },
+    {
+      "id": "hip-hop-c02",
+      "title": "Whatta Man",
+      "artist": "Salt-N-Pepa & En Vogue",
+      "year": 1993,
+      "album": "Runaway Love - EP",
+      "original": "Linda Lyndell",
+      "originalYear": 1968,
+      "decoys": [
+        "Aretha Franklin",
+        "Etta James",
+        "Carla Thomas"
+      ],
+      "note": "Linda Lyndell recorded What a Man for Stax's Volt label in 1968. The 1993 version, with En Vogue singing the hook, reached the US top ten."
+    },
+    {
+      "id": "hip-hop-c03",
+      "title": "Killing Me Softly with His Song",
+      "artist": "Fugees",
+      "year": 1996,
+      "album": "The Score",
+      "original": "Lori Lieberman",
+      "originalYear": 1972,
+      "decoys": [
+        "Roberta Flack",
+        "Judy Collins",
+        "Carole King"
+      ],
+      "note": "Lori Lieberman recorded the Charles Fox and Norman Gimbel song in 1972, and Roberta Flack's 1973 version was the big hit. The Fugees' 1996 version reached number one in the UK."
+    },
+    {
+      "id": "hip-hop-c04",
+      "title": "No Woman, No Cry",
+      "artist": "Fugees",
+      "year": 1996,
+      "album": "The Score",
+      "original": "Bob Marley & The Wailers",
+      "originalYear": 1974,
+      "decoys": [
+        "Peter Tosh",
+        "Jimmy Cliff",
+        "Toots and the Maytals"
+      ],
+      "note": "Marley released a studio version on Natty Dread in 1974, crediting the song to his friend Vincent Ford. The Fugees put their version on The Score."
+    },
+    {
+      "id": "hip-hop-c05",
+      "title": "Mary, Mary",
+      "artist": "Run-DMC",
+      "year": 1988,
+      "album": "Tougher Than Leather",
+      "original": "The Monkees",
+      "originalYear": 1967,
+      "decoys": [
+        "The Turtles",
+        "The Association",
+        "Paul Revere & the Raiders"
+      ],
+      "note": "Michael Nesmith wrote it, and the Monkees released it in 1967 on More of the Monkees. Run-DMC recast it as a hard-edged track for Tougher Than Leather."
+    },
+    {
+      "id": "hip-hop-c06",
+      "title": "I Feel for You",
+      "artist": "Chaka Khan",
+      "year": 1984,
+      "album": "I Feel for You",
+      "original": "Prince",
+      "originalYear": 1979,
+      "decoys": [
+        "Rick James",
+        "Stevie Wonder",
+        "Sly Stone"
+      ],
+      "note": "Prince released it on his 1979 self-titled album. Khan's 1984 version added a rap by Melle Mel and a harmonica part by Stevie Wonder."
+    },
+    {
+      "id": "hip-hop-c07",
+      "title": "Just the Two of Us",
+      "artist": "Will Smith",
+      "year": 1997,
+      "album": "Big Willie Style",
+      "original": "Grover Washington, Jr.",
+      "originalYear": 1980,
+      "decoys": [
+        "Roberta Flack",
+        "Donny Hathaway",
+        "Michael Franks"
+      ],
+      "note": "Grover Washington Jr. released it on Winelight in 1980, with Bill Withers singing. Smith kept the hook and added new verses about his son."
+    },
+    {
+      "id": "hip-hop-c08",
+      "title": "Lean on Me",
+      "artist": "Club Nouveau",
+      "year": 1986,
+      "album": "Life, Love & Pain",
+      "original": "Bill Withers",
+      "originalYear": 1972,
+      "decoys": [
+        "Al Green",
+        "Curtis Mayfield",
+        "Sam Cooke"
+      ],
+      "note": "Withers released it on Still Bill in 1972. Club Nouveau's new jack swing version reached number one in the US, as Withers's original had."
+    }
   ]
 }

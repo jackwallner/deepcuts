@@ -600,5 +600,127 @@
         "artist": "Adele"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "modern-pop-c01",
+      "title": "Nothing Compares 2 U",
+      "artist": "Sinéad O'Connor",
+      "year": 1990,
+      "album": "I Do Not Want What I Haven't Got",
+      "original": "The Family",
+      "originalYear": 1985,
+      "decoys": [
+        "Prince",
+        "Chaka Khan",
+        "Sheila E."
+      ],
+      "note": "Prince wrote it for the Family, a band he assembled, for their 1985 album. O'Connor's 1990 version reached number one in the US and the UK."
+    },
+    {
+      "id": "modern-pop-c02",
+      "title": "I Will Always Love You",
+      "artist": "Whitney Houston",
+      "year": 1992,
+      "album": "The Bodyguard (Original Soundtrack Album)",
+      "original": "Dolly Parton",
+      "originalYear": 1973,
+      "decoys": [
+        "Linda Ronstadt",
+        "Tammy Wynette",
+        "Emmylou Harris"
+      ],
+      "note": "Parton wrote it as a farewell to her mentor Porter Wagoner. Houston's version for The Bodyguard spent fourteen weeks at number one in the US."
+    },
+    {
+      "id": "modern-pop-c03",
+      "title": "Mad World",
+      "artist": "Michael Andrews & Gary Jules",
+      "year": 2001,
+      "album": "Donnie Darko (Original Motion Picture Soundtrack)",
+      "original": "Tears for Fears",
+      "originalYear": 1982,
+      "decoys": [
+        "Depeche Mode",
+        "Duran Duran",
+        "Ultravox"
+      ],
+      "note": "Roland Orzabal wrote it, and Tears for Fears released it in 1982 as an upbeat synth single. The slowed piano version for the film Donnie Darko was the UK Christmas number one in 2003."
+    },
+    {
+      "id": "modern-pop-c04",
+      "title": "Valerie",
+      "artist": "Mark Ronson feat. Amy Winehouse",
+      "year": 2007,
+      "album": "Version",
+      "original": "The Zutons",
+      "originalYear": 2006,
+      "decoys": [
+        "Arctic Monkeys",
+        "Kaiser Chiefs",
+        "The Coral"
+      ],
+      "note": "The Liverpool band the Zutons released it on Tired of Hanging Around in 2006. Ronson's brassy arrangement with Amy Winehouse followed a year later."
+    },
+    {
+      "id": "modern-pop-c05",
+      "title": "Have I Told You Lately",
+      "artist": "Rod Stewart",
+      "year": 1991,
+      "album": "Vagabond Heart",
+      "original": "Van Morrison",
+      "originalYear": 1989,
+      "decoys": [
+        "Eric Clapton",
+        "Bob Seger",
+        "Bryan Adams"
+      ],
+      "note": "Morrison released it on Avalon Sunset in 1989. Stewart recorded it for Vagabond Heart, and it reached the US top five when released as a single in 1993."
+    },
+    {
+      "id": "modern-pop-c06",
+      "title": "Lovesong",
+      "artist": "Adele",
+      "year": 2011,
+      "album": "21",
+      "original": "The Cure",
+      "originalYear": 1989,
+      "decoys": [
+        "Depeche Mode",
+        "New Order",
+        "The Smiths"
+      ],
+      "note": "Robert Smith wrote it for The Cure's 1989 album Disintegration, reportedly as a wedding gift to his wife. Adele turned it into a slow acoustic number on 21."
+    },
+    {
+      "id": "modern-pop-c07",
+      "title": "All by Myself",
+      "artist": "Céline Dion",
+      "year": 1996,
+      "album": "Falling Into You",
+      "original": "Eric Carmen",
+      "originalYear": 1975,
+      "decoys": [
+        "Barry Manilow",
+        "Elton John",
+        "Billy Joel"
+      ],
+      "note": "Carmen based the verses on a theme from Rachmaninoff's Second Piano Concerto and released it in 1975. Dion's 1996 version made it a big hit again."
+    },
+    {
+      "id": "modern-pop-c08",
+      "title": "Don't Cha",
+      "artist": "The Pussycat Dolls & Busta Rhymes",
+      "year": 2005,
+      "album": "PCD",
+      "original": "Tori Alamaze",
+      "originalYear": 2004,
+      "decoys": [
+        "Ciara",
+        "Ashanti",
+        "Amerie"
+      ],
+      "note": "Tori Alamaze recorded it in 2004, but her version was little heard. The Dolls' 2005 recording, with Busta Rhymes, was a worldwide hit."
+    }
   ]
 }

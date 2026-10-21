@@ -600,5 +600,127 @@
         "artist": "Aretha Franklin"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "motown-soul-c01",
+      "title": "Respect",
+      "artist": "Aretha Franklin",
+      "year": 1967,
+      "album": "I Never Loved a Man the Way I Love You",
+      "original": "Otis Redding",
+      "originalYear": 1965,
+      "decoys": [
+        "Sam Cooke",
+        "Wilson Pickett",
+        "James Brown"
+      ],
+      "note": "Redding wrote and released it in 1965 on Otis Blue. Franklin's version added the spelled-out chorus and a saxophone break, and went to number one in the US."
+    },
+    {
+      "id": "motown-soul-c02",
+      "title": "Piece of My Heart",
+      "artist": "Big Brother & The Holding Company",
+      "year": 1968,
+      "album": "Cheap Thrills",
+      "original": "Erma Franklin",
+      "originalYear": 1967,
+      "decoys": [
+        "Aretha Franklin",
+        "Etta James",
+        "Dionne Warwick"
+      ],
+      "note": "Bert Berns and Jerry Ragovoy wrote it, and Erma Franklin, Aretha's older sister, recorded it in 1967. Janis Joplin's version on Cheap Thrills came the next year."
+    },
+    {
+      "id": "motown-soul-c03",
+      "title": "Papa Was a Rollin' Stone",
+      "artist": "The Temptations",
+      "year": 1972,
+      "album": "All Directions",
+      "original": "The Undisputed Truth",
+      "originalYear": 1971,
+      "decoys": [
+        "Marvin Gaye",
+        "Isaac Hayes",
+        "Curtis Mayfield"
+      ],
+      "note": "Norman Whitfield produced the Undisputed Truth's 1971 version. The Temptations' 1972 album cut ran nearly twelve minutes, and the single won Grammys."
+    },
+    {
+      "id": "motown-soul-c04",
+      "title": "Money (That's What I Want)",
+      "artist": "The Beatles",
+      "year": 1963,
+      "album": "With The Beatles",
+      "original": "Barrett Strong",
+      "originalYear": 1959,
+      "decoys": [
+        "Marvin Gaye",
+        "Jackie Wilson",
+        "Smokey Robinson & the Miracles"
+      ],
+      "note": "Barrett Strong recorded it for Tamla in 1959, and it is often described as an early Motown hit. Berry Gordy and Janie Bradford wrote it."
+    },
+    {
+      "id": "motown-soul-c05",
+      "title": "I Say a Little Prayer",
+      "artist": "Aretha Franklin",
+      "year": 1968,
+      "album": "Aretha Now",
+      "original": "Dionne Warwick",
+      "originalYear": 1967,
+      "decoys": [
+        "Dusty Springfield",
+        "Gladys Knight",
+        "The Supremes"
+      ],
+      "note": "Burt Bacharach and Hal David wrote it for Dionne Warwick. Franklin's 1968 version on Aretha Now reached the US top ten."
+    },
+    {
+      "id": "motown-soul-c06",
+      "title": "Walk On By",
+      "artist": "Isaac Hayes",
+      "year": 1969,
+      "album": "Hot Buttered Soul",
+      "original": "Dionne Warwick",
+      "originalYear": 1964,
+      "decoys": [
+        "Aretha Franklin",
+        "Dusty Springfield",
+        "Gladys Knight"
+      ],
+      "note": "Burt Bacharach and Hal David wrote it, and Dionne Warwick's 1964 version reached the US top ten. Hayes stretched it past twelve minutes on Hot Buttered Soul."
+    },
+    {
+      "id": "motown-soul-c07",
+      "title": "Mustang Sally",
+      "artist": "Wilson Pickett",
+      "year": 1966,
+      "album": "The Wicked Pickett",
+      "original": "Sir Mack Rice",
+      "originalYear": 1965,
+      "decoys": [
+        "Otis Redding",
+        "Sam & Dave",
+        "Eddie Floyd"
+      ],
+      "note": "Sir Mack Rice wrote and released it in 1965. Pickett's 1966 version turned it into a bar band standard."
+    },
+    {
+      "id": "motown-soul-c08",
+      "title": "Soul Man",
+      "artist": "The Blues Brothers",
+      "year": 1978,
+      "album": "Briefcase Full of Blues",
+      "original": "Sam & Dave",
+      "originalYear": 1967,
+      "decoys": [
+        "Wilson Pickett",
+        "Otis Redding",
+        "Eddie Floyd"
+      ],
+      "note": "Isaac Hayes and David Porter wrote it for Sam and Dave in 1967. The Blues Brothers' live version reached the US top 20."
+    }
   ]
 }

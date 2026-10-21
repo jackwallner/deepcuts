@@ -599,5 +599,127 @@
         "artist": "Various Artists"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "yacht-rock-c01",
+      "title": "Love Will Keep Us Together",
+      "artist": "Captain & Tennille",
+      "year": 1975,
+      "album": "Love Will Keep Us Together",
+      "original": "Neil Sedaka",
+      "originalYear": 1973,
+      "decoys": [
+        "Carole King",
+        "Barry Manilow",
+        "The Carpenters"
+      ],
+      "note": "Neil Sedaka and Howard Greenfield wrote it, and Sedaka released it in 1973. Captain & Tennille's version won the Grammy for Record of the Year."
+    },
+    {
+      "id": "yacht-rock-c02",
+      "title": "How Sweet It Is (To Be Loved by You)",
+      "artist": "James Taylor",
+      "year": 1975,
+      "album": "Gorilla",
+      "original": "Marvin Gaye",
+      "originalYear": 1964,
+      "decoys": [
+        "The Miracles",
+        "The Four Tops",
+        "Martha & the Vandellas"
+      ],
+      "note": "Holland-Dozier-Holland wrote it for Marvin Gaye in 1964. Taylor's relaxed 1975 version reached the US top five."
+    },
+    {
+      "id": "yacht-rock-c03",
+      "title": "Mockingbird",
+      "artist": "Carly Simon & James Taylor",
+      "year": 1974,
+      "album": "Hotcakes",
+      "original": "Inez & Charlie Foxx",
+      "originalYear": 1963,
+      "decoys": [
+        "Mary Wells",
+        "Ike & Tina Turner",
+        "Betty Everett"
+      ],
+      "note": "Inez and Charlie Foxx, a brother and sister duo, released it in 1963. Simon and Taylor, married at the time, took their duet into the US top ten."
+    },
+    {
+      "id": "yacht-rock-c04",
+      "title": "Every Time You Go Away",
+      "artist": "Paul Young",
+      "year": 1985,
+      "album": "The Secret of Association",
+      "original": "Hall & Oates",
+      "originalYear": 1980,
+      "decoys": [
+        "Michael McDonald",
+        "Toto",
+        "Christopher Cross"
+      ],
+      "note": "Daryl Hall wrote it, and Hall & Oates put it on Voices in 1980. Young's 1985 version went to number one in the US."
+    },
+    {
+      "id": "yacht-rock-c05",
+      "title": "She's Gone",
+      "artist": "Tavares",
+      "year": 1974,
+      "album": "Hard Core Poetry",
+      "original": "Hall & Oates",
+      "originalYear": 1973,
+      "decoys": [
+        "Gladys Knight & the Pips",
+        "The Spinners",
+        "The Delfonics"
+      ],
+      "note": "Hall & Oates recorded it in 1973. Tavares had an R&B hit with it in 1974, and the original reached the US top ten when re-released in 1976."
+    },
+    {
+      "id": "yacht-rock-c06",
+      "title": "More Than I Can Say",
+      "artist": "Leo Sayer",
+      "year": 1980,
+      "album": "Living In a Fantasy",
+      "original": "The Crickets",
+      "originalYear": 1959,
+      "decoys": [
+        "Buddy Holly",
+        "The Everly Brothers",
+        "Bobby Vee"
+      ],
+      "note": "Sonny Curtis and Jerry Allison wrote it, and the Crickets released it in 1959. Sayer's 1980 version reached the US top five."
+    },
+    {
+      "id": "yacht-rock-c07",
+      "title": "Handy Man",
+      "artist": "James Taylor",
+      "year": 1977,
+      "album": "JT",
+      "original": "Jimmy Jones",
+      "originalYear": 1959,
+      "decoys": [
+        "Sam Cooke",
+        "Bobby Darin",
+        "Jackie Wilson"
+      ],
+      "note": "Jimmy Jones recorded it in 1959. Taylor's 1977 version won him a Grammy."
+    },
+    {
+      "id": "yacht-rock-c08",
+      "title": "You Can't Hurry Love",
+      "artist": "Phil Collins",
+      "year": 1982,
+      "album": "Hello, I Must Be Going! (Deluxe Edition)",
+      "original": "The Supremes",
+      "originalYear": 1966,
+      "decoys": [
+        "Martha & the Vandellas",
+        "Mary Wells",
+        "The Marvelettes"
+      ],
+      "note": "Holland-Dozier-Holland wrote it for the Supremes' 1966 number one. Collins's 1982 version went to number one in the UK."
+    }
   ]
 }

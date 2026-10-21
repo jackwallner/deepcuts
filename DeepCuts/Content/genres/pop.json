@@ -903,5 +903,127 @@
         "artist": "The Jackson 5"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "pop-c01",
+      "title": "The Twist",
+      "artist": "Chubby Checker",
+      "year": 1960,
+      "album": "Twist with Chubby Checker",
+      "original": "Hank Ballard & The Midnighters",
+      "originalYear": 1959,
+      "decoys": [
+        "Jackie Wilson",
+        "Sam Cooke",
+        "Fats Domino"
+      ],
+      "note": "Hank Ballard wrote it and released it as a B side in 1959. Checker's version went to number one in 1960 and again in 1962."
+    },
+    {
+      "id": "pop-c02",
+      "title": "(They Long to Be) Close to You",
+      "artist": "Carpenters",
+      "year": 1970,
+      "album": "Close To You",
+      "original": "Richard Chamberlain",
+      "originalYear": 1963,
+      "decoys": [
+        "Dionne Warwick",
+        "Dusty Springfield",
+        "Gene Pitney"
+      ],
+      "note": "Burt Bacharach and Hal David wrote it, and the actor Richard Chamberlain recorded it in 1963. The Carpenters' 1970 version went to number one in the US."
+    },
+    {
+      "id": "pop-c03",
+      "title": "Blue Velvet",
+      "artist": "Bobby Vinton",
+      "year": 1963,
+      "album": "16 Most Requested",
+      "original": "Tony Bennett",
+      "originalYear": 1951,
+      "decoys": [
+        "Perry Como",
+        "Bing Crosby",
+        "Nat King Cole"
+      ],
+      "note": "Tony Bennett had a hit with it in 1951. Vinton's 1963 version went to number one in the US."
+    },
+    {
+      "id": "pop-c04",
+      "title": "Wild Thing",
+      "artist": "The Troggs",
+      "year": 1966,
+      "album": "From Nowhere",
+      "original": "The Wild Ones",
+      "originalYear": 1965,
+      "decoys": [
+        "The Kingsmen",
+        "The McCoys",
+        "The Standells"
+      ],
+      "note": "Chip Taylor wrote it, and the Wild Ones, a New York group, released it in 1965. The Troggs' version reached number one in the US in 1966."
+    },
+    {
+      "id": "pop-c05",
+      "title": "Angel of the Morning",
+      "artist": "Juice Newton",
+      "year": 1981,
+      "album": "Juice",
+      "original": "Evie Sands",
+      "originalYear": 1967,
+      "decoys": [
+        "Merrilee Rush & the Turnabouts",
+        "Dusty Springfield",
+        "Brenda Lee"
+      ],
+      "note": "Chip Taylor wrote it, and Evie Sands recorded it in 1967, but her label's troubles reportedly hurt its release. Merrilee Rush had the hit in 1968, and Juice Newton revived it in 1981."
+    },
+    {
+      "id": "pop-c06",
+      "title": "Spanish Harlem",
+      "artist": "Aretha Franklin",
+      "year": 1971,
+      "album": "Young, Gifted and Black",
+      "original": "Ben E. King",
+      "originalYear": 1960,
+      "decoys": [
+        "The Drifters",
+        "Sam Cooke",
+        "Dion"
+      ],
+      "note": "Jerry Leiber and Phil Spector wrote it, and Ben E. King recorded it in 1960. Franklin's 1971 version reached the US top three."
+    },
+    {
+      "id": "pop-c07",
+      "title": "Crying",
+      "artist": "Don McLean",
+      "year": 1978,
+      "album": "Chain Lightning",
+      "original": "Roy Orbison",
+      "originalYear": 1961,
+      "decoys": [
+        "Gene Pitney",
+        "Brenda Lee",
+        "Del Shannon"
+      ],
+      "note": "Orbison and Joe Melson wrote it, and Orbison's 1961 single reached number two in the US. McLean's version, from his album Chain Lightning, went to number one in the UK in 1980."
+    },
+    {
+      "id": "pop-c08",
+      "title": "I'm into Something Good",
+      "artist": "Herman's Hermits",
+      "year": 1964,
+      "album": "Retrospective",
+      "original": "Earl-Jean",
+      "originalYear": 1964,
+      "decoys": [
+        "The Shirelles",
+        "The Crystals",
+        "Little Eva"
+      ],
+      "note": "Gerry Goffin and Carole King wrote it, and Earl-Jean, a member of the Cookies, released it in 1964. Herman's Hermits, fronted by Peter Noone, had a UK number one with it later that year."
+    }
   ]
 }

@@ -599,5 +599,127 @@
         "artist": "The Clash"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "punk-new-wave-c01",
+      "title": "Gloria",
+      "artist": "Patti Smith",
+      "year": 1975,
+      "album": "Horses",
+      "original": "Them",
+      "originalYear": 1964,
+      "decoys": [
+        "The Kinks",
+        "The Animals",
+        "The Yardbirds"
+      ],
+      "note": "Van Morrison wrote it for Them, and it came out in 1964. Smith opened Horses with it, adding a spoken poem of her own before the song begins."
+    },
+    {
+      "id": "punk-new-wave-c02",
+      "title": "I Fought the Law",
+      "artist": "The Clash",
+      "year": 1979,
+      "album": "The Cost of Living - EP",
+      "original": "The Crickets",
+      "originalYear": 1959,
+      "decoys": [
+        "Bobby Fuller Four",
+        "The Everly Brothers",
+        "Eddie Cochran"
+      ],
+      "note": "Sonny Curtis wrote it as a member of the Crickets, who released it in 1959. The Bobby Fuller Four had the hit in 1966, and the Clash recorded their version in the late 1970s."
+    },
+    {
+      "id": "punk-new-wave-c03",
+      "title": "Hanging on the Telephone",
+      "artist": "Blondie",
+      "year": 1978,
+      "album": "Parallel Lines",
+      "original": "The Nerves",
+      "originalYear": 1976,
+      "decoys": [
+        "Ramones",
+        "The Dickies",
+        "The Heartbreakers"
+      ],
+      "note": "Jack Lee wrote it for the Nerves, whose 1976 EP also featured Peter Case. Blondie opened Parallel Lines with it in 1978."
+    },
+    {
+      "id": "punk-new-wave-c04",
+      "title": "Police & Thieves",
+      "artist": "The Clash",
+      "year": 1977,
+      "album": "The Clash",
+      "original": "Junior Murvin",
+      "originalYear": 1976,
+      "decoys": [
+        "Toots and the Maytals",
+        "Max Romeo",
+        "Bob Marley & The Wailers"
+      ],
+      "note": "Junior Murvin wrote it with Lee Perry, who produced the 1976 original. The Clash's version on their debut is often cited as an early punk reggae recording."
+    },
+    {
+      "id": "punk-new-wave-c05",
+      "title": "No Fun",
+      "artist": "Sex Pistols",
+      "year": 1977,
+      "album": "The Original Recordings",
+      "original": "The Stooges",
+      "originalYear": 1969,
+      "decoys": [
+        "MC5",
+        "New York Dolls",
+        "The Velvet Underground"
+      ],
+      "note": "Iggy Pop sang it on the Stooges' 1969 debut. The Pistols closed their final show of the original lineup with it, at Winterland in San Francisco in January 1978."
+    },
+    {
+      "id": "punk-new-wave-c06",
+      "title": "Do You Wanna Dance?",
+      "artist": "Ramones",
+      "year": 1977,
+      "album": "Rocket to Russia",
+      "original": "Bobby Freeman",
+      "originalYear": 1958,
+      "decoys": [
+        "The Beach Boys",
+        "Del Shannon",
+        "Bobby Rydell"
+      ],
+      "note": "Bobby Freeman wrote and recorded it in 1958, when he was a teenager. The Ramones sped it up for Rocket to Russia in 1977."
+    },
+    {
+      "id": "punk-new-wave-c07",
+      "title": "(What's So Funny 'Bout) Peace, Love and Understanding",
+      "artist": "Elvis Costello & The Attractions",
+      "year": 1979,
+      "album": "Armed Forces",
+      "original": "Brinsley Schwarz",
+      "originalYear": 1974,
+      "decoys": [
+        "Dr. Feelgood",
+        "Graham Parker & the Rumour",
+        "Ducks Deluxe"
+      ],
+      "note": "Nick Lowe wrote it for Brinsley Schwarz's 1974 album. Lowe produced Costello's early records, and Costello's version was added to the US edition of Armed Forces."
+    },
+    {
+      "id": "punk-new-wave-c08",
+      "title": "Take Me to the River",
+      "artist": "Talking Heads",
+      "year": 1978,
+      "album": "More Songs About Buildings and Food",
+      "original": "Al Green",
+      "originalYear": 1974,
+      "decoys": [
+        "Isaac Hayes",
+        "Bobby Womack",
+        "Marvin Gaye"
+      ],
+      "note": "Al Green and Mabon Hodges wrote it, and Green released it in 1974. Talking Heads' Brian Eno produced version was their first US top 30 hit."
+    }
   ]
 }

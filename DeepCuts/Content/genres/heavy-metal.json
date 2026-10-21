@@ -900,5 +900,127 @@
         "artist": "Metallica"
       }
     }
+  ],
+  "covers": [
+    {
+      "id": "heavy-metal-c01",
+      "title": "Cum On Feel the Noize",
+      "artist": "Quiet Riot",
+      "year": 1983,
+      "album": "Metal Health",
+      "original": "Slade",
+      "originalYear": 1973,
+      "decoys": [
+        "Sweet",
+        "T. Rex",
+        "Mud"
+      ],
+      "note": "Noddy Holder and Jim Lea wrote it, and Slade had a UK number one in 1973. Quiet Riot's version helped send Metal Health to number one on the US album chart."
+    },
+    {
+      "id": "heavy-metal-c02",
+      "title": "Turn the Page",
+      "artist": "Metallica",
+      "year": 1998,
+      "album": "Garage Inc.",
+      "original": "Bob Seger",
+      "originalYear": 1973,
+      "decoys": [
+        "Bruce Springsteen",
+        "John Mellencamp",
+        "Tom Petty"
+      ],
+      "note": "Seger released it on Back in '72 in 1973 and again in a live version in 1976. Metallica's darker take appeared on Garage Inc."
+    },
+    {
+      "id": "heavy-metal-c03",
+      "title": "Am I Evil?",
+      "artist": "Metallica",
+      "year": 1984,
+      "album": "Ride the Lightning (Deluxe Edition)",
+      "original": "Diamond Head",
+      "originalYear": 1980,
+      "decoys": [
+        "Saxon",
+        "Angel Witch",
+        "Tygers of Pan Tang"
+      ],
+      "note": "Diamond Head released it on their 1980 debut Lightning to the Nations. Metallica recorded it in 1984 as a B side, and Lars Ulrich has called Diamond Head a major influence."
+    },
+    {
+      "id": "heavy-metal-c04",
+      "title": "Smokin' in the Boys Room",
+      "artist": "Mötley Crüe",
+      "year": 1985,
+      "album": "Theatre of Pain",
+      "original": "Brownsville Station",
+      "originalYear": 1973,
+      "decoys": [
+        "Alice Cooper",
+        "Grand Funk Railroad",
+        "Bachman-Turner Overdrive"
+      ],
+      "note": "The Michigan band Brownsville Station had a top five hit with it in 1973. Mötley Crüe's 1985 version reached the US top 20."
+    },
+    {
+      "id": "heavy-metal-c05",
+      "title": "You Really Got Me",
+      "artist": "Van Halen",
+      "year": 1978,
+      "album": "Van Halen",
+      "original": "The Kinks",
+      "originalYear": 1964,
+      "decoys": [
+        "The Troggs",
+        "The Who",
+        "The Yardbirds"
+      ],
+      "note": "Ray Davies wrote it, and the Kinks had a UK number one in 1964. It follows the solo Eruption on Van Halen's debut and was the band's first single."
+    },
+    {
+      "id": "heavy-metal-c06",
+      "title": "Land of Confusion",
+      "artist": "Disturbed",
+      "year": 2005,
+      "album": "Ten Thousand Fists",
+      "original": "Genesis",
+      "originalYear": 1986,
+      "decoys": [
+        "Phil Collins",
+        "Mike + The Mechanics",
+        "Peter Gabriel"
+      ],
+      "note": "Genesis released it on Invisible Touch in 1986, with a video using Spitting Image puppets. Disturbed's 2005 version was a hard rock radio hit."
+    },
+    {
+      "id": "heavy-metal-c07",
+      "title": "Diamonds and Rust",
+      "artist": "Judas Priest",
+      "year": 1977,
+      "album": "Sin After Sin",
+      "original": "Joan Baez",
+      "originalYear": 1975,
+      "decoys": [
+        "Judy Collins",
+        "Joni Mitchell",
+        "Linda Ronstadt"
+      ],
+      "note": "Baez wrote it, widely understood to be about Bob Dylan, and released it in 1975. Judas Priest recorded a heavy version for Sin After Sin."
+    },
+    {
+      "id": "heavy-metal-c08",
+      "title": "The Green Manalishi (With the Two-Pronged Crown)",
+      "artist": "Judas Priest",
+      "year": 1978,
+      "album": "Hell Bent for Leather (Bonus Track Version)",
+      "original": "Fleetwood Mac",
+      "originalYear": 1970,
+      "decoys": [
+        "Black Sabbath",
+        "Free",
+        "Deep Purple"
+      ],
+      "note": "Peter Green reportedly wrote it after a nightmare, and Fleetwood Mac released it in 1970. Priest's studio version appeared on the US edition of Killing Machine, titled Hell Bent for Leather."
+    }
   ]
 }
