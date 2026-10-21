@@ -47,6 +47,16 @@ final class AppModel {
         builder.daily(day: ProgressStore.dayKey(), genres: focusGenres).compactMap { $0.audioSongID ?? $0.choices.compactMap(\.songID).first }
     }
 
+    /// Words in a Wikipedia description that tie a musician to a crate.
+    static let genreWords: [String: [String]] = [
+        "classic-rock": ["rock"], "british-invasion": ["rock", "english singer", "english musician"],
+        "southern-rock": ["rock", "southern"], "heavy-metal": ["metal", "hard rock"], "prog-rock": ["rock", "progressive"],
+        "motown-soul": ["soul", "r&b", "rhythm and blues", "motown"], "folk-singer-songwriter": ["folk", "singer-songwriter"],
+        "yacht-rock": ["soft rock", "rock"], "punk-new-wave": ["punk", "new wave"], "eighties": ["pop", "rock", "new wave"],
+        "grunge-alt": ["grunge", "alternative", "indie"], "pop": ["pop"], "modern-pop": ["pop", "r&b"],
+        "country": ["country"], "blues": ["blues"], "disco-funk": ["disco", "funk"], "hip-hop": ["rapper", "hip hop", "hip-hop"],
+    ]
+
     func offers(_ mode: QuizMode, crate: Genre?) -> Bool {
         builder.offers(mode, genres: crate.map { [$0] } ?? focusGenres)
     }
@@ -84,9 +94,12 @@ final class AppModel {
         let artists = Array(Set(focusGenres.flatMap { $0.songs.map(\.artist) }))
         do {
             let all = try await OnThisDay.moments(month: parts.month ?? 1, day: parts.day ?? 1, artists: artists)
-            // Births of strangers are noise; keep them only to fill a quiet day.
-            let relevant = all.filter { $0.connection != nil || $0.kind == .event }
-            moments = relevant.count >= 3 ? relevant : relevant + all.filter { !relevant.contains($0) }.prefix(3 - relevant.count)
+            // Births only when tied to your crates by artist or by genre ("American rock guitarist").
+            let words = Set(focusGenres.flatMap { Self.genreWords[$0.id] ?? [] })
+            moments = all.filter { moment in
+                moment.connection != nil || moment.kind == .event
+                    || words.contains { (moment.detail ?? "").lowercased().contains($0) }
+            }
             momentsDay = today
             momentsFailed = false
         } catch {
