@@ -66,6 +66,7 @@ final class DeepCutsUITests: XCTestCase {
         report.tap()
         XCTAssertTrue(app.textViews["feedback-text"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.staticTexts["Report a problem"].exists)
+        XCTAssertTrue(app.descendants(matching: .any)["feedback-reported"].exists, "shows the question being reported")
         app.buttons["Cancel"].tap()
         XCTAssertTrue(app.buttons["quiz-next"].waitForExistence(timeout: 5), "back on the same question")
     }

@@ -10,6 +10,8 @@ struct FeedbackView: View {
     var title = "Suggest a change"
     var pitch = "Add a genre, fix a wrong answer, change how something works. Jack's build assistant picks it up right away and sends a new TestFlight build, usually within the hour."
     var placeholder = "For example: Add a crate for '50s rock and roll, Elvis, Chuck Berry, Buddy Holly."
+    /// The question and answer being reported, shown above the text box.
+    var reported: (prompt: String, answer: String)?
 
     @State private var text = ""
     @State private var name = ""
@@ -51,6 +53,8 @@ struct FeedbackView: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
                 .padding(.top, 8)
+
+                if let reported { ReportedQuestion(prompt: reported.prompt, answer: reported.answer) }
 
                 ZStack(alignment: .topLeading) {
                     if text.isEmpty {
@@ -182,6 +186,31 @@ struct FeedbackView: View {
             quality -= 0.15
         }
         return nil
+    }
+}
+
+private struct ReportedQuestion: View {
+    let prompt: String
+    let answer: String
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text("Reporting").font(.caption.weight(.semibold)).textCase(.uppercase).tracking(1)
+                .foregroundStyle(Theme.inkSoft)
+            Text(prompt).font(.body).foregroundStyle(Theme.ink)
+                .fixedSize(horizontal: false, vertical: true)
+            HStack(alignment: .firstTextBaseline, spacing: 6) {
+                Text("Answer:").foregroundStyle(Theme.inkSoft)
+                Text(answer).fontWeight(.semibold).foregroundStyle(Theme.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .font(.subheadline)
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .card()
+        .accessibilityElement(children: .combine)
+        .accessibilityIdentifier("feedback-reported")
     }
 }
 
