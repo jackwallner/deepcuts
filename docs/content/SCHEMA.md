@@ -37,7 +37,8 @@ files; nothing is generated at runtime.
       "dek": "One-line subtitle",
       "year": 1977,
       "body": "300 to 450 words. Paragraphs separated by a blank line (\n\n).",
-      "songs": ["southern-rock-s01"]
+      "songs": ["southern-rock-s01"],
+      "cover": {"album": "At Fillmore East", "artist": "The Allman Brothers Band"}
     }
   ]
 }
@@ -57,6 +58,11 @@ Rules
 Stories may set `"kind": "concert"` for a story about one show or festival (Fillmore East
 1971, Woodstock, Live Aid, The Last Waltz). The Stories tab shelves them under Concerts.
 Omit `kind` for stories about records and people.
+
+Every story may carry an optional `cover` object, `{"album": "...", "artist": "..."}`. It
+names the album whose sleeve illustrates the story (a live album for a concert story where
+one exists). The app resolves it like a song's album art, as `cover-<story id>`. Pick a real
+album on Apple Music, and use the album most tied to the story, not just a song's parent.
 
 Each crate may have a `covers` list, used by the "Who Did It First?" mode (play the cover,
 pick who recorded the song first) and shown on the crate page:
