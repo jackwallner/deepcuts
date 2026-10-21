@@ -1,0 +1,561 @@
+{
+  "id": "disco-funk",
+  "name": "Disco & Funk",
+  "blurb": "Basslines, horn hits and mirror balls: the groove that ruled the dance floor.",
+  "era": "1967-1982",
+  "questions": [
+    {
+      "id": "disco-funk-q01",
+      "prompt": "Which 1977 film starring John Travolta featured a soundtrack dominated by the Bee Gees?",
+      "choices": [
+        "Saturday Night Fever",
+        "Grease",
+        "Staying Alive",
+        "Xanadu"
+      ],
+      "answer": 0,
+      "fact": "Health groups later used the tempo of \"Stayin' Alive\" to teach the pace of chest compressions in CPR.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q02",
+      "prompt": "Which 1975 Van McCoy hit gave its name to a popular dance?",
+      "choices": [
+        "The Bump",
+        "The Hand Jive",
+        "The Hustle",
+        "The Twist"
+      ],
+      "answer": 2,
+      "fact": "McCoy had earlier written songs for stars including Gladys Knight and Aretha Franklin.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q03",
+      "prompt": "Which singer was known as the Godfather of Soul and the Hardest-Working Man in Show Business?",
+      "choices": [
+        "Otis Redding",
+        "James Brown",
+        "Wilson Pickett",
+        "Isaac Hayes"
+      ],
+      "answer": 1,
+      "fact": "In 1968 he recorded \"Say It Loud, I'm Black and I'm Proud,\" which became an anthem of the era.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q04",
+      "prompt": "Which singer was called the Queen of Disco?",
+      "choices": [
+        "Gloria Gaynor",
+        "Diana Ross",
+        "Chaka Khan",
+        "Donna Summer"
+      ],
+      "answer": 3,
+      "fact": "She was born LaDonna Gaines in Boston, and she began her career singing in Germany.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q05",
+      "prompt": "Which group, assembled by the producer Jacques Morali, had a hit with \"Y.M.C.A.\" in 1978?",
+      "choices": [
+        "The Trammps",
+        "The Commodores",
+        "The Ohio Players",
+        "The Village People"
+      ],
+      "answer": 3,
+      "fact": "Morali created the group after seeing costumed characters in Greenwich Village clubs.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q06",
+      "prompt": "Who founded Earth, Wind & Fire in Chicago?",
+      "choices": [
+        "Philip Bailey",
+        "Maurice White",
+        "Verdine White",
+        "Al McKay"
+      ],
+      "answer": 1,
+      "fact": "White had been a session drummer for Chess Records, and he often played the African kalimba in the band.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q07",
+      "prompt": "Which singer recorded \"I Will Survive\" in 1978?",
+      "choices": [
+        "Donna Summer",
+        "Thelma Houston",
+        "Gloria Gaynor",
+        "Sister Sledge"
+      ],
+      "answer": 2,
+      "fact": "It was first released as the B-side of a single, until club DJs began playing it instead.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q08",
+      "prompt": "Which bandleader's stage show featured a giant spaceship called the Mothership?",
+      "choices": [
+        "George Clinton",
+        "Rick James",
+        "Bootsy Collins",
+        "Sly Stone"
+      ],
+      "answer": 0,
+      "fact": "He led two linked groups, Parliament and Funkadelic, and the Mothership appeared on stage in 1976.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q09",
+      "prompt": "Which singer recorded \"Super Freak\" in 1981?",
+      "choices": [
+        "Rick James",
+        "Prince",
+        "Teddy Pendergrass",
+        "Marvin Gaye"
+      ],
+      "answer": 0,
+      "fact": "MC Hammer built his 1990 hit \"U Can't Touch This\" on the song's bassline.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q10",
+      "prompt": "Which three brothers wrote and sang most of the songs on the Saturday Night Fever soundtrack?",
+      "choices": [
+        "The Jacksons",
+        "The Isley Brothers",
+        "The Bee Gees",
+        "The Brothers Johnson"
+      ],
+      "answer": 2,
+      "fact": "Barry, Robin and Maurice Gibb grew up in both England and Australia.",
+      "difficulty": 1
+    },
+    {
+      "id": "disco-funk-q11",
+      "prompt": "James Brown's funk put its emphasis on which beat of the bar, a concept he called \"the one\"?",
+      "choices": [
+        "The second",
+        "The first",
+        "The third",
+        "The fourth"
+      ],
+      "answer": 1,
+      "fact": "\"Cold Sweat,\" arranged by saxophonist Pee Wee Ellis, is often called the record that started funk.",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q12",
+      "prompt": "Sly and the Family Stone's early-morning set at which 1969 event is remembered as a highlight?",
+      "choices": [
+        "Monterey Pop",
+        "Altamont",
+        "The Isle of Wight Festival",
+        "Woodstock"
+      ],
+      "answer": 3,
+      "fact": "The band took the stage around three-thirty in the morning, and the crowd was still enthusiastic.",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q13",
+      "prompt": "Chic's \"Le Freak\" was inspired by Nile Rodgers being turned away from which club on New Year's Eve 1977?",
+      "choices": [
+        "The Roxy",
+        "Paradise Garage",
+        "Xenon",
+        "Studio 54"
+      ],
+      "answer": 3,
+      "fact": "Rodgers and Bernard Edwards first wrote an angry chant about the doorman, then rewrote the words as \"freak out.\"",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q14",
+      "prompt": "Bootsy Collins played bass for which star before he joined George Clinton?",
+      "choices": [
+        "Sly Stone",
+        "James Brown",
+        "Isaac Hayes",
+        "Curtis Mayfield"
+      ],
+      "answer": 1,
+      "fact": "He joined Brown's band as a teenager in 1970 and played on several of the group's recordings.",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q15",
+      "prompt": "Giorgio Moroder, who produced Donna Summer's \"I Feel Love,\" was born in which country?",
+      "choices": [
+        "Germany",
+        "Austria",
+        "Italy",
+        "Switzerland"
+      ],
+      "answer": 2,
+      "fact": "Moroder worked in Munich, and the track's pulsing sound came from a Moog synthesizer.",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q16",
+      "prompt": "Which Philadelphia songwriting and production team created the Sound of Philadelphia with acts like the O'Jays?",
+      "choices": [
+        "Gamble and Huff",
+        "Holland-Dozier-Holland",
+        "Ashford and Simpson",
+        "Leiber and Stoller"
+      ],
+      "answer": 0,
+      "fact": "Kenny Gamble and Leon Huff started Philadelphia International Records in 1971.",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q17",
+      "prompt": "At which Chicago ballpark was the 1979 Disco Demolition Night held?",
+      "choices": [
+        "Comiskey Park",
+        "Wrigley Field",
+        "Soldier Field",
+        "Tiger Stadium"
+      ],
+      "answer": 0,
+      "fact": "DJ Steve Dahl blew up a crate of disco records between games, and fans rushed the field.",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q18",
+      "prompt": "Kool & the Gang, who recorded \"Celebration\" in 1980, formed in which New Jersey city?",
+      "choices": [
+        "Newark",
+        "Trenton",
+        "Jersey City",
+        "Camden"
+      ],
+      "answer": 2,
+      "fact": "The band started in the 1960s as a jazz group, and it later became a major funk and pop act.",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q19",
+      "prompt": "From which country did the Average White Band, who recorded \"Pick Up the Pieces,\" come?",
+      "choices": [
+        "England",
+        "Scotland",
+        "Ireland",
+        "Wales"
+      ],
+      "answer": 1,
+      "fact": "The band's instrumental reached the top of the American singles chart in 1975.",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q20",
+      "prompt": "Stevie Wonder wrote \"Superstition\" originally for which guitarist?",
+      "choices": [
+        "Eric Clapton",
+        "Jimi Hendrix",
+        "Carlos Santana",
+        "Jeff Beck"
+      ],
+      "answer": 3,
+      "fact": "Wonder released his own version first, and Beck's group recorded it afterward.",
+      "difficulty": 2
+    },
+    {
+      "id": "disco-funk-q21",
+      "prompt": "Who co-founded Chic with Nile Rodgers?",
+      "choices": [
+        "Tony Thompson",
+        "Luci Martin",
+        "Alfa Anderson",
+        "Bernard Edwards"
+      ],
+      "answer": 3,
+      "fact": "Edwards was Chic's bassist, and the two later produced Sister Sledge and Diana Ross.",
+      "difficulty": 3
+    },
+    {
+      "id": "disco-funk-q22",
+      "prompt": "The Sugarhill Gang's \"Rapper's Delight\" borrowed its bassline from which Chic song?",
+      "choices": [
+        "Le Freak",
+        "Good Times",
+        "Everybody Dance",
+        "I Want Your Love"
+      ],
+      "answer": 1,
+      "fact": "The 1979 record was one of the first hip-hop singles to reach a wide audience, and Chic later received credit.",
+      "difficulty": 3
+    },
+    {
+      "id": "disco-funk-q23",
+      "prompt": "Donna Summer's 1975 album version of \"Love to Love You Baby\" ran about how long?",
+      "choices": [
+        "About 7 minutes",
+        "About 12 minutes",
+        "About 17 minutes",
+        "About 25 minutes"
+      ],
+      "answer": 2,
+      "fact": "Moroder and his partner Pete Bellotte reportedly stretched the song out after label head Neil Bogart asked for a longer version.",
+      "difficulty": 3
+    },
+    {
+      "id": "disco-funk-q24",
+      "prompt": "Which saxophonist did James Brown call on by name to take solos in his band?",
+      "choices": [
+        "Maceo Parker",
+        "Clarence Clemons",
+        "Junior Walker",
+        "King Curtis"
+      ],
+      "answer": 0,
+      "fact": "Parker later played with Parliament-Funkadelic and with Prince.",
+      "difficulty": 3
+    },
+    {
+      "id": "disco-funk-q25",
+      "prompt": "Which bassist in Sly and the Family Stone is credited with developing the slap-bass style?",
+      "choices": [
+        "Larry Graham",
+        "Bootsy Collins",
+        "Bernard Edwards",
+        "Louis Johnson"
+      ],
+      "answer": 0,
+      "fact": "Graham said he began slapping the strings to compensate for the lack of a drummer in his mother's band.",
+      "difficulty": 3
+    },
+    {
+      "id": "disco-funk-q26",
+      "prompt": "Isaac Hayes's \"Theme from Shaft\" opens with a hi-hat and which guitar sound?",
+      "choices": [
+        "A fuzz box",
+        "A talk box",
+        "A wah-wah pedal",
+        "A tremolo arm"
+      ],
+      "answer": 2,
+      "fact": "Hayes won an Academy Award for the song in 1972.",
+      "difficulty": 3
+    },
+    {
+      "id": "disco-funk-q27",
+      "prompt": "The Bee Gees said the rhythm of \"Jive Talkin'\" came from which sound?",
+      "choices": [
+        "A passing train",
+        "A car crossing a bridge",
+        "A sewing machine",
+        "A ticking clock"
+      ],
+      "answer": 1,
+      "fact": "Barry Gibb noticed the thumping sound while driving across a causeway in Miami.",
+      "difficulty": 3
+    },
+    {
+      "id": "disco-funk-q28",
+      "prompt": "Who wrote Gloria Gaynor's \"I Will Survive\"?",
+      "choices": [
+        "Barry Gibb and Maurice Gibb",
+        "Nile Rodgers and Bernard Edwards",
+        "Giorgio Moroder and Pete Bellotte",
+        "Dino Fekaris and Freddie Perren"
+      ],
+      "answer": 3,
+      "fact": "Fekaris has said he wrote the lyric after being fired from Motown.",
+      "difficulty": 3
+    },
+    {
+      "id": "disco-funk-q29",
+      "prompt": "Which songwriter co-wrote \"September\" and later the theme from the TV show Friends?",
+      "choices": [
+        "Linda Creed",
+        "Carole Bayer Sager",
+        "Diane Warren",
+        "Allee Willis"
+      ],
+      "answer": 3,
+      "fact": "Willis wrote the song's lyrics with Maurice White and Al McKay.",
+      "difficulty": 3
+    },
+    {
+      "id": "disco-funk-q30",
+      "prompt": "MFSB's instrumental \"TSOP (The Sound of Philadelphia)\" was the theme for which television show?",
+      "choices": [
+        "American Bandstand",
+        "Soul Train",
+        "Solid Gold",
+        "Midnight Special"
+      ],
+      "answer": 1,
+      "fact": "Gamble and Huff wrote the piece, and it carried the lush Philadelphia sound to a national audience.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "disco-funk-s01",
+      "title": "Cold Sweat",
+      "artist": "James Brown",
+      "year": 1967,
+      "album": "Cold Sweat",
+      "note": "Pee Wee Ellis arranged the track, which stripped the music to rhythm and groove."
+    },
+    {
+      "id": "disco-funk-s02",
+      "title": "Dance to the Music",
+      "artist": "Sly and the Family Stone",
+      "year": 1968,
+      "album": "Dance to the Music",
+      "note": "The song introduces each member of the band in turn."
+    },
+    {
+      "id": "disco-funk-s03",
+      "title": "Pick Up the Pieces",
+      "artist": "Average White Band",
+      "year": 1974,
+      "album": "AWB",
+      "note": "A Scottish band's instrumental became a funk classic."
+    },
+    {
+      "id": "disco-funk-s04",
+      "title": "Love Train",
+      "artist": "The O'Jays",
+      "year": 1972,
+      "album": "Back Stabbers",
+      "note": "Kenny Gamble and Leon Huff wrote and produced the song for Philadelphia International."
+    },
+    {
+      "id": "disco-funk-s05",
+      "title": "Get Down Tonight",
+      "artist": "KC and the Sunshine Band",
+      "year": 1975,
+      "album": "KC and the Sunshine Band",
+      "note": "Harry Wayne Casey and Richard Finch wrote the song."
+    },
+    {
+      "id": "disco-funk-s06",
+      "title": "Give Up the Funk (Tear the Roof Off the Sucker)",
+      "artist": "Parliament",
+      "year": 1975,
+      "album": "Mothership Connection",
+      "note": "George Clinton and Bootsy Collins helped write the song."
+    },
+    {
+      "id": "disco-funk-s07",
+      "title": "Disco Inferno",
+      "artist": "The Trammps",
+      "year": 1976,
+      "album": "Disco Inferno",
+      "note": "The song became even better known after it was featured in Saturday Night Fever."
+    },
+    {
+      "id": "disco-funk-s08",
+      "title": "I Feel Love",
+      "artist": "Donna Summer",
+      "year": 1977,
+      "album": "I Remember Yesterday",
+      "note": "Giorgio Moroder built the track from synthesizers, and it pointed toward electronic dance music."
+    },
+    {
+      "id": "disco-funk-s09",
+      "title": "Stayin' Alive",
+      "artist": "Bee Gees",
+      "year": 1977,
+      "album": "Saturday Night Fever",
+      "note": "Barry, Robin and Maurice Gibb wrote the song for the film."
+    },
+    {
+      "id": "disco-funk-s10",
+      "title": "September",
+      "artist": "Earth, Wind & Fire",
+      "year": 1978,
+      "album": "The Best of Earth, Wind & Fire, Vol. 1",
+      "note": "Allee Willis co-wrote the song with Maurice White and Al McKay."
+    },
+    {
+      "id": "disco-funk-s11",
+      "title": "Le Freak",
+      "artist": "Chic",
+      "year": 1978,
+      "album": "C'est Chic",
+      "note": "Nile Rodgers and Bernard Edwards wrote it after being turned away from Studio 54."
+    },
+    {
+      "id": "disco-funk-s12",
+      "title": "I Will Survive",
+      "artist": "Gloria Gaynor",
+      "year": 1978,
+      "album": "Love Tracks",
+      "note": "Dino Fekaris and Freddie Perren wrote the song."
+    },
+    {
+      "id": "disco-funk-s13",
+      "title": "One Nation Under a Groove",
+      "artist": "Funkadelic",
+      "year": 1978,
+      "album": "One Nation Under a Groove",
+      "note": "George Clinton and his band built the song around a long, hypnotic groove."
+    },
+    {
+      "id": "disco-funk-s14",
+      "title": "Funkytown",
+      "artist": "Lipps Inc.",
+      "year": 1979,
+      "album": "Mouth to Mouth",
+      "note": "Steven Greenberg, a Minneapolis songwriter, created the project, and Cynthia Johnson sang lead."
+    },
+    {
+      "id": "disco-funk-s15",
+      "title": "Super Freak",
+      "artist": "Rick James",
+      "year": 1981,
+      "album": "Street Songs",
+      "note": "Rick James and Alonzo Miller wrote it, and its bassline was later borrowed by MC Hammer."
+    },
+    {
+      "id": "disco-funk-s16",
+      "title": "Upside Down",
+      "artist": "Diana Ross",
+      "year": 1980,
+      "album": "Diana",
+      "note": "Nile Rodgers and Bernard Edwards of Chic wrote and produced the song."
+    }
+  ],
+  "stories": [
+    {
+      "id": "disco-funk-st1",
+      "title": "James Brown and the One",
+      "dek": "How a bandleader rebuilt popular music around the first beat",
+      "year": 1967,
+      "body": "In the early 1960s James Brown was a star of soul music, with a screaming voice and a famously tight stage show. His band rehearsed hard, and he fined players for mistakes. But around 1965 he began to change the way his music worked. Instead of building songs on chord changes and a standard backbeat, he started to think of every instrument as a drum.\n\nThe key was the first beat of each bar, which Brown called \"the one.\" The bass, guitar and horns all hit it together and then locked into a tightly interlocking pattern of short, sharp notes. Guitarist Jimmy Nolen played choppy chords, and the drummers followed Brown's directions to keep the pulse unchanging. Brown stripped away what was unnecessary and let the groove carry the song.\n\n\"Papa's Got a Brand New Bag\" in 1965 pointed in that direction. But the real break came in 1967 with \"Cold Sweat.\" Saxophonist Pee Wee Ellis arranged it, with a bass line that rarely changed, a short horn riff and a drum break by Clyde Stubblefield. There was no real chord change. Brown shouted instructions to the band and called on saxophonist Maceo Parker to take a solo. Many people regard the record as the beginning of funk.\n\nThe idea spread quickly. Sly Stone, George Clinton and many others took the rhythmic approach and put their own spin on it. Later, producers and hip-hop musicians would sample Brown's drum breaks. The break from \"Funky Drummer\" (1970), played by Stubblefield, became one of the most sampled drum patterns in music.\n\nBrown's band went through changes. In 1970 several players left after a dispute over pay, and Brown hired a new group of young musicians who became the J.B.'s. They included a teenage bassist named William \"Bootsy\" Collins, who would later join George Clinton's Parliament and Funkadelic.\n\nBrown also used his fame beyond music. In 1968 he recorded \"Say It Loud, I'm Black and I'm Proud,\" which became a rallying cry. After the assassination of Martin Luther King Jr. in April 1968, he appeared on television in Boston to help calm a tense city.\n\nHe kept performing until he died in 2006. His influence, from the rhythm of a Prince record to a rapper's sample, is hard to overstate. The first beat of the bar was the secret, and he gave it to everybody.",
+      "songs": [
+        "disco-funk-s01"
+      ]
+    },
+    {
+      "id": "disco-funk-st2",
+      "title": "Le Freak",
+      "dek": "A rejected invitation and a number-one record",
+      "year": 1978,
+      "body": "Nile Rodgers and Bernard Edwards had been working together in New York for several years. Rodgers was a guitarist who had played with Sesame Street's band and soul groups, and Edwards was a bassist with a deep sense of groove. In 1976 they formed Chic with drummer Tony Thompson and a pair of singers. Their first single, \"Dance, Dance, Dance (Yowsah, Yowsah, Yowsah),\" was a hit in 1977.\n\nOn New Year's Eve 1977, singer Grace Jones invited Rodgers to join her at Studio 54, the most famous club in Manhattan. When he and Edwards arrived, they found a crowd outside. The doorman did not let them in. Furious, they went back to Rodgers's apartment, and a chant came out of the frustration, aimed at the club and its doormen. They picked up their instruments and began to play a groove behind it.\n\nThe next day they realized the groove was good, but the words could not be released. They changed the angry phrase to \"freak out\" and added a French-sounding title, \"Le Freak.\" The song appeared on Chic's album C'est Chic in 1978, and it quickly became a hit on the radio and in clubs. It became the biggest hit that Atlantic Records had released up to that time.\n\nChic had a distinctive sound. Rodgers's clean, rhythmic guitar, Edwards's melodic bass and Thompson's steady drums had a quality that critics called elegant. The pair also produced other acts, among them Sister Sledge, whose \"We Are Family\" came out in 1979, and Diana Ross, whose \"Upside Down\" appeared in 1980.\n\nChic's \"Good Times\" (1979) became the foundation for another record. Rappers on the Sugarhill label used its bassline for \"Rapper's Delight,\" one of the first hip-hop records to reach a wide audience. The Chic members were at first unhappy about not being credited, but they were later given songwriting credit.\n\nIn July 1979 a backlash against disco came to a head in Chicago at Disco Demolition Night, where a crowd of rock fans destroyed a crate of disco records at a baseball game. Disco faded from the charts soon after. But the groove Chic had made did not disappear. Dance music kept returning to it, and Rodgers has worked with artists from David Bowie to Daft Punk.",
+      "songs": [
+        "disco-funk-s11",
+        "disco-funk-s16"
+      ]
+    },
+    {
+      "id": "disco-funk-st3",
+      "title": "Saturday Night Fever",
+      "dek": "A group of brothers, a film and a sound that took over the world",
+      "year": 1977,
+      "body": "Before disco, the Bee Gees were a harmony group with a long history. Brothers Barry, Robin and Maurice Gibb were born in the British Isles and grew up in England and Australia. They had hits in the late 1960s, such as \"To Love Somebody\" and \"Massachusetts.\" By the early 1970s their popularity had faded, and the group looked finished.\n\nThey were rescued by a producer. In 1974, on the advice of Eric Clapton, the brothers went to Miami to record with Arif Mardin, who had worked with Aretha Franklin. In a studio there they developed a new sound. While driving across a causeway, Barry Gibb noticed the rhythm of the car's tires on the bridge. That thumping feel became the basis for \"Jive Talkin',\" a hit in 1975. At Mardin's urging, Barry also tried singing in a high falsetto, which became a trademark.\n\nIn 1977 their manager, Robert Stigwood, was preparing a film about a young Brooklyn dancer played by John Travolta. He asked the Bee Gees to write songs for it. They wrote many of the tracks in a few days at a studio in France, among them \"Stayin' Alive,\" \"How Deep Is Your Love\" and \"Night Fever.\" The film, Saturday Night Fever, opened in December 1977.\n\nThe film and its soundtrack were a sensation. Travolta's white suit and dance moves became iconic. The album, which also included tracks by other artists, such as the Trammps' \"Disco Inferno,\" became one of the best-selling soundtracks ever. Disco moved from the clubs of New York into the mainstream and into suburban living rooms.\n\nThe success had a cost. By 1979 many rock fans had grown tired of disco, and the Bee Gees, who were everywhere, became a target. The Disco Demolition event in Chicago that summer was a symptom of the backlash. The brothers' hits on the radio faded.\n\nEven so, their songs never went away. They wrote hits for others, including Barbra Streisand and Dionne Warwick, and their music has been recognized for its craft. \"Stayin' Alive\" is still played at weddings, in films, and, because of its tempo, in CPR classes.",
+      "songs": [
+        "disco-funk-s09"
+      ]
+    }
+  ]
+}

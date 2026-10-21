@@ -1,0 +1,560 @@
+{
+  "id": "country",
+  "name": "Country",
+  "blurb": "Honky-tonk heartbreak, outlaws and Nashville stars from Hank Williams to Garth Brooks.",
+  "era": "1950s-2000s",
+  "questions": [
+    {
+      "id": "country-q01",
+      "prompt": "Which Nashville building, known as the Mother Church of Country Music, hosted the Grand Ole Opry from 1943 to 1974?",
+      "choices": [
+        "The Ryman Auditorium",
+        "The Bluebird Cafe",
+        "The Station Inn",
+        "Music City Center"
+      ],
+      "answer": 0,
+      "fact": "When the Opry moved to a new house in 1974, a circle of wood from the Ryman's stage was set into the new stage.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q02",
+      "prompt": "Which singer, called the Hillbilly Shakespeare, died on New Year's Day 1953 at age 29?",
+      "choices": [
+        "Lefty Frizzell",
+        "Ernest Tubb",
+        "Hank Williams",
+        "Hank Snow"
+      ],
+      "answer": 2,
+      "fact": "He died in the back seat of a car on the way to a show in Canton, Ohio.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q03",
+      "prompt": "Which singer recorded live albums at Folsom Prison in 1968 and San Quentin in 1969?",
+      "choices": [
+        "Merle Haggard",
+        "Johnny Cash",
+        "Waylon Jennings",
+        "Kris Kristofferson"
+      ],
+      "answer": 1,
+      "fact": "The Folsom album revived his career after a rough stretch in the 1960s.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q04",
+      "prompt": "Who married Johnny Cash in 1968 and co-wrote \"Ring of Fire\"?",
+      "choices": [
+        "Loretta Lynn",
+        "Tammy Wynette",
+        "Emmylou Harris",
+        "June Carter"
+      ],
+      "answer": 3,
+      "fact": "She wrote the song with Merle Kilgore, and it came from her own feelings about falling in love with Cash.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q05",
+      "prompt": "Which singer is known for his braids, bandanna and a battered guitar named Trigger?",
+      "choices": [
+        "Waylon Jennings",
+        "Kenny Rogers",
+        "Charlie Daniels",
+        "Willie Nelson"
+      ],
+      "answer": 3,
+      "fact": "Trigger is a Martin nylon-string guitar with a large hole worn through the front, and it is covered with signatures.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q06",
+      "prompt": "Which singer from Oklahoma released the 1990 album No Fences, which included \"Friends in Low Places\"?",
+      "choices": [
+        "Alan Jackson",
+        "Garth Brooks",
+        "Vince Gill",
+        "Clint Black"
+      ],
+      "answer": 1,
+      "fact": "In 1999 he even recorded a rock album as an invented alter ego named Chris Gaines.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q07",
+      "prompt": "Which Canadian-born singer released the 1997 hit \"Man! I Feel Like a Woman!\"?",
+      "choices": [
+        "Faith Hill",
+        "Martina McBride",
+        "Shania Twain",
+        "LeAnn Rimes"
+      ],
+      "answer": 2,
+      "fact": "She wrote her biggest hits with her then-husband, the producer Mutt Lange.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q08",
+      "prompt": "Which actress won an Academy Award for playing Loretta Lynn in Coal Miner's Daughter?",
+      "choices": [
+        "Sissy Spacek",
+        "Jessica Lange",
+        "Meryl Streep",
+        "Diane Keaton"
+      ],
+      "answer": 0,
+      "fact": "Spacek did her own singing in the film, and Lynn herself approved of the performance.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q09",
+      "prompt": "Which Texas singer is known as the King of Country?",
+      "choices": [
+        "George Strait",
+        "Randy Travis",
+        "Merle Haggard",
+        "Conway Twitty"
+      ],
+      "answer": 0,
+      "fact": "He served in the U.S. Army before he began his music career, and he recorded \"Amarillo by Morning\" in 1982.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q10",
+      "prompt": "Which singer died in a 1963 plane crash at age 30 after recording \"Crazy\"?",
+      "choices": [
+        "Tammy Wynette",
+        "Kitty Wells",
+        "Patsy Cline",
+        "Skeeter Davis"
+      ],
+      "answer": 2,
+      "fact": "Willie Nelson wrote \"Crazy\", and Cline's recording became a jukebox favorite.",
+      "difficulty": 1
+    },
+    {
+      "id": "country-q11",
+      "prompt": "Which three brothers wrote \"Islands in the Stream\" for Kenny Rogers and Dolly Parton?",
+      "choices": [
+        "The Everly Brothers",
+        "The Bee Gees",
+        "The Statler Brothers",
+        "The Osmonds"
+      ],
+      "answer": 1,
+      "fact": "Barry Gibb has said he wrote it with Marvin Gaye in mind, and he later produced it for Rogers and Parton.",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q12",
+      "prompt": "Dolly Parton has said she wrote \"Jolene\" and \"I Will Always Love You\" within what time span?",
+      "choices": [
+        "During one summer",
+        "Over a long weekend",
+        "Within the same year",
+        "On the same day"
+      ],
+      "answer": 3,
+      "fact": "She wrote \"I Will Always Love You\" as a farewell to Porter Wagoner when she left his TV show.",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q13",
+      "prompt": "Dolly Parton declined to give up half the publishing of \"I Will Always Love You\" to which singer?",
+      "choices": [
+        "Willie Nelson",
+        "Frank Sinatra",
+        "Kenny Rogers",
+        "Elvis Presley"
+      ],
+      "answer": 3,
+      "fact": "The refusal cost her a recording by Presley, but she later earned millions when Whitney Houston recorded it in 1992.",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q14",
+      "prompt": "Merle Haggard was an inmate at which prison when he saw Johnny Cash perform in 1958?",
+      "choices": [
+        "Folsom",
+        "San Quentin",
+        "Sing Sing",
+        "Angola"
+      ],
+      "answer": 1,
+      "fact": "Haggard went on to write \"Mama Tried\" about his youth, and he later received a full pardon from California's governor.",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q15",
+      "prompt": "Before he became a songwriter, Kris Kristofferson studied at Oxford as what?",
+      "choices": [
+        "A Fulbright Scholar",
+        "A Marshall Scholar",
+        "A Rhodes Scholar",
+        "A Truman Scholar"
+      ],
+      "answer": 2,
+      "fact": "He also served as an Army helicopter pilot, and he wrote \"Me and Bobby McGee\" and \"Help Me Make It Through the Night\".",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q16",
+      "prompt": "Before his solo stardom, Glen Campbell was a session guitarist with which group of studio players?",
+      "choices": [
+        "The Wrecking Crew",
+        "The Funk Brothers",
+        "The Muscle Shoals Rhythm Section",
+        "The Nashville A-Team"
+      ],
+      "answer": 0,
+      "fact": "He also toured briefly with the Beach Boys, filling in for Brian Wilson in 1964 and 1965.",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q17",
+      "prompt": "Which 1976 album by Waylon Jennings, Willie Nelson, Jessi Colter and Tompall Glaser popularized outlaw country?",
+      "choices": [
+        "Wanted! The Outlaws",
+        "Honky Tonk Heroes",
+        "Red Headed Stranger",
+        "Outlaw Women"
+      ],
+      "answer": 0,
+      "fact": "The record brought the Nashville outsiders together, and it sold more than a million copies.",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q18",
+      "prompt": "Which guitarist, with his band the Buckaroos, led the Bakersfield sound and co-hosted Hee Haw?",
+      "choices": [
+        "Porter Wagoner",
+        "Chet Atkins",
+        "Buck Owens",
+        "Don Rich"
+      ],
+      "answer": 2,
+      "fact": "Bakersfield country used bright, twangy electric guitars as a tougher alternative to the smoother Nashville sound.",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q19",
+      "prompt": "Which married songwriting team wrote \"Bye Bye Love\" and \"Rocky Top\"?",
+      "choices": [
+        "Jack and Phyllis Clement",
+        "Boudleaux and Felice Bryant",
+        "Harlan and Kay Howard",
+        "Cindy and Don Walker"
+      ],
+      "answer": 1,
+      "fact": "The Everly Brothers recorded \"Bye Bye Love\" after many other singers had turned it down.",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q20",
+      "prompt": "Which author of The Giving Tree wrote Johnny Cash's \"A Boy Named Sue\"?",
+      "choices": [
+        "Roald Dahl",
+        "Dr. Seuss",
+        "Maurice Sendak",
+        "Shel Silverstein"
+      ],
+      "answer": 3,
+      "fact": "Cash performed the song live at San Quentin in 1969, and it became one of his biggest hits.",
+      "difficulty": 2
+    },
+    {
+      "id": "country-q21",
+      "prompt": "Who produced Patsy Cline's \"Crazy\" and shaped the smooth Nashville Sound?",
+      "choices": [
+        "Chet Atkins",
+        "Billy Sherrill",
+        "Sam Phillips",
+        "Owen Bradley"
+      ],
+      "answer": 3,
+      "fact": "Bradley used a string section and a polished backing group, and the arrangement helped Cline cross over to pop listeners.",
+      "difficulty": 3
+    },
+    {
+      "id": "country-q22",
+      "prompt": "Which producer co-wrote Tammy Wynette's \"Stand by Your Man\"?",
+      "choices": [
+        "Owen Bradley",
+        "Billy Sherrill",
+        "Jimmy Bowen",
+        "Bob Ferguson"
+      ],
+      "answer": 1,
+      "fact": "Sherrill and Wynette reportedly finished the song in a matter of minutes.",
+      "difficulty": 3
+    },
+    {
+      "id": "country-q23",
+      "prompt": "Which two songwriters wrote George Jones's \"He Stopped Loving Her Today\"?",
+      "choices": [
+        "Harlan Howard and Hank Cochran",
+        "Boudleaux and Felice Bryant",
+        "Bobby Braddock and Curly Putman",
+        "Don Schlitz and Paul Overstreet"
+      ],
+      "answer": 2,
+      "fact": "Jones reportedly thought the song was too morbid and predicted that nobody would buy it.",
+      "difficulty": 3
+    },
+    {
+      "id": "country-q24",
+      "prompt": "Who wrote George Strait's \"Amarillo by Morning\"?",
+      "choices": [
+        "Terry Stafford and Paul Fraser",
+        "Dean Dillon and Frank Dycus",
+        "Bobby Braddock and Curly Putman",
+        "Merle Haggard and Bonnie Owens"
+      ],
+      "answer": 0,
+      "fact": "Chris LeDoux recorded the song in 1973, nine years before Strait's version.",
+      "difficulty": 3
+    },
+    {
+      "id": "country-q25",
+      "prompt": "Who wrote Kenny Rogers's \"The Gambler\"?",
+      "choices": [
+        "Don Schlitz",
+        "Roger Miller",
+        "Tom T. Hall",
+        "Mickey Newbury"
+      ],
+      "answer": 0,
+      "fact": "Rogers's 1978 recording led to a series of television movies built around the title character.",
+      "difficulty": 3
+    },
+    {
+      "id": "country-q26",
+      "prompt": "Dolly Parton has said the inspiration for \"Jolene\" included a bank teller who flirted with whom?",
+      "choices": [
+        "Her duet partner Porter Wagoner",
+        "Her manager",
+        "Her husband, Carl Dean",
+        "Her brother"
+      ],
+      "answer": 2,
+      "fact": "She has said the name came from a young fan with red hair who asked for an autograph at a show.",
+      "difficulty": 3
+    },
+    {
+      "id": "country-q27",
+      "prompt": "Who wrote Garth Brooks's \"Friends in Low Places\"?",
+      "choices": [
+        "Garth Brooks and Trisha Yearwood",
+        "Earl Bud Lee and Dewayne Blackwell",
+        "Tony Arata and Pat Alger",
+        "Roger Murrah and Bobby Braddock"
+      ],
+      "answer": 1,
+      "fact": "A demo sung by Mark Luna reached Brooks, and he did not write the song himself.",
+      "difficulty": 3
+    },
+    {
+      "id": "country-q28",
+      "prompt": "Johnny Cash's \"Ring of Fire\" was first recorded by which singer?",
+      "choices": [
+        "Wanda Jackson",
+        "Jean Shepard",
+        "Rose Maddox",
+        "Anita Carter"
+      ],
+      "answer": 3,
+      "fact": "Anita was June Carter's sister, and Cash added the mariachi-style trumpets that made his version distinctive.",
+      "difficulty": 3
+    },
+    {
+      "id": "country-q29",
+      "prompt": "Alan Jackson first performed \"Where Were You (When the World Stopped Turning)\" at which awards show?",
+      "choices": [
+        "The Grammy Awards",
+        "The Academy of Country Music Awards",
+        "The American Music Awards",
+        "The CMA Awards"
+      ],
+      "answer": 3,
+      "fact": "He wrote the song in the weeks after the September 11, 2001 attacks, and he sang it in November of that year.",
+      "difficulty": 3
+    },
+    {
+      "id": "country-q30",
+      "prompt": "Which 1975 concept album by Willie Nelson tells the story of a fugitive preacher?",
+      "choices": [
+        "Phases and Stages",
+        "Red Headed Stranger",
+        "Shotgun Willie",
+        "Stardust"
+      ],
+      "answer": 1,
+      "fact": "Columbia executives were unsure about the sparse, demo-like sound, but the album became a landmark of outlaw country.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "country-s01",
+      "title": "Hey, Good Lookin'",
+      "artist": "Hank Williams",
+      "year": 1951,
+      "album": "Hey, Good Lookin'",
+      "note": "Williams's friendly honky-tonk song is one of his most covered."
+    },
+    {
+      "id": "country-s02",
+      "title": "Crazy",
+      "artist": "Patsy Cline",
+      "year": 1961,
+      "album": "Patsy Cline Showcase",
+      "note": "Willie Nelson wrote the song, and Owen Bradley produced Cline's recording."
+    },
+    {
+      "id": "country-s03",
+      "title": "Ring of Fire",
+      "artist": "Johnny Cash",
+      "year": 1963,
+      "album": "Ring of Fire: The Best of Johnny Cash",
+      "note": "June Carter and Merle Kilgore wrote the song, and Cash added mariachi horns."
+    },
+    {
+      "id": "country-s04",
+      "title": "Gentle on My Mind",
+      "artist": "Glen Campbell",
+      "year": 1967,
+      "album": "Gentle on My Mind",
+      "note": "John Hartford wrote the song, and Campbell's recording won him Grammy Awards."
+    },
+    {
+      "id": "country-s05",
+      "title": "Mama Tried",
+      "artist": "Merle Haggard",
+      "year": 1968,
+      "album": "Mama Tried",
+      "note": "Haggard drew on his own troubled youth for the song."
+    },
+    {
+      "id": "country-s06",
+      "title": "Stand by Your Man",
+      "artist": "Tammy Wynette",
+      "year": 1968,
+      "album": "Stand by Your Man",
+      "note": "Billy Sherrill co-wrote the song and produced the recording."
+    },
+    {
+      "id": "country-s07",
+      "title": "Coal Miner's Daughter",
+      "artist": "Loretta Lynn",
+      "year": 1970,
+      "album": "Coal Miner's Daughter",
+      "note": "Lynn wrote the song about her childhood in Kentucky."
+    },
+    {
+      "id": "country-s08",
+      "title": "Jolene",
+      "artist": "Dolly Parton",
+      "year": 1973,
+      "album": "Jolene",
+      "note": "Parton wrote it, and it has been covered by many artists since."
+    },
+    {
+      "id": "country-s09",
+      "title": "The Gambler",
+      "artist": "Kenny Rogers",
+      "year": 1978,
+      "album": "The Gambler",
+      "note": "Don Schlitz wrote the song, and Rogers made it a signature."
+    },
+    {
+      "id": "country-s10",
+      "title": "He Stopped Loving Her Today",
+      "artist": "George Jones",
+      "year": 1980,
+      "album": "I Am What I Am",
+      "note": "Bobby Braddock and Curly Putman wrote the song, and Billy Sherrill produced it."
+    },
+    {
+      "id": "country-s11",
+      "title": "On the Road Again",
+      "artist": "Willie Nelson",
+      "year": 1980,
+      "album": "Honeysuckle Rose",
+      "note": "Nelson wrote it for the film Honeysuckle Rose."
+    },
+    {
+      "id": "country-s12",
+      "title": "Amarillo by Morning",
+      "artist": "George Strait",
+      "year": 1982,
+      "album": "Strait from the Heart",
+      "note": "Terry Stafford and Paul Fraser wrote the song."
+    },
+    {
+      "id": "country-s13",
+      "title": "Friends in Low Places",
+      "artist": "Garth Brooks",
+      "year": 1990,
+      "album": "No Fences",
+      "note": "Earl Bud Lee and Dewayne Blackwell wrote the song."
+    },
+    {
+      "id": "country-s14",
+      "title": "Man! I Feel Like a Woman!",
+      "artist": "Shania Twain",
+      "year": 1997,
+      "album": "Come On Over",
+      "note": "Twain wrote it with Mutt Lange, who also produced it."
+    },
+    {
+      "id": "country-s15",
+      "title": "Where Were You (When the World Stopped Turning)",
+      "artist": "Alan Jackson",
+      "year": 2001,
+      "album": "Drive",
+      "note": "Jackson wrote the song in response to the attacks of September 11, 2001."
+    },
+    {
+      "id": "country-s16",
+      "title": "Live Like You Were Dying",
+      "artist": "Tim McGraw",
+      "year": 2004,
+      "album": "Live Like You Were Dying",
+      "note": "Tim Nichols and Craig Wiseman wrote the song."
+    }
+  ],
+  "stories": [
+    {
+      "id": "country-st1",
+      "title": "Hank Williams",
+      "dek": "Twenty-nine years and a songbook for the ages",
+      "year": 1953,
+      "body": "Hank Williams was born in rural Alabama in 1923 and began playing guitar as a boy. As a teenager he formed a band, the Drifting Cowboys, and played local clubs. He learned music from a street singer in Georgiana, Alabama, a Black bluesman named Rufus Payne, known as Tee-Tot. Williams later said Tee-Tot taught him how to play and how to put feeling into a song.\n\nBy 1947 he had a recording contract, and in 1949 his version of \"Lovesick Blues\" became a hit that took him to the Grand Ole Opry. At the Ryman Auditorium his first appearance brought the crowd to its feet, and they called him back for encore after encore. Over the next few years he wrote and recorded a stream of songs that have never gone away, among them \"Your Cheatin' Heart,\" \"I'm So Lonesome I Could Cry,\" \"Hey, Good Lookin'\" and \"Jambalaya.\"\n\nHis songs were plain and direct. They used everyday words, and they spoke of loneliness, love and heartbreak with a sharp eye. He wrote them for the ordinary people in his audience. Pop singers soon discovered them too, and artists like Tony Bennett and Rosemary Clooney scored hits with his tunes, spreading his songwriting far beyond country.\n\nHis private life was troubled. He had chronic back pain and drank heavily, and he missed shows. In August 1952 the Opry fired him for his unreliability. He went back to his old radio show in Shreveport and kept performing.\n\nOn December 31, 1952, he set out by car for a New Year's Day show in Canton, Ohio. His driver found him unresponsive in the back seat in the early hours of January 1, 1953. He was 29. Within days the news was everywhere, and his funeral in Montgomery drew a huge crowd. \"Your Cheatin' Heart\" was released after his death and became one of his most famous songs.\n\nWilliams made music for only about six years. Yet nearly every country singer who followed him has acknowledged his influence, and artists from Bob Dylan to Norah Jones have recorded his songs. His son, Hank Williams Jr., and later his grandchildren carried on the family name in music.\n\nFor many fans he is the figure from whom modern country starts, a poet of the honky-tonk who did not live to see thirty.",
+      "songs": [
+        "country-s01"
+      ]
+    },
+    {
+      "id": "country-st2",
+      "title": "Folsom Prison",
+      "dek": "A country star, a prison yard and a career reborn",
+      "year": 1968,
+      "body": "In 1953 a young airman named Johnny Cash was stationed in West Germany with the U.S. Air Force. One evening he watched a film called Inside the Walls of Folsom Prison. The movie stayed with him, and he wrote a song, \"Folsom Prison Blues,\" imagining a prisoner who listens to a train and thinks of freedom. Cash would play it for years.\n\nBy the mid-1960s his career had slowed. He had struggled with drug use, and his record sales had dropped. But he had always had a connection to prisoners, and he had played for inmates since 1957. He persuaded Columbia Records to let him record a concert in a prison. His producer, Bob Johnston, backed the plan.\n\nOn January 13, 1968, Cash, June Carter, Carl Perkins and the Tennessee Three played two shows at Folsom State Prison in California. The recording captured the roars and whistles of the inmates. Cash opened with a simple introduction: \"Hello, I'm Johnny Cash.\" Then he went straight into \"Folsom Prison Blues.\" The inmates reacted with delight, especially to the song's famous dark line.\n\nThe album came out in May 1968 and surprised the label by selling in huge numbers. The single of the title song became a hit, and the success brought Cash back to the top. He married June Carter that same year, in March, and the pair went on to perform together for decades. In 1969 he made a second prison album at San Quentin, which included \"A Boy Named Sue.\"\n\nCash became a spokesman for prisoners and spoke about prison reform before a Senate subcommittee in 1972. His influence extended to the musicians who heard him. In 1958 a young inmate at San Quentin named Merle Haggard saw Cash perform and was moved. Haggard later became a country star himself.\n\nThe prison albums showed a different side of Cash, a man who sang for people others ignored. His black clothes and deep voice became a trademark, and the Folsom concert is still remembered as a landmark of live recording.",
+      "songs": [
+        "country-s03"
+      ]
+    },
+    {
+      "id": "country-st3",
+      "title": "The Outlaws",
+      "dek": "Two Nashville rebels and the Texas sound",
+      "year": 1976,
+      "body": "In the early 1970s Nashville ran like a factory. Record labels used a small group of trusted studio musicians, chose the songs, and sold a polished, string-laden sound known as the Nashville Sound. Singers who wanted to follow their own ideas often found the door closed. Two of them were Willie Nelson and Waylon Jennings.\n\nNelson had written major hits for others, among them \"Crazy\" for Patsy Cline and \"Hello Walls\" for Faron Young. Yet as a performer he never quite fit in Nashville. After a fire destroyed his house and he felt boxed in, he moved to Texas. By 1972 he was living in Austin, where he found audiences who loved his songs and didn't care how he dressed. He grew his hair long and wore a bandanna.\n\nJennings had a different path. He had played bass for Buddy Holly and, as a young man, gave up his seat on the plane that crashed in February 1959. He has described a last exchange with Holly, though accounts vary on the exact words. By the early 1970s he was fighting with his label over control of his records. In 1973 he made Honky Tonk Heroes, using his own band and mostly songs by Billy Joe Shaver. It was rough, direct and a success.\n\nNelson's breakthrough was the 1975 album Red Headed Stranger. It told the story of a fugitive preacher in a spare, quiet setting, with little more than his guitar, a piano and some drums. Columbia executives worried it sounded like a demo. The album became a hit, and the single \"Blue Eyes Crying in the Rain\" reached the top of the country chart.\n\nIn 1976 RCA gathered Jennings, Nelson, Jessi Colter and Tompall Glaser on one album, Wanted! The Outlaws. The word outlaw stuck, and critics and fans used it for the whole movement. The record was a big seller, and it showed that country could be rougher and more personal.\n\nNelson went on to record \"On the Road Again\" in 1980. The Outlaws had broken a rule, that Nashville's way was the only way. Many country artists after them have followed their lead.",
+      "songs": [
+        "country-s11"
+      ]
+    }
+  ]
+}
