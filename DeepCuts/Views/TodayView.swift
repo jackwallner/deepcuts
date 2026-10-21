@@ -20,7 +20,7 @@ struct TodayView: View {
                 .padding(.horizontal, Theme.gutter)
                 .padding(.bottom, 32)
             }
-            .background(Theme.paper.ignoresSafeArea())
+            .paperPage()
             .navigationDestination(for: Story.self) { StoryView(story: $0) }
             .task { await app.loadMoments() }
             .refreshable { await app.loadMoments(force: true) }

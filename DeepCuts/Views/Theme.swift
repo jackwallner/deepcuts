@@ -124,4 +124,10 @@ struct CardBackground: ViewModifier {
 
 extension View {
     func card() -> some View { modifier(CardBackground()) }
+
+    /// Paper behind the page, and behind the status bar once text scrolls under it.
+    func paperPage() -> some View {
+        background(Theme.paper.ignoresSafeArea())
+            .toolbarBackground(Theme.paper, for: .navigationBar)
+    }
 }

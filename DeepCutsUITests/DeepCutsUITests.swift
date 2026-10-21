@@ -94,8 +94,14 @@ final class Tour: XCTestCase {
         step += 1
         try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
         sleep(1)
-        try? XCUIScreen.main.screenshot().pngRepresentation
-            .write(to: dir.appendingPathComponent(String(format: "%02d-%@.png", step, name)))
+        let name = String(format: "%02d-%@", step, name)
+        let screenshot = XCUIScreen.main.screenshot()
+        try? screenshot.pngRepresentation.write(to: dir.appendingPathComponent(name + ".png"))
+        // Attached too, so remote runs (gh-sim) bring the tour back.
+        let attachment = XCTAttachment(screenshot: screenshot)
+        attachment.name = name
+        attachment.lifetime = .keepAlways
+        add(attachment)
     }
 
     func testTour() {
