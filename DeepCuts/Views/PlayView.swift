@@ -14,7 +14,7 @@ struct PlayView: View {
                     .padding(.top, 12)
 
                     VStack(spacing: 10) {
-                        ForEach(QuizMode.allCases) { mode in
+                        ForEach(QuizMode.allCases.filter { app.offers($0, crate: nil) }) { mode in
                             ModeRow(mode: mode) { app.start(mode: mode, crate: nil) }
                         }
                     }
@@ -118,7 +118,7 @@ struct CrateView: View {
             VStack(alignment: .leading, spacing: 28) {
                 header
                 VStack(spacing: 10) {
-                    ForEach(QuizMode.allCases) { mode in
+                    ForEach(QuizMode.allCases.filter { app.offers($0, crate: genre) }) { mode in
                         ModeRow(mode: mode) { app.start(mode: mode, crate: genre) }
                     }
                 }
@@ -138,6 +138,15 @@ struct CrateView: View {
                         Divider().overlay(Theme.rule)
                     }
                     Text("Previews courtesy of Apple Music").font(.caption2).foregroundStyle(Theme.inkSoft).padding(.top, 6)
+                }
+                if !genre.coverSongs.isEmpty {
+                    VStack(alignment: .leading, spacing: 4) {
+                        SectionHeader(title: "Famous Covers", trailing: "\(genre.coverSongs.count) records")
+                        ForEach(genre.coverSongs.sorted { $0.year < $1.year }) { cover in
+                            SongRow(song: cover.asSong)
+                            Divider().overlay(Theme.rule)
+                        }
+                    }
                 }
             }
             .padding(.horizontal, Theme.gutter)

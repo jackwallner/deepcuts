@@ -28,7 +28,7 @@ struct YouView: View {
             .sheet(isPresented: $editingFocus) {
                 FocusPicker(title: "Your crates", subtitle: "Today's mix, clips and stories come from these.",
                             action: "Save", initial: app.progress.focus) { picked in
-                    app.progress.setFocus(picked)
+                    app.progress.setFocus(picked); Task { await app.loadMoments(force: true) }
                     editingFocus = false
                 }
             }
@@ -38,7 +38,7 @@ struct YouView: View {
     private var stats: some View {
         let overall = app.progress.overall
         return HStack(spacing: 0) {
-            stat("\(app.progress.streak())", "day streak")
+            stat("\(app.progress.streak())", "days in a row")
             Divider().frame(height: 44).overlay(Theme.rule)
             stat("\(overall.answered)", "answered")
             Divider().frame(height: 44).overlay(Theme.rule)

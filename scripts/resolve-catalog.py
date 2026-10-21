@@ -77,6 +77,52 @@ def best(song: dict, results: list[dict]) -> dict | None:
     return ok[0][6] if ok else None
 
 
+def album_search(album: str, artist: str) -> dict | None:
+    url = "https://itunes.apple.com/search?" + urllib.parse.urlencode(
+        {"term": f"{album} {artist}", "entity": "album", "limit": 25, "country": "US"})
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "deepcuts/1.0"}), timeout=30) as r:
+            results = json.load(r).get("results", [])
+    except Exception as e:  # noqa: BLE001
+        print(f"  album search failed: {album}: {e}", file=sys.stderr)
+        return None
+    want, who = norm(album), norm(artist)
+    hits = [r for r in results
+            if (who in norm(r.get("artistName", "")) or norm(r.get("artistName", "")) in who)
+            and (norm(r.get("collectionName", "")) == want or norm(r.get("collectionName", "")).startswith(want + " "))]
+    # The plain edition first, then the oldest.
+    hits.sort(key=lambda r: (norm(r.get("collectionName", "")) != want, r.get("releaseDate", "9999")))
+    return hits[0] if hits else None
+
+
+def resolve_covers(catalog: dict, refresh: bool, only: str | None, problems: list[str]) -> None:
+    for path in sorted(GENRES.glob("*.json")):
+        genre = json.loads(path.read_text())
+        if only and genre["id"] != only:
+            continue
+        for story in genre["stories"]:
+            cover = story.get("cover")
+            if not cover:
+                continue
+            cid, key = f"cover-{story['id']}", f"{cover['album']}|{cover['artist']}"
+            if catalog.get(cid, {}).get("key") == key and not refresh:
+                continue
+            hit = album_search(cover["album"], cover["artist"])
+            time.sleep(PAUSE)
+            if not hit:
+                problems.append(f"NO COVER  {story['id']}: {cover['album']} / {cover['artist']}")
+                catalog.pop(cid, None)
+                continue
+            catalog[cid] = {
+                "key": key,
+                "trackId": hit["collectionId"],
+                "previewUrl": None,
+                "artworkUrl": (hit.get("artworkUrl100") or "").replace("100x100bb", "600x600bb") or None,
+                "trackViewUrl": hit.get("collectionViewUrl"),
+            }
+            print(f"ok {cid}: {hit.get('collectionName')}", flush=True)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true")
@@ -88,7 +134,7 @@ def main() -> int:
         genre = json.loads(path.read_text())
         if a.only and genre["id"] != a.only:
             continue
-        for song in genre["songs"]:
+        for song in genre["songs"] + genre.get("covers", []):
             key = f"{song['title']}|{song['artist']}"
             if catalog.get(song["id"], {}).get("key") == key and not a.refresh:
                 continue
@@ -117,7 +163,9 @@ def main() -> int:
                                 f"({hit.get('collectionName')})")
             print(f"ok {song['id']}: {hit.get('trackName')} / {hit.get('artistName')} ({year})", flush=True)
             CATALOG.write_text(json.dumps(catalog, indent=1, sort_keys=True) + "\n")
-    known = {s["id"] for p in GENRES.glob("*.json") for s in json.loads(p.read_text())["songs"]}
+    resolve_covers(catalog, a.refresh, a.only, problems)
+    known = {s["id"] for p in GENRES.glob("*.json") for g in [json.loads(p.read_text())] for s in g["songs"] + g.get("covers", [])}
+    known |= {f"cover-{s['id']}" for p in GENRES.glob("*.json") for s in json.loads(p.read_text())["stories"] if s.get("cover")}
     catalog = {k: v for k, v in catalog.items() if k in known}
     CATALOG.write_text(json.dumps(catalog, indent=1, sort_keys=True) + "\n")
     print("\n".join(problems) or "no problems")

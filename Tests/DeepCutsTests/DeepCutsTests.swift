@@ -43,11 +43,17 @@ final class QuizBuilderTests: XCTestCase {
         questions: (1...12).map { question("q\($0)", difficulty: ($0 % 3) + 1) },
         songs: [song("s1", "A", 1970), song("s2", "B", 1972), song("s3", "C", 1975), song("s4", "D", 1979),
                 song("s5", "E", 1981), song("s6", "F", 1966)],
-        stories: [])
+        stories: [],
+        covers: [
+            CoverSong(id: "c1", title: "Hound Dog", artist: "Elvis Presley", year: 1956, album: "Single",
+                      original: "Big Mama Thornton", originalYear: 1953, decoys: ["Ruth Brown", "LaVern Baker", "Etta James"], note: "n"),
+            CoverSong(id: "c2", title: "Respect", artist: "Aretha Franklin", year: 1967, album: "I Never Loved a Man",
+                      original: "Otis Redding", originalYear: 1965, decoys: ["Sam Cooke", "Wilson Pickett", "Solomon Burke"], note: "n"),
+        ])
 
     static let library = ContentLibrary(
         genres: [genre],
-        catalog: Dictionary(uniqueKeysWithValues: genre.songs.map {
+        catalog: Dictionary(uniqueKeysWithValues: (genre.songs + genre.coverSongs.map(\.asSong)).map {
             ($0.id, CatalogEntry(trackId: 1, previewUrl: "https://p/\($0.id)", artworkUrl: nil, trackViewUrl: nil))
         }))
 
@@ -62,7 +68,21 @@ final class QuizBuilderTests: XCTestCase {
         XCTAssertEqual(a.map(\.correctIndex), b.map(\.correctIndex))
         XCTAssertNotEqual(a.map(\.id), c.map(\.id))
         XCTAssertEqual(a.filter { $0.mode == .tune }.count, 2)
+        XCTAssertEqual(a.filter { $0.mode == .covers }.count, 1)
         XCTAssertEqual(a.last?.mode, .firstOf)
+    }
+
+    func testCoversAskForTheOriginalArtist() {
+        var rng = SeededRandom(seed: 3)
+        let items = builder.covers(genres: [Self.genre], count: 6, rng: &rng)
+        XCTAssertEqual(items.count, 2)
+        for item in items {
+            let cover = Self.genre.coverSongs.first { "cover-\($0.id)" == item.id }!
+            XCTAssertEqual(item.choices[item.correctIndex].title, cover.original)
+            XCTAssertEqual(item.audioSongID, cover.id)
+            XCTAssertFalse(item.choices.contains { $0.title == cover.artist })
+        }
+        XCTAssertTrue(builder.offers(.covers, genres: [Self.genre]))
     }
 
     func testTriviaKeepsTheRightAnswerAfterShufflingAndRampsUp() {

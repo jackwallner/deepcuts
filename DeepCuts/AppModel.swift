@@ -40,11 +40,15 @@ final class AppModel {
         let day = ProgressStore.dayKey()
         let names = focusGenres.map(\.name)
         let title = names.count <= 2 ? names.joined(separator: " & ") : "Today's Mix"
-        activeQuiz = QuizSpec(source: .daily(day: day), mode: nil, title: title, items: builder.daily(day: day, genres: focusGenres))
+        activeQuiz = QuizSpec(source: .daily(day: day), mode: nil, title: title, items: builder.daily(day: day, genres: focusGenres, seen: progress.seenQuestions))
     }
 
     func dailyPreviewSongs() -> [String] {
         builder.daily(day: ProgressStore.dayKey(), genres: focusGenres).compactMap { $0.audioSongID ?? $0.choices.compactMap(\.songID).first }
+    }
+
+    func offers(_ mode: QuizMode, crate: Genre?) -> Bool {
+        builder.offers(mode, genres: crate.map { [$0] } ?? focusGenres)
     }
 
     func start(mode: QuizMode, crate: Genre?) {
@@ -77,9 +81,12 @@ final class AppModel {
         let today = ProgressStore.dayKey()
         guard force || momentsDay != today else { return }
         let parts = Calendar.current.dateComponents([.month, .day], from: .now)
-        let artists = Array(Set(library.genres.flatMap { $0.songs.map(\.artist) }))
+        let artists = Array(Set(focusGenres.flatMap { $0.songs.map(\.artist) }))
         do {
-            moments = try await OnThisDay.moments(month: parts.month ?? 1, day: parts.day ?? 1, artists: artists)
+            let all = try await OnThisDay.moments(month: parts.month ?? 1, day: parts.day ?? 1, artists: artists)
+            // Births of strangers are noise; keep them only to fill a quiet day.
+            let relevant = all.filter { $0.connection != nil || $0.kind == .event }
+            moments = relevant.count >= 3 ? relevant : relevant + all.filter { !relevant.contains($0) }.prefix(3 - relevant.count)
             momentsDay = today
             momentsFailed = false
         } catch {

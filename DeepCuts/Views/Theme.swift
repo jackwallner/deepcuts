@@ -19,7 +19,8 @@ enum Theme {
     static let gutter: CGFloat = 20
 
     static func display(_ size: CGFloat) -> Font {
-        .system(size: size, weight: .bold, design: .serif)
+        let scaled = UIFontMetrics(forTextStyle: .largeTitle).scaledValue(for: size)
+        return .system(size: min(scaled, size * 1.35), weight: .bold, design: .serif)
     }
 
     static func serif(_ style: Font.TextStyle, weight: Font.Weight = .semibold) -> Font {
@@ -39,7 +40,7 @@ enum Theme {
             "classic-rock": 0xB5532F, "british-invasion": 0x2F5D8A, "southern-rock": 0x8C5A2B,
             "heavy-metal": 0x4A4A4F, "prog-rock": 0x5E4B8B, "motown-soul": 0xA8742A,
             "folk-singer-songwriter": 0x5B7A4A, "yacht-rock": 0x2E7C86, "punk-new-wave": 0xC23B5B,
-            "eighties": 0xB0457F, "grunge-alt": 0x5F6B4E, "pop": 0xD0703C, "country": 0x9A6B3F,
+            "eighties": 0xB0457F, "grunge-alt": 0x5F6B4E, "pop": 0xD0703C, "modern-pop": 0x2F8F9D, "country": 0x9A6B3F,
             "blues": 0x2C4E7A, "disco-funk": 0xB8862E, "hip-hop": 0x3B3B3B,
         ]
         return Color(hex: palette[id] ?? 0x7A6F60)
@@ -50,7 +51,7 @@ enum Theme {
             "classic-rock": "guitars", "british-invasion": "crown", "southern-rock": "sun.dust",
             "heavy-metal": "bolt", "prog-rock": "infinity", "motown-soul": "music.mic",
             "folk-singer-songwriter": "leaf", "yacht-rock": "sailboat", "punk-new-wave": "safetypin",
-            "eighties": "tv", "grunge-alt": "cloud.drizzle", "pop": "sparkles", "country": "road.lanes",
+            "eighties": "tv", "grunge-alt": "cloud.drizzle", "pop": "pianokeys", "modern-pop": "headphones", "country": "road.lanes",
             "blues": "moon.stars", "disco-funk": "circle.hexagongrid", "hip-hop": "headphones",
         ]
         return symbols[id] ?? "music.note"

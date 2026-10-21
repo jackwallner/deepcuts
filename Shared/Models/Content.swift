@@ -9,6 +9,10 @@ struct Genre: Codable, Identifiable, Sendable {
     let questions: [Question]
     let songs: [Song]
     let stories: [Story]
+    /// Famous covers for "Who Did It First?". Optional in the JSON.
+    let covers: [CoverSong]?
+
+    var coverSongs: [CoverSong] { covers ?? [] }
 
     /// "1969–1983", with a proper en dash for display.
     var eraLabel: String { era.replacingOccurrences(of: "-", with: "\u{2013}") }
@@ -32,6 +36,25 @@ struct Song: Codable, Identifiable, Hashable, Sendable {
     let note: String
 }
 
+/// A cover better known than (or as known as) its original.
+struct CoverSong: Codable, Identifiable, Hashable, Sendable {
+    let id: String
+    let title: String
+    let artist: String
+    let year: Int
+    let album: String
+    let original: String
+    let originalYear: Int
+    let decoys: [String]
+    let note: String
+
+    /// As a record row: the cover, with who had it first.
+    var asSong: Song {
+        Song(id: id, title: title, artist: artist, year: year, album: album,
+             note: "First released by \(original) in \(originalYear). \(note)")
+    }
+}
+
 struct Story: Codable, Identifiable, Hashable, Sendable {
     let id: String
     let title: String
@@ -39,6 +62,19 @@ struct Story: Codable, Identifiable, Hashable, Sendable {
     let year: Int
     let body: String
     let songs: [String]
+    /// The album whose sleeve illustrates the story. Resolved into the catalog as `cover-<id>`.
+    var cover: Cover? = nil
+    /// "concert" for a story about one show; nil for records and people.
+    var kind: String? = nil
+
+    var isConcert: Bool { kind == "concert" }
+
+    struct Cover: Codable, Hashable, Sendable {
+        let album: String
+        let artist: String
+    }
+
+    var coverKey: String { "cover-\(id)" }
 
     var paragraphs: [String] {
         body.components(separatedBy: "\n\n").map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }.filter { !$0.isEmpty }

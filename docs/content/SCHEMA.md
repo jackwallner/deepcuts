@@ -51,3 +51,35 @@ Rules
   claims unless they are undisputed. Nothing about events after 2024.
 - Every choice in a question is the same kind of thing (four bands, four years).
 - No duplicate questions within or across files.
+
+## Concert stories and covers
+
+Stories may set `"kind": "concert"` for a story about one show or festival (Fillmore East
+1971, Woodstock, Live Aid, The Last Waltz). The Stories tab shelves them under Concerts.
+Omit `kind` for stories about records and people.
+
+Each crate may have a `covers` list, used by the "Who Did It First?" mode (play the cover,
+pick who recorded the song first) and shown on the crate page:
+
+```json
+"covers": [
+  {
+    "id": "classic-rock-c01",
+    "title": "All Along the Watchtower",
+    "artist": "The Jimi Hendrix Experience",
+    "year": 1968,
+    "album": "Electric Ladyland",
+    "original": "Bob Dylan",
+    "originalYear": 1967,
+    "decoys": ["Neil Young", "Leonard Cohen", "The Byrds"],
+    "note": "One or two sentences on how the cover came about or what changed."
+  }
+]
+```
+
+- `title`/`artist`/`year`/`album` describe the cover recording, which must be on Apple Music.
+- `original` is the artist who released the song first (not just the writer, unless they
+  are the same). `decoys` are three plausible, wrong originals from the same world.
+  None of the decoys may have released the song before the original.
+- Pick covers better known than, or as well known as, the original, so the question is a
+  real surprise ("Hound Dog": Big Mama Thornton; "Respect": Otis Redding).
