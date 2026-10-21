@@ -6,7 +6,7 @@
   "questions": [
     {
       "id": "pop-q01",
-      "prompt": "Who produced the Ronettes' \"Be My Baby\" in 1963 with his famous Wall of Sound?",
+      "prompt": "Which producer's \"Wall of Sound\" defined the Ronettes' and the Crystals' hits of the early 1960s?",
       "choices": [
         "Phil Spector",
         "Brian Wilson",
@@ -14,7 +14,7 @@
         "Berry Gordy"
       ],
       "answer": 0,
-      "fact": "Session drummer Hal Blaine played the song's opening beat, which became one of the most imitated in pop.",
+      "fact": "Spector recorded at Gold Star Studios in Los Angeles with a crew of session players that included drummer Hal Blaine.",
       "difficulty": 1
     },
     {
@@ -80,7 +80,7 @@
       ],
       "answer": 1,
       "fact": "He called \"Good Vibrations\" a pocket symphony, and it was pieced together from sessions at several studios over months.",
-      "difficulty": 1
+      "difficulty": 2
     },
     {
       "id": "pop-q07",
@@ -119,7 +119,7 @@
       ],
       "answer": 0,
       "fact": "The two usually worked separately, with Taupin writing the words first and John setting them to music.",
-      "difficulty": 1
+      "difficulty": 2
     },
     {
       "id": "pop-q10",
@@ -132,7 +132,7 @@
       ],
       "answer": 2,
       "fact": "A&M Records co-founder Herb Alpert signed the duo in 1969 after hearing a demo tape.",
-      "difficulty": 1
+      "difficulty": 2
     },
     {
       "id": "pop-q11",
@@ -145,20 +145,20 @@
       ],
       "answer": 1,
       "fact": "Brian Wilson has said the Beatles' Rubber Soul pushed him to make it, and Paul McCartney has called \"God Only Knows\" one of the greatest songs ever written.",
-      "difficulty": 1
+      "difficulty": 2
     },
     {
       "id": "pop-q12",
-      "prompt": "Which songwriter wrote both Bonnie Tyler's \"Total Eclipse of the Heart\" and Meat Loaf's Bat Out of Hell?",
+      "prompt": "Which 1978 hit did John Travolta and Olivia Newton-John sing together in the film Grease?",
       "choices": [
-        "Jimmy Webb",
-        "Burt Bacharach",
-        "Randy Newman",
-        "Jim Steinman"
+        "Hopelessly Devoted to You",
+        "Magic",
+        "Physical",
+        "You're the One That I Want"
       ],
       "answer": 3,
-      "fact": "Steinman's songs are known for their theatrical, operatic scale.",
-      "difficulty": 2
+      "fact": "John Farrar wrote it for the film, and Newton-John's solo ballad \"Hopelessly Devoted to You\" was added to the movie as well.",
+      "difficulty": 1
     },
     {
       "id": "pop-q13",
@@ -188,15 +188,15 @@
     },
     {
       "id": "pop-q15",
-      "prompt": "Which jazz saxophonist plays the alto solo on Billy Joel's \"Just the Way You Are\"?",
+      "prompt": "In Barry Manilow's 1978 hit \"Copacabana\", what is the showgirl's name?",
       "choices": [
-        "Stan Getz",
-        "Paul Desmond",
-        "Phil Woods",
-        "Gerry Mulligan"
+        "Lola",
+        "Rita",
+        "Maria",
+        "Carmen"
       ],
-      "answer": 2,
-      "fact": "Joel wrote the song for his first wife, Elizabeth Weber, and it won both Record and Song of the Year Grammys.",
+      "answer": 0,
+      "fact": "The song tells of a showgirl and a bartender at a New York nightclub, and it won Manilow a Grammy.",
       "difficulty": 2
     },
     {
@@ -223,7 +223,7 @@
       ],
       "answer": 0,
       "fact": "The Shirelles recorded the song in 1960, and King later recorded it herself on Tapestry.",
-      "difficulty": 2
+      "difficulty": 3
     },
     {
       "id": "pop-q18",
@@ -249,7 +249,7 @@
       ],
       "answer": 1,
       "fact": "Paul Tanner, a former trombonist with the Glenn Miller orchestra, played the instrument on the recording.",
-      "difficulty": 2
+      "difficulty": 3
     },
     {
       "id": "pop-q20",
@@ -314,33 +314,33 @@
       ],
       "answer": 1,
       "fact": "Van Halen has said he did it as a favor and took no payment, and members of Toto played on the track.",
-      "difficulty": 2
+      "difficulty": 1
     },
     {
       "id": "pop-q25",
-      "prompt": "Who wrote \"I Write the Songs\", a hit for Barry Manilow?",
+      "prompt": "Which horror-film star recites the spoken-word rap in Michael Jackson's \"Thriller\"?",
       "choices": [
-        "Bruce Johnston",
-        "Neil Diamond",
-        "Paul Williams",
-        "Neil Sedaka"
+        "Vincent Price",
+        "Boris Karloff",
+        "Christopher Lee",
+        "Peter Cushing"
       ],
       "answer": 0,
-      "fact": "Johnston was a member of the Beach Boys, and the song won the Grammy for Song of the Year.",
-      "difficulty": 3
+      "fact": "Rod Temperton, who wrote the song, also wrote the spoken part, and Price recorded it for the track.",
+      "difficulty": 2
     },
     {
       "id": "pop-q26",
-      "prompt": "Which producer suggested the title \"(You Make Me Feel Like) A Natural Woman\" to Carole King and Gerry Goffin?",
+      "prompt": "John Denver's 1971 hit \"Take Me Home, Country Roads\" is about which US state?",
       "choices": [
-        "Phil Spector",
-        "Leiber and Stoller",
-        "Jerry Wexler",
-        "Ahmet Ertegun"
+        "Kentucky",
+        "Tennessee",
+        "West Virginia",
+        "Virginia"
       ],
       "answer": 2,
-      "fact": "Aretha Franklin recorded the song in 1967, and it later appeared on her album Lady Soul.",
-      "difficulty": 2
+      "fact": "Denver wrote it with Bill Danoff and Taffy Nivert, and in 2014 it became one of West Virginia's official state songs.",
+      "difficulty": 1
     },
     {
       "id": "pop-q27",
@@ -457,7 +457,7 @@
       ],
       "answer": 3,
       "fact": "Producer Phil Ramone recorded much of it with Joel's own touring band rather than session players.",
-      "difficulty": 1
+      "difficulty": 2
     },
     {
       "id": "pop-q36",
@@ -502,10 +502,10 @@
       "id": "pop-q39",
       "prompt": "Where did Bernie Taupin write the words to \"Your Song\"?",
       "choices": [
+        "On a train to Scotland",
         "In a Soho recording studio",
-        "In a pub in Pinner",
         "At his parents' farm in Lincolnshire",
-        "At the breakfast table in Elton's mother's flat"
+        "At Elton's mother's breakfast table"
       ],
       "answer": 3,
       "fact": "Taupin and Elton were then sharing the north London flat of Elton's mother and stepfather, and Elton has said the music took only minutes.",
@@ -522,7 +522,7 @@
       ],
       "answer": 0,
       "fact": "Berry's publisher took action, and Berry was later given a songwriting credit.",
-      "difficulty": 2
+      "difficulty": 3
     },
     {
       "id": "pop-q41",
@@ -541,10 +541,10 @@
       "id": "pop-q42",
       "prompt": "Arista chief Clive Davis first heard a teenage Whitney Houston sing in 1983 at what kind of place?",
       "choices": [
-        "A Newark church service",
-        "A television talent show",
-        "A Detroit recording studio",
-        "A New York nightclub where her mother was performing"
+        "A Newark church service where she soloed",
+        "A television talent show in Detroit",
+        "A Philadelphia recording studio session",
+        "A New York nightclub where her mother sang"
       ],
       "answer": 3,
       "fact": "Davis has said he signed her soon after, and Houston's debut album came out in 1985.",
@@ -578,16 +578,16 @@
     },
     {
       "id": "pop-q45",
-      "prompt": "Which lyricist teamed with Benny Andersson and Bjorn Ulvaeus on the 1984 concept album Chess?",
+      "prompt": "Don McLean's \"American Pie\" mourns \"the day the music died\", a 1959 plane crash that killed which star?",
       "choices": [
-        "Hal David",
-        "Tim Rice",
-        "Don Black",
-        "Alan Jay Lerner"
+        "Elvis Presley",
+        "Buddy Holly",
+        "Chuck Berry",
+        "Sam Cooke"
       ],
       "answer": 1,
-      "fact": "The project produced \"One Night in Bangkok\" and \"I Know Him So Well\" before it reached the stage in 1986.",
-      "difficulty": 3
+      "fact": "Ritchie Valens and J. P. Richardson, the Big Bopper, died in the same crash near Clear Lake, Iowa.",
+      "difficulty": 1
     },
     {
       "id": "pop-q46",
@@ -630,29 +630,29 @@
     },
     {
       "id": "pop-q49",
-      "prompt": "Billy Steinberg and Tom Kelly, who wrote \"Like a Virgin\", also wrote \"True Colors\" for which singer?",
+      "prompt": "Whitney Houston's 1991 Super Bowl performance of which song became a US top 20 single?",
       "choices": [
-        "Pat Benatar",
-        "Cyndi Lauper",
-        "Belinda Carlisle",
-        "Stevie Nicks"
+        "America the Beautiful",
+        "The Star-Spangled Banner",
+        "God Bless America",
+        "Lift Every Voice and Sing"
       ],
       "answer": 1,
-      "fact": "They also wrote Heart's \"Alone\", and Steinberg has said \"Like a Virgin\" grew out of his own painful romance.",
-      "difficulty": 3
+      "fact": "She sang it at Super Bowl XXV in Tampa in January 1991, during the Gulf War.",
+      "difficulty": 2
     },
     {
       "id": "pop-q50",
-      "prompt": "Who co-wrote Fleetwood Mac's \"Little Lies\" with Christine McVie?",
+      "prompt": "Billy Joel's 1989 hit \"We Didn't Start the Fire\" lists headlines starting from which year?",
       "choices": [
-        "Richard Dashut",
-        "Lindsey Buckingham",
-        "Eddy Quintela",
-        "Peter Green"
+        "1939",
+        "1959",
+        "1949",
+        "1969"
       ],
       "answer": 2,
-      "fact": "Quintela, a songwriter, was McVie's husband in the late 1980s, and the song came from the 1987 album Tango in the Night.",
-      "difficulty": 3
+      "fact": "1949 is Joel's birth year, and the song runs up to 1989, when it came out on Storm Front.",
+      "difficulty": 2
     }
   ],
   "songs": [
@@ -936,49 +936,49 @@
       "note": "Burt Bacharach and Hal David wrote it, and the actor Richard Chamberlain recorded it in 1963. The Carpenters' 1970 version went to number one in the US."
     },
     {
-      "id": "pop-c03",
-      "title": "Blue Velvet",
-      "artist": "Bobby Vinton",
-      "year": 1963,
-      "album": "16 Most Requested",
-      "original": "Tony Bennett",
-      "originalYear": 1951,
+      "id": "pop-c09",
+      "title": "Hooked on a Feeling",
+      "artist": "Blue Swede",
+      "year": 1974,
+      "album": "Hooked on a Feeling",
+      "original": "B.J. Thomas",
+      "originalYear": 1968,
       "decoys": [
-        "Perry Como",
-        "Bing Crosby",
-        "Nat King Cole"
+        "Glen Campbell",
+        "Bobby Goldsboro",
+        "Neil Diamond"
       ],
-      "note": "Tony Bennett had a hit with it in 1951. Vinton's 1963 version went to number one in the US."
+      "note": "Mark James wrote it, and B.J. Thomas released it in 1968. The Swedish group Blue Swede took it to number one in the US in 1974, opening with a chant borrowed from Jonathan King's 1971 cover."
     },
     {
-      "id": "pop-c04",
-      "title": "Wild Thing",
-      "artist": "The Troggs",
-      "year": 1966,
-      "album": "From Nowhere",
-      "original": "The Wild Ones",
-      "originalYear": 1965,
+      "id": "pop-c10",
+      "title": "Mandy",
+      "artist": "Barry Manilow",
+      "year": 1974,
+      "album": "Barry Manilow II",
+      "original": "Scott English",
+      "originalYear": 1971,
       "decoys": [
-        "The Kingsmen",
-        "The McCoys",
-        "The Standells"
+        "Neil Sedaka",
+        "Bobby Vinton",
+        "Engelbert Humperdinck"
       ],
-      "note": "Chip Taylor wrote it, and the Wild Ones, a New York group, released it in 1965. The Troggs' version reached number one in the US in 1966."
+      "note": "Scott English and Richard Kerr wrote it as \"Brandy\", and English released it in 1971. Retitled to avoid confusion with Looking Glass's \"Brandy (You're a Fine Girl)\", Manilow's version reached number one in the US."
     },
     {
-      "id": "pop-c05",
-      "title": "Angel of the Morning",
-      "artist": "Juice Newton",
+      "id": "pop-c11",
+      "title": "Bette Davis Eyes",
+      "artist": "Kim Carnes",
       "year": 1981,
-      "album": "Juice",
-      "original": "Evie Sands",
-      "originalYear": 1967,
+      "album": "Mistaken Identity",
+      "original": "Jackie DeShannon",
+      "originalYear": 1975,
       "decoys": [
-        "Merrilee Rush & the Turnabouts",
-        "Dusty Springfield",
-        "Brenda Lee"
+        "Carole King",
+        "Carly Simon",
+        "Linda Ronstadt"
       ],
-      "note": "Chip Taylor wrote it, and Evie Sands recorded it in 1967, but her label's troubles reportedly hurt its release. Merrilee Rush had the hit in 1968, and Juice Newton revived it in 1981."
+      "note": "Jackie DeShannon and Donna Weiss wrote it, and DeShannon released her version in 1975. Carnes's synth-driven 1981 recording spent nine weeks at number one in the US."
     },
     {
       "id": "pop-c06",
@@ -996,19 +996,19 @@
       "note": "Jerry Leiber and Phil Spector wrote it, and Ben E. King recorded it in 1960. Franklin's 1971 version reached the US top three."
     },
     {
-      "id": "pop-c07",
-      "title": "Crying",
-      "artist": "Don McLean",
-      "year": 1980,
-      "album": "Chain Lightning",
-      "original": "Roy Orbison",
-      "originalYear": 1961,
+      "id": "pop-c12",
+      "title": "I Think We're Alone Now",
+      "artist": "Tiffany",
+      "year": 1987,
+      "album": "Tiffany",
+      "original": "Tommy James and the Shondells",
+      "originalYear": 1967,
       "decoys": [
-        "Gene Pitney",
-        "Brenda Lee",
-        "Del Shannon"
+        "The Monkees",
+        "The Turtles",
+        "The Lemon Pipers"
       ],
-      "note": "Orbison and Joe Melson wrote it, and Orbison's 1961 single reached number two in the US. McLean's version, from his album Chain Lightning, went to number one in the UK in 1980."
+      "note": "Ritchie Cordell wrote it, and Tommy James and the Shondells took it to number four in 1967. Tiffany, then a teenager, took her version to number one in the US in 1987."
     },
     {
       "id": "pop-c08",
