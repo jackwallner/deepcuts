@@ -1,0 +1,560 @@
+{
+  "id": "british-invasion",
+  "name": "British Invasion",
+  "blurb": "From Liverpool cellars to Ed Sullivan, the bands that conquered American radio.",
+  "era": "1962-1970",
+  "questions": [
+    {
+      "id": "british-invasion-q01",
+      "prompt": "Which band drew an estimated 73 million Americans to The Ed Sullivan Show on February 9, 1964?",
+      "choices": [
+        "The Beatles",
+        "The Rolling Stones",
+        "The Kinks",
+        "The Dave Clark Five"
+      ],
+      "answer": 0,
+      "fact": "They opened with \"All My Loving\". Two months later, in April 1964, the Beatles held the top five spots on the Billboard Hot 100.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q02",
+      "prompt": "Which Liverpool cellar club did the Beatles play almost 300 times between 1961 and 1963?",
+      "choices": [
+        "The Marquee Club",
+        "The Star-Club",
+        "The Cavern Club",
+        "The Hammersmith Odeon"
+      ],
+      "answer": 2,
+      "fact": "Brian Epstein first saw them at a lunchtime show there in November 1961 and soon became their manager.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q03",
+      "prompt": "Which Beatles album cover shows the band crossing a London street on a zebra crossing?",
+      "choices": [
+        "Revolver",
+        "Abbey Road",
+        "Rubber Soul",
+        "Let It Be"
+      ],
+      "answer": 1,
+      "fact": "Photographer Iain Macmillan took the picture on August 8, 1969, standing on a stepladder outside the EMI studios in St John's Wood.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q04",
+      "prompt": "Which Beatle wrote \"Something\", a song Frank Sinatra praised as one of the great love songs?",
+      "choices": [
+        "John Lennon",
+        "Paul McCartney",
+        "Ringo Starr",
+        "George Harrison"
+      ],
+      "answer": 3,
+      "fact": "It appeared on Abbey Road in 1969 and was the only Harrison song to become a Beatles A-side.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q05",
+      "prompt": "Which 1967 Beatles album has a crowded cover collage designed by Peter Blake and Jann Haworth?",
+      "choices": [
+        "Revolver",
+        "Magical Mystery Tour",
+        "The White Album",
+        "Sgt. Pepper's Lonely Hearts Club Band"
+      ],
+      "answer": 3,
+      "fact": "The cover includes figures from Marlon Brando and Bob Dylan to Karl Marx and Oscar Wilde, along with waxwork Beatles.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q06",
+      "prompt": "Which Beatle sings lead on \"With a Little Help from My Friends\" on Sgt. Pepper?",
+      "choices": [
+        "George Harrison",
+        "Ringo Starr",
+        "Paul McCartney",
+        "John Lennon"
+      ],
+      "answer": 1,
+      "fact": "Lennon and McCartney wrote it for Ringo's limited vocal range, and the character he sings as is named Billy Shears.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q07",
+      "prompt": "Where did the Beatles give their final public performance together, in January 1969?",
+      "choices": [
+        "Inside the Royal Albert Hall",
+        "At Wembley Stadium",
+        "On top of the Apple building",
+        "In the middle of Hyde Park"
+      ],
+      "answer": 2,
+      "fact": "Police shut down the lunchtime show on Savile Row after about 40 minutes, and the footage appears in the film Let It Be.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q08",
+      "prompt": "Which band's shows ended with Pete Townshend smashing his guitar and Keith Moon wrecking his drums?",
+      "choices": [
+        "The Who",
+        "The Kinks",
+        "The Yardbirds",
+        "The Small Faces"
+      ],
+      "answer": 0,
+      "fact": "Townshend first broke a guitar by accident in 1964 when he hit a low ceiling at the Railway Hotel in Harrow, then made it part of the act.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q09",
+      "prompt": "\"Hey Jude\" began as a song McCartney wrote to comfort which child?",
+      "choices": [
+        "Julian Lennon",
+        "Sean Lennon",
+        "Zak Starkey",
+        "Dhani Harrison"
+      ],
+      "answer": 0,
+      "fact": "McCartney wrote it while driving to visit Julian and his mother Cynthia after John left her. It was first called \"Hey Jules\".",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q10",
+      "prompt": "Which Newcastle band had a 1964 hit with a New Orleans folk song, \"The House of the Rising Sun\"?",
+      "choices": [
+        "The Hollies",
+        "The Searchers",
+        "The Animals",
+        "The Zombies"
+      ],
+      "answer": 2,
+      "fact": "Eric Burdon's raw vocal and Alan Price's organ drive the recording, which was cut in a single take.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q11",
+      "prompt": "Keith Richards says the riff for which Stones hit came to him in his sleep in 1965?",
+      "choices": [
+        "Paint It Black",
+        "(I Can't Get No) Satisfaction",
+        "Jumpin' Jack Flash",
+        "Get Off of My Cloud"
+      ],
+      "answer": 1,
+      "fact": "Richards says he woke in a Florida motel, recorded the riff on a cassette, and went back to sleep. The tape holds the riff, followed by snoring.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q12",
+      "prompt": "By his own account, how did Dave Davies of the Kinks get the raw guitar sound on \"You Really Got Me\"?",
+      "choices": [
+        "He wired the amp to a car battery",
+        "He stuffed the amp with old towels",
+        "He turned the amp to face a wall",
+        "He cut the speaker with a razor"
+      ],
+      "answer": 3,
+      "fact": "The damaged speaker produced the fuzzy snarl heard on the 1964 single, which is often cited as an early influence on heavy metal.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q13",
+      "prompt": "The name \"Beatles\" was a play on the name of which band?",
+      "choices": [
+        "Gene Vincent's Blue Caps",
+        "Bill Haley's Comets",
+        "Eddie Cochran's Hot Rods",
+        "Buddy Holly's Crickets"
+      ],
+      "answer": 3,
+      "fact": "Lennon later said he wanted an insect name like the Crickets and added a \"beat\" pun. Earlier names included the Quarrymen and the Silver Beetles.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q14",
+      "prompt": "Mick Jagger left which London school to pursue the Rolling Stones full time?",
+      "choices": [
+        "The Royal College of Music",
+        "The London School of Economics",
+        "Imperial College",
+        "The Slade School of Fine Art"
+      ],
+      "answer": 1,
+      "fact": "Jagger studied there from 1961 and left in 1963. Keith Richards, for his part, had attended Sidcup Art College.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q15",
+      "prompt": "Which Rolling Stone played the sitar on \"Paint It Black\"?",
+      "choices": [
+        "Keith Richards",
+        "Bill Wyman",
+        "Brian Jones",
+        "Charlie Watts"
+      ],
+      "answer": 2,
+      "fact": "Jones was a multi-instrumentalist who also played marimba on \"Under My Thumb\" and dulcimer on \"Lady Jane\".",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q16",
+      "prompt": "Which producer oversaw almost every Beatles recording from 1962 to 1969?",
+      "choices": [
+        "George Martin",
+        "Mickie Most",
+        "Andrew Loog Oldham",
+        "Phil Spector"
+      ],
+      "answer": 0,
+      "fact": "Martin wrote the string arrangements for \"Yesterday\" and \"Eleanor Rigby\", and signed the band to EMI's Parlophone label after one audition.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q17",
+      "prompt": "Most of the Beatles' debut album, Please Please Me, was recorded in how long?",
+      "choices": [
+        "About ten hours in one day",
+        "A couple of weeks",
+        "Three months in total",
+        "A full year of sessions"
+      ],
+      "answer": 0,
+      "fact": "The marathon session at Abbey Road took place on February 11, 1963, and ended with a raucous \"Twist and Shout\" with John Lennon's raw voice.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q18",
+      "prompt": "Which Beatles single first reached No. 1 in the United States in early 1964?",
+      "choices": [
+        "She Loves You",
+        "Love Me Do",
+        "I Want to Hold Your Hand",
+        "Can't Buy Me Love"
+      ],
+      "answer": 2,
+      "fact": "Capitol moved the release up to late December 1963 after American fans began requesting it on radio.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q19",
+      "prompt": "Which guitarist joined the Yardbirds in 1966, following Eric Clapton and Jeff Beck?",
+      "choices": [
+        "Peter Green",
+        "Jimmy Page",
+        "Mick Taylor",
+        "Albert Lee"
+      ],
+      "answer": 1,
+      "fact": "Page later turned the band's last lineup into the New Yardbirds, which became Led Zeppelin in 1968.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q20",
+      "prompt": "Which Hollies member left in 1968 to form Crosby, Stills & Nash?",
+      "choices": [
+        "Allan Clarke",
+        "Tony Hicks",
+        "Bobby Elliott",
+        "Graham Nash"
+      ],
+      "answer": 3,
+      "fact": "Nash was frustrated that the Hollies refused to record his song \"Marrakesh Express\", which became a hit for his new group.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q21",
+      "prompt": "Which British band's 1968 album Odessey and Oracle produced the 1969 US hit \"Time of the Season\" after they had split?",
+      "choices": [
+        "The Hollies",
+        "The Searchers",
+        "The Moody Blues",
+        "The Zombies"
+      ],
+      "answer": 3,
+      "fact": "The album was recorded at Abbey Road, and the title was misspelled by the cover artist, who then left it as it was.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q22",
+      "prompt": "Tom Jones was born in which Welsh town?",
+      "choices": [
+        "Swansea",
+        "Pontypridd",
+        "Merthyr Tydfil",
+        "Wrexham"
+      ],
+      "answer": 1,
+      "fact": "His 1965 debut hit, \"It's Not Unusual\", was written with another singer in mind but became his signature song.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q23",
+      "prompt": "Which band's \"Glad All Over\" knocked the Beatles' \"I Want to Hold Your Hand\" from the top of the UK chart in January 1964?",
+      "choices": [
+        "Gerry and the Pacemakers",
+        "Freddie and the Dreamers",
+        "The Dave Clark Five",
+        "The Swinging Blue Jeans"
+      ],
+      "answer": 2,
+      "fact": "The Tottenham quintet was a stomping, saxophone-driven rival to the Beatles and made many appearances on Ed Sullivan's show.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q24",
+      "prompt": "Which band had a UK No. 1 in 1968 with a Bob Dylan song, \"The Mighty Quinn\"?",
+      "choices": [
+        "Manfred Mann",
+        "Herman's Hermits",
+        "Peter and Gordon",
+        "The Searchers"
+      ],
+      "answer": 0,
+      "fact": "Dylan had recorded it at the time of his Basement Tapes sessions, and Manfred Mann's version reached the top ten in the US too.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q25",
+      "prompt": "The Troggs' 1966 hit \"Wild Thing\" features a solo on which unusual instrument?",
+      "choices": [
+        "Ocarina",
+        "Kazoo",
+        "Harmonium",
+        "Tin whistle"
+      ],
+      "answer": 0,
+      "fact": "Jimi Hendrix set his guitar on fire at the end of his version of the song at the 1967 Monterey Pop Festival.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q26",
+      "prompt": "Ringo Starr wrote \"Octopus's Garden\" after a stay on whose yacht in Sardinia in 1968?",
+      "choices": [
+        "Lord Snowdon",
+        "Cary Grant",
+        "Peter Sellers",
+        "Roger Moore"
+      ],
+      "answer": 2,
+      "fact": "Ringo had left the band for a short time during the White Album sessions, and the yacht's captain told him about octopuses collecting shiny objects.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q27",
+      "prompt": "What was the original title of the Kinks' \"Waterloo Sunset\", according to Ray Davies?",
+      "choices": [
+        "Thames Sunset",
+        "Liverpool Sunset",
+        "Strand Sunset",
+        "Piccadilly Sunset"
+      ],
+      "answer": 1,
+      "fact": "Davies has said the first idea was a nod to the Merseybeat scene, and the title changed when it became a London song.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q28",
+      "prompt": "The Rolling Stones' first UK No. 1, \"It's All Over Now\", was a cover of which group?",
+      "choices": [
+        "The Drifters",
+        "The Coasters",
+        "The Miracles",
+        "The Valentinos"
+      ],
+      "answer": 3,
+      "fact": "The Stones cut it at Chess Studios in Chicago in June 1964, and the song was written by Bobby Womack of the Valentinos.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q29",
+      "prompt": "Which later 10cc member wrote \"For Your Love\", \"Bus Stop\" and \"No Milk Today\"?",
+      "choices": [
+        "Eric Stewart",
+        "Kevin Godley",
+        "Lol Creme",
+        "Graham Gouldman"
+      ],
+      "answer": 3,
+      "fact": "The three songs were hits for the Yardbirds, the Hollies and Herman's Hermits respectively, and Gouldman later co-founded 10cc.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q30",
+      "prompt": "At which Hamburg club did the Beatles open their first German residency, in August 1960?",
+      "choices": [
+        "The Star-Club",
+        "The Indra",
+        "The Top Ten Club",
+        "The Kaiserkeller"
+      ],
+      "answer": 1,
+      "fact": "Neighbors complained about the noise, and after a few weeks the band moved to the larger Kaiserkeller.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "british-invasion-s01",
+      "title": "Love Me Do",
+      "artist": "The Beatles",
+      "year": 1962,
+      "album": "Please Please Me",
+      "note": "The band's first single reached No. 17 in the UK, and a 1964 US reissue went to No. 1."
+    },
+    {
+      "id": "british-invasion-s02",
+      "title": "She Loves You",
+      "artist": "The Beatles",
+      "year": 1963,
+      "album": "Past Masters",
+      "note": "Its \"yeah, yeah, yeah\" chorus helped define the sound of Beatlemania."
+    },
+    {
+      "id": "british-invasion-s03",
+      "title": "You Really Got Me",
+      "artist": "The Kinks",
+      "year": 1964,
+      "album": "Kinks",
+      "note": "Ray Davies wrote it, and the power-chord riff became a template for hard rock."
+    },
+    {
+      "id": "british-invasion-s04",
+      "title": "The House of the Rising Sun",
+      "artist": "The Animals",
+      "year": 1964,
+      "album": "The Animals",
+      "note": "Alan Price's organ and Eric Burdon's vocal turned a folk standard into a No. 1 hit."
+    },
+    {
+      "id": "british-invasion-s05",
+      "title": "Downtown",
+      "artist": "Petula Clark",
+      "year": 1964,
+      "album": "Downtown",
+      "note": "Tony Hatch wrote it after a visit to New York, and it was Clark's first US No. 1."
+    },
+    {
+      "id": "british-invasion-s06",
+      "title": "(I Can't Get No) Satisfaction",
+      "artist": "The Rolling Stones",
+      "year": 1965,
+      "album": "Out of Our Heads",
+      "note": "Richards used a Gibson Maestro fuzz box to get the riff's distorted tone."
+    },
+    {
+      "id": "british-invasion-s07",
+      "title": "My Generation",
+      "artist": "The Who",
+      "year": 1965,
+      "album": "My Generation",
+      "note": "Roger Daltrey's stuttering delivery and John Entwistle's bass solo became famous parts of the song."
+    },
+    {
+      "id": "british-invasion-s08",
+      "title": "Paint It Black",
+      "artist": "The Rolling Stones",
+      "year": 1966,
+      "album": "Aftermath",
+      "note": "Brian Jones's sitar gave the song its eastern flavor."
+    },
+    {
+      "id": "british-invasion-s09",
+      "title": "Wild Thing",
+      "artist": "The Troggs",
+      "year": 1966,
+      "album": "Wild Thing",
+      "note": "Reg Presley sang it, and the song features an ocarina solo."
+    },
+    {
+      "id": "british-invasion-s10",
+      "title": "A Whiter Shade of Pale",
+      "artist": "Procol Harum",
+      "year": 1967,
+      "album": "Procol Harum",
+      "note": "Matthew Fisher's Hammond organ line drew on the structure of Bach."
+    },
+    {
+      "id": "british-invasion-s11",
+      "title": "Waterloo Sunset",
+      "artist": "The Kinks",
+      "year": 1967,
+      "album": "Something Else by the Kinks",
+      "note": "Ray Davies wrote it, and it reached No. 2 on the UK chart."
+    },
+    {
+      "id": "british-invasion-s12",
+      "title": "Itchycoo Park",
+      "artist": "Small Faces",
+      "year": 1967,
+      "album": "There Are But Four Small Faces",
+      "note": "Its swirling phasing effect was among the first heard on a pop single."
+    },
+    {
+      "id": "british-invasion-s13",
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "year": 1968,
+      "album": "Hey Jude",
+      "note": "It runs more than seven minutes and was the first Beatles single on their own Apple label."
+    },
+    {
+      "id": "british-invasion-s14",
+      "title": "Time of the Season",
+      "artist": "The Zombies",
+      "year": 1968,
+      "album": "Odessey and Oracle",
+      "note": "It became a US hit in 1969, after the band had already broken up."
+    },
+    {
+      "id": "british-invasion-s15",
+      "title": "Honky Tonk Women",
+      "artist": "The Rolling Stones",
+      "year": 1969,
+      "album": "Through the Past, Darkly (Big Hits Vol. 2)",
+      "note": "It was the first Stones single to feature guitarist Mick Taylor."
+    },
+    {
+      "id": "british-invasion-s16",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "year": 1970,
+      "album": "Let It Be",
+      "note": "McCartney has said the song was inspired by a dream of his late mother."
+    }
+  ],
+  "stories": [
+    {
+      "id": "british-invasion-st1",
+      "title": "Four Lads on Ed Sullivan",
+      "dek": "The night America met the Beatles",
+      "year": 1964,
+      "body": "On a Friday in February 1964, a plane carrying four young men from Liverpool landed at New York's recently renamed John F. Kennedy Airport. About three thousand screaming teenagers were waiting for them. The Beatles had arrived in America, and the country had been waiting for something to cheer about since the assassination of President Kennedy less than three months before.\n\nUntil the end of 1963, American record labels had treated the band as a minor curiosity. Capitol, the American arm of EMI, had refused several of their records. Then something changed. A teenage fan in Washington, D.C. wrote to a local DJ, who got hold of a copy of \"I Want to Hold Your Hand\" and played it on the air. The phones lit up. Capitol rushed the release forward to late December, and by the time the band flew to New York, the record was the No. 1 single in America.\n\nEd Sullivan, the stiff but influential host of a Sunday variety show on CBS, had seen the Beatles' reception at Heathrow Airport a few months before and booked them for three appearances. The first was on February 9, 1964, from his theater on Broadway. The show opened with the band's set at about eight in the evening, and about 73 million people watched, a record for American television at the time.\n\nThe Beatles played \"All My Loving\", \"Till There Was You\" and \"She Loves You\" before the break, and then \"I Saw Her Standing There\" and \"I Want to Hold Your Hand\" afterward. The studio audience, mostly teenage girls, screamed so loudly that the music was barely audible. Paul McCartney sang \"Till There Was You\", a show tune from The Music Man. The cameras flashed names beneath each face, and under John Lennon's was a note that he was already married.\n\nWhat happened next was a flood. Within weeks, the Beatles held the top five positions on the Billboard Hot 100, a first for any act. American teenagers formed their own bands, and hundreds of British groups, including the Rolling Stones, the Animals, the Kinks and the Who, followed them across the Atlantic. Critics called it the British Invasion, and it reshaped American pop music for the rest of the decade.\n\nYears later, many musicians, Tom Petty and Billy Joel among them, would say the same thing: they watched that night and decided what to do with their lives. A half hour of television had set off a generation of guitar players.",
+      "songs": [
+        "british-invasion-s02"
+      ]
+    },
+    {
+      "id": "british-invasion-st2",
+      "title": "Satisfaction",
+      "dek": "A riff from a dream, a fuzz box and a first US No. 1",
+      "year": 1965,
+      "body": "In May 1965 the Rolling Stones were on tour in the United States and doing well, but they had not yet scored an American No. 1 single. Keith Richards has told the story many times of what happened next, at a motel in Clearwater, Florida. He says he woke in the middle of the night, picked up an acoustic guitar, and played a riff into a cassette recorder he kept beside his bed. Then he went back to sleep. In the morning he found the tape. It held about two minutes of that riff, followed by forty minutes of snoring.\n\nRichards thought of it as a rough sketch, perhaps a part for a horn section. Mick Jagger wrote the lyrics by the motel pool. They were a blunt, funny complaint about advertising, sexual frustration and a world that seemed to promise everything. Nothing in pop at the time had sounded quite so sour.\n\nThe band tried it first at Chess Studios in Chicago, the home of their heroes Muddy Waters and Chuck Berry, with an acoustic arrangement. Nobody liked the result. A couple of days later they tried again at RCA Studios in Hollywood. This time Richards used a new piece of equipment, a Gibson Maestro Fuzz-Tone, which turned his guitar into a buzzing, snarling machine. The effect had been on the market since 1962 and sold poorly. Within months of the Stones' single, the store shelves were bare.\n\nThe band thumped through the song. Their manager Andrew Loog Oldham liked it at once, but Richards was not sure and wanted a different version. Jagger and Oldham pushed ahead. The single came out in June 1965, and by July it reached the top of the Billboard chart, the band's first American No. 1.\n\nIt also made the Stones into something different from the Beatles. If the Fab Four were charming, the Stones were dangerous, and their record sounded like a complaint from someone who did not expect to be answered. The riff became one of the best-known figures in rock, copied by garage bands for decades, and the song became the Stones' signature number on tour.\n\nRichards, for his part, has often said he credits the song to a dream, a gift that arrived in his sleep, and that he does not know where it came from.",
+      "songs": [
+        "british-invasion-s06"
+      ]
+    },
+    {
+      "id": "british-invasion-st3",
+      "title": "The Zombies' Lost Masterpiece",
+      "dek": "A band that broke up before its biggest hit",
+      "year": 1968,
+      "body": "The Zombies were from St Albans, north of London, and had a hit in 1964 with \"She's Not There\". By 1967 they were struggling. Their later singles had not sold, the schedule of touring was heavy, and money was tight. Even so, keyboardist Rod Argent, bassist Chris White and singer Colin Blunstone decided to make an album the way they wanted.\n\nThey signed a small contract with CBS and booked time at Abbey Road, the same studio the Beatles had made their records in. The budget was tiny, so they had to be quick and careful. They used the studio's Mellotron, which let them play tape-based string and flute sounds from a keyboard, and the engineers who had worked with the Beatles, including Geoff Emerick, helped them with the sound. White and Argent wrote nearly all the songs, and the band layered their harmonies on top of baroque keyboard parts.\n\nThe finished album, Odessey and Oracle, was rich and strange. It had songs about war, death and loneliness, and it also had warm pop melodies. The cover was painted by a friend, Terry Quirk, who misspelled the word Odyssey, and the band decided to keep it.\n\nBy the time the sessions finished, the group had already come to the end of the road. The band decided it could not go on, and the Zombies broke up in December 1967, months before their album came out. Columbia released it in Britain in April 1968, and it vanished almost at once.\n\nThe story would have ended there, but in the United States Al Kooper, then working as a producer and musician for CBS, heard a copy and loved it. He insisted the label release it. A single, \"Time of the Season\", with Blunstone's breathy vocal and Argent's organ, was issued in the United States, and in early 1969 it began to climb the charts. It reached No. 3 on the Billboard Hot 100. The band had split more than a year earlier.\n\nOdessey and Oracle slowly found its audience, and critics now place it among the finest albums of the era. Argent and Blunstone later reunited and played the album in full on stage, four decades after it was recorded.",
+      "songs": [
+        "british-invasion-s14"
+      ]
+    }
+  ]
+}

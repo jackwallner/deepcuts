@@ -1,0 +1,560 @@
+{
+  "id": "classic-rock",
+  "name": "Classic Rock",
+  "blurb": "Arena anthems, guitar heroes and the albums that defined the AM and FM dial.",
+  "era": "1967-1982",
+  "questions": [
+    {
+      "id": "classic-rock-q01",
+      "prompt": "Which band made Rumours (1977) while two of its couples were breaking up?",
+      "choices": [
+        "Fleetwood Mac",
+        "Eagles",
+        "Steely Dan",
+        "Boston"
+      ],
+      "answer": 0,
+      "fact": "Rumours won the Grammy for Album of the Year. John and Christine McVie divorced, and Lindsey Buckingham and Stevie Nicks split, all during the sessions.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q02",
+      "prompt": "Which guitarist closed the 1969 Woodstock festival on Monday morning with a Star-Spangled Banner?",
+      "choices": [
+        "Eric Clapton",
+        "Carlos Santana",
+        "Jimi Hendrix",
+        "Pete Townshend"
+      ],
+      "answer": 2,
+      "fact": "By the time Hendrix played, much of the crowd had left, but his feedback-drenched anthem became one of the defining images of the 1960s.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q03",
+      "prompt": "Woodstock was held on the farm of which dairy farmer in Bethel, New York?",
+      "choices": [
+        "Bill Graham",
+        "Max Yasgur",
+        "Michael Lang",
+        "Albert Grossman"
+      ],
+      "answer": 1,
+      "fact": "Yasgur rented his land to the organizers after other towns turned them away, and famously told the crowd they had proved a half million people could enjoy themselves.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q04",
+      "prompt": "Which Queen guitarist later earned a PhD in astrophysics?",
+      "choices": [
+        "Roger Taylor",
+        "John Deacon",
+        "Jeff Beck",
+        "Brian May"
+      ],
+      "answer": 3,
+      "fact": "May began the doctoral work at Imperial College in the early 1970s, set it aside for Queen, and completed his thesis in 2007.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q05",
+      "prompt": "Cream was Eric Clapton, Jack Bruce and which drummer?",
+      "choices": [
+        "Keith Moon",
+        "Charlie Watts",
+        "Mitch Mitchell",
+        "Ginger Baker"
+      ],
+      "answer": 3,
+      "fact": "The trio gave their farewell concerts at London's Royal Albert Hall in November 1968, just two and a half years after forming.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q06",
+      "prompt": "Which Aerosmith guitarist and Steven Tyler were nicknamed the Toxic Twins?",
+      "choices": [
+        "Brad Whitford",
+        "Joe Perry",
+        "Tom Hamilton",
+        "Joey Kramer"
+      ],
+      "answer": 1,
+      "fact": "Perry and Tyler's 1986 collaboration with Run-DMC on \"Walk This Way\" helped relaunch Aerosmith's career.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q07",
+      "prompt": "Which Led Zeppelin drummer died in September 1980, prompting the band to break up?",
+      "choices": [
+        "Keith Moon",
+        "Ginger Baker",
+        "John Bonham",
+        "Carl Palmer"
+      ],
+      "answer": 2,
+      "fact": "Bonham died after a day of heavy drinking at Jimmy Page's home in Windsor. The surviving members announced in December that they could not continue.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q08",
+      "prompt": "Whose saxophone shares the cover of Springsteen's Born to Run with him?",
+      "choices": [
+        "Clarence Clemons",
+        "Steve Van Zandt",
+        "Max Weinberg",
+        "Garry Tallent"
+      ],
+      "answer": 0,
+      "fact": "Photographer Eric Meola shot the cover. Springsteen leans on the \"Big Man\" Clemons, whose sax solo drives \"Jungleland\" and \"Thunder Road\".",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q09",
+      "prompt": "Which Queen song, built on stomps and claps with no drums or bass, was written by Brian May?",
+      "choices": [
+        "We Will Rock You",
+        "We Are the Champions",
+        "Radio Ga Ga",
+        "Another One Bites the Dust"
+      ],
+      "answer": 0,
+      "fact": "The stomp-stomp-clap was recorded at Wessex Studios, a converted church in north London, using layered foot stomps and hand claps.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q10",
+      "prompt": "Which Led Zeppelin guitarist famously played his guitar with a violin bow on \"Dazed and Confused\"?",
+      "choices": [
+        "Jeff Beck",
+        "Ritchie Blackmore",
+        "Jimmy Page",
+        "Pete Townshend"
+      ],
+      "answer": 2,
+      "fact": "The bowed-guitar passage became a centerpiece of Zeppelin's live shows and ran for many minutes in concert versions.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q11",
+      "prompt": "\"Gimme Shelter\" opens which 1969 Rolling Stones album?",
+      "choices": [
+        "Beggars Banquet",
+        "Let It Bleed",
+        "Sticky Fingers",
+        "Exile on Main St."
+      ],
+      "answer": 1,
+      "fact": "Guest singer Merry Clayton's searing vocal on the song was recorded late at night in Los Angeles after she was called in as a favor.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q12",
+      "prompt": "\"Baba O'Riley\" takes half its title from composer Terry Riley and which Indian spiritual teacher?",
+      "choices": [
+        "Maharishi Mahesh Yogi",
+        "Paramahansa Yogananda",
+        "Sathya Sai Baba",
+        "Meher Baba"
+      ],
+      "answer": 3,
+      "fact": "Pete Townshend, a follower of Meher Baba, built the song's pulsing synthesizer pattern from a Lifehouse project that was never finished as planned.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q13",
+      "prompt": "The famous twin-guitar solo that closes \"Hotel California\" pairs Don Felder with which Eagle?",
+      "choices": [
+        "Glenn Frey",
+        "Bernie Leadon",
+        "Randy Meisner",
+        "Joe Walsh"
+      ],
+      "answer": 3,
+      "fact": "Felder wrote the original musical demo, and Walsh, who joined in 1975, traded the harmonized lines with him on the recording.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q14",
+      "prompt": "Steppenwolf took its name from a novel by which author?",
+      "choices": [
+        "Jack Kerouac",
+        "Hermann Hesse",
+        "Aldous Huxley",
+        "Franz Kafka"
+      ],
+      "answer": 1,
+      "fact": "The band's \"Born to Be Wild\" gave rock the phrase \"heavy metal thunder\" in its lyrics.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q15",
+      "prompt": "Which song is the 11-minute-plus closer of the Doors' 1967 debut album?",
+      "choices": [
+        "When the Music's Over",
+        "Light My Fire",
+        "The End",
+        "Riders on the Storm"
+      ],
+      "answer": 2,
+      "fact": "The Oedipal spoken section got the band thrown out of the Whisky a Go Go, and the song later opened Francis Ford Coppola's Apocalypse Now.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q16",
+      "prompt": "The cover of Who's Next shows the band beside what object?",
+      "choices": [
+        "A concrete monolith on a slag heap",
+        "A Rolls-Royce wreck",
+        "A jukebox",
+        "A lighthouse"
+      ],
+      "answer": 0,
+      "fact": "The photo was taken at a slag heap near Easington Colliery in County Durham, and the pillar echoes the monolith in 2001: A Space Odyssey.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q17",
+      "prompt": "Eric Clapton wrote \"Layla\" about Pattie Boyd, who was then married to which Beatle?",
+      "choices": [
+        "George Harrison",
+        "John Lennon",
+        "Paul McCartney",
+        "Ringo Starr"
+      ],
+      "answer": 0,
+      "fact": "The title came from the Persian poem Layla and Majnun, and Duane Allman's slide guitar defines the song. Boyd later married Clapton.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q18",
+      "prompt": "Which friend co-wrote the Eagles' first single, \"Take It Easy\"?",
+      "choices": [
+        "Bob Seger",
+        "Tom Petty",
+        "Jackson Browne",
+        "Warren Zevon"
+      ],
+      "answer": 2,
+      "fact": "Browne started the song, and his neighbor Glenn Frey finished it, adding the line about the girl in a flatbed Ford. Winslow, Arizona, now has a statue honoring the song.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q19",
+      "prompt": "Which band opened the Wembley Stadium half of Live Aid in July 1985?",
+      "choices": [
+        "Queen",
+        "Status Quo",
+        "Dire Straits",
+        "The Who"
+      ],
+      "answer": 1,
+      "fact": "They kicked off at noon with \"Rockin' All Over the World\", and the set that followed by Queen is often named the day's best.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q20",
+      "prompt": "Who replaced Mick Taylor as the Rolling Stones' guitarist in 1975?",
+      "choices": [
+        "Peter Frampton",
+        "Rory Gallagher",
+        "Mick Ronson",
+        "Ronnie Wood"
+      ],
+      "answer": 3,
+      "fact": "Wood had played with Rod Stewart in the Faces and the Jeff Beck Group, and he remains with the Stones today.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q21",
+      "prompt": "Before they joined Fleetwood Mac, Buckingham and Nicks played in which band in the Bay Area?",
+      "choices": [
+        "Hobbit",
+        "Crystal Wind",
+        "Silver Moon",
+        "Fritz"
+      ],
+      "answer": 3,
+      "fact": "Mick Fleetwood heard their 1973 duo album Buckingham Nicks at Sound City studio and invited Buckingham to join, on the condition that Nicks come too.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q22",
+      "prompt": "Boston's debut-album demos were recorded by Tom Scholz where?",
+      "choices": [
+        "At Sun Studio in Memphis",
+        "In his basement",
+        "At Abbey Road",
+        "At Muscle Shoals Sound"
+      ],
+      "answer": 1,
+      "fact": "The tape that won the contract was built in Scholz's home studio, where he also designed his own equipment. The demos became much of the 1976 album.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q23",
+      "prompt": "How many weeks did \"Bohemian Rhapsody\" spend at No. 1 on the UK chart in 1975-76?",
+      "choices": [
+        "Three",
+        "Five",
+        "Nine",
+        "Fourteen"
+      ],
+      "answer": 2,
+      "fact": "At 5:55, the song ignored every rule about single length, and it returned to No. 1 in 1991-92 after Freddie Mercury's death.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q24",
+      "prompt": "Mark Knopfler's \"Sultans of Swing\" was inspired by a band he saw playing in a pub in which London district?",
+      "choices": [
+        "Deptford",
+        "Camden",
+        "Brixton",
+        "Hackney"
+      ],
+      "answer": 0,
+      "fact": "He has said the band played on to a nearly empty room, and the song became a Top 5 US hit for Dire Straits in 1979.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q25",
+      "prompt": "\"Maggie May\" was originally released as the B-side of which Rod Stewart single?",
+      "choices": [
+        "Reason to Believe",
+        "Handbags and Gladrags",
+        "Mandolin Wind",
+        "Every Picture Tells a Story"
+      ],
+      "answer": 0,
+      "fact": "A DJ flipped the single in 1971, and \"Maggie May\" went to No. 1 in both the US and the UK.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q26",
+      "prompt": "Paul Rodgers fronted which band before he co-founded Bad Company in 1973?",
+      "choices": [
+        "Humble Pie",
+        "Spooky Tooth",
+        "Free",
+        "Mott the Hoople"
+      ],
+      "answer": 2,
+      "fact": "Bad Company's lineup also included Free drummer Simon Kirke, Mott the Hoople guitarist Mick Ralphs and King Crimson bassist Boz Burrell.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q27",
+      "prompt": "Which band did Brian May and Roger Taylor play in before they met Freddie Mercury?",
+      "choices": [
+        "Ibex",
+        "Smile",
+        "Wreckage",
+        "Sour Milk Sea"
+      ],
+      "answer": 1,
+      "fact": "Smile's singer and bassist Tim Staffell left in 1970, and Mercury, a fan of the band, stepped in and renamed it Queen.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q28",
+      "prompt": "Which band played Woodstock before its debut album had been released?",
+      "choices": [
+        "Canned Heat",
+        "Jefferson Airplane",
+        "Steppenwolf",
+        "Santana"
+      ],
+      "answer": 3,
+      "fact": "The San Francisco band's fiery \"Soul Sacrifice\" set made them stars. Their self-titled debut came out a couple of weeks later, at the end of August 1969.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q29",
+      "prompt": "Tom Petty and the Heartbreakers came out of which Florida city?",
+      "choices": [
+        "Jacksonville",
+        "Tampa",
+        "Orlando",
+        "Gainesville"
+      ],
+      "answer": 3,
+      "fact": "Petty's earlier band, Mudcrutch, formed in Gainesville, and the band moved to Los Angeles in the mid-1970s.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q30",
+      "prompt": "In 1961 Mick Jagger and Keith Richards reconnected on a train platform in which English town?",
+      "choices": [
+        "Croydon",
+        "Dartford",
+        "Bromley",
+        "Slough"
+      ],
+      "answer": 1,
+      "fact": "Jagger was carrying Chuck Berry and Muddy Waters records, which gave the two former schoolmates a reason to start a band.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "classic-rock-s01",
+      "title": "Light My Fire",
+      "artist": "The Doors",
+      "year": 1967,
+      "album": "The Doors",
+      "note": "Keyboardist Ray Manzarek's Vox organ riff opens the song, and guitarist Robby Krieger wrote most of the lyrics."
+    },
+    {
+      "id": "classic-rock-s02",
+      "title": "Born to Be Wild",
+      "artist": "Steppenwolf",
+      "year": 1968,
+      "album": "Steppenwolf",
+      "note": "Mars Bonfire wrote it, and it was used in the film Easy Rider."
+    },
+    {
+      "id": "classic-rock-s03",
+      "title": "Gimme Shelter",
+      "artist": "The Rolling Stones",
+      "year": 1969,
+      "album": "Let It Bleed",
+      "note": "Merry Clayton's guest vocal was added late in the sessions."
+    },
+    {
+      "id": "classic-rock-s04",
+      "title": "Layla",
+      "artist": "Derek & The Dominos",
+      "year": 1970,
+      "album": "Layla and Other Assorted Love Songs",
+      "note": "Duane Allman's slide guitar adds the song's soaring second voice."
+    },
+    {
+      "id": "classic-rock-s05",
+      "title": "Baba O'Riley",
+      "artist": "The Who",
+      "year": 1971,
+      "album": "Who's Next",
+      "note": "Its synthesizer loop opens the album and later the song became a stadium staple."
+    },
+    {
+      "id": "classic-rock-s06",
+      "title": "Take It Easy",
+      "artist": "Eagles",
+      "year": 1972,
+      "album": "Eagles",
+      "note": "The band's debut single was co-written by Jackson Browne and Glenn Frey."
+    },
+    {
+      "id": "classic-rock-s07",
+      "title": "Rocky Mountain Way",
+      "artist": "Joe Walsh",
+      "year": 1973,
+      "album": "The Smoker You Drink, the Player You Get",
+      "note": "Walsh played a talk box guitar solo on the track."
+    },
+    {
+      "id": "classic-rock-s08",
+      "title": "Can't Get Enough",
+      "artist": "Bad Company",
+      "year": 1974,
+      "album": "Bad Company",
+      "note": "It was the first single from the band's debut album and reached the US Top 5."
+    },
+    {
+      "id": "classic-rock-s09",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "year": 1975,
+      "album": "A Night at the Opera",
+      "note": "At nearly six minutes, it was released uncut despite the label's doubts."
+    },
+    {
+      "id": "classic-rock-s10",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "year": 1976,
+      "album": "Hotel California",
+      "note": "It won the Grammy for Record of the Year."
+    },
+    {
+      "id": "classic-rock-s11",
+      "title": "Dreams",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "album": "Rumours",
+      "note": "It was the band's only No. 1 single in the United States."
+    },
+    {
+      "id": "classic-rock-s12",
+      "title": "Sultans of Swing",
+      "artist": "Dire Straits",
+      "year": 1978,
+      "album": "Dire Straits",
+      "note": "Mark Knopfler's fingerpicked Stratocaster style gave the debut single its unmistakable sound."
+    },
+    {
+      "id": "classic-rock-s13",
+      "title": "Refugee",
+      "artist": "Tom Petty & The Heartbreakers",
+      "year": 1979,
+      "album": "Damn the Torpedoes",
+      "note": "Petty fought a legal battle with his label while making the album."
+    },
+    {
+      "id": "classic-rock-s14",
+      "title": "Another One Bites the Dust",
+      "artist": "Queen",
+      "year": 1980,
+      "album": "The Game",
+      "note": "John Deacon wrote the bass line, which was inspired by the funk band Chic."
+    },
+    {
+      "id": "classic-rock-s15",
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "year": 1981,
+      "album": "Escape",
+      "note": "Its chorus does not arrive until the final minute of the song."
+    },
+    {
+      "id": "classic-rock-s16",
+      "title": "Eye of the Tiger",
+      "artist": "Survivor",
+      "year": 1982,
+      "album": "Eye of the Tiger",
+      "note": "It was written for Rocky III at Sylvester Stallone's request."
+    }
+  ],
+  "stories": [
+    {
+      "id": "classic-rock-st1",
+      "title": "The Making of Rumours",
+      "dek": "Two broken couples, one hit album",
+      "year": 1977,
+      "body": "In early 1976 Fleetwood Mac was a band in trouble that did not know it yet. Mick Fleetwood and John McVie were the rhythm section. Christine McVie was the keyboardist, John's wife, and one of the band's best songwriters. Lindsey Buckingham and Stevie Nicks had joined at the end of 1974, bringing California harmony and a romantic partnership. Their first album together, simply called Fleetwood Mac, had been a huge hit. The follow-up should have been a victory lap.\n\nInstead, the personal lives fell apart as the band gathered at the Record Plant in Sausalito, California. The McVies' marriage was ending after eight years. Buckingham and Nicks, together for years, had also broken up. Fleetwood's own marriage was in trouble. Nobody left the band, and every day they walked into the same small studio to record songs about each other.\n\nThe results were frank. Buckingham wrote \"Go Your Own Way\" as a farewell to Nicks, and Nicks objected to the line about \"shacking up\". Christine McVie sang \"Don't Stop\" to her ex-husband and \"You Make Loving Fun\" about a new love. Nicks wrote \"Dreams\" in a short burst of inspiration, working in a small room in the studio, and \"Gold Dust Woman\" captured the darker moods of those weeks.\n\nThe sessions were long, and the band was known to work late into the night, with a lot of cocaine and alcohol around. They obsessed over details, redoing guitar parts and vocals until they had them. Producers Ken Caillat and Richard Dashut spent months assembling the final tapes, and they used the same master reel so many times that it began to wear thin.\n\nRumours arrived in February 1977 and the response was immense. It spent 31 weeks at No. 1 on the Billboard album chart, produced four Top 10 singles and won the Grammy for Album of the Year in 1978. It has sold tens of millions of copies worldwide, and it still sells today.\n\nPart of the album's enduring pull comes from the human drama behind it. A listener in 1977 did not need to know the backstory, because the songs spelled out their own heartache. Yet knowing the story adds a layer, since the same people who sang the sad lines also had to play the next take together. The band later said the tension was part of the energy, and that the album might never have existed if they had been happier. Whatever the truth, Rumours remains a lesson in how pain can become polished pop craft.",
+      "songs": [
+        "classic-rock-s11"
+      ]
+    },
+    {
+      "id": "classic-rock-st2",
+      "title": "Layla in Miami",
+      "dek": "Clapton, Allman and a love he could not have",
+      "year": 1970,
+      "body": "In 1970 Eric Clapton was in love with Pattie Boyd, the wife of his friend George Harrison. He had no way to tell her, so he wrote songs. That summer he formed a new band with American musicians from the Delaney and Bonnie tour: keyboardist Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon. They called themselves Derek and the Dominos, and they headed to Criteria Studios in Miami to record with producer Tom Dowd, who had worked with Clapton in Cream.\n\nDowd happened to be working with the Allman Brothers Band at the same time. He told Clapton about a young slide guitarist called Duane Allman, and the two met when Clapton went to see the Allmans play in Miami. They talked and then jammed through the night. Clapton later described the connection as the sort of musical brotherhood he had always wanted.\n\nAllman joined the sessions, and the pair played off each other like old partners. The title song was inspired by Layla and Majnun, the classic Persian poem of unattainable love, which a friend had given Clapton. Clapton wrote the main part of the song, and Allman's opening slide figure became one of the most famous riffs in rock. The band cut the first part of the song, then added a very different piano coda, a calm, melodic ending that gives the track its mood of exhaustion after a storm.\n\nThe album, Layla and Other Assorted Love Songs, appeared in November 1970. It was not an immediate success. Reviewers praised it, but the band was little known and the double-album format was a hard sell. The single \"Layla\" first reached only the middle of the US charts in 1971. After the band split and Clapton retreated into a long struggle with addiction, radio programmers kept playing the song, and when it was reissued in 1972 it climbed to the US Top 10.\n\nAllman had returned to the Allman Brothers Band after the sessions. In October 1971 he was killed in a motorcycle accident in Macon, Georgia, at the age of 24. Clapton always said the finished song would not have existed without him. Boyd eventually left Harrison and married Clapton in 1979, though the marriage later ended. As for the song, it has had a long life, and in 1992 Clapton played a quiet acoustic version on MTV Unplugged that won him a Grammy. Layla still sounds like what it was: a message sent by a man who could not say it aloud.",
+      "songs": [
+        "classic-rock-s04"
+      ]
+    },
+    {
+      "id": "classic-rock-st3",
+      "title": "Six Minutes of Bohemian Rhapsody",
+      "dek": "The song that broke every rule",
+      "year": 1975,
+      "body": "Queen's fourth album, A Night at the Opera, was a bold experiment in 1975. It cost a lot to record and had no particular style. The band wanted each song to be different. The centerpiece was a song Freddie Mercury had been carrying in his head for years, and which he finally brought to the others in pieces, playing the piano and singing the harmonies himself.\n\nMercury arrived with the song largely written out on scraps of paper. It had a ballad introduction, a guitar solo, an operatic middle and a hard rock ending. The recording took about three weeks, and it was done at several studios, including Rockfield in Wales. The opera section alone took days, because the singers, Mercury, Brian May and Roger Taylor, layered their voices again and again to sound like a giant choir. According to May, the tape was copied and overdubbed so many times that it became almost transparent.\n\nProducer Roy Thomas Baker supported the plan, but the record company was worried. At nearly six minutes, the song was three times the usual length of a single, and radio stations rarely played anything that long. Mercury gave a copy to Kenny Everett, a friendly DJ at Capital Radio in London, who had promised not to play it. He played it anyway, reportedly more than a dozen times over a weekend. Listeners phoned in to ask where they could buy it, and the label had to release it.\n\nThe single came out in October 1975 and reached No. 1 in the UK, staying there for nine weeks over the Christmas period. The band also made a promotional film, directed by Bruce Gowers in a few hours at Elstree Studios, to promote the song on television. The clip, which opens with the four members' faces in a diamond, is often credited with helping to launch the music video era.\n\nCritics were split at first. Some found the song bombastic and others a masterpiece, but listeners embraced it. Mercury never fully explained the lyrics, saying only that the song was about relationships, and he refused to give a simple meaning to the story of Galileo and the other figures. After his death in 1991, it returned to the top of the UK chart in early 1992. Few singles have stayed so popular for so long, or sounded so little like anything else on the radio.",
+      "songs": [
+        "classic-rock-s09"
+      ]
+    }
+  ]
+}

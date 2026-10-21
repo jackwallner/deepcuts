@@ -1,0 +1,560 @@
+{
+  "id": "heavy-metal",
+  "name": "Heavy Metal",
+  "blurb": "From a Birmingham factory floor to stadium thunder, the loud history of metal.",
+  "era": "1970-1991",
+  "questions": [
+    {
+      "id": "heavy-metal-q01",
+      "prompt": "Which Birmingham band recorded \"Paranoid\" in 1970?",
+      "choices": [
+        "Black Sabbath",
+        "Deep Purple",
+        "Motörhead",
+        "Iron Maiden"
+      ],
+      "answer": 0,
+      "fact": "The song was written and recorded in minutes to fill out the album, and it became the band's biggest hit.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q02",
+      "prompt": "What is the name of Iron Maiden's skeletal mascot?",
+      "choices": [
+        "Vic Rattlehead",
+        "Snaggletooth",
+        "Eddie",
+        "Murray"
+      ],
+      "answer": 2,
+      "fact": "Artist Derek Riggs created Eddie, who has appeared on almost every Iron Maiden cover since 1980.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q03",
+      "prompt": "Metallica's 1991 self-titled album, nicknamed \"The Black Album\", includes which hit?",
+      "choices": [
+        "Master of Puppets",
+        "Enter Sandman",
+        "Seek and Destroy",
+        "Ride the Lightning"
+      ],
+      "answer": 1,
+      "fact": "Producer Bob Rock helped shape a cleaner, bigger sound, and the album topped the Billboard 200 and made Metallica arena headliners.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q04",
+      "prompt": "Which band made Back in Black as a tribute to its late singer Bon Scott?",
+      "choices": [
+        "Scorpions",
+        "Judas Priest",
+        "Saxon",
+        "AC/DC"
+      ],
+      "answer": 3,
+      "fact": "New singer Brian Johnson joined within two months of Scott's death in February 1980, and the album was recorded in the Bahamas.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q05",
+      "prompt": "Which Judas Priest singer, known as the Metal God, rides a Harley-Davidson onto the stage?",
+      "choices": [
+        "Bruce Dickinson",
+        "Ronnie James Dio",
+        "Ozzy Osbourne",
+        "Rob Halford"
+      ],
+      "answer": 3,
+      "fact": "Halford helped make black leather and studs the standard look for metal, and he came out publicly in 1998.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q06",
+      "prompt": "Which Black Sabbath guitarist lost the tips of two fingers in a factory accident?",
+      "choices": [
+        "Geezer Butler",
+        "Tony Iommi",
+        "Ritchie Blackmore",
+        "Randy Rhoads"
+      ],
+      "answer": 1,
+      "fact": "He made himself plastic fingertips from a melted bottle and tuned his guitar down to ease the strain, and the heavier sound became Sabbath's trademark.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q07",
+      "prompt": "Where did Iron Maiden's name come from?",
+      "choices": [
+        "A suit of armor",
+        "A Viking warship",
+        "A medieval torture device",
+        "A castle drawbridge"
+      ],
+      "answer": 2,
+      "fact": "Bassist Steve Harris has said he took the name after seeing the film The Man in the Iron Mask.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q08",
+      "prompt": "Which band, led by bassist Lemmy, recorded \"Ace of Spades\" in 1980?",
+      "choices": [
+        "Motörhead",
+        "Saxon",
+        "Venom",
+        "Girlschool"
+      ],
+      "answer": 0,
+      "fact": "Lemmy's growling vocals and distorted Rickenbacker bass drove the song, which reached No. 15 on the UK chart.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q09",
+      "prompt": "Which AC/DC guitarist wears a schoolboy uniform on stage?",
+      "choices": [
+        "Angus Young",
+        "Malcolm Young",
+        "Cliff Williams",
+        "Brian Johnson"
+      ],
+      "answer": 0,
+      "fact": "Angus and Malcolm Young were born in Glasgow and moved to Sydney as children.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q10",
+      "prompt": "Which singer, nicknamed the Prince of Darkness, fronted Black Sabbath until 1979?",
+      "choices": [
+        "Ronnie James Dio",
+        "Ian Gillan",
+        "Ozzy Osbourne",
+        "Rob Halford"
+      ],
+      "answer": 2,
+      "fact": "Osbourne was born in the Aston district of Birmingham and worked in a slaughterhouse before music.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q11",
+      "prompt": "\"Smoke on the Water\" was inspired by a 1971 casino fire during a concert by which artist?",
+      "choices": [
+        "Pink Floyd",
+        "Frank Zappa",
+        "Jethro Tull",
+        "Procol Harum"
+      ],
+      "answer": 1,
+      "fact": "A fan fired a flare gun into the ceiling of the Montreux Casino, and Deep Purple watched the smoke drift across Lake Geneva.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q12",
+      "prompt": "Which Iron Maiden singer is also a licensed commercial pilot who has flown the band's tour jet?",
+      "choices": [
+        "Paul Di'Anno",
+        "Blaze Bayley",
+        "Steve Harris",
+        "Bruce Dickinson"
+      ],
+      "answer": 3,
+      "fact": "The jet, known as Ed Force One, carried the band and its equipment on world tours.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q13",
+      "prompt": "In September 1986, Metallica bassist Cliff Burton died when the band's tour bus crashed in which country?",
+      "choices": [
+        "Denmark",
+        "Germany",
+        "Norway",
+        "Sweden"
+      ],
+      "answer": 3,
+      "fact": "The crash happened on icy roads, and Burton was 24. Jason Newsted joined the band a few weeks later.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q14",
+      "prompt": "Ronnie James Dio helped popularize the metal horns hand sign. Whom did he say he learned it from?",
+      "choices": [
+        "Gene Simmons",
+        "His Italian grandmother",
+        "Ozzy Osbourne",
+        "Lemmy"
+      ],
+      "answer": 1,
+      "fact": "Dio said the gesture was a version of an Italian sign meant to ward off the evil eye.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q15",
+      "prompt": "Lemmy was fired from which space-rock band before he formed Motörhead in 1975?",
+      "choices": [
+        "Gong",
+        "Pink Fairies",
+        "Hawkwind",
+        "Atomic Rooster"
+      ],
+      "answer": 2,
+      "fact": "The band's name came from the last song he wrote for Hawkwind, whose members let him go after a drug arrest at the Canadian border.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q16",
+      "prompt": "Who was Metallica's original lead guitarist, fired in 1983 and replaced by Kirk Hammett?",
+      "choices": [
+        "Dave Mustaine",
+        "Kerry King",
+        "Gary Holt",
+        "Scott Ian"
+      ],
+      "answer": 0,
+      "fact": "Mustaine went on to found Megadeth, and Hammett joined from the band Exodus.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q17",
+      "prompt": "Which guitarist on Ozzy Osbourne's \"Crazy Train\" died in a plane crash in March 1982?",
+      "choices": [
+        "Randy Rhoads",
+        "Jake E. Lee",
+        "Zakk Wylde",
+        "Brad Gillis"
+      ],
+      "answer": 0,
+      "fact": "Rhoads was 25 and died in a small plane accident in Leesburg, Florida, while the band was on tour.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q18",
+      "prompt": "Which Def Jam co-founder produced Slayer's 1986 album Reign in Blood?",
+      "choices": [
+        "Bob Rock",
+        "Martin Birch",
+        "Rick Rubin",
+        "Flemming Rasmussen"
+      ],
+      "answer": 2,
+      "fact": "The ten-song album runs just under half an hour, and its speed and violence changed what thrash metal could be.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q19",
+      "prompt": "Which band completes thrash metal's \"Big Four\" with Metallica, Megadeth and Slayer?",
+      "choices": [
+        "Testament",
+        "Anthrax",
+        "Exodus",
+        "Overkill"
+      ],
+      "answer": 1,
+      "fact": "All four toured together on a run of European festival dates in 2010, and the show in Sofia, Bulgaria, was broadcast live to cinemas around the world.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q20",
+      "prompt": "In January 1982, Ozzy Osbourne bit the head off a bat during a concert in which state?",
+      "choices": [
+        "Texas",
+        "Ohio",
+        "Florida",
+        "Iowa"
+      ],
+      "answer": 3,
+      "fact": "He said he thought the bat was a rubber toy thrown by a fan. He received rabies shots afterward.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q21",
+      "prompt": "How long did Black Sabbath take to record their 1970 debut album?",
+      "choices": [
+        "A couple of weeks",
+        "About three months",
+        "More than six months",
+        "About one day"
+      ],
+      "answer": 3,
+      "fact": "The band recorded the album live in the studio and it came out on Friday, February 13, 1970.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q22",
+      "prompt": "In a 1990 Nevada trial, Judas Priest was accused of hiding subliminal messages on which album?",
+      "choices": [
+        "British Steel",
+        "Stained Class",
+        "Screaming for Vengeance",
+        "Defenders of the Faith"
+      ],
+      "answer": 1,
+      "fact": "The judge dismissed the case in August 1990, finding the evidence insufficient.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q23",
+      "prompt": "Motörhead's 1981 live album went to No. 1 in the UK. What was it called?",
+      "choices": [
+        "Ace of Spades",
+        "Iron Fist",
+        "No Sleep 'til Hammersmith",
+        "Bomber"
+      ],
+      "answer": 2,
+      "fact": "Despite the title, the album was recorded in Leeds and Newcastle.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q24",
+      "prompt": "What was the original working title of Black Sabbath's \"War Pigs\"?",
+      "choices": [
+        "Walpurgis",
+        "Iron Man",
+        "Sweet Leaf",
+        "Fairies Wear Boots"
+      ],
+      "answer": 0,
+      "fact": "Bassist Geezer Butler wrote the Vietnam-era lyrics, and the record company reportedly disliked the occult title.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q25",
+      "prompt": "In \"Smoke on the Water\", \"Funky Claude\" was the real-life founder of which event?",
+      "choices": [
+        "The Montreux Jazz Festival",
+        "The Cannes Film Festival",
+        "The Glastonbury Festival",
+        "The Monsters of Rock tour"
+      ],
+      "answer": 0,
+      "fact": "Claude Nobs, the festival's founder, helped get people out of the burning casino in 1971.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q26",
+      "prompt": "Which band's 1983 album Metal Health is often cited as the first heavy metal album to top the Billboard 200?",
+      "choices": [
+        "Ratt",
+        "Mötley Crüe",
+        "Quiet Riot",
+        "Dokken"
+      ],
+      "answer": 2,
+      "fact": "The album's hit \"Cum On Feel the Noize\" was a cover of a song by the British band Slade.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q27",
+      "prompt": "Metallica's \"One\" draws on a 1939 anti-war novel by which author?",
+      "choices": [
+        "Erich Maria Remarque",
+        "Dalton Trumbo",
+        "Ernest Hemingway",
+        "Kurt Vonnegut"
+      ],
+      "answer": 1,
+      "fact": "The novel is Johnny Got His Gun, and the video used footage from Trumbo's 1971 film of the book.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q28",
+      "prompt": "Ritchie Blackmore left Deep Purple in 1975 to form which band with Ronnie James Dio?",
+      "choices": [
+        "Whitesnake",
+        "Gillan",
+        "Dio",
+        "Rainbow"
+      ],
+      "answer": 3,
+      "fact": "Dio sang on Rainbow's first albums before he joined Black Sabbath in 1979.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q29",
+      "prompt": "The Scorpions, who wrote \"Wind of Change\", come from which German city?",
+      "choices": [
+        "Berlin",
+        "Hamburg",
+        "Munich",
+        "Hanover"
+      ],
+      "answer": 3,
+      "fact": "The 1990 ballad was written after the band played the Moscow Music Peace Festival, and it became an anthem of the fall of the Berlin Wall.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q30",
+      "prompt": "The Number of the Beast (1982) was Iron Maiden's first album with which singer?",
+      "choices": [
+        "Paul Di'Anno",
+        "Bruce Dickinson",
+        "Blaze Bayley",
+        "Dave Murray"
+      ],
+      "answer": 1,
+      "fact": "It reached No. 1 on the UK album chart and replaced Paul Di'Anno's raspy punk-style vocals with Dickinson's operatic wail.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "heavy-metal-s01",
+      "title": "Paranoid",
+      "artist": "Black Sabbath",
+      "year": 1970,
+      "album": "Paranoid",
+      "note": "The band wrote it in a few minutes as a last-minute album filler."
+    },
+    {
+      "id": "heavy-metal-s02",
+      "title": "Smoke on the Water",
+      "artist": "Deep Purple",
+      "year": 1972,
+      "album": "Machine Head",
+      "note": "Its four-note riff, played by Ritchie Blackmore, is one of the most famous in rock."
+    },
+    {
+      "id": "heavy-metal-s03",
+      "title": "Sabbath Bloody Sabbath",
+      "artist": "Black Sabbath",
+      "year": 1973,
+      "album": "Sabbath Bloody Sabbath",
+      "note": "The band found its inspiration after retreating to Clearwell Castle."
+    },
+    {
+      "id": "heavy-metal-s04",
+      "title": "The Boys Are Back in Town",
+      "artist": "Thin Lizzy",
+      "year": 1976,
+      "album": "Jailbreak",
+      "note": "Phil Lynott wrote it, and it was the band's biggest hit in the US."
+    },
+    {
+      "id": "heavy-metal-s05",
+      "title": "Hell Bent for Leather",
+      "artist": "Judas Priest",
+      "year": 1978,
+      "album": "Killing Machine",
+      "note": "Its title became shorthand for Judas Priest's leather-and-studs image."
+    },
+    {
+      "id": "heavy-metal-s06",
+      "title": "Highway to Hell",
+      "artist": "AC/DC",
+      "year": 1979,
+      "album": "Highway to Hell",
+      "note": "It was the last album with singer Bon Scott."
+    },
+    {
+      "id": "heavy-metal-s07",
+      "title": "Ace of Spades",
+      "artist": "Motörhead",
+      "year": 1980,
+      "album": "Ace of Spades",
+      "note": "It reached No. 15 on the UK singles chart."
+    },
+    {
+      "id": "heavy-metal-s08",
+      "title": "Crazy Train",
+      "artist": "Ozzy Osbourne",
+      "year": 1980,
+      "album": "Blizzard of Ozz",
+      "note": "Randy Rhoads's guitar riff drives the song."
+    },
+    {
+      "id": "heavy-metal-s09",
+      "title": "The Number of the Beast",
+      "artist": "Iron Maiden",
+      "year": 1982,
+      "album": "The Number of the Beast",
+      "note": "It was the first Iron Maiden album with Bruce Dickinson."
+    },
+    {
+      "id": "heavy-metal-s10",
+      "title": "Holy Diver",
+      "artist": "Dio",
+      "year": 1983,
+      "album": "Holy Diver",
+      "note": "It was the first album by Ronnie James Dio's own band."
+    },
+    {
+      "id": "heavy-metal-s11",
+      "title": "Rock You Like a Hurricane",
+      "artist": "Scorpions",
+      "year": 1984,
+      "album": "Love at First Sting",
+      "note": "It was the best-known song from the album that became the band's biggest US success."
+    },
+    {
+      "id": "heavy-metal-s12",
+      "title": "Master of Puppets",
+      "artist": "Metallica",
+      "year": 1986,
+      "album": "Master of Puppets",
+      "note": "It was the last Metallica album with bassist Cliff Burton."
+    },
+    {
+      "id": "heavy-metal-s13",
+      "title": "Welcome to the Jungle",
+      "artist": "Guns N' Roses",
+      "year": 1987,
+      "album": "Appetite for Destruction",
+      "note": "It opens the band's debut album."
+    },
+    {
+      "id": "heavy-metal-s14",
+      "title": "One",
+      "artist": "Metallica",
+      "year": 1988,
+      "album": "...And Justice for All",
+      "note": "It was Metallica's first music video."
+    },
+    {
+      "id": "heavy-metal-s15",
+      "title": "Painkiller",
+      "artist": "Judas Priest",
+      "year": 1990,
+      "album": "Painkiller",
+      "note": "The title track features the drumming of Scott Travis, who had recently joined the band."
+    },
+    {
+      "id": "heavy-metal-s16",
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "year": 1991,
+      "album": "Metallica",
+      "note": "Kirk Hammett came up with the main riff."
+    }
+  ],
+  "stories": [
+    {
+      "id": "heavy-metal-st1",
+      "title": "Black Sabbath, Recorded in a Day",
+      "dek": "Four Birmingham lads and a very loud first album",
+      "year": 1970,
+      "body": "Aston is a working-class district of Birmingham, England, and in the late 1960s it was a place of factories and rows of terraced houses. Four young men from the area, singer Ozzy Osbourne, guitarist Tony Iommi, bassist Geezer Butler and drummer Bill Ward, formed a blues band called Earth. They played local clubs, and they were not sure they were any good.\n\nThen Iommi had an accident. On his last day in a sheet-metal factory, a machine crushed the tips of two fingers on his right hand. Doctors feared he would never play again. Instead, he made himself fingertip caps out of a melted plastic bottle, loosened the strings of his guitar to ease the strain, and carried on. The lower, thicker sound he got would help define the band.\n\nThe group changed its name after noticing that people lined up in cinemas to be scared. They borrowed the title of a 1963 Boris Karloff horror film, Black Sabbath, and Butler began writing lyrics about dark subjects. Their song \"Black Sabbath\" opened with a slow, tolling riff built on a tritone, an interval that centuries earlier had been called the devil's interval.\n\nIn October 1969 they went into Regent Sound studio in London with producer Rodger Bain. They had very little money and almost no time. The band played its live set straight through, with Ozzy singing over the top, and the whole album was recorded in about a day, then mixed the next. A tolling bell, rain and thunder open the first track.\n\nThe album, Black Sabbath, was released on Friday, February 13, 1970. Critics were unkind, but the public was fascinated. It reached No. 8 in the UK and the top 25 in the US. Later that year the band followed it with Paranoid, whose title song was thrown together at the last minute when the label wanted a single. \"Paranoid\" became a UK Top 5 hit, and the album went to No. 1.\n\nSabbath created a template that bands still follow. They tuned down, slowed down and wrote about war, madness and fear, not love. Critics eventually came around, and later bands including Metallica, Judas Priest and Iron Maiden cited them as an inspiration. Osbourne, Iommi, Butler and Ward would go on to sell millions of records, but nothing sounds quite like the first record made in a single day by four young men with nothing to lose.",
+      "songs": [
+        "heavy-metal-s01"
+      ]
+    },
+    {
+      "id": "heavy-metal-st2",
+      "title": "Fire on Lake Geneva",
+      "dek": "How a burning casino became the most famous riff in rock",
+      "year": 1971,
+      "body": "In December 1971 Deep Purple arrived in Montreux, Switzerland, to make a new album. The plan was to record in the town's Casino, a large entertainment complex on the shore of Lake Geneva, using the Rolling Stones' mobile recording studio, a truck packed with equipment. The band was at the peak of its powers, and singer Ian Gillan, guitarist Ritchie Blackmore, bassist Roger Glover, keyboardist Jon Lord and drummer Ian Paice wanted to work somewhere quiet and distant from London.\n\nOn the night of December 4, they went to the casino to watch Frank Zappa and the Mothers of Invention play. Partway through the show, a fan in the audience fired a flare gun at the ceiling. The decorations were made of rattan, and they went up at once. The crowd streamed out into the cold, and the casino was destroyed. Montreux Jazz Festival founder Claude Nobs, whom the band knew, helped get people out of the building.\n\nThe band stood on the shore and watched the smoke drift across the lake. Their recording plans were ruined, since the casino was gone. After a few false starts, they rented the Grand Hotel, which was empty for the season, and set up the mobile studio in the hallway. They played in the corridors, and the band sometimes had to stop when the neighbors complained about the noise.\n\nBlackmore came up with a simple riff, played on two strings in fourths, and the band built a song around it. Glover suggested the title, and Gillan wrote the lyrics as a news report of everything that had happened. The lyric tells the story of the night in plain terms, from the trip to Montreux to the smoke over the lake, and gives a nod to Claude Nobs for his part in the rescue.\n\nThe album, Machine Head, came out in 1972. The song was not planned as a single, and the band did not think it was single material. But when it was released as a single in the US in 1973, it reached No. 4. The riff became the first thing many young guitarists learned to play. Today a statue of Freddie Mercury stands by the lake in Montreux, and the town still hosts a famous festival. The fire that destroyed the casino also gave metal one of its best-loved songs.",
+      "songs": [
+        "heavy-metal-s02"
+      ]
+    },
+    {
+      "id": "heavy-metal-st3",
+      "title": "Master of Puppets and the Road to Sweden",
+      "dek": "A thrash classic and the loss of Cliff Burton",
+      "year": 1986,
+      "body": "By 1986 Metallica was the leading band of a new kind of heavy metal, called thrash, which was faster and angrier than what came before. The band had formed in Los Angeles in 1981 and moved to the San Francisco Bay Area, where it found a loyal following. Their first two albums, Kill 'Em All and Ride the Lightning, had sold steadily by word of mouth. For the third, they traveled to Copenhagen, Denmark, to work with producer Flemming Rasmussen at Sweet Silence Studios.\n\nThe album, Master of Puppets, was recorded in the fall of 1985. Its title song, which runs more than eight minutes, tells of addiction and control, and its guitar work is quick, precise and complex. Bassist Cliff Burton, who had studied classical music, contributed to the song's harmonies and wrote the melodic passage in the middle section. Singer James Hetfield and drummer Lars Ulrich pushed the band toward bigger and more ambitious arrangements, and guitarist Kirk Hammett added solos that fans would memorize.\n\nReleased in March 1986, the album reached the Billboard Top 30 with almost no radio play, and it later went multi-platinum. Many critics now call it one of the greatest metal albums ever made, and in 2016 the Library of Congress added it to the National Recording Registry.\n\nIn 1986 Metallica toured the US as the opening act for Ozzy Osbourne's band, and then went to Europe in the autumn, with a run of dates in Scandinavia. On the night of September 26, 1986, the band's bus was driving through southern Sweden on a cold, wet road. According to the band, the members had drawn cards for the bunks, and Burton had won the choice of beds. At dawn on September 27 the bus skidded on ice near the town of Ljungby, and it rolled over. Burton was thrown from the bus and died. He was 24 years old.\n\nThe band considered breaking up. Hetfield, Ulrich and Hammett decided that Burton would have wanted them to continue, and they auditioned bassists, choosing Jason Newsted, who came from the band Flotsam and Jetsam. They went back on the road, and later releases, including the \"Black Album\" in 1991, made them one of the best-selling rock bands in the world.\n\nFans still remember Burton as a gifted musician, and his bass solos, especially \"Anesthesia (Pulling Teeth)\", remain a model for how heavy music can borrow from classical technique.",
+      "songs": [
+        "heavy-metal-s12"
+      ]
+    }
+  ]
+}

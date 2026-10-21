@@ -1,0 +1,561 @@
+{
+  "id": "prog-rock",
+  "name": "Prog Rock",
+  "blurb": "Side-long suites, mellotrons and concept albums from rock's most ambitious years.",
+  "era": "1967-1983",
+  "questions": [
+    {
+      "id": "prog-rock-q01",
+      "prompt": "Which band's 1973 album The Dark Side of the Moon has a prism and a rainbow on its cover?",
+      "choices": [
+        "Pink Floyd",
+        "Yes",
+        "Genesis",
+        "King Crimson"
+      ],
+      "answer": 0,
+      "fact": "The cover was designed by Storm Thorgerson and Aubrey Powell of the design group Hipgnosis, and it reached No. 1 on the US album chart.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q02",
+      "prompt": "Which Genesis singer left the band in 1975 and later had a solo hit with \"Solsbury Hill\"?",
+      "choices": [
+        "Phil Collins",
+        "Mike Rutherford",
+        "Peter Gabriel",
+        "Tony Banks"
+      ],
+      "answer": 2,
+      "fact": "Gabriel has said the song is about his decision to leave the band, and it is written in a rare 7/4 time.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q03",
+      "prompt": "Which Rush drummer wrote most of the band's lyrics?",
+      "choices": [
+        "Geddy Lee",
+        "Neil Peart",
+        "Alex Lifeson",
+        "John Rutsey"
+      ],
+      "answer": 1,
+      "fact": "Peart joined in 1974, replacing original drummer John Rutsey just before the band's first US tour.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q04",
+      "prompt": "Which Pink Floyd bassist wrote most of the 1979 double album The Wall?",
+      "choices": [
+        "David Gilmour",
+        "Richard Wright",
+        "Nick Mason",
+        "Roger Waters"
+      ],
+      "answer": 3,
+      "fact": "Waters has said the idea came from a 1977 concert in Montreal, when he spat at a fan out of frustration.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q05",
+      "prompt": "Who was the founding frontman of Pink Floyd, who left the band in 1968?",
+      "choices": [
+        "Roger Waters",
+        "Richard Wright",
+        "Nick Mason",
+        "Syd Barrett"
+      ],
+      "answer": 3,
+      "fact": "David Gilmour replaced him. Barrett remained an inspiration for the band, which paid tribute to him on Wish You Were Here.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q06",
+      "prompt": "Which Jethro Tull frontman is famous for playing the flute, often while standing on one leg?",
+      "choices": [
+        "Martin Barre",
+        "Ian Anderson",
+        "Jeffrey Hammond",
+        "Barriemore Barlow"
+      ],
+      "answer": 1,
+      "fact": "The band was named after an 18th-century agricultural inventor who developed an improved seed drill.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q07",
+      "prompt": "Which Pink Floyd single, featuring a children's choir, was the UK Christmas No. 1 in 1979?",
+      "choices": [
+        "Comfortably Numb",
+        "Money",
+        "Another Brick in the Wall (Part 2)",
+        "Wish You Were Here"
+      ],
+      "answer": 2,
+      "fact": "The choir came from Islington Green School in north London, and the song also reached No. 1 in the US in 1980.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q08",
+      "prompt": "Mike Oldfield's 1973 album Tubular Bells became famous after its opening was used in which film?",
+      "choices": [
+        "The Exorcist",
+        "The Omen",
+        "Halloween",
+        "Rosemary's Baby"
+      ],
+      "answer": 0,
+      "fact": "It was the first album released on Virgin Records, and Oldfield played most of the instruments himself.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q09",
+      "prompt": "Which Genesis drummer took over as lead singer after Peter Gabriel left?",
+      "choices": [
+        "Phil Collins",
+        "Chester Thompson",
+        "Bill Bruford",
+        "Steve Hackett"
+      ],
+      "answer": 0,
+      "fact": "The band auditioned many singers before deciding that Collins, who had already sung backing vocals, should take the job.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q10",
+      "prompt": "Which band's 1972 radio hit \"Roundabout\" opens with an acoustic guitar intro played by Steve Howe?",
+      "choices": [
+        "Genesis",
+        "Camel",
+        "Yes",
+        "Gentle Giant"
+      ],
+      "answer": 2,
+      "fact": "An edited single version of the song reached the US Top 20 in 1972.",
+      "difficulty": 1
+    },
+    {
+      "id": "prog-rock-q11",
+      "prompt": "Which Yes album has only three tracks, including an 18-minute title song?",
+      "choices": [
+        "Fragile",
+        "Close to the Edge",
+        "The Yes Album",
+        "Tales from Topographic Oceans"
+      ],
+      "answer": 1,
+      "fact": "Drummer Bill Bruford left the band after the album was finished, and Alan White replaced him on short notice.",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q12",
+      "prompt": "Keith Emerson of Emerson, Lake & Palmer stabbed knives into the keys of which instrument on stage?",
+      "choices": [
+        "Moog synthesizer",
+        "Mellotron",
+        "Grand piano",
+        "Hammond organ"
+      ],
+      "answer": 3,
+      "fact": "He used the knives to wedge keys down, which let him sustain notes while he worked other keyboards.",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q13",
+      "prompt": "Which band's 1967 album Days of Future Passed was recorded with the London Festival Orchestra?",
+      "choices": [
+        "Procol Harum",
+        "The Nice",
+        "Barclay James Harvest",
+        "The Moody Blues"
+      ],
+      "answer": 3,
+      "fact": "The album includes \"Nights in White Satin\", written by Justin Hayward when he was 19.",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q14",
+      "prompt": "The cover of Pink Floyd's Animals features an inflatable pig floating above which London landmark?",
+      "choices": [
+        "Tower Bridge",
+        "Battersea Power Station",
+        "Crystal Palace",
+        "Wembley Stadium"
+      ],
+      "answer": 1,
+      "fact": "During the photo shoot in December 1976, the pig broke loose from its tether and drifted into the flight path of Heathrow Airport.",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q15",
+      "prompt": "Which guitarist is the only member to appear in every lineup of King Crimson?",
+      "choices": [
+        "Greg Lake",
+        "Ian McDonald",
+        "Robert Fripp",
+        "Adrian Belew"
+      ],
+      "answer": 2,
+      "fact": "Greg Lake sang on the 1969 debut album and then left to form Emerson, Lake & Palmer.",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q16",
+      "prompt": "Emerson, Lake & Palmer's 1971 live album Pictures at an Exhibition adapts a suite by which composer?",
+      "choices": [
+        "Modest Mussorgsky",
+        "Pyotr Tchaikovsky",
+        "Gustav Holst",
+        "Igor Stravinsky"
+      ],
+      "answer": 0,
+      "fact": "It was recorded at Newcastle City Hall in March 1971, and ELP rearranged the piano suite for rock instruments.",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q17",
+      "prompt": "Rush's instrumental \"YYZ\" is named after the airport code of which city?",
+      "choices": [
+        "Toronto",
+        "Vancouver",
+        "Winnipeg",
+        "Montreal"
+      ],
+      "answer": 0,
+      "fact": "The opening rhythm is based on the Morse code for the letters YYZ.",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q18",
+      "prompt": "Which keyboardist joined Yes in 1971 after leaving the band the Strawbs?",
+      "choices": [
+        "Keith Emerson",
+        "Tony Banks",
+        "Rick Wakeman",
+        "Patrick Moraz"
+      ],
+      "answer": 2,
+      "fact": "Wakeman's first album with Yes was Fragile, which includes \"Roundabout\".",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q19",
+      "prompt": "Genesis's first UK hit single, \"I Know What I Like (In Your Wardrobe)\", came from which 1973 album?",
+      "choices": [
+        "Foxtrot",
+        "Selling England by the Pound",
+        "Nursery Cryme",
+        "The Lamb Lies Down on Broadway"
+      ],
+      "answer": 1,
+      "fact": "The single reached No. 21 on the UK chart in 1974.",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q20",
+      "prompt": "Which band's 1979 album Breakfast in America shows a waitress posing as the Statue of Liberty?",
+      "choices": [
+        "Kansas",
+        "Styx",
+        "Boston",
+        "Supertramp"
+      ],
+      "answer": 3,
+      "fact": "The Manhattan skyline behind her is built from breakfast-table items like cereal boxes and egg cartons.",
+      "difficulty": 2
+    },
+    {
+      "id": "prog-rock-q21",
+      "prompt": "In Genesis's The Lamb Lies Down on Broadway, what is the name of the Puerto Rican hero in New York?",
+      "choices": [
+        "Raoul",
+        "Rafael",
+        "Ramon",
+        "Rael"
+      ],
+      "answer": 3,
+      "fact": "It was Peter Gabriel's last album with the band, and he wrote the story himself.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q22",
+      "prompt": "In the early 1970s Peter Gabriel appeared on stage in a fox head and what garment?",
+      "choices": [
+        "A tuxedo",
+        "A red dress",
+        "A kilt",
+        "A lab coat"
+      ],
+      "answer": 1,
+      "fact": "The costume echoed the cover art of the album Foxtrot, and it became part of the band's theatrical act.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q23",
+      "prompt": "Jethro Tull's 1972 album Thick as a Brick credits its lyrics to which fictional schoolboy poet?",
+      "choices": [
+        "Edmund Fry",
+        "Colin Moss",
+        "Gerald Bostock",
+        "Oliver Finch"
+      ],
+      "answer": 2,
+      "fact": "Ian Anderson intended the record, a single piece that fills both sides, as a joke about concept albums.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q24",
+      "prompt": "Which Yes drummer left in 1972 to join King Crimson?",
+      "choices": [
+        "Bill Bruford",
+        "Alan White",
+        "Phil Collins",
+        "Carl Palmer"
+      ],
+      "answer": 0,
+      "fact": "Bruford left right after Close to the Edge, and he later formed his own jazz-rock band.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q25",
+      "prompt": "Camel's 1975 instrumental album The Snow Goose was based on a novella by which author?",
+      "choices": [
+        "Paul Gallico",
+        "Richard Adams",
+        "J. R. R. Tolkien",
+        "Michael Moorcock"
+      ],
+      "answer": 0,
+      "fact": "The band performed the music with the London Symphony Orchestra at the Royal Albert Hall in October 1975.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q26",
+      "prompt": "The American prog band Kansas formed in which Kansas city?",
+      "choices": [
+        "Wichita",
+        "Lawrence",
+        "Topeka",
+        "Kansas City"
+      ],
+      "answer": 2,
+      "fact": "Guitarist Kerry Livgren wrote \"Dust in the Wind\" after reading a line from a book of Native American poetry.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q27",
+      "prompt": "Rush's \"Tom Sawyer\" was co-written with which Canadian lyricist?",
+      "choices": [
+        "Kim Mitchell",
+        "Pye Dubois",
+        "Terry Brown",
+        "Bruce Cockburn"
+      ],
+      "answer": 1,
+      "fact": "Dubois wrote the original poem, and Neil Peart reworked it into the lyrics.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q28",
+      "prompt": "Pink Floyd's 23-minute \"Echoes\" fills the second side of which 1971 album?",
+      "choices": [
+        "Atom Heart Mother",
+        "Obscured by Clouds",
+        "Ummagumma",
+        "Meddle"
+      ],
+      "answer": 3,
+      "fact": "The \"sonar ping\" at the start came from a piano note played through a Leslie speaker.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q29",
+      "prompt": "Jon Anderson has said Yes's \"Close to the Edge\" was inspired by which novel by Hermann Hesse?",
+      "choices": [
+        "Demian",
+        "The Glass Bead Game",
+        "Narcissus and Goldmund",
+        "Siddhartha"
+      ],
+      "answer": 3,
+      "fact": "The 18-minute title track is divided into four named sections.",
+      "difficulty": 3
+    },
+    {
+      "id": "prog-rock-q30",
+      "prompt": "In Rush's 2112, the title suite pits a lone hero against the priests of which temples?",
+      "choices": [
+        "The Temples of Solaris",
+        "The Temples of Syrinx",
+        "The Temples of Elysium",
+        "The Temples of Delphi"
+      ],
+      "answer": 1,
+      "fact": "The album sleeve thanks the \"genius of Ayn Rand\", whose novella Anthem inspired the story.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "prog-rock-s01",
+      "title": "Nights in White Satin",
+      "artist": "The Moody Blues",
+      "year": 1967,
+      "album": "Days of Future Passed",
+      "note": "Justin Hayward wrote it at 19, and a 1972 reissue reached No. 2 in the US."
+    },
+    {
+      "id": "prog-rock-s02",
+      "title": "21st Century Schizoid Man",
+      "artist": "King Crimson",
+      "year": 1969,
+      "album": "In the Court of the Crimson King",
+      "note": "Greg Lake sang the lead vocal through an electronic filter."
+    },
+    {
+      "id": "prog-rock-s03",
+      "title": "Lucky Man",
+      "artist": "Emerson, Lake & Palmer",
+      "year": 1970,
+      "album": "Emerson, Lake & Palmer",
+      "note": "Greg Lake wrote it as a boy, and the Moog solo that closes it was largely improvised."
+    },
+    {
+      "id": "prog-rock-s04",
+      "title": "Roundabout",
+      "artist": "Yes",
+      "year": 1971,
+      "album": "Fragile",
+      "note": "The full album track runs more than eight minutes."
+    },
+    {
+      "id": "prog-rock-s05",
+      "title": "Aqualung",
+      "artist": "Jethro Tull",
+      "year": 1971,
+      "album": "Aqualung",
+      "note": "The title character was inspired by photographs of homeless men taken by Ian Anderson's wife."
+    },
+    {
+      "id": "prog-rock-s06",
+      "title": "Money",
+      "artist": "Pink Floyd",
+      "year": 1973,
+      "album": "The Dark Side of the Moon",
+      "note": "It is mostly in 7/4 time, with a loop of cash register sounds."
+    },
+    {
+      "id": "prog-rock-s07",
+      "title": "I Know What I Like (In Your Wardrobe)",
+      "artist": "Genesis",
+      "year": 1973,
+      "album": "Selling England by the Pound",
+      "note": "It was the band's first UK hit single."
+    },
+    {
+      "id": "prog-rock-s08",
+      "title": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "year": 1975,
+      "album": "Wish You Were Here",
+      "note": "David Gilmour's acoustic guitar opens with a radio dial sweeping across stations."
+    },
+    {
+      "id": "prog-rock-s09",
+      "title": "Carry On Wayward Son",
+      "artist": "Kansas",
+      "year": 1976,
+      "album": "Leftoverture",
+      "note": "It became the band's first big US hit and a staple of classic rock radio."
+    },
+    {
+      "id": "prog-rock-s10",
+      "title": "Solsbury Hill",
+      "artist": "Peter Gabriel",
+      "year": 1977,
+      "album": "Peter Gabriel",
+      "note": "It is written in 7/4 time and describes Gabriel's decision to leave Genesis."
+    },
+    {
+      "id": "prog-rock-s11",
+      "title": "Wuthering Heights",
+      "artist": "Kate Bush",
+      "year": 1978,
+      "album": "The Kick Inside",
+      "note": "Bush wrote it at 18, and it made her the first woman to top the UK chart with a song she wrote herself."
+    },
+    {
+      "id": "prog-rock-s12",
+      "title": "Another Brick in the Wall, Pt. 2",
+      "artist": "Pink Floyd",
+      "year": 1979,
+      "album": "The Wall",
+      "note": "A children's choir from a London school sings on the track."
+    },
+    {
+      "id": "prog-rock-s13",
+      "title": "The Spirit of Radio",
+      "artist": "Rush",
+      "year": 1980,
+      "album": "Permanent Waves",
+      "note": "The title came from the slogan of a Toronto radio station."
+    },
+    {
+      "id": "prog-rock-s14",
+      "title": "Tom Sawyer",
+      "artist": "Rush",
+      "year": 1981,
+      "album": "Moving Pictures",
+      "note": "Neil Peart rewrote a poem by Pye Dubois into the lyrics."
+    },
+    {
+      "id": "prog-rock-s15",
+      "title": "Eye in the Sky",
+      "artist": "The Alan Parsons Project",
+      "year": 1982,
+      "album": "Eye in the Sky",
+      "note": "Eric Woolfson sang the lead vocal."
+    },
+    {
+      "id": "prog-rock-s16",
+      "title": "Owner of a Lonely Heart",
+      "artist": "Yes",
+      "year": 1983,
+      "album": "90125",
+      "note": "It was the only Yes single to reach No. 1 in the US."
+    }
+  ],
+  "stories": [
+    {
+      "id": "prog-rock-st1",
+      "title": "Making The Dark Side of the Moon",
+      "dek": "How Pink Floyd built an album out of tape loops and a stranger's voice",
+      "year": 1973,
+      "body": "In 1972 Pink Floyd was a respected British band that had not yet written a record everyone had to own. Its members, Roger Waters, David Gilmour, Richard Wright and Nick Mason, had spent years chasing a new sound. They had lost their original leader, Syd Barrett, and were still finding their way without him. For their next project, Waters suggested an album about the pressures of modern life: time, money, conflict and madness.\n\nThe band did something unusual. Before recording a note, they performed the new songs live on tour, trying them out in front of audiences in Britain and the United States. By the time they entered Abbey Road Studios in London in the middle of 1972, the music had been refined night after night. They worked with engineer Alan Parsons, who had been an assistant on Beatles records, and who knew how to coax the best from the equipment.\n\nEach song was an experiment. For \"Money\", Waters recorded the sounds of coins, a cash register and tearing paper, then cut the tape into pieces and spliced it into a loop in a rhythm of seven beats. The result gave the song an odd, lurching groove. The heartbeat that opens the album is a sound effect, and the ticking clocks that begin \"Time\" were recorded one by one in an antique shop. Gilmour's guitar solos rang out over the top.\n\nLate in the sessions, the band wanted a wordless vocal for a piano piece Wright had written, which they called \"The Great Gig in the Sky\". They invited a session singer named Clare Torry to the studio and told her to improvise. She took the cue and wailed, soared and cried over the music in a few takes. Torry was paid a standard session fee, and years later she won a writing credit after a legal claim.\n\nBetween the songs, Waters recorded people in the studio and asked them simple questions about life and death. Some of the answers, including words from the studio's doorman, were woven into the album. The band's friend Storm Thorgerson of Hipgnosis designed the famous prism cover.\n\nThe Dark Side of the Moon was released in March 1973 and topped the US album chart. It stayed on the Billboard 200 for years afterward and became a fixture of dorm rooms and car stereos for generations. What started as a concept and a loop of coins became one of the most popular albums ever made.\n\nIt is easy to forget how risky the whole thing was. The band took a gamble on a long, quiet, thoughtful album, and it gave rock one of its most lasting visions.",
+      "songs": [
+        "prog-rock-s06"
+      ]
+    },
+    {
+      "id": "prog-rock-st2",
+      "title": "The Lamb Lies Down on Broadway",
+      "dek": "Peter Gabriel's last album with Genesis and the road to a new band",
+      "year": 1974,
+      "body": "By 1974 Genesis had become one of Britain's leading progressive bands. Their shows were elaborate, and the biggest attraction was singer Peter Gabriel, who dressed as a flower, an old man or a fox in a red dress to illustrate the band's fantastical songs. Their previous records, including Foxtrot and Selling England by the Pound, had won a devoted following, and \"I Know What I Like (In Your Wardrobe)\" had given them their first UK hit single.\n\nFor the next record, Gabriel had a bold idea. He wanted to write a story about a young Puerto Rican street kid in New York named Rael, who undergoes a strange journey through a nightmare world beneath the city. Gabriel wrote all of the lyrics himself, which he had never done before, while the rest of the band worked on the music at a rented manor house in Wales. The result was a double album, with a story that was complicated and often hard to follow.\n\nThe recording sessions were tense. Gabriel was also working on a possible film project with director William Friedkin, who had just made The Exorcist, and it took him away from the band. The others felt that he was drifting. The tension spilled onto the stage, where the band played the whole album in order, with slides projected behind them. Audiences often struggled to follow the story.\n\nThe Lamb Lies Down on Broadway came out in November 1974, and a long tour followed. It reached the Top 10 in the UK, and later critics came to regard it as a high point of the genre. But Gabriel had made up his mind. During the tour, he decided to leave, and the band played its last date with him in France in May 1975. In August he announced his departure in a statement titled \"Out, Angels Out\".\n\nMany fans thought the band could not go on. Drummer Phil Collins stepped forward. After the group auditioned dozens of singers, Collins sang the demo parts himself and was asked to take the job. The next album, A Trick of the Tail, in 1976, was a success, and Genesis went on to a new commercial peak in the 1980s.\n\nGabriel went his own way. His first solo single, \"Solsbury Hill\", was a bright, folk-tinged song in an unusual rhythm about leaving his old life. It reached the UK Top 20. Both Gabriel and Genesis went on to greater success, and the split turned out to be two separate beginnings.",
+      "songs": [
+        "prog-rock-s07",
+        "prog-rock-s10"
+      ]
+    },
+    {
+      "id": "prog-rock-st3",
+      "title": "Moving Pictures",
+      "dek": "How Rush wrote the album that made them stars",
+      "year": 1981,
+      "body": "By the end of the 1970s the Canadian trio Rush had built a loyal following. Singer and bassist Geddy Lee, guitarist Alex Lifeson and drummer Neil Peart had made long, complicated records, including a side-long suite called 2112. But with their 1980 album Permanent Waves, which included the radio hit \"The Spirit of Radio\", they showed they could write shorter, sharper songs without losing their ambition.\n\nFor the next record, they went to Le Studio, a recording retreat in the village of Morin Heights, Quebec, in the autumn of 1980. Working again with producer Terry Brown, they wrote and recorded the songs that would become Moving Pictures.\n\nThe album begins with \"Tom Sawyer\". The lyrics began as a poem by Pye Dubois, a Canadian writer who was a friend of the band. Peart took the words and shaped them into a portrait of a modern-day rebel, a restless spirit with a strong mind. Lee added a pulsing synthesizer line, and Peart's drumming, with its dramatic fills, drove the song.\n\nOther tracks were just as varied. \"Limelight\" was Peart's reaction to being famous, a topic he found uncomfortable. \"Red Barchetta\" was based on a short story about a future where cars are banned, and it features a driving riff that puts the listener in the seat of an old sports car. \"YYZ\", an instrumental named after the identifier for Toronto's airport, opens with a rhythm that spells out the letters in Morse code, and it earned a Grammy nomination.\n\nThe cover is a visual pun. It shows moving men carrying paintings out of a building, while onlookers weep at the sight of the pictures being taken away. The photograph was taken in front of Toronto's Ontario Legislative Building.\n\nMoving Pictures was released in February 1981 and became Rush's most successful album. It reached No. 3 in the US and the UK, and sold more than four million copies in America. Many fans regard it as the moment when the band's technical skill and pop instincts came together. Yet the band stayed true to its own sound, and it kept making records on its own terms.\n\nToday \"Tom Sawyer\" remains one of the most played songs on rock radio. A trio that had once been seen as a cult act became a mainstream favorite without changing what made them special.",
+      "songs": [
+        "prog-rock-s14"
+      ]
+    }
+  ]
+}
