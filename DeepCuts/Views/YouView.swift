@@ -38,7 +38,7 @@ struct YouView: View {
     private var stats: some View {
         let overall = app.progress.overall
         return HStack(spacing: 0) {
-            stat("\(app.progress.streak())", "days in a row")
+            stat("\(app.progress.streak())", app.progress.streak() == 1 ? "day in a row" : "days in a row")
             Divider().frame(height: 44).overlay(Theme.rule)
             stat("\(overall.answered)", "answered")
             Divider().frame(height: 44).overlay(Theme.rule)

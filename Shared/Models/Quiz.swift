@@ -38,6 +38,9 @@ struct Choice: Hashable, Sendable {
     var subtitle: String? = nil
     /// Song shown as artwork beside the choice (Which Came First?).
     var songID: String? = nil
+
+    /// "Ramblin' Man by The Allman Brothers Band".
+    var label: String { subtitle.map { "\(title) by \($0)" } ?? title }
 }
 
 struct QuizItem: Identifiable, Hashable, Sendable {
