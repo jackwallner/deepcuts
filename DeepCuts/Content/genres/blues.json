@@ -1,0 +1,561 @@
+{
+  "id": "blues",
+  "name": "Blues",
+  "blurb": "Delta porches to Chicago clubs: the music behind nearly every rock band.",
+  "era": "1920s-1980s",
+  "questions": [
+    {
+      "id": "blues-q01",
+      "prompt": "Which region of the American South is known as the birthplace of the Delta blues?",
+      "choices": [
+        "The Mississippi Delta",
+        "The Texas Panhandle",
+        "The Louisiana bayou",
+        "The Georgia Piedmont"
+      ],
+      "answer": 0,
+      "fact": "The Delta is the flat, fertile floodplain between Memphis and Vicksburg, and many early blues musicians worked its cotton plantations.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q02",
+      "prompt": "Which bluesman is said in legend to have sold his soul to the devil at a crossroads?",
+      "choices": [
+        "Son House",
+        "Skip James",
+        "Robert Johnson",
+        "Lead Belly"
+      ],
+      "answer": 2,
+      "fact": "Johnson recorded only 29 songs, in two sessions in 1936 and 1937, and he died in 1938.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q03",
+      "prompt": "Which bluesman nicknamed his guitar Lucille?",
+      "choices": [
+        "Albert King",
+        "B.B. King",
+        "Freddie King",
+        "Buddy Guy"
+      ],
+      "answer": 1,
+      "fact": "He has said he named the guitar after a woman two men fought over at a dance hall in Arkansas, which was then set on fire.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q04",
+      "prompt": "Which singer was known as the Empress of the Blues?",
+      "choices": [
+        "Ma Rainey",
+        "Billie Holiday",
+        "Etta James",
+        "Bessie Smith"
+      ],
+      "answer": 3,
+      "fact": "She recorded \"St. Louis Blues\" in 1925 with Louis Armstrong on cornet.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q05",
+      "prompt": "Which Chicago label, run by the brothers Leonard and Phil Chess, recorded Muddy Waters and Howlin' Wolf?",
+      "choices": [
+        "Stax Records",
+        "Sun Records",
+        "Vee-Jay Records",
+        "Chess Records"
+      ],
+      "answer": 3,
+      "fact": "The Rolling Stones recorded at the Chess studio at 2120 South Michigan Avenue in 1964, and they named an instrumental after the address.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q06",
+      "prompt": "Which bluesman, born McKinley Morganfield, helped electrify the blues in Chicago?",
+      "choices": [
+        "Howlin' Wolf",
+        "Muddy Waters",
+        "Elmore James",
+        "John Lee Hooker"
+      ],
+      "answer": 1,
+      "fact": "Folklorist Alan Lomax first recorded him in Mississippi in 1941, and he moved to Chicago two years later.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q07",
+      "prompt": "Which famous rock band took its name from a Muddy Waters song?",
+      "choices": [
+        "The Animals",
+        "The Yardbirds",
+        "The Rolling Stones",
+        "Led Zeppelin"
+      ],
+      "answer": 2,
+      "fact": "The song was \"Rollin' Stone,\" which Waters recorded in 1950.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q08",
+      "prompt": "Which Texas guitarist released the 1983 album Texas Flood?",
+      "choices": [
+        "Stevie Ray Vaughan",
+        "Billy Gibbons",
+        "Johnny Winter",
+        "Eric Johnson"
+      ],
+      "answer": 0,
+      "fact": "He played with his band Double Trouble, and his older brother Jimmie Vaughan was also a noted guitarist.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q09",
+      "prompt": "Which composer, known as the Father of the Blues, wrote \"St. Louis Blues\" and \"Memphis Blues\"?",
+      "choices": [
+        "W.C. Handy",
+        "Scott Joplin",
+        "Jelly Roll Morton",
+        "Duke Ellington"
+      ],
+      "answer": 0,
+      "fact": "Handy published the sheet music in the early 1910s, helping bring the blues to a national audience.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q10",
+      "prompt": "Which British guitarist recorded the Robert Johnson song \"Crossroads\" with Cream?",
+      "choices": [
+        "Jimmy Page",
+        "Jeff Beck",
+        "Eric Clapton",
+        "Peter Green"
+      ],
+      "answer": 2,
+      "fact": "Clapton also made a 2004 album of Johnson's songs, titled Me and Mr. Johnson.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q11",
+      "prompt": "Big Mama Thornton recorded \"Hound Dog\" in 1952. Which songwriting duo wrote it?",
+      "choices": [
+        "Goffin and King",
+        "Leiber and Stoller",
+        "Holland-Dozier-Holland",
+        "Mann and Weil"
+      ],
+      "answer": 1,
+      "fact": "Jerry Leiber and Mike Stoller were still in their teens when they wrote it, and Elvis Presley's version came in 1956.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q12",
+      "prompt": "Which bluesman's 1927 slide-guitar piece \"Dark Was the Night, Cold Was the Ground\" was included on the Voyager Golden Record?",
+      "choices": [
+        "Son House",
+        "Skip James",
+        "Charley Patton",
+        "Blind Willie Johnson"
+      ],
+      "answer": 3,
+      "fact": "The record, launched into space in 1977, carries music meant to introduce human culture to any listeners.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q13",
+      "prompt": "Which Chicago bassist and songwriter wrote \"Hoochie Coochie Man\" and \"Spoonful\"?",
+      "choices": [
+        "Otis Rush",
+        "Little Walter",
+        "Jimmy Reed",
+        "Willie Dixon"
+      ],
+      "answer": 3,
+      "fact": "Dixon worked for Chess Records as a bassist, producer and songwriter.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q14",
+      "prompt": "How old was Robert Johnson when he died in 1938?",
+      "choices": [
+        "24",
+        "27",
+        "31",
+        "35"
+      ],
+      "answer": 1,
+      "fact": "His death near Greenwood, Mississippi, remains partly a mystery, and stories about the cause have never been settled.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q15",
+      "prompt": "Alan Lomax recorded a young Muddy Waters in 1941 for which institution?",
+      "choices": [
+        "Smithsonian Folkways",
+        "Columbia University",
+        "The Library of Congress",
+        "The Rockefeller Foundation"
+      ],
+      "answer": 2,
+      "fact": "Lomax recorded Waters at the Stovall plantation in Mississippi, and Waters said hearing himself on the record gave him confidence.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q16",
+      "prompt": "Which Louisiana-born Chicago guitarist, known for a polka-dot Stratocaster, was praised by Clapton and Hendrix?",
+      "choices": [
+        "Buddy Guy",
+        "Otis Rush",
+        "Magic Sam",
+        "Hubert Sumlin"
+      ],
+      "answer": 0,
+      "fact": "Guy moved to Chicago in 1957 and recorded for Chess Records.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q17",
+      "prompt": "Which singer, known as the Mother of the Blues, recorded \"See See Rider\" in 1924?",
+      "choices": [
+        "Ma Rainey",
+        "Mamie Smith",
+        "Victoria Spivey",
+        "Alberta Hunter"
+      ],
+      "answer": 0,
+      "fact": "August Wilson's play Ma Rainey's Black Bottom is based on her life and recording career.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q18",
+      "prompt": "Eric Clapton made a landmark 1966 album with which band, nicknamed the Beano album?",
+      "choices": [
+        "The Yardbirds",
+        "The Animals",
+        "John Mayall's Bluesbreakers",
+        "Fleetwood Mac"
+      ],
+      "answer": 2,
+      "fact": "The record's nickname came from a comic, the Beano, that Clapton is reading on the cover.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q19",
+      "prompt": "Albert King, who recorded \"Born Under a Bad Sign,\" famously played which guitar?",
+      "choices": [
+        "A Fender Stratocaster",
+        "A Gibson Flying V",
+        "A Gibson Les Paul",
+        "A Rickenbacker 330"
+      ],
+      "answer": 1,
+      "fact": "King was left-handed and played a right-handed guitar upside down without restringing it.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q20",
+      "prompt": "T-Bone Walker, who wrote \"Call It Stormy Monday,\" helped popularize which instrument in the blues in the 1940s?",
+      "choices": [
+        "The electric bass",
+        "The pedal steel",
+        "The electric organ",
+        "The electric guitar"
+      ],
+      "answer": 3,
+      "fact": "Walker's smooth lead style influenced B.B. King, Chuck Berry and many others.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q21",
+      "prompt": "Led Zeppelin's \"Whole Lotta Love\" borrowed from which Willie Dixon song, leading to a 1985 settlement?",
+      "choices": [
+        "I Just Want to Make Love to You",
+        "Spoonful",
+        "Wang Dang Doodle",
+        "You Need Love"
+      ],
+      "answer": 3,
+      "fact": "Dixon later received a songwriting credit, and Muddy Waters had recorded the song in 1962.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q22",
+      "prompt": "The 1951 record \"Rocket 88\", credited to Jackie Brenston, was really made by whose band?",
+      "choices": [
+        "Muddy Waters's band",
+        "Ike Turner's Kings of Rhythm",
+        "Chuck Berry's band",
+        "Little Richard's band"
+      ],
+      "answer": 1,
+      "fact": "It was recorded in Memphis by Sam Phillips before he started Sun Records, and Chess released it.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q23",
+      "prompt": "Which Mississippi plantation is most closely associated with Charley Patton and the early Delta blues?",
+      "choices": [
+        "Stovall Plantation",
+        "Parchman Farm",
+        "Dockery Plantation",
+        "Hopson Plantation"
+      ],
+      "answer": 2,
+      "fact": "Patton is often called the Father of the Delta blues, and he influenced Howlin' Wolf and Robert Johnson.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q24",
+      "prompt": "What was Howlin' Wolf's birth name?",
+      "choices": [
+        "Chester Burnett",
+        "McKinley Morganfield",
+        "Riley B. King",
+        "Aaron Walker"
+      ],
+      "answer": 0,
+      "fact": "He was a large man with a thunderous voice, and he recorded for Sun and Chess.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q25",
+      "prompt": "In 1981 the Rolling Stones jammed with Muddy Waters at which Chicago club?",
+      "choices": [
+        "The Checkerboard Lounge",
+        "Theresa's Lounge",
+        "Kingston Mines",
+        "Rosa's Lounge"
+      ],
+      "answer": 0,
+      "fact": "A recording of the night was released decades later, and it shows Waters leading the Stones through his songs.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q26",
+      "prompt": "Robert Johnson made his 1936 recordings in which Texas city, with a second session in Dallas the next year?",
+      "choices": [
+        "Houston",
+        "Austin",
+        "San Antonio",
+        "El Paso"
+      ],
+      "answer": 2,
+      "fact": "Johnson recorded in a makeshift studio set up in a hotel room, and he reportedly performed facing the wall.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q27",
+      "prompt": "Which singer first recorded \"The Thrill Is Gone\", later a hit for B.B. King, in 1951?",
+      "choices": [
+        "Lowell Fulson",
+        "Roy Hawkins",
+        "Charles Brown",
+        "Amos Milburn"
+      ],
+      "answer": 1,
+      "fact": "B.B. King's 1969 version added strings and was produced by Bill Szymczyk.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q28",
+      "prompt": "Stevie Ray Vaughan recorded Texas Flood in 1982 at whose Los Angeles studio?",
+      "choices": [
+        "Neil Young's",
+        "Tom Petty's",
+        "Bruce Springsteen's",
+        "Jackson Browne's"
+      ],
+      "answer": 3,
+      "fact": "David Bowie had heard Vaughan at the Montreux Jazz Festival and invited him to play on Let's Dance.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q29",
+      "prompt": "Which harmonica player's 1952 instrumental \"Juke\" helped establish the amplified harmonica as a lead instrument?",
+      "choices": [
+        "Sonny Boy Williamson II",
+        "Junior Wells",
+        "James Cotton",
+        "Little Walter"
+      ],
+      "answer": 3,
+      "fact": "He played in Muddy Waters's band, and he held a small microphone cupped in his hands to make the harp sound bigger.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q30",
+      "prompt": "Mamie Smith's 1920 record \"Crazy Blues\" was made for which label?",
+      "choices": [
+        "Paramount",
+        "OKeh",
+        "Columbia",
+        "Victor"
+      ],
+      "answer": 1,
+      "fact": "Its strong sales to Black listeners showed record companies there was a market, and a wave of blues recordings followed.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "blues-s01",
+      "title": "Cross Road Blues",
+      "artist": "Robert Johnson",
+      "year": 1937,
+      "album": "King of the Delta Blues Singers",
+      "note": "Johnson recorded the song in 1936, and Cream later reworked it as \"Crossroads\"."
+    },
+    {
+      "id": "blues-s02",
+      "title": "Crazy Blues",
+      "artist": "Mamie Smith and Her Jazz Hounds",
+      "year": 1920,
+      "album": "Crazy Blues",
+      "note": "Its strong sales helped open the market for blues records."
+    },
+    {
+      "id": "blues-s03",
+      "title": "Empty Bed Blues",
+      "artist": "Bessie Smith",
+      "year": 1928,
+      "album": "Empty Bed Blues",
+      "note": "J.C. Johnson wrote the song, and Smith recorded it in two parts."
+    },
+    {
+      "id": "blues-s04",
+      "title": "Dark Was the Night, Cold Was the Ground",
+      "artist": "Blind Willie Johnson",
+      "year": 1927,
+      "album": "Dark Was the Night, Cold Was the Ground",
+      "note": "Johnson's slide-guitar piece was placed on the Voyager Golden Record in 1977."
+    },
+    {
+      "id": "blues-s05",
+      "title": "Call It Stormy Monday (But Tuesday Is Just as Bad)",
+      "artist": "T-Bone Walker",
+      "year": 1947,
+      "album": "Call It Stormy Monday",
+      "note": "The Allman Brothers Band later made the song a concert staple."
+    },
+    {
+      "id": "blues-s06",
+      "title": "Hoochie Coochie Man",
+      "artist": "Muddy Waters",
+      "year": 1954,
+      "album": "Hoochie Coochie Man",
+      "note": "Willie Dixon wrote the song for Waters."
+    },
+    {
+      "id": "blues-s07",
+      "title": "Hound Dog",
+      "artist": "Big Mama Thornton",
+      "year": 1953,
+      "album": "Hound Dog",
+      "note": "Leiber and Stoller wrote it, and Elvis Presley's 1956 version is a different arrangement."
+    },
+    {
+      "id": "blues-s08",
+      "title": "Smokestack Lightnin'",
+      "artist": "Howlin' Wolf",
+      "year": 1956,
+      "album": "Smokestack Lightnin'",
+      "note": "Wolf's howl and the song's single driving chord made it a classic."
+    },
+    {
+      "id": "blues-s09",
+      "title": "Bright Lights, Big City",
+      "artist": "Jimmy Reed",
+      "year": 1961,
+      "album": "Bright Lights, Big City",
+      "note": "Reed's relaxed shuffle made him a favorite of rock bands."
+    },
+    {
+      "id": "blues-s10",
+      "title": "Hide Away",
+      "artist": "Freddie King",
+      "year": 1961,
+      "album": "Hide Away",
+      "note": "The instrumental became a standard for guitarists, including Eric Clapton."
+    },
+    {
+      "id": "blues-s11",
+      "title": "Boom Boom",
+      "artist": "John Lee Hooker",
+      "year": 1962,
+      "album": "Burnin'",
+      "note": "Hooker's boogie riff became one of the most copied in the blues."
+    },
+    {
+      "id": "blues-s12",
+      "title": "Born Under a Bad Sign",
+      "artist": "Albert King",
+      "year": 1967,
+      "album": "Born Under a Bad Sign",
+      "note": "William Bell and Booker T. Jones wrote the song for Stax Records."
+    },
+    {
+      "id": "blues-s13",
+      "title": "The Thrill Is Gone",
+      "artist": "B.B. King",
+      "year": 1969,
+      "album": "Completely Well",
+      "note": "Roy Hawkins had recorded the song in 1951, and King added strings."
+    },
+    {
+      "id": "blues-s14",
+      "title": "Pride and Joy",
+      "artist": "Stevie Ray Vaughan and Double Trouble",
+      "year": 1983,
+      "album": "Texas Flood",
+      "note": "Vaughan wrote the song for his girlfriend, and it opened his debut album."
+    },
+    {
+      "id": "blues-s15",
+      "title": "I'd Rather Go Blind",
+      "artist": "Etta James",
+      "year": 1967,
+      "album": "Tell Mama",
+      "note": "James recorded the song at the FAME Studios in Muscle Shoals, Alabama."
+    },
+    {
+      "id": "blues-s16",
+      "title": "Stone Crazy",
+      "artist": "Buddy Guy",
+      "year": 1962,
+      "album": "Stone Crazy",
+      "note": "Guy recorded the song for Chess Records."
+    }
+  ],
+  "stories": [
+    {
+      "id": "blues-st1",
+      "title": "Robert Johnson and the Crossroads",
+      "dek": "A legend that grew larger than the man",
+      "year": 1937,
+      "body": "Robert Johnson was born around 1911 in Hazlehurst, Mississippi. As a young man he worked on plantations and played harmonica and guitar, but he was not at first a skilled player. Fellow bluesman Son House later recalled that Johnson would hang around the juke joints where House and Willie Brown performed, and that his playing at the time was embarrassing.\n\nThen Johnson left the area for a period. When he came back, House said, he could play astonishingly well. People began to say he had made a bargain with the devil at a crossroads at midnight. The story has been repeated for decades, and it was attached to a different Mississippi musician, Tommy Johnson, before it was attached to Robert. Historians generally regard it as folklore. The simpler explanation is that Johnson practiced hard, and probably learned from a more experienced guitarist.\n\nIn November 1936, Johnson traveled to San Antonio, Texas, where the American Record Corporation set up a temporary studio in a hotel room. He recorded songs such as \"Cross Road Blues,\" \"Come On in My Kitchen\" and \"Hellhound on My Trail.\" The next June, he recorded again in Dallas, adding \"Love in Vain\" and \"Stop Breakin' Down Blues.\" In all, he made 29 songs.\n\nJohnson's records sold only modestly. Then, on August 16, 1938, he died near Greenwood, Mississippi, at about age 27. According to stories, he was poisoned by a jealous husband, though the facts have never been firmly established. For years he was nearly forgotten.\n\nThat changed in 1961, when Columbia Records released King of the Delta Blues Singers, a collection of Johnson's recordings. Young British guitarists heard it. Keith Richards has said that he thought two guitars were playing on the record. Eric Clapton called Johnson the most important blues singer who ever lived. Cream recorded a version of \"Crossroads,\" and the Rolling Stones recorded \"Love in Vain.\"\n\nThe 1990 release of a complete set of his recordings sold far beyond expectations, and it won a Grammy. Very few photographs of Johnson exist. The mystery around him is part of his appeal, but it is the music, the voice and the stinging guitar, that has kept him alive.",
+      "songs": [
+        "blues-s01"
+      ]
+    },
+    {
+      "id": "blues-st2",
+      "title": "Chess Records and Chicago",
+      "dek": "How the Delta came north and plugged in",
+      "year": 1950,
+      "body": "In the 1940s, thousands of Black families left the rural South for northern cities, and Chicago was a major destination. Among them was a Mississippi sharecropper named McKinley Morganfield, known as Muddy Waters. He arrived in 1943 with a guitar and a hope of earning a living with music.\n\nIn the South he had played acoustic guitar on porches and at parties. In Chicago the clubs were loud, and he needed to be heard. He bought an electric guitar and put together a band with a harmonica, a second guitar and a drummer. The sound was heavier, tougher and more urban than anything on the plantation. It was the Delta blues amplified.\n\nAt the same time, two Polish-born brothers, Leonard and Phil Chess, ran a nightclub and then a record company. They had founded Aristocrat Records in the late 1940s, and it became Chess. They signed Muddy Waters, and in 1950 he recorded \"Rollin' Stone.\" Other artists followed, among them Howlin' Wolf, who came from Memphis, and the harmonica prodigy Little Walter. Little Walter's amplified harp playing set a new standard.\n\nHolding the sound together was Willie Dixon, a big bassist who also wrote and produced. He wrote \"Hoochie Coochie Man,\" \"Spoonful\" and \"I Just Want to Make Love to You,\" and handed them to Waters and Wolf. His lyrics were witty and sly, and the songs became the backbone of Chicago blues.\n\nThe label's headquarters, a modest building at 2120 South Michigan Avenue, became a pilgrimage site. In June 1964 the Rolling Stones arrived there on their first American tour to record. They were thrilled to meet Muddy Waters, who was reportedly painting the ceiling when they arrived. The Stones named one of their instrumentals after the address.\n\nThe record sales of the Chess artists were modest by pop standards. But their influence was enormous. British bands in the 1960s covered the songs, and then American listeners discovered the blues anew. Muddy Waters later said the young English players helped bring his music back.\n\nChess also recorded Chuck Berry, Bo Diddley and Etta James. The label stayed in business until the 1970s, but it left behind a body of work that shaped the course of rock and roll.",
+      "songs": [
+        "blues-s06",
+        "blues-s08"
+      ]
+    },
+    {
+      "id": "blues-st3",
+      "title": "The Blues Comes Back",
+      "dek": "How young British players returned the blues to America",
+      "year": 1969,
+      "body": "By the late 1950s the blues was fading from the American pop charts. Rock and roll and soul had taken the place of the guitar-and-harmonica music of Chicago and the Delta. But across the Atlantic, young people in Britain had been listening carefully to imported records by Muddy Waters, Howlin' Wolf and Jimmy Reed.\n\nIn 1958 Muddy Waters toured Britain. Audiences there were used to acoustic folk-blues, and his loud electric guitar surprised them. Some reviewers complained. Others, young musicians in the crowd, were thrilled. Around London, Alexis Korner and Cyril Davies formed a band, Blues Incorporated, that played the Chicago style. Young players such as Mick Jagger, Keith Richards, Brian Jones and Charlie Watts sat in with them.\n\nThe result was a wave of British bands that played the blues in their own way. The Rolling Stones took their name from a Muddy Waters song. The Yardbirds featured a series of guitarists, among them Eric Clapton, Jeff Beck and Jimmy Page. In 1966 Clapton joined John Mayall's Bluesbreakers and recorded a landmark album, with a ringing guitar tone that fans called unforgettable.\n\nThis had a surprising effect in the United States. American listeners who heard the British bands wanted to know where the music came from. Many discovered the Black artists whose songs the British had covered. Older bluesmen found new audiences. Muddy Waters played for rock crowds, and John Lee Hooker and Howlin' Wolf made records with British stars.\n\nOne bluesman who benefited was B.B. King. For years he had played the Black club circuit, known as the chitlin' circuit. In 1969 he released \"The Thrill Is Gone,\" a slow, minor-key blues with a string arrangement that became his biggest hit. That year the Rolling Stones invited him to open for them on their American tour, which put him in front of huge rock audiences.\n\nKing kept touring for decades, and he often credited the British players with bringing new listeners to the blues. By the 1980s young Americans such as Stevie Ray Vaughan were carrying it forward, and the music continues in the work of artists who follow them.",
+      "songs": [
+        "blues-s13"
+      ]
+    }
+  ]
+}

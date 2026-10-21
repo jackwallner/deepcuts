@@ -1,0 +1,562 @@
+{
+  "id": "grunge-alt",
+  "name": "Grunge & Alternative",
+  "blurb": "Flannel, feedback and college radio: the sound that took over the early '90s.",
+  "era": "1986-1999",
+  "questions": [
+    {
+      "id": "grunge-alt-q01",
+      "prompt": "What is the title of Nirvana's 1991 album with a baby swimming underwater on its cover?",
+      "choices": [
+        "Nevermind",
+        "Bleach",
+        "In Utero",
+        "Incesticide"
+      ],
+      "answer": 0,
+      "fact": "Photographer Kirk Weddle took the picture at a pool in California, and the baby, Spencer Elden, was a few months old.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q02",
+      "prompt": "Which Seattle record label released early records by Nirvana, Soundgarden and Mudhoney?",
+      "choices": [
+        "Epitaph",
+        "SST",
+        "Sub Pop",
+        "Matador"
+      ],
+      "answer": 2,
+      "fact": "Bruce Pavitt and Jonathan Poneman ran the label, and its name came from a fanzine called Subterranean Pop.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q03",
+      "prompt": "Which band's 1991 debut album was called Ten?",
+      "choices": [
+        "Soundgarden",
+        "Pearl Jam",
+        "Alice in Chains",
+        "Stone Temple Pilots"
+      ],
+      "answer": 1,
+      "fact": "Eddie Vedder was living in San Diego when he was sent an instrumental demo tape and wrote vocals for it.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q04",
+      "prompt": "Layne Staley was the singer of which Seattle band?",
+      "choices": [
+        "Mudhoney",
+        "Screaming Trees",
+        "Candlebox",
+        "Alice in Chains"
+      ],
+      "answer": 3,
+      "fact": "The band's 1996 MTV Unplugged set was a rare late appearance for the group.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q05",
+      "prompt": "In which city were the Smashing Pumpkins formed?",
+      "choices": [
+        "Seattle",
+        "Minneapolis",
+        "Detroit",
+        "Chicago"
+      ],
+      "answer": 3,
+      "fact": "Billy Corgan fronted the band, and its 1995 double album Mellon Collie and the Infinite Sadness was a huge hit.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q06",
+      "prompt": "Which English band recorded \"Creep\" in 1992?",
+      "choices": [
+        "Blur",
+        "Radiohead",
+        "Suede",
+        "Pulp"
+      ],
+      "answer": 1,
+      "fact": "Jonny Greenwood has said the harsh guitar crunches before the chorus were his attempt to spoil a song he did not like.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q07",
+      "prompt": "Michael Stipe was the singer of which band from Athens, Georgia?",
+      "choices": [
+        "The Replacements",
+        "Pixies",
+        "R.E.M.",
+        "Sonic Youth"
+      ],
+      "answer": 2,
+      "fact": "The band's 1983 debut album, Murmur, made them heroes of American college radio.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q08",
+      "prompt": "Which punk trio from the San Francisco Bay Area released the 1994 album Dookie?",
+      "choices": [
+        "Green Day",
+        "The Offspring",
+        "Rancid",
+        "Blink-182"
+      ],
+      "answer": 0,
+      "fact": "The band came up at 924 Gilman Street, an all-ages club in Berkeley run by volunteers.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q09",
+      "prompt": "Which Canadian singer released the 1995 album Jagged Little Pill?",
+      "choices": [
+        "Alanis Morissette",
+        "Sarah McLachlan",
+        "Shania Twain",
+        "Celine Dion"
+      ],
+      "answer": 0,
+      "fact": "She wrote the album with producer Glen Ballard, and it became one of the biggest-selling albums of the 1990s.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q10",
+      "prompt": "Spike Jonze's video for Weezer's \"Buddy Holly\" used footage from which TV show?",
+      "choices": [
+        "The Brady Bunch",
+        "Laverne and Shirley",
+        "Happy Days",
+        "Welcome Back, Kotter"
+      ],
+      "answer": 2,
+      "fact": "The video was included on the Windows 95 installation disc, which introduced the band to millions of computer users.",
+      "difficulty": 1
+    },
+    {
+      "id": "grunge-alt-q11",
+      "prompt": "The title \"Smells Like Teen Spirit\" came from graffiti about which product?",
+      "choices": [
+        "A perfume",
+        "A deodorant",
+        "A cigarette brand",
+        "A soft drink"
+      ],
+      "answer": 1,
+      "fact": "Kathleen Hanna of Bikini Kill wrote the words on Kurt Cobain's wall, and he reportedly did not know Teen Spirit was a deodorant.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q12",
+      "prompt": "In 1994 Pearl Jam took its dispute with which company to Congress?",
+      "choices": [
+        "MTV",
+        "Columbia Records",
+        "Clear Channel",
+        "Ticketmaster"
+      ],
+      "answer": 3,
+      "fact": "The band wanted to keep ticket prices low, and it cancelled a summer tour after the fight.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q13",
+      "prompt": "Who produced Nirvana's Nevermind?",
+      "choices": [
+        "Rick Rubin",
+        "Jack Endino",
+        "Steve Lillywhite",
+        "Butch Vig"
+      ],
+      "answer": 3,
+      "fact": "Vig later played drums in the band Garbage and also produced the Smashing Pumpkins' Siamese Dream.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q14",
+      "prompt": "Kurt Cobain said \"Smells Like Teen Spirit\" was his attempt to write a song in the style of which band?",
+      "choices": [
+        "Sonic Youth",
+        "The Pixies",
+        "Black Flag",
+        "The Replacements"
+      ],
+      "answer": 1,
+      "fact": "He said so in a 1994 interview with Rolling Stone, and the song's loud-quiet-loud structure is a trademark of the Boston band.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q15",
+      "prompt": "In 1995 the \"Battle of Britpop\" pitted Oasis against which band?",
+      "choices": [
+        "Suede",
+        "Pulp",
+        "Blur",
+        "Elastica"
+      ],
+      "answer": 2,
+      "fact": "Both bands released singles on the same day in August 1995, and the contest made front pages in Britain.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q16",
+      "prompt": "After Nirvana ended, Dave Grohl played nearly every instrument on which band's 1995 debut album?",
+      "choices": [
+        "Foo Fighters",
+        "Queens of the Stone Age",
+        "Eagles of Death Metal",
+        "Them Crooked Vultures"
+      ],
+      "answer": 0,
+      "fact": "Grohl first recorded the songs alone, and he then assembled a band to tour them.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q17",
+      "prompt": "Nirvana closed its 1993 MTV Unplugged set with a version of which song by a blues singer?",
+      "choices": [
+        "Where Did You Sleep Last Night",
+        "Cross Road Blues",
+        "Dust My Broom",
+        "Hoochie Coochie Man"
+      ],
+      "answer": 0,
+      "fact": "The song was a traditional folk number made famous by Lead Belly, and Cobain's performance ended the show.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q18",
+      "prompt": "Which instrument plays the riff in R.E.M.'s \"Losing My Religion\"?",
+      "choices": [
+        "Banjo",
+        "Ukulele",
+        "Mandolin",
+        "Dobro"
+      ],
+      "answer": 2,
+      "fact": "Peter Buck, who usually played guitar, had just learned the mandolin when he wrote the riff.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q19",
+      "prompt": "Johnny Cash recorded a 2002 cover of which Nine Inch Nails song?",
+      "choices": [
+        "Closer",
+        "Hurt",
+        "Head Like a Hole",
+        "March of the Pigs"
+      ],
+      "answer": 1,
+      "fact": "Trent Reznor wrote the song, and he said after hearing Cash's version that the song no longer felt like his.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q20",
+      "prompt": "Jeff Buckley, who recorded the 1994 album Grace, was the son of which folk singer?",
+      "choices": [
+        "Gram Parsons",
+        "Nick Drake",
+        "Phil Ochs",
+        "Tim Buckley"
+      ],
+      "answer": 3,
+      "fact": "Jeff had met his father only briefly, and Tim died in 1975 when his son was eight.",
+      "difficulty": 2
+    },
+    {
+      "id": "grunge-alt-q21",
+      "prompt": "Nirvana's 1989 debut Bleach cost roughly how much to record?",
+      "choices": [
+        "About $6,000",
+        "About $60,000",
+        "About $600,000",
+        "About $600"
+      ],
+      "answer": 3,
+      "fact": "Producer Jack Endino recorded it in a few days in Seattle, and the album was financed by Sub Pop.",
+      "difficulty": 3
+    },
+    {
+      "id": "grunge-alt-q22",
+      "prompt": "Pearl Jam's early name was inspired by which basketball player?",
+      "choices": [
+        "Spud Webb",
+        "Mookie Blaylock",
+        "Dominique Wilkins",
+        "Muggsy Bogues"
+      ],
+      "answer": 1,
+      "fact": "The band's debut, Ten, was named for Blaylock's jersey number, and the group changed its name when it signed a contract.",
+      "difficulty": 3
+    },
+    {
+      "id": "grunge-alt-q23",
+      "prompt": "Which engineer recorded Nirvana's 1993 album In Utero at a studio in Minnesota?",
+      "choices": [
+        "Andy Wallace",
+        "Butch Vig",
+        "Steve Albini",
+        "Jack Endino"
+      ],
+      "answer": 2,
+      "fact": "Albini asked to be paid a flat fee rather than royalties, and the record's rawer sound was deliberate.",
+      "difficulty": 3
+    },
+    {
+      "id": "grunge-alt-q24",
+      "prompt": "Which production duo co-produced Beck's 1996 album Odelay?",
+      "choices": [
+        "The Dust Brothers",
+        "The Neptunes",
+        "Stock Aitken Waterman",
+        "The Chemical Brothers"
+      ],
+      "answer": 0,
+      "fact": "The pair had also produced the Beastie Boys' Paul's Boutique, and Odelay mixes folk, hip-hop and noise.",
+      "difficulty": 3
+    },
+    {
+      "id": "grunge-alt-q25",
+      "prompt": "Pavement, whose debut was Slanted and Enchanted, formed in which California city?",
+      "choices": [
+        "Stockton",
+        "Berkeley",
+        "Sacramento",
+        "Fresno"
+      ],
+      "answer": 0,
+      "fact": "Stephen Malkmus and Scott Kannberg recorded early music at home, and the band became a cornerstone of American indie rock.",
+      "difficulty": 3
+    },
+    {
+      "id": "grunge-alt-q26",
+      "prompt": "Temple of the Dog was formed as a tribute to which Seattle singer?",
+      "choices": [
+        "Mark Lanegan",
+        "Mark Arm",
+        "Andrew Wood",
+        "Ben Shepherd"
+      ],
+      "answer": 2,
+      "fact": "Wood, who led Mother Love Bone, died in 1990, and the tribute brought together members of Soundgarden and the future Pearl Jam.",
+      "difficulty": 3
+    },
+    {
+      "id": "grunge-alt-q27",
+      "prompt": "The Cranberries' \"Zombie\" was written in response to a 1993 bombing in which English town?",
+      "choices": [
+        "Manchester",
+        "Warrington",
+        "Coventry",
+        "Birmingham"
+      ],
+      "answer": 1,
+      "fact": "The Limerick band's singer, Dolores O'Riordan, wrote the song after two boys died in the attack.",
+      "difficulty": 3
+    },
+    {
+      "id": "grunge-alt-q28",
+      "prompt": "Which former Pixies bassist formed the Breeders, who recorded \"Cannonball\"?",
+      "choices": [
+        "Kim Gordon",
+        "Tanya Donelly",
+        "Kristin Hersh",
+        "Kim Deal"
+      ],
+      "answer": 3,
+      "fact": "Her twin sister Kelley Deal played guitar in the Breeders, and the song appeared on the album Last Splash.",
+      "difficulty": 3
+    },
+    {
+      "id": "grunge-alt-q29",
+      "prompt": "Which producer worked with Radiohead on OK Computer in 1997?",
+      "choices": [
+        "Brian Eno",
+        "Daniel Lanois",
+        "Steve Lillywhite",
+        "Nigel Godrich"
+      ],
+      "answer": 3,
+      "fact": "Godrich went on to produce most of Radiohead's later albums.",
+      "difficulty": 3
+    },
+    {
+      "id": "grunge-alt-q30",
+      "prompt": "Which 1992 Cameron Crowe film set in Seattle's music scene featured appearances by Pearl Jam and Soundgarden?",
+      "choices": [
+        "Reality Bites",
+        "Singles",
+        "Clerks",
+        "Empire Records"
+      ],
+      "answer": 1,
+      "fact": "The film came out in 1992, after Nevermind had topped the chart, and its soundtrack helped cement the Seattle sound.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "grunge-alt-s01",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "year": 1991,
+      "album": "Nevermind",
+      "note": "Cobain said he was trying to write a song in the style of the Pixies."
+    },
+    {
+      "id": "grunge-alt-s02",
+      "title": "Black Hole Sun",
+      "artist": "Soundgarden",
+      "year": 1994,
+      "album": "Superunknown",
+      "note": "Chris Cornell wrote the song, and its surreal video became an MTV staple."
+    },
+    {
+      "id": "grunge-alt-s03",
+      "title": "Alive",
+      "artist": "Pearl Jam",
+      "year": 1991,
+      "album": "Ten",
+      "note": "Eddie Vedder wrote the words after receiving instrumental demos from his future bandmates."
+    },
+    {
+      "id": "grunge-alt-s04",
+      "title": "Man in the Box",
+      "artist": "Alice in Chains",
+      "year": 1990,
+      "album": "Facelift",
+      "note": "Jerry Cantrell's guitar uses a talk box for its vowel-like sound."
+    },
+    {
+      "id": "grunge-alt-s05",
+      "title": "Losing My Religion",
+      "artist": "R.E.M.",
+      "year": 1991,
+      "album": "Out of Time",
+      "note": "Peter Buck's mandolin riff drives the song."
+    },
+    {
+      "id": "grunge-alt-s06",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "year": 1992,
+      "album": "Pablo Honey",
+      "note": "Jonny Greenwood's harsh guitar crunches arrive just before each chorus."
+    },
+    {
+      "id": "grunge-alt-s07",
+      "title": "Today",
+      "artist": "The Smashing Pumpkins",
+      "year": 1993,
+      "album": "Siamese Dream",
+      "note": "Butch Vig produced the album, which brought the band wide attention."
+    },
+    {
+      "id": "grunge-alt-s08",
+      "title": "Basket Case",
+      "artist": "Green Day",
+      "year": 1994,
+      "album": "Dookie",
+      "note": "Billie Joe Armstrong has said he wrote it about his panic attacks."
+    },
+    {
+      "id": "grunge-alt-s09",
+      "title": "You Oughta Know",
+      "artist": "Alanis Morissette",
+      "year": 1995,
+      "album": "Jagged Little Pill",
+      "note": "Flea of the Red Hot Chili Peppers played bass on the recording."
+    },
+    {
+      "id": "grunge-alt-s10",
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "year": 1994,
+      "album": "No Need to Argue",
+      "note": "Dolores O'Riordan wrote the song about the 1993 Warrington bombing."
+    },
+    {
+      "id": "grunge-alt-s11",
+      "title": "Cannonball",
+      "artist": "The Breeders",
+      "year": 1993,
+      "album": "Last Splash",
+      "note": "Kim Deal had earlier played bass in the Pixies."
+    },
+    {
+      "id": "grunge-alt-s12",
+      "title": "Buddy Holly",
+      "artist": "Weezer",
+      "year": 1994,
+      "album": "Weezer",
+      "note": "The video put the band into an episode of Happy Days."
+    },
+    {
+      "id": "grunge-alt-s13",
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "year": 1995,
+      "album": "(What's the Story) Morning Glory?",
+      "note": "Noel Gallagher wrote the song, and his brother Liam sang it."
+    },
+    {
+      "id": "grunge-alt-s14",
+      "title": "Where Is My Mind?",
+      "artist": "Pixies",
+      "year": 1988,
+      "album": "Surfer Rosa",
+      "note": "It closed the 1999 film Fight Club, which introduced it to a new generation."
+    },
+    {
+      "id": "grunge-alt-s15",
+      "title": "Hurt",
+      "artist": "Nine Inch Nails",
+      "year": 1994,
+      "album": "The Downward Spiral",
+      "note": "Johnny Cash recorded a famous cover in 2002."
+    },
+    {
+      "id": "grunge-alt-s16",
+      "title": "Last Goodbye",
+      "artist": "Jeff Buckley",
+      "year": 1994,
+      "album": "Grace",
+      "note": "Buckley recorded his only finished studio album with a small band."
+    }
+  ],
+  "stories": [
+    {
+      "id": "grunge-alt-st1",
+      "title": "Sub Pop and the Seattle Sound",
+      "dek": "A tiny label, a rainy city and a very cheap album",
+      "year": 1988,
+      "body": "In the 1980s Seattle was far from the centers of the American music business. It was gray, damp and remote, and bands there could play for years without anyone from a major label noticing. That isolation helped. Musicians developed their own sound, a thick mix of punk speed, heavy-metal weight and noisy guitars, and they did not much care what the rest of the country thought.\n\nTwo people helped give it a name. Bruce Pavitt began as a college-radio host and fanzine writer, and he called his publication Subterranean Pop. In 1986 he teamed up with Jonathan Poneman, and they turned the idea into a record label, Sub Pop. They signed local bands and sold singles by mail through a club. The label hyped the scene in press releases, and British journalists began to write about Seattle as if something new were happening.\n\nAmong the early acts were Soundgarden and Mudhoney. Another was a trio from Aberdeen, Washington, that called itself Nirvana. Its first Sub Pop single, \"Love Buzz,\" came out in 1988. The following year Sub Pop released the band's first album, Bleach, which was recorded by Jack Endino in a few days for about six hundred dollars. It sold modestly at first, but it showed that the band could write.\n\nMeanwhile other Seattle groups were growing. Members of the late Andrew Wood's band Mother Love Bone, who had lost their singer to an overdose in 1990, regrouped and found a new vocalist from San Diego, Eddie Vedder. They became Pearl Jam. Chris Cornell of Soundgarden, a friend of Wood, led a tribute project with them called Temple of the Dog. Alice in Chains, with a darker, heavier sound, signed to a major label.\n\nNirvana moved to a major, DGC, and in September 1991 released Nevermind. It was supposed to be a modest success. Instead, \"Smells Like Teen Spirit\" became an anthem, and in January 1992 the album knocked Michael Jackson's Dangerous from the top of the American chart. Seattle was suddenly the center of rock, and the clothes its bands wore, flannel shirts and old jeans, appeared in fashion shows.\n\nMany of the musicians were uncomfortable with the fame. But the music they made had changed what mainstream rock sounded like, and it all began with a small label in a rainy city that no one had expected to matter.",
+      "songs": [
+        "grunge-alt-s01",
+        "grunge-alt-s03",
+        "grunge-alt-s04"
+      ]
+    },
+    {
+      "id": "grunge-alt-st2",
+      "title": "Smells Like Teen Spirit",
+      "dek": "A graffiti slogan and an attempt to write a Pixies song",
+      "year": 1991,
+      "body": "By the summer of 1991 Nirvana had finished the songs for its first major-label album. The band had come together in Aberdeen and moved to Olympia, and now it was in Los Angeles. The producer was Butch Vig, who had worked with underground bands in Wisconsin, and the recording took place at Sound City Studios in Van Nuys. Kurt Cobain had written a song that he thought of as a pop tune, built on a loud, simple riff.\n\nHe took the title from a bit of graffiti. One night Kathleen Hanna, the singer of the band Bikini Kill, spray-painted on his wall the words \"Kurt smells like Teen Spirit.\" She was teasing him that he smelled like the deodorant his girlfriend, Tobi Vail, wore. Cobain apparently thought the phrase had a revolutionary ring and did not realize Teen Spirit was a deodorant until later.\n\nHe said in a 1994 interview with Rolling Stone that he was trying to write the ultimate pop song, and that he was ripping off the Pixies, a Boston band he loved. The Pixies were known for songs that went from soft to explosive, and the verse and chorus of \"Teen Spirit\" use the same trick. The quiet verse, the loud chorus and the guitar sound that Vig and mixer Andy Wallace polished gave the song its punch.\n\nThe video was staged in a school gym by director Samuel Bayer. Cobain wanted a pep rally gone wrong, with cheerleaders carrying anarchy symbols and a crowd that moves from boredom to a mosh pit. MTV played it constantly. Almost overnight, the song became the sound of a generation to many listeners, and a mark of what later was called grunge.\n\nCobain was not comfortable with the praise. He thought the riff sounded too much like the Boston song \"More Than a Feeling,\" and he grew tired of playing it on stage. Even so, the song proved a lasting one. It has been covered, parodied and played at stadiums for decades. It also helped make Nevermind a landmark, and it came from a song that its writer thought of, at least partly, as an imitation.",
+      "songs": [
+        "grunge-alt-s01"
+      ]
+    },
+    {
+      "id": "grunge-alt-st3",
+      "title": "The Battle of Britpop",
+      "dek": "Two bands, one August week and a nation taking sides",
+      "year": 1995,
+      "body": "In the early 1990s British guitar music looked to many people like a stale copy of American grunge. Then a wave of bands began to sing about English life with English accents. Blur, from London, wrote clever songs about suburban characters. Oasis, from Manchester, wrote broad, swaggering anthems about getting out. Pulp and Suede joined them. The press named the movement Britpop.\n\nOasis was built around brothers Noel and Liam Gallagher. Noel wrote the songs, and Liam sang them with a snarl. Their debut, Definitely Maybe, came out in 1994 and made them stars. Rivalry grew, with each band's fans choosing a side. Blur seemed southern and middle class, Oasis northern and working class, and the press loved the story.\n\nIn August 1995 both bands decided to release a single on the same day, August 14. Blur's was \"Country House.\" Oasis offered \"Roll with It.\" The contest was covered on the evening news, and newspapers ran front-page stories. Blur won the week, outselling Oasis by a clear margin. But the victory proved a partial one. Within weeks Oasis released a second album, (What's the Story) Morning Glory?, which went on to sell many millions of copies and overshadowed Blur's.\n\nThe record included \"Wonderwall,\" a song Noel Gallagher wrote. It became one of the band's best-known tracks, and Noel has said he grew to dislike it as it was played so often. Liam sang it with a calm, rough voice over strummed acoustic guitars and a cello line. It was heard in pubs, on radio and on the street everywhere in Britain and beyond.\n\nThe feud faded, and by the end of the decade both bands had moved on. Blur experimented with American indie rock, and Oasis kept filling stadiums. Yet the rivalry had made the music a national event, and both bands' best songs from those years remain popular. For one week in 1995, a pair of singles had briefly seemed more important than almost anything else in the country.",
+      "songs": [
+        "grunge-alt-s13"
+      ]
+    }
+  ]
+}

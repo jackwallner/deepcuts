@@ -1,0 +1,562 @@
+{
+  "id": "hip-hop",
+  "name": "Hip-Hop",
+  "blurb": "From Bronx block parties to the charts: how rap and turntables changed pop.",
+  "era": "1979-2005",
+  "questions": [
+    {
+      "id": "hip-hop-q01",
+      "prompt": "Which New York borough is regarded as the birthplace of hip-hop?",
+      "choices": [
+        "The Bronx",
+        "Brooklyn",
+        "Queens",
+        "Staten Island"
+      ],
+      "answer": 0,
+      "fact": "DJ Kool Herc threw an influential party at 1520 Sedgwick Avenue in August 1973, and many people date the movement from it.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q02",
+      "prompt": "Which 1979 single by the Sugarhill Gang introduced many Americans to rap on the radio?",
+      "choices": [
+        "The Breaks",
+        "Planet Rock",
+        "Rapper's Delight",
+        "The Message"
+      ],
+      "answer": 2,
+      "fact": "Record executive Sylvia Robinson put the trio together, and the track runs more than ten minutes in its full version.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q03",
+      "prompt": "Which trio from Hollis, Queens, made the 1986 album Raising Hell?",
+      "choices": [
+        "Public Enemy",
+        "Run-DMC",
+        "The Fat Boys",
+        "Whodini"
+      ],
+      "answer": 1,
+      "fact": "Their song \"My Adidas\" led to a real endorsement deal with the sportswear company.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q04",
+      "prompt": "Which trio's 1986 debut, Licensed to Ill, included \"Fight for Your Right\"?",
+      "choices": [
+        "3rd Bass",
+        "House of Pain",
+        "Cypress Hill",
+        "The Beastie Boys"
+      ],
+      "answer": 3,
+      "fact": "The group began as a hardcore punk band in New York in the early 1980s.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q05",
+      "prompt": "Which group, from Compton, California, released Straight Outta Compton in 1988?",
+      "choices": [
+        "Cypress Hill",
+        "Public Enemy",
+        "Compton's Most Wanted",
+        "N.W.A"
+      ],
+      "answer": 3,
+      "fact": "The members included Dr. Dre, Ice Cube, Eazy-E, MC Ren and DJ Yella.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q06",
+      "prompt": "Which Brooklyn rapper released the 1994 album Ready to Die?",
+      "choices": [
+        "Jay-Z",
+        "The Notorious B.I.G.",
+        "Nas",
+        "Big Daddy Kane"
+      ],
+      "answer": 1,
+      "fact": "The album came out on Sean Combs's Bad Boy Records, and the rapper's real name was Christopher Wallace.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q07",
+      "prompt": "Which rapper had a 2002 hit with \"Lose Yourself\" from the film 8 Mile?",
+      "choices": [
+        "50 Cent",
+        "Dr. Dre",
+        "Eminem",
+        "Ludacris"
+      ],
+      "answer": 2,
+      "fact": "The song won the Academy Award for Best Original Song.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q08",
+      "prompt": "Which rapper, born in New York City, recorded \"California Love\" with Dr. Dre?",
+      "choices": [
+        "2Pac",
+        "Snoop Dogg",
+        "Ice Cube",
+        "Warren G"
+      ],
+      "answer": 0,
+      "fact": "Tupac Shakur was born in East Harlem, and he later moved to California.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q09",
+      "prompt": "Which group, led by Chuck D and Flavor Flav, released \"Fight the Power\" in 1989?",
+      "choices": [
+        "Public Enemy",
+        "Run-DMC",
+        "A Tribe Called Quest",
+        "De La Soul"
+      ],
+      "answer": 0,
+      "fact": "The song was written for Spike Lee's film Do the Right Thing.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q10",
+      "prompt": "Which Atlanta duo of Big Boi and Andre 3000 won the 2004 Grammy for Album of the Year?",
+      "choices": [
+        "Goodie Mob",
+        "Ying Yang Twins",
+        "OutKast",
+        "UGK"
+      ],
+      "answer": 2,
+      "fact": "The winning album was Speakerboxxx/The Love Below, which includes the hit \"Hey Ya!\"",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q11",
+      "prompt": "The technique of moving a record back and forth under the needle to make rhythmic sounds is called what?",
+      "choices": [
+        "Cutting",
+        "Scratching",
+        "Spinning",
+        "Dubbing"
+      ],
+      "answer": 1,
+      "fact": "Grand Wizzard Theodore, a teenager in the Bronx, is often credited with discovering it in the 1970s.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q12",
+      "prompt": "What is the title of the 1982 Grandmaster Flash and the Furious Five hit that described life in the inner city?",
+      "choices": [
+        "White Lines",
+        "Freedom",
+        "Scorpio",
+        "The Message"
+      ],
+      "answer": 3,
+      "fact": "Duke Bootee and Melle Mel wrote it, and its bleak picture of city life was a sensation.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q13",
+      "prompt": "Which label did Rick Rubin and Russell Simmons found in 1984, starting in Rubin's college dorm room?",
+      "choices": [
+        "Sugar Hill",
+        "Tommy Boy",
+        "Profile",
+        "Def Jam"
+      ],
+      "answer": 3,
+      "fact": "The label's early acts included LL Cool J, the Beastie Boys and Public Enemy.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q14",
+      "prompt": "The Wu-Tang Clan, who recorded \"C.R.E.A.M.,\" call which New York borough Shaolin?",
+      "choices": [
+        "Brooklyn",
+        "Staten Island",
+        "Queens",
+        "The Bronx"
+      ],
+      "answer": 1,
+      "fact": "The group took its name and style partly from Hong Kong martial-arts films.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q15",
+      "prompt": "Dr. Dre's 1992 album The Chronic drew heavily on the sound of which funk collective?",
+      "choices": [
+        "Kool & the Gang",
+        "Earth, Wind & Fire",
+        "Parliament-Funkadelic",
+        "Chic"
+      ],
+      "answer": 2,
+      "fact": "The resulting laid-back, synthesizer-heavy style became known as G-funk.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q16",
+      "prompt": "A Tribe Called Quest's \"Can I Kick It?\" is built on a sample from which Lou Reed song?",
+      "choices": [
+        "Walk on the Wild Side",
+        "Perfect Day",
+        "Satellite of Love",
+        "Sweet Jane"
+      ],
+      "answer": 0,
+      "fact": "The Queens group's jazzy, relaxed style set it apart from the harder sound of the time.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q17",
+      "prompt": "Run-DMC's 1986 hit \"Walk This Way\" was a remake of a 1975 song by which rock band?",
+      "choices": [
+        "Aerosmith",
+        "Led Zeppelin",
+        "Kiss",
+        "Van Halen"
+      ],
+      "answer": 0,
+      "fact": "Steven Tyler and Joe Perry joined Run-DMC for the recording, and the collaboration helped revive Aerosmith's career.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q18",
+      "prompt": "What do the letters LL stand for in LL Cool J's stage name?",
+      "choices": [
+        "Local Legend",
+        "Little Lion",
+        "Ladies Love",
+        "Long Lasting"
+      ],
+      "answer": 2,
+      "fact": "The rapper was born James Todd Smith in Queens, and he signed to Def Jam as a teenager.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q19",
+      "prompt": "Which Salt-N-Pepa song of 1987 began life as a B-side?",
+      "choices": [
+        "Shoop",
+        "Push It",
+        "Whatta Man",
+        "Let's Talk About Sex"
+      ],
+      "answer": 1,
+      "fact": "DJs began playing the B-side, and it turned the trio into stars.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q20",
+      "prompt": "Which N.W.A member left the group in 1989 over money and released AmeriKKKa's Most Wanted in 1990?",
+      "choices": [
+        "Eazy-E",
+        "MC Ren",
+        "Dr. Dre",
+        "Ice Cube"
+      ],
+      "answer": 3,
+      "fact": "Dr. Dre left in 1991 and co-founded Death Row Records.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q21",
+      "prompt": "DJ Kool Herc, who helped start hip-hop in the Bronx, was born in which country?",
+      "choices": [
+        "Trinidad",
+        "Barbados",
+        "Cuba",
+        "Jamaica"
+      ],
+      "answer": 3,
+      "fact": "He brought the Jamaican sound-system tradition with him when he moved to New York as a boy.",
+      "difficulty": 3
+    },
+    {
+      "id": "hip-hop-q22",
+      "prompt": "Public Enemy's dense, layered productions were created by a team known as what?",
+      "choices": [
+        "The Hit Squad",
+        "The Bomb Squad",
+        "The Neptunes",
+        "The Dust Brothers"
+      ],
+      "answer": 1,
+      "fact": "The Bomb Squad built tracks from dozens of small samples, which made Public Enemy's records sound urgent.",
+      "difficulty": 3
+    },
+    {
+      "id": "hip-hop-q23",
+      "prompt": "Which poet and musician's 1970 spoken-word piece \"The Revolution Will Not Be Televised\" is often cited as an influence on rap?",
+      "choices": [
+        "Amiri Baraka",
+        "Langston Hughes",
+        "Gil Scott-Heron",
+        "Maya Angelou"
+      ],
+      "answer": 2,
+      "fact": "Scott-Heron performed over spare conga and bass accompaniment, and he later recorded for Arista.",
+      "difficulty": 3
+    },
+    {
+      "id": "hip-hop-q24",
+      "prompt": "The Notorious B.I.G.'s \"Juicy\" samples which R&B group's \"Juicy Fruit\"?",
+      "choices": [
+        "Mtume",
+        "The Gap Band",
+        "Cameo",
+        "Zapp"
+      ],
+      "answer": 0,
+      "fact": "Mtume's slow, smooth 1983 song supplies the track's hook.",
+      "difficulty": 3
+    },
+    {
+      "id": "hip-hop-q25",
+      "prompt": "Coolio's \"Gangsta's Paradise\" builds on which Stevie Wonder song?",
+      "choices": [
+        "Pastime Paradise",
+        "Living for the City",
+        "Superstition",
+        "As"
+      ],
+      "answer": 0,
+      "fact": "Wonder reportedly agreed to the sample only after the lyrics were changed to remove profanity.",
+      "difficulty": 3
+    },
+    {
+      "id": "hip-hop-q26",
+      "prompt": "Which record executive passed Eminem's demo tape to Dr. Dre?",
+      "choices": [
+        "Russell Simmons",
+        "Sean Combs",
+        "Jimmy Iovine",
+        "Suge Knight"
+      ],
+      "answer": 2,
+      "fact": "Dre has said he was struck by the tape immediately, and he went on to produce much of Eminem's early work.",
+      "difficulty": 3
+    },
+    {
+      "id": "hip-hop-q27",
+      "prompt": "Before his own albums, Kanye West produced tracks for which rapper's 2001 album The Blueprint?",
+      "choices": [
+        "Nas",
+        "Jay-Z",
+        "Ludacris",
+        "DMX"
+      ],
+      "answer": 1,
+      "fact": "West's soulful, sped-up samples helped define the album's sound.",
+      "difficulty": 3
+    },
+    {
+      "id": "hip-hop-q28",
+      "prompt": "OutKast's \"Ms. Jackson\" was inspired by the mother of which singer?",
+      "choices": [
+        "Lauryn Hill",
+        "Mary J. Blige",
+        "Macy Gray",
+        "Erykah Badu"
+      ],
+      "answer": 3,
+      "fact": "Andre 3000 wrote the song after the end of his relationship with Badu, with whom he had a son.",
+      "difficulty": 3
+    },
+    {
+      "id": "hip-hop-q29",
+      "prompt": "Jay-Z grew up in which Brooklyn housing project?",
+      "choices": [
+        "Queensbridge Houses",
+        "Red Hook Houses",
+        "Brownsville Houses",
+        "Marcy Houses"
+      ],
+      "answer": 3,
+      "fact": "The Marcy Houses are in the Bedford-Stuyvesant neighborhood, and he refers to the place often in his songs.",
+      "difficulty": 3
+    },
+    {
+      "id": "hip-hop-q30",
+      "prompt": "Sugar Hill Records founder Sylvia Robinson had a 1973 hit as a singer with which song?",
+      "choices": [
+        "Love to Love You Baby",
+        "Pillow Talk",
+        "Me and Mrs. Jones",
+        "Let's Get It On"
+      ],
+      "answer": 1,
+      "fact": "She founded the label after a career in R&B, and \"Rapper's Delight\" was among its first releases.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "hip-hop-s01",
+      "title": "Rapper's Delight",
+      "artist": "The Sugarhill Gang",
+      "year": 1979,
+      "album": "Sugarhill Gang",
+      "note": "Sylvia Robinson assembled the trio, and a studio band replayed a Chic bassline."
+    },
+    {
+      "id": "hip-hop-s02",
+      "title": "The Message",
+      "artist": "Grandmaster Flash and the Furious Five",
+      "year": 1982,
+      "album": "The Message",
+      "note": "Duke Bootee and Melle Mel wrote this bleak portrait of city life."
+    },
+    {
+      "id": "hip-hop-s03",
+      "title": "Planet Rock",
+      "artist": "Afrika Bambaataa and the Soulsonic Force",
+      "year": 1982,
+      "album": "Planet Rock",
+      "note": "The track borrowed electronic sounds from the German band Kraftwerk."
+    },
+    {
+      "id": "hip-hop-s04",
+      "title": "My Adidas",
+      "artist": "Run-DMC",
+      "year": 1986,
+      "album": "Raising Hell",
+      "note": "The song led to a real endorsement deal with the sportswear company."
+    },
+    {
+      "id": "hip-hop-s05",
+      "title": "Fight for Your Right",
+      "artist": "Beastie Boys",
+      "year": 1986,
+      "album": "Licensed to Ill",
+      "note": "Rick Rubin produced the record."
+    },
+    {
+      "id": "hip-hop-s06",
+      "title": "Fight the Power",
+      "artist": "Public Enemy",
+      "year": 1989,
+      "album": "Fear of a Black Planet",
+      "note": "The song was written for Spike Lee's Do the Right Thing."
+    },
+    {
+      "id": "hip-hop-s07",
+      "title": "Straight Outta Compton",
+      "artist": "N.W.A",
+      "year": 1988,
+      "album": "Straight Outta Compton",
+      "note": "The title track introduced the group to a national audience."
+    },
+    {
+      "id": "hip-hop-s08",
+      "title": "Mama Said Knock You Out",
+      "artist": "LL Cool J",
+      "year": 1990,
+      "album": "Mama Said Knock You Out",
+      "note": "Marley Marl produced the comeback record."
+    },
+    {
+      "id": "hip-hop-s09",
+      "title": "Nuthin' but a \"G\" Thang",
+      "artist": "Dr. Dre featuring Snoop Doggy Dogg",
+      "year": 1992,
+      "album": "The Chronic",
+      "note": "The track samples a 1975 song by Leon Haywood."
+    },
+    {
+      "id": "hip-hop-s10",
+      "title": "C.R.E.A.M.",
+      "artist": "Wu-Tang Clan",
+      "year": 1993,
+      "album": "Enter the Wu-Tang (36 Chambers)",
+      "note": "The title stands for Cash Rules Everything Around Me."
+    },
+    {
+      "id": "hip-hop-s11",
+      "title": "Juicy",
+      "artist": "The Notorious B.I.G.",
+      "year": 1994,
+      "album": "Ready to Die",
+      "note": "The song tells the rapper's rise from hard times to success."
+    },
+    {
+      "id": "hip-hop-s12",
+      "title": "California Love",
+      "artist": "2Pac featuring Dr. Dre",
+      "year": 1995,
+      "album": "All Eyez on Me",
+      "note": "Roger Troutman of Zapp sings through a talk box on the track."
+    },
+    {
+      "id": "hip-hop-s13",
+      "title": "Ms. Jackson",
+      "artist": "OutKast",
+      "year": 2000,
+      "album": "Stankonia",
+      "note": "Andre 3000 wrote the song as an apology to the mother of his ex-girlfriend."
+    },
+    {
+      "id": "hip-hop-s14",
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "year": 2002,
+      "album": "8 Mile: Music from and Inspired by the Motion Picture",
+      "note": "Eminem reportedly wrote some of the lyrics on set between takes."
+    },
+    {
+      "id": "hip-hop-s15",
+      "title": "Jesus Walks",
+      "artist": "Kanye West",
+      "year": 2004,
+      "album": "The College Dropout",
+      "note": "Radio programmers were wary of the subject, but the song won a Grammy."
+    },
+    {
+      "id": "hip-hop-s16",
+      "title": "Hard Knock Life (Ghetto Anthem)",
+      "artist": "Jay-Z",
+      "year": 1998,
+      "album": "Vol. 2... Hard Knock Life",
+      "note": "The track samples the song from the musical Annie."
+    }
+  ],
+  "stories": [
+    {
+      "id": "hip-hop-st1",
+      "title": "A Party in the Bronx",
+      "dek": "Two turntables, a back-to-school dance and a new music",
+      "year": 1973,
+      "body": "In the early 1970s the South Bronx was a place of hardship. Fires had destroyed whole blocks, the Cross Bronx Expressway had cut through old neighborhoods, and many families were struggling. Young people had few places to go. But they had music, and they had each other.\n\nOn August 11, 1973, a teenager named Clive Campbell, who went by the name DJ Kool Herc, helped his sister Cindy throw a back-to-school party in the recreation room of their apartment building at 1520 Sedgwick Avenue. Campbell had been born in Jamaica and moved to the Bronx as a boy. He brought with him the idea of the sound system, a powerful setup that Jamaican DJs used for street parties. He had two turntables and a big speaker rig.\n\nHerc noticed something about the records he played. The part dancers liked most was the short instrumental \"break,\" where the vocals dropped out and the drums took over. He found that with two copies of the same record he could switch back and forth and extend the break as long as he liked. He called the dancers who waited for it \"break-boys,\" a name that gave rise to breakdancing. Herc also spoke over the music, calling out names and rhythms. That was the beginning of rapping.\n\nOthers took up the idea. Afrika Bambaataa, a former gang member, formed the Universal Zulu Nation to steer young people toward music and dance. Grandmaster Flash perfected a style of quick mixing, and his friends took turns at the microphone. Grand Wizzard Theodore, a teenager, is often credited with discovering scratching.\n\nFor years the music stayed local. In 1979 a New Jersey record executive, Sylvia Robinson, put together a group called the Sugarhill Gang for \"Rapper's Delight.\" It was a hit and showed that the sound could sell. In 1982 Afrika Bambaataa's \"Planet Rock,\" which used electronic sounds borrowed from the German band Kraftwerk, brought hip-hop together with synthesizers.\n\nWhat started in a Bronx rec room became a worldwide art form. The party on Sedgwick Avenue is often celebrated as its birthday, and New York State later recognized the building as a historic site.",
+      "songs": [
+        "hip-hop-s01",
+        "hip-hop-s03"
+      ]
+    },
+    {
+      "id": "hip-hop-st2",
+      "title": "Walk This Way",
+      "dek": "A rock band, a rap group and a wall that fell",
+      "year": 1986,
+      "body": "By 1986 Run-DMC was one of the most successful rap groups in America. Joseph \"Run\" Simmons, Darryl \"DMC\" McDaniels and Jason \"Jam Master Jay\" Mizell came from Hollis, Queens. They wore black hats, leather jackets and Adidas sneakers without laces. Their records on Def Jam, such as \"Rock Box,\" had already shown that rap and rock guitars could work together.\n\nProducer Rick Rubin had an idea. He was a fan of both rock and rap, and he wanted to put them together. He suggested that the group record \"Walk This Way,\" an Aerosmith song from 1975. Run and DMC did not know the lyrics well. They have said they thought the words were strange and were reluctant at first. But Jam Master Jay had been playing the song's opening drum beat as a DJ, and he understood why it worked.\n\nRubin invited the members of Aerosmith, Steven Tyler and Joe Perry, to the studio. At that point the band's career was in a slump. Perry's guitar and Tyler's voice, set against the rappers, gave the new version a punch that neither side could have produced alone. The result was a hit, and the video made it a landmark. In it, Run-DMC and Aerosmith perform in adjoining rooms until Tyler, singing, breaks through the wall that separates them.\n\nThe video was played constantly on MTV, which had been slow to show rap. Suddenly it gave the music a huge new audience. Many rock fans first heard hip-hop through that clip. For Aerosmith, it started a comeback that continued with their 1987 album Permanent Vacation.\n\nThe same year, Run-DMC released the album Raising Hell, which also included \"My Adidas.\" The song was so popular that the sportswear company signed the group to an endorsement deal, an unusual step for a rap act at the time.\n\nThe collaboration crossed a line that many had thought uncrossable. Rock and rap, once seen as opposites, shared a sense of attitude and noise. After \"Walk This Way,\" groups of all kinds mixed the two, and the combination has never stopped being used.",
+      "songs": [
+        "hip-hop-s04"
+      ]
+    },
+    {
+      "id": "hip-hop-st3",
+      "title": "Straight Outta Compton",
+      "dek": "A record the radio would not play and a letter from the FBI",
+      "year": 1988,
+      "body": "In the late 1980s Compton, a city in Los Angeles County, was known for gang violence and tough living. Five young men there, Dr. Dre, Ice Cube, Eazy-E, MC Ren and DJ Yella, formed a group called N.W.A. They wanted to describe what they saw, without softening it.\n\nEazy-E put up the money to start Ruthless Records. Dr. Dre produced the music, and Ice Cube wrote many of the lyrics. In 1988 they released the album Straight Outta Compton. Its title track introduced the group to a national audience, with hard-edged beats and unflinching words about police and street life. Another song, an angry protest about police treatment of young Black men, drew the most attention.\n\nThe record received almost no radio play, and MTV did not show the group's videos. Yet it sold more than a million copies, mostly through word of mouth and in stores. Teenagers across the country, many of whom had never been to Los Angeles, bought it. In August 1989 an official at the FBI wrote a letter to the group's record company expressing concern about the song. The letter was widely reported, and it did more to publicize the album than any advertisement could.\n\nThe group did not last. In 1989 Ice Cube left over money and began a solo career, releasing AmeriKKKa's Most Wanted in 1990. Dr. Dre left in 1991 after disputes and co-founded Death Row Records. Eazy-E died of complications from AIDS in 1995.\n\nDr. Dre's next move changed rap again. His 1992 album The Chronic introduced a smoother, more melodic style built on the sounds of Parliament-Funkadelic. It was called G-funk. The single \"Nuthin' but a 'G' Thang,\" with a young rapper named Snoop Doggy Dogg, became a hit and made West Coast hip-hop a national force.\n\nN.W.A's first album remains a milestone. It showed that a rap record could succeed without help from the usual gatekeepers, and for a time it shifted the center of hip-hop from New York toward Los Angeles.",
+      "songs": [
+        "hip-hop-s07",
+        "hip-hop-s09"
+      ]
+    }
+  ]
+}

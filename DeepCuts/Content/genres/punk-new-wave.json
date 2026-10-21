@@ -1,0 +1,561 @@
+{
+  "id": "punk-new-wave",
+  "name": "Punk & New Wave",
+  "blurb": "Three chords, safety pins and the skinny-tie sounds that shook up the late '70s.",
+  "era": "1975-1985",
+  "questions": [
+    {
+      "id": "punk-new-wave-q01",
+      "prompt": "Which New York borough did the Ramones come from?",
+      "choices": [
+        "Queens",
+        "Brooklyn",
+        "The Bronx",
+        "Staten Island"
+      ],
+      "answer": 0,
+      "fact": "The four members of the band, from Forest Hills, all took the stage surname Ramone, though none of them were related.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q02",
+      "prompt": "Which Bowery club, whose name stood for country, bluegrass and blues, launched the Ramones, Television and Blondie?",
+      "choices": [
+        "Max's Kansas City",
+        "The Mudd Club",
+        "CBGB",
+        "Studio 54"
+      ],
+      "answer": 2,
+      "fact": "Owner Hilly Kristal had planned to book country acts, but he ended up hosting the bands that built New York punk.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q03",
+      "prompt": "Which British band, managed by Malcolm McLaren, released \"God Save the Queen\" in the week of the 1977 Silver Jubilee?",
+      "choices": [
+        "The Clash",
+        "The Sex Pistols",
+        "The Damned",
+        "The Stranglers"
+      ],
+      "answer": 1,
+      "fact": "The BBC refused to play the song, and the band performed it on a boat on the Thames until police ended the party.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q04",
+      "prompt": "Which band, fronted by Debbie Harry, had hits with \"Heart of Glass\" and \"Call Me\"?",
+      "choices": [
+        "The Pretenders",
+        "The Go-Go's",
+        "Talking Heads",
+        "Blondie"
+      ],
+      "answer": 3,
+      "fact": "\"Heart of Glass\" began in 1975 as a slower demo called \"Once I Had a Love\" before the band gave it a disco beat.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q05",
+      "prompt": "In the 1984 concert film Stop Making Sense, David Byrne wears an enormous what?",
+      "choices": [
+        "Hat",
+        "Raincoat",
+        "Cape",
+        "Suit"
+      ],
+      "answer": 3,
+      "fact": "Jonathan Demme filmed Talking Heads at the Pantages Theatre in Hollywood, and the oversized suit became the film's best-known image.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q06",
+      "prompt": "Which Police frontman got his nickname from a black-and-yellow striped sweater?",
+      "choices": [
+        "Bono",
+        "Sting",
+        "Adam Ant",
+        "Elvis Costello"
+      ],
+      "answer": 1,
+      "fact": "Gordon Sumner wore the sweater in his jazz-band days, and a bandleader said it made him look like a wasp.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q07",
+      "prompt": "Which duo of Annie Lennox and Dave Stewart sang \"Sweet Dreams (Are Made of This)\"?",
+      "choices": [
+        "Tears for Fears",
+        "Soft Cell",
+        "Eurythmics",
+        "Pet Shop Boys"
+      ],
+      "answer": 2,
+      "fact": "Lennox and Stewart had earlier been in a band called the Tourists before forming their synthesizer-driven duo.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q08",
+      "prompt": "Which British band recorded the 1979 double album London Calling?",
+      "choices": [
+        "The Clash",
+        "The Jam",
+        "The Buzzcocks",
+        "The Specials"
+      ],
+      "answer": 0,
+      "fact": "Producer Guy Stevens was famous for eccentric studio methods, and the album mixed punk with reggae, rockabilly and ska.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q09",
+      "prompt": "Which American-born singer fronts the British band the Pretenders?",
+      "choices": [
+        "Chrissie Hynde",
+        "Siouxsie Sioux",
+        "Patti Smith",
+        "Pat Benatar"
+      ],
+      "answer": 0,
+      "fact": "Hynde grew up in Akron, Ohio, moved to London in 1973, and formed the Pretenders in 1978.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q10",
+      "prompt": "Which Birmingham band's videos for \"Hungry Like the Wolf\" and \"Rio\" were filmed in Sri Lanka and Antigua?",
+      "choices": [
+        "Spandau Ballet",
+        "Culture Club",
+        "Duran Duran",
+        "Visage"
+      ],
+      "answer": 2,
+      "fact": "The group took its name from a character in the 1968 film Barbarella.",
+      "difficulty": 1
+    },
+    {
+      "id": "punk-new-wave-q11",
+      "prompt": "The cover of London Calling shows Paul Simonon smashing what?",
+      "choices": [
+        "A drum kit",
+        "His bass guitar",
+        "A microphone stand",
+        "A television set"
+      ],
+      "answer": 1,
+      "fact": "Photographer Pennie Smith took the picture at a New York show in 1979, and the pink and green lettering echoes Elvis Presley's debut album.",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q12",
+      "prompt": "In December 1976 the Sex Pistols swore on live British TV on which program, hosted by Bill Grundy?",
+      "choices": [
+        "Top of the Pops",
+        "The Old Grey Whistle Test",
+        "Panorama",
+        "Today"
+      ],
+      "answer": 3,
+      "fact": "Newspapers raged the next day, and the band was soon dropped by its record label, EMI.",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q13",
+      "prompt": "Which photographer shot the cover of Patti Smith's 1975 debut Horses?",
+      "choices": [
+        "Annie Leibovitz",
+        "Diane Arbus",
+        "Lee Friedlander",
+        "Robert Mapplethorpe"
+      ],
+      "answer": 3,
+      "fact": "Smith and Mapplethorpe had been close friends and housemates in New York, and the album opens with a rewrite of \"Gloria\".",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q14",
+      "prompt": "Devo, who recorded \"Whip It\", formed in which Ohio city?",
+      "choices": [
+        "Cleveland",
+        "Akron",
+        "Columbus",
+        "Dayton"
+      ],
+      "answer": 1,
+      "fact": "Founders Mark Mothersbaugh and Jerry Casale met at Kent State, where the 1970 shootings deeply affected them.",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q15",
+      "prompt": "The B-52's, who recorded \"Rock Lobster\", formed in which Georgia college town?",
+      "choices": [
+        "Macon",
+        "Savannah",
+        "Athens",
+        "Columbus"
+      ],
+      "answer": 2,
+      "fact": "The band took its name from a Southern slang term for a tall beehive hairdo.",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q16",
+      "prompt": "Which former Roxy Music member produced Talking Heads' Fear of Music and Remain in Light?",
+      "choices": [
+        "Brian Eno",
+        "Bob Ezrin",
+        "Nile Rodgers",
+        "Tony Visconti"
+      ],
+      "answer": 0,
+      "fact": "Remain in Light, from 1980, drew on Afrobeat and the music of Fela Kuti.",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q17",
+      "prompt": "After the death of singer Ian Curtis in 1980, the surviving members of Joy Division regrouped as which band?",
+      "choices": [
+        "New Order",
+        "Echo and the Bunnymen",
+        "The Fall",
+        "Section 25"
+      ],
+      "answer": 0,
+      "fact": "Joy Division had been about to leave for its first American tour when Curtis died.",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q18",
+      "prompt": "Sting wrote \"Every Breath You Take\" at which famous location in Jamaica?",
+      "choices": [
+        "Bob Marley's home in Kingston",
+        "Strawberry Hill",
+        "Ian Fleming's Goldeneye estate",
+        "Dunn's River Falls"
+      ],
+      "answer": 2,
+      "fact": "Sting has said the song's melody and words came to him in the middle of the night at the desk where Fleming wrote his James Bond novels.",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q19",
+      "prompt": "What was Elvis Costello's birth name?",
+      "choices": [
+        "Declan Costello",
+        "Declan MacManus",
+        "Desmond MacManus",
+        "Dermot McKenna"
+      ],
+      "answer": 1,
+      "fact": "His 1977 debut, My Aim Is True, was recorded with an American band called Clover.",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q20",
+      "prompt": "Patti Smith's \"Because the Night\" was co-written with which rock star?",
+      "choices": [
+        "Lou Reed",
+        "Tom Petty",
+        "Joe Strummer",
+        "Bruce Springsteen"
+      ],
+      "answer": 3,
+      "fact": "Springsteen had a demo of the music, which reached Smith through producer Jimmy Iovine, and she wrote the words herself.",
+      "difficulty": 2
+    },
+    {
+      "id": "punk-new-wave-q21",
+      "prompt": "The Ramones' 1976 debut album was recorded for roughly how much?",
+      "choices": [
+        "$64,000",
+        "$640",
+        "$640,000",
+        "$6,400"
+      ],
+      "answer": 3,
+      "fact": "The album was made in about a week and sold modestly at first, but it inspired countless bands, especially in Britain.",
+      "difficulty": 3
+    },
+    {
+      "id": "punk-new-wave-q22",
+      "prompt": "Joe Strummer fronted which pub-rock band before joining the Clash?",
+      "choices": [
+        "The Pink Fairies",
+        "The 101ers",
+        "Dr. Feelgood",
+        "Eddie and the Hot Rods"
+      ],
+      "answer": 1,
+      "fact": "The band took its name from a squat at 101 Walterton Road in London.",
+      "difficulty": 3
+    },
+    {
+      "id": "punk-new-wave-q23",
+      "prompt": "The Jam, led by Paul Weller, came from which Surrey town?",
+      "choices": [
+        "Guildford",
+        "Reading",
+        "Woking",
+        "Crawley"
+      ],
+      "answer": 2,
+      "fact": "Weller formed the band at school, and its hits included \"That's Entertainment\" and \"Going Underground\".",
+      "difficulty": 3
+    },
+    {
+      "id": "punk-new-wave-q24",
+      "prompt": "Siouxsie and the Banshees' first single, \"Hong Kong Garden\", was inspired by what?",
+      "choices": [
+        "A Chinese takeaway in Chislehurst",
+        "A trip to Soho",
+        "A Bruce Lee film",
+        "A Hong Kong holiday"
+      ],
+      "answer": 0,
+      "fact": "Siouxsie has said she was thinking of the staff at the takeaway, who were harassed by skinheads.",
+      "difficulty": 3
+    },
+    {
+      "id": "punk-new-wave-q25",
+      "prompt": "Which producer, known for Sweet and Suzi Quatro hits, produced Blondie's Parallel Lines?",
+      "choices": [
+        "Mike Chapman",
+        "Giorgio Moroder",
+        "Nile Rodgers",
+        "Phil Spector"
+      ],
+      "answer": 0,
+      "fact": "Chapman demanded dozens of takes to get the band's sound just right, and the album went to No. 1 in Britain.",
+      "difficulty": 3
+    },
+    {
+      "id": "punk-new-wave-q26",
+      "prompt": "Which producer who worked with Queen made The Cars' 1978 debut album?",
+      "choices": [
+        "Mutt Lange",
+        "Trevor Horn",
+        "Roy Thomas Baker",
+        "Rick Rubin"
+      ],
+      "answer": 2,
+      "fact": "The glossy, layered sound made the Boston band a success on radio and early MTV.",
+      "difficulty": 3
+    },
+    {
+      "id": "punk-new-wave-q27",
+      "prompt": "Which Television co-founder left in 1975 and later formed the Voidoids?",
+      "choices": [
+        "Tom Verlaine",
+        "Richard Hell",
+        "Johnny Thunders",
+        "Lenny Kaye"
+      ],
+      "answer": 1,
+      "fact": "His torn shirts and spiky hair are said to have influenced Malcolm McLaren's look for the Sex Pistols.",
+      "difficulty": 3
+    },
+    {
+      "id": "punk-new-wave-q28",
+      "prompt": "Which band released \"New Rose\" in October 1976, the first British punk single?",
+      "choices": [
+        "The Sex Pistols",
+        "The Clash",
+        "The Buzzcocks",
+        "The Damned"
+      ],
+      "answer": 3,
+      "fact": "The Damned beat the Pistols to a record by a few weeks, and they were also the first British punk band to tour America.",
+      "difficulty": 3
+    },
+    {
+      "id": "punk-new-wave-q29",
+      "prompt": "Which Clash member wrote the music for \"Rock the Casbah\" and played most of the instruments?",
+      "choices": [
+        "Mick Jones",
+        "Paul Simonon",
+        "Joe Strummer",
+        "Topper Headon"
+      ],
+      "answer": 3,
+      "fact": "Strummer wrote the lyrics after Headon had recorded the music on his own.",
+      "difficulty": 3
+    },
+    {
+      "id": "punk-new-wave-q30",
+      "prompt": "The Cure, led by Robert Smith, formed in which English town?",
+      "choices": [
+        "Reading",
+        "Crawley",
+        "Brighton",
+        "Slough"
+      ],
+      "answer": 1,
+      "fact": "The band started out at school, and its first single, \"Killing an Arab\", came out in 1978.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "punk-new-wave-s01",
+      "title": "Blitzkrieg Bop",
+      "artist": "Ramones",
+      "year": 1976,
+      "album": "Ramones",
+      "note": "The song's \"Hey! Ho! Let's go!\" chant became one of the best-known rallying cries of punk."
+    },
+    {
+      "id": "punk-new-wave-s02",
+      "title": "God Save the Queen",
+      "artist": "Sex Pistols",
+      "year": 1977,
+      "album": "Never Mind the Bollocks, Here's the Sex Pistols",
+      "note": "Released in Jubilee week, it was banned from BBC airplay."
+    },
+    {
+      "id": "punk-new-wave-s03",
+      "title": "Psycho Killer",
+      "artist": "Talking Heads",
+      "year": 1977,
+      "album": "Talking Heads: 77",
+      "note": "David Byrne wrote it as a mock-Alice Cooper song, and part of it is in French."
+    },
+    {
+      "id": "punk-new-wave-s04",
+      "title": "Heart of Glass",
+      "artist": "Blondie",
+      "year": 1978,
+      "album": "Parallel Lines",
+      "note": "The band combined a disco rhythm with a new wave sound."
+    },
+    {
+      "id": "punk-new-wave-s05",
+      "title": "Ever Fallen in Love (With Someone You Shouldn't've)",
+      "artist": "Buzzcocks",
+      "year": 1978,
+      "album": "Love Bites",
+      "note": "Pete Shelley wrote the song, and it became a signature punk-pop love song."
+    },
+    {
+      "id": "punk-new-wave-s06",
+      "title": "London Calling",
+      "artist": "The Clash",
+      "year": 1979,
+      "album": "London Calling",
+      "note": "The title echoes the BBC World Service's wartime station identification."
+    },
+    {
+      "id": "punk-new-wave-s07",
+      "title": "Message in a Bottle",
+      "artist": "The Police",
+      "year": 1979,
+      "album": "Reggatta de Blanc",
+      "note": "Andy Summers's chiming guitar riff opens the song."
+    },
+    {
+      "id": "punk-new-wave-s08",
+      "title": "A Forest",
+      "artist": "The Cure",
+      "year": 1980,
+      "album": "Seventeen Seconds",
+      "note": "Its long instrumental passages helped define the band's moody sound."
+    },
+    {
+      "id": "punk-new-wave-s09",
+      "title": "Love Will Tear Us Apart",
+      "artist": "Joy Division",
+      "year": 1980,
+      "album": "Substance",
+      "note": "Ian Curtis wrote the lyric, and the song was released shortly after his death."
+    },
+    {
+      "id": "punk-new-wave-s10",
+      "title": "Whip It",
+      "artist": "Devo",
+      "year": 1980,
+      "album": "Freedom of Choice",
+      "note": "Its robotic beat and synthesizers made it the band's biggest hit."
+    },
+    {
+      "id": "punk-new-wave-s11",
+      "title": "Don't You Want Me",
+      "artist": "The Human League",
+      "year": 1981,
+      "album": "Dare",
+      "note": "Philip Oakey has said the lyric was inspired by a magazine photo-story."
+    },
+    {
+      "id": "punk-new-wave-s12",
+      "title": "Rio",
+      "artist": "Duran Duran",
+      "year": 1982,
+      "album": "Rio",
+      "note": "The video was shot in Antigua and became an MTV favorite."
+    },
+    {
+      "id": "punk-new-wave-s13",
+      "title": "Should I Stay or Should I Go",
+      "artist": "The Clash",
+      "year": 1982,
+      "album": "Combat Rock",
+      "note": "Mick Jones sang lead, and the song reached No. 1 in the UK in 1991 after a jeans commercial."
+    },
+    {
+      "id": "punk-new-wave-s14",
+      "title": "Sweet Dreams (Are Made of This)",
+      "artist": "Eurythmics",
+      "year": 1983,
+      "album": "Sweet Dreams (Are Made of This)",
+      "note": "Dave Stewart built the song's synthesizer pattern on a simple sequencer."
+    },
+    {
+      "id": "punk-new-wave-s15",
+      "title": "Blue Monday",
+      "artist": "New Order",
+      "year": 1983,
+      "album": "Blue Monday",
+      "note": "The band built the song around a drum machine and sequencers."
+    },
+    {
+      "id": "punk-new-wave-s16",
+      "title": "The Killing Moon",
+      "artist": "Echo & the Bunnymen",
+      "year": 1984,
+      "album": "Ocean Rain",
+      "note": "Ian McCulloch has called it one of the greatest songs ever written."
+    }
+  ],
+  "stories": [
+    {
+      "id": "punk-new-wave-st1",
+      "title": "CBGB and the Ramones",
+      "dek": "Four leather jackets and a very small club",
+      "year": 1976,
+      "body": "In 1973 a former Marine named Hilly Kristal opened a small club at 315 Bowery in lower Manhattan. He named it CBGB OMFUG, which stood for Country, Bluegrass, Blues and Other Music for Uplifting Gormandizers. He planned to host country music. The Bowery in those years was a rough neighborhood of flophouses and empty storefronts, and the country crowd never came. Instead, young bands with nowhere else to play began to fill the room.\n\nOne of them came from Forest Hills, a quiet middle-class neighborhood in Queens. Four friends, Joey, Johnny, Dee Dee and Tommy, took the stage surname Ramone and wore the same uniform of torn jeans, sneakers and black leather jackets. They played fast. Each song was short, and each began with Dee Dee shouting a count of \"one, two, three, four\", as if the band could not wait. They played their first show at CBGB in August 1974 and returned again and again.\n\nThe sets were short, often around twenty minutes, and the crowd was small. But other musicians were watching. Patti Smith, Television, Blondie and Talking Heads were all playing the same stage in those years, and together they made a scene. Critics began to write about it. In 1976 the Ramones made their first album for a few thousand dollars, and the opening track, \"Blitzkrieg Bop\", gave the new music one of its first anthems.\n\nThe band's real influence landed across the ocean. On July 4, 1976, the Ramones played at the Roundhouse in London. In the audience were young musicians who would soon become the Clash, the Sex Pistols and the Damned. They saw a band that played with no solos, no flashy show and no fear. The message was clear: anyone could do this. Within months, British punk bands were forming everywhere.\n\nAt home the Ramones never had a big hit, though they kept touring for twenty years. Their influence did the work. Bands as varied as the Clash, Metallica and Green Day have all credited them as an influence.\n\nCBGB lasted until 2006, covered in stickers and posters, and its fame outlasted the bands that made it. Hilly Kristal had set out to book country and blues, and he ended up hosting the sound that would change rock and roll.",
+      "songs": [
+        "punk-new-wave-s01"
+      ]
+    },
+    {
+      "id": "punk-new-wave-st2",
+      "title": "The Pistols and the Jubilee",
+      "dek": "A boat on the Thames and a song the BBC would not play",
+      "year": 1977,
+      "body": "The Sex Pistols were put together in London in 1975 by Malcolm McLaren, who ran a clothing shop on the King's Road. He had spent time in New York and saw the New York Dolls, and he wanted to bring that raw spirit to Britain. The band's lead singer was a sneering teenager named John Lydon, nicknamed Johnny Rotten, and the bassist was Glen Matlock. They signed with EMI in 1976.\n\nThen came December. The band appeared on a teatime TV show called Today, where host Bill Grundy, apparently trying to provoke them, goaded the band into swearing live on air. The next day the tabloids raged. Concerts were canceled, and EMI dropped the band. Matlock left and was replaced by Sid Vicious, a friend of Lydon's who could barely play the bass. A&M Records signed them in March 1977 in a ceremony outside Buckingham Palace, then dropped them within a week. Finally Virgin Records, under Richard Branson, took a chance.\n\nIn May Virgin released \"God Save the Queen\". The timing was deliberate. Britain was preparing to celebrate Queen Elizabeth's Silver Jubilee, twenty-five years on the throne, and here was a song that sneered at the monarchy. The BBC refused to play it, and many shops would not stock it. On June 7, during the Jubilee week, McLaren hired a boat to carry the band along the Thames past the Houses of Parliament. They played the song on deck. Police boats closed in, the party was stopped, and several people were arrested.\n\nThe single sold hundreds of thousands of copies and reached No. 2 on the UK chart. Many fans are convinced it was kept from the top spot, but the Official Charts lists it at No. 2, behind a Rod Stewart single. The band's only studio album, Never Mind the Bollocks, followed in October.\n\nThe Pistols did not last. After a chaotic tour of the United States, they broke up in January 1978 at a show in San Francisco, where Lydon asked the audience if they ever got the feeling they had been cheated. Vicious died of an overdose in 1979, at the age of 21.\n\nThe band had lasted barely two years. But its anger, its look and its three chords had given a whole generation permission to start a band of their own.",
+      "songs": [
+        "punk-new-wave-s02"
+      ]
+    },
+    {
+      "id": "punk-new-wave-st3",
+      "title": "Joy Division and New Order",
+      "dek": "A Manchester band that became two bands",
+      "year": 1980,
+      "body": "In 1976 two friends from Salford, Bernard Sumner and Peter Hook, saw the Sex Pistols play in Manchester. Hook borrowed money from his mother to buy a bass. They found a drummer, Stephen Morris, and a singer named Ian Curtis, and they called themselves Joy Division. The band signed to a new local label, Factory Records, whose co-founder was television presenter Tony Wilson.\n\nIn 1979 they recorded their first album, Unknown Pleasures, in Stockport with a producer named Martin Hannett. He had a particular idea of sound. He wanted a cold, spacious record with drums that echoed in an empty room. The songs were dark and spare, and Curtis sang them in a deep, trembling baritone. The cover, designed by Peter Saville, showed a black field with white wavy lines. It was a picture of the radio pulses from a distant star, taken from an astronomy book, and it appeared with no title or band name. It became one of the most copied sleeves in rock.\n\nCurtis suffered from epilepsy and from depression. He wrote about isolation and anxiety, and sometimes had seizures on stage. In 1980 the band was preparing for its first American tour. On May 18, the day before they were to leave, Curtis took his own life at his home in Macclesfield. He was 23. A few weeks later Factory released a single they had recorded earlier, \"Love Will Tear Us Apart\". It became their best-known song and their biggest hit.\n\nThe three survivors decided to continue. They chose a new name, New Order, and added keyboardist Gillian Gilbert. At first they struggled to find their voice. Sumner took over vocals, and the band began to experiment with synthesizers, drum machines and dance rhythms.\n\nIn 1983 they released \"Blue Monday\", a long, pulsing track built on electronic beats. It was a hit in clubs and on the radio, and it is often called the best-selling 12-inch single of all time. The band and Factory also opened a nightclub in Manchester, the Haçienda, which became a center of British dance culture.\n\nJoy Division had made one of the most haunting records in rock. New Order took the same people into a different world, and both bands remain among the most influential of the era.",
+      "songs": [
+        "punk-new-wave-s09",
+        "punk-new-wave-s15"
+      ]
+    }
+  ]
+}

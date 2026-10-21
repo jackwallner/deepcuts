@@ -1,0 +1,561 @@
+{
+  "id": "eighties",
+  "name": "The '80s",
+  "blurb": "Synths, big hair and MTV: the decade when music learned to look as good as it sounded.",
+  "era": "1980-1989",
+  "questions": [
+    {
+      "id": "eighties-q01",
+      "prompt": "Which song was the first music video shown on MTV when it launched on August 1, 1981?",
+      "choices": [
+        "Video Killed the Radio Star",
+        "Rapture",
+        "Take On Me",
+        "Don't You Want Me"
+      ],
+      "answer": 0,
+      "fact": "The Buggles recorded the song in 1979, and MTV picked it as a wry statement of purpose for its debut.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q02",
+      "prompt": "Who produced Michael Jackson's 1982 album Thriller?",
+      "choices": [
+        "Berry Gordy",
+        "Nile Rodgers",
+        "Quincy Jones",
+        "Phil Collins"
+      ],
+      "answer": 2,
+      "fact": "Jones and Jackson had already worked together on Jackson's 1979 breakthrough, Off the Wall.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q03",
+      "prompt": "Which Minneapolis musician starred in the 1984 film Purple Rain?",
+      "choices": [
+        "Michael Jackson",
+        "Prince",
+        "Lionel Richie",
+        "Rick James"
+      ],
+      "answer": 1,
+      "fact": "The film cost a few million dollars to make and grossed roughly ten times its budget.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q04",
+      "prompt": "Live Aid was held on July 13, 1985, at stadiums in which two cities?",
+      "choices": [
+        "London and New York",
+        "Manchester and Chicago",
+        "Dublin and Boston",
+        "London and Philadelphia"
+      ],
+      "answer": 3,
+      "fact": "Bob Geldof organized it after the Band Aid single, which he co-wrote with Midge Ure of Ultravox.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q05",
+      "prompt": "Which singer had a 1983 hit with \"Girls Just Want to Have Fun\"?",
+      "choices": [
+        "Madonna",
+        "Pat Benatar",
+        "Belinda Carlisle",
+        "Cyndi Lauper"
+      ],
+      "answer": 3,
+      "fact": "Robert Hazard wrote and demoed the song, and Lauper changed the words to give it a female point of view.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q06",
+      "prompt": "Which band recorded \"Don't Stop Believin'\" for its 1981 album Escape?",
+      "choices": [
+        "Foreigner",
+        "Journey",
+        "Boston",
+        "Styx"
+      ],
+      "answer": 1,
+      "fact": "Keyboardist Jonathan Cain has said the title came from his father, who urged him not to give up when he moved to California.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q07",
+      "prompt": "Which duo had a 1984 hit with \"Wake Me Up Before You Go-Go\"?",
+      "choices": [
+        "Tears for Fears",
+        "Hall and Oates",
+        "Wham!",
+        "Pet Shop Boys"
+      ],
+      "answer": 2,
+      "fact": "The title reportedly came from a note Andrew Ridgeley left for his parents, in which he accidentally wrote the word \"up\" twice.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q08",
+      "prompt": "Which band named its 1987 album after a tree that grows in the California desert?",
+      "choices": [
+        "U2",
+        "R.E.M.",
+        "INXS",
+        "Simple Minds"
+      ],
+      "answer": 0,
+      "fact": "Photographer Anton Corbijn shot the sleeve in the California desert, and the album was produced by Brian Eno and Daniel Lanois.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q09",
+      "prompt": "Which New Jersey rocker released the 1984 album Born in the U.S.A.?",
+      "choices": [
+        "Bruce Springsteen",
+        "Bon Jovi",
+        "Billy Joel",
+        "Southside Johnny"
+      ],
+      "answer": 0,
+      "fact": "The title song is about a Vietnam veteran's hard homecoming, and it was often misread as a flag-waving anthem.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q10",
+      "prompt": "What was the title of Tina Turner's 1984 comeback album?",
+      "choices": [
+        "Break Every Rule",
+        "Foreign Affair",
+        "Private Dancer",
+        "Wildest Dreams"
+      ],
+      "answer": 2,
+      "fact": "Turner was 44 and had spent years rebuilding her career after leaving Ike Turner in 1976.",
+      "difficulty": 1
+    },
+    {
+      "id": "eighties-q11",
+      "prompt": "Slash's famous opening riff on \"Sweet Child o' Mine\" began as what?",
+      "choices": [
+        "A cover of an old blues tune",
+        "A finger exercise played as a joke",
+        "A bass part Duff McKagan wrote",
+        "A leftover riff from an earlier demo"
+      ],
+      "answer": 1,
+      "fact": "Axl Rose wrote the words about his girlfriend Erin Everly, the daughter of Don Everly of the Everly Brothers.",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q12",
+      "prompt": "On which 1983 TV special did Michael Jackson first perform the moonwalk in front of a national audience?",
+      "choices": [
+        "American Bandstand",
+        "Saturday Night Live",
+        "The Tonight Show",
+        "Motown 25"
+      ],
+      "answer": 3,
+      "fact": "Jackson performed \"Billie Jean\" at the show, and the moonwalk made the performance a landmark.",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q13",
+      "prompt": "In the 1989 film Say Anything..., John Cusack holds a boombox playing which Peter Gabriel song?",
+      "choices": [
+        "Sledgehammer",
+        "Solsbury Hill",
+        "Big Time",
+        "In Your Eyes"
+      ],
+      "answer": 3,
+      "fact": "Cameron Crowe directed the film, and the scene became one of the most copied romantic gestures in movies.",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q14",
+      "prompt": "Which singer co-wrote 1985's \"We Are the World\" with Michael Jackson?",
+      "choices": [
+        "Stevie Wonder",
+        "Lionel Richie",
+        "Kenny Rogers",
+        "Bruce Springsteen"
+      ],
+      "answer": 1,
+      "fact": "The stars recorded it in one night after the American Music Awards, with a sign on the studio door asking them to check their egos.",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q15",
+      "prompt": "Which country was the band a-ha from?",
+      "choices": [
+        "Sweden",
+        "Denmark",
+        "Norway",
+        "Finland"
+      ],
+      "answer": 2,
+      "fact": "The video for \"Take On Me\" combined live action with pencil-sketch animation, using a technique called rotoscoping.",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q16",
+      "prompt": "What studio effect gave Phil Collins's drums their huge sound on \"In the Air Tonight\"?",
+      "choices": [
+        "Gated reverb",
+        "Slapback echo",
+        "Reverse tape delay",
+        "Phase shifting"
+      ],
+      "answer": 0,
+      "fact": "Engineer Hugh Padgham and Collins stumbled on the effect while recording a Peter Gabriel album, and it came to define the decade's drum sound.",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q17",
+      "prompt": "Which device did Richie Sambora use to make his guitar \"talk\" on \"Livin' on a Prayer\"?",
+      "choices": [
+        "A talk box",
+        "A wah-wah pedal",
+        "A Leslie speaker",
+        "A vocoder"
+      ],
+      "answer": 0,
+      "fact": "The song was written by Jon Bon Jovi, Sambora and Desmond Child for the album Slippery When Wet.",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q18",
+      "prompt": "Tracy Chapman's career took off after a 1988 appearance at which concert?",
+      "choices": [
+        "Live Aid",
+        "Farm Aid",
+        "Nelson Mandela's 70th Birthday Tribute",
+        "Amnesty International's Human Rights Now! tour"
+      ],
+      "answer": 2,
+      "fact": "She went back on stage when Stevie Wonder's set was delayed, and her self-titled debut then soared up the charts.",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q19",
+      "prompt": "Which Police singer sings the \"I want my MTV\" lines on Dire Straits' \"Money for Nothing\"?",
+      "choices": [
+        "Peter Gabriel",
+        "Sting",
+        "Phil Collins",
+        "Don Henley"
+      ],
+      "answer": 1,
+      "fact": "Sting received a songwriting credit because the line echoed the melody of \"Don't Stand So Close to Me\".",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q20",
+      "prompt": "Johnny Marr has said he turned up at the door of which singer in 1982 to suggest writing songs together?",
+      "choices": [
+        "Ian Curtis",
+        "Robert Smith",
+        "Billy Bragg",
+        "Morrissey"
+      ],
+      "answer": 3,
+      "fact": "The two went on to form the Smiths in Manchester.",
+      "difficulty": 2
+    },
+    {
+      "id": "eighties-q21",
+      "prompt": "Huey Lewis said Ray Parker Jr.'s \"Ghostbusters\" resembled which of his own songs?",
+      "choices": [
+        "The Power of Love",
+        "Hip to Be Square",
+        "Heart and Soul",
+        "I Want a New Drug"
+      ],
+      "answer": 3,
+      "fact": "The two sides settled out of court, and the dispute later flared up again over a confidentiality agreement.",
+      "difficulty": 3
+    },
+    {
+      "id": "eighties-q22",
+      "prompt": "Who wrote \"Don't You (Forget About Me)\", the song Simple Minds recorded for The Breakfast Club?",
+      "choices": [
+        "Jim Kerr and Charlie Burchill",
+        "Keith Forsey and Steve Schiff",
+        "John Hughes and Howard Deutch",
+        "Pete Townshend and Eric Clapton"
+      ],
+      "answer": 1,
+      "fact": "Billy Idol and Bryan Ferry reportedly turned the song down, and Simple Minds also hesitated before recording it.",
+      "difficulty": 3
+    },
+    {
+      "id": "eighties-q23",
+      "prompt": "The title track of Prince's Purple Rain was recorded live at which Minneapolis venue?",
+      "choices": [
+        "The Cabooze",
+        "The Orpheum",
+        "First Avenue",
+        "Uptown Bar"
+      ],
+      "answer": 2,
+      "fact": "Prince played the 1983 benefit show there with the Revolution, and the club also appears in the film.",
+      "difficulty": 3
+    },
+    {
+      "id": "eighties-q24",
+      "prompt": "Who wrote Madonna's 1984 hit \"Like a Virgin\"?",
+      "choices": [
+        "Billy Steinberg and Tom Kelly",
+        "Madonna and Nile Rodgers",
+        "Cyndi Lauper and Rob Hyman",
+        "Prince and Sheila E."
+      ],
+      "answer": 0,
+      "fact": "The same pair also wrote Cyndi Lauper's \"True Colors\".",
+      "difficulty": 3
+    },
+    {
+      "id": "eighties-q25",
+      "prompt": "Which British animation studio created the stop-motion effects for Peter Gabriel's \"Sledgehammer\" video?",
+      "choices": [
+        "Aardman Animations",
+        "Cosgrove Hall",
+        "Halas and Batchelor",
+        "Gerry Anderson's AP Films"
+      ],
+      "answer": 0,
+      "fact": "Gabriel spent many hours lying under a sheet of glass for the shoot.",
+      "difficulty": 3
+    },
+    {
+      "id": "eighties-q26",
+      "prompt": "Who wrote \"Nothing Compares 2 U\", which Sinead O'Connor made famous in 1990?",
+      "choices": [
+        "Stevie Wonder",
+        "Lionel Richie",
+        "Prince",
+        "Sting"
+      ],
+      "answer": 2,
+      "fact": "Prince wrote it in 1985 for the Family, a side project, and O'Connor's version became the best-known recording.",
+      "difficulty": 3
+    },
+    {
+      "id": "eighties-q27",
+      "prompt": "Which Italian producer co-wrote Berlin's \"Take My Breath Away\" for the film Top Gun?",
+      "choices": [
+        "Trevor Horn",
+        "Giorgio Moroder",
+        "Nile Rodgers",
+        "Quincy Jones"
+      ],
+      "answer": 1,
+      "fact": "The song won the Academy Award for Best Original Song.",
+      "difficulty": 3
+    },
+    {
+      "id": "eighties-q28",
+      "prompt": "Which South African group sang on Paul Simon's 1986 album Graceland?",
+      "choices": [
+        "Mahotella Queens",
+        "Juluka",
+        "Hugh Masekela's band",
+        "Ladysmith Black Mambazo"
+      ],
+      "answer": 3,
+      "fact": "Simon recorded in Johannesburg despite a cultural boycott of South Africa, which made the album controversial.",
+      "difficulty": 3
+    },
+    {
+      "id": "eighties-q29",
+      "prompt": "A 2010 court ruling found the flute riff in Men at Work's \"Down Under\" borrowed from which song?",
+      "choices": [
+        "Waltzing Matilda",
+        "Click Go the Shears",
+        "Advance Australia Fair",
+        "Kookaburra Sits in the Old Gum Tree"
+      ],
+      "answer": 3,
+      "fact": "The similarity became widely known after it was pointed out on an Australian television quiz show.",
+      "difficulty": 3
+    },
+    {
+      "id": "eighties-q30",
+      "prompt": "Which singer was Whitney Houston's cousin?",
+      "choices": [
+        "Aretha Franklin",
+        "Dionne Warwick",
+        "Gladys Knight",
+        "Patti LaBelle"
+      ],
+      "answer": 1,
+      "fact": "Houston's mother, Cissy Houston, was a gospel singer, and Aretha Franklin was her godmother.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "eighties-s01",
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "year": 1981,
+      "album": "Escape",
+      "note": "Jonathan Cain has said his father's advice inspired the title."
+    },
+    {
+      "id": "eighties-s02",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "year": 1983,
+      "album": "Thriller",
+      "note": "Quincy Jones has said he wanted to shorten the long intro, but Jackson kept it."
+    },
+    {
+      "id": "eighties-s03",
+      "title": "Purple Rain",
+      "artist": "Prince and the Revolution",
+      "year": 1984,
+      "album": "Purple Rain",
+      "note": "The track was recorded live at First Avenue in Minneapolis in 1983."
+    },
+    {
+      "id": "eighties-s04",
+      "title": "Sweet Child o' Mine",
+      "artist": "Guns N' Roses",
+      "year": 1987,
+      "album": "Appetite for Destruction",
+      "note": "Slash has said the riff began as a finger exercise."
+    },
+    {
+      "id": "eighties-s05",
+      "title": "Take On Me",
+      "artist": "a-ha",
+      "year": 1985,
+      "album": "Hunting High and Low",
+      "note": "An earlier 1984 version flopped before the band remade it with its animated video."
+    },
+    {
+      "id": "eighties-s06",
+      "title": "Girls Just Want to Have Fun",
+      "artist": "Cyndi Lauper",
+      "year": 1983,
+      "album": "She's So Unusual",
+      "note": "Lauper changed the words of Robert Hazard's original to give it a female point of view."
+    },
+    {
+      "id": "eighties-s07",
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "year": 1986,
+      "album": "Slippery When Wet",
+      "note": "Jon Bon Jovi, Richie Sambora and Desmond Child wrote the song."
+    },
+    {
+      "id": "eighties-s08",
+      "title": "With or Without You",
+      "artist": "U2",
+      "year": 1987,
+      "album": "The Joshua Tree",
+      "note": "The Edge used an Infinite Guitar, a sustaining device, for the shimmering guitar sound."
+    },
+    {
+      "id": "eighties-s09",
+      "title": "Born in the U.S.A.",
+      "artist": "Bruce Springsteen",
+      "year": 1984,
+      "album": "Born in the U.S.A.",
+      "note": "Springsteen wrote it about a Vietnam veteran's difficult return home."
+    },
+    {
+      "id": "eighties-s10",
+      "title": "In the Air Tonight",
+      "artist": "Phil Collins",
+      "year": 1981,
+      "album": "Face Value",
+      "note": "Collins has said he wrote it during a painful divorce."
+    },
+    {
+      "id": "eighties-s11",
+      "title": "Money for Nothing",
+      "artist": "Dire Straits",
+      "year": 1985,
+      "album": "Brothers in Arms",
+      "note": "Sting sings the \"I want my MTV\" lines in the opening."
+    },
+    {
+      "id": "eighties-s12",
+      "title": "Fast Car",
+      "artist": "Tracy Chapman",
+      "year": 1988,
+      "album": "Tracy Chapman",
+      "note": "The song tells of a couple dreaming of escape from a life of poverty."
+    },
+    {
+      "id": "eighties-s13",
+      "title": "Like a Prayer",
+      "artist": "Madonna",
+      "year": 1989,
+      "album": "Like a Prayer",
+      "note": "Pepsi dropped a commercial using the song after the controversial video appeared."
+    },
+    {
+      "id": "eighties-s14",
+      "title": "I Wanna Dance with Somebody (Who Loves Me)",
+      "artist": "Whitney Houston",
+      "year": 1987,
+      "album": "Whitney",
+      "note": "George Merrill and Shannon Rubicam of Boy Meets Girl wrote the song."
+    },
+    {
+      "id": "eighties-s15",
+      "title": "Sledgehammer",
+      "artist": "Peter Gabriel",
+      "year": 1986,
+      "album": "So",
+      "note": "The video used stop-motion animation by Aardman, the British studio."
+    },
+    {
+      "id": "eighties-s16",
+      "title": "There Is a Light That Never Goes Out",
+      "artist": "The Smiths",
+      "year": 1986,
+      "album": "The Queen Is Dead",
+      "note": "Johnny Marr's chiming guitar lines made it a fan favorite for decades."
+    }
+  ],
+  "stories": [
+    {
+      "id": "eighties-st1",
+      "title": "I Want My MTV",
+      "dek": "The channel that changed how pop looked",
+      "year": 1981,
+      "body": "At one minute past midnight on August 1, 1981, a new cable channel went on the air with a shot of the Apollo moon landing and a countdown. The first video it played was \"Video Killed the Radio Star\" by the Buggles. The channel was called MTV, short for Music Television, and its creators, including executive Bob Pittman, thought young viewers might want to watch songs the way they listened to the radio.\n\nThe beginning was modest. MTV reached only a few cable systems at first, and in New York and Los Angeles viewers could not get it at all. The channel had little to play, because few artists had made videos. Many of the early clips came from Britain, where bands had been filming promotional shorts for years since there were few television shows to appear on. That helped acts like Duran Duran, Adam Ant and Culture Club, who looked as good on screen as they sounded.\n\nThen came a clever campaign. Cable operators were asked to carry the channel, and viewers were urged to phone their local systems and demand it. Mick Jagger and other stars appeared in ads saying the line that gave the channel its slogan, \"I want my MTV.\" It worked, and by the mid-1980s the channel was in tens of millions of homes.\n\nSoon a video could make a hit. Michael Jackson's \"Billie Jean\" and \"Thriller\" were treated as events, and MTV's rotation helped him reach a huge audience. Some accounts say CBS Records pressed the channel to play his work, because it had played few Black artists in its early days. Details of that story vary, but Jackson's videos did break the barrier. Madonna, Prince and Peter Gabriel followed, along with a-ha, whose pencil-sketch video for \"Take On Me\" drew viewers who had never heard the song.\n\nThe change was lasting. Artists now thought about how a song would look as well as how it sounded, and directors became part of the music business. Some older fans grumbled that the pictures got in the way of the music. But for a generation, the decade's songs came with images attached, and those images are still how many people remember them.",
+      "songs": [
+        "eighties-s02",
+        "eighties-s05"
+      ]
+    },
+    {
+      "id": "eighties-st2",
+      "title": "Live Aid",
+      "dek": "Sixteen hours, two stadiums and a billion viewers",
+      "year": 1985,
+      "body": "In October 1984, Irish singer Bob Geldof was watching the BBC news when he saw a report from Ethiopia by Michael Buerk. It showed thousands of people suffering from a famine. Geldof, the leader of the Boomtown Rats, felt he had to act. He called Midge Ure of Ultravox, and together they wrote a Christmas song, \"Do They Know It's Christmas?\" Dozens of British stars, calling themselves Band Aid, recorded it in a single day in November 1984. It became the best-selling single in British history at the time.\n\nGeldof was not finished. He wanted a concert, and he wanted it to be enormous. On July 13, 1985, Live Aid took place at Wembley Stadium in London and John F. Kennedy Stadium in Philadelphia, with the shows overlapping and broadcast around the world. Organizers estimated a television audience of well over a billion people in around 150 countries, though such numbers are only estimates.\n\nThe lineup was remarkable. In London, Status Quo opened with \"Rockin' All Over the World,\" and later acts included U2, Elton John, David Bowie and Paul McCartney. Queen's set is often called one of the great live performances in rock, with Freddie Mercury leading the Wembley crowd in a call-and-response. In Philadelphia the acts included Bob Dylan, Tina Turner, Madonna, and a reunited Led Zeppelin.\n\nPhil Collins played in both cities. After performing at Wembley he flew across the Atlantic on the supersonic Concorde and then played in Philadelphia, first with his own songs and then on drums for Led Zeppelin. It was a stunt that fit the day's spirit of excess.\n\nThe concert raised a large sum for famine relief, and money kept arriving afterward. Critics later argued about how the funds were spent and whether charity concerts were the right approach. But no one doubted the effect. For one day, the music world had come together for a single cause, and the template of the benefit concert was set for decades.\n\nGeldof received an honorary knighthood in 1986 for his work.",
+      "songs": [
+        "eighties-s10"
+      ]
+    },
+    {
+      "id": "eighties-st3",
+      "title": "Purple Rain",
+      "dek": "A club in Minneapolis and a song once meant for Stevie Nicks",
+      "year": 1984,
+      "body": "Prince Rogers Nelson grew up in Minneapolis, a cold Midwestern city that was not an obvious home for a pop revolution. By 1983 he had already recorded several albums, and he was ready to make a film and a record that would make him a star. He gathered a band called the Revolution, which included guitarist Wendy Melvoin and keyboardist Lisa Coleman, and built his new project around them.\n\nOn August 3, 1983, he played a benefit concert at First Avenue, the Minneapolis nightclub where he had performed since his early days. The show was recorded. Three songs from that night, including the long, anthemic title track \"Purple Rain,\" made the album, with some studio touch-ups added later. Hearing the final version, it is easy to picture the sweat and noise in the room.\n\nThe song has an odd backstory. Prince first thought of it as a country-flavored ballad, and he reportedly asked Stevie Nicks of Fleetwood Mac to write words for it. She listened to the long instrumental track and felt overwhelmed, and she said she could not do it. Prince went back and finished the song himself. It turned into a slow, rising rock ballad with a long guitar solo at the end.\n\nThe film, directed by Albert Magnoli, came out in July 1984. Prince played a talented but troubled young musician called the Kid, and the story drew loosely on his own life. It cost a few million dollars and earned many times that. The album became one of the best-selling of the decade, with hits like \"When Doves Cry\" and \"Let's Go Crazy\". It also won Prince an Academy Award for Best Original Song Score.\n\nThe record changed what a pop star could be. Prince wrote, produced and played nearly everything himself on many tracks, yet he gave his band a visible place on stage. He went on to make a string of striking albums through the rest of the decade.\n\nFirst Avenue became a landmark, and its black exterior is now covered with stars honoring the performers who have played there.",
+      "songs": [
+        "eighties-s03"
+      ]
+    }
+  ]
+}

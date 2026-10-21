@@ -1,0 +1,560 @@
+{
+  "id": "pop",
+  "name": "Pop",
+  "blurb": "From the Wall of Sound to the streaming age: sixty years of songs everyone knows.",
+  "era": "1960s-2010s",
+  "questions": [
+    {
+      "id": "pop-q01",
+      "prompt": "Who produced the Ronettes' \"Be My Baby\" in 1963 with his famous Wall of Sound?",
+      "choices": [
+        "Phil Spector",
+        "Brian Wilson",
+        "George Martin",
+        "Berry Gordy"
+      ],
+      "answer": 0,
+      "fact": "Session drummer Hal Blaine played the song's opening beat, which became one of the most imitated in pop.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q02",
+      "prompt": "Which Swedish group took its name from the first letters of its four members' first names?",
+      "choices": [
+        "Roxette",
+        "Ace of Base",
+        "ABBA",
+        "Europe"
+      ],
+      "answer": 2,
+      "fact": "The group's logo famously shows the first B turned backward.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q03",
+      "prompt": "Which piano-playing star was born Reginald Dwight?",
+      "choices": [
+        "Billy Joel",
+        "Elton John",
+        "Barry Manilow",
+        "Neil Diamond"
+      ],
+      "answer": 1,
+      "fact": "He took his stage name from two fellow musicians, saxophonist Elton Dean and singer Long John Baldry.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q04",
+      "prompt": "Which group released the 1996 hit \"Wannabe\"?",
+      "choices": [
+        "All Saints",
+        "TLC",
+        "Destiny's Child",
+        "The Spice Girls"
+      ],
+      "answer": 3,
+      "fact": "The five members got their nicknames, Scary, Sporty, Baby, Ginger and Posh, from a British pop magazine.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q05",
+      "prompt": "Which British singer released \"Rolling in the Deep\" in 2010?",
+      "choices": [
+        "Amy Winehouse",
+        "Dua Lipa",
+        "Duffy",
+        "Adele"
+      ],
+      "answer": 3,
+      "fact": "She has named her albums for her age while she made them, with titles like 19, 21 and 25.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q06",
+      "prompt": "Who was the main songwriter and producer of the Beach Boys?",
+      "choices": [
+        "Mike Love",
+        "Brian Wilson",
+        "Al Jardine",
+        "Carl Wilson"
+      ],
+      "answer": 1,
+      "fact": "He called \"Good Vibrations\" a pocket symphony, and it was pieced together from sessions at several studios over months.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q07",
+      "prompt": "Taylor Swift's 2014 album 1989 is named after what?",
+      "choices": [
+        "A famous album from that year",
+        "Her home address",
+        "Her birth year",
+        "The year of her first concert"
+      ],
+      "answer": 2,
+      "fact": "It was her first fully pop album, written and recorded with producers including Max Martin and Shellback.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q08",
+      "prompt": "Who was the first winner of American Idol in 2002?",
+      "choices": [
+        "Kelly Clarkson",
+        "Carrie Underwood",
+        "Jennifer Hudson",
+        "Fantasia Barrino"
+      ],
+      "answer": 0,
+      "fact": "She went on to record \"Since U Been Gone\", which became one of the defining pop songs of the 2000s.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q09",
+      "prompt": "Who wrote the lyrics for most of Elton John's biggest songs?",
+      "choices": [
+        "Bernie Taupin",
+        "Tim Rice",
+        "Hal David",
+        "Gerry Goffin"
+      ],
+      "answer": 0,
+      "fact": "The two usually worked separately, with Taupin writing the words first and John setting them to music.",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q10",
+      "prompt": "Which pop star was born Stefani Germanotta?",
+      "choices": [
+        "Katy Perry",
+        "Pink",
+        "Lady Gaga",
+        "Lorde"
+      ],
+      "answer": 2,
+      "fact": "Her stage name came from the Queen song \"Radio Ga Ga\".",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-q11",
+      "prompt": "Which Swedish songwriter and producer wrote Britney Spears's \"...Baby One More Time\"?",
+      "choices": [
+        "Benny Andersson",
+        "Max Martin",
+        "Stig Anderson",
+        "Robyn"
+      ],
+      "answer": 1,
+      "fact": "Martin also wrote hits for the Backstreet Boys, Katy Perry and Taylor Swift.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q12",
+      "prompt": "Which songwriter wrote both Bonnie Tyler's \"Total Eclipse of the Heart\" and Meat Loaf's Bat Out of Hell?",
+      "choices": [
+        "Jimmy Webb",
+        "Burt Bacharach",
+        "Randy Newman",
+        "Jim Steinman"
+      ],
+      "answer": 3,
+      "fact": "Steinman's songs are known for their theatrical, operatic scale.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q13",
+      "prompt": "Pharrell Williams's \"Happy\" first appeared in which animated film?",
+      "choices": [
+        "Shrek 2",
+        "Frozen",
+        "Minions",
+        "Despicable Me 2"
+      ],
+      "answer": 3,
+      "fact": "The song was nominated for the Academy Award for Best Original Song.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q14",
+      "prompt": "Tony Hatch said he got the idea for \"Downtown\" on his first visit to which city?",
+      "choices": [
+        "Chicago",
+        "New York",
+        "Los Angeles",
+        "Paris"
+      ],
+      "answer": 1,
+      "fact": "Petula Clark's recording became a hit in both Britain and the United States in the winter of 1964 and 1965.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q15",
+      "prompt": "Which jazz saxophonist plays the alto solo on Billy Joel's \"Just the Way You Are\"?",
+      "choices": [
+        "Stan Getz",
+        "Paul Desmond",
+        "Phil Woods",
+        "Gerry Mulligan"
+      ],
+      "answer": 2,
+      "fact": "Joel wrote the song for his first wife, Elizabeth Weber, and it won both Record and Song of the Year Grammys.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q16",
+      "prompt": "Besides singing, which instrument did Karen Carpenter play in the Carpenters?",
+      "choices": [
+        "Drums",
+        "Piano",
+        "Bass guitar",
+        "Flute"
+      ],
+      "answer": 0,
+      "fact": "She began as a drummer and played on many of the duo's early recordings.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q17",
+      "prompt": "Who was Carole King's first husband and writing partner for hits such as \"Will You Love Me Tomorrow\"?",
+      "choices": [
+        "Gerry Goffin",
+        "Neil Sedaka",
+        "Barry Mann",
+        "Jeff Barry"
+      ],
+      "answer": 0,
+      "fact": "The Shirelles recorded the song in 1960, and King later recorded it herself on Tapestry.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q18",
+      "prompt": "Bernie Taupin has said his lyric for \"Rocket Man\" was inspired by a short story by which author?",
+      "choices": [
+        "Isaac Asimov",
+        "Arthur C. Clarke",
+        "Ray Bradbury",
+        "Robert Heinlein"
+      ],
+      "answer": 2,
+      "fact": "The song was recorded in France, at the Chateau d'Herouville, for the album Honky Chateau.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q19",
+      "prompt": "What unusual instrument gives the Beach Boys' \"Good Vibrations\" its eerie sound?",
+      "choices": [
+        "A Moog synthesizer",
+        "An electro-theremin",
+        "A Mellotron",
+        "An ondes Martenot"
+      ],
+      "answer": 1,
+      "fact": "Paul Tanner, a former trombonist with the Glenn Miller orchestra, played the instrument on the recording.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q20",
+      "prompt": "ABBA won the 1974 Eurovision Song Contest in Brighton with which song?",
+      "choices": [
+        "Fernando",
+        "Mamma Mia",
+        "SOS",
+        "Waterloo"
+      ],
+      "answer": 3,
+      "fact": "The win gave the group its first international hit and launched one of the biggest careers in pop.",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-q21",
+      "prompt": "ABBA performed \"Dancing Queen\" on a 1976 television gala on the eve of the wedding of which monarch?",
+      "choices": [
+        "Prince Rainier of Monaco",
+        "King Hussein of Jordan",
+        "Prince Charles of Britain",
+        "King Carl XVI Gustaf of Sweden"
+      ],
+      "answer": 3,
+      "fact": "The gala was held in Stockholm in June 1976, and the song then appeared on the album Arrival.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q22",
+      "prompt": "The horn riff on Beyonce's \"Crazy in Love\" samples which group's 1970 song?",
+      "choices": [
+        "The Stylistics",
+        "The Chi-Lites",
+        "The Delfonics",
+        "The Spinners"
+      ],
+      "answer": 1,
+      "fact": "Jay-Z raps a guest verse on the song, which came from her 2003 debut album Dangerously in Love.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q23",
+      "prompt": "Which Englishman wrote Michael Jackson's \"Rock with You\" and the title track of Thriller?",
+      "choices": [
+        "Barry Gibb",
+        "Pete Waterman",
+        "Rod Temperton",
+        "Trevor Horn"
+      ],
+      "answer": 2,
+      "fact": "Temperton was the keyboard player and songwriter for the funk band Heatwave before working with Quincy Jones.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q24",
+      "prompt": "Mariah Carey's demo tape reportedly reached Columbia Records chief Tommy Mottola at a party through which singer?",
+      "choices": [
+        "Brenda K. Starr",
+        "Gloria Estefan",
+        "Paula Abdul",
+        "Lisa Stansfield"
+      ],
+      "answer": 0,
+      "fact": "Carey co-wrote \"Vision of Love\" with Ben Margulies, and Columbia signed her in 1988.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q25",
+      "prompt": "Who wrote \"I Write the Songs\", a hit for Barry Manilow?",
+      "choices": [
+        "Bruce Johnston",
+        "Neil Diamond",
+        "Paul Williams",
+        "Neil Sedaka"
+      ],
+      "answer": 0,
+      "fact": "Johnston was a member of the Beach Boys, and the song won the Grammy for Song of the Year.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q26",
+      "prompt": "Which songwriter and producer co-wrote Kelly Clarkson's \"Since U Been Gone\" with Max Martin?",
+      "choices": [
+        "Timbaland",
+        "Pharrell Williams",
+        "Dr. Luke",
+        "Rodney Jerkins"
+      ],
+      "answer": 2,
+      "fact": "The song was the lead single from Clarkson's 2004 album Breakaway.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q27",
+      "prompt": "Whitney Houston's \"Greatest Love of All\" was first recorded in 1977 by George Benson for a film about which athlete?",
+      "choices": [
+        "Joe Frazier",
+        "Muhammad Ali",
+        "Arnold Palmer",
+        "Willie Mays"
+      ],
+      "answer": 1,
+      "fact": "Linda Creed wrote the words while battling cancer, and Houston's version came out in 1985.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q28",
+      "prompt": "Which studio effect is usually credited for the robotic vocal sound on Cher's 1998 hit \"Believe\"?",
+      "choices": [
+        "A vocoder",
+        "A harmonizer",
+        "A talk box",
+        "Auto-Tune"
+      ],
+      "answer": 3,
+      "fact": "The producers have said they pushed the pitch-correction software to an extreme setting, and the effect then spread across pop.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q29",
+      "prompt": "The original 1973 version of Elton John's \"Candle in the Wind\" was written about which person?",
+      "choices": [
+        "Janis Joplin",
+        "Judy Garland",
+        "Elvis Presley",
+        "Marilyn Monroe"
+      ],
+      "answer": 3,
+      "fact": "Taupin rewrote the lyrics for Princess Diana's funeral in 1997, and that version was a huge seller.",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-q30",
+      "prompt": "Neil Diamond has said \"Sweet Caroline\" was inspired by a photograph of whom?",
+      "choices": [
+        "Caroline Aherne",
+        "Caroline Kennedy",
+        "Caroline Munro",
+        "Carolyn Jones"
+      ],
+      "answer": 1,
+      "fact": "Diamond said he had seen the photograph of her as a child, and the song was released in 1969.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "pop-s01",
+      "title": "Be My Baby",
+      "artist": "The Ronettes",
+      "year": 1963,
+      "album": "Presenting the Fabulous Ronettes",
+      "note": "Phil Spector produced it with a wall of sound, and Hal Blaine played the famous opening drum beat."
+    },
+    {
+      "id": "pop-s02",
+      "title": "Downtown",
+      "artist": "Petula Clark",
+      "year": 1964,
+      "album": "Downtown",
+      "note": "Tony Hatch wrote the song after visiting New York."
+    },
+    {
+      "id": "pop-s03",
+      "title": "Good Vibrations",
+      "artist": "The Beach Boys",
+      "year": 1966,
+      "album": "Smiley Smile",
+      "note": "Brian Wilson called it a pocket symphony, and it features an electro-theremin."
+    },
+    {
+      "id": "pop-s04",
+      "title": "Rocket Man (I Think It's Going to Be a Long, Long Time)",
+      "artist": "Elton John",
+      "year": 1972,
+      "album": "Honky Chateau",
+      "note": "Bernie Taupin wrote the words, and the track has become one of Elton John's best-known songs."
+    },
+    {
+      "id": "pop-s05",
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "year": 1976,
+      "album": "Arrival",
+      "note": "The group performed it on Swedish television during a royal wedding gala."
+    },
+    {
+      "id": "pop-s06",
+      "title": "Just the Way You Are",
+      "artist": "Billy Joel",
+      "year": 1977,
+      "album": "The Stranger",
+      "note": "Jazz saxophonist Phil Woods plays the alto sax solo."
+    },
+    {
+      "id": "pop-s07",
+      "title": "Rock with You",
+      "artist": "Michael Jackson",
+      "year": 1979,
+      "album": "Off the Wall",
+      "note": "Rod Temperton wrote the song, and Quincy Jones produced it."
+    },
+    {
+      "id": "pop-s08",
+      "title": "Total Eclipse of the Heart",
+      "artist": "Bonnie Tyler",
+      "year": 1983,
+      "album": "Faster Than the Speed of Night",
+      "note": "Jim Steinman wrote and produced the dramatic power ballad."
+    },
+    {
+      "id": "pop-s09",
+      "title": "Vision of Love",
+      "artist": "Mariah Carey",
+      "year": 1990,
+      "album": "Mariah Carey",
+      "note": "Carey co-wrote her debut single with Ben Margulies."
+    },
+    {
+      "id": "pop-s10",
+      "title": "Wannabe",
+      "artist": "Spice Girls",
+      "year": 1996,
+      "album": "Spice",
+      "note": "The song was the group's first single."
+    },
+    {
+      "id": "pop-s11",
+      "title": "...Baby One More Time",
+      "artist": "Britney Spears",
+      "year": 1998,
+      "album": "...Baby One More Time",
+      "note": "Max Martin wrote the song and helped define pop in the late 1990s."
+    },
+    {
+      "id": "pop-s12",
+      "title": "Crazy in Love",
+      "artist": "Beyonce featuring Jay-Z",
+      "year": 2003,
+      "album": "Dangerously in Love",
+      "note": "A horn sample from a 1970 song by the Chi-Lites drives the track."
+    },
+    {
+      "id": "pop-s13",
+      "title": "Since U Been Gone",
+      "artist": "Kelly Clarkson",
+      "year": 2004,
+      "album": "Breakaway",
+      "note": "Max Martin and Dr. Luke wrote the song."
+    },
+    {
+      "id": "pop-s14",
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "year": 2010,
+      "album": "21",
+      "note": "Adele and producer Paul Epworth wrote the song after a breakup."
+    },
+    {
+      "id": "pop-s15",
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "year": 2013,
+      "album": "Despicable Me 2 (Original Motion Picture Soundtrack)",
+      "note": "The song was nominated for the Academy Award for Best Original Song."
+    },
+    {
+      "id": "pop-s16",
+      "title": "Shake It Off",
+      "artist": "Taylor Swift",
+      "year": 2014,
+      "album": "1989",
+      "note": "Max Martin and Shellback co-wrote the song with Swift."
+    }
+  ],
+  "stories": [
+    {
+      "id": "pop-st1",
+      "title": "Good Vibrations",
+      "dek": "A pocket symphony built from pieces",
+      "year": 1966,
+      "body": "By 1966 Brian Wilson was no longer touring with the Beach Boys. The band was on the road playing surf and car songs while he stayed home in California writing and producing. After the album Pet Sounds, he wanted to make something even more ambitious: a single that would be a small symphony.\n\nHe later said the idea came from his mother, who once told him that dogs bark at some people because they can sense their vibrations. The thought stuck. Wilson began to write a song about feelings that could be felt but not seen, and he decided to make the recording in pieces. Over several months he worked at studios across Los Angeles, including Gold Star, Western and Columbia. At each one he recorded a different section of music with the Los Angeles studio players sometimes called the Wrecking Crew. Each studio had its own sound, and Wilson used that to his advantage.\n\nThe recording included cellos, organ and an unusual instrument called the electro-theremin. It was not a true theremin, but it produced a similar sweeping, eerie whistle. The musician who played it, Paul Tanner, was a former trombonist from the Glenn Miller orchestra who had helped design the device. That sound became the song's hook and gave listeners a strange, thrilling shiver.\n\nWilson then edited the sections together on tape into a three-and-a-half-minute record. Mike Love wrote the final lyrics. The cost of the recording was reportedly enormous for a single in that era. When Capitol Records released it in October 1966, the song soared to the top of the charts in both the United States and Britain.\n\nFor Wilson, it should have been a triumph. He began work on a larger album, called Smile, which was meant to build on the same ideas. But the project proved difficult. The band argued, Wilson grew anxious, and the recording was shelved in 1967. For decades the music circulated only among fans. Wilson finally completed a new version in 2004, and the original sessions were released in 2011 as The Smile Sessions.\n\n\"Good Vibrations\" remained the single piece that showed what he had been aiming for. It proved that a pop record could be built like a film score, from many small parts, and that a three-minute song could be as daring as anything in rock.",
+      "songs": [
+        "pop-s03"
+      ]
+    },
+    {
+      "id": "pop-st2",
+      "title": "ABBA",
+      "dek": "From Eurovision to a worldwide sound",
+      "year": 1974,
+      "body": "In the early 1970s two Swedish songwriters, Björn Ulvaeus and Benny Andersson, were looking for a way to become known outside their country. Each had been in a popular band at home. They met in 1966 and began writing together. Björn married a singer, Agnetha Fältskog, in 1971, and Benny was with another singer, Anni-Frid Lyngstad, known as Frida. The four were two couples, and they began recording together.\n\nTheir manager, Stig Anderson, saw a way forward in the Eurovision Song Contest, a televised event watched across Europe. In 1973 they entered a song and finished third in the Swedish selection. A year later they tried again with \"Waterloo\", a rousing song with a thumping beat. On April 6, 1974, in Brighton, England, the group appeared in glittery costumes and won. Eurovision had rarely launched a career this large, and the song became a hit across Europe.\n\nABBA, a name made from the initials of their first names, then went on a remarkable run. They recorded in Stockholm, and later at their own Polar Studios. They wrote their own songs, with Björn on lyrics and Benny on music, and they spent weeks perfecting a sound of layered voices, bright keyboards and a clear, polished mix.\n\nIn June 1976 they performed a new song, \"Dancing Queen,\" on a television gala in Stockholm on the eve of the wedding of King Carl XVI Gustaf and Silvia Sommerlath. It was a soaring song with a classic piano opening. It became one of the group's best-known recordings, and it remains a staple of dance floors and weddings.\n\nThe group's songs grew more emotional as the years passed. Both marriages ended, and their lives were in the public eye. Yet they continued to release strong work, including the album Super Trouper in 1980, until the group stopped working together in the early 1980s.\n\nInterest in the music never faded. In 1999 a stage musical, Mamma Mia!, put their songs into a new story. It ran for years in London and around the world and later became a hit film. A group that began as an entry in a song contest had become part of the world's shared pop memory.",
+      "songs": [
+        "pop-s05"
+      ]
+    },
+    {
+      "id": "pop-st3",
+      "title": "Elton John and Bernie Taupin",
+      "dek": "Two strangers, one envelope of lyrics",
+      "year": 1970,
+      "body": "In 1967 two young men answered the same advertisement in a British music paper. Liberty Records was looking for new songwriters. One was Reginald Dwight, a piano player from the London suburbs who had been playing in a band and had a gift for melody. The other was Bernie Taupin, a teenager from Lincolnshire who wrote verses about the American West but had no music. The label's talent scout saw that they were a perfect match, though neither had met the other.\n\nThey began to work together by mail. Taupin would write lyrics and send them to Dwight, who by then was calling himself Elton John, and Elton would set them to music. That was how they worked for decades. They seldom wrote in the same room. According to a story that John has often told, he wrote the tune for \"Your Song\" in about twenty minutes.\n\nSuccess came in 1970. In August Elton John played his first American show at the Troubadour in Los Angeles. Before an audience that included music-industry people he pounded the piano, leapt around the stage and sang with an energy that few had expected. The next morning, reviews called him a star. His album Elton John and its single \"Your Song\" were hits.\n\nA string of albums followed. Honky Château in 1972 included \"Rocket Man,\" a song that Taupin has said was inspired by a Ray Bradbury story. Goodbye Yellow Brick Road in 1973 included \"Candle in the Wind,\" Taupin's tribute to Marilyn Monroe. In the mid-1970s John was among the biggest stars in the world, known for oversized glasses and feathered costumes.\n\nThe partnership continued to produce hits. In 1997, after the death of Princess Diana, Taupin rewrote the words of \"Candle in the Wind\" for her funeral, and Elton sang it at Westminster Abbey. The record was among the best-selling singles of all time.\n\nThe two men remained friends and collaborators for more than fifty years. The pairing remains one of the most successful songwriting partnerships in popular music.",
+      "songs": [
+        "pop-s04"
+      ]
+    }
+  ]
+}
