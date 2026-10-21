@@ -235,7 +235,7 @@
         "Long Lasting"
       ],
       "answer": 2,
-      "fact": "The rapper was born James Todd Smith in Queens, and he signed to Def Jam as a teenager.",
+      "fact": "The rapper was born James Todd Smith in Bay Shore, Long Island, grew up in St. Albans, Queens, and signed to Def Jam as a teenager.",
       "difficulty": 2
     },
     {
@@ -669,14 +669,14 @@
       "artist": "Run-DMC",
       "year": 1988,
       "album": "Tougher Than Leather",
-      "original": "The Monkees",
-      "originalYear": 1967,
+      "original": "The Paul Butterfield Blues Band",
+      "originalYear": 1966,
       "decoys": [
+        "The Monkees",
         "The Turtles",
-        "The Association",
         "Paul Revere & the Raiders"
       ],
-      "note": "Michael Nesmith wrote it, and the Monkees released it in 1967 on More of the Monkees. Run-DMC recast it as a hard-edged track for Tougher Than Leather."
+      "note": "Michael Nesmith wrote it, and the Paul Butterfield Blues Band recorded it first, on East-West in 1966. The Monkees released their own version in 1967, and Run-DMC recast the song as a hard-edged track for Tougher Than Leather."
     },
     {
       "id": "hip-hop-c06",

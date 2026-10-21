@@ -209,11 +209,11 @@ struct QuizView: View {
         let right = choice == item.correctIndex
         let answer = item.choices[item.correctIndex]
         return VStack(alignment: .leading, spacing: 8) {
-            Label(right ? "Right" : "The answer", systemImage: right ? "checkmark.circle.fill" : "xmark.circle.fill")
+            Label(right ? "Right" : "Not quite", systemImage: right ? "checkmark.circle.fill" : "xmark.circle.fill")
                 .font(.headline)
                 .foregroundStyle(right ? Theme.correct : Theme.accent)
             if !right {
-                Text("\(answer.title)\(answer.subtitle.map { ", \($0)" } ?? "")")
+                Text(answer.label)
                     .font(.body.weight(.semibold)).foregroundStyle(Theme.ink)
             }
             Text(item.fact).font(.body).foregroundStyle(Theme.ink.opacity(0.85))
@@ -412,7 +412,7 @@ struct ResultView: View {
                 Text(item.mode == .trivia || item.mode == .covers ? item.prompt : item.mode.title)
                     .font(.subheadline).foregroundStyle(Theme.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
-                Text(answer.title + (answer.subtitle.map { ", \($0)" } ?? ""))
+                Text(answer.label)
                     .font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)
             }
             Spacer(minLength: 0)

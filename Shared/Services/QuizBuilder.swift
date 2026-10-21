@@ -48,35 +48,42 @@ struct QuizBuilder {
         mode != .covers || genres.contains { $0.coverSongs.contains { library.hasPreview($0.id) } }
     }
 
-    /// Today's mix: 2 clips, 1 cover, 1 matchup and trivia from the focus crates.
+    /// Today's mix: 2 clips, 1 matchup, trivia with at most one hard question, and a cover to finish.
     func daily(day: String, genres: [Genre], seen: Set<String> = []) -> [QuizItem] {
         var rng = SeededRandom(string: "daily-\(day)-\(genres.map(\.id).sorted().joined(separator: ","))")
         let clips = tunes(genres: genres, count: 2, rng: &rng)
         let matchup = firstOf(genres: genres, count: 1, rng: &rng)
         let cover = covers(genres: genres, count: 1, rng: &rng)
         // Crates without clips, covers or matchups still get a full ten.
-        var items = trivia(genres: genres, count: 10 - clips.count - matchup.count - cover.count, seen: seen, rng: &rng)
+        var items = trivia(genres: genres, count: 10 - clips.count - matchup.count - cover.count,
+                           seen: seen, maxHard: 1, rng: &rng)
         for (offset, clip) in clips.enumerated() {
             items.insert(clip, at: min(items.count, 2 + offset * 4))
         }
-        items.insert(contentsOf: cover, at: max(0, items.count - 1))
-        items.append(contentsOf: matchup)
+        items.insert(contentsOf: matchup, at: min(items.count, 4))
+        items.append(contentsOf: cover)
         return items
     }
 
     // MARK: Item kinds
 
-    /// Unseen questions first, spread across crates, ordered easy to hard.
-    func trivia(genres: [Genre], count: Int, seen: Set<String>, rng: inout some RandomNumberGenerator) -> [QuizItem] {
+    /// Unseen questions first, spread across crates, ordered easy to hard, with at most `maxHard` at difficulty 3.
+    func trivia(genres: [Genre], count: Int, seen: Set<String>, maxHard: Int = .max,
+                rng: inout some RandomNumberGenerator) -> [QuizItem] {
         var pools = genres.map { genre in
             let fresh = genre.questions.filter { !seen.contains($0.id) }.shuffled(using: &rng)
             let old = genre.questions.filter { seen.contains($0.id) }.shuffled(using: &rng)
             return (genre, fresh + old)
         }.shuffled(using: &rng)
         var picked: [(Genre, Question)] = []
-        while picked.count < count, pools.contains(where: { !$0.1.isEmpty }) {
-            for index in pools.indices where picked.count < count && !pools[index].1.isEmpty {
-                picked.append((pools[index].0, pools[index].1.removeFirst()))
+        var hard = 0
+        func allowed(_ q: Question) -> Bool { q.difficulty < 3 || hard < maxHard }
+        while picked.count < count, pools.contains(where: { $0.1.contains(where: allowed) }) {
+            for index in pools.indices where picked.count < count {
+                guard let i = pools[index].1.firstIndex(where: allowed) else { continue }
+                let question = pools[index].1.remove(at: i)
+                if question.difficulty >= 3 { hard += 1 }
+                picked.append((pools[index].0, question))
             }
         }
         return picked
@@ -148,17 +155,17 @@ struct QuizBuilder {
             let genre = crates.randomElement(using: &rng)!
             let songs = genre.songs.filter { !used.contains($0.id) }.shuffled(using: &rng)
             guard let a = songs.first,
-                  let b = songs.dropFirst().first(where: { abs($0.year - a.year) >= 1 && abs($0.year - a.year) <= 12 && $0.artist != a.artist })
+                  let b = songs.dropFirst().first(where: { abs($0.year - a.year) >= 3 && abs($0.year - a.year) <= 12 && $0.artist != a.artist })
             else { continue }
             used.formUnion([a.id, b.id])
             let pair = [a, b].shuffled(using: &rng)
             let older = pair[0].year < pair[1].year ? 0 : 1
             let gap = abs(a.year - b.year)
             items.append(QuizItem(
-                id: "first-\(a.id)-\(b.id)", mode: .firstOf, genreID: genre.id, prompt: "Which came out first?",
+                id: "first-\(a.id)-\(b.id)", mode: .firstOf, genreID: genre.id, prompt: "Which came first?",
                 choices: pair.map { Choice(title: $0.title, subtitle: $0.artist, songID: $0.id) },
                 correctIndex: older,
-                fact: "\"\(pair[older].title)\" (\(pair[older].year)) beat \"\(pair[1 - older].title)\" (\(pair[1 - older].year)) by \(gap) \(gap == 1 ? "year" : "years")."))
+                fact: "\"\(pair[older].title)\" (\(pair[older].year)) came out \(gap) years before \"\(pair[1 - older].title)\" (\(pair[1 - older].year))."))
         }
         return items
     }

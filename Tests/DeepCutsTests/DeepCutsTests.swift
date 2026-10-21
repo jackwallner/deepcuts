@@ -69,7 +69,10 @@ final class QuizBuilderTests: XCTestCase {
         XCTAssertNotEqual(a.map(\.id), c.map(\.id))
         XCTAssertEqual(a.filter { $0.mode == .tune }.count, 2)
         XCTAssertEqual(a.filter { $0.mode == .covers }.count, 1)
-        XCTAssertEqual(a.last?.mode, .firstOf)
+        XCTAssertEqual(a.last?.mode, .covers)
+        XCTAssertEqual(a.filter { $0.mode == .firstOf }.count, 1)
+        let hard = a.compactMap(\.questionID).filter { id in Self.genre.questions.first { $0.id == id }!.difficulty == 3 }
+        XCTAssertLessThanOrEqual(hard.count, 1, "the daily mix holds at most one hard question")
     }
 
     func testCoversAskForTheOriginalArtist() {
@@ -122,7 +125,7 @@ final class QuizBuilderTests: XCTestCase {
         XCTAssertFalse(items.isEmpty)
         for item in items {
             let years = item.choices.map { Self.library.song($0.songID!)!.year }
-            XCTAssertNotEqual(years[0], years[1])
+            XCTAssertGreaterThanOrEqual(abs(years[0] - years[1]), 3, "no coin flips")
             XCTAssertEqual(years[item.correctIndex], years.min())
         }
     }
