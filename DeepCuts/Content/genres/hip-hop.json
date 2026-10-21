@@ -216,12 +216,12 @@
       "id": "hip-hop-q17",
       "prompt": "Which duo won the first Grammy for rap, in 1989, for \"Parents Just Don't Understand\"?",
       "choices": [
-        "DJ Jazzy Jeff & the Fresh Prince",
         "Salt-N-Pepa",
-        "Kid 'n Play",
+        "Rob Base & DJ E-Z Rock",
+        "Jazzy Jeff & the Fresh Prince",
         "Eric B. & Rakim"
       ],
-      "answer": 0,
+      "answer": 2,
       "fact": "Many rap stars boycotted the ceremony because the category was not shown on the broadcast.",
       "difficulty": 2
     },
