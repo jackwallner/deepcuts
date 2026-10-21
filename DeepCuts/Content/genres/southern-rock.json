@@ -795,7 +795,12 @@
       "songs": [
         "southern-rock-s01",
         "southern-rock-s02"
-      ]
+      ],
+      "cover": {
+        "album": "At Fillmore East",
+        "artist": "The Allman Brothers Band"
+      },
+      "kind": "concert"
     },
     {
       "id": "southern-rock-st2",
@@ -805,7 +810,11 @@
       "body": "In 1970 Neil Young released a song called \"Southern Man\". It was a hard look at racism in the American South, with Young's guitar growling behind a slow, ominous beat. Two years later he followed it with \"Alabama\", which asked the state some pointed questions. Many Southern musicians heard those songs as an outsider's lecture. One of them was Ronnie Van Zant, the singer for a Jacksonville band called Lynyrd Skynyrd.\n\nVan Zant was proud of his home and bristled at the idea that the South could be dismissed in a song. By 1974 Skynyrd had a record deal and a loyal following, and they were working on their second album, Second Helping, at Studio One in Doraville, Georgia. Guitarist Ed King had been playing a bright riff in the studio, and Van Zant, Gary Rossington and King worked it into a song. Van Zant wrote lyrics with a fiercely proud tone. The song name-checked Neil Young and told him a Southern man didn't need him around.\n\nThe song had its own flavor. There was a line about Birmingham and its governor, a sly joke about Watergate (\"Now Watergate does not bother me, does your conscience bother you?\"), and a tip of the hat to the Swampers, the Muscle Shoals session musicians who had played on so many hits. Backing singers chanted \"boo, boo, boo\" in the background, and the song was given a swampy, upbeat bounce. Al Kooper, who produced the band, helped them polish it.\n\n\"Sweet Home Alabama\" reached the US Top 10 that fall and became the band's signature song. It was often taken as a flat-out rebuttal to Young, but the story was more friendly than that. Van Zant said in interviews that he admired Young's music, and the song was meant more as a spirited reply than a feud.\n\nThe song has since taken on a life of its own, played at ballparks and weddings and everywhere in between. Few songs started as an argument and ended up as a party. This one did, and its famous opening riff is still one of the first things a guitar student learns.",
       "songs": [
         "southern-rock-s06"
-      ]
+      ],
+      "cover": {
+        "album": "Second Helping",
+        "artist": "Lynyrd Skynyrd"
+      }
     },
     {
       "id": "southern-rock-st3",
@@ -816,7 +825,83 @@
       "songs": [
         "southern-rock-s05",
         "southern-rock-s11"
-      ]
+      ],
+      "cover": {
+        "album": "Street Survivors",
+        "artist": "Lynyrd Skynyrd"
+      }
+    },
+    {
+      "id": "southern-rock-st4",
+      "title": "ZZ Top Meets the Machine",
+      "dek": "How a blues trio from Texas learned to love synthesizers and video.",
+      "year": 1983,
+      "body": "By the early 1980s ZZ Top had been playing Texas boogie for more than a decade. Guitarist Billy Gibbons, bassist Dusty Hill and drummer Frank Beard had built a following with records like Tres Hombres, and the long beards that Gibbons and Hill wore had become part of the look. The band took a break after 1981, and when they came back they wanted something different.\n\nThe result was Eliminator, recorded in Memphis at Ardent Studios with engineer Terry Manning and released in 1983. Gibbons has said the idea was to take their blues roots and mix them with modern technology. The record used synthesizers and sequenced parts alongside the usual crunchy guitar, and the drums were tightened to a steady, machine-like pulse. Frank Beard was a very good drummer, and he adjusted to the new tools.\n\nThe album came at the right moment, because MTV was growing and looking for videos with a clear story. ZZ Top supplied one. In clips for songs like Gimme All Your Lovin', Sharp Dressed Man and Legs, a young person in need of luck ends up with the keys to a gleaming red hot rod, a custom 1933 Ford coupe, thanks to the three bearded musicians. The band members do not say much, and the car, the beards and the hats did the talking. The simple idea worked, and it made the group easy to recognize at a glance.\n\nSharp Dressed Man is a good example of the approach. It has a thick, springy groove, a slick guitar part and a chorus that is easy to sing. The words are about looking sharp and feeling confident, and the video turns that into a small story about two young workers whose luck changes.\n\nIt could have been a risky move for a blues-rock band to embrace synthesizers. Instead, it widened ZZ Top's audience and introduced the group to a new generation of fans who knew them mainly from television. Gibbons has said that the guitar remained the heart of the music, and the best proof is the solo on Sharp Dressed Man.\n\nFans of the earlier records still have Tush and La Grange. But Eliminator showed that the band could change its sound without losing its sense of humor.",
+      "songs": [
+        "southern-rock-s16"
+      ],
+      "cover": {
+        "album": "Eliminator",
+        "artist": "ZZ Top"
+      }
+    },
+    {
+      "id": "southern-rock-st5",
+      "title": "Hold On Loosely",
+      "dek": "A band from Ronnie Van Zant's family tree finds a new sound.",
+      "year": 1981,
+      "body": "When Lynyrd Skynyrd's plane went down in 1977, the world of Southern rock lost its best-known voice. Ronnie Van Zant had a younger brother, Donnie, who was leading a band called 38 Special out of Jacksonville, Florida. Donnie Van Zant and guitarist Don Barnes had formed the group in the mid-1970s, and their first records had the twin-guitar sound that fans of the genre expected.\n\nOver the next few years the band went in a different direction. It was a smart move. The audience for long jams was shrinking, and radio wanted tighter songs with a bright, clean sound. 38 Special kept the Southern attitude, but they trimmed the arrangements and put more weight on hooks and harmony. Bassist Larry Junstrom had been in the earliest lineup of Skynyrd, so the band had real roots in the scene they were gently leaving behind.\n\nThe turning point was Hold On Loosely, on the 1981 album Wild-Eyed Southern Boys. The song was written by Barnes, guitarist Jeff Carlisi and Jim Peterik, a songwriter from Chicago who had been in the group Ides of March and who would soon help write Eye of the Tiger for Survivor. The advice in the title is about relationships: do not grip too tightly, or the thing you love will slip away. It is delivered over a crisp, driving riff.\n\nPeterik had a talent for choruses, and his work with 38 Special shows it. He helped write several of the band's later songs, including Caught Up in You. Meanwhile, the group's producer, Rodney Mills, who had earlier engineered for Skynyrd, helped give the records a clean, radio-friendly sound without losing their punch.\n\n38 Special was criticized by some Southern rock purists for being too polished. But the band never hid where it came from, and it kept the sound of two drummers on stage. Hold On Loosely became a favorite at their shows, and it remains the song most associated with the band.\n\nIts story is a reminder that the music did not end with the plane crash. It grew into something new, with the same family and the same state of mind.",
+      "songs": [
+        "southern-rock-s15"
+      ],
+      "cover": {
+        "album": "Wild-Eyed Southern Boys",
+        "artist": ".38 Special"
+      }
+    },
+    {
+      "id": "southern-rock-st6",
+      "title": "The Devil Went Down to Georgia",
+      "dek": "A fiddle contest, a golden prize and a six-man writing credit.",
+      "year": 1979,
+      "body": "Charlie Daniels had been a Nashville session player and a bandleader for years when he wrote one of the best-known story songs in country rock. The Devil Went Down to Georgia appeared in 1979 on the album Million Mile Reflections. It tells of a young fiddler named Johnny who takes on the Devil in a contest, with a golden fiddle on the line against Johnny's soul.\n\nIt is often said that the idea was influenced by Stephen Vincent Benet's poem about a fiddling contest, which also features a duel between a young player and a rival. He took that setup and moved it to Georgia, with a Devil in the role of the challenger. He and the band built the song out of the music, with each section of the arrangement acting like a scene in a short play.\n\nThe credit on the song is a clue to how it was made. Six musicians in the Charlie Daniels Band share the songwriting credit, including guitarist Tom Crain, keyboardist Taz DiGregorio, bassist Charlie Hayward, and drummers James W. Marshall and Fred Edwards. Daniels has described the song as a group effort, with the band helping shape the music while he handled the words and the fiddle.\n\nThe Devil's parts are played in a tense, driving style, with the band pushing and the fiddle snarling. When Johnny answers, the music lifts into a bright, fast reel, and the fiddle solos fly. There is real skill in the way the song moves from menace to triumph.\n\nThe song won a Grammy Award in 1980 for Best Country Vocal Performance by a Duo or Group, and it appeared in the film Urban Cowboy. It became a signature number for the band for the rest of its career, and Daniels played it at the end of many shows, often with a long fiddle breakdown.\n\nThe Devil Went Down to Georgia also showed how far country rock could travel. It was a story song with a big arrangement and a fiddle at the center, and it worked on country radio, rock radio and the dance floor.",
+      "songs": [
+        "southern-rock-s14"
+      ],
+      "cover": {
+        "album": "Million Mile Reflections",
+        "artist": "The Charlie Daniels Band"
+      }
+    },
+    {
+      "id": "southern-rock-st7",
+      "title": "One More from the Road",
+      "dek": "Skynyrd at the Fox Theatre, summer of 1976.",
+      "year": 1976,
+      "body": "In July 1976 Lynyrd Skynyrd went into the Fox Theatre in Atlanta to record a live album. They were at the top of their form, and they were playing in a city that treated them as hometown heroes. The Fox is an ornate theater from 1929, built like a palace, and it was saved from demolition in the 1970s after a public campaign. It was a fitting place for a Georgia band to make a record.\n\nThe group had a new lineup. Guitarist Ed King had left the year before, and Steve Gaines had joined, which gave Skynyrd three guitarists again: Gaines, Gary Rossington and Allen Collins. Billy Powell played keyboards, Leon Wilkeson bass and Artimus Pyle drums. A trio of backing singers called the Honkettes included Gaines's sister Cassie. Ronnie Van Zant stood at the center of the stage, and his easy, wry voice introduced the songs.\n\nThe set included the band's biggest numbers. Sweet Home Alabama and Gimme Three Steps drew shouts from the crowd, and Tuesday's Gone showed the slow side of the band. The set ended with Free Bird, which was stretched to over fourteen minutes and had the audience on its feet. The guitar solo that closes the song, with the three guitarists trading off, became one of the most imitated pieces of Southern rock.\n\nThe record came out in September 1976 as a double album called One More from the Road. It was well received, and it helped confirm Skynyrd's reputation as a great live act. The sound is raw and close, and it gives the feeling of being in the room.\n\nThe story has a sad ending. In October 1977, a little more than a year after the Fox recordings, the band's plane crashed in Mississippi, and Ronnie Van Zant, Steve Gaines and Cassie Gaines were among those who died. The live album captures the group at a moment that now seems especially precious, with all of its energy and its confidence.\n\nThe Fox Theatre remains an Atlanta landmark, and Free Bird there is still the version many fans think of first.",
+      "songs": [
+        "southern-rock-s05"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "One More from the Road",
+        "artist": "Lynyrd Skynyrd"
+      }
+    },
+    {
+      "id": "southern-rock-st8",
+      "title": "Summer Jam at Watkins Glen",
+      "dek": "The largest crowd of the 1970s, three bands and a jam the day before.",
+      "year": 1973,
+      "body": "On July 28, 1973, a crowd gathered at the Watkins Glen Grand Prix Raceway in upstate New York for an all-day concert with three bands: the Grateful Dead, the Band and the Allman Brothers Band. The promoters had reportedly sold about 150,000 tickets, but estimates of the crowd ran as high as 600,000, and many people arrived days early and camped in the fields.\n\nThe Allman Brothers were at an important point in their career. Duane Allman had died in 1971, and bassist Berry Oakley died in 1972. The band had carried on with Dickey Betts as the leading guitarist, Lamar Williams on bass, and pianist Chuck Leavell, and they were about to release the album Brothers and Sisters. It contained Ramblin' Man, a song that Betts had written and sang, and it would become the band's best-known single. At Watkins Glen they were playing it before it reached the public.\n\nThe festival is also remembered for what happened the day before. On Friday, members of the Dead, the Band and the Allman Brothers did a sound check that turned into a long jam, with the huge crowd already in the field. Fans who were there have said it felt as if the show had started early. Rock historians often mention the sound check as one of the most memorable moments of the weekend.\n\nOn Saturday the bands each played long sets, and the Allman Brothers brought their own mix of blues, country and jazz-inflected jams. Betts and Gregg Allman led, and the two drummers, Butch Trucks and Jaimoe, kept the groove going.\n\nThe sheer size of the crowd strained the roads and the supplies, but many who were there remember a peaceful scene.\n\nWatkins Glen became a milestone for the Allman Brothers and for Southern rock. It showed that a band from Georgia could draw as many people as the biggest names in the country, and it helped set up the success of Ramblin' Man.",
+      "songs": [
+        "southern-rock-s04"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Brothers and Sisters",
+        "artist": "The Allman Brothers Band"
+      }
     }
   ]
 }

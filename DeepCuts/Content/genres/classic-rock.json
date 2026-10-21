@@ -794,7 +794,11 @@
       "body": "In early 1976 Fleetwood Mac was a band in trouble that did not know it yet. Mick Fleetwood and John McVie were the rhythm section. Christine McVie was the keyboardist, John's wife, and one of the band's best songwriters. Lindsey Buckingham and Stevie Nicks had joined at the end of 1974, bringing California harmony and a romantic partnership. Their first album together, simply called Fleetwood Mac, had been a huge hit. The follow-up should have been a victory lap.\n\nInstead, the personal lives fell apart as the band gathered at the Record Plant in Sausalito, California. The McVies' marriage was ending after eight years. Buckingham and Nicks, together for years, had also broken up. Fleetwood's own marriage was in trouble. Nobody left the band, and every day they walked into the same small studio to record songs about each other.\n\nThe results were frank. Buckingham wrote \"Go Your Own Way\" as a farewell to Nicks, and Nicks objected to the line about \"shacking up\". Christine McVie sang \"Don't Stop\" to her ex-husband and \"You Make Loving Fun\" about a new love. Nicks wrote \"Dreams\" in a short burst of inspiration, working in a small room in the studio, and \"Gold Dust Woman\" captured the darker moods of those weeks.\n\nThe sessions were long, and the band was known to work late into the night, with a lot of cocaine and alcohol around. They obsessed over details, redoing guitar parts and vocals until they had them. Producers Ken Caillat and Richard Dashut spent months assembling the final tapes, and they used the same master reel so many times that it began to wear thin.\n\nRumours arrived in February 1977 and the response was immense. It spent 31 weeks at No. 1 on the Billboard album chart, produced four Top 10 singles and won the Grammy for Album of the Year in 1978. It has sold tens of millions of copies worldwide, and it still sells today.\n\nPart of the album's enduring pull comes from the human drama behind it. A listener in 1977 did not need to know the backstory, because the songs spelled out their own heartache. Yet knowing the story adds a layer, since the same people who sang the sad lines also had to play the next take together. The band later said the tension was part of the energy, and that the album might never have existed if they had been happier. Whatever the truth, Rumours remains a lesson in how pain can become polished pop craft.",
       "songs": [
         "classic-rock-s11"
-      ]
+      ],
+      "cover": {
+        "album": "Rumours",
+        "artist": "Fleetwood Mac"
+      }
     },
     {
       "id": "classic-rock-st2",
@@ -804,7 +808,11 @@
       "body": "In 1970 Eric Clapton was in love with Pattie Boyd, the wife of his friend George Harrison. He had no way to tell her, so he wrote songs. That summer he formed a new band with American musicians from the Delaney and Bonnie tour: keyboardist Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon. They called themselves Derek and the Dominos, and they headed to Criteria Studios in Miami to record with producer Tom Dowd, who had worked with Clapton in Cream.\n\nDowd happened to be working with the Allman Brothers Band at the same time. He told Clapton about a young slide guitarist called Duane Allman, and the two met when Clapton went to see the Allmans play in Miami. They talked and then jammed through the night. Clapton later described the connection as the sort of musical brotherhood he had always wanted.\n\nAllman joined the sessions, and the pair played off each other like old partners. The title song was inspired by Layla and Majnun, the classic Persian poem of unattainable love, which a friend had given Clapton. Clapton wrote the main part of the song, and Allman's opening slide figure became one of the most famous riffs in rock. The band cut the first part of the song, then added a very different piano coda, a calm, melodic ending that gives the track its mood of exhaustion after a storm.\n\nThe album, Layla and Other Assorted Love Songs, appeared in November 1970. It was not an immediate success. Reviewers praised it, but the band was little known and the double-album format was a hard sell. The single \"Layla\" first reached only the middle of the US charts in 1971. After the band split and Clapton retreated into a long struggle with addiction, radio programmers kept playing the song, and when it was reissued in 1972 it climbed to the US Top 10.\n\nAllman had returned to the Allman Brothers Band after the sessions. In October 1971 he was killed in a motorcycle accident in Macon, Georgia, at the age of 24. Clapton always said the finished song would not have existed without him. Boyd eventually left Harrison and married Clapton in 1979, though the marriage later ended. As for the song, it has had a long life, and in 1992 Clapton played a quiet acoustic version on MTV Unplugged that won him a Grammy. Layla still sounds like what it was: a message sent by a man who could not say it aloud.",
       "songs": [
         "classic-rock-s04"
-      ]
+      ],
+      "cover": {
+        "album": "Layla and Other Assorted Love Songs",
+        "artist": "Derek & The Dominos"
+      }
     },
     {
       "id": "classic-rock-st3",
@@ -814,7 +822,83 @@
       "body": "Queen's fourth album, A Night at the Opera, was a bold experiment in 1975. It cost a lot to record and had no particular style. The band wanted each song to be different. The centerpiece was a song Freddie Mercury had been carrying in his head for years, and which he finally brought to the others in pieces, playing the piano and singing the harmonies himself.\n\nMercury arrived with the song largely written out on scraps of paper. It had a ballad introduction, a guitar solo, an operatic middle and a hard rock ending. The recording took about three weeks, and it was done at several studios, including Rockfield in Wales. The opera section alone took days, because the singers, Mercury, Brian May and Roger Taylor, layered their voices again and again to sound like a giant choir. According to May, the tape was copied and overdubbed so many times that it became almost transparent.\n\nProducer Roy Thomas Baker supported the plan, but the record company was worried. At nearly six minutes, the song was three times the usual length of a single, and radio stations rarely played anything that long. Mercury gave a copy to Kenny Everett, a friendly DJ at Capital Radio in London, who had promised not to play it. He played it anyway, reportedly more than a dozen times over a weekend. Listeners phoned in to ask where they could buy it, and the label had to release it.\n\nThe single came out in October 1975 and reached No. 1 in the UK, staying there for nine weeks over the Christmas period. The band also made a promotional film, directed by Bruce Gowers in a few hours at Elstree Studios, to promote the song on television. The clip, which opens with the four members' faces in a diamond, is often credited with helping to launch the music video era.\n\nCritics were split at first. Some found the song bombastic and others a masterpiece, but listeners embraced it. Mercury never fully explained the lyrics, saying only that the song was about relationships, and he refused to give a simple meaning to the story of Galileo and the other figures. After his death in 1991, it returned to the top of the UK chart in early 1992. Few singles have stayed so popular for so long, or sounded so little like anything else on the radio.",
       "songs": [
         "classic-rock-s09"
-      ]
+      ],
+      "cover": {
+        "album": "A Night at the Opera",
+        "artist": "Queen"
+      }
+    },
+    {
+      "id": "classic-rock-st4",
+      "title": "Mexican Reggae to Hotel California",
+      "dek": "A beach house demo became the Eagles' signature song.",
+      "year": 1976,
+      "body": "In 1976 the Eagles were already one of the biggest bands in America, and they knew the next record had to be something bigger than a collection of singles. Guitarist Don Felder had been playing with a chord progression at a rented house on the beach in Malibu. He put it down on a home tape machine and handed a cassette to Don Henley and Glenn Frey. Felder has said the demo had a loose, rolling rhythm, and the band reportedly called it Mexican Reggae at first.\n\nHenley and Frey heard something in the music that suggested shadows and glamour. Henley has said the words were about the dark side of the American dream and about the excess of Southern California in the 1970s. He has described the hotel as a metaphor, not a real place, which is part of why the song invites so many theories.\n\nThe band recorded the album with producer Bill Szymczyk, working in Miami and Los Angeles over most of 1976. It was the first Eagles album with Joe Walsh, who had joined the year before, and it was the last with bassist Randy Meisner. Walsh and Felder worked out the long guitar passage that closes the song, building a harmony between the two guitars that the band knew would end up in the live show every night.\n\nThe cover became famous too. The photograph shows the Beverly Hills Hotel at dusk, shot by David Alexander, and the glowing pink building gave the record a strong look before anyone had put on the needle.\n\nHotel California was released in December 1976 and became a calling card for the Eagles. Because the lyrics are so open to interpretation, listeners have argued for decades about what the hotel stands for, and band members have mostly declined to settle the question. The group broke up in 1980, and fans did not expect to see them together again. They did reunite in 1994, and the performance of Hotel California on their television special, with its mix of acoustic guitars and percussion, became a high point of the comeback.\n\nWhat lasts is the writing. A cassette recorded in a beach house in Malibu, a few chords, and a lyric that is still debated.",
+      "songs": [
+        "classic-rock-s10"
+      ],
+      "cover": {
+        "album": "Hotel California",
+        "artist": "Eagles"
+      }
+    },
+    {
+      "id": "classic-rock-st5",
+      "title": "Sultans of Swing",
+      "dek": "A demo tape, a London radio host and a very quiet pub in Deptford.",
+      "year": 1978,
+      "body": "Mark Knopfler was a college lecturer in the 1970s, living in a flat in the Deptford district of south London and playing guitar whenever he could. One evening he stepped into a pub and found a jazz band playing to a nearly empty room. The musicians were not especially exciting, but at the end of the night the singer thanked the small crowd and announced the band's name, the Sultans of Swing. The grand name and the tiny audience stayed in Knopfler's mind, and he turned the scene into a song.\n\nBy 1977 he had formed Dire Straits with his brother David on rhythm guitar, bassist John Illsley and drummer Pick Withers. They recorded a demo of a handful of songs, including Sultans of Swing, and the tape found its way to Charlie Gillett, a respected DJ on BBC Radio London. Gillett played one of the songs on his show, and the response from listeners helped convince a record label to take a chance. Phonogram signed the band, and A&R man Muff Winwood produced the first album.\n\nThe recording that fans know was made at Basing Street Studios in London in early 1978. Knopfler plays a Fender Stratocaster without a pick, using his fingers to pluck and snap the strings. That fingerstyle gives the guitar its crisp, conversational tone, and it is the sound that stood out in an era of loud punk and heavy rock. The solos feel almost spoken, and the band's lean, unhurried groove sits in contrast with the noise around it.\n\nThe song found an audience in several countries, and it helped carry the debut album to a wide one. Dire Straits went on to sell millions of records, and Knopfler became one of the most respected guitarists of his generation.\n\nThe story shows how a record can start from a small, ordinary moment. A quiet pub, a band that did not seem to matter, and a listener paying attention.",
+      "songs": [
+        "classic-rock-s12"
+      ],
+      "cover": {
+        "album": "Dire Straits",
+        "artist": "Dire Straits"
+      }
+    },
+    {
+      "id": "classic-rock-st6",
+      "title": "Eye of the Tiger",
+      "dek": "Sylvester Stallone needed a theme, and a Chicago band delivered one.",
+      "year": 1982,
+      "body": "Sylvester Stallone was finishing Rocky III in 1982 when he went looking for the right theme song. He had reportedly used a Queen track while cutting the film, and when it could not be cleared he asked Survivor, a rock band from Chicago, to write something with a similar punch. Stallone reportedly knew the band's music and liked it, so he gave them a call.\n\nKeyboardist Jim Peterik and guitarist Frankie Sullivan took on the job. They watched scenes from the film and tried to match the mood on screen, a champion who has lost his edge and has to find it again. The opening of the song is a series of sharp guitar stabs that sound like punches, and the beat that follows lands like footsteps on a training run.\n\nRocky III opened in theaters in the spring of 1982, and the song reached audiences along with it. The track was recorded in time for the movie, and it became the title song of Survivor's 1982 album. Lead vocalist Dave Bickler sang the lead part, and his urgent style fit the story. The song was nominated for an Academy Award for Best Original Song and won a Grammy for Best Rock Performance by a Duo or Group with Vocal.\n\nPart of the reason the song has lasted is that it works as motivation. It was soon in gyms, locker rooms and training montages of every kind,. Few theme songs have been played so often for athletes who never saw the movie.\n\nPeterik later wrote or co-wrote songs for other acts, including the 38 Special hit Hold On Loosely, and he has often talked about how fast Eye of the Tiger came together. A little luck, a quick phone call and a rough sketch of a riff turned out to be enough.\n\nSurvivor had formed in Chicago in the late 1970s, and the band made the most of the chance it was given. The song still sounds like a workout that lasts four minutes.",
+      "songs": [
+        "classic-rock-s16"
+      ],
+      "cover": {
+        "album": "Eye of the Tiger",
+        "artist": "Survivor"
+      }
+    },
+    {
+      "id": "classic-rock-st7",
+      "title": "The Last Waltz",
+      "dek": "Thanksgiving night 1976 at Winterland, and a farewell with friends.",
+      "year": 1976,
+      "body": "On Thanksgiving night, November 25, 1976, the Band played their final concert at the Winterland Ballroom in San Francisco. The group had toured for about sixteen years, first backing Ronnie Hawkins and Bob Dylan and then on their own. Guitarist Robbie Robertson had grown tired of life on the road, and he wanted to end the Band while they were still at their best. Promoter Bill Graham helped organize the evening, and the audience was served a turkey dinner before the music began.\n\nMartin Scorsese filmed the show with a team of leading cinematographers, and he planned the camera moves carefully, using the setlist as a guide. The result, The Last Waltz, is often named among the best concert films ever made.\n\nThe guest list was remarkable. Muddy Waters, Van Morrison, Dr. John, Neil Young, Joni Mitchell, Neil Diamond and many others joined the Band on stage. Bob Dylan played a short set near the end, and the closing number featured a crowd of friends singing together.\n\nEric Clapton was among the guests, and he played on the song Further On Up the Road. His guitar strap reportedly came loose during his turn, and Robertson stepped in and played the next passage without missing a beat. It is a small moment that shows how well the musicians knew one another.\n\nThere were stories about the evening that spread afterward. Neil Young, for example, had a visible spot on his nose during his song, and the film crew reportedly used an animation technique to remove it from the final cut. Backstage there were friendships, rivalries and some nerves.\n\nThe Band did not completely disappear after this concert. The members reformed in 1983 without Robertson, but nothing matched the weight of the night in San Francisco. The film and the triple album remain the record of a farewell that felt less like an ending and more like a toast.\n\nClapton fit the room well. His own career ran from the British blues scene through Cream and Derek and the Dominos, and he was a longtime friend of the Band.",
+      "songs": [
+        "classic-rock-s04"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "The Last Waltz",
+        "artist": "The Band"
+      }
+    },
+    {
+      "id": "classic-rock-st8",
+      "title": "Live at Leeds",
+      "dek": "A cold February night in 1970 and a live album that sounds like a wall of noise.",
+      "year": 1970,
+      "body": "In early 1970 the Who were tired of being known only for Tommy. The rock opera had made them stars, but the band remembered the loud, fast, sweaty shows they had played before it, and they wanted a record that sounded like that. Their solution was to tape a couple of concerts and release a live album with no rock opera on it.\n\nThe first show they recorded was on Valentine's Day, February 14, 1970, in the refectory at the University of Leeds. The hall was an ordinary room with a stage at one end, and it was full of students. The next night they taped a second concert at Hull City Hall, but the Leeds tapes were the ones that mattered.\n\nThe album that came out in May 1970 had just six tracks, with songs such as Young Man Blues, Summertime Blues, Shakin' All Over, Magic Bus and a long, stretched version of My Generation. The cover looked like a plain brown sleeve with rubber stamp lettering, a joke about bootleg records, and the package came with copies of documents from the band's career. Fans who bought it got something that looked and felt like an inside record.\n\nWhat the music shows is a four-piece band playing at full tilt. Pete Townshend plays a thick, crunching guitar, Roger Daltrey sings with a confident growl, John Entwistle pushes his bass forward, and Keith Moon plays drums as if he were trying to lead the whole band. The version of My Generation stretches out into a long jam that includes pieces of other Who material, including some of Tommy.\n\nMany critics and fans rank Live at Leeds among the best live albums ever made. It also marks a turning point. The next year Townshend wrote songs for a project called Lifehouse, and one of them, Baba O'Riley, became the opening track of Who's Next. The band that made it was the one heard that night at Leeds, big, loud and very sure of itself.",
+      "songs": [
+        "classic-rock-s05"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Live at Leeds",
+        "artist": "The Who"
+      }
     }
   ]
 }
