@@ -534,7 +534,11 @@
       "body": "In the early 1960s James Brown was a star of soul music, with a screaming voice and a famously tight stage show. His band rehearsed hard, and he fined players for mistakes. But around 1965 he began to change the way his music worked. Instead of building songs on chord changes and a standard backbeat, he started to think of every instrument as a drum.\n\nThe key was the first beat of each bar, which Brown called \"the one.\" The bass, guitar and horns all hit it together and then locked into a tightly interlocking pattern of short, sharp notes. Guitarist Jimmy Nolen played choppy chords, and the drummers followed Brown's directions to keep the pulse unchanging. Brown stripped away what was unnecessary and let the groove carry the song.\n\n\"Papa's Got a Brand New Bag\" in 1965 pointed in that direction. But the real break came in 1967 with \"Cold Sweat.\" Saxophonist Pee Wee Ellis arranged it, with a bass line that rarely changed, a short horn riff and a drum break by Clyde Stubblefield. There was no real chord change. Brown shouted instructions to the band and called on saxophonist Maceo Parker to take a solo. Many people regard the record as the beginning of funk.\n\nThe idea spread quickly. Sly Stone, George Clinton and many others took the rhythmic approach and put their own spin on it. Later, producers and hip-hop musicians would sample Brown's drum breaks. The break from \"Funky Drummer\" (1970), played by Stubblefield, became one of the most sampled drum patterns in music.\n\nBrown's band went through changes. In 1970 several players left after a dispute over pay, and Brown hired a new group of young musicians who became the J.B.'s. They included a teenage bassist named William \"Bootsy\" Collins, who would later join George Clinton's Parliament and Funkadelic.\n\nBrown also used his fame beyond music. In 1968 he recorded \"Say It Loud, I'm Black and I'm Proud,\" which became a rallying cry. After the assassination of Martin Luther King Jr. in April 1968, he appeared on television in Boston to help calm a tense city.\n\nHe kept performing until he died in 2006. His influence, from the rhythm of a Prince record to a rapper's sample, is hard to overstate. The first beat of the bar was the secret, and he gave it to everybody.",
       "songs": [
         "disco-funk-s01"
-      ]
+      ],
+      "cover": {
+        "album": "Cold Sweat",
+        "artist": "James Brown"
+      }
     },
     {
       "id": "disco-funk-st2",
@@ -545,7 +549,11 @@
       "songs": [
         "disco-funk-s11",
         "disco-funk-s16"
-      ]
+      ],
+      "cover": {
+        "album": "C'est Chic",
+        "artist": "Chic"
+      }
     },
     {
       "id": "disco-funk-st3",
@@ -555,7 +563,41 @@
       "body": "Before disco, the Bee Gees were a harmony group with a long history. Brothers Barry, Robin and Maurice Gibb were born in the British Isles and grew up in England and Australia. They had hits in the late 1960s, such as \"To Love Somebody\" and \"Massachusetts.\" By the early 1970s their popularity had faded, and the group looked finished.\n\nThey were rescued by a producer. In 1974, on the advice of Eric Clapton, the brothers went to Miami to record with Arif Mardin, who had worked with Aretha Franklin. In a studio there they developed a new sound. While driving across a causeway, Barry Gibb noticed the rhythm of the car's tires on the bridge. That thumping feel became the basis for \"Jive Talkin',\" a hit in 1975. At Mardin's urging, Barry also tried singing in a high falsetto, which became a trademark.\n\nIn 1977 their manager, Robert Stigwood, was preparing a film about a young Brooklyn dancer played by John Travolta. He asked the Bee Gees to write songs for it. They wrote many of the tracks in a few days at a studio in France, among them \"Stayin' Alive,\" \"How Deep Is Your Love\" and \"Night Fever.\" The film, Saturday Night Fever, opened in December 1977.\n\nThe film and its soundtrack were a sensation. Travolta's white suit and dance moves became iconic. The album, which also included tracks by other artists, such as the Trammps' \"Disco Inferno,\" became one of the best-selling soundtracks ever. Disco moved from the clubs of New York into the mainstream and into suburban living rooms.\n\nThe success had a cost. By 1979 many rock fans had grown tired of disco, and the Bee Gees, who were everywhere, became a target. The Disco Demolition event in Chicago that summer was a symptom of the backlash. The brothers' hits on the radio faded.\n\nEven so, their songs never went away. They wrote hits for others, including Barbra Streisand and Dionne Warwick, and their music has been recognized for its craft. \"Stayin' Alive\" is still played at weddings, in films, and, because of its tempo, in CPR classes.",
       "songs": [
         "disco-funk-s09"
-      ]
+      ],
+      "cover": {
+        "album": "Saturday Night Fever",
+        "artist": "Bee Gees"
+      }
+    },
+    {
+      "id": "disco-funk-st4",
+      "title": "Live at the Apollo",
+      "dek": "James Brown pays for his own recording in October 1962.",
+      "year": 1962,
+      "body": "By 1962 James Brown was one of the most exciting performers on the rhythm and blues circuit, and he believed that a live album would prove it. His record company, King Records, was not so sure. The label's owner, Syd Nathan, thought that a live record would not sell, since the audience had already heard most of the songs on singles. Brown disagreed. According to later accounts, he put up the money himself, about $5,700, to record a show at the Apollo Theater in Harlem.\n\nThe recording was made on October 24, 1962. The Apollo was a celebrated theater with an audience that knew what it liked, and the crowd responded with shouts and screams. The show begins with the master of ceremonies, Fats Gonder, introducing Brown with a famous list of titles that builds to the hardest working man in show business. Then the band, the Famous Flames and James Brown himself come out, and the room explodes.\n\nThe album is about half an hour long, and it is built as a continuous performance, with songs moving into each other with little pause. Brown sings ballads such as Lost Someone and Try Me, and he sings the song that made his name, Please Please Please, as a long, dramatic number. In his stage act, he would drop to his knees as though overcome, and an assistant would drape a cape over his shoulders and help him from the stage, only for Brown to throw off the cape and return for more.\n\nKing Records released the record in 1963, and it sold much better than anyone at the label had expected. It is now regarded as one of the best live albums in popular music, and it helped establish Brown as a major star.\n\nThe performance also shows the beginnings of the rhythm approach that Brown would develop later. His band plays tight, crisp patterns, and the drums, bass and horns lock in a way that seems to push every note forward. By the time of Cold Sweat in 1967, that approach would shape funk.\n\nBrown's gamble paid off. A record that his boss did not want to make became one of the most celebrated of its era.",
+      "songs": [
+        "disco-funk-s01"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Live at the Apollo",
+        "artist": "James Brown"
+      }
+    },
+    {
+      "id": "disco-funk-st5",
+      "title": "The Mothership Lands",
+      "dek": "George Clinton brings a spaceship to the stage in the mid-1970s.",
+      "year": 1976,
+      "body": "By the middle of the 1970s George Clinton had built a family of bands out of two groups, Parliament and Funkadelic, and a pool of musicians that fans collectively called P-Funk. The music was a mix of soul, rock and jazz held together by deep, bouncing grooves. The shows were just as bold, and in 1976 Clinton took things further by having a spaceship appear on stage.\n\nThe idea grew out of the 1975 album Mothership Connection, which imagined funk as a message from outer space. The record introduced a character called Star Child, and the music had a futuristic sheen, with bass lines from Bootsy Collins and keyboards from Bernie Worrell. The title track and songs like Give Up the Funk (Tear the Roof Off the Sucker) became favorites at P-Funk shows.\n\nFor the tour that followed, the band had a large prop built to look like a spaceship. During the performance, it descended from above the stage, with lights and smoke, and Clinton, dressed in a flamboyant outfit, appeared from inside. For audiences it was a moment of pure theater, and it fit the story the albums were telling. The idea was that the funk came from another world, and that the audience was about to be taken there.\n\nThe show was not only spectacle. The band was large, with many singers, horn players and guitarists, and everyone had room to take a solo. Worrell played inventive keyboard parts, Bootsy wore star-shaped sunglasses and played his space bass, and Clinton led the group through long jams that left the crowd dancing. Fans have said that the shows often ran for hours.\n\nThe group released a live album called Live: P-Funk Earth Tour in 1977, which captured some of the energy of those concerts. Over the years the original Mothership prop became a symbol of the band. It is now part of the collection of the Smithsonian's National Museum of African American History and Culture in Washington.\n\nThe Mothership story shows how funk could be playful and serious at the same time. It was a joke, a piece of theater and a statement of freedom, all in a few minutes of fog and lights.",
+      "songs": [
+        "disco-funk-s06"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Mothership Connection",
+        "artist": "Parliament"
+      }
     }
   ]
 }

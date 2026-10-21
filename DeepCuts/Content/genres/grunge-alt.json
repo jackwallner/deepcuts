@@ -536,7 +536,11 @@
         "grunge-alt-s01",
         "grunge-alt-s03",
         "grunge-alt-s04"
-      ]
+      ],
+      "cover": {
+        "album": "Bleach",
+        "artist": "Nirvana"
+      }
     },
     {
       "id": "grunge-alt-st2",
@@ -546,7 +550,11 @@
       "body": "By the summer of 1991 Nirvana had finished the songs for its first major-label album. The band had come together in Aberdeen and moved to Olympia, and now it was in Los Angeles. The producer was Butch Vig, who had worked with underground bands in Wisconsin, and the recording took place at Sound City Studios in Van Nuys. Kurt Cobain had written a song that he thought of as a pop tune, built on a loud, simple riff.\n\nHe took the title from a bit of graffiti. One night Kathleen Hanna, the singer of the band Bikini Kill, spray-painted on his wall the words \"Kurt smells like Teen Spirit.\" She was teasing him that he smelled like the deodorant his girlfriend, Tobi Vail, wore. Cobain apparently thought the phrase had a revolutionary ring and did not realize Teen Spirit was a deodorant until later.\n\nHe said in a 1994 interview with Rolling Stone that he was trying to write the ultimate pop song, and that he was ripping off the Pixies, a Boston band he loved. The Pixies were known for songs that went from soft to explosive, and the verse and chorus of \"Teen Spirit\" use the same trick. The quiet verse, the loud chorus and the guitar sound that Vig and mixer Andy Wallace polished gave the song its punch.\n\nThe video was staged in a school gym by director Samuel Bayer. Cobain wanted a pep rally gone wrong, with cheerleaders carrying anarchy symbols and a crowd that moves from boredom to a mosh pit. MTV played it constantly. Almost overnight, the song became the sound of a generation to many listeners, and a mark of what later was called grunge.\n\nCobain was not comfortable with the praise. He thought the riff sounded too much like the Boston song \"More Than a Feeling,\" and he grew tired of playing it on stage. Even so, the song proved a lasting one. It has been covered, parodied and played at stadiums for decades. It also helped make Nevermind a landmark, and it came from a song that its writer thought of, at least partly, as an imitation.",
       "songs": [
         "grunge-alt-s01"
-      ]
+      ],
+      "cover": {
+        "album": "Nevermind",
+        "artist": "Nirvana"
+      }
     },
     {
       "id": "grunge-alt-st3",
@@ -556,7 +564,41 @@
       "body": "In the early 1990s British guitar music looked to many people like a stale copy of American grunge. Then a wave of bands began to sing about English life with English accents. Blur, from London, wrote clever songs about suburban characters. Oasis, from Manchester, wrote broad, swaggering anthems about getting out. Pulp and Suede joined them. The press named the movement Britpop.\n\nOasis was built around brothers Noel and Liam Gallagher. Noel wrote the songs, and Liam sang them with a snarl. Their debut, Definitely Maybe, came out in 1994 and made them stars. Rivalry grew, with each band's fans choosing a side. Blur seemed southern and middle class, Oasis northern and working class, and the press loved the story.\n\nIn August 1995 both bands decided to release a single on the same day, August 14. Blur's was \"Country House.\" Oasis offered \"Roll with It.\" The contest was covered on the evening news, and newspapers ran front-page stories. Blur won the week, outselling Oasis by a clear margin. But the victory proved a partial one. Within weeks Oasis released a second album, (What's the Story) Morning Glory?, which went on to sell many millions of copies and overshadowed Blur's.\n\nThe record included \"Wonderwall,\" a song Noel Gallagher wrote. It became one of the band's best-known tracks, and Noel has said he grew to dislike it as it was played so often. Liam sang it with a calm, rough voice over strummed acoustic guitars and a cello line. It was heard in pubs, on radio and on the street everywhere in Britain and beyond.\n\nThe feud faded, and by the end of the decade both bands had moved on. Blur experimented with American indie rock, and Oasis kept filling stadiums. Yet the rivalry had made the music a national event, and both bands' best songs from those years remain popular. For one week in 1995, a pair of singles had briefly seemed more important than almost anything else in the country.",
       "songs": [
         "grunge-alt-s13"
-      ]
+      ],
+      "cover": {
+        "album": "(What's the Story) Morning Glory?",
+        "artist": "Oasis"
+      }
+    },
+    {
+      "id": "grunge-alt-st4",
+      "title": "Nirvana Unplugged",
+      "dek": "Candles, lilies and a very quiet night in New York, November 1993.",
+      "year": 1993,
+      "body": "By the fall of 1993 Nirvana was one of the biggest bands in the world, and MTV invited them to appear on its acoustic series, Unplugged. Many acts used the show to play their hits in a stripped-down way. Nirvana did something different. On November 18 they set up in a studio in New York and played a quiet, odd and haunting set that went against what many people had expected.\n\nKurt Cobain had views about how the stage should look. He asked for stargazer lilies and black candles, and the result was a set that felt like a funeral parlor or a gothic living room. Cobain wore a green cardigan and sat on a stool with an acoustic guitar. The band was joined by a second guitarist, Pat Smear, and a cellist, Lori Goldston.\n\nThe setlist was a surprise. Smells Like Teen Spirit was not played, and the group did not do many of the songs that people knew from the radio. Instead they played songs from their albums that had a quieter side, such as About a Girl, Pennyroyal Tea and Dumb. There were also covers. Nirvana played David Bowie's The Man Who Sold the World and a Vaselines song, Jesus Doesn't Want Me for a Sunbeam. Cobain invited the Meat Puppets' Curt and Cris Kirkwood to join them on three of their songs, and the guests added a new texture to the sound.\n\nThe final song was Where Did You Sleep Last Night, an old folk song that had been recorded by the blues singer Lead Belly. Cobain sang it with raw force, and at the end he held his voice in a long, painful cry. The performance was reportedly done in a single take. The show's producers asked for an encore, and Cobain reportedly declined, saying that there was nothing he could do to follow it.\n\nMTV broadcast the show in December 1993, and viewers were struck by its honesty. Cobain died in April 1994. Because of that, the album MTV Unplugged in New York, which came out in November 1994, was received as a kind of farewell. The album has been praised ever since for its depth and for the way it showed a different side of the band.\n\nWithout any of the usual loud guitars, Nirvana revealed how strong their songs were. In a small room with a few flowers and candles, they made one of the most memorable performances in the history of the series.",
+      "songs": [
+        "grunge-alt-s01"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "MTV Unplugged in New York",
+        "artist": "Nirvana"
+      }
+    },
+    {
+      "id": "grunge-alt-st5",
+      "title": "Oasis at Knebworth",
+      "dek": "Two nights in August 1996 and a crowd that did not fit in a field.",
+      "year": 1996,
+      "body": "In the summer of 1996 Oasis were the biggest band in Britain. Their second album, (What's the Story) Morning Glory?, had been out for nearly a year and it was still in the air everywhere. The Gallagher brothers, Noel and Liam, had a talent for writing songs that fans could sing in the street, and they had a reputation for arguing with each other in public. They decided to play two big shows at Knebworth, the park in Hertfordshire where Led Zeppelin and other major acts had played.\n\nThe dates were August 10 and 11. Demand for tickets was so high that it became part of the story. It has been reported that more than two million people applied for tickets, and about 125,000 got in each night. That is roughly a quarter of a million people over the two shows, a figure that was unprecedented for a British band at the time.\n\nSupporting acts included the Prodigy, the Chemical Brothers, Manic Street Preachers and Kula Shaker, and the day was a showcase for the British music of the moment. When Oasis came on, the crowd's roar could be heard across the grounds. The set included Wonderwall, Don't Look Back in Anger, Champagne Supernova and Live Forever, songs that the audience knew by heart and sang along with at the top of their voices.\n\nNoel, the principal songwriter, played guitar and sang some of the songs, while Liam fronted the band with a stubborn, nasal sneer. They did not talk much, and they did not need to. The music carried the show.\n\nNoel Gallagher later said that Knebworth was the high point for the band, a kind of peak that could not be repeated. In the years that followed, tensions between the brothers and changes in the lineup would take some of the shine off the band. But those two nights were the moment when Oasis seemed to be at the center of everything.\n\nA live album of the performance, Knebworth 1996, was released in 2021. For many fans, the best way to understand Britpop at its height is to listen to a crowd of that size singing the chorus of Wonderwall.",
+      "songs": [
+        "grunge-alt-s13"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Knebworth 1996",
+        "artist": "Oasis"
+      }
     }
   ]
 }
