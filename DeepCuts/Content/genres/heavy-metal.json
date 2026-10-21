@@ -144,7 +144,7 @@
         "Procol Harum"
       ],
       "answer": 1,
-      "fact": "A fan fired a flare gun into the ceiling of the Montreux Casino, and Deep Purple watched the smoke drift across Lake Geneva.",
+      "fact": "A fan fired a flare gun into the ceiling during the show, and Deep Purple, in town to record, watched the smoke drift across Lake Geneva.",
       "difficulty": 2
     },
     {
@@ -177,12 +177,12 @@
       "id": "heavy-metal-q14",
       "prompt": "Ronnie James Dio helped popularize the metal horns hand sign. Whom did he say he learned it from?",
       "choices": [
-        "Gene Simmons",
         "His Italian grandmother",
-        "Ozzy Osbourne",
-        "Lemmy"
+        "His Irish grandfather",
+        "His Polish aunt",
+        "His Greek uncle"
       ],
-      "answer": 1,
+      "answer": 0,
       "fact": "Dio said the gesture was a version of an Italian sign meant to ward off the evil eye.",
       "difficulty": 2
     },
@@ -201,7 +201,7 @@
     },
     {
       "id": "heavy-metal-q16",
-      "prompt": "Who was Metallica's original lead guitarist, fired in 1983 and replaced by Kirk Hammett?",
+      "prompt": "Which guitarist co-wrote songs for Kill 'Em All but was fired from Metallica in 1983 and replaced by Kirk Hammett?",
       "choices": [
         "Dave Mustaine",
         "Kerry King",
@@ -209,7 +209,7 @@
         "Scott Ian"
       ],
       "answer": 0,
-      "fact": "Mustaine went on to found Megadeth, and Hammett joined from the band Exodus.",
+      "fact": "Mustaine went on to found Megadeth, and Hammett joined from Exodus. Lloyd Grant also played lead guitar on an early Metallica recording.",
       "difficulty": 2
     },
     {
@@ -288,19 +288,19 @@
       ],
       "answer": 1,
       "fact": "The judge dismissed the case in August 1990, finding the evidence insufficient.",
-      "difficulty": 3
+      "difficulty": 2
     },
     {
       "id": "heavy-metal-q23",
-      "prompt": "Motörhead's 1981 live album promised a Hammersmith show but was recorded elsewhere. What was it called?",
+      "prompt": "Despite its London title, Motörhead's 1981 live album No Sleep 'til Hammersmith was recorded in which two cities?",
       "choices": [
-        "Ace of Spades",
-        "Iron Fist",
-        "No Sleep 'til Hammersmith",
-        "Bomber"
+        "Leeds and Newcastle",
+        "Manchester and Liverpool",
+        "Glasgow and Edinburgh",
+        "Birmingham and Sheffield"
       ],
-      "answer": 2,
-      "fact": "Despite the title, the album was recorded in Leeds and Newcastle.",
+      "answer": 0,
+      "fact": "The album went to number one in the UK in 1981.",
       "difficulty": 3
     },
     {
@@ -366,7 +366,7 @@
       ],
       "answer": 3,
       "fact": "Dio sang on Rainbow's first albums before he joined Black Sabbath in 1979.",
-      "difficulty": 3
+      "difficulty": 2
     },
     {
       "id": "heavy-metal-q29",
@@ -392,7 +392,7 @@
       ],
       "answer": 1,
       "fact": "It replaced Paul Di'Anno's raspy punk-style vocals with Dickinson's operatic wail, and its title drew protests from some religious groups in the United States.",
-      "difficulty": 3
+      "difficulty": 2
     },
     {
       "id": "heavy-metal-q31",
@@ -448,15 +448,15 @@
     },
     {
       "id": "heavy-metal-q35",
-      "prompt": "Which singer replaced Bon Scott in AC/DC after his death in 1980?",
+      "prompt": "Which Sheffield band had a smash with \"Pour Some Sugar on Me\" from its 1987 album Hysteria?",
       "choices": [
-        "Steve Perry",
-        "Gary Cherone",
-        "Joe Elliott",
-        "Brian Johnson"
+        "Whitesnake",
+        "Poison",
+        "Def Leppard",
+        "Europe"
       ],
-      "answer": 3,
-      "fact": "Johnson had been in the British band Geordie, and Back in Black came out the same year.",
+      "answer": 2,
+      "fact": "Mutt Lange produced Hysteria, and the song became one of the band's biggest anthems.",
       "difficulty": 1
     },
     {
@@ -526,28 +526,28 @@
     },
     {
       "id": "heavy-metal-q41",
-      "prompt": "After losing the tips of two fingers, Tony Iommi made himself replacement fingertips out of what?",
+      "prompt": "Who replaced David Lee Roth as Van Halen's singer in 1985?",
       "choices": [
-        "Leather and wax",
-        "Melted plastic",
-        "Wood and glue",
-        "Thimble metal"
+        "Gary Cherone",
+        "Sammy Hagar",
+        "Joe Elliott",
+        "Eddie Money"
       ],
       "answer": 1,
-      "fact": "He has said he shaped them from a melted plastic bottle and also used lighter strings to ease the pain.",
+      "fact": "Hagar fronted the band on 5150, which became Van Halen's first number one album in the US.",
       "difficulty": 2
     },
     {
       "id": "heavy-metal-q42",
-      "prompt": "Which Canadian producer shaped Metallica's 1991 Black Album?",
+      "prompt": "Which 1980 Judas Priest album includes \"Breaking the Law\" and \"Living After Midnight\"?",
       "choices": [
-        "Rick Rubin",
-        "Flemming Rasmussen",
-        "Bob Rock",
-        "Mutt Lange"
+        "Screaming for Vengeance",
+        "Painkiller",
+        "British Steel",
+        "Point of Entry"
       ],
       "answer": 2,
-      "fact": "Rock pushed the band toward a cleaner, bigger sound, which was a change from their earlier thrash albums.",
+      "fact": "Tom Allom produced it, and its short, sharp songs gave Priest radio hits.",
       "difficulty": 2
     },
     {
@@ -617,7 +617,7 @@
     },
     {
       "id": "heavy-metal-q48",
-      "prompt": "Before Hawkwind, Lemmy worked as a roadie for which guitar legend?",
+      "prompt": "Lemmy said that before Hawkwind he worked as a roadie for which guitar legend?",
       "choices": [
         "Jimi Hendrix",
         "Jimmy Page",
@@ -625,8 +625,8 @@
         "Jeff Beck"
       ],
       "answer": 0,
-      "fact": "Lemmy often spoke of working for Hendrix in the late 1960s, years before Motörhead.",
-      "difficulty": 3
+      "fact": "Lemmy said he roadied for Hendrix in the late 1960s, years before Motörhead, and he told the story often.",
+      "difficulty": 2
     },
     {
       "id": "heavy-metal-q49",
@@ -645,13 +645,91 @@
       "id": "heavy-metal-q50",
       "prompt": "Thin Lizzy's 1972 hit \"Whiskey in the Jar\" was a hard rock treatment of what?",
       "choices": [
-        "A Bob Dylan ballad",
-        "A sea shanty",
         "A traditional Irish folk song",
-        "A Robert Johnson blues"
+        "A Scottish sea shanty",
+        "An Appalachian murder ballad",
+        "An English drinking song"
+      ],
+      "answer": 0,
+      "fact": "Metallica later recorded their own version of the Thin Lizzy arrangement.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q51",
+      "prompt": "Which producer made Black Sabbath's first three albums and Judas Priest's debut, Rocka Rolla?",
+      "choices": [
+        "Tom Allom",
+        "Roy Thomas Baker",
+        "Mutt Lange",
+        "Rodger Bain"
+      ],
+      "answer": 3,
+      "fact": "Bain also produced Budgie's first two albums, and he liked to capture bands almost live in the studio.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q52",
+      "prompt": "The cover of Black Sabbath's 1970 debut was photographed at which English location?",
+      "choices": [
+        "Stonehenge",
+        "Mapledurham Watermill",
+        "Whitby Abbey",
+        "Glastonbury Tor"
+      ],
+      "answer": 1,
+      "fact": "Designer Keith Macmillan shot it on the Thames in Oxfordshire, using infrared film and a model in a black cloak.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q53",
+      "prompt": "Before joining Metallica in 1982, Cliff Burton played bass in which Bay Area metal band?",
+      "choices": [
+        "Death Angel",
+        "Testament",
+        "Trauma",
+        "Possessed"
       ],
       "answer": 2,
-      "fact": "Metallica later recorded their own version of the Thin Lizzy arrangement.",
+      "fact": "Burton's only recording with Trauma was a 1982 demo, and a track from it appeared on the Metal Massacre II compilation.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q54",
+      "prompt": "Who produced Motörhead's 1980 album Ace of Spades?",
+      "choices": [
+        "Jimmy Miller",
+        "Roy Thomas Baker",
+        "Eddie Kramer",
+        "Vic Maile"
+      ],
+      "answer": 3,
+      "fact": "Maile went on to produce the live album No Sleep 'til Hammersmith too.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q55",
+      "prompt": "Which producer worked on Iron Maiden's albums from Killers onward and on Black Sabbath's Heaven and Hell?",
+      "choices": [
+        "Tom Allom",
+        "Martin Birch",
+        "Rick Rubin",
+        "Bob Rock"
+      ],
+      "answer": 1,
+      "fact": "Birch had also engineered Deep Purple albums such as Machine Head.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q56",
+      "prompt": "In December 1968, Tony Iommi briefly joined which band for the Rolling Stones' Rock and Roll Circus film?",
+      "choices": [
+        "Fleetwood Mac",
+        "The Yardbirds",
+        "Jethro Tull",
+        "Free"
+      ],
+      "answer": 2,
+      "fact": "He mimed guitar for the film, then returned to his own group, Earth, which soon became Black Sabbath.",
       "difficulty": 3
     }
   ],
