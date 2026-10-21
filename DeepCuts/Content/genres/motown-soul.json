@@ -535,7 +535,11 @@
       "songs": [
         "motown-soul-s01",
         "motown-soul-s02"
-      ]
+      ],
+      "cover": {
+        "album": "Please Mr. Postman",
+        "artist": "The Marvelettes"
+      }
     },
     {
       "id": "motown-soul-st2",
@@ -545,7 +549,11 @@
       "body": "By 1970 Marvin Gaye was one of Motown's biggest stars, but he was unhappy. His singing partner Tammi Terrell had died that March, and he had withdrawn from performing. He was also thinking about the world around him. His brother Frankie had come home from Vietnam with stories of what he had seen, and American cities were churning with protests and unrest.\n\nAround the same time, Renaldo \"Obie\" Benson of the Four Tops had been on tour in California. He saw police clashing with anti-war demonstrators in Berkeley, and he was disturbed. With the songwriter Al Cleveland, he began to write a song that asked what was going on. The Four Tops did not want to record it, so Benson took the song to Gaye. Gaye added a melody and new lyrics and made it his own.\n\nIn the summer of 1970 Gaye brought the Funk Brothers into Motown's Studio A in Detroit. The sessions were relaxed and loose, with the singer double-tracking his own voice, and with the musicians improvising around his ideas. The result was a seamless flow of songs about war, poverty, the environment and faith. It was also a different kind of Motown record, with strings and congas, and a mood that was gentle and reflective.\n\nBerry Gordy was not convinced. He thought the song was too political and too different from the radio hits the company was known for. He is reported to have called it the worst thing he had heard. Gaye stood firm, and went on a strike of sorts, refusing to record anything more until the record was released. Eventually Motown put the single out in January 1971. It sold well, and the company changed its mind. It reached No. 2 on the Billboard Hot 100.\n\nThe album, What's Going On, followed in May. It was one of the first Motown albums to give credit to the musicians, and Gaye produced it himself. James Jamerson, who played bass on much of it, was credited by name. The album sold well and became one of the best-loved records of the 1970s.\n\nHalf a century later, the questions Gaye asked still feel urgent. What began as an act of artistic defiance changed what a soul album could be, and it gave Motown artists new freedom to write and produce their own work.",
       "songs": [
         "motown-soul-s13"
-      ]
+      ],
+      "cover": {
+        "album": "What's Going On",
+        "artist": "Marvin Gaye"
+      }
     },
     {
       "id": "motown-soul-st3",
@@ -556,7 +564,41 @@
       "songs": [
         "motown-soul-s08",
         "motown-soul-s09"
-      ]
+      ],
+      "cover": {
+        "album": "The Dock of the Bay",
+        "artist": "Otis Redding"
+      }
+    },
+    {
+      "id": "motown-soul-st4",
+      "title": "The Supremes Say Farewell",
+      "dek": "Diana Ross's last night with the group, January 1970.",
+      "year": 1970,
+      "body": "On January 14, 1970, the Supremes took the stage at the Frontier Hotel in Las Vegas for a performance that would be the end of an era. Diana Ross had decided to leave the group for a solo career, and the evening was her last show as lead singer. Motown founder Berry Gordy had planned the transition carefully, and the evening was a mix of celebration and sadness.\n\nThe Supremes had been the most successful group in Motown's history. With songs like Where Did Our Love Go, Baby Love, Come See About Me and Stop! In the Name of Love, they had brought a polished, glamorous style to pop and soul. Mary Wilson and Florence Ballard had been with Ross from the early days, and Cindy Birdsong had joined after Ballard left in 1967. The three women on stage that night, Ross, Wilson and Birdsong, performed as a trio for the last time.\n\nThe show was a long medley of the group's hits, and the audience in Las Vegas responded warmly. The group performed Stop! In the Name of Love with its famous hand motion, as the audience applauded.\n\nNear the end of the evening, Ross introduced the woman who would take her place, Jean Terrell. The evening was recorded, and the album was released as Farewell. It captures the sound of the room, the singers' polish and the crowd's reaction as they realize that something has ended.\n\nRoss went on to a successful solo career, and the Supremes continued with Terrell, Wilson and Birdsong for several years. They had further hits, though they never quite matched the earlier fame. Wilson later wrote about her years in the group in a memoir, and she has said that the final night in Las Vegas was an emotional one.\n\nThe Farewell concert reminds listeners of how fast the Motown world was changing at the turn of the decade. The sound of the Supremes had defined the 1960s, and the next decade was already waiting.",
+      "songs": [
+        "motown-soul-s06"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Farewell",
+        "artist": "Diana Ross & The Supremes"
+      }
+    },
+    {
+      "id": "motown-soul-st5",
+      "title": "Aretha at Fillmore West",
+      "dek": "The Queen of Soul meets a hippie ballroom in March 1971.",
+      "year": 1971,
+      "body": "In March 1971 Aretha Franklin performed three nights at the Fillmore West in San Francisco, the ballroom run by promoter Bill Graham. It was a place associated with rock bands and the counterculture, and its audience was largely young and white. Franklin was already a major star on the rhythm and blues side, and her label, Atlantic Records, thought she should reach out to this new audience.\n\nShe arrived with a tight band led by saxophonist King Curtis, the Kingpins, along with the Memphis Horns and a set of backup singers. Organist Billy Preston joined the group, and the show was recorded for an album produced by Jerry Wexler. Franklin sang with confidence, and she did not water down her style.\n\nThe set list was a mix of her own hits and songs that had been popular with rock listeners. She sang Respect, the Otis Redding song that she had remade in 1967 into an anthem. She also performed Love the One You're With, a song by Stephen Stills, and Make It with You, a ballad by the band Bread. Her version of the Beatles' Eleanor Rigby was a showstopper. Each song was reshaped into something unmistakably hers, with gospel fire and a rolling piano.\n\nReports from the time say that the crowd was won over quickly. The audience, which came expecting a rock show, shouted and danced, and the response grew more intense as the nights went on. On the last night, Ray Charles joined her on stage for a version of Spirit in the Dark, and the two singers traded lines. The audience was thrilled to see two giants of soul together.\n\nThe album, Aretha Live at Fillmore West, was released later in 1971 and was warmly received. It documents a moment when soul and rock met, and when an artist from one tradition showed that she could speak to an audience from another.\n\nFranklin's version of Respect that evening is often praised as one of the most exciting performances of her career. She had made the song her own four years earlier, and she knew how to make it new each time.\n\nFor fans who think of Aretha as a studio singer, the Fillmore West recordings are a revelation. She was just as great live.",
+      "songs": [
+        "motown-soul-s08"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Aretha Live at Fillmore West",
+        "artist": "Aretha Franklin"
+      }
     }
   ]
 }

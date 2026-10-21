@@ -568,6 +568,37 @@
         "album": "Believe",
         "artist": "Cher"
       }
+    },
+    {
+      "id": "modern-pop-st4",
+      "title": "Beychella",
+      "dek": "Two weekends in the desert, April 2018.",
+      "year": 2018,
+      "body": "In 2017 Beyonce was scheduled to headline the Coachella festival in California, but she postponed because she was pregnant with twins. The festival organizers waited, and in April 2018 she took the stage as the headliner on two weekends, April 14 and April 21. She was widely noted as the first Black woman to headline the festival. Fans quickly gave the show a nickname, Beychella.\n\nThe performance was built around the idea of a homecoming at a historically Black college or university. Beyonce was surrounded by a marching band of drummers, brass players and dancers, along with step teams and a choir, and the stage was arranged in the form of a huge pyramid of risers. She wore custom outfits inspired by Egyptian queens and by collegiate sportswear, with Greek letters on sweatshirts and jerseys. The show drew on traditions of marching bands and fraternity and sorority steps, which are part of Black American college life.\n\nThe set stretched to more than two hours, and it moved from a high-energy opening to slower, more reflective moments. Songs from her many albums were reworked with live brass and drums, and the sound had a thick, funky quality. Crazy in Love, her breakout hit with Jay-Z from 2003, took on a new, driving energy with the horns. Jay-Z himself made an appearance, and a reunion of Destiny's Child, with Kelly Rowland and Michelle Williams, thrilled the crowd. Beyonce also included Lift Every Voice and Sing, a song often called the Black national anthem.\n\nBeyonce has said that the show took months of preparation and that she wanted to bring the culture of historically Black colleges to a mainstream stage. She also said that she had to rebuild her strength after the birth of her twins, and she rehearsed with intensity.\n\nA year later, in April 2019, she released a Netflix film called Homecoming and an accompanying live album. The film took viewers behind the scenes, showing rehearsals, costume fittings and the effort needed to bring so many performers together.\n\nBeychella was a statement about the power of tradition and the ambition of a pop star. For the audience in the desert, and for the millions who watched online, it was one of the high points of the decade.",
+      "songs": [
+        "modern-pop-s06"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Homecoming: The Live Album",
+        "artist": "Beyonce"
+      }
+    },
+    {
+      "id": "modern-pop-st5",
+      "title": "Adele at the Royal Albert Hall",
+      "dek": "One woman, a big room and a hard-won voice in September 2011.",
+      "year": 2011,
+      "body": "By September 2011 Adele was a global star. Her second album, 21, had made her one of the most popular singers in the world, and Rolling in the Deep and Someone Like You were being played everywhere. In that month she took the stage at the Royal Albert Hall in London for a concert that was filmed for release.\n\nThe Royal Albert Hall is a Victorian concert hall that holds thousands of people, and it has hosted generations of famous performers. It is a daunting place for a singer who is standing alone, but Adele seemed relaxed. Between songs she chatted with the audience in her warm London voice, joking about her nerves, her love life and her habit of swearing. The mix of humor and emotional power became part of her image.\n\nThe show was staged with great care but little fuss. A small band stood behind her, and she sang from the middle of the stage. The set drew from both of her albums, including Rolling in the Deep, Chasing Pavements and Someone Like You, and it ended with the audience on its feet. Her voice rose over everything without strain, and she let silence fall between songs so that the room could listen.\n\nThe recording was released as a DVD and Blu-ray in November 2011 under the title Live at the Royal Albert Hall. It also became a way for fans to see Adele at a time when her schedule was falling apart. In the autumn of 2011 she was forced to cancel tour dates because of problems with her voice, and in November she had surgery to treat a vocal cord hemorrhage. The concert film caught her at a high point just before the break.\n\nAdele rested for months, and she returned to public life in February 2012, when she performed at the Grammy Awards and won six trophies. The surgery had succeeded, and her voice recovered.\n\nThe Royal Albert Hall show remains a favorite among fans of her early years. It reminds listeners that the power of Adele's songs, with their plain words and big choruses, comes from the voice and the feeling behind it. No special effects were needed.",
+      "songs": [
+        "modern-pop-s11",
+        "modern-pop-s12"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Live at the Royal Albert Hall",
+        "artist": "Adele"
+      }
     }
   ]
 }
