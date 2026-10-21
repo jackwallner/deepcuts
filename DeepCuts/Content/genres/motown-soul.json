@@ -6,15 +6,15 @@
   "questions": [
     {
       "id": "motown-soul-q01",
-      "prompt": "Which singer, known as the Queen of Soul, took \"Respect\" to No. 1 in 1967?",
+      "prompt": "Aretha Franklin's \"Respect\" added which new vocal hook that Otis Redding's version lacked?",
       "choices": [
-        "Aretha Franklin",
-        "Diana Ross",
-        "Gladys Knight",
-        "Tina Turner"
+        "Spelling out the title",
+        "A key change",
+        "A horn solo",
+        "A gospel outro"
       ],
       "answer": 0,
-      "fact": "Otis Redding wrote and first recorded the song. Aretha added the spelled-out \"R-E-S-P-E-C-T\" and the \"sock it to me\" lines.",
+      "fact": "Her sisters Carolyn and Erma sang backup, and the arrangement was cut at Atlantic Records in New York in February 1967.",
       "difficulty": 1
     },
     {
@@ -40,7 +40,7 @@
         "The Velvelettes"
       ],
       "answer": 1,
-      "fact": "Between 1964 and 1965 they scored five consecutive No. 1 hits on the Billboard Hot 100.",
+      "fact": "The group started out as the Primettes in Detroit's Brewster-Douglass housing projects.",
       "difficulty": 1
     },
     {
@@ -71,16 +71,16 @@
     },
     {
       "id": "motown-soul-q06",
-      "prompt": "Stax Records, home of Otis Redding and Sam and Dave, was based in which city?",
+      "prompt": "Which 1962 instrumental did Stax's house band Booker T. and the M.G.'s record?",
       "choices": [
-        "Detroit",
-        "Memphis",
-        "Muscle Shoals",
-        "Philadelphia"
+        "Soul Limbo",
+        "Green Onions",
+        "Time Is Tight",
+        "Hang 'Em High"
       ],
       "answer": 1,
-      "fact": "Stax occupied a converted movie theater on East McLemore Avenue, and its house band was Booker T. and the M.G.'s.",
-      "difficulty": 1
+      "fact": "The band reportedly cut it during a break in another artist's session, and Stax later worked out of a converted movie theater on East McLemore Avenue.",
+      "difficulty": 2
     },
     {
       "id": "motown-soul-q07",
@@ -92,25 +92,25 @@
         "Cindy Birdsong"
       ],
       "answer": 2,
-      "fact": "Her second solo single, a cover of \"Ain't No Mountain High Enough\", went to No. 1.",
+      "fact": "Ross said farewell at a Las Vegas show in January 1970, where Jean Terrell was introduced as her replacement.",
       "difficulty": 1
     },
     {
       "id": "motown-soul-q08",
-      "prompt": "Which Motown group took \"My Girl\" to No. 1 in 1965?",
+      "prompt": "Which Motown group's \"My Girl\" was written by Smokey Robinson and Ronald White of the Miracles?",
       "choices": [
         "The Temptations",
         "The Four Tops",
-        "The Miracles",
-        "The Contours"
+        "The Contours",
+        "The Marvelettes"
       ],
       "answer": 0,
-      "fact": "Smokey Robinson and Ronald White wrote it, and David Ruffin sang lead.",
+      "fact": "David Ruffin sang lead instead of Eddie Kendricks, who had been the group's usual lead tenor.",
       "difficulty": 1
     },
     {
       "id": "motown-soul-q09",
-      "prompt": "Which singer's \"(Sittin' On) The Dock of the Bay\" became a No. 1 hit after his death in 1967?",
+      "prompt": "Which singer recorded \"(Sittin' On) The Dock of the Bay\" days before dying in a plane crash in December 1967?",
       "choices": [
         "Otis Redding",
         "Sam Cooke",
@@ -118,7 +118,7 @@
         "Solomon Burke"
       ],
       "answer": 0,
-      "fact": "Redding died in a plane crash in a Wisconsin lake at age 26, just days after recording the song.",
+      "fact": "Guitarist Steve Cropper finished the record after Redding's death, adding the seagull and wave sounds, and Redding was 26.",
       "difficulty": 1
     },
     {
@@ -131,12 +131,12 @@
         "Lionel Richie"
       ],
       "answer": 2,
-      "fact": "Wonder recorded most of the track himself, and it topped the Billboard Hot 100 in January 1973.",
+      "fact": "Wonder recorded most of the track himself, and he reportedly wrote it first for guitarist Jeff Beck.",
       "difficulty": 1
     },
     {
       "id": "motown-soul-q11",
-      "prompt": "At 13, which prodigy took the live recording \"Fingertips (Pt. 2)\" to No. 1 in 1963?",
+      "prompt": "Which Motown prodigy, nicknamed Little Stevie, recorded the live hit \"Fingertips (Pt. 2)\" in 1963?",
       "choices": [
         "Michael Jackson",
         "Little Stevie Wonder",
@@ -144,7 +144,7 @@
         "Smokey Robinson"
       ],
       "answer": 1,
-      "fact": "He was one of the youngest artists ever to top the Hot 100, and the single was taken from a Motortown Revue concert.",
+      "fact": "The take came from a Motortown Revue show, and the band shouted \"What key?\" as Wonder wandered back onstage.",
       "difficulty": 2
     },
     {
@@ -183,7 +183,7 @@
         "Martha and the Vandellas"
       ],
       "answer": 1,
-      "fact": "The Pips' 1967 version reached No. 2. Barrett Strong and Norman Whitfield wrote the song.",
+      "fact": "Gladys Knight and the Pips released their version in 1967, and Gaye's slower, darker take followed. Barrett Strong and Norman Whitfield wrote the song.",
       "difficulty": 2
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "motown-soul-q17",
-      "prompt": "Which girl group gave Motown its first No. 1 pop single in 1961 with \"Please Mr. Postman\"?",
+      "prompt": "Which girl group, discovered at a Michigan high school talent show, recorded \"Please Mr. Postman\" in 1961?",
       "choices": [
         "The Marvelettes",
         "The Supremes",
@@ -222,7 +222,7 @@
         "The Chiffons"
       ],
       "answer": 0,
-      "fact": "The Beatles covered the song in 1963, and the Carpenters took it back to No. 1 in 1975.",
+      "fact": "The Beatles covered the song in 1963, and the Carpenters brought it back in 1975.",
       "difficulty": 2
     },
     {
@@ -313,7 +313,7 @@
         "Specialty Records"
       ],
       "answer": 0,
-      "fact": "The 1963 album reached No. 2 on the Billboard 200 and is often named among the greatest live albums.",
+      "fact": "Brown recorded it over a week-long Apollo run in October 1962, and Syd Nathan of King Records feared a live album would flop.",
       "difficulty": 3
     },
     {
@@ -410,7 +410,7 @@
       "artist": "The Marvelettes",
       "year": 1961,
       "album": "Please Mr. Postman",
-      "note": "It was Motown's first No. 1 on the Billboard Hot 100."
+      "note": "Gladys Horton sang lead, and a young Marvin Gaye reportedly played drums on the session."
     },
     {
       "id": "motown-soul-s03",
@@ -426,7 +426,7 @@
       "artist": "Martha and the Vandellas",
       "year": 1963,
       "album": "Heat Wave",
-      "note": "Holland-Dozier-Holland wrote it, and it was the group's first Top 10 hit."
+      "note": "Holland-Dozier-Holland wrote it, and it opened a long run of hits that defined the Motown sound."
     },
     {
       "id": "motown-soul-s05",
@@ -434,7 +434,7 @@
       "artist": "The Temptations",
       "year": 1964,
       "album": "The Temptations Sing Smokey",
-      "note": "David Ruffin sang lead on the group's first No. 1."
+      "note": "Smokey Robinson and Ronald White wrote it, and David Ruffin sang lead instead of Eddie Kendricks."
     },
     {
       "id": "motown-soul-s06",
@@ -442,7 +442,7 @@
       "artist": "The Supremes",
       "year": 1965,
       "album": "More Hits by The Supremes",
-      "note": "It was the Supremes' fourth straight No. 1."
+      "note": "The Supremes' palm-out \"stop\" gesture became part of their stage act."
     },
     {
       "id": "motown-soul-s07",
@@ -450,7 +450,7 @@
       "artist": "Four Tops",
       "year": 1966,
       "album": "Reach Out",
-      "note": "It topped the charts in both the US and the UK."
+      "note": "Holland-Dozier-Holland reportedly pushed Levi Stubbs to the top of his range for an urgent, pleading lead vocal."
     },
     {
       "id": "motown-soul-s08",
@@ -458,7 +458,7 @@
       "artist": "Aretha Franklin",
       "year": 1967,
       "album": "I Never Loved a Man the Way I Love You",
-      "note": "Otis Redding wrote it, and Aretha's version went to No. 1."
+      "note": "Otis Redding wrote it, and Aretha added the spelled-out chorus and the \"sock it to me\" backing vocals."
     },
     {
       "id": "motown-soul-s09",
@@ -466,7 +466,7 @@
       "artist": "Otis Redding",
       "year": 1968,
       "album": "The Dock of the Bay",
-      "note": "It became the first posthumous No. 1 single in US chart history."
+      "note": "Otis Redding recorded it days before dying in a plane crash, and Steve Cropper added the seagulls and waves later."
     },
     {
       "id": "motown-soul-s10",
@@ -474,7 +474,7 @@
       "artist": "Marvin Gaye",
       "year": 1968,
       "album": "In the Groove",
-      "note": "It was a No. 1 hit for seven weeks in the US."
+      "note": "Gladys Knight and the Pips had a hit with it first, and Gaye's slower take was held back until radio demand pushed Motown to release it."
     },
     {
       "id": "motown-soul-s11",

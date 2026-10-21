@@ -27,7 +27,7 @@
         "Flashdance"
       ],
       "answer": 2,
-      "fact": "Loggins co-wrote the song with screenwriter Dean Pitchford, and it reached No. 1 in the US.",
+      "fact": "Loggins co-wrote the song with screenwriter Dean Pitchford, who also wrote the film's script.",
       "difficulty": 1
     },
     {
@@ -40,7 +40,7 @@
         "A stranger from the beach"
       ],
       "answer": 1,
-      "fact": "Rupert Holmes's song reached No. 1 on the Billboard Hot 100 in December 1979.",
+      "fact": "Holmes wrote the song as a miniature short story with a twist ending.",
       "difficulty": 1
     },
     {
@@ -53,7 +53,7 @@
         "Hall and Oates"
       ],
       "answer": 3,
-      "fact": "\"Rich Girl\" reached No. 1 in 1977, and \"Maneater\" topped the chart in late 1982.",
+      "fact": "Hall and Oates reportedly met in 1967 when they ducked into the same freight elevator to escape a gang fight at a Philadelphia concert.",
       "difficulty": 1
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "id": "yacht-rock-q08",
-      "prompt": "In Looking Glass's 1972 No. 1 \"Brandy (You're a Fine Girl)\", where does Brandy work?",
+      "prompt": "In Looking Glass's 1972 hit \"Brandy (You're a Fine Girl)\", where does Brandy work?",
       "choices": [
         "A bar in a harbor town",
         "A lighthouse by the pier",
@@ -170,7 +170,7 @@
         "Aja"
       ],
       "answer": 3,
-      "fact": "Michael McDonald sings backing vocals on \"Peg\", and the album reached No. 3 on the US chart.",
+      "fact": "Michael McDonald sings backing vocals on \"Peg\", and Jay Graydon's guitar solo came after the band reportedly auditioned several guitarists.",
       "difficulty": 2
     },
     {
@@ -188,15 +188,15 @@
     },
     {
       "id": "yacht-rock-q15",
-      "prompt": "The Little River Band, who sang \"Reminiscing\", came from which country?",
+      "prompt": "The Little River Band took its name from what?",
       "choices": [
-        "Canada",
-        "New Zealand",
-        "Australia",
-        "Ireland"
+        "A Mississippi blues song",
+        "A ferry boat",
+        "A road sign",
+        "A London pub"
       ],
       "answer": 2,
-      "fact": "\"Reminiscing\" was written by Graeham Goble and reached No. 3 in the US in 1978.",
+      "fact": "The sign pointed to Little River, a small town near Melbourne, and Graeham Goble wrote \"Reminiscing\".",
       "difficulty": 2
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "yacht-rock-q17",
-      "prompt": "Which band, formed in Los Angeles by Peter Beckett, took \"Baby Come Back\" to No. 1 in January 1978?",
+      "prompt": "Which band signed to Robert Stigwood's RSO label with \"Baby Come Back\"?",
       "choices": [
         "Player",
         "Ambrosia",
@@ -222,7 +222,7 @@
         "Firefall"
       ],
       "answer": 0,
-      "fact": "Beckett was born in Liverpool and co-wrote the song with J. C. Crowley. The band's follow-up, \"This Time I'm in It for Love\", also reached the Top 10.",
+      "fact": "RSO was also home to the Bee Gees and the Grease soundtrack, and Beckett co-wrote the song with J. C. Crowley.",
       "difficulty": 2
     },
     {
@@ -274,7 +274,7 @@
         "Raphael Ravenscroft"
       ],
       "answer": 3,
-      "fact": "The song reached No. 2 in the US, held off the top spot by Andy Gibb's \"Shadow Dancing\".",
+      "fact": "Raphael Ravenscroft's sax part is famous, and he reportedly was paid a session fee of only a few dozen pounds.",
       "difficulty": 3
     },
     {
@@ -402,7 +402,7 @@
       "artist": "Looking Glass",
       "year": 1972,
       "album": "Looking Glass",
-      "note": "It reached No. 1 on the Billboard Hot 100 in August 1972."
+      "note": "Barry Manilow's \"Mandy\" began as a song called \"Brandy\" and was renamed to avoid confusion with this one."
     },
     {
       "id": "yacht-rock-s02",
@@ -410,7 +410,7 @@
       "artist": "Steely Dan",
       "year": 1974,
       "album": "Pretzel Logic",
-      "note": "It reached No. 4 on the Billboard Hot 100, the band's biggest hit."
+      "note": "Its opening piano figure echoes Horace Silver's \"Song for My Father\", and the title is often linked to the writer Rikki Ducornet."
     },
     {
       "id": "yacht-rock-s03",
@@ -426,7 +426,7 @@
       "artist": "Boz Scaggs",
       "year": 1976,
       "album": "Silk Degrees",
-      "note": "Scaggs and David Paich won the Grammy for Best R&B Song for it."
+      "note": "Scaggs and David Paich wrote it, and Paich and drummer Jeff Porcaro, soon to found Toto, played on the album."
     },
     {
       "id": "yacht-rock-s05",
@@ -450,7 +450,7 @@
       "artist": "The Doobie Brothers",
       "year": 1978,
       "album": "Minute by Minute",
-      "note": "It won the Grammys for Record of the Year and Song of the Year."
+      "note": "Michael McDonald and Kenny Loggins wrote it together, and Loggins released his own version a year later."
     },
     {
       "id": "yacht-rock-s08",
@@ -458,7 +458,7 @@
       "artist": "Rupert Holmes",
       "year": 1979,
       "album": "Partners in Crime",
-      "note": "It was No. 1 on the Billboard Hot 100 in December 1979."
+      "note": "Holmes called it \"Escape\", and the parenthetical title was added because everyone kept calling it the Pina Colada song."
     },
     {
       "id": "yacht-rock-s09",
@@ -474,7 +474,7 @@
       "artist": "Air Supply",
       "year": 1980,
       "album": "Lost in Love",
-      "note": "The Australian duo's ballad reached the US Top 10."
+      "note": "Graham Russell and Russell Hitchcock met in the Australian cast of Jesus Christ Superstar, and Russell wrote the song."
     },
     {
       "id": "yacht-rock-s11",
@@ -482,7 +482,7 @@
       "artist": "Daryl Hall & John Oates",
       "year": 1980,
       "album": "Voices",
-      "note": "It reached No. 1 on the Billboard Hot 100 in 1981."
+      "note": "Daryl Hall wrote it with Janna Allen, the sister of his longtime partner Sara Allen."
     },
     {
       "id": "yacht-rock-s12",
@@ -498,7 +498,7 @@
       "artist": "Toto",
       "year": 1982,
       "album": "Toto IV",
-      "note": "It reached No. 1 on the Hot 100 in February 1983."
+      "note": "David Paich has said he wrote about Africa after seeing a late-night TV documentary, though he had never visited."
     },
     {
       "id": "yacht-rock-s14",
@@ -514,7 +514,7 @@
       "artist": "James Ingram & Michael McDonald",
       "year": 1983,
       "album": "It's Your Night",
-      "note": "It won a Grammy for Best Pop Performance by a Duo or Group."
+      "note": "Rod Temperton, Quincy Jones, James Ingram and Michael McDonald wrote it, and Jones produced the track."
     },
     {
       "id": "yacht-rock-s16",
@@ -522,7 +522,7 @@
       "artist": "Kenny Loggins",
       "year": 1984,
       "album": "Footloose (Original Motion Picture Soundtrack)",
-      "note": "It reached No. 1 on the Hot 100."
+      "note": "Dean Pitchford, who wrote the film's screenplay, wrote the lyrics, and Loggins wrote the music."
     }
   ],
   "stories": [

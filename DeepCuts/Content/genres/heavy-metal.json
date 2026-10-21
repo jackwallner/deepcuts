@@ -40,7 +40,7 @@
         "Ride the Lightning"
       ],
       "answer": 1,
-      "fact": "Producer Bob Rock helped shape a cleaner, bigger sound, and the album topped the Billboard 200 and made Metallica arena headliners.",
+      "fact": "Producer Bob Rock helped shape a cleaner, bigger sound that made Metallica arena headliners.",
       "difficulty": 1
     },
     {
@@ -105,7 +105,7 @@
         "Girlschool"
       ],
       "answer": 0,
-      "fact": "Lemmy's growling vocals and distorted Rickenbacker bass drove the song, which reached No. 15 on the UK chart.",
+      "fact": "Lemmy's growling vocals and distorted Rickenbacker bass drove the song, and Lemmy, a devoted gambler, treated the lyric as a card game.",
       "difficulty": 1
     },
     {
@@ -162,15 +162,15 @@
     },
     {
       "id": "heavy-metal-q13",
-      "prompt": "In September 1986, Metallica bassist Cliff Burton died when the band's tour bus crashed in which country?",
+      "prompt": "Who joined Metallica as bassist after Cliff Burton died in the September 1986 bus crash?",
       "choices": [
-        "Denmark",
-        "Germany",
-        "Norway",
-        "Sweden"
+        "Rob Trujillo",
+        "Frank Bello",
+        "Dave Ellefson",
+        "Jason Newsted"
       ],
       "answer": 3,
-      "fact": "The crash happened on icy roads, and Burton was 24. Jason Newsted joined the band a few weeks later.",
+      "fact": "Burton was 24 when the tour bus skidded on ice in Sweden, and Newsted, who had played in Flotsam and Jetsam, joined within weeks.",
       "difficulty": 2
     },
     {
@@ -253,15 +253,15 @@
     },
     {
       "id": "heavy-metal-q20",
-      "prompt": "In January 1982, Ozzy Osbourne bit the head off a bat during a concert in which state?",
+      "prompt": "At a January 1982 show in Des Moines, Ozzy Osbourne bit the head off a bat. What did he say he thought it was?",
       "choices": [
-        "Texas",
-        "Ohio",
-        "Florida",
-        "Iowa"
+        "A piece of fruit",
+        "A leather glove",
+        "A feather boa",
+        "A rubber toy"
       ],
       "answer": 3,
-      "fact": "He said he thought the bat was a rubber toy thrown by a fan. He received rabies shots afterward.",
+      "fact": "He believed a fan had thrown a rubber toy onstage, and he received rabies shots afterward.",
       "difficulty": 2
     },
     {
@@ -292,7 +292,7 @@
     },
     {
       "id": "heavy-metal-q23",
-      "prompt": "Motörhead's 1981 live album went to No. 1 in the UK. What was it called?",
+      "prompt": "Motörhead's 1981 live album promised a Hammersmith show but was recorded elsewhere. What was it called?",
       "choices": [
         "Ace of Spades",
         "Iron Fist",
@@ -331,15 +331,15 @@
     },
     {
       "id": "heavy-metal-q26",
-      "prompt": "Which band's 1983 album Metal Health is often cited as the first heavy metal album to top the Billboard 200?",
+      "prompt": "Quiet Riot's 1983 hit \"Cum On Feel the Noize\" was a cover of which British glam band?",
       "choices": [
-        "Ratt",
-        "Mötley Crüe",
-        "Quiet Riot",
-        "Dokken"
+        "Sweet",
+        "T. Rex",
+        "Slade",
+        "Mott the Hoople"
       ],
       "answer": 2,
-      "fact": "The album's hit \"Cum On Feel the Noize\" was a cover of a song by the British band Slade.",
+      "fact": "Guitarist Randy Rhoads, who later joined Ozzy Osbourne, had co-founded Quiet Riot in the 1970s.",
       "difficulty": 3
     },
     {
@@ -370,15 +370,15 @@
     },
     {
       "id": "heavy-metal-q29",
-      "prompt": "The Scorpions, who wrote \"Wind of Change\", come from which German city?",
+      "prompt": "The Scorpions wrote \"Wind of Change\" after playing which 1989 festival in the Soviet Union?",
       "choices": [
-        "Berlin",
-        "Hamburg",
-        "Munich",
-        "Hanover"
+        "Monsters of Rock",
+        "Live Aid",
+        "Rock in Rio",
+        "The Moscow Music Peace Festival"
       ],
       "answer": 3,
-      "fact": "The 1990 ballad was written after the band played the Moscow Music Peace Festival, and it became an anthem of the fall of the Berlin Wall.",
+      "fact": "Singer Klaus Meine whistled the melody, and the 1990 ballad became an anthem of the fall of the Berlin Wall.",
       "difficulty": 3
     },
     {
@@ -391,7 +391,7 @@
         "Dave Murray"
       ],
       "answer": 1,
-      "fact": "It reached No. 1 on the UK album chart and replaced Paul Di'Anno's raspy punk-style vocals with Dickinson's operatic wail.",
+      "fact": "It replaced Paul Di'Anno's raspy punk-style vocals with Dickinson's operatic wail, and its title drew protests from some religious groups in the United States.",
       "difficulty": 3
     }
   ],
@@ -426,7 +426,7 @@
       "artist": "Thin Lizzy",
       "year": 1976,
       "album": "Jailbreak",
-      "note": "Phil Lynott wrote it, and it was the band's biggest hit in the US."
+      "note": "Phil Lynott wrote it, and the twin-guitar harmonies of Scott Gorham and Brian Robertson became Thin Lizzy's signature."
     },
     {
       "id": "heavy-metal-s05",
@@ -450,7 +450,7 @@
       "artist": "Motörhead",
       "year": 1980,
       "album": "Ace of Spades",
-      "note": "It reached No. 15 on the UK singles chart."
+      "note": "Lemmy, a devoted gambler, wrote the lyric as a card game about living by luck."
     },
     {
       "id": "heavy-metal-s08",
@@ -482,7 +482,7 @@
       "artist": "Scorpions",
       "year": 1984,
       "album": "Love at First Sting",
-      "note": "It was the best-known song from the album that became the band's biggest US success."
+      "note": "Drummer Herman Rarebell helped write the words, and the song became a staple of arena rock."
     },
     {
       "id": "heavy-metal-s12",

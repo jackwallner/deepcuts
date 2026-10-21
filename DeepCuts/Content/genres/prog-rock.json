@@ -14,7 +14,7 @@
         "King Crimson"
       ],
       "answer": 0,
-      "fact": "The cover was designed by Storm Thorgerson and Aubrey Powell of the design group Hipgnosis, and it reached No. 1 on the US album chart.",
+      "fact": "The cover was designed by Storm Thorgerson and Aubrey Powell of the design group Hipgnosis.",
       "difficulty": 1
     },
     {
@@ -84,15 +84,15 @@
     },
     {
       "id": "prog-rock-q07",
-      "prompt": "Which Pink Floyd single, featuring a children's choir, was the UK Christmas No. 1 in 1979?",
+      "prompt": "The children's choir on Pink Floyd's \"Another Brick in the Wall (Part 2)\" came from which London school?",
       "choices": [
-        "Comfortably Numb",
-        "Money",
-        "Another Brick in the Wall (Part 2)",
-        "Wish You Were Here"
+        "Eton College",
+        "St Paul's Girls' School",
+        "Islington Green School",
+        "Westminster School"
       ],
       "answer": 2,
-      "fact": "The choir came from Islington Green School in north London, and the song also reached No. 1 in the US in 1980.",
+      "fact": "Producer Bob Ezrin recorded about two dozen pupils, who were not paid at the time, and some choir members later sought royalties.",
       "difficulty": 1
     },
     {
@@ -131,7 +131,7 @@
         "Gentle Giant"
       ],
       "answer": 2,
-      "fact": "An edited single version of the song reached the US Top 20 in 1972.",
+      "fact": "The album version runs more than eight minutes, and the single was edited to under four.",
       "difficulty": 1
     },
     {
@@ -214,16 +214,16 @@
     },
     {
       "id": "prog-rock-q17",
-      "prompt": "Rush's instrumental \"YYZ\" is named after the airport code of which city?",
+      "prompt": "Rush drummer Neil Peart, who wrote most of the band's lyrics, joined in 1974 replacing which drummer?",
       "choices": [
-        "Toronto",
-        "Vancouver",
-        "Winnipeg",
-        "Montreal"
+        "John Rutsey",
+        "Bill Bruford",
+        "Phil Collins",
+        "Alan White"
       ],
       "answer": 0,
-      "fact": "The opening rhythm is based on the Morse code for the letters YYZ.",
-      "difficulty": 2
+      "fact": "Rutsey left over health problems and a dislike of touring, and Peart's lyrics later drew on ideas from writers such as Ayn Rand for \"2112\".",
+      "difficulty": 3
     },
     {
       "id": "prog-rock-q18",
@@ -240,15 +240,15 @@
     },
     {
       "id": "prog-rock-q19",
-      "prompt": "Genesis's first UK hit single, \"I Know What I Like (In Your Wardrobe)\", came from which 1973 album?",
+      "prompt": "After Peter Gabriel left Genesis in 1975, the band auditioned many singers before choosing which member as its new frontman?",
       "choices": [
-        "Foxtrot",
-        "Selling England by the Pound",
-        "Nursery Cryme",
-        "The Lamb Lies Down on Broadway"
+        "Steve Hackett",
+        "Phil Collins",
+        "Mike Rutherford",
+        "Tony Banks"
       ],
       "answer": 1,
-      "fact": "The single reached No. 21 on the UK chart in 1974.",
+      "fact": "Collins had sung backing vocals and demo parts, and he agreed to take the lead after the auditions went nowhere.",
       "difficulty": 2
     },
     {
@@ -331,15 +331,15 @@
     },
     {
       "id": "prog-rock-q26",
-      "prompt": "The American prog band Kansas formed in which Kansas city?",
+      "prompt": "Kerry Livgren wrote Kansas's \"Dust in the Wind\" after his wife urged him to turn what into a song?",
       "choices": [
-        "Wichita",
-        "Lawrence",
-        "Topeka",
-        "Kansas City"
+        "A hymn tune",
+        "A TV jingle",
+        "A finger-picking exercise",
+        "A poem"
       ],
       "answer": 2,
-      "fact": "Guitarist Kerry Livgren wrote \"Dust in the Wind\" after reading a line from a book of Native American poetry.",
+      "fact": "He then found the words in a line from a book of Native American poetry.",
       "difficulty": 3
     },
     {
@@ -402,7 +402,7 @@
       "artist": "The Moody Blues",
       "year": 1967,
       "album": "Days of Future Passed",
-      "note": "Justin Hayward wrote it at 19, and a 1972 reissue reached No. 2 in the US."
+      "note": "Justin Hayward wrote it at 19, and drummer Graeme Edge's poem closes the track."
     },
     {
       "id": "prog-rock-s02",
@@ -482,7 +482,7 @@
       "artist": "Kate Bush",
       "year": 1978,
       "album": "The Kick Inside",
-      "note": "Bush wrote it at 18, and it made her the first woman to top the UK chart with a song she wrote herself."
+      "note": "Kate Bush wrote it at 18 after seeing a TV adaptation of the novel, and she shares a birthday with Emily Bronte."
     },
     {
       "id": "prog-rock-s12",
@@ -522,7 +522,7 @@
       "artist": "Yes",
       "year": 1983,
       "album": "90125",
-      "note": "It was the only Yes single to reach No. 1 in the US."
+      "note": "Trevor Rabin's guitar riff and Trevor Horn's orchestra-hit samples gave Yes a modern sound."
     }
   ],
   "stories": [

@@ -188,15 +188,15 @@
     },
     {
       "id": "eighties-q15",
-      "prompt": "Which country was the band a-ha from?",
+      "prompt": "In the video for a-ha's \"Take On Me\", a young woman is pulled into what?",
       "choices": [
-        "Sweden",
-        "Denmark",
-        "Norway",
-        "Finland"
+        "A movie screen",
+        "A painting",
+        "A comic book",
+        "A television set"
       ],
       "answer": 2,
-      "fact": "The video for \"Take On Me\" combined live action with pencil-sketch animation, using a technique called rotoscoping.",
+      "fact": "The video, directed by Steve Barron, combined live action with pencil-sketch animation made by rotoscoping, and it took months of hand drawing.",
       "difficulty": 2
     },
     {

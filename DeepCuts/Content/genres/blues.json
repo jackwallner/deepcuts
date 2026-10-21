@@ -331,15 +331,15 @@
     },
     {
       "id": "blues-q26",
-      "prompt": "Robert Johnson made his 1936 recordings in which Texas city, with a second session in Dallas the next year?",
+      "prompt": "Robert Johnson's 1936 San Antonio sessions were recorded in what kind of makeshift studio?",
       "choices": [
-        "Houston",
-        "Austin",
-        "San Antonio",
-        "El Paso"
+        "A radio station",
+        "A church hall",
+        "A hotel room",
+        "A barbershop"
       ],
       "answer": 2,
-      "fact": "Johnson recorded in a makeshift studio set up in a hotel room, and he reportedly performed facing the wall.",
+      "fact": "The first sessions took place in San Antonio in November 1936, and a second session in Dallas followed in June 1937.",
       "difficulty": 3
     },
     {

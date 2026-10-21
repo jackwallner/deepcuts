@@ -40,7 +40,7 @@
         "A record contract"
       ],
       "answer": 1,
-      "fact": "The Charlie Daniels Band's 1979 hit reached the Top 10 and won a Grammy in 1980 for Best Country Vocal Performance by a duo or group.",
+      "fact": "The Charlie Daniels Band's 1979 hit won a Grammy in 1980 for Best Country Vocal Performance by a duo or group.",
       "difficulty": 1
     },
     {
@@ -71,16 +71,16 @@
     },
     {
       "id": "southern-rock-q06",
-      "prompt": "ZZ Top was formed in 1969 in which Texas city?",
+      "prompt": "Billy Gibbons got his start in a Texas psychedelic band that opened for Jimi Hendrix. What was it called?",
       "choices": [
-        "Dallas",
-        "Houston",
-        "Austin",
-        "San Antonio"
+        "The 13th Floor Elevators",
+        "The Moving Sidewalks",
+        "The Sir Douglas Quintet",
+        "Bubble Puppy"
       ],
       "answer": 1,
-      "fact": "Billy Gibbons, Dusty Hill and Frank Beard became a trio in 1970. Gibbons had previously fronted the psychedelic band Moving Sidewalks.",
-      "difficulty": 1
+      "fact": "Hendrix is said to have given Gibbons a pink Stratocaster, and the band's regional hit \"99th Floor\" came before ZZ Top formed.",
+      "difficulty": 2
     },
     {
       "id": "southern-rock-q07",
@@ -110,15 +110,15 @@
     },
     {
       "id": "southern-rock-q09",
-      "prompt": "Muscle Shoals, the town famous for its recording studios, is in which state?",
+      "prompt": "Which Rolling Stones song was cut at Muscle Shoals Sound in December 1969?",
       "choices": [
-        "Alabama",
-        "Georgia",
-        "Mississippi",
-        "Tennessee"
+        "Brown Sugar",
+        "Gimme Shelter",
+        "Honky Tonk Women",
+        "Start Me Up"
       ],
       "answer": 0,
-      "fact": "Aretha Franklin and Wilson Pickett recorded hits there, and the Rolling Stones cut \"Brown Sugar\" at Muscle Shoals Sound in 1969.",
+      "fact": "They also recorded \"Wild Horses\" there that week, only days before the Altamont concert.",
       "difficulty": 1
     },
     {
@@ -136,15 +136,15 @@
     },
     {
       "id": "southern-rock-q11",
-      "prompt": "The 1977 Lynyrd Skynyrd plane crash happened in which state?",
+      "prompt": "After the October 1977 plane crash, MCA changed the cover of which Lynyrd Skynyrd album because it showed the band in flames?",
       "choices": [
-        "Louisiana",
-        "Mississippi",
-        "Alabama",
-        "Arkansas"
+        "Second Helping",
+        "Street Survivors",
+        "Nuthin' Fancy",
+        "Gimme Back My Bullets"
       ],
       "answer": 1,
-      "fact": "The plane, which was flying from South Carolina to Baton Rouge, ran low on fuel and went down in a forest near Gillsburg.",
+      "fact": "The album had come out only days before, and the flame cover was replaced with a plain black one, though later reissues restored the original image.",
       "difficulty": 2
     },
     {
@@ -196,20 +196,20 @@
         "Butch Trucks"
       ],
       "answer": 2,
-      "fact": "The song reached No. 2 on the Billboard Hot 100 in 1973, the band's biggest hit single.",
+      "fact": "Betts has said he wrote a country-tinged song inspired by Hank Williams's \"Ramblin' Man\", an unusual move for a blues-rock band.",
       "difficulty": 2
     },
     {
       "id": "southern-rock-q16",
-      "prompt": "Capricorn Records, home of the Allman Brothers, was based in which Georgia city?",
+      "prompt": "Capricorn Records, home of the Allman Brothers, was founded by the former manager of which soul singer?",
       "choices": [
-        "Macon",
-        "Atlanta",
-        "Savannah",
-        "Athens"
+        "Otis Redding",
+        "Wilson Pickett",
+        "Sam Cooke",
+        "James Brown"
       ],
       "answer": 0,
-      "fact": "Founder Phil Walden had been Otis Redding's manager, and Macon was Redding's hometown.",
+      "fact": "Phil Walden founded the label in Macon, Georgia, in 1969, and Macon was also Redding's hometown.",
       "difficulty": 2
     },
     {
@@ -385,13 +385,13 @@
       "id": "southern-rock-q30",
       "prompt": "Before his own hits, Charlie Daniels played sessions in Nashville for which songwriter?",
       "choices": [
-        "Leonard Cohen",
-        "Bob Dylan",
         "Neil Young",
-        "Paul Simon"
+        "Bob Dylan",
+        "Paul Simon",
+        "Joni Mitchell"
       ],
       "answer": 1,
-      "fact": "Daniels played on Dylan's Nashville Skyline, Self Portrait and New Morning, all released around 1969 and 1970.",
+      "fact": "Daniels played on Dylan's Nashville Skyline, Self Portrait and New Morning, and on Leonard Cohen's Songs from a Room, all around 1969 and 1970.",
       "difficulty": 3
     }
   ],
@@ -426,7 +426,7 @@
       "artist": "The Allman Brothers Band",
       "year": 1973,
       "album": "Brothers and Sisters",
-      "note": "Dickey Betts wrote it, and it reached No. 2 on the Billboard Hot 100."
+      "note": "Dickey Betts wrote it as a country-flavored song about the traveling life, borrowing the title idea from a Hank Williams song."
     },
     {
       "id": "southern-rock-s05",
@@ -442,7 +442,7 @@
       "artist": "Lynyrd Skynyrd",
       "year": 1974,
       "album": "Second Helping",
-      "note": "It was recorded at Studio One in Doraville, Georgia, and reached the US Top 10."
+      "note": "It was recorded at Studio One in Doraville, Georgia, and Ronnie Van Zant's spoken call to turn it up opens the track."
     },
     {
       "id": "southern-rock-s07",
@@ -450,7 +450,7 @@
       "artist": "Wet Willie",
       "year": 1974,
       "album": "Keep on Smilin'",
-      "note": "The Mobile, Alabama, band was signed to Capricorn Records, and this was its biggest hit."
+      "note": "Singer Jimmy Hall's soulful voice and harmonica led a band that Capricorn signed in Macon."
     },
     {
       "id": "southern-rock-s08",
@@ -458,7 +458,7 @@
       "artist": "ZZ Top",
       "year": 1975,
       "album": "Fandango!",
-      "note": "The song reached No. 20 on the Billboard Hot 100."
+      "note": "ZZ Top reportedly wrote it from a soundcheck jam, and the lyric was improvised on the spot."
     },
     {
       "id": "southern-rock-s09",
@@ -474,7 +474,7 @@
       "artist": "The Marshall Tucker Band",
       "year": 1977,
       "album": "Carolina Dreams",
-      "note": "Toy Caldwell wrote it, and it was the band's biggest US pop hit."
+      "note": "Toy Caldwell wrote it, and Jerry Eubanks's flute helped set the band apart from other Southern rock groups."
     },
     {
       "id": "southern-rock-s11",
@@ -490,7 +490,7 @@
       "artist": "Atlanta Rhythm Section",
       "year": 1978,
       "album": "Champagne Jam",
-      "note": "The song reached the US Top 10."
+      "note": "The band recorded at Studio One in Doraville, Georgia, the same studio where Lynyrd Skynyrd made records."
     },
     {
       "id": "southern-rock-s13",
@@ -506,7 +506,7 @@
       "artist": "The Charlie Daniels Band",
       "year": 1979,
       "album": "Million Mile Reflections",
-      "note": "The song reached No. 3 on the Billboard Hot 100."
+      "note": "Daniels has said Stephen Vincent Benet's fiddling poem \"The Mountain Whippoorwill\" inspired it."
     },
     {
       "id": "southern-rock-s15",
@@ -552,7 +552,7 @@
       "title": "Three Days After Street Survivors",
       "dek": "The 1977 crash that stopped Lynyrd Skynyrd",
       "year": 1977,
-      "body": "In the fall of 1977 Lynyrd Skynyrd was riding high. The band had spent several years touring relentlessly, and its albums sold well. A new record, Street Survivors, came out on October 17, 1977, and it sold briskly from the start. The cover showed the band standing in a wall of flames, a striking image. Guitarist Steve Gaines, who had joined the previous year, gave the group a new energy, and Ronnie Van Zant was writing some of his best songs, including \"That Smell\", which warned of the dangers of drink and drugs.\n\nOn October 20, the band was flying from Greenville, South Carolina, to Baton Rouge, Louisiana, in a chartered Convair 240 propeller plane. Somewhere over Mississippi, the aircraft ran short of fuel. The pilots tried to reach an airport, and the engines failed. The plane came down in a swampy forest near Gillsburg, Mississippi.\n\nSix people died: Ronnie Van Zant; Steve Gaines and his sister Cassie, who sang backup; assistant road manager Dean Kilpatrick; and the two pilots. Many others on board, including Gary Rossington, Allen Collins and Billy Powell, were badly injured but survived. The survivors spent months in hospitals, and some of them were permanently marked by their injuries.\n\nThe record company pulled the original Street Survivors cover with the flames, out of respect for those who had died, and replaced it with a plain black background. The album went platinum, and fans bought it in huge numbers. The band, however, was done. Remaining members drifted into other groups, such as the Rossington-Collins Band, and Allen Collins was left paralyzed in a car crash in 1986.\n\nIn 1987 the surviving members reunited for a tribute tour, with Ronnie's younger brother Johnny Van Zant on vocals. What was meant as a one-time event turned into a long-running revival, and the band continued to tour for decades with Rossington as its anchor.\n\nVan Zant was 29 years old when he died. In his short life he had written some of rock's best-known songs, including \"Free Bird\" and \"Sweet Home Alabama\". The band's early records still sound alive, and at their concerts the crowd sings along to \"Free Bird\" as a tribute to the man who wrote it.",
+      "body": "In the fall of 1977 Lynyrd Skynyrd was riding high. The band had spent several years touring relentlessly, and its albums sold well. A new record, Street Survivors, came out on October 17, 1977, and it sold briskly from the start. The cover showed the band standing in a wall of flames, a striking image. Guitarist Steve Gaines, who had joined the previous year, gave the group a new energy, and Ronnie Van Zant was writing some of his best songs, including \"That Smell\", which warned of the dangers of drink and drugs.\n\nOn October 20, the band was flying from Greenville, South Carolina, to Baton Rouge, Louisiana, in a chartered Convair 240 propeller plane. Somewhere over Mississippi, the aircraft ran short of fuel. The pilots tried to reach an airport, and the engines failed. The plane came down in a swampy forest near Gillsburg, Mississippi.\n\nSix people died: Ronnie Van Zant; Steve Gaines and his sister Cassie, who sang backup; assistant road manager Dean Kilpatrick; and the two pilots. Many others on board, including Gary Rossington, Allen Collins and Billy Powell, were badly injured but survived. The survivors spent months in hospitals, and some of them were permanently marked by their injuries.\n\nThe record company pulled the original Street Survivors cover with the flames, out of respect for those who had died, and replaced it with a plain black background. The album went platinum, and fans bought it in huge numbers. The band, however, was done. Remaining members drifted into other groups, such as the Rossington-Collins Band, and Allen Collins was left paralyzed in a car crash in 1986.\n\nIn 1987 the surviving members reunited for a tribute tour, with Ronnie's younger brother Johnny Van Zant on vocals. What was meant as a one-time event turned into a long-running revival, and the band continued to tour for decades with Rossington as its anchor.\n\nVan Zant was 29 years old when he died. In his short life he had co-written some of rock's best-known songs, including \"Free Bird\", with guitarist Allen Collins, and \"Sweet Home Alabama\", with Gary Rossington and Ed King. The band's early records still sound alive, and at their concerts the crowd sings along to \"Free Bird\" as a tribute to the man who wrote it.",
       "songs": [
         "southern-rock-s05",
         "southern-rock-s11"

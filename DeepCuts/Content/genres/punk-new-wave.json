@@ -175,28 +175,28 @@
     },
     {
       "id": "punk-new-wave-q14",
-      "prompt": "Devo, who recorded \"Whip It\", formed in which Ohio city?",
+      "prompt": "Devo's name comes from which idea that humanity was getting dumber instead of smarter?",
       "choices": [
-        "Cleveland",
-        "Akron",
-        "Columbus",
-        "Dayton"
+        "Anti-evolution",
+        "De-evolution",
+        "Re-creation",
+        "Retro-evolution"
       ],
       "answer": 1,
-      "fact": "Founders Mark Mothersbaugh and Jerry Casale met at Kent State, where the 1970 shootings deeply affected them.",
+      "fact": "Founders Mark Mothersbaugh and Jerry Casale met at Kent State, and Casale has said the 1970 shootings there, which he witnessed, shaped the band.",
       "difficulty": 2
     },
     {
       "id": "punk-new-wave-q15",
-      "prompt": "The B-52's, who recorded \"Rock Lobster\", formed in which Georgia college town?",
+      "prompt": "The B-52's took their name from a slang term for which hairstyle?",
       "choices": [
-        "Macon",
-        "Savannah",
-        "Athens",
-        "Columbus"
+        "The pompadour",
+        "The mullet",
+        "The beehive",
+        "The bouffant"
       ],
       "answer": 2,
-      "fact": "The band took its name from a Southern slang term for a tall beehive hairdo.",
+      "fact": "The band formed in 1976 after a night at a Chinese restaurant in Athens, Georgia, where they drank a flaming volcano bowl and then jammed.",
       "difficulty": 2
     },
     {
@@ -292,15 +292,15 @@
     },
     {
       "id": "punk-new-wave-q23",
-      "prompt": "The Jam, led by Paul Weller, came from which Surrey town?",
+      "prompt": "Paul Weller broke up the Jam in 1982 at the height of its fame to form which band?",
       "choices": [
-        "Guildford",
-        "Reading",
-        "Woking",
-        "Crawley"
+        "The Clash",
+        "Madness",
+        "The Style Council",
+        "The Specials"
       ],
       "answer": 2,
-      "fact": "Weller formed the band at school, and its hits included \"That's Entertainment\" and \"Going Underground\".",
+      "fact": "Weller teamed with keyboardist Mick Talbot and moved toward soul and jazz sounds.",
       "difficulty": 3
     },
     {
@@ -326,7 +326,7 @@
         "Phil Spector"
       ],
       "answer": 0,
-      "fact": "Chapman demanded dozens of takes to get the band's sound just right, and the album went to No. 1 in Britain.",
+      "fact": "Chapman demanded dozens of takes to get the band's sound just right.",
       "difficulty": 3
     },
     {
@@ -383,15 +383,15 @@
     },
     {
       "id": "punk-new-wave-q30",
-      "prompt": "The Cure, led by Robert Smith, formed in which English town?",
+      "prompt": "The Cure's first single, \"Killing an Arab\", was inspired by a novel by which author?",
       "choices": [
-        "Reading",
-        "Crawley",
-        "Brighton",
-        "Slough"
+        "Franz Kafka",
+        "Albert Camus",
+        "Jean-Paul Sartre",
+        "Graham Greene"
       ],
       "answer": 1,
-      "fact": "The band started out at school, and its first single, \"Killing an Arab\", came out in 1978.",
+      "fact": "Robert Smith has said it was an existential tale, not a political statement, and the band later added disclaimers to reissues.",
       "difficulty": 3
     }
   ],
@@ -498,7 +498,7 @@
       "artist": "The Clash",
       "year": 1982,
       "album": "Combat Rock",
-      "note": "Mick Jones sang lead, and the song reached No. 1 in the UK in 1991 after a jeans commercial."
+      "note": "Mick Jones sang lead, and a 1991 jeans commercial gave the song a second life."
     },
     {
       "id": "punk-new-wave-s14",

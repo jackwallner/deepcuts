@@ -45,7 +45,7 @@
     },
     {
       "id": "folk-singer-songwriter-q04",
-      "prompt": "Which singer-songwriter's 1971 album Tapestry spent 15 weeks at No. 1 and won four Grammys?",
+      "prompt": "Which singer-songwriter's 1971 album Tapestry won four Grammys, including Album of the Year?",
       "choices": [
         "Carly Simon",
         "Joni Mitchell",
@@ -71,15 +71,15 @@
     },
     {
       "id": "folk-singer-songwriter-q06",
-      "prompt": "Which singer-songwriter had his only US No. 1 single with \"Heart of Gold\" in 1972?",
+      "prompt": "Neil Young recorded \"Heart of Gold\" in Nashville with which backing band?",
       "choices": [
-        "Gordon Lightfoot",
-        "Neil Young",
-        "Bob Seger",
-        "Jackson Browne"
+        "Crazy Horse",
+        "The Stray Gators",
+        "The Band",
+        "The Heartbreakers"
       ],
       "answer": 1,
-      "fact": "Linda Ronstadt and James Taylor sang backing vocals on the song, which comes from the album Harvest.",
+      "fact": "A back injury kept Young from standing with an electric guitar, which helped push Harvest toward a quieter, acoustic sound, and Linda Ronstadt and James Taylor sang backing vocals.",
       "difficulty": 1
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "id": "folk-singer-songwriter-q11",
-      "prompt": "Which band's 1965 cover of Dylan's \"Mr. Tambourine Man\" went to No. 1 and launched folk rock?",
+      "prompt": "Which band's 1965 electric cover of Dylan's \"Mr. Tambourine Man\" launched folk rock?",
       "choices": [
         "The Lovin' Spoonful",
         "The Byrds",
@@ -170,7 +170,7 @@
         "The Swan Silvertones"
       ],
       "answer": 3,
-      "fact": "Paul Simon wrote the song, Art Garfunkel sang the lead vocal, and it stayed at No. 1 for six weeks in 1970.",
+      "fact": "Paul Simon wrote the song, Art Garfunkel sang the lead vocal, and Larry Knechtel played the piano.",
       "difficulty": 3
     },
     {
@@ -196,12 +196,12 @@
         "Linda Ronstadt"
       ],
       "answer": 2,
-      "fact": "Collins's version reached the US Top 10 in 1968, and Mitchell recorded her own version on the album Clouds in 1969.",
+      "fact": "Collins recorded the song in 1967, and Mitchell recorded her own version on the album Clouds in 1969.",
       "difficulty": 2
     },
     {
       "id": "folk-singer-songwriter-q16",
-      "prompt": "Whose version of Carole King's \"You've Got a Friend\" reached No. 1 in 1971?",
+      "prompt": "Which singer-songwriter's 1971 recording of Carole King's \"You've Got a Friend\" won him a Grammy?",
       "choices": [
         "James Taylor",
         "Cat Stevens",
@@ -209,12 +209,12 @@
         "Don McLean"
       ],
       "answer": 0,
-      "fact": "The song won the Grammy for Song of the Year, and Taylor won a Grammy for his performance of it.",
+      "fact": "King played piano on Taylor's recording and put her own version on Tapestry, and the song won the Grammy for Song of the Year.",
       "difficulty": 2
     },
     {
       "id": "folk-singer-songwriter-q17",
-      "prompt": "Which singer-songwriter, a former Rhodes Scholar, wrote Janis Joplin's posthumous No. 1 \"Me and Bobby McGee\"?",
+      "prompt": "Which singer-songwriter, a former Rhodes Scholar and Army helicopter pilot, wrote \"Me and Bobby McGee\"?",
       "choices": [
         "Kris Kristofferson",
         "Willie Nelson",
@@ -222,7 +222,7 @@
         "Tom Waits"
       ],
       "answer": 0,
-      "fact": "Producer Fred Foster co-wrote it, and Joplin recorded her version shortly before her death in October 1970.",
+      "fact": "Producer Fred Foster co-wrote it, and Janis Joplin recorded her version shortly before her death in October 1970.",
       "difficulty": 2
     },
     {
@@ -274,20 +274,20 @@
         "Tom Wilson"
       ],
       "answer": 3,
-      "fact": "Wilson used musicians from Dylan's \"Like a Rolling Stone\" sessions, and the remix went to No. 1 in January 1966.",
+      "fact": "Wilson used musicians from Dylan's \"Like a Rolling Stone\" sessions, and Simon and Garfunkel reportedly learned about the remix only after it was released.",
       "difficulty": 3
     },
     {
       "id": "folk-singer-songwriter-q22",
-      "prompt": "\"Like a Rolling Stone\" peaked at No. 2 on the Hot 100 in 1965, behind which song?",
+      "prompt": "Which Chicago blues guitarist played the stinging lead lines on Dylan's \"Like a Rolling Stone\"?",
       "choices": [
-        "\"Satisfaction\" by the Rolling Stones",
-        "\"Help!\" by the Beatles",
-        "\"Eve of Destruction\" by Barry McGuire",
-        "\"Hang On Sloopy\" by the McCoys"
+        "Roger McGuinn",
+        "Mike Bloomfield",
+        "Jerry Garcia",
+        "Eric Clapton"
       ],
       "answer": 1,
-      "fact": "At about six minutes, it was far longer than the typical radio single of the time.",
+      "fact": "Al Kooper, who was not hired to play, slipped onto the organ bench, and producer Tom Wilson kept his part.",
       "difficulty": 3
     },
     {
@@ -305,12 +305,12 @@
     },
     {
       "id": "folk-singer-songwriter-q24",
-      "prompt": "Leonard Cohen's \"Suzanne\" was inspired by a woman he knew in which city?",
+      "prompt": "Leonard Cohen's \"Suzanne\" was inspired by Suzanne Verdal, then the partner of which Montreal sculptor?",
       "choices": [
-        "Montreal",
-        "Toronto",
-        "Halifax",
-        "Vancouver"
+        "Armand Vaillancourt",
+        "Alfred Pellan",
+        "Jean-Paul Riopelle",
+        "Robert Roussil"
       ],
       "answer": 0,
       "fact": "Judy Collins recorded the song in 1966, a year before Cohen released his own debut album.",
@@ -331,7 +331,7 @@
     },
     {
       "id": "folk-singer-songwriter-q26",
-      "prompt": "Townes Van Zandt's \"Pancho and Lefty\" became a No. 1 country hit in 1983 for which duo?",
+      "prompt": "Townes Van Zandt's \"Pancho and Lefty\" was recorded as a duet hit in 1983 by which two country stars?",
       "choices": [
         "Waylon Jennings and Kris Kristofferson",
         "Johnny Cash and Willie Nelson",
@@ -339,7 +339,7 @@
         "Emmylou Harris and Gram Parsons"
       ],
       "answer": 2,
-      "fact": "Van Zandt, who was born in Fort Worth, Texas, wrote the song in the early 1970s.",
+      "fact": "Van Zandt wrote the song in the early 1970s, and Emmylou Harris recorded an early cover.",
       "difficulty": 2
     },
     {
@@ -402,7 +402,7 @@
       "artist": "Bob Dylan",
       "year": 1963,
       "album": "The Freewheelin' Bob Dylan",
-      "note": "Peter, Paul and Mary's cover reached No. 2 on the US chart that same year."
+      "note": "Dylan reportedly wrote it in minutes in a Greenwich Village coffeehouse in 1962, and Peter, Paul and Mary made it famous the next year."
     },
     {
       "id": "folk-singer-songwriter-s02",
@@ -410,7 +410,7 @@
       "artist": "Simon & Garfunkel",
       "year": 1965,
       "album": "Sounds of Silence",
-      "note": "Producer Tom Wilson overdubbed electric guitar, bass and drums onto the duo's 1964 acoustic take, and the new version topped the US chart."
+      "note": "Producer Tom Wilson overdubbed electric guitar, bass and drums onto the duo's 1964 acoustic take, reportedly without telling them."
     },
     {
       "id": "folk-singer-songwriter-s03",
@@ -426,7 +426,7 @@
       "artist": "Donovan",
       "year": 1966,
       "album": "Sunshine Superman",
-      "note": "It reached No. 1 in the US in September 1966."
+      "note": "Producer Mickie Most helped Donovan swap acoustic folk for a psychedelic pop sound."
     },
     {
       "id": "folk-singer-songwriter-s05",
@@ -442,7 +442,7 @@
       "artist": "Simon & Garfunkel",
       "year": 1968,
       "album": "Bookends",
-      "note": "It was used in The Graduate and won the Grammy for Record of the Year."
+      "note": "Paul Simon reportedly began it as a song called \"Mrs. Roosevelt\" before director Mike Nichols asked him to write for The Graduate."
     },
     {
       "id": "folk-singer-songwriter-s07",
@@ -474,7 +474,7 @@
       "artist": "Carole King",
       "year": 1971,
       "album": "Tapestry",
-      "note": "James Taylor's version of the song reached No. 1 the same year."
+      "note": "Carole King has said the song seemed to arrive almost whole, and James Taylor recorded his own version in 1971."
     },
     {
       "id": "folk-singer-songwriter-s11",
@@ -482,7 +482,7 @@
       "artist": "Neil Young",
       "year": 1972,
       "album": "Harvest",
-      "note": "It is Young's only No. 1 single in the US."
+      "note": "It was recorded in Nashville with a band of local session players, with Linda Ronstadt and James Taylor on backing vocals."
     },
     {
       "id": "folk-singer-songwriter-s12",
@@ -490,7 +490,7 @@
       "artist": "Jim Croce",
       "year": 1973,
       "album": "Life and Times",
-      "note": "It reached No. 1 in 1973, shortly before Croce died in a plane crash."
+      "note": "Jim Croce wrote it for his 1973 album Life and Times, and he died in a plane crash that September."
     },
     {
       "id": "folk-singer-songwriter-s13",
