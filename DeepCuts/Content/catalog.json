@@ -55,6 +55,13 @@
   "trackId": 40459620,
   "trackViewUrl": "https://music.apple.com/us/album/hey-bartender-live/40459605?i=40459620&uo=4"
  },
+ "blues-c09": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/4c/30/3b/4c303b15-31ec-2f95-5beb-370471968188/dj.fbyalctw.jpg/600x600bb.jpg",
+  "key": "Texas Flood|Stevie Ray Vaughan & Double Trouble",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/c0/e0/f7c0e04f-cbf9-c3ff-0ad2-5d04970948d6/mzaf_18215800488231258253.plus.aac.p.m4a",
+  "trackId": 592756954,
+  "trackViewUrl": "https://music.apple.com/us/album/texas-flood/592756949?i=592756954&uo=4"
+ },
  "blues-s01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3c/74/0d/3c740deb-0293-4184-a66d-5176b9e872a4/mzi.scyemciw.jpg/600x600bb.jpg",
   "key": "Cross Road Blues|Robert Johnson",
@@ -502,6 +509,13 @@
   "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/fa/9e/fefa9edd-c023-4d1c-1012-08bfb0ec69e6/mzaf_4651653238471209843.plus.aac.p.m4a",
   "trackId": 254685026,
   "trackViewUrl": "https://music.apple.com/us/album/eye-of-the-tiger/254685010?i=254685026&uo=4"
+ },
+ "classic-rock-s17": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/44/eb/9f/44eb9ffc-8e77-9a3d-8be7-8ca579de93cc/13UACIM30926.rgb.jpg/600x600bb.jpg",
+  "key": "The Weight|The Band",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/72/fe/2872fec5-a591-8966-b444-c517db510822/mzaf_7218909187133486494.plus.aac.p.m4a",
+  "trackId": 1440815149,
+  "trackViewUrl": "https://music.apple.com/us/album/the-weight/1440814725?i=1440815149&uo=4"
  },
  "country-c01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/42/cd/ac42cddb-98f0-a78b-6aac-4f08266d30c4/00602537277353.rgb.jpg/600x600bb.jpg",
@@ -2309,6 +2323,41 @@
   "trackId": 1440913399,
   "trackViewUrl": "https://music.apple.com/us/album/hard-knock-life-ghetto-anthem/1440913253?i=1440913399&uo=4"
  },
+ "hip-hop-s17": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/600x600bb.jpg",
+  "key": "Stronger|Kanye West",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/cc/69/9ecc6918-a8dc-354f-909f-ccc20a0a7a33/mzaf_7863921970418240507.plus.aac.p.m4a",
+  "trackId": 1442846328,
+  "trackViewUrl": "https://music.apple.com/us/album/stronger/1442845779?i=1442846328&uo=4"
+ },
+ "hip-hop-s18": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b6/59/69/b659695a-a783-06c5-6893-8e265a7d97dd/22UMGIM76227.rgb.jpg/600x600bb.jpg",
+  "key": "Love the Way You Lie|Eminem featuring Rihanna",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/52/a2/7c52a29d-d542-da18-5592-3269546ba6f8/mzaf_10240301494035354738.plus.aac.p.m4a",
+  "trackId": 1637717485,
+  "trackViewUrl": "https://music.apple.com/us/album/love-the-way-you-lie-feat-rihanna/1637717381?i=1637717485&uo=4"
+ },
+ "hip-hop-s19": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/0d/8b/f20d8bff-a927-ae98-6784-20a1f51cb23e/16UMGIM27642.rgb.jpg/600x600bb.jpg",
+  "key": "Hotline Bling|Drake",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/3f/1d/5b3f1dd5-4efd-b021-49b0-9d14cb08250b/mzaf_12591303768428106622.plus.aac.p.m4a",
+  "trackId": 1440841730,
+  "trackViewUrl": "https://music.apple.com/us/album/hotline-bling/1440841363?i=1440841730&uo=4"
+ },
+ "hip-hop-s20": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ab/16/ef/ab16efe9-e7f1-66ec-021c-5592a23f0f9e/17UMGIM88793.rgb.jpg/600x600bb.jpg",
+  "key": "HUMBLE.|Kendrick Lamar",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/2e/37/1f2e37be-bdd0-d770-6ea4-091011a6aade/mzaf_2360827885900940865.plus.aac.p.m4a",
+  "trackId": 1440882165,
+  "trackViewUrl": "https://music.apple.com/us/album/humble/1440881722?i=1440882165&uo=4"
+ },
+ "hip-hop-s21": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/58/e5/ca58e5e3-acb7-8ca3-6af9-ad63af3b71f1/075679873675.jpg/600x600bb.jpg",
+  "key": "Bodak Yellow|Cardi B",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/50/61/9550615a-6145-b65c-a696-d735f4b83390/mzaf_3562298962357544356.plus.aac.p.m4a",
+  "trackId": 1368105797,
+  "trackViewUrl": "https://music.apple.com/us/album/bodak-yellow/1368105671?i=1368105797&uo=4"
+ },
  "modern-pop-c01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/19/3f/fa193fc7-f9cf-c84e-c7ef-77b2fceb3a3e/5054526647565.png/600x600bb.jpg",
   "key": "Nothing Compares 2 U|Sin\u00e9ad O'Connor",
@@ -2476,6 +2525,62 @@
   "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/87/1f/c3871f7e-3260-d615-1c66-5fdca2c3a48f/mzaf_10721331211699880949.plus.aac.p.m4a",
   "trackId": 1450695739,
   "trackViewUrl": "https://music.apple.com/us/album/bad-guy/1450695723?i=1450695739&uo=4"
+ },
+ "modern-pop-s17": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/25/cd/d4/25cdd423-4a23-1913-04ed-921a58cccb7d/190295000639.jpg/600x600bb.jpg",
+  "key": "Don't Start Now|Dua Lipa",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/1e/ae/fc1eae79-916e-c6a0-3ab1-0f8fd4369b4d/mzaf_12281477982718028773.plus.aac.p.m4a",
+  "trackId": 1552269070,
+  "trackViewUrl": "https://music.apple.com/us/album/dont-start-now/1552269067?i=1552269070&uo=4"
+ },
+ "modern-pop-s18": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/02/c6/e1/02c6e1cd-8d57-97b4-6ef1-77d2be004509/mzi.sjrqsmrq.jpg/600x600bb.jpg",
+  "key": "Yeah!|Usher featuring Lil Jon and Ludacris",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/52/3c/94523c88-f5f9-16f4-dbd7-f284ca168048/mzaf_7184891920196479048.plus.aac.p.m4a",
+  "trackId": 386153478,
+  "trackViewUrl": "https://music.apple.com/us/album/yeah-feat-lil-jon-ludacris/386153476?i=386153478&uo=4"
+ },
+ "modern-pop-s19": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/b9/6c/41b96c5e-b03c-0b5d-1ad2-599f4eb50fec/09UMGIM13834.rgb.jpg/600x600bb.jpg",
+  "key": "I Gotta Feeling|Black Eyed Peas",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/00/e6/2a00e681-3390-f4fa-54c5-212859212f49/mzaf_14754088533424403872.plus.aac.p.m4a",
+  "trackId": 1446016735,
+  "trackViewUrl": "https://music.apple.com/us/album/i-gotta-feeling/1446016723?i=1446016735&uo=4"
+ },
+ "modern-pop-s20": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/3a/f7/833af71b-2e0c-3303-24f5-8f5c546c073b/20UMGIM21167.rgb.jpg/600x600bb.jpg",
+  "key": "Blinding Lights|The Weeknd",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/f1/e4/99f1e421-952f-a70e-5ef2-ba78d2073dd0/mzaf_11852837108625724603.plus.aac.p.m4a",
+  "trackId": 1505683967,
+  "trackViewUrl": "https://music.apple.com/us/album/blinding-lights/1505683624?i=1505683967&uo=4"
+ },
+ "modern-pop-s21": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/600x600bb.jpg",
+  "key": "drivers license|Olivia Rodrigo",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/62/61/366261be-0996-d73d-de6f-03417867c800/mzaf_8201528327761821135.plus.aac.p.m4a",
+  "trackId": 1560735480,
+  "trackViewUrl": "https://music.apple.com/us/album/drivers-license/1560734944?i=1560735480&uo=4"
+ },
+ "modern-pop-s22": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+  "key": "As It Was|Harry Styles",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/10/16/67101606-3869-ca44-6c03-e13d6322cb51/mzaf_1135399237022217274.plus.aac.p.m4a",
+  "trackId": 1615585008,
+  "trackViewUrl": "https://music.apple.com/us/album/as-it-was/1615584999?i=1615585008&uo=4"
+ },
+ "modern-pop-s23": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/44/30/4c4430dd-150b-d393-ec70-4894975f4b16/888880422095.jpg/600x600bb.jpg",
+  "key": "SexyBack|Justin Timberlake featuring Timbaland",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/f4/7b/1af47ba3-a363-5716-4dd9-6aea4fe35e3f/mzaf_13609262275263691829.plus.aac.p.m4a",
+  "trackId": 400946435,
+  "trackViewUrl": "https://music.apple.com/us/album/sexyback-feat-timbaland/400946401?i=400946435&uo=4"
+ },
+ "modern-pop-s24": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/69/07/bb6907de-8ad4-970b-3311-121320e1bf9c/19UMGIM03691.rgb.jpg/600x600bb.jpg",
+  "key": "7 rings|Ariana Grande",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/c8/f3/d5c8f31b-1c8f-93ed-e78b-8c0bce3e8b66/mzaf_14456154925680073521.plus.aac.p.m4a",
+  "trackId": 1450334168,
+  "trackViewUrl": "https://music.apple.com/us/album/7-rings/1450333975?i=1450334168&uo=4"
  },
  "motown-soul-c01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/0d/c0/470dc076-70e9-be30-07e5-ecee641a7604/603497902460.jpg/600x600bb.jpg",
@@ -2659,27 +2764,6 @@
   "trackId": 1423767002,
   "trackViewUrl": "https://music.apple.com/us/album/they-long-to-be-close-to-you/1423766994?i=1423767002&uo=4"
  },
- "pop-c03": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/21/45/37/21453733-80e9-839d-03cb-0f7321595e50/mzi.pgihhqyw.jpg/600x600bb.jpg",
-  "key": "Blue Velvet|Bobby Vinton",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/cc/f7/f5ccf75b-6917-c427-50b0-951e5be7a5f0/mzaf_15221291004838129986.plus.aac.p.m4a",
-  "trackId": 193319291,
-  "trackViewUrl": "https://music.apple.com/us/album/blue-velvet/193319259?i=193319291&uo=4"
- },
- "pop-c04": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/7b/ec/b77bec39-6111-7576-a78c-685743ca59b5/19UMGIM69629.rgb.jpg/600x600bb.jpg",
-  "key": "Wild Thing|The Troggs",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/0e/f7/4c0ef78c-be26-745f-0120-b89fc1a3e2b5/mzaf_9012971626428523567.plus.aac.p.m4a",
-  "trackId": 1475182476,
-  "trackViewUrl": "https://music.apple.com/us/album/wild-thing/1475182472?i=1475182476&uo=4"
- },
- "pop-c05": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/a6/59/78a65979-c0a5-ee3f-aa89-3e39f269254d/00602547853707.rgb.jpg/600x600bb.jpg",
-  "key": "Angel of the Morning|Juice Newton",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/9a/eb/8d9aeb34-b59e-0020-d084-d29747f8c8e9/mzaf_16267565363499857151.plus.aac.p.m4a",
-  "trackId": 1442266978,
-  "trackViewUrl": "https://music.apple.com/us/album/angel-of-the-morning/1442266880?i=1442266978&uo=4"
- },
  "pop-c06": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/1f/70/95/1f70951d-b065-326d-6a3f-2009ec563d81/dj.pnmldiur.jpg/600x600bb.jpg",
   "key": "Spanish Harlem|Aretha Franklin",
@@ -2687,19 +2771,40 @@
   "trackId": 809173541,
   "trackViewUrl": "https://music.apple.com/us/album/spanish-harlem/809173402?i=809173541&uo=4"
  },
- "pop-c07": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/47/e6/1b/47e61b1b-bbff-b998-9bb0-8e2f849c18e5/610583629927.jpg/600x600bb.jpg",
-  "key": "Crying|Don McLean",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/a8/d4/cea8d466-a893-5229-9860-ae61cbf30222/mzaf_5340446722208123137.plus.aac.p.m4a",
-  "trackId": 1510441268,
-  "trackViewUrl": "https://music.apple.com/us/album/crying/1510440962?i=1510441268&uo=4"
- },
  "pop-c08": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/19/cd/cf19cda6-69be-8e26-6334-60d23753ee34/00018771922827.rgb.jpg/600x600bb.jpg",
   "key": "I'm into Something Good|Herman's Hermits",
   "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/95/d8/8695d804-2012-4d85-169a-5d8de36dcae2/mzaf_8103819653579025268.plus.aac.p.m4a",
   "trackId": 1440778178,
   "trackViewUrl": "https://music.apple.com/us/album/im-into-something-good/1440778163?i=1440778178&uo=4"
+ },
+ "pop-c09": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/46/df/e2/46dfe2be-08d4-832d-f56a-49d77a5c2b76/5099951247652.jpg/600x600bb.jpg",
+  "key": "Hooked on a Feeling|Blue Swede",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/2e/5c/132e5c06-0153-744c-4fce-7347b5023dbe/mzaf_16236958159127056163.plus.aac.p.m4a",
+  "trackId": 690456025,
+  "trackViewUrl": "https://music.apple.com/us/album/hooked-on-a-feeling/690456020?i=690456025&uo=4"
+ },
+ "pop-c10": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/76/41/e4764175-f2a3-1c77-d796-f1984ee39db3/mzi.qgwczior.jpg/600x600bb.jpg",
+  "key": "Mandy|Barry Manilow",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/0e/a4/5f0ea475-effc-9b98-954c-36831e2f48a0/mzaf_7632854103522820298.plus.aac.p.m4a",
+  "trackId": 177410267,
+  "trackViewUrl": "https://music.apple.com/us/album/mandy/177409903?i=177410267&uo=4"
+ },
+ "pop-c11": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/28/c2/5d/28c25d5f-4708-6692-4c0c-9e861b836862/13UABIM53155.rgb.jpg/600x600bb.jpg",
+  "key": "Bette Davis Eyes|Kim Carnes",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/9c/95/e69c956a-8c85-d4ce-227c-d08bae9206e2/mzaf_12787969426259005125.plus.aac.p.m4a",
+  "trackId": 714976249,
+  "trackViewUrl": "https://music.apple.com/us/album/bette-davis-eyes/714976054?i=714976249&uo=4"
+ },
+ "pop-c12": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/f1/4b/5bf14b8b-23a0-5f7f-c619-430ffc7ab0e7/06UMGIM07184.rgb.jpg/600x600bb.jpg",
+  "key": "I Think We're Alone Now|Tiffany",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/8a/48/c78a4845-b895-8a05-056e-7b33363763e8/mzaf_12815674655785520864.plus.aac.p.m4a",
+  "trackId": 1440672487,
+  "trackViewUrl": "https://music.apple.com/us/album/i-think-were-alone-now/1440672177?i=1440672487&uo=4"
  },
  "pop-s01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/05/50/17055031-c0c1-7e73-42d9-5e3517236f02/886443431355.jpg/600x600bb.jpg",
@@ -2820,20 +2925,6 @@
   "trackId": 271947855,
   "trackViewUrl": "https://music.apple.com/us/album/america/271947854?i=271947855&uo=4"
  },
- "prog-rock-c02": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cb/06/0b/cb060b04-38e3-b831-b81e-b1ffdc03e87b/13UADIM60728.rgb.jpg/600x600bb.jpg",
-  "key": "Jealous Guy|Roxy Music",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/40/35/704035fc-94ef-d2ed-0827-18ced11725cb/mzaf_4802368701891086717.plus.aac.p.m4a",
-  "trackId": 724413586,
-  "trackViewUrl": "https://music.apple.com/us/album/jealous-guy/724413368?i=724413586&uo=4"
- },
- "prog-rock-c03": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cc/00/6c/cc006c45-fc58-d786-18b1-073dc8bb9c46/190295011529.jpg/600x600bb.jpg",
-  "key": "Go Now|The Moody Blues",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/db/7f/05db7f5e-0ecc-81cc-6b22-46e25c00da66/mzaf_17309394156479119420.plus.aac.p.m4a",
-  "trackId": 1624951403,
-  "trackViewUrl": "https://music.apple.com/us/album/go-now/1624951244?i=1624951403&uo=4"
- },
  "prog-rock-c04": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/17/e5/20/17e52004-5294-f95e-33ad-2b35bf928156/Scratch_My_Back-iTunes.jpg/600x600bb.jpg",
   "key": "Heroes|Peter Gabriel",
@@ -2868,6 +2959,20 @@
   "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/fd/36/f8fd3634-d16d-9ccd-5efd-067f91535a8d/mzaf_3842201973781499906.plus.aac.p.m4a",
   "trackId": 1528518895,
   "trackViewUrl": "https://music.apple.com/us/album/nut-rocker-live-at-the-lyceum-theatre-london-uk-09-12-70/1528518745?i=1528518895&uo=4"
+ },
+ "prog-rock-c09": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/40/f4/c6/40f4c64c-8a40-4736-6f3c-75584478eeb0/dj.dvaqfnuk.jpg/600x600bb.jpg",
+  "key": "I See You|Yes",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/1d/7e/ca1d7ee0-b138-4031-50e1-ae503881735a/mzaf_460884826383675677.plus.aac.p.m4a",
+  "trackId": 1049003684,
+  "trackViewUrl": "https://music.apple.com/us/album/i-see-you/1049003681?i=1049003684&uo=4"
+ },
+ "prog-rock-c10": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/1c/63/4d/1c634df7-e5be-6b85-a391-1b04b0801dd2/dj.zuxqzoxd.jpg/600x600bb.jpg",
+  "key": "Seven and Seven Is|Rush",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f5/65/52/f56552c9-9799-264b-a91b-9a0c21d6ea13/mzaf_8884561313285097001.plus.aac.p.m4a",
+  "trackId": 642209888,
+  "trackViewUrl": "https://music.apple.com/us/album/seven-and-seven-is/642209709?i=642209888&uo=4"
  },
  "prog-rock-s01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ff/42/65/ff4265dd-7747-566d-87fa-61a1e10e360f/00600753066317.rgb.jpg/600x600bb.jpg",
@@ -3170,13 +3275,6 @@
   "trackId": 1440713921,
   "trackViewUrl": "https://music.apple.com/us/album/call-me-the-breeze/1440713611?i=1440713921&uo=4"
  },
- "southern-rock-c04": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/4c/30/3b/4c303b15-31ec-2f95-5beb-370471968188/dj.fbyalctw.jpg/600x600bb.jpg",
-  "key": "Texas Flood|Stevie Ray Vaughan & Double Trouble",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/c0/e0/f7c0e04f-cbf9-c3ff-0ad2-5d04970948d6/mzaf_18215800488231258253.plus.aac.p.m4a",
-  "trackId": 592756954,
-  "trackViewUrl": "https://music.apple.com/us/album/texas-flood/592756949?i=592756954&uo=4"
- },
  "southern-rock-c05": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/4c/04/5b4c04ac-e79d-72fc-2822-3f1e26acdd2a/06UMGIM08636.rgb.jpg/600x600bb.jpg",
   "key": "Honky Tonk Night Time Man|Lynyrd Skynyrd",
@@ -3184,26 +3282,33 @@
   "trackId": 1425106757,
   "trackViewUrl": "https://music.apple.com/us/album/honky-tonk-night-time-man/1425105937?i=1425106757&uo=4"
  },
- "southern-rock-c06": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/47/ba/a147ba91-31cd-ef4d-d785-040036d14598/12CMGIM34362.rgb.jpg/600x600bb.jpg",
-  "key": "Susie Q|Creedence Clearwater Revival",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/01/12/c5011228-d248-6a33-3ac0-8d7f06464bc3/mzaf_17973825844154155591.plus.aac.p.m4a",
-  "trackId": 1440955816,
-  "trackViewUrl": "https://music.apple.com/us/album/susie-q/1440955595?i=1440955816&uo=4"
+ "southern-rock-c09": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/15/c2/18/mzi.fgbhxqrg.jpg/600x600bb.jpg",
+  "key": "Dreams I'll Never See|Molly Hatchet",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/97/5f/c0975fc2-1c9c-8aff-ded1-6459e75fcb96/mzaf_14117506753614759200.plus.aac.p.m4a",
+  "trackId": 185674655,
+  "trackViewUrl": "https://music.apple.com/us/album/dreams-ill-never-see/185673923?i=185674655&uo=4"
  },
- "southern-rock-c07": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/d8/c5/a8d8c5d8-98e3-b07d-76c6-b87448a24be4/14CMGIM00708.rgb.jpg/600x600bb.jpg",
-  "key": "I Put a Spell on You|Creedence Clearwater Revival",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/96/98/429698f3-82c5-0125-8e62-07d2d4af5bdc/mzaf_10680627116486060050.plus.aac.p.m4a",
-  "trackId": 1440944892,
-  "trackViewUrl": "https://music.apple.com/us/album/i-put-a-spell-on-you/1440944801?i=1440944892&uo=4"
+ "southern-rock-c10": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/00/11/500011f7-0b17-d400-cda0-0080280a07f4/16UMGIM15971.rgb.jpg/600x600bb.jpg",
+  "key": "Trouble No More|The Allman Brothers Band",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/08/d7/3208d7f7-4953-5595-3991-a7300fcfd7e4/mzaf_14921803357946481151.plus.aac.p.m4a",
+  "trackId": 1469584228,
+  "trackViewUrl": "https://music.apple.com/us/album/trouble-no-more/1469584148?i=1469584228&uo=4"
  },
- "southern-rock-c08": {
-  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/7b/39/22/7b3922b9-61c1-5ad9-4c68-25f41f3fd402/dj.orqmjfhi.jpg/600x600bb.jpg",
-  "key": "Little Wing|Stevie Ray Vaughan & Double Trouble",
-  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/c3/e0/52c3e083-edc0-6d89-2b02-c5465e82c7b6/mzaf_11763769022676320026.plus.aac.p.m4a",
-  "trackId": 382575984,
-  "trackViewUrl": "https://music.apple.com/us/album/little-wing/382575920?i=382575984&uo=4"
+ "southern-rock-c11": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/da/e0/c9/dae0c9cf-2977-19f8-06fa-8adcf7ca86f0/00602547880314.rgb.jpg/600x600bb.jpg",
+  "key": "You Don't Love Me|The Allman Brothers Band",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/3f/7b/b43f7b99-30eb-326c-6452-170a641c99da/mzaf_6495664603909810203.plus.aac.p.m4a",
+  "trackId": 1440833757,
+  "trackViewUrl": "https://music.apple.com/us/album/you-dont-love-me-live-at-the-fillmore-east-1971/1440833569?i=1440833757&uo=4"
+ },
+ "southern-rock-c12": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/8d/f9/4f8df9c8-ab71-517e-2f31-56cf0f4414e2/06UMGIM04372.rgb.jpg/600x600bb.jpg",
+  "key": "T for Texas|Lynyrd Skynyrd",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/34/de/f334dea3-ecb6-c11d-2b8b-e369fe07c7f3/mzaf_11811757693634333958.plus.aac.p.m4a",
+  "trackId": 1440836519,
+  "trackViewUrl": "https://music.apple.com/us/album/t-for-texas-blue-yodel-no-1-live-at-the-fox-theater-1976/1440836389?i=1440836519&uo=4"
  },
  "southern-rock-s01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/00/11/500011f7-0b17-d400-cda0-0080280a07f4/16UMGIM15971.rgb.jpg/600x600bb.jpg",
