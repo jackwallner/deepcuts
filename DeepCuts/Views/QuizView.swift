@@ -55,7 +55,8 @@ struct QuizView: View {
                 context: "question \(item.id): \(item.prompt) | answer shown: \(item.choices[item.correctIndex].label)",
                 title: "Report a problem",
                 pitch: "A wrong answer, a typo, a fact that doesn't sound right. It goes straight to Jack's build assistant with this question attached.",
-                placeholder: "What's wrong with this one?")
+                placeholder: "What's wrong with this one?",
+                reported: (item.prompt, item.choices[item.correctIndex].label))
         }
     }
 
