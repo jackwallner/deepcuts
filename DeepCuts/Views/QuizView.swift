@@ -10,6 +10,7 @@ struct QuizView: View {
     @State private var picked: Int?
     @State private var outcomes: [Bool?] = []
     @State private var finished = false
+    @State private var reporting = false
 
     private var item: QuizItem { spec.items[index] }
 
@@ -49,6 +50,13 @@ struct QuizView: View {
         .onAppear { outcomes = Array(repeating: nil, count: spec.items.count) }
         .onChange(of: index, initial: true) { _, _ in autoplay() }
         .onDisappear { app.player.stop() }
+        .sheet(isPresented: $reporting) {
+            FeedbackView(
+                context: "question \(item.id): \(item.prompt) | answer shown: \(item.choices[item.correctIndex].label)",
+                title: "Report a problem",
+                pitch: "A wrong answer, a typo, a fact that doesn't sound right. It goes straight to Jack's build assistant with this question attached.",
+                placeholder: "What's wrong with this one?")
+        }
     }
 
     // MARK: Chrome
@@ -116,7 +124,7 @@ struct QuizView: View {
             choiceList
         case .firstOf:
             matchup
-        case .trivia:
+        case .trivia, .hard:
             choiceList
         }
     }
@@ -218,13 +226,20 @@ struct QuizView: View {
             }
             Text(item.fact).font(.body).foregroundStyle(Theme.ink.opacity(0.85))
                 .fixedSize(horizontal: false, vertical: true)
-            if let id = item.audioSongID, let link = app.library.catalog[id]?.trackViewUrl.flatMap(URL.init(string:)) {
-                Link(destination: link) {
-                    Label("Full song in Apple Music", systemImage: "arrow.up.right.square")
-                        .font(.subheadline.weight(.semibold))
+            HStack(spacing: 18) {
+                if let id = item.audioSongID, let link = app.library.catalog[id]?.trackViewUrl.flatMap(URL.init(string:)) {
+                    Link(destination: link) {
+                        Label("Full song", systemImage: "arrow.up.right.square")
+                    }
                 }
-                .padding(.top, 4)
+                Button { reporting = true } label: {
+                    Label("Report a problem", systemImage: "flag")
+                }
+                .foregroundStyle(Theme.inkSoft)
+                .accessibilityIdentifier("quiz-report")
             }
+            .font(.subheadline.weight(.semibold))
+            .padding(.top, 4)
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)

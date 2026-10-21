@@ -1,13 +1,14 @@
 import Foundation
 
 enum QuizMode: String, Codable, CaseIterable, Identifiable, Sendable {
-    case trivia, tune, covers, firstOf
+    case trivia, hard, tune, covers, firstOf
 
     var id: String { rawValue }
 
     var title: String {
         switch self {
         case .trivia: "Trivia"
+        case .hard: "The Hard Ones"
         case .tune: "Name That Tune"
         case .covers: "Who Did It First?"
         case .firstOf: "Which Came First?"
@@ -17,6 +18,7 @@ enum QuizMode: String, Codable, CaseIterable, Identifiable, Sendable {
     var symbol: String {
         switch self {
         case .trivia: "questionmark.bubble"
+        case .hard: "dial.high"
         case .tune: "waveform"
         case .covers: "arrow.triangle.2.circlepath"
         case .firstOf: "calendar"
@@ -26,6 +28,7 @@ enum QuizMode: String, Codable, CaseIterable, Identifiable, Sendable {
     var pitch: String {
         switch self {
         case .trivia: "10 questions, easy to deep cut"
+        case .hard: "10 of the toughest. For collectors."
         case .tune: "6 clips. Name the song."
         case .covers: "6 famous covers. Name the original artist."
         case .firstOf: "8 matchups. Pick the older record."

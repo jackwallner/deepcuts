@@ -100,6 +100,14 @@ final class QuizBuilderTests: XCTestCase {
         XCTAssertEqual(difficulties, difficulties.sorted())
     }
 
+    func testHardOnesAreAllDifficultyThree() {
+        var rng = SeededRandom(seed: 9)
+        let items = builder.round(mode: .hard, genres: [Self.genre], seen: [], rng: &rng)
+        XCTAssertEqual(items.count, 4, "the fixture has four difficulty 3 questions")
+        XCTAssertTrue(items.allSatisfy { id in Self.genre.questions.first { $0.id == id.questionID }!.difficulty == 3 })
+        XCTAssertFalse(builder.offers(.hard, genres: [Self.genre]), "needs ten hard questions to offer the mode")
+    }
+
     func testTriviaPrefersUnseenQuestions() {
         var rng = SeededRandom(seed: 3)
         let seen = Set((1...8).map { "q\($0)" })

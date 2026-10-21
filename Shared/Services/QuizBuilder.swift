@@ -37,6 +37,7 @@ struct QuizBuilder {
     func round(mode: QuizMode, genres: [Genre], seen: Set<String>, rng: inout some RandomNumberGenerator) -> [QuizItem] {
         switch mode {
         case .trivia: trivia(genres: genres, count: Self.triviaCount, seen: seen, rng: &rng)
+        case .hard: trivia(genres: genres, count: Self.triviaCount, seen: seen, minDifficulty: 3, rng: &rng)
         case .tune: tunes(genres: genres, count: Self.tuneCount, rng: &rng)
         case .covers: covers(genres: genres, count: Self.coversCount, rng: &rng)
         case .firstOf: firstOf(genres: genres, count: Self.firstOfCount, rng: &rng)
@@ -45,7 +46,11 @@ struct QuizBuilder {
 
     /// Whether a mode can build a round from these crates.
     func offers(_ mode: QuizMode, genres: [Genre]) -> Bool {
-        mode != .covers || genres.contains { $0.coverSongs.contains { library.hasPreview($0.id) } }
+        switch mode {
+        case .covers: genres.contains { $0.coverSongs.contains { library.hasPreview($0.id) } }
+        case .hard: genres.flatMap(\.questions).filter { $0.difficulty >= 3 }.count >= Self.triviaCount
+        default: true
+        }
     }
 
     /// Today's mix: 2 clips, 1 matchup, trivia with at most one hard question, and a cover to finish.
@@ -68,11 +73,12 @@ struct QuizBuilder {
     // MARK: Item kinds
 
     /// Unseen questions first, spread across crates, ordered easy to hard, with at most `maxHard` at difficulty 3.
-    func trivia(genres: [Genre], count: Int, seen: Set<String>, maxHard: Int = .max,
+    func trivia(genres: [Genre], count: Int, seen: Set<String>, maxHard: Int = .max, minDifficulty: Int = 1,
                 rng: inout some RandomNumberGenerator) -> [QuizItem] {
         var pools = genres.map { genre in
-            let fresh = genre.questions.filter { !seen.contains($0.id) }.shuffled(using: &rng)
-            let old = genre.questions.filter { seen.contains($0.id) }.shuffled(using: &rng)
+            let questions = genre.questions.filter { $0.difficulty >= minDifficulty }
+            let fresh = questions.filter { !seen.contains($0.id) }.shuffled(using: &rng)
+            let old = questions.filter { seen.contains($0.id) }.shuffled(using: &rng)
             return (genre, fresh + old)
         }.shuffled(using: &rng)
         var picked: [(Genre, Question)] = []
