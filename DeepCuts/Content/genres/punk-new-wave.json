@@ -534,7 +534,11 @@
       "body": "In 1973 a former Marine named Hilly Kristal opened a small club at 315 Bowery in lower Manhattan. He named it CBGB OMFUG, which stood for Country, Bluegrass, Blues and Other Music for Uplifting Gormandizers. He planned to host country music. The Bowery in those years was a rough neighborhood of flophouses and empty storefronts, and the country crowd never came. Instead, young bands with nowhere else to play began to fill the room.\n\nOne of them came from Forest Hills, a quiet middle-class neighborhood in Queens. Four friends, Joey, Johnny, Dee Dee and Tommy, took the stage surname Ramone and wore the same uniform of torn jeans, sneakers and black leather jackets. They played fast. Each song was short, and each began with Dee Dee shouting a count of \"one, two, three, four\", as if the band could not wait. They played their first show at CBGB in August 1974 and returned again and again.\n\nThe sets were short, often around twenty minutes, and the crowd was small. But other musicians were watching. Patti Smith, Television, Blondie and Talking Heads were all playing the same stage in those years, and together they made a scene. Critics began to write about it. In 1976 the Ramones made their first album for a few thousand dollars, and the opening track, \"Blitzkrieg Bop\", gave the new music one of its first anthems.\n\nThe band's real influence landed across the ocean. On July 4, 1976, the Ramones played at the Roundhouse in London. In the audience were young musicians who would soon become the Clash, the Sex Pistols and the Damned. They saw a band that played with no solos, no flashy show and no fear. The message was clear: anyone could do this. Within months, British punk bands were forming everywhere.\n\nAt home the Ramones never had a big hit, though they kept touring for twenty years. Their influence did the work. Bands as varied as the Clash, Metallica and Green Day have all credited them as an influence.\n\nCBGB lasted until 2006, covered in stickers and posters, and its fame outlasted the bands that made it. Hilly Kristal had set out to book country and blues, and he ended up hosting the sound that would change rock and roll.",
       "songs": [
         "punk-new-wave-s01"
-      ]
+      ],
+      "cover": {
+        "album": "Ramones",
+        "artist": "Ramones"
+      }
     },
     {
       "id": "punk-new-wave-st2",
@@ -544,7 +548,11 @@
       "body": "The Sex Pistols were put together in London in 1975 by Malcolm McLaren, who ran a clothing shop on the King's Road. He had spent time in New York and saw the New York Dolls, and he wanted to bring that raw spirit to Britain. The band's lead singer was a sneering teenager named John Lydon, nicknamed Johnny Rotten, and the bassist was Glen Matlock. They signed with EMI in 1976.\n\nThen came December. The band appeared on a teatime TV show called Today, where host Bill Grundy, apparently trying to provoke them, goaded the band into swearing live on air. The next day the tabloids raged. Concerts were canceled, and EMI dropped the band. Matlock left and was replaced by Sid Vicious, a friend of Lydon's who could barely play the bass. A&M Records signed them in March 1977 in a ceremony outside Buckingham Palace, then dropped them within a week. Finally Virgin Records, under Richard Branson, took a chance.\n\nIn May Virgin released \"God Save the Queen\". The timing was deliberate. Britain was preparing to celebrate Queen Elizabeth's Silver Jubilee, twenty-five years on the throne, and here was a song that sneered at the monarchy. The BBC refused to play it, and many shops would not stock it. On June 7, during the Jubilee week, McLaren hired a boat to carry the band along the Thames past the Houses of Parliament. They played the song on deck. Police boats closed in, the party was stopped, and several people were arrested.\n\nThe single sold hundreds of thousands of copies and reached No. 2 on the UK chart. Many fans are convinced it was kept from the top spot, but the Official Charts lists it at No. 2, behind a Rod Stewart single. The band's only studio album, Never Mind the Bollocks, followed in October.\n\nThe Pistols did not last. After a chaotic tour of the United States, they broke up in January 1978 at a show in San Francisco, where Lydon asked the audience if they ever got the feeling they had been cheated. Vicious died of an overdose in 1979, at the age of 21.\n\nThe band had lasted barely two years. But its anger, its look and its three chords had given a whole generation permission to start a band of their own.",
       "songs": [
         "punk-new-wave-s02"
-      ]
+      ],
+      "cover": {
+        "album": "Never Mind the Bollocks, Here's the Sex Pistols",
+        "artist": "Sex Pistols"
+      }
     },
     {
       "id": "punk-new-wave-st3",
@@ -555,7 +563,41 @@
       "songs": [
         "punk-new-wave-s09",
         "punk-new-wave-s15"
-      ]
+      ],
+      "cover": {
+        "album": "Substance",
+        "artist": "New Order"
+      }
+    },
+    {
+      "id": "punk-new-wave-st4",
+      "title": "The Gig That Started Manchester",
+      "dek": "The Sex Pistols play a small hall in June 1976.",
+      "year": 1976,
+      "body": "On June 4, 1976, the Sex Pistols played a show at the Lesser Free Trade Hall in Manchester. The band was less than a year old and had made a name for itself in London with loud, rude and chaotic shows, but it was not yet famous in the north of England. The concert was organized by two local students, Howard Devoto and Pete Shelley, who had formed a band called Buzzcocks and who had traveled to London to see the Pistols play. They liked what they saw and decided to bring them to Manchester.\n\nThe audience was small. According to the usual account, there were about forty people in the room, and many of them did not know what to expect. The Pistols played with their usual attitude, loud and fast and not caring whether the crowd approved. Johnny Rotten stood at the front, and the band played songs that were short, angry and funny.\n\nWhat made the night remarkable is who was there, and what they did afterward. Many of the people in the audience reportedly went on to form bands or play major roles in the music scene. They included members of the future Joy Division, Ian Curtis, Peter Hook and Bernard Sumner, along with Morrissey, who would front the Smiths, and Mark E. Smith, who would lead the Fall. Tony Wilson, a television presenter who would co-found Factory Records, is also said to have attended. Whether or not every name on the list is accurate, the point is that the show seemed to light a fuse.\n\nThe Pistols returned to the same hall on July 20, and this time the Buzzcocks opened. The crowd was bigger, and the scene in Manchester had begun to form. Devoto and Shelley's band put out its first record, Spiral Scratch, in early 1977, on its own label, a bold move that showed other bands that they did not need a major record company.\n\nMany of the groups that came after the Pistols' visit, from Joy Division to the Smiths, wrote about the city's gray streets and everyday feelings. The Pistols had arrived with songs of rage, such as God Save the Queen, which came out in 1977. The musicians in Manchester heard the same urgency, and they used it in their own ways.\n\nThe show is sometimes described as the gig that changed everything. It was a small hall, a few dozen people and a band that did not care. That was enough.",
+      "songs": [
+        "punk-new-wave-s02"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Unknown Pleasures",
+        "artist": "Joy Division"
+      }
+    },
+    {
+      "id": "punk-new-wave-st5",
+      "title": "Rock Against Racism in Victoria Park",
+      "dek": "A carnival in East London, April 30, 1978.",
+      "year": 1978,
+      "body": "Rock Against Racism began in 1976 after a bad night. Eric Clapton, one of Britain's best-known guitarists, said some things on stage in Birmingham that appeared to support the politician Enoch Powell's views on immigration. A group of musicians and activists, including photographer Red Saunders, wrote an angry letter to the music press, and the response was strong enough that a movement was born. Its aim was to use music to counter racism in Britain, and it organized concerts around the country.\n\nBy the spring of 1978 the movement was ready for a big public event. On April 30, supporters marched from Trafalgar Square in central London to Victoria Park in the East End, where a free carnival was held. Estimates of the crowd range from about eighty thousand to a hundred thousand.\n\nThe lineup was a mix of punk, reggae and rock bands, which was exactly the point. The Tom Robinson Band, X-Ray Spex, Steel Pulse, a reggae band from Birmingham, and the Clash were among the acts. The Clash were at the center of punk's growing connection with reggae. They played hard and fast, and their set included White Riot, one of the best-known songs from their first album. Many in the crowd, white and Black, sang along.\n\nThe carnival showed that punk was more than a fashion or a shout of rebellion. Many bands wanted their music to say something about the world, and the Clash in particular wrote about unemployment, police and politics. Late in 1979, they would release London Calling, an album that merged punk with reggae, rockabilly and soul, and the title song became one of the group's best known.\n\nRock Against Racism continued to organize events through the late 1970s and into the 1980s, and its message of unity reached a wide audience. It is often credited with helping to shape the culture of the time.\n\nThe Victoria Park carnival is remembered for its size, but it also stands for something simple. A crowd of young people from many backgrounds stood together in a park, listening to music that spoke for them.",
+      "songs": [
+        "punk-new-wave-s06"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "The Clash",
+        "artist": "The Clash"
+      }
     }
   ]
 }

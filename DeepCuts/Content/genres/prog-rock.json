@@ -534,7 +534,11 @@
       "body": "In 1972 Pink Floyd was a respected British band that had not yet written a record everyone had to own. Its members, Roger Waters, David Gilmour, Richard Wright and Nick Mason, had spent years chasing a new sound. They had lost their original leader, Syd Barrett, and were still finding their way without him. For their next project, Waters suggested an album about the pressures of modern life: time, money, conflict and madness.\n\nThe band did something unusual. Before recording a note, they performed the new songs live on tour, trying them out in front of audiences in Britain and the United States. By the time they entered Abbey Road Studios in London in the middle of 1972, the music had been refined night after night. They worked with engineer Alan Parsons, who had been an assistant on Beatles records, and who knew how to coax the best from the equipment.\n\nEach song was an experiment. For \"Money\", Waters recorded the sounds of coins, a cash register and tearing paper, then cut the tape into pieces and spliced it into a loop in a rhythm of seven beats. The result gave the song an odd, lurching groove. The heartbeat that opens the album is a sound effect, and the ticking clocks that begin \"Time\" were recorded one by one in an antique shop. Gilmour's guitar solos rang out over the top.\n\nLate in the sessions, the band wanted a wordless vocal for a piano piece Wright had written, which they called \"The Great Gig in the Sky\". They invited a session singer named Clare Torry to the studio and told her to improvise. She took the cue and wailed, soared and cried over the music in a few takes. Torry was paid a standard session fee, and years later she won a writing credit after a legal claim.\n\nBetween the songs, Waters recorded people in the studio and asked them simple questions about life and death. Some of the answers, including words from the studio's doorman, were woven into the album. The band's friend Storm Thorgerson of Hipgnosis designed the famous prism cover.\n\nThe Dark Side of the Moon was released in March 1973 and topped the US album chart. It stayed on the Billboard 200 for years afterward and became a fixture of dorm rooms and car stereos for generations. What started as a concept and a loop of coins became one of the most popular albums ever made.\n\nIt is easy to forget how risky the whole thing was. The band took a gamble on a long, quiet, thoughtful album, and it gave rock one of its most lasting visions.",
       "songs": [
         "prog-rock-s06"
-      ]
+      ],
+      "cover": {
+        "album": "The Dark Side of the Moon",
+        "artist": "Pink Floyd"
+      }
     },
     {
       "id": "prog-rock-st2",
@@ -545,7 +549,11 @@
       "songs": [
         "prog-rock-s07",
         "prog-rock-s10"
-      ]
+      ],
+      "cover": {
+        "album": "The Lamb Lies Down on Broadway",
+        "artist": "Genesis"
+      }
     },
     {
       "id": "prog-rock-st3",
@@ -555,7 +563,42 @@
       "body": "By the end of the 1970s the Canadian trio Rush had built a loyal following. Singer and bassist Geddy Lee, guitarist Alex Lifeson and drummer Neil Peart had made long, complicated records, including a side-long suite called 2112. But with their 1980 album Permanent Waves, which included the radio hit \"The Spirit of Radio\", they showed they could write shorter, sharper songs without losing their ambition.\n\nFor the next record, they went to Le Studio, a recording retreat in the village of Morin Heights, Quebec, in the autumn of 1980. Working again with producer Terry Brown, they wrote and recorded the songs that would become Moving Pictures.\n\nThe album begins with \"Tom Sawyer\". The lyrics began as a poem by Pye Dubois, a Canadian writer who was a friend of the band. Peart took the words and shaped them into a portrait of a modern-day rebel, a restless spirit with a strong mind. Lee added a pulsing synthesizer line, and Peart's drumming, with its dramatic fills, drove the song.\n\nOther tracks were just as varied. \"Limelight\" was Peart's reaction to being famous, a topic he found uncomfortable. \"Red Barchetta\" was based on a short story about a future where cars are banned, and it features a driving riff that puts the listener in the seat of an old sports car. \"YYZ\", an instrumental named after the identifier for Toronto's airport, opens with a rhythm that spells out the letters in Morse code, and it earned a Grammy nomination.\n\nThe cover is a visual pun. It shows moving men carrying paintings out of a building, while onlookers weep at the sight of the pictures being taken away. The photograph was taken in front of Toronto's Ontario Legislative Building.\n\nMoving Pictures was released in February 1981 and became Rush's most successful album. It reached No. 3 in the US and the UK, and sold more than four million copies in America. Many fans regard it as the moment when the band's technical skill and pop instincts came together. Yet the band stayed true to its own sound, and it kept making records on its own terms.\n\nToday \"Tom Sawyer\" remains one of the most played songs on rock radio. A trio that had once been seen as a cult act became a mainstream favorite without changing what made them special.",
       "songs": [
         "prog-rock-s14"
-      ]
+      ],
+      "cover": {
+        "album": "Moving Pictures",
+        "artist": "Rush"
+      }
+    },
+    {
+      "id": "prog-rock-st4",
+      "title": "Pink Floyd at Live 8",
+      "dek": "Four old bandmates share a stage again, July 2005.",
+      "year": 2005,
+      "body": "In July 2005 a series of concerts called Live 8 was held in several cities, timed to push world leaders attending a summit in Scotland to act on African poverty. The London show, in Hyde Park on July 2, was organized by Bob Geldof, who had also helped organize Live Aid twenty years earlier. Among the performers on the bill was a group that most fans had given up on seeing together: Pink Floyd.\n\nThe band had not performed with its classic lineup since 1981. Roger Waters had left in the mid-1980s, and the break had been bitter, with lawyers and public disagreements. David Gilmour, Nick Mason and Richard Wright had continued as Pink Floyd, while Waters had gone solo. Years passed, and the idea of a reunion seemed out of reach. Geldof asked them to take part, and, to the surprise of many, they said yes.\n\nOn the day, the four men walked onto the stage together, and the crowd responded with a long roar. They played a short set of four songs. They opened with Breathe, from The Dark Side of the Moon, and moved into Money, with its famous bass line in an unusual time signature. Then came Wish You Were Here, the song written in memory of the band's lost friend Syd Barrett, and they closed with Comfortably Numb, from The Wall.\n\nWaters spoke briefly to the crowd. He said how emotional it was to stand there with the other three, and he dedicated the set to the band's past, including Barrett. At one point during the final song, the four stood together at the front of the stage, with their arms around each other, in a moment that was widely photographed.\n\nThe performance lasted about twenty minutes, but it carried a weight beyond its length. Many fans said they had never expected to see it. For the musicians, it was a chance to put aside old grievances for a good cause. Waters has spoken of it as a reconciliation of sorts, though he and Gilmour did not play together again.\n\nWright died in 2008, and he never played with Waters again. That made the Live 8 appearance the last time all four members were on a stage at once. The set was brief, but it gave the band's story a gentle ending.",
+      "songs": [
+        "prog-rock-s06",
+        "prog-rock-s08"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Wish You Were Here",
+        "artist": "Pink Floyd"
+      }
+    },
+    {
+      "id": "prog-rock-st5",
+      "title": "King Crimson in Hyde Park",
+      "dek": "A new band plays to a huge crowd before its first album, July 1969.",
+      "year": 1969,
+      "body": "On July 5, 1969, the Rolling Stones played a free concert in London's Hyde Park, and a vast crowd came to see them. It was the first show with their new guitarist, Mick Taylor, and it became famous as a tribute to Brian Jones, who had died two days earlier. Lower down the bill that afternoon was a band that almost no one had heard of: King Crimson.\n\nKing Crimson had formed in London only that January. Its members were guitarist Robert Fripp, bassist and singer Greg Lake, saxophonist and multi-instrumentalist Ian McDonald, drummer Michael Giles and lyricist Peter Sinfield. The band had played its first public show in April and was still working on its debut album. It had a heavy, dramatic sound that mixed rock, jazz and classical music, and it made heavy use of the Mellotron, a keyboard that played taped sounds of strings and choirs.\n\nFacing a crowd that estimates have put in the hundreds of thousands, King Crimson played a set that included 21st Century Schizoid Man, a fast, jagged song with a distorted vocal and a furious saxophone riff. The audience had come for the Stones, but many listened with surprise. The band's sound was unlike anything else on the bill, and it made a strong impression.\n\nAfter the concert, word spread. When In the Court of the Crimson King was released in October 1969, it was greeted as a landmark, and it helped begin the progressive rock movement in Britain. The cover, a painted face with a wide open mouth, became as well known as the music.\n\nThe band that played at Hyde Park did not last long. By the end of 1969, McDonald and Giles had left, and Greg Lake left soon after to form Emerson, Lake and Palmer with Keith Emerson and Carl Palmer. The group's Lucky Man, from 1970, helped carry the progressive style to a wider audience. Fripp kept King Crimson going through many lineups over the next decades.\n\nThe Hyde Park afternoon shows how quickly the progressive scene grew. A band with one gig under its belt became the opening act for a day that is still remembered. For fans of the genre, it was the beginning of an adventure.",
+      "songs": [
+        "prog-rock-s02"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "In the Court of the Crimson King",
+        "artist": "King Crimson"
+      }
     }
   ]
 }

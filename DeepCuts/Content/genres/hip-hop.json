@@ -535,7 +535,11 @@
       "songs": [
         "hip-hop-s01",
         "hip-hop-s03"
-      ]
+      ],
+      "cover": {
+        "album": "Sugarhill Gang",
+        "artist": "The Sugarhill Gang"
+      }
     },
     {
       "id": "hip-hop-st2",
@@ -545,7 +549,11 @@
       "body": "By 1986 Run-DMC was one of the most successful rap groups in America. Joseph \"Run\" Simmons, Darryl \"DMC\" McDaniels and Jason \"Jam Master Jay\" Mizell came from Hollis, Queens. They wore black hats, leather jackets and Adidas sneakers without laces. Their records on Def Jam, such as \"Rock Box,\" had already shown that rap and rock guitars could work together.\n\nProducer Rick Rubin had an idea. He was a fan of both rock and rap, and he wanted to put them together. He suggested that the group record \"Walk This Way,\" an Aerosmith song from 1975. Run and DMC did not know the lyrics well. They have said they thought the words were strange and were reluctant at first. But Jam Master Jay had been playing the song's opening drum beat as a DJ, and he understood why it worked.\n\nRubin invited the members of Aerosmith, Steven Tyler and Joe Perry, to the studio. At that point the band's career was in a slump. Perry's guitar and Tyler's voice, set against the rappers, gave the new version a punch that neither side could have produced alone. The result was a hit, and the video made it a landmark. In it, Run-DMC and Aerosmith perform in adjoining rooms until Tyler, singing, breaks through the wall that separates them.\n\nThe video was played constantly on MTV, which had been slow to show rap. Suddenly it gave the music a huge new audience. Many rock fans first heard hip-hop through that clip. For Aerosmith, it started a comeback that continued with their 1987 album Permanent Vacation.\n\nThe same year, Run-DMC released the album Raising Hell, which also included \"My Adidas.\" The song was so popular that the sportswear company signed the group to an endorsement deal, an unusual step for a rap act at the time.\n\nThe collaboration crossed a line that many had thought uncrossable. Rock and rap, once seen as opposites, shared a sense of attitude and noise. After \"Walk This Way,\" groups of all kinds mixed the two, and the combination has never stopped being used.",
       "songs": [
         "hip-hop-s04"
-      ]
+      ],
+      "cover": {
+        "album": "Raising Hell",
+        "artist": "Run-DMC"
+      }
     },
     {
       "id": "hip-hop-st3",
@@ -556,7 +564,42 @@
       "songs": [
         "hip-hop-s07",
         "hip-hop-s09"
-      ]
+      ],
+      "cover": {
+        "album": "Straight Outta Compton",
+        "artist": "N.W.A"
+      }
+    },
+    {
+      "id": "hip-hop-st4",
+      "title": "The South Has Something to Say",
+      "dek": "OutKast at the Source Awards, August 1995.",
+      "year": 1995,
+      "body": "In 1995 hip-hop was in the middle of a bitter rivalry between the East Coast and the West Coast. Labels, artists and fans were choosing sides, and the Source Awards, held in New York on August 3, were expected to be a showcase for both. The tension in the room was high before the show began, and artists from the two sides were said to be watching each other warily.\n\nInto this scene came two young rappers from Atlanta, Andre 3000 and Big Boi, who made up the duo OutKast. Their debut album, Southernplayalisticadillacmuzik, had been out for a little over a year. It was not like the hard-edged East Coast or West Coast records of the time. It had a slower, more melodic groove, and the lyrics were full of Southern slang and detail. The Source named them best new rap group of the year.\n\nWhen they went up to accept the award, the audience booed. Many people in the New York crowd did not know the group's music, and some felt that a Southern act did not belong in the conversation. Andre 3000 took the microphone, and he spoke calmly and directly. He told the audience that the South had something to say. It was a short statement, but it was a kind of declaration of independence.\n\nThe same evening had its own dramas. Suge Knight, head of Death Row Records, made a pointed remark about rival executives, which fed the feeling of conflict. The feud between the two coasts grew sharper in the following months and years.\n\nOutKast did not respond with anger. They answered with music. Their next albums, ATLiens, Aquemini and Stankonia, showed a creativity that few other groups could match. Stankonia, released in 2000, included Ms. Jackson, a song that blended funk, rap and pop, and it brought them a worldwide audience.\n\nAndre 3000's words at the Source Awards are often remembered as a turning point. Within a few years, Southern hip-hop was one of the dominant forces in the genre, with artists from Atlanta, Houston, Memphis and New Orleans leading the way. The booing that night looks different now, as a sign of how much the audience had to learn.",
+      "songs": [
+        "hip-hop-s13"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Southernplayalisticadillacmuzik",
+        "artist": "OutKast"
+      }
+    },
+    {
+      "id": "hip-hop-st5",
+      "title": "Tupac at Coachella",
+      "dek": "A digital image and a surprise guest list in the California desert.",
+      "year": 2012,
+      "body": "In April 2012 Dr. Dre and Snoop Dogg performed a set on the final night of the Coachella Valley Music and Arts Festival in California. They were two of the biggest names in West Coast hip-hop, and the crowd was ready for a night of classics. What it got was a moment that people kept talking about for years.\n\nPartway through the set, the stage went dark. Then a figure appeared, shirtless, in jeans, and with a familiar swagger. It was Tupac Shakur, who had died in 1996. The image was not a real hologram. It was a projection, created by a visual effects company working with a technique similar to an old stage illusion, and it was displayed on a transparent screen so that it seemed to stand on the stage. The figure addressed the crowd and then performed two songs, Hail Mary and 2 of Amerikaz Most Wanted, with Snoop Dogg joining in.\n\nThe audience's reaction was a mix of awe and unease. Some fans cheered wildly, while others found it strange to see a man who had been dead for fifteen years on a stage in front of them. Within days, people around the world were debating whether it was a tribute or a trick. Some wondered whether it opened the door to other digital performances.\n\nThe show was also a reunion of the West Coast scene. Snoop Dogg and Dre performed songs from their careers, including Nuthin' but a G Thang, one of the signature tracks of the early 1990s, and they were joined by guests. Reports of the night list Eminem, 50 Cent and Kendrick Lamar among them, along with other friends and former collaborators. California Love, the song that paired Tupac and Dre in 1995, hung over the evening.\n\nThe image of Tupac was used again on the second weekend of the festival. Talk of a tour followed, but it never happened.\n\nWhatever you think of the technology, the moment says something about Tupac's place in popular culture. Even years after his death, he was still the one the crowd wanted to see. Coachella gave his fans one more version of him.",
+      "songs": [
+        "hip-hop-s12",
+        "hip-hop-s09"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "All Eyez on Me",
+        "artist": "2Pac"
+      }
     }
   ]
 }
