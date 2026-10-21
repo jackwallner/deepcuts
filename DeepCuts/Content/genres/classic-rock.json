@@ -66,7 +66,7 @@
         "Ginger Baker"
       ],
       "answer": 3,
-      "fact": "The trio gave their farewell concerts at London's Royal Albert Hall in November 1968, just two and a half years after forming.",
+      "fact": "The trio formed in 1966, and its members were already stars from the Yardbirds, the Bluesbreakers and the Graham Bond Organisation.",
       "difficulty": 1
     },
     {
@@ -157,7 +157,7 @@
         "Meher Baba"
       ],
       "answer": 3,
-      "fact": "Pete Townshend, a follower of Meher Baba, built the song's pulsing synthesizer pattern from a Lifehouse project that was never finished as planned.",
+      "fact": "Townshend built the opening pulse on a Lowrey organ, and fans often call the song \"Teenage Wasteland\" after its chorus line.",
       "difficulty": 2
     },
     {
@@ -370,15 +370,15 @@
     },
     {
       "id": "classic-rock-q29",
-      "prompt": "Which Fleetwood Mac singer duets with Tom Petty on \"Stop Draggin' My Heart Around\"?",
+      "prompt": "Which singer duets with Tom Petty on \"Stop Draggin' My Heart Around\"?",
       "choices": [
-        "Christine McVie",
         "Linda Ronstadt",
         "Emmylou Harris",
+        "Chrissie Hynde",
         "Stevie Nicks"
       ],
       "answer": 3,
-      "fact": "Petty and guitarist Mike Campbell wrote the song, and producer Jimmy Iovine, who was working on Nicks's solo debut Bella Donna, brought the two stars together.",
+      "fact": "Nicks, of Fleetwood Mac, sang on the record. Petty and guitarist Mike Campbell wrote it, and producer Jimmy Iovine, who was working on Nicks's solo debut Bella Donna, brought the two stars together.",
       "difficulty": 3
     },
     {
@@ -651,7 +651,7 @@
         "Bell Labs"
       ],
       "answer": 2,
-      "fact": "The MIT-trained Scholz recorded the early tracks in his basement, and much of the debut grew out of those demos.",
+      "fact": "The MIT-trained Scholz worked at Polaroid by day and recorded the early demos at home in his spare time.",
       "difficulty": 3
     }
   ],
@@ -783,6 +783,14 @@
       "year": 1982,
       "album": "Eye of the Tiger",
       "note": "It was written for Rocky III at Sylvester Stallone's request."
+    },
+    {
+      "id": "classic-rock-s17",
+      "title": "The Weight",
+      "artist": "The Band",
+      "year": 1968,
+      "album": "Music from Big Pink",
+      "note": "Robbie Robertson wrote it, and the Staple Singers joined the Band to perform it in The Last Waltz."
     }
   ],
   "stories": [
@@ -805,7 +813,7 @@
       "title": "Layla in Miami",
       "dek": "Clapton, Allman and a love he could not have",
       "year": 1970,
-      "body": "In 1970 Eric Clapton was in love with Pattie Boyd, the wife of his friend George Harrison. He had no way to tell her, so he wrote songs. That summer he formed a new band with American musicians from the Delaney and Bonnie tour: keyboardist Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon. They called themselves Derek and the Dominos, and they headed to Criteria Studios in Miami to record with producer Tom Dowd, who had worked with Clapton in Cream.\n\nDowd happened to be working with the Allman Brothers Band at the same time. He told Clapton about a young slide guitarist called Duane Allman, and the two met when Clapton went to see the Allmans play in Miami. They talked and then jammed through the night. Clapton later described the connection as the sort of musical brotherhood he had always wanted.\n\nAllman joined the sessions, and the pair played off each other like old partners. The title song was inspired by Layla and Majnun, the classic Persian poem of unattainable love, which a friend had given Clapton. Clapton wrote the main part of the song, and Allman's opening slide figure became one of the most famous riffs in rock. The band cut the first part of the song, then added a very different piano coda, a calm, melodic ending that gives the track its mood of exhaustion after a storm.\n\nThe album, Layla and Other Assorted Love Songs, appeared in November 1970. It was not an immediate success. Reviewers praised it, but the band was little known and the double-album format was a hard sell. The single \"Layla\" first reached only the middle of the US charts in 1971. After the band split and Clapton retreated into a long struggle with addiction, radio programmers kept playing the song, and when it was reissued in 1972 it climbed to the US Top 10.\n\nAllman had returned to the Allman Brothers Band after the sessions. In October 1971 he was killed in a motorcycle accident in Macon, Georgia, at the age of 24. Clapton always said the finished song would not have existed without him. Boyd eventually left Harrison and married Clapton in 1979, though the marriage later ended. As for the song, it has had a long life, and in 1992 Clapton played a quiet acoustic version on MTV Unplugged that won him a Grammy. Layla still sounds like what it was: a message sent by a man who could not say it aloud.",
+      "body": "In 1970 Eric Clapton was in love with Pattie Boyd, the wife of his friend George Harrison. He had no way to tell her, so he wrote songs. That summer he formed a new band with American musicians from the Delaney and Bonnie tour: keyboardist Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon. They called themselves Derek and the Dominos, and they headed to Criteria Studios in Miami to record with producer Tom Dowd, who had worked with Clapton in Cream.\n\nDowd happened to be working with the Allman Brothers Band at the same time. He told Clapton about a young slide guitarist called Duane Allman, and the two met when Clapton went to see the Allmans play in Miami. They talked and then jammed through the night. Clapton later described the connection as the sort of musical brotherhood he had always wanted.\n\nAllman joined the sessions, and the pair played off each other like old partners. The title song was inspired by Layla and Majnun, the classic Persian poem of unattainable love, which a friend had given Clapton. Clapton wrote the main part of the song, and Allman's opening slide figure became one of the most famous riffs in rock. The band cut the first part of the song, then added a very different piano coda, a calm, melodic ending that gives the track its mood of exhaustion after a storm. Drummer Jim Gordon is credited with the piano melody, though singer Rita Coolidge has long said she co-wrote it.\n\nThe album, Layla and Other Assorted Love Songs, appeared in November 1970. It was not an immediate success. Reviewers praised it, but the band was little known and the double-album format was a hard sell. The single \"Layla\" first reached only the middle of the US charts in 1971. After the band split and Clapton retreated into a long struggle with addiction, radio programmers kept playing the song, and when it was reissued in 1972 it climbed to the US Top 10.\n\nAllman had returned to the Allman Brothers Band after the sessions. In October 1971 he was killed in a motorcycle accident in Macon, Georgia, at the age of 24. Clapton always said the finished song would not have existed without him. Boyd eventually left Harrison and married Clapton in 1979, though the marriage later ended. As for the song, it has had a long life, and in 1992 Clapton played a quiet acoustic version on MTV Unplugged that won him a Grammy. Layla still sounds like what it was: a message sent by a man who could not say it aloud.",
       "songs": [
         "classic-rock-s04"
       ],
@@ -877,7 +885,7 @@
       "year": 1976,
       "body": "On Thanksgiving night, November 25, 1976, the Band played their final concert at the Winterland Ballroom in San Francisco. The group had toured for about sixteen years, first backing Ronnie Hawkins and Bob Dylan and then on their own. Guitarist Robbie Robertson had grown tired of life on the road, and he wanted to end the Band while they were still at their best. Promoter Bill Graham helped organize the evening, and the audience was served a turkey dinner before the music began.\n\nMartin Scorsese filmed the show with a team of leading cinematographers, and he planned the camera moves carefully, using the setlist as a guide. The result, The Last Waltz, is often named among the best concert films ever made.\n\nThe guest list was remarkable. Muddy Waters, Van Morrison, Dr. John, Neil Young, Joni Mitchell, Neil Diamond and many others joined the Band on stage. Bob Dylan played a short set near the end, and the closing number featured a crowd of friends singing together.\n\nEric Clapton was among the guests, and he played on the song Further On Up the Road. His guitar strap reportedly came loose during his turn, and Robertson stepped in and played the next passage without missing a beat. It is a small moment that shows how well the musicians knew one another.\n\nThere were stories about the evening that spread afterward. Neil Young, for example, had a visible spot on his nose during his song, and the film crew reportedly used an animation technique to remove it from the final cut. Backstage there were friendships, rivalries and some nerves.\n\nThe Band did not completely disappear after this concert. The members reformed in 1983 without Robertson, but nothing matched the weight of the night in San Francisco. The film and the triple album remain the record of a farewell that felt less like an ending and more like a toast.\n\nClapton fit the room well. His own career ran from the British blues scene through Cream and Derek and the Dominos, and he was a longtime friend of the Band.",
       "songs": [
-        "classic-rock-s04"
+        "classic-rock-s17"
       ],
       "kind": "concert",
       "cover": {
