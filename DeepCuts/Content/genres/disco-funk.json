@@ -28,7 +28,7 @@
       ],
       "answer": 2,
       "fact": "McCoy had earlier written songs for stars including Gladys Knight and Aretha Franklin.",
-      "difficulty": 1
+      "difficulty": 2
     },
     {
       "id": "disco-funk-q03",
@@ -80,7 +80,7 @@
       ],
       "answer": 1,
       "fact": "White had been a session drummer for Chess Records, and he often played the African kalimba in the band.",
-      "difficulty": 1
+      "difficulty": 2
     },
     {
       "id": "disco-funk-q07",
@@ -123,16 +123,16 @@
     },
     {
       "id": "disco-funk-q10",
-      "prompt": "Which three brothers wrote and sang most of the songs on the Saturday Night Fever soundtrack?",
+      "prompt": "Which two superstars teamed up for the 1979 duet \"No More Tears (Enough Is Enough)\"?",
       "choices": [
-        "The Jacksons",
-        "The Isley Brothers",
-        "The Bee Gees",
-        "The Brothers Johnson"
+        "Diana Ross and Marvin Gaye",
+        "Gloria Gaynor and Thelma Houston",
+        "Donna Summer and Barbra Streisand",
+        "Chaka Khan and Patti LaBelle"
       ],
       "answer": 2,
-      "fact": "Barry, Robin and Maurice Gibb grew up in both England and Australia.",
-      "difficulty": 1
+      "fact": "Paul Jabara and Bruce Roberts wrote it, and it reached number one in the US in November 1979.",
+      "difficulty": 2
     },
     {
       "id": "disco-funk-q11",
@@ -175,15 +175,15 @@
     },
     {
       "id": "disco-funk-q14",
-      "prompt": "Bootsy Collins played bass for which star before he joined George Clinton?",
+      "prompt": "Which hit won the only Grammy ever given for Best Disco Recording, in 1980?",
       "choices": [
-        "Sly Stone",
-        "James Brown",
-        "Isaac Hayes",
-        "Curtis Mayfield"
+        "I Will Survive",
+        "Le Freak",
+        "Stayin' Alive",
+        "Y.M.C.A."
       ],
-      "answer": 1,
-      "fact": "He joined Brown's band as a teenager in 1970 and played on several of the group's recordings.",
+      "answer": 0,
+      "fact": "The category was dropped after that one ceremony, as disco's chart run faded.",
       "difficulty": 2
     },
     {
@@ -227,29 +227,29 @@
     },
     {
       "id": "disco-funk-q18",
-      "prompt": "Brazilian arranger Eumir Deodato, known for a funky 1973 \"Also Sprach Zarathustra\", produced \"Celebration\" for which group?",
+      "prompt": "In the opening scene of Saturday Night Fever, Tony Manero struts down the street to \"Stayin' Alive\" carrying what?",
       "choices": [
-        "Earth, Wind & Fire",
-        "Chic",
-        "Kool & the Gang",
-        "The Commodores"
+        "A boombox",
+        "A stack of records",
+        "A can of paint",
+        "A guitar case"
       ],
       "answer": 2,
-      "fact": "Deodato produced the group's 1979 revival with the album Ladies' Night and its new singer, James \"J.T.\" Taylor.",
-      "difficulty": 3
+      "fact": "He also stops for two slices of pizza, which he folds and eats stacked.",
+      "difficulty": 2
     },
     {
       "id": "disco-funk-q19",
-      "prompt": "Which singer is often credited with giving the Average White Band its name?",
+      "prompt": "In Earth, Wind & Fire's \"September\", which night of the month do the lyrics ask you to remember?",
       "choices": [
-        "Aretha Franklin",
-        "Bonnie Bramlett",
-        "Ruth Brown",
-        "Etta James"
+        "The 1st",
+        "The 21st",
+        "The 14th",
+        "The 30th"
       ],
       "answer": 1,
-      "fact": "The Scottish band's 1974 album AWB, known as the White Album, includes the instrumental \"Pick Up the Pieces\".",
-      "difficulty": 3
+      "fact": "Fans have turned September 21 into an unofficial Earth, Wind & Fire Day.",
+      "difficulty": 2
     },
     {
       "id": "disco-funk-q20",
@@ -357,16 +357,16 @@
     },
     {
       "id": "disco-funk-q28",
-      "prompt": "Who wrote Gloria Gaynor's \"I Will Survive\"?",
+      "prompt": "Which female trio joined Earth, Wind & Fire on the 1979 hit \"Boogie Wonderland\"?",
       "choices": [
-        "Barry Gibb and Maurice Gibb",
-        "Nile Rodgers and Bernard Edwards",
-        "Giorgio Moroder and Pete Bellotte",
-        "Dino Fekaris and Freddie Perren"
+        "The Pointer Sisters",
+        "The Emotions",
+        "Sister Sledge",
+        "The Three Degrees"
       ],
-      "answer": 3,
-      "fact": "Fekaris has said he wrote the lyric after being fired from Motown.",
-      "difficulty": 3
+      "answer": 1,
+      "fact": "Maurice White had produced the Emotions' 1977 hit \"Best of My Love\", and the song came from the album I Am.",
+      "difficulty": 2
     },
     {
       "id": "disco-funk-q29",
