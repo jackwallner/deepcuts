@@ -393,6 +393,266 @@
       "answer": 1,
       "fact": "Neighbors complained about the noise, and after a few weeks the band moved to the larger Kaiserkeller.",
       "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q31",
+      "prompt": "The Beatles' first film took its title from a phrase Ringo Starr reportedly let slip. What was the film?",
+      "choices": [
+        "A Hard Day's Night",
+        "Help!",
+        "Yellow Submarine",
+        "Magical Mystery Tour"
+      ],
+      "answer": 0,
+      "fact": "Ringo reportedly said the line after a long day of work, and Lennon and McCartney then wrote the title song within a day, with Richard Lester directing the 1964 film.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q32",
+      "prompt": "In June 1967 the Beatles performed \"All You Need Is Love\" on a live TV broadcast carried by what technology?",
+      "choices": [
+        "Underwater cable",
+        "Radio relay",
+        "Satellite",
+        "Weather balloon"
+      ],
+      "answer": 2,
+      "fact": "The broadcast, called Our World, linked several countries and was reportedly watched by around 400 million people.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q33",
+      "prompt": "Which Beatles song from Rubber Soul features a sitar played by George Harrison?",
+      "choices": [
+        "Nowhere Man",
+        "Norwegian Wood",
+        "In My Life",
+        "Michelle"
+      ],
+      "answer": 1,
+      "fact": "Harrison picked up the sitar on the film set of Help! and used it on the 1965 track, an early step in bringing Indian music into rock.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q34",
+      "prompt": "Charlie Watts, the Rolling Stones' drummer, was a lifelong devoted fan of which kind of music?",
+      "choices": [
+        "Country",
+        "Gospel",
+        "Jazz",
+        "Opera"
+      ],
+      "answer": 2,
+      "fact": "Watts also led his own jazz groups on the side, and he kept a famously calm presence in the band.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q35",
+      "prompt": "Which Beatles single was among the first releases on their own Apple label in 1968?",
+      "choices": [
+        "Hello, Goodbye",
+        "Lady Madonna",
+        "Revolution",
+        "Hey Jude"
+      ],
+      "answer": 3,
+      "fact": "Apple was set up by the band to give artists freedom, and it also released music by Mary Hopkin and James Taylor.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q36",
+      "prompt": "\"Eleanor Rigby\" features a string octet and no guitars. Which Beatles album is it on?",
+      "choices": [
+        "Revolver",
+        "Rubber Soul",
+        "Help!",
+        "Beatles for Sale"
+      ],
+      "answer": 0,
+      "fact": "McCartney's story song from 1966 was recorded with studio string players while the other Beatles added vocal parts.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q37",
+      "prompt": "George Harrison wrote \"Here Comes the Sun\" in the garden of which fellow guitarist?",
+      "choices": [
+        "Jeff Beck",
+        "Eric Clapton",
+        "Jimmy Page",
+        "Pete Townshend"
+      ],
+      "answer": 1,
+      "fact": "Harrison has said he skipped a business meeting at Apple in spring 1969 and wrote the song at Clapton's house.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q38",
+      "prompt": "Where did the Beatles play their final paid concert, in August 1966?",
+      "choices": [
+        "Shea Stadium, New York",
+        "The Hollywood Bowl, Los Angeles",
+        "Candlestick Park, San Francisco",
+        "Wembley Stadium, London"
+      ],
+      "answer": 2,
+      "fact": "They had grown tired of touring in screaming crowds, and the rooftop show in 1969 was their last public appearance.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q39",
+      "prompt": "At the Rolling Stones' July 1969 Hyde Park concert, Mick Jagger honored the late Brian Jones by releasing what?",
+      "choices": [
+        "White doves",
+        "Red balloons",
+        "Paper lanterns",
+        "White butterflies"
+      ],
+      "answer": 3,
+      "fact": "Jones died two days before the show, and Jagger first read aloud from a poem by Shelley.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q40",
+      "prompt": "Tony Hatch reportedly found the idea for Petula Clark's \"Downtown\" on his first visit to which city?",
+      "choices": [
+        "New York",
+        "Paris",
+        "Chicago",
+        "Los Angeles"
+      ],
+      "answer": 0,
+      "fact": "Hatch has said the sound of the busy streets sparked the song, and Clark's 1964 recording became a signature hit.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q41",
+      "prompt": "Paul McCartney's working title for \"Yesterday\" was what?",
+      "choices": [
+        "Buttered Toast",
+        "Scrambled Eggs",
+        "Sunny Side Up",
+        "Bacon and Eggs"
+      ],
+      "answer": 1,
+      "fact": "The melody came to him in a dream, and he used silly placeholder words until the real lyric arrived.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q42",
+      "prompt": "Which Small Faces singer went on to co-found Humble Pie?",
+      "choices": [
+        "Ronnie Lane",
+        "Ian McLagan",
+        "Steve Marriott",
+        "Rod Stewart"
+      ],
+      "answer": 2,
+      "fact": "Marriott left in 1968 and teamed up with Peter Frampton, while the rest of the Small Faces later became the Faces with Rod Stewart.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q43",
+      "prompt": "The organ line of \"A Whiter Shade of Pale\" is often said to echo a piece by which composer?",
+      "choices": [
+        "Ludwig van Beethoven",
+        "George Frideric Handel",
+        "Wolfgang Mozart",
+        "Johann Sebastian Bach"
+      ],
+      "answer": 3,
+      "fact": "Procol Harum's Gary Brooker has acknowledged a Bach influence, and Matthew Fisher's organ work gave the 1967 song its hymn-like feel.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q44",
+      "prompt": "The Rolling Stones' tongue-and-lips logo was designed in 1970 by a student at which London school?",
+      "choices": [
+        "The Royal College of Art",
+        "The London School of Economics",
+        "Central Saint Martins",
+        "The Slade School of Fine Art"
+      ],
+      "answer": 0,
+      "fact": "John Pasche was reportedly paid a small fee at first, and the design appeared on Sticky Fingers in 1971.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q45",
+      "prompt": "Which American producer in London worked on early records by both the Kinks and the Who?",
+      "choices": [
+        "Phil Spector",
+        "Shel Talmy",
+        "Mickie Most",
+        "Andrew Loog Oldham"
+      ],
+      "answer": 1,
+      "fact": "Talmy produced \"You Really Got Me\" and the Who's early singles, and the hard sound he helped capture shaped British rock.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q46",
+      "prompt": "John Lennon reportedly wrote \"I Am the Walrus\" with deliberately nonsensical lyrics after hearing that a school was doing what with Beatles songs?",
+      "choices": [
+        "Banning them from the radio",
+        "Performing them in a play",
+        "Analyzing their lyrics in class",
+        "Translating them into Latin"
+      ],
+      "answer": 2,
+      "fact": "A letter from a student at his old school reportedly prompted him, and he enjoyed the thought of students puzzling over it.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q47",
+      "prompt": "The Animals' \"The House of the Rising Sun\" is often said to follow the arrangement of which Greenwich Village folk singer?",
+      "choices": [
+        "Pete Seeger",
+        "Odetta",
+        "Phil Ochs",
+        "Dave Van Ronk"
+      ],
+      "answer": 3,
+      "fact": "Van Ronk had played it in clubs, and the group's recording was credited to keyboard player Alan Price as arranger.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q48",
+      "prompt": "The Rolling Stones built an early following with a Sunday residency at the Crawdaddy Club in which London suburb?",
+      "choices": [
+        "Richmond",
+        "Soho",
+        "Hammersmith",
+        "Croydon"
+      ],
+      "answer": 0,
+      "fact": "Manager Andrew Loog Oldham saw the group there in 1963 and took over their career soon after.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q49",
+      "prompt": "Dusty Springfield's 1969 album Dusty in Memphis was recorded for which American label?",
+      "choices": [
+        "Motown",
+        "Atlantic Records",
+        "Stax",
+        "Capitol"
+      ],
+      "answer": 1,
+      "fact": "Producer Jerry Wexler brought her to Memphis to record, and the opening track was \"Son of a Preacher Man\".",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q50",
+      "prompt": "Which director made the Beatles' film A Hard Day's Night in 1964?",
+      "choices": [
+        "Ken Russell",
+        "Michael Winner",
+        "Richard Lester",
+        "Alfred Hitchcock"
+      ],
+      "answer": 2,
+      "fact": "Lester's quick, comic style is often credited with influencing later music videos.",
+      "difficulty": 1
     }
   ],
   "songs": [

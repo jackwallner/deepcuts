@@ -393,6 +393,266 @@
       "answer": 1,
       "fact": "It replaced Paul Di'Anno's raspy punk-style vocals with Dickinson's operatic wail, and its title drew protests from some religious groups in the United States.",
       "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q31",
+      "prompt": "In the 1984 film This Is Spinal Tap, the guitarist's amplifier goes up to what number?",
+      "choices": [
+        "Eleven",
+        "Ten",
+        "Twelve",
+        "Fifteen"
+      ],
+      "answer": 0,
+      "fact": "The mock rock documentary was directed by Rob Reiner, and its jokes about the excesses of metal bands are still quoted by real musicians.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q32",
+      "prompt": "Def Leppard drummer Rick Allen kept playing after losing what in a 1984 car accident?",
+      "choices": [
+        "His right hand",
+        "His hearing",
+        "His left arm",
+        "His left leg"
+      ],
+      "answer": 2,
+      "fact": "He returned to the band with a custom electronic kit, working his foot pedals to cover the missing limb.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q33",
+      "prompt": "Which Guns N' Roses guitarist's warm-up exercise became the opening riff of \"Sweet Child O' Mine\"?",
+      "choices": [
+        "Izzy Stradlin",
+        "Slash",
+        "Duff McKagan",
+        "Dizzy Reed"
+      ],
+      "answer": 1,
+      "fact": "Slash has said the riff began as a joke, until the rest of the band heard it and built the song around it.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q34",
+      "prompt": "Who replaced Ozzy Osbourne as Black Sabbath's singer for the 1980 album Heaven and Hell?",
+      "choices": [
+        "Rob Halford",
+        "Ian Gillan",
+        "Ronnie James Dio",
+        "David Coverdale"
+      ],
+      "answer": 2,
+      "fact": "Dio came over from Rainbow, and the new lineup showed that the band could succeed after Ozzy.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q35",
+      "prompt": "Which singer replaced Bon Scott in AC/DC after his death in 1980?",
+      "choices": [
+        "Steve Perry",
+        "Gary Cherone",
+        "Joe Elliott",
+        "Brian Johnson"
+      ],
+      "answer": 3,
+      "fact": "Johnson had been in the British band Geordie, and Back in Black came out the same year.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q36",
+      "prompt": "Black Sabbath took its name from a 1963 horror film starring which actor?",
+      "choices": [
+        "Boris Karloff",
+        "Vincent Price",
+        "Christopher Lee",
+        "Bela Lugosi"
+      ],
+      "answer": 0,
+      "fact": "The band had been called Earth, and the dark film title fit the sound they were developing.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q37",
+      "prompt": "Which Metallica guitarist came up with the main riff of \"Enter Sandman\"?",
+      "choices": [
+        "James Hetfield",
+        "Kirk Hammett",
+        "Jason Newsted",
+        "Lars Ulrich"
+      ],
+      "answer": 1,
+      "fact": "Hammett's riff was arranged and expanded by the band, and the song opened their 1991 Black Album.",
+      "difficulty": 1
+    },
+    {
+      "id": "heavy-metal-q38",
+      "prompt": "Guns N' Roses' Appetite for Destruction was released with what artwork after the original painting drew objections?",
+      "choices": [
+        "A fiery red heart",
+        "A snarling black dog",
+        "Five skulls on a cross",
+        "A burning city skyline"
+      ],
+      "answer": 2,
+      "fact": "The skull cross design was reportedly meant to represent the five band members.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q39",
+      "prompt": "\"Fade to Black\" appears on which 1984 Metallica album?",
+      "choices": [
+        "Kill 'Em All",
+        "Master of Puppets",
+        "...And Justice for All",
+        "Ride the Lightning"
+      ],
+      "answer": 3,
+      "fact": "Its acoustic opening and slow build surprised fans who knew the band for speed.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q40",
+      "prompt": "Which Twisted Sister singer testified at the 1985 US Senate hearing on labeling record albums?",
+      "choices": [
+        "Dee Snider",
+        "Vince Neil",
+        "Sebastian Bach",
+        "Bret Michaels"
+      ],
+      "answer": 0,
+      "fact": "Snider appeared alongside Frank Zappa and John Denver, and his calm, prepared testimony was widely noted.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q41",
+      "prompt": "After losing the tips of two fingers, Tony Iommi made himself replacement fingertips out of what?",
+      "choices": [
+        "Leather and wax",
+        "Melted plastic",
+        "Wood and glue",
+        "Thimble metal"
+      ],
+      "answer": 1,
+      "fact": "He has said he shaped them from a melted plastic bottle and also used lighter strings to ease the pain.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q42",
+      "prompt": "Which Canadian producer shaped Metallica's 1991 Black Album?",
+      "choices": [
+        "Rick Rubin",
+        "Flemming Rasmussen",
+        "Bob Rock",
+        "Mutt Lange"
+      ],
+      "answer": 2,
+      "fact": "Rock pushed the band toward a cleaner, bigger sound, which was a change from their earlier thrash albums.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q43",
+      "prompt": "Iron Maiden's \"The Trooper\" is based on what 1854 event?",
+      "choices": [
+        "The Battle of Waterloo",
+        "The Siege of Khartoum",
+        "The Alamo",
+        "The Charge of the Light Brigade"
+      ],
+      "answer": 3,
+      "fact": "Steve Harris wrote it for the 1983 album Piece of Mind, and it became a live staple.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q44",
+      "prompt": "Mötley Crüe's \"Kickstart My Heart\" was inspired by Nikki Sixx's brush with death in 1987. What revived him?",
+      "choices": [
+        "Shots of adrenaline",
+        "A defibrillator",
+        "A cold bath",
+        "A hospital transfusion"
+      ],
+      "answer": 0,
+      "fact": "Sixx was reportedly declared dead for a brief time before paramedics revived him.",
+      "difficulty": 2
+    },
+    {
+      "id": "heavy-metal-q45",
+      "prompt": "Slayer's \"Angel of Death\" caused controversy because it was about which Nazi doctor?",
+      "choices": [
+        "Karl Brandt",
+        "Josef Mengele",
+        "Hans Asperger",
+        "Klaus Barbie"
+      ],
+      "answer": 1,
+      "fact": "The label distributing Slayer's Reign in Blood reportedly refused to release it, and it came out through Geffen instead.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q46",
+      "prompt": "Randy Rhoads taught guitar at what kind of business that his mother ran?",
+      "choices": [
+        "A guitar shop",
+        "A recording studio",
+        "A music school",
+        "A record store"
+      ],
+      "answer": 2,
+      "fact": "His classical training and teaching background shaped his playing on Ozzy Osbourne's first two solo albums.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q47",
+      "prompt": "Deep Purple reportedly wrote \"Highway Star\" on a tour bus after a reporter asked them how they did what?",
+      "choices": [
+        "Choose their stage clothes",
+        "Plan their set lists",
+        "Pick their drummers",
+        "Write songs"
+      ],
+      "answer": 3,
+      "fact": "The band played it that same night in Portsmouth, and it later opened the 1972 album Machine Head.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q48",
+      "prompt": "Before Hawkwind, Lemmy worked as a roadie for which guitar legend?",
+      "choices": [
+        "Jimi Hendrix",
+        "Jimmy Page",
+        "Eric Clapton",
+        "Jeff Beck"
+      ],
+      "answer": 0,
+      "fact": "Lemmy often spoke of working for Hendrix in the late 1960s, years before Motörhead.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q49",
+      "prompt": "Steve Harris said the title song of Iron Maiden's The Number of the Beast was inspired by a nightmare after watching what?",
+      "choices": [
+        "A Shakespeare play",
+        "A horror film",
+        "A boxing match",
+        "A late-night news report"
+      ],
+      "answer": 1,
+      "fact": "He has said the dream followed the movie Damien: Omen II.",
+      "difficulty": 3
+    },
+    {
+      "id": "heavy-metal-q50",
+      "prompt": "Thin Lizzy's 1972 hit \"Whiskey in the Jar\" was a hard rock treatment of what?",
+      "choices": [
+        "A Bob Dylan ballad",
+        "A sea shanty",
+        "A traditional Irish folk song",
+        "A Robert Johnson blues"
+      ],
+      "answer": 2,
+      "fact": "Metallica later recorded their own version of the Thin Lizzy arrangement.",
+      "difficulty": 3
     }
   ],
   "songs": [
