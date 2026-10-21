@@ -35,7 +35,11 @@ struct QuizView: View {
                     // On small screens the clip's record pushes the answer card under Next.
                     .onChange(of: picked) { _, new in
                         guard new != nil else { return }
-                        withAnimation(.snappy.delay(0.15)) { proxy.scrollTo("reveal", anchor: .bottom) }
+                        // Wait for the card to lay out, or there is nothing to scroll to yet.
+                        Task {
+                            try? await Task.sleep(for: .milliseconds(120))
+                            withAnimation(.snappy) { proxy.scrollTo("reveal", anchor: .bottom) }
+                        }
                     }
                 }
                 .safeAreaInset(edge: .bottom) { bottomBar }
