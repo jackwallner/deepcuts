@@ -534,7 +534,11 @@
       "body": "Robert Johnson was born around 1911 in Hazlehurst, Mississippi. As a young man he worked on plantations and played harmonica and guitar, but he was not at first a skilled player. Fellow bluesman Son House later recalled that Johnson would hang around the juke joints where House and Willie Brown performed, and that his playing at the time was embarrassing.\n\nThen Johnson left the area for a period. When he came back, House said, he could play astonishingly well. People began to say he had made a bargain with the devil at a crossroads at midnight. The story has been repeated for decades, and it was attached to a different Mississippi musician, Tommy Johnson, before it was attached to Robert. Historians generally regard it as folklore. The simpler explanation is that Johnson practiced hard, and probably learned from a more experienced guitarist.\n\nIn November 1936, Johnson traveled to San Antonio, Texas, where the American Record Corporation set up a temporary studio in a hotel room. He recorded songs such as \"Cross Road Blues,\" \"Come On in My Kitchen\" and \"Hellhound on My Trail.\" The next June, he recorded again in Dallas, adding \"Love in Vain\" and \"Stop Breakin' Down Blues.\" In all, he made 29 songs.\n\nJohnson's records sold only modestly. Then, on August 16, 1938, he died near Greenwood, Mississippi, at about age 27. According to stories, he was poisoned by a jealous husband, though the facts have never been firmly established. For years he was nearly forgotten.\n\nThat changed in 1961, when Columbia Records released King of the Delta Blues Singers, a collection of Johnson's recordings. Young British guitarists heard it. Keith Richards has said that he thought two guitars were playing on the record. Eric Clapton called Johnson the most important blues singer who ever lived. Cream recorded a version of \"Crossroads,\" and the Rolling Stones recorded \"Love in Vain.\"\n\nThe 1990 release of a complete set of his recordings sold far beyond expectations, and it won a Grammy. Very few photographs of Johnson exist. The mystery around him is part of his appeal, but it is the music, the voice and the stinging guitar, that has kept him alive.",
       "songs": [
         "blues-s01"
-      ]
+      ],
+      "cover": {
+        "album": "King of the Delta Blues Singers",
+        "artist": "Robert Johnson"
+      }
     },
     {
       "id": "blues-st2",
@@ -545,7 +549,11 @@
       "songs": [
         "blues-s06",
         "blues-s08"
-      ]
+      ],
+      "cover": {
+        "album": "The Best of Muddy Waters",
+        "artist": "Muddy Waters"
+      }
     },
     {
       "id": "blues-st3",
@@ -555,7 +563,41 @@
       "body": "By the late 1950s the blues was fading from the American pop charts. Rock and roll and soul had taken the place of the guitar-and-harmonica music of Chicago and the Delta. But across the Atlantic, young people in Britain had been listening carefully to imported records by Muddy Waters, Howlin' Wolf and Jimmy Reed.\n\nIn 1958 Muddy Waters toured Britain. Audiences there were used to acoustic folk-blues, and his loud electric guitar surprised them. Some reviewers complained. Others, young musicians in the crowd, were thrilled. Around London, Alexis Korner and Cyril Davies formed a band, Blues Incorporated, that played the Chicago style. Young players such as Mick Jagger, Keith Richards, Brian Jones and Charlie Watts sat in with them.\n\nThe result was a wave of British bands that played the blues in their own way. The Rolling Stones took their name from a Muddy Waters song. The Yardbirds featured a series of guitarists, among them Eric Clapton, Jeff Beck and Jimmy Page. In 1966 Clapton joined John Mayall's Bluesbreakers and recorded a landmark album, with a ringing guitar tone that fans called unforgettable.\n\nThis had a surprising effect in the United States. American listeners who heard the British bands wanted to know where the music came from. Many discovered the Black artists whose songs the British had covered. Older bluesmen found new audiences. Muddy Waters played for rock crowds, and John Lee Hooker and Howlin' Wolf made records with British stars.\n\nOne bluesman who benefited was B.B. King. For years he had played the Black club circuit, known as the chitlin' circuit. In 1969 he released \"The Thrill Is Gone,\" a slow, minor-key blues with a string arrangement that became his biggest hit. That year the Rolling Stones invited him to open for them on their American tour, which put him in front of huge rock audiences.\n\nKing kept touring for decades, and he often credited the British players with bringing new listeners to the blues. By the 1980s young Americans such as Stevie Ray Vaughan were carrying it forward, and the music continues in the work of artists who follow them.",
       "songs": [
         "blues-s13"
-      ]
+      ],
+      "cover": {
+        "album": "Completely Well",
+        "artist": "B.B. King"
+      }
+    },
+    {
+      "id": "blues-st4",
+      "title": "Live at the Regal",
+      "dek": "B.B. King and a Chicago crowd in November 1964.",
+      "year": 1964,
+      "body": "On November 21, 1964, B.B. King walked onto the stage of the Regal Theater on the South Side of Chicago with a live recording crew waiting. He had been playing one-night stands across America for years, and he knew the Regal's audience well. They were fans who had grown up with the blues, and they had come to see him do what he did best.\n\nThe record that came out of that night, Live at the Regal, captured an unusually close exchange between a performer and a crowd. King's guitar is lean and sharp, and he plays short phrases that answer his singing. The audience screams at the first notes, laughs at his jokes and sighs when he sings a slow blues. The band behind him, with horns, piano and a steady rhythm section, gives him room, and he uses it to stretch out each song. The album was produced by Johnny Pate and came out on ABC-Paramount.\n\nThe set featured songs like Everyday I Have the Blues, How Blue Can You Get, Sweet Little Angel and Please Love Me. King had a way of talking to the crowd between verses, in a low voice that drew people closer.\n\nThe guitar he played was named Lucille, and the name has its own story. According to King, in 1949 he was playing a dance in a small town in Arkansas when two men began to fight over a woman named Lucille. They knocked over a kerosene heater, and the hall caught fire. Everyone ran outside, but King went back in to rescue his guitar. He later named every guitar Lucille, to remind himself not to do anything so foolish again.\n\nLive at the Regal is often named among the best live albums ever made. Many guitarists have said that they learned from it, and it helped bring King to a wider audience. Five years later, in 1969, he would record The Thrill Is Gone, which turned him into a star on pop radio.\n\nThe Regal night shows him at home, in front of his own people, with nothing to prove.",
+      "songs": [
+        "blues-s13"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Live at the Regal",
+        "artist": "B.B. King"
+      }
+    },
+    {
+      "id": "blues-st5",
+      "title": "Muddy Waters at Newport",
+      "dek": "Chicago blues meets a summer festival in 1960.",
+      "year": 1960,
+      "body": "In July 1960 the Newport Jazz Festival in Rhode Island invited Muddy Waters to bring his band from Chicago. Muddy had been recording for Chess Records for years, and his electric blues was a staple in the clubs of the city's South Side. But the festival crowd was used to jazz, and many had not seen a blues band with amplified guitars and harmonica.\n\nThe band that played that afternoon was one of the strongest he ever led. Otis Spann was on piano, James Cotton on harmonica, Pat Hare on guitar and Francis Clay on drums. Muddy himself sang and played guitar. The group had been working together in Chicago clubs, and they were sharp and relaxed.\n\nChess recorded the performance, and the album came out as At Newport 1960. It includes songs like I Got My Brand on You, I'm Your Hoochie Coochie Man and Got My Mojo Working. The last song became a signature piece for Muddy, and the live version is one of the best. Its call and response between the singer and the crowd made it easy for a first-time listener to join in. At Newport, the audience does exactly that, shouting along and clapping.\n\nHoochie Coochie Man, which had been written by Willie Dixon for Muddy in 1954, is a swaggering song about confidence and charm. In the Newport version the band plays it with relish, and Muddy's voice fills the room. The performance showed that this music, which had grown up in Southern juke joints and Chicago taverns, could hold a festival crowd.\n\nThe album also showed a new audience the electric blues, and it influenced a generation of young musicians. A few years later, British bands such as the Rolling Stones, who took their name from a Muddy Waters song, were playing the same songs and bringing them to a worldwide audience.\n\nNewport 1960 was a quiet turning point. A band that had worked in the clubs of Chicago was recorded at a prestigious festival, and the record became part of the history of American music.",
+      "songs": [
+        "blues-s06"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "At Newport 1960",
+        "artist": "Muddy Waters"
+      }
     }
   ]
 }

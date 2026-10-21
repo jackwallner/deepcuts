@@ -534,7 +534,11 @@
       "body": "Hank Williams was born in rural Alabama in 1923 and began playing guitar as a boy. As a teenager he formed a band, the Drifting Cowboys, and played local clubs. He learned music from a street singer in Georgiana, Alabama, a Black bluesman named Rufus Payne, known as Tee-Tot. Williams later said Tee-Tot taught him how to play and how to put feeling into a song.\n\nBy 1947 he had a recording contract, and in 1949 his version of \"Lovesick Blues\" became a hit that took him to the Grand Ole Opry. At the Ryman Auditorium his first appearance brought the crowd to its feet, and they called him back for encore after encore. Over the next few years he wrote and recorded a stream of songs that have never gone away, among them \"Your Cheatin' Heart,\" \"I'm So Lonesome I Could Cry,\" \"Hey, Good Lookin'\" and \"Jambalaya.\"\n\nHis songs were plain and direct. They used everyday words, and they spoke of loneliness, love and heartbreak with a sharp eye. He wrote them for the ordinary people in his audience. Pop singers soon discovered them too, and artists like Tony Bennett and Rosemary Clooney scored hits with his tunes, spreading his songwriting far beyond country.\n\nHis private life was troubled. He had chronic back pain and drank heavily, and he missed shows. In August 1952 the Opry fired him for his unreliability. He went back to his old radio show in Shreveport and kept performing.\n\nOn December 31, 1952, he set out by car for a New Year's Day show in Canton, Ohio. His driver found him unresponsive in the back seat in the early hours of January 1, 1953. He was 29. Within days the news was everywhere, and his funeral in Montgomery drew a huge crowd. \"Your Cheatin' Heart\" was released after his death and became one of his most famous songs.\n\nWilliams made music for only about six years. Yet nearly every country singer who followed him has acknowledged his influence, and artists from Bob Dylan to Norah Jones have recorded his songs. His son, Hank Williams Jr., and later his grandchildren carried on the family name in music.\n\nFor many fans he is the figure from whom modern country starts, a poet of the honky-tonk who did not live to see thirty.",
       "songs": [
         "country-s01"
-      ]
+      ],
+      "cover": {
+        "album": "40 Greatest Hits",
+        "artist": "Hank Williams"
+      }
     },
     {
       "id": "country-st2",
@@ -544,7 +548,12 @@
       "body": "In 1953 a young airman named Johnny Cash was stationed in West Germany with the U.S. Air Force. One evening he watched a film called Inside the Walls of Folsom Prison. The movie stayed with him, and he wrote a song, \"Folsom Prison Blues,\" imagining a prisoner who listens to a train and thinks of freedom. Cash would play it for years.\n\nBy the mid-1960s his career had slowed. He had struggled with drug use, and his record sales had dropped. But he had always had a connection to prisoners, and he had played for inmates since 1957. He persuaded Columbia Records to let him record a concert in a prison. His producer, Bob Johnston, backed the plan.\n\nOn January 13, 1968, Cash, June Carter, Carl Perkins and the Tennessee Three played two shows at Folsom State Prison in California. The recording captured the roars and whistles of the inmates. Cash opened with a simple introduction: \"Hello, I'm Johnny Cash.\" Then he went straight into \"Folsom Prison Blues.\" The inmates reacted with delight, especially to the song's famous dark line.\n\nThe album came out in May 1968 and surprised the label by selling in huge numbers. The single of the title song became a hit, and the success brought Cash back to the top. He married June Carter that same year, in March, and the pair went on to perform together for decades. In 1969 he made a second prison album at San Quentin, which included \"A Boy Named Sue.\"\n\nCash became a spokesman for prisoners and spoke about prison reform before a Senate subcommittee in 1972. His influence extended to the musicians who heard him. In 1958 a young inmate at San Quentin named Merle Haggard saw Cash perform and was moved. Haggard later became a country star himself.\n\nThe prison albums showed a different side of Cash, a man who sang for people others ignored. His black clothes and deep voice became a trademark, and the Folsom concert is still remembered as a landmark of live recording.",
       "songs": [
         "country-s03"
-      ]
+      ],
+      "cover": {
+        "album": "At Folsom Prison",
+        "artist": "Johnny Cash"
+      },
+      "kind": "concert"
     },
     {
       "id": "country-st3",
@@ -554,7 +563,41 @@
       "body": "In the early 1970s Nashville ran like a factory. Record labels used a small group of trusted studio musicians, chose the songs, and sold a polished, string-laden sound known as the Nashville Sound. Singers who wanted to follow their own ideas often found the door closed. Two of them were Willie Nelson and Waylon Jennings.\n\nNelson had written major hits for others, among them \"Crazy\" for Patsy Cline and \"Hello Walls\" for Faron Young. Yet as a performer he never quite fit in Nashville. After a fire destroyed his house and he felt boxed in, he moved to Texas. By 1972 he was living in Austin, where he found audiences who loved his songs and didn't care how he dressed. He grew his hair long and wore a bandanna.\n\nJennings had a different path. He had played bass for Buddy Holly and, as a young man, gave up his seat on the plane that crashed in February 1959. He has described a last exchange with Holly, though accounts vary on the exact words. By the early 1970s he was fighting with his label over control of his records. In 1973 he made Honky Tonk Heroes, using his own band and mostly songs by Billy Joe Shaver. It was rough, direct and a success.\n\nNelson's breakthrough was the 1975 album Red Headed Stranger. It told the story of a fugitive preacher in a spare, quiet setting, with little more than his guitar, a piano and some drums. Columbia executives worried it sounded like a demo. The album became a hit, and the single \"Blue Eyes Crying in the Rain\" reached the top of the country chart.\n\nIn 1976 RCA gathered Jennings, Nelson, Jessi Colter and Tompall Glaser on one album, Wanted! The Outlaws. The word outlaw stuck, and critics and fans used it for the whole movement. The record was a big seller, and it showed that country could be rougher and more personal.\n\nNelson went on to record \"On the Road Again\" in 1980. The Outlaws had broken a rule, that Nashville's way was the only way. Many country artists after them have followed their lead.",
       "songs": [
         "country-s11"
-      ]
+      ],
+      "cover": {
+        "album": "Wanted! The Outlaws",
+        "artist": "Waylon Jennings"
+      }
+    },
+    {
+      "id": "country-st4",
+      "title": "The Last Night at the Ryman",
+      "dek": "The Opry says goodbye to its old home in March 1974.",
+      "year": 1974,
+      "body": "For more than thirty years the Grand Ole Opry had broadcast from the Ryman Auditorium in downtown Nashville. It had begun life in the 1890s as a church tabernacle, and it kept the look of one, with wooden pews and a high balcony. Performers called it the Mother Church of Country Music. Hank Williams made his Opry debut there in 1949, and by many accounts the audience called him back for encore after encore after he sang Lovesick Blues.\n\nBy the early 1970s the Opry's managers decided that the old hall was too small and too hard to maintain. The plan was to move to a new building in Opryland, a theme park on the edge of Nashville. On Friday, March 15, 1974, the Opry held its last show at the Ryman, and the crowd and the performers knew they were witnessing the end of an era.\n\nThe next night, March 16, the Opry opened in its new home, the Grand Ole Opry House. The guest of honor was President Richard Nixon, who attended the show. He took part in the evening in a way that fans still remember. According to accounts of the night, he played a few notes on the piano, including a tune for his wife Pat's birthday, and he tried a yo-yo trick with Roy Acuff, who was known for performing with one.\n\nThe Opry did not leave the Ryman entirely behind. A circle of wood was cut from the Ryman stage and set into the floor of the new stage, so that performers could stand on the same boards as the stars of the past. It is still there today, and artists often step into the circle to sing.\n\nThe Ryman itself fell empty, and for years it was threatened with demolition. A public effort and a later renovation brought it back to life in the 1990s, and it is now a prized concert hall. The Opry still uses it for shows during part of the year.\n\nThe story of the move shows how deeply country fans care about their history.",
+      "songs": [
+        "country-s01"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Live at the Grand Ole Opry",
+        "artist": "Hank Williams"
+      }
+    },
+    {
+      "id": "country-st5",
+      "title": "Johnny Cash at San Quentin",
+      "dek": "A February day in 1969, a new song and a television crew.",
+      "year": 1969,
+      "body": "In January 1968 Johnny Cash had recorded At Folsom Prison, and the album had been a surprise success. A year later, he went to another prison, San Quentin State Prison in California, to do it again. The date was February 24, 1969, and this time a British television crew from Granada filmed the show.\n\nCash arrived with his regular group, which included June Carter, Carl Perkins, the Statler Brothers and the Tennessee Three. The audience of inmates was loud and watchful, and Cash had a way of speaking to them that put them at ease. He had spent years visiting prisons, and he told them honestly that he was there to play music for them. He also joked about the equipment and the guards, and the men laughed along.\n\nOne song stood out. Cash had recently received the words to A Boy Named Sue, a comic story written by Shel Silverstein about a man whose father gave him a girl's name, and he played it for the first time in public at San Quentin, reportedly reading the lyrics from a sheet of paper. The inmates roared with laughter. The live recording from that night was released as a single, and it became one of Cash's most popular songs.\n\nHe also sang a new song written for the occasion, called San Quentin, and the crowd's response was so strong that he played it a second time at their urging. The song expresses a prisoner's anger and weariness, and in the hall it carried real weight.\n\nOther highlights included I Walk the Line and Folsom Prison Blues, which the audience knew well. The performance moved easily between jokes and serious songs. In the film you can see Cash with his dark clothes and his rough hair, singing to a crowd of men who had good reason to listen closely.\n\nCash became a public advocate for prison reform, and in 1972 he spoke before a US Senate subcommittee about conditions in the nation's prisons. His shows at Folsom and San Quentin helped build his reputation as a voice for people on the margins of society.\n\nAt San Quentin remains a landmark, and it shows the man behind songs like Ring of Fire at his most direct. It was recorded in a single day, and it still sounds like a conversation between a performer and an audience that needed him.",
+      "songs": [
+        "country-s03"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "At San Quentin",
+        "artist": "Johnny Cash"
+      }
     }
   ]
 }

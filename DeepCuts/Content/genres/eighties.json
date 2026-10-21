@@ -535,7 +535,11 @@
       "songs": [
         "eighties-s02",
         "eighties-s05"
-      ]
+      ],
+      "cover": {
+        "album": "Hunting High and Low",
+        "artist": "a-ha"
+      }
     },
     {
       "id": "eighties-st2",
@@ -545,7 +549,12 @@
       "body": "In October 1984, Irish singer Bob Geldof was watching the BBC news when he saw a report from Ethiopia by Michael Buerk. It showed thousands of people suffering from a famine. Geldof, the leader of the Boomtown Rats, felt he had to act. He called Midge Ure of Ultravox, and together they wrote a Christmas song, \"Do They Know It's Christmas?\" Dozens of British stars, calling themselves Band Aid, recorded it in a single day in November 1984. It became the best-selling single in British history at the time.\n\nGeldof was not finished. He wanted a concert, and he wanted it to be enormous. On July 13, 1985, Live Aid took place at Wembley Stadium in London and John F. Kennedy Stadium in Philadelphia, with the shows overlapping and broadcast around the world. Organizers estimated a television audience of well over a billion people in around 150 countries, though such numbers are only estimates.\n\nThe lineup was remarkable. In London, Status Quo opened with \"Rockin' All Over the World,\" and later acts included U2, Elton John, David Bowie and Paul McCartney. Queen's set is often called one of the great live performances in rock, with Freddie Mercury leading the Wembley crowd in a call-and-response. In Philadelphia the acts included Bob Dylan, Tina Turner, Madonna, and a reunited Led Zeppelin.\n\nPhil Collins played in both cities. After performing at Wembley he flew across the Atlantic on the supersonic Concorde and then played in Philadelphia, first with his own songs and then on drums for Led Zeppelin. It was a stunt that fit the day's spirit of excess.\n\nThe concert raised a large sum for famine relief, and money kept arriving afterward. Critics later argued about how the funds were spent and whether charity concerts were the right approach. But no one doubted the effect. For one day, the music world had come together for a single cause, and the template of the benefit concert was set for decades.\n\nGeldof received an honorary knighthood in 1986 for his work.",
       "songs": [
         "eighties-s10"
-      ]
+      ],
+      "cover": {
+        "album": "Face Value",
+        "artist": "Phil Collins"
+      },
+      "kind": "concert"
     },
     {
       "id": "eighties-st3",
@@ -555,7 +564,41 @@
       "body": "Prince Rogers Nelson grew up in Minneapolis, a cold Midwestern city that was not an obvious home for a pop revolution. By 1983 he had already recorded several albums, and he was ready to make a film and a record that would make him a star. He gathered a band called the Revolution, which included guitarist Wendy Melvoin and keyboardist Lisa Coleman, and built his new project around them.\n\nOn August 3, 1983, he played a benefit concert at First Avenue, the Minneapolis nightclub where he had performed since his early days. The show was recorded. Three songs from that night, including the long, anthemic title track \"Purple Rain,\" made the album, with some studio touch-ups added later. Hearing the final version, it is easy to picture the sweat and noise in the room.\n\nThe song has an odd backstory. Prince first thought of it as a country-flavored ballad, and he reportedly asked Stevie Nicks of Fleetwood Mac to write words for it. She listened to the long instrumental track and felt overwhelmed, and she said she could not do it. Prince went back and finished the song himself. It turned into a slow, rising rock ballad with a long guitar solo at the end.\n\nThe film, directed by Albert Magnoli, came out in July 1984. Prince played a talented but troubled young musician called the Kid, and the story drew loosely on his own life. It cost a few million dollars and earned many times that. The album became one of the best-selling of the decade, with hits like \"When Doves Cry\" and \"Let's Go Crazy\". It also won Prince an Academy Award for Best Original Song Score.\n\nThe record changed what a pop star could be. Prince wrote, produced and played nearly everything himself on many tracks, yet he gave his band a visible place on stage. He went on to make a string of striking albums through the rest of the decade.\n\nFirst Avenue became a landmark, and its black exterior is now covered with stars honoring the performers who have played there.",
       "songs": [
         "eighties-s03"
-      ]
+      ],
+      "cover": {
+        "album": "Purple Rain",
+        "artist": "Prince"
+      }
+    },
+    {
+      "id": "eighties-st4",
+      "title": "U2 at Red Rocks",
+      "dek": "Rain, mist and a white flag in Colorado, June 1983.",
+      "year": 1983,
+      "body": "In June 1983 U2 were a young Irish band with a growing following, and they had just released their third album, War. They were not yet stars in the United States. On June 5 they played the Red Rocks Amphitheatre outside Denver, a spectacular outdoor venue carved between two giant slabs of red sandstone. It was a show that was supposed to be filmed for television and video.\n\nThe weather did not cooperate. Rain fell during the afternoon and into the evening, and a heavy mist hung over the stage. At first it seemed to threaten the whole shoot. As the show began, however, the fog and low clouds began to look dramatic on film, and the band, soaked and determined, delivered a charged performance.\n\nSome of the most striking images came during Sunday Bloody Sunday, when Bono carried a white flag onto the stage and later climbed the rocks and scaffolding while singing. The song was about the violence in Northern Ireland, and the flag was a symbol of peace and surrender to hatred. Torches burned in the background, and the band's guitarist, the Edge, played jangling, echoing chords that bounced off the stone walls. The set also included New Year's Day, Gloria and I Will Follow.\n\nThe performance was released as a concert film, U2 Live at Red Rocks: Under a Blood Red Sky, and parts of the show were included on a live album with the same name later in 1983. The album was recorded at several places, but the video from Red Rocks gave fans an image of the band that they would remember. It was shown on MTV, which had only recently begun to feature rock bands regularly, and it made U2 look larger than life.\n\nThe film is widely credited with helping the band's career in the United States. It showed that U2 could hold a huge audience with songs and a visual style that was entirely their own. In the following years the band would build on that foundation with The Unforgettable Fire and then The Joshua Tree, which included With or Without You.\n\nThe story is a good example of luck turning into legend. A rainy night that looked like a disaster ended up as one of the defining concerts of the decade.",
+      "songs": [
+        "eighties-s08"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Under a Blood Red Sky",
+        "artist": "U2"
+      }
+    },
+    {
+      "id": "eighties-st5",
+      "title": "Mandela at Wembley",
+      "dek": "A tribute concert in June 1988 and a quiet singer who stole it.",
+      "year": 1988,
+      "body": "On June 11, 1988, a crowd of about 72,000 gathered at Wembley Stadium in London for a concert to mark Nelson Mandela's seventieth birthday. Mandela was still in prison in South Africa, where he had been held for decades, and the event was meant to focus attention on the struggle against apartheid. The show was broadcast in many countries, and organizers reported that hundreds of millions of people watched.\n\nThe lineup included Dire Straits, Whitney Houston, Stevie Wonder, Sting, Peter Gabriel, Eurythmics and many others, along with comedians and actors who spoke between songs. Because the tribute was so large, the schedule was packed, and the performers each had a few minutes to make their mark.\n\nAmong them was a young singer and guitarist named Tracy Chapman. She had released her first album only a few months earlier, and she was little known beyond a few clubs and campuses. Chapman came on early in the day, with only her acoustic guitar, and sang Talkin' Bout a Revolution to a crowd that was still finding its seats. Her calm voice and plain approach stood out.\n\nLater in the evening, Stevie Wonder ran into trouble with his equipment, and the program had to be delayed. The organizers needed someone who could step in with little preparation. Chapman, who had not planned to play again, was reportedly asked to come back, and she did. She sang Fast Car alone on stage, in front of the full crowd and a worldwide television audience. The performance was quiet and direct, and many viewers saw in it something they had not heard in the arena rock around her.\n\nIn the weeks that followed, interest in her debut album grew sharply. Fast Car, which tells the story of a couple trying to escape poverty, found a huge audience on the radio. Chapman went on to win several Grammy Awards at the beginning of 1989, including Best New Artist.\n\nThe concert had a political effect, too. It brought the issue of apartheid to a vast audience, and it increased pressure on the South African government. Mandela was released from prison in 1990, and four years later he became the country's president.\n\nFor Chapman, Wembley turned a debut into a breakthrough. She did it with a guitar, a voice and a song that did not need anything else.",
+      "songs": [
+        "eighties-s12"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "Tracy Chapman",
+        "artist": "Tracy Chapman"
+      }
     }
   ]
 }

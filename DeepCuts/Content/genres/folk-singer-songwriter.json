@@ -534,7 +534,12 @@
       "body": "By the summer of 1965 Bob Dylan was the most closely watched songwriter in America. Only a few years earlier he had been a young singer in the coffeehouses of Greenwich Village, playing an acoustic guitar and singing songs about injustice. The folk community had embraced him as its leader. The Newport Folk Festival, in Rhode Island, was the center of that world, and Dylan had played there two years in a row to rapturous crowds.\n\nBut his music was changing. In March he had released Bringing It All Back Home, with an electric side, and in June he had gone into a New York studio and recorded a long, snarling song called \"Like a Rolling Stone\". An organist named Al Kooper, who had only come to watch, sat down at the keyboard and improvised a part that gave the track its distinctive sound. When the record came out in July, it climbed the charts.\n\nDylan arrived at Newport on July 25 with a band that included members of the Paul Butterfield Blues Band, including guitarist Mike Bloomfield. They had rehearsed a loud, rough set the night before. Many in the audience, expecting a solo acoustic performance, did not know what was coming.\n\nThe band walked on stage in the evening and played three songs: \"Maggie's Farm\", \"Like a Rolling Stone\" and \"It Takes a Lot to Laugh, It Takes a Train to Cry\". The sound was loud and, by most accounts, poorly mixed. There were boos. Whether they were aimed at the electric guitars, at the muddy sound, or at the short set is still a matter of debate among those who were there. Dylan left the stage, and later came back with an acoustic guitar to sing \"It's All Over Now, Baby Blue\" and \"Mr. Tambourine Man\", a gesture some saw as a farewell to the folk world.\n\nOver the years the story has been embroidered. A popular legend has Pete Seeger threatening to cut the sound cables with an axe, though Seeger himself said he was upset only because he could not understand the words. The truth is that Dylan did not abandon folk music so much as stretch it, bringing the poetry of the coffeehouse into the volume of rock and roll.\n\nA year later, on a tour of England, an audience member in Manchester shouted \"Judas!\" at him. Dylan told his band to play it loud. He had made his choice. Within a few years many folk singers were plugging in, and the line between folk and rock had blurred for good.",
       "songs": [
         "folk-singer-songwriter-s03"
-      ]
+      ],
+      "cover": {
+        "album": "Highway 61 Revisited",
+        "artist": "Bob Dylan"
+      },
+      "kind": "concert"
     },
     {
       "id": "folk-singer-songwriter-st2",
@@ -544,7 +549,11 @@
       "body": "In the early 1960s Carole King was a teenage songwriter working in an office building on Broadway in New York, alongside other young songwriters who turned out hit after hit. With her husband, the lyricist Gerry Goffin, she wrote \"Will You Love Me Tomorrow\", which became a No. 1 hit for the Shirelles when she was only 18. She also wrote songs such as \"Up on the Roof\" for the Drifters and \"(You Make Me Feel Like) A Natural Woman\" for Aretha Franklin. Millions knew her songs, but almost nobody knew her name.\n\nBy the end of the decade her marriage with Goffin had ended. King moved to Laurel Canyon, a hillside neighborhood in Los Angeles where musicians such as Joni Mitchell and James Taylor lived. It was an informal, friendly scene, and she began to perform her own songs, often accompanying herself on piano. Producer Lou Adler encouraged her to make a record.\n\nShe recorded Tapestry in early 1971 at A&M Studios, working with a small group of friends, including Taylor on guitar and backing vocals. The songs were direct, honest and sung in a warm, unfussy voice. \"It's Too Late\" was a calm farewell to a love that had faded. \"So Far Away\" described the pain of distance. Even songs she had written for others, like \"A Natural Woman\" and \"Will You Love Me Tomorrow\", took on new meaning when she sang them herself. \"You've Got a Friend\" was a simple promise of loyalty, and Taylor recorded his own version.\n\nThe album came out in February 1971, and it was a huge success. It spent 15 weeks at No. 1 on the Billboard album chart and stayed on the chart for more than 300 weeks. At the 1972 Grammy Awards, King won four trophies: Album of the Year, Record of the Year for \"It's Too Late\", Song of the Year for \"You've Got a Friend\" and Best Pop Vocal Performance, Female. It became one of the best-selling albums of all time.\n\nThe record also helped define a new style. The singer-songwriter era was built on personal, reflective songs, and Tapestry became its most visible monument. King had spent a decade writing hits in the shadows. In one winter, she became a star in her own right, and she showed that a woman at a piano with her own words could fill a stadium.",
       "songs": [
         "folk-singer-songwriter-s10"
-      ]
+      ],
+      "cover": {
+        "album": "Tapestry",
+        "artist": "Carole King"
+      }
     },
     {
       "id": "folk-singer-songwriter-st3",
@@ -554,7 +563,42 @@
       "body": "Paul Simon and Art Garfunkel had known each other since they were boys in Forest Hills, Queens. As teenagers they had recorded a minor hit under the name Tom and Jerry, and in the early 1960s they began playing as a folk duo in Greenwich Village. In 1964 they signed with Columbia Records and made an acoustic album, Wednesday Morning, 3 A.M. It included a quiet, haunting song Simon had written called \"The Sound of Silence\".\n\nThe album sold very poorly. The two friends drifted apart. Garfunkel went back to his graduate studies at Columbia University, and Simon moved to England, where he played in folk clubs and recorded a solo album. It looked as though the duo was finished.\n\nBack in New York, the folk-rock boom was starting. The Byrds had topped the charts with an electric version of Dylan's \"Mr. Tambourine Man\". Tom Wilson, a Columbia producer who had been working with Bob Dylan, noticed that radio stations in Boston and Florida were playing \"The Sound of Silence\" from the old album. In June 1965 he went into a studio with the same musicians who had played on Dylan's \"Like a Rolling Stone\" sessions, and he added electric guitar, bass and drums to Simon and Garfunkel's original recording. He did not tell the duo, and he did not ask.\n\nColumbia released the remixed version as a single in September 1965. Simon and Garfunkel had not been consulted, and they were reportedly surprised by the result. But it caught on in a hurry. On the chart dated January 1, 1966, it reached No. 1 on the Billboard Hot 100.\n\nSimon returned to America, and the two reunited to record a new album, Sounds of Silence, which came out in January 1966. They went on to a run of hits, including \"Mrs. Robinson\", \"Scarborough Fair\" and \"Bridge Over Troubled Water\", before parting in 1970.\n\nThe episode is a good reminder of how much of pop history is accident. A quiet acoustic track, written by a young man in his early 20s and ignored on release, found a second life through a producer's gamble. Simon had written a song about silence, and it took a drum kit to make the world listen.",
       "songs": [
         "folk-singer-songwriter-s02"
-      ]
+      ],
+      "cover": {
+        "album": "Sounds of Silence",
+        "artist": "Simon & Garfunkel"
+      }
+    },
+    {
+      "id": "folk-singer-songwriter-st4",
+      "title": "Simon and Garfunkel in Central Park",
+      "dek": "A free show for hundreds of thousands, September 1981.",
+      "year": 1981,
+      "body": "Paul Simon and Art Garfunkel had gone their separate ways in 1970, after Bridge over Troubled Water, and for years it seemed that the pair would remain apart. They had played together a few times since, but nothing like a full reunion. Then in 1981, New York City asked them to play a benefit concert to raise money for the restoration of Central Park, which had fallen into disrepair.\n\nThe date was September 19, 1981. The concert was free, and the setting was the Great Lawn, in the heart of the city where both men had grown up. Simon was a native New Yorker, and the park was familiar ground. As the day went on, crowds streamed in until the lawn was packed to the edges and beyond. The number of people who came has been estimated at about 500,000.\n\nThe two singers walked onto the stage with a full band, and the first song was Mrs. Robinson. The audience responded with a roar. The set that followed was a tour through their best-known music, with songs like The Sound of Silence, Scarborough Fair, Homeward Bound and Bridge over Troubled Water. Simon's guitar playing was clean and precise, and Garfunkel's high tenor soared above it. There was a sense in the crowd that they were watching a reunion that mattered, and the duo themselves seemed moved.\n\nNot everything on the program was from the old days. Simon also played songs from his recent solo records, and the two sang a few pieces that had been favorites of their teenage years, such as Wake Up Little Susie. The mix gave the evening a feeling of looking back and looking ahead.\n\nThe performance was filmed for television and recorded as a double album, The Concert in Central Park, which came out in 1982. It was a warm record, and it showed that audiences were still devoted to the duo's songs. The reunion led to a tour of Europe and the United States in the following months, and they spoke of making a new studio album together.\n\nThat album never came out as planned. Their old tensions returned, and the project turned into a Paul Simon solo record. But the Central Park concert remained one of the most beloved events in the history of the city's music.\n\nFor the people who were there, it was one summer evening in the park.",
+      "songs": [
+        "folk-singer-songwriter-s06",
+        "folk-singer-songwriter-s08"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "The Concert in Central Park",
+        "artist": "Simon & Garfunkel"
+      }
+    },
+    {
+      "id": "folk-singer-songwriter-st5",
+      "title": "Rolling Thunder Revue",
+      "dek": "Dylan hits the road with friends in the fall of 1975.",
+      "year": 1975,
+      "body": "By 1975 Bob Dylan had recorded Blood on the Tracks, an album full of songs about love and loss, including Tangled Up in Blue. He had not done a tour in the traditional sense for a while, and he wanted to try something different. The result was the Rolling Thunder Revue, a traveling show that began on October 30, 1975, in Plymouth, Massachusetts.\n\nThe tour was unlike a typical big-name concert. Instead of arenas, Dylan played smaller halls and theaters, and the dates were announced only a short time in advance. He gathered a group of musicians and friends who joined him on stage, including Joan Baez, Roger McGuinn, T-Bone Burnett, Mick Ronson, Ramblin' Jack Elliott and violinist Scarlet Rivera. Poet Allen Ginsberg traveled with the group, and Joni Mitchell sat in on some of the dates.\n\nThe look of the show was part of the fun. Dylan performed in white face makeup and wore hats decorated with flowers and scarves. The idea was to give the music a feeling of theater and mystery. Dylan and the band played at a fast, raw pace, and he sang old songs in new arrangements. He and Baez sang duets that recalled their early days in Greenwich Village.\n\nA song from that time carried a cause. Dylan had written Hurricane about the boxer Rubin Carter, who had been convicted of murder and whom Dylan believed to be innocent. The tour included a benefit concert for Carter at Madison Square Garden in December 1975. The show was a long night with many guests, and it brought public attention to Carter's case.\n\nThe first leg of the tour ended in December, and a second leg followed in the spring of 1976. The shows were recorded, and a live album called Hard Rain came out that year. Years later more of the 1975 performances were released in a collection of archive recordings, and the tour was also the subject of a documentary by Martin Scorsese.\n\nRolling Thunder shows that Dylan, who is often thought of as a solitary figure, could also be the leader of a gang. The tour was loose, noisy and playful, and many of the people who took part have said it was one of the most fun times of their lives.",
+      "songs": [
+        "folk-singer-songwriter-s14"
+      ],
+      "kind": "concert",
+      "cover": {
+        "album": "The Bootleg Series Vol. 5: Bob Dylan Live 1975, The Rolling Thunder Revue",
+        "artist": "Bob Dylan"
+      }
     }
   ]
 }
