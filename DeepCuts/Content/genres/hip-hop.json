@@ -1,8 +1,8 @@
 {
   "id": "hip-hop",
   "name": "Hip-Hop",
-  "blurb": "From Bronx block parties to the charts: how rap and turntables changed pop.",
-  "era": "1979-2005",
+  "blurb": "From Bronx block parties to Kendrick: how rap and turntables changed pop.",
+  "era": "1979-2020",
   "questions": [
     {
       "id": "hip-hop-q01",
@@ -97,7 +97,7 @@
     },
     {
       "id": "hip-hop-q08",
-      "prompt": "Which rapper signed to Death Row Records after Suge Knight posted his bail in 1995, then recorded \"California Love\" with Dr. Dre?",
+      "prompt": "Which rapper joined Dr. Dre on the 1995 hit \"California Love\"?",
       "choices": [
         "2Pac",
         "Snoop Dogg",
@@ -105,7 +105,7 @@
         "Warren G"
       ],
       "answer": 0,
-      "fact": "Roger Troutman of Zapp sang the talk-box hook, and the video drew on the film Mad Max Beyond Thunderdome.",
+      "fact": "He signed to Death Row Records after Suge Knight posted his bail, and Roger Troutman of Zapp sang the talk-box hook.",
       "difficulty": 1
     },
     {
@@ -171,7 +171,7 @@
       ],
       "answer": 3,
       "fact": "The label's early acts included LL Cool J, the Beastie Boys and Public Enemy.",
-      "difficulty": 2
+      "difficulty": 3
     },
     {
       "id": "hip-hop-q14",
@@ -214,15 +214,15 @@
     },
     {
       "id": "hip-hop-q17",
-      "prompt": "Run-DMC's 1986 hit \"Walk This Way\" was a remake of a 1975 song by which rock band?",
+      "prompt": "Which duo won the first Grammy for rap, in 1989, for \"Parents Just Don't Understand\"?",
       "choices": [
-        "Aerosmith",
-        "Led Zeppelin",
-        "Kiss",
-        "Van Halen"
+        "DJ Jazzy Jeff & the Fresh Prince",
+        "Salt-N-Pepa",
+        "Kid 'n Play",
+        "Eric B. & Rakim"
       ],
       "answer": 0,
-      "fact": "Steven Tyler and Joe Perry joined Run-DMC for the recording, and the collaboration helped revive Aerosmith's career.",
+      "fact": "Many rap stars boycotted the ceremony because the category was not shown on the broadcast.",
       "difficulty": 2
     },
     {
@@ -279,16 +279,16 @@
     },
     {
       "id": "hip-hop-q22",
-      "prompt": "Public Enemy's dense, layered productions were created by a team known as what?",
+      "prompt": "What is the name of Eminem's rowdy alter ego, who gave his 1999 major-label debut its title?",
       "choices": [
-        "The Hit Squad",
-        "The Bomb Squad",
-        "The Neptunes",
-        "The Dust Brothers"
+        "Slim Shady",
+        "Stan",
+        "B-Rabbit",
+        "Ken Kaniff"
       ],
-      "answer": 1,
-      "fact": "The Bomb Squad built tracks from dozens of small samples, which made Public Enemy's records sound urgent.",
-      "difficulty": 3
+      "answer": 0,
+      "fact": "The Slim Shady LP came out in 1999 on Dr. Dre's Aftermath label, and \"My Name Is\" introduced him to radio.",
+      "difficulty": 1
     },
     {
       "id": "hip-hop-q23",
@@ -305,16 +305,16 @@
     },
     {
       "id": "hip-hop-q24",
-      "prompt": "The Notorious B.I.G.'s \"Juicy\" samples which R&B group's \"Juicy Fruit\"?",
+      "prompt": "Which 1995 film, starring Michelle Pfeiffer, features Coolio's \"Gangsta's Paradise\"?",
       "choices": [
-        "Mtume",
-        "The Gap Band",
-        "Cameo",
-        "Zapp"
+        "Dangerous Minds",
+        "Higher Learning",
+        "Boyz n the Hood",
+        "Sister Act 2"
       ],
       "answer": 0,
-      "fact": "Mtume's slow, smooth 1983 song supplies the track's hook.",
-      "difficulty": 3
+      "fact": "The song went to number one in the US and won the 1996 Grammy for Best Rap Solo Performance.",
+      "difficulty": 2
     },
     {
       "id": "hip-hop-q25",
@@ -331,16 +331,16 @@
     },
     {
       "id": "hip-hop-q26",
-      "prompt": "Which record executive passed Eminem's demo tape to Dr. Dre?",
+      "prompt": "Vanilla Ice's 1990 hit \"Ice Ice Baby\" borrows its bassline from which song?",
       "choices": [
-        "Russell Simmons",
-        "Sean Combs",
-        "Jimmy Iovine",
-        "Suge Knight"
+        "Another One Bites the Dust",
+        "Let's Dance",
+        "Under Pressure",
+        "Fame"
       ],
       "answer": 2,
-      "fact": "Dre has said he was struck by the tape immediately, and he went on to produce much of Eminem's early work.",
-      "difficulty": 3
+      "fact": "Queen and David Bowie were not credited at first, and the matter was later settled.",
+      "difficulty": 2
     },
     {
       "id": "hip-hop-q27",
@@ -383,16 +383,120 @@
     },
     {
       "id": "hip-hop-q30",
-      "prompt": "Sugar Hill Records founder Sylvia Robinson had a 1973 hit as a singer with which song?",
+      "prompt": "Snoop Doggy Dogg's 1993 debut album, produced by Dr. Dre, was called what?",
       "choices": [
-        "Love to Love You Baby",
-        "Pillow Talk",
-        "Me and Mrs. Jones",
-        "Let's Get It On"
+        "The Chronic",
+        "Doggystyle",
+        "Tha Doggfather",
+        "Death Certificate"
       ],
       "answer": 1,
-      "fact": "She founded the label after a career in R&B, and \"Rapper's Delight\" was among its first releases.",
-      "difficulty": 3
+      "fact": "It includes \"Gin and Juice\" and entered the US album chart at number one.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q31",
+      "prompt": "Kanye West's 2007 single \"Stronger\" samples which French duo?",
+      "choices": [
+        "Air",
+        "Daft Punk",
+        "Justice",
+        "Phoenix"
+      ],
+      "answer": 1,
+      "fact": "It came from Graduation, which was released the same day as 50 Cent's Curtis and outsold it in the first week.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q32",
+      "prompt": "Kanye West's 2008 album 808s & Heartbreak is named after which drum machine?",
+      "choices": [
+        "Linn LM-1",
+        "Akai MPC",
+        "Roland TR-808",
+        "Roland TR-909"
+      ],
+      "answer": 2,
+      "fact": "The album leaned on that drum machine and Auto-Tuned singing, and it influenced many later rap and pop records.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q33",
+      "prompt": "Before rapping, Drake played Jimmy Brooks on which Canadian teen series?",
+      "choices": [
+        "Degrassi",
+        "Instant Star",
+        "Naturally, Sadie",
+        "Wingin' It"
+      ],
+      "answer": 0,
+      "fact": "The show was Degrassi: The Next Generation, and he released the mixtape So Far Gone in 2009.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q34",
+      "prompt": "Kendrick Lamar won the 2018 Pulitzer Prize for Music for which album?",
+      "choices": [
+        "To Pimp a Butterfly",
+        "DAMN.",
+        "good kid, m.A.A.d city",
+        "Section.80"
+      ],
+      "answer": 1,
+      "fact": "He was the first artist outside classical and jazz to win the prize.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q35",
+      "prompt": "Which singer joined Eminem on the 2010 hit \"Love the Way You Lie\"?",
+      "choices": [
+        "Beyonce",
+        "Pink",
+        "Rihanna",
+        "Alicia Keys"
+      ],
+      "answer": 2,
+      "fact": "The song came from Eminem's album Recovery, and Rihanna recorded a Part II for her own album Loud.",
+      "difficulty": 1
+    },
+    {
+      "id": "hip-hop-q36",
+      "prompt": "Cardi B first gained fame on which reality TV series?",
+      "choices": [
+        "The Real Housewives of Atlanta",
+        "Basketball Wives",
+        "Growing Up Hip Hop",
+        "Love & Hip Hop: New York"
+      ],
+      "answer": 3,
+      "fact": "Her 2017 single \"Bodak Yellow\" went to number one in the US.",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q37",
+      "prompt": "What do Nicki Minaj's devoted fans call themselves?",
+      "choices": [
+        "The Barbz",
+        "The Minions",
+        "The Pink Friday Army",
+        "The Harajuku Crew"
+      ],
+      "answer": 0,
+      "fact": "Her 2010 debut album Pink Friday included the hit \"Super Bass\".",
+      "difficulty": 2
+    },
+    {
+      "id": "hip-hop-q38",
+      "prompt": "Lil Nas X's 2019 hit \"Old Town Road\" blended rap with which genre?",
+      "choices": [
+        "Reggae",
+        "Country",
+        "Metal",
+        "Gospel"
+      ],
+      "answer": 1,
+      "fact": "Billy Ray Cyrus joined a remix, and the song spent 19 weeks at number one in the US.",
+      "difficulty": 1
     }
   ],
   "songs": [
@@ -523,6 +627,46 @@
       "year": 1998,
       "album": "Vol. 2... Hard Knock Life",
       "note": "The track samples the song from the musical Annie."
+    },
+    {
+      "id": "hip-hop-s17",
+      "title": "Stronger",
+      "artist": "Kanye West",
+      "year": 2007,
+      "album": "Graduation",
+      "note": "It topped the US chart in 2007, and West performed it at the 2008 Grammys."
+    },
+    {
+      "id": "hip-hop-s18",
+      "title": "Love the Way You Lie",
+      "artist": "Eminem featuring Rihanna",
+      "year": 2010,
+      "album": "Recovery",
+      "note": "Its video starred Megan Fox and Dominic Monaghan, and the song topped the US chart in 2010."
+    },
+    {
+      "id": "hip-hop-s19",
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "year": 2015,
+      "album": "Views",
+      "note": "It samples Timmy Thomas's \"Why Can't We Live Together\", and its video of Drake dancing in colored rooms was widely memed."
+    },
+    {
+      "id": "hip-hop-s20",
+      "title": "HUMBLE.",
+      "artist": "Kendrick Lamar",
+      "year": 2017,
+      "album": "DAMN.",
+      "note": "Mike WiLL Made-It produced it, and it was Kendrick Lamar's first number one as a lead artist in the US."
+    },
+    {
+      "id": "hip-hop-s21",
+      "title": "Bodak Yellow",
+      "artist": "Cardi B",
+      "year": 2017,
+      "album": "Invasion of Privacy",
+      "note": "Her breakout single went to number one in the US in 2017."
     }
   ],
   "stories": [
