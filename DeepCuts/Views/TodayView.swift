@@ -53,7 +53,7 @@ struct TodayView: View {
                 }
                 .contentShape(Rectangle())
             }
-            .buttonStyle(.plain)
+            .buttonStyle(PressableStyle())
             .accessibilityIdentifier("story-of-the-day")
         }
     }
@@ -98,7 +98,7 @@ struct TodayView: View {
             .padding(16)
             .card()
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressableStyle())
         .accessibilityIdentifier("suggest-today")
     }
 }
