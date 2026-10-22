@@ -5,10 +5,14 @@ import Observation
 @MainActor
 @Observable
 final class AppModel {
-    let library: ContentLibrary
+    /// Bundled crates plus live content; swapped between rounds when new content arrives.
+    private(set) var library: ContentLibrary
     let progress: ProgressStore
     let player: PreviewPlayer
     let feedback: FeedbackService
+    let content: RemoteContentService
+    private var pendingLibrary: ContentLibrary?
+    private var contentCheckedAt = Date.distantPast
 
     /// The round on screen, if any. Set to start a quiz from anywhere.
     var activeQuiz: QuizSpec?
@@ -19,11 +23,13 @@ final class AppModel {
     var momentsFailed = false
     var myFeedback: [FeedbackItem] = []
 
-    init(library: ContentLibrary = .shared, progress: ProgressStore = ProgressStore(), feedback: FeedbackService = .live) {
+    init(library: ContentLibrary = .shared, progress: ProgressStore = ProgressStore(), feedback: FeedbackService = .live,
+         content: RemoteContentService = .off) {
         self.library = library
         self.progress = progress
         self.player = PreviewPlayer(library: library)
         self.feedback = feedback
+        self.content = content
     }
 
     var focusGenres: [Genre] {
@@ -109,6 +115,27 @@ final class AppModel {
         } catch {
             momentsFailed = moments.isEmpty
         }
+    }
+
+    // MARK: Live content
+
+    /// Pulls new and corrected questions at most hourly, saves them for the next launch,
+    /// and swaps them in now unless a round is on screen.
+    func refreshContent() async {
+        guard content.isConfigured, Date.now.timeIntervalSince(contentCheckedAt) > 3600 else { return }
+        contentCheckedAt = .now
+        var cache = RemoteContentCache.load()
+        guard let rows = try? await content.changes(since: cache.rev), !rows.isEmpty else { return }
+        cache.merge(rows)
+        cache.save()
+        pendingLibrary = ContentLibrary.shared.applying(cache.all)
+        applyPendingContent()
+    }
+
+    func applyPendingContent() {
+        guard activeQuiz == nil, let pending = pendingLibrary else { return }
+        library = pending
+        pendingLibrary = nil
     }
 
     // MARK: Feedback

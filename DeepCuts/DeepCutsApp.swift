@@ -12,7 +12,11 @@ struct DeepCutsApp: App {
             progress.setFocus(args[index + 1].split(separator: ",").map(String.init))
         }
         let feedback: FeedbackService = args.contains("-ui-feedback-stub") ? .stub : .live
-        _app = State(initialValue: AppModel(progress: progress, feedback: feedback))
+        // UI tests play the bundled crates only, so rounds don't change under them.
+        let live = !args.contains("-ui-reset")
+        let library = live ? ContentLibrary.shared.applying(RemoteContentCache.load().all) : .shared
+        _app = State(initialValue: AppModel(library: library, progress: progress, feedback: feedback,
+                                            content: live ? .live : .off))
     }
 
     var body: some Scene {
@@ -26,6 +30,7 @@ struct DeepCutsApp: App {
 
 struct RootView: View {
     @Environment(AppModel.self) private var app
+    @Environment(\.scenePhase) private var scenePhase
     @State private var tab = Tab.today
 
     enum Tab: Hashable { case today, play, stories, you }
@@ -55,7 +60,13 @@ struct RootView: View {
             FeedbackView(context: app.feedbackContext)
         }
         .onChange(of: app.activeQuiz) { _, quiz in
-            if quiz == nil { app.player.stop() }
+            if quiz == nil {
+                app.player.stop()
+                app.applyPendingContent()
+            }
+        }
+        .onChange(of: scenePhase, initial: true) { _, phase in
+            if phase == .active { Task { await app.refreshContent() } }
         }
     }
 }

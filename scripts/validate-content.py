@@ -12,11 +12,12 @@ GENRES = ROOT / "DeepCuts/Content/genres"
 CATALOG = ROOT / "DeepCuts/Content/catalog.json"
 
 
-def main() -> int:
+def check(genres_dir: pathlib.Path = GENRES) -> tuple[list[str], list[str], int, Counter]:
+    """Errors and warnings for every crate file in `genres_dir` (scripts/content-remote.py checks a merged copy)."""
     errors, warnings = [], []
     catalog = json.loads(CATALOG.read_text()) if CATALOG.exists() else {}
     ids, prompts = Counter(), Counter()
-    files = sorted(GENRES.glob("*.json"))
+    files = sorted(genres_dir.glob("*.json"))
     if not files:
         errors.append("no genre files")
     for path in files:
@@ -89,11 +90,16 @@ def main() -> int:
                     errors.append(f"{st['id']}: unknown song {sid}")
     errors += [f"duplicate id {k}" for k, n in ids.items() if n > 1]
     errors += [f"duplicate question: {k[:70]}" for k, n in prompts.items() if n > 1]
+    return errors, warnings, len(files), ids
+
+
+def main() -> int:
+    errors, warnings, crates, ids = check()
     for w in warnings:
         print("warning:", w)
     for e in errors:
         print("error:", e)
-    print(f"{len(files)} crates, {sum(1 for k in ids if '-q' in k)} questions checked, {len(errors)} errors")
+    print(f"{crates} crates, {sum(1 for k in ids if '-q' in k)} questions checked, {len(errors)} errors")
     return 1 if errors else 0
 
 
