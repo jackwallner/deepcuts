@@ -33,7 +33,7 @@ struct RootView: View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var tab = Tab.today
 
-    enum Tab: Hashable { case today, play, stories, you }
+    enum Tab: Hashable { case today, play, stories, live, you }
 
     var body: some View {
         @Bindable var app = app
@@ -46,6 +46,8 @@ struct RootView: View {
                         .tabItem { Label("Play", systemImage: "opticaldisc") }.tag(Tab.play)
                     StoriesView()
                         .tabItem { Label("Stories", systemImage: "book") }.tag(Tab.stories)
+                    LiveView()
+                        .tabItem { Label("Live", systemImage: "ticket") }.tag(Tab.live)
                     YouView()
                         .tabItem { Label("You", systemImage: "person.crop.circle") }.tag(Tab.you)
                 }

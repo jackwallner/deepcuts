@@ -124,7 +124,7 @@ struct YouView: View {
     private var about: some View {
         VStack(alignment: .leading, spacing: 6) {
             SectionHeader(title: "About")
-            Text("Song previews and artwork courtesy of Apple Music. On This Day from Wikipedia.")
+            Text("Song previews and artwork courtesy of Apple Music. On This Day from Wikipedia. Venues from Apple Maps.")
                 .font(.footnote).foregroundStyle(Theme.inkSoft)
             Text(versionLine).font(.footnote).foregroundStyle(Theme.inkSoft)
         }

@@ -118,6 +118,23 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertTrue(suggest.isHittable)
     }
 
+    /// Feedback #6: the Live tab asks for location only on tap and lists touring acts from your crates.
+    func testLiveTabShowsVenuesAndTouringActs() {
+        let app = launch(["-ui-focus", "classic-rock,southern-rock", "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXXXL"])
+        app.tabBars.buttons["Live"].tap()
+        XCTAssertTrue(app.buttons["live-locate"].waitForExistence(timeout: 5))
+        let skynyrd = app.buttons["act-Lynyrd Skynyrd"]
+        for _ in 0..<8 where !skynyrd.exists || !skynyrd.isHittable { app.scrollViews.firstMatch.swipeUp() }
+        XCTAssertTrue(skynyrd.isHittable)
+        XCTAssertFalse(app.buttons["act-Metallica"].exists, "only acts from the chosen crates")
+
+        app.terminate()
+        let stubbed = launch(["-ui-focus", "classic-rock", "-ui-venues-stub"])
+        stubbed.tabBars.buttons["Live"].tap()
+        XCTAssertTrue(stubbed.buttons["venue-The Old Mill Ballroom"].waitForExistence(timeout: 5))
+        XCTAssertFalse(stubbed.buttons["live-locate"].exists)
+    }
+
     /// Answers every item: choice 0 each time, skipping clips that can't load.
     private func playRound(_ app: XCUIApplication) {
         for _ in 0..<12 {
@@ -203,6 +220,10 @@ final class Tour: XCTestCase {
         shot("story")
         app.swipeUp()
         shot("story-body")
+        app.tabBars.buttons["Live"].tap()
+        shot("live")
+        app.swipeUp()
+        shot("live-scrolled")
         app.tabBars.buttons["You"].tap()
         shot("you")
         app.swipeUp()
