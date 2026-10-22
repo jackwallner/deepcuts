@@ -653,6 +653,1956 @@
       "answer": 2,
       "fact": "The MIT-trained Scholz worked at Polaroid by day and recorded the early demos at home in his spare time.",
       "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q51",
+      "prompt": "Which engineer recorded Pink Floyd's The Dark Side of the Moon before forming a band with Eric Woolfson?",
+      "choices": [
+        "Geoff Emerick",
+        "Eddie Kramer",
+        "Alan Parsons",
+        "Glyn Johns"
+      ],
+      "answer": 2,
+      "fact": "Parsons worked at Abbey Road on the album, then formed the Alan Parsons Project with Woolfson.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q52",
+      "prompt": "Whose wordless singing is heard on Pink Floyd's original \"The Great Gig in the Sky\"?",
+      "choices": [
+        "Doris Troy",
+        "Sandy Denny",
+        "Maggie Bell",
+        "Clare Torry"
+      ],
+      "answer": 3,
+      "fact": "Richard Wright wrote the piece. Torry's improvised vocal became its defining feature.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q53",
+      "prompt": "Who plays saxophone on Pink Floyd's original recordings of \"Money\" and \"Us and Them\"?",
+      "choices": [
+        "Dick Parry",
+        "Mel Collins",
+        "Raphael Ravenscroft",
+        "Bobby Keys"
+      ],
+      "answer": 0,
+      "fact": "Parry added tenor saxophone to both tracks on The Dark Side of the Moon.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q54",
+      "prompt": "The bass riff in Pink Floyd's \"Money\" is mainly in which time signature?",
+      "choices": [
+        "5/4",
+        "7/4",
+        "6/8",
+        "9/8"
+      ],
+      "answer": 1,
+      "fact": "The song changes to a four-beat feel for the guitar solo before returning to its seven-beat riff.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q55",
+      "prompt": "Which Pink Floyd member played keyboards and co-wrote \"Us and Them\"?",
+      "choices": [
+        "David Gilmour",
+        "Roger Waters",
+        "Richard Wright",
+        "Nick Mason"
+      ],
+      "answer": 2,
+      "fact": "Wright wrote the music with lyrics by Waters. The song appears on The Dark Side of the Moon.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q56",
+      "prompt": "Which Pink Floyd keyboardist composed the music for \"The Great Gig in the Sky\"?",
+      "choices": [
+        "Rick Wakeman",
+        "Keith Emerson",
+        "Tony Banks",
+        "Richard Wright"
+      ],
+      "answer": 3,
+      "fact": "The original album credited Wright alone; later editions also credit vocalist Clare Torry.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q57",
+      "prompt": "Which Pink Floyd member plays drums on The Dark Side of the Moon?",
+      "choices": [
+        "Nick Mason",
+        "Mitch Mitchell",
+        "Bill Bruford",
+        "Carl Palmer"
+      ],
+      "answer": 0,
+      "fact": "Mason also has the sole writing credit for the album's opening sound collage, \"Speak to Me\".",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q58",
+      "prompt": "Which guest sings lead on Pink Floyd's studio version of \"Have a Cigar\"?",
+      "choices": [
+        "Steve Marriott",
+        "Roy Harper",
+        "Paul Rodgers",
+        "Steve Winwood"
+      ],
+      "answer": 1,
+      "fact": "Harper was recording at Abbey Road while Pink Floyd were making Wish You Were Here.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q59",
+      "prompt": "Which stuntman is actually on fire on the cover of Pink Floyd's Wish You Were Here?",
+      "choices": [
+        "Dar Robinson",
+        "Hal Needham",
+        "Ronnie Rondell Jr.",
+        "Vic Armstrong"
+      ],
+      "answer": 2,
+      "fact": "Rondell wore protective clothing for the handshake photograph, taken on the Warner Bros. studio lot.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q60",
+      "prompt": "Which Pink Floyd album puts \"Welcome to the Machine\" and \"Have a Cigar\" between parts of \"Shine On You Crazy Diamond\"?",
+      "choices": [
+        "Animals",
+        "Meddle",
+        "Obscured by Clouds",
+        "Wish You Were Here"
+      ],
+      "answer": 3,
+      "fact": "The 1975 album splits \"Shine On\" into two long tracks that bookend the record.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q61",
+      "prompt": "Which Fairport Convention singer duets with Robert Plant on \"The Battle of Evermore\"?",
+      "choices": [
+        "Sandy Denny",
+        "Jacqui McShee",
+        "Maddy Prior",
+        "June Tabor"
+      ],
+      "answer": 0,
+      "fact": "Denny's contribution earned her a separate symbol on the inner sleeve of Led Zeppelin IV.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q62",
+      "prompt": "Which Rolling Stones pianist plays on Led Zeppelin's \"Rock and Roll\"?",
+      "choices": [
+        "Nicky Hopkins",
+        "Ian Stewart",
+        "Billy Preston",
+        "Ian McLagan"
+      ],
+      "answer": 1,
+      "fact": "Stewart also appears on \"Boogie with Stu\", later released on Physical Graffiti.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q63",
+      "prompt": "Why did Led Zeppelin call one track \"Four Sticks\"?",
+      "choices": [
+        "Jimmy Page used four guitar picks",
+        "Four drum kits were recorded",
+        "John Bonham used four drumsticks",
+        "The band used four conductors"
+      ],
+      "answer": 2,
+      "fact": "Bonham held two sticks in each hand to get the sound on the Led Zeppelin IV track.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q64",
+      "prompt": "Which small stringed instrument drives Jimmy Page's part on \"The Battle of Evermore\"?",
+      "choices": [
+        "Banjo",
+        "Dulcimer",
+        "Ukulele",
+        "Mandolin"
+      ],
+      "answer": 3,
+      "fact": "Page wrote the music on an instrument borrowed from John Paul Jones.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q65",
+      "prompt": "Who plays the recorders in the introduction to Led Zeppelin's \"Stairway to Heaven\"?",
+      "choices": [
+        "John Paul Jones",
+        "Jimmy Page",
+        "Robert Plant",
+        "Ian Stewart"
+      ],
+      "answer": 0,
+      "fact": "Jones layered the recorder parts before the arrangement builds toward Page's electric solo.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q66",
+      "prompt": "Led Zeppelin's \"Black Dog\" got its title from what?",
+      "choices": [
+        "A pub near Olympic Studios",
+        "An animal hanging around Headley Grange",
+        "A Robert Plant childhood pet",
+        "A blues club in Chicago"
+      ],
+      "answer": 1,
+      "fact": "The title refers to a dog seen around the country house, rather than a character in the lyrics.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q67",
+      "prompt": "Which Led Zeppelin member produced the band's untitled fourth album?",
+      "choices": [
+        "John Bonham",
+        "Robert Plant",
+        "Jimmy Page",
+        "John Paul Jones"
+      ],
+      "answer": 2,
+      "fact": "The album's engineering credits include Andy Johns, who worked with the band at Headley Grange.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q68",
+      "prompt": "Which Led Zeppelin member handled bass as well as keyboards and mandolin?",
+      "choices": [
+        "John Bonham",
+        "Jimmy Page",
+        "Robert Plant",
+        "John Paul Jones"
+      ],
+      "answer": 3,
+      "fact": "His multi-instrumental role is especially clear in the credits for Led Zeppelin IV.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q69",
+      "prompt": "The drum introduction to Led Zeppelin's \"Rock and Roll\" grew out of which Little Richard song?",
+      "choices": [
+        "Keep A-Knockin'",
+        "Lucille",
+        "Long Tall Sally",
+        "Good Golly, Miss Molly"
+      ],
+      "answer": 0,
+      "fact": "Bonham's opening figure emerged during a jam at Headley Grange.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q70",
+      "prompt": "Which Led Zeppelin IV engineer had just worked on the Rolling Stones' Sticky Fingers?",
+      "choices": [
+        "Glyn Johns",
+        "Andy Johns",
+        "Eddie Kramer",
+        "George Chkiantz"
+      ],
+      "answer": 1,
+      "fact": "Johns recommended using the Rolling Stones mobile unit for the Headley Grange sessions.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q71",
+      "prompt": "Who plays the violin at the end of the Who's studio recording of \"Baba O'Riley\"?",
+      "choices": [
+        "Ric Grech",
+        "Jerry Goodman",
+        "Dave Arbus",
+        "Jean-Luc Ponty"
+      ],
+      "answer": 2,
+      "fact": "Keith Moon invited the East of Eden violinist to contribute to Who's Next.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q72",
+      "prompt": "Which session pianist plays on \"The Song Is Over\" and \"Getting in Tune\" on Who's Next?",
+      "choices": [
+        "Billy Preston",
+        "Ian Stewart",
+        "Chris Stainton",
+        "Nicky Hopkins"
+      ],
+      "answer": 3,
+      "fact": "Hopkins guests on two tracks; Pete Townshend and John Entwistle handle other keyboard parts.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q73",
+      "prompt": "Who wrote and sings \"My Wife\" on Who's Next?",
+      "choices": [
+        "John Entwistle",
+        "Pete Townshend",
+        "Roger Daltrey",
+        "Keith Moon"
+      ],
+      "answer": 0,
+      "fact": "It is the original album's only song not written by Townshend.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q74",
+      "prompt": "Which engineer received the associate-producer credit on the original Who's Next?",
+      "choices": [
+        "Andy Johns",
+        "Glyn Johns",
+        "Shel Talmy",
+        "Gus Dudgeon"
+      ],
+      "answer": 1,
+      "fact": "Johns helped turn the abandoned Lifehouse material into a single studio album.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q75",
+      "prompt": "Which song closes the original Who's Next with Roger Daltrey's famous scream?",
+      "choices": [
+        "Bargain",
+        "The Song Is Over",
+        "Won't Get Fooled Again",
+        "Behind Blue Eyes"
+      ],
+      "answer": 2,
+      "fact": "The full album recording runs more than eight minutes, much longer than the single edit.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q76",
+      "prompt": "Which Who member sings lead on the original recording of \"Going Mobile\"?",
+      "choices": [
+        "Roger Daltrey",
+        "John Entwistle",
+        "Keith Moon",
+        "Pete Townshend"
+      ],
+      "answer": 3,
+      "fact": "Townshend's road song appears on Who's Next, between \"Getting in Tune\" and \"Behind Blue Eyes\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q77",
+      "prompt": "Who sings the main lead vocal on the Who's studio recording of \"Behind Blue Eyes\"?",
+      "choices": [
+        "Roger Daltrey",
+        "Pete Townshend",
+        "John Entwistle",
+        "Keith Moon"
+      ],
+      "answer": 0,
+      "fact": "Townshend wrote it for the Lifehouse project before it appeared on Who's Next.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q78",
+      "prompt": "Which Fleetwood Mac member wrote and sang \"Songbird\" on Rumours?",
+      "choices": [
+        "Stevie Nicks",
+        "Christine McVie",
+        "Lindsey Buckingham",
+        "Mick Fleetwood"
+      ],
+      "answer": 1,
+      "fact": "The spare piano ballad was recorded in a concert hall rather than a conventional studio room.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q79",
+      "prompt": "In which Berkeley venue did Fleetwood Mac record \"Songbird\" for Rumours?",
+      "choices": [
+        "Berkeley Community Theatre",
+        "Greek Theatre",
+        "Zellerbach Auditorium",
+        "Freight and Salvage"
+      ],
+      "answer": 2,
+      "fact": "Producer Ken Caillat chose the hall to capture the piano ballad's natural ambience.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q80",
+      "prompt": "Which Rumours song credits all five members of Fleetwood Mac as writers?",
+      "choices": [
+        "Dreams",
+        "Go Your Own Way",
+        "Don't Stop",
+        "The Chain"
+      ],
+      "answer": 3,
+      "fact": "The track was assembled from separate musical ideas and edited into one performance.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q81",
+      "prompt": "Which Stevie Nicks song was originally the B-side of Fleetwood Mac's \"Go Your Own Way\"?",
+      "choices": [
+        "Silver Springs",
+        "Landslide",
+        "Rhiannon",
+        "Gold Dust Woman"
+      ],
+      "answer": 0,
+      "fact": "It was left off the original Rumours LP and later included on expanded editions.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q82",
+      "prompt": "Who wrote Fleetwood Mac's \"Don't Stop\"?",
+      "choices": [
+        "Lindsey Buckingham",
+        "Christine McVie",
+        "Stevie Nicks",
+        "John McVie"
+      ],
+      "answer": 1,
+      "fact": "Christine and Lindsey Buckingham share the lead vocals on the Rumours recording.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q83",
+      "prompt": "Who sings lead on Fleetwood Mac's \"Gold Dust Woman\"?",
+      "choices": [
+        "Christine McVie",
+        "Lindsey Buckingham",
+        "Stevie Nicks",
+        "John McVie"
+      ],
+      "answer": 2,
+      "fact": "Nicks also wrote the song, which closes the original Rumours LP.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q84",
+      "prompt": "Whose fingerpicked acoustic guitar is central to \"Never Going Back Again\" on Rumours?",
+      "choices": [
+        "Peter Green",
+        "Danny Kirwan",
+        "Bob Welch",
+        "Lindsey Buckingham"
+      ],
+      "answer": 3,
+      "fact": "Buckingham wrote and sang the short acoustic piece.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q85",
+      "prompt": "Which pair co-produced Rumours with Fleetwood Mac?",
+      "choices": [
+        "Ken Caillat and Richard Dashut",
+        "Keith Olsen and Ted Templeman",
+        "Glyn Johns and Andy Johns",
+        "Jimmy Iovine and Shelly Yakus"
+      ],
+      "answer": 0,
+      "fact": "Caillat and Dashut also engineered the record across its California sessions.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q86",
+      "prompt": "Which Queen member wrote \"You're My Best Friend\"?",
+      "choices": [
+        "Brian May",
+        "John Deacon",
+        "Roger Taylor",
+        "Freddie Mercury"
+      ],
+      "answer": 1,
+      "fact": "Deacon wrote the song for his wife Veronica and played its electric piano part.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q87",
+      "prompt": "Which electric piano did John Deacon play on Queen's \"You're My Best Friend\"?",
+      "choices": [
+        "Fender Rhodes",
+        "Hohner Pianet",
+        "Wurlitzer",
+        "Yamaha CP-70"
+      ],
+      "answer": 2,
+      "fact": "Freddie Mercury preferred acoustic piano, so Deacon played the distinctive part himself.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q88",
+      "prompt": "What scientific effect underlies the space-travel story in Queen's \"'39\"?",
+      "choices": [
+        "Gravitational lensing",
+        "Nuclear fusion",
+        "Electromagnetic induction",
+        "Time dilation"
+      ],
+      "answer": 3,
+      "fact": "Brian May's travelers return to find that far more time has passed at home than on their journey.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q89",
+      "prompt": "Which Queen member wrote and sings \"I'm in Love with My Car\"?",
+      "choices": [
+        "Roger Taylor",
+        "Freddie Mercury",
+        "Brian May",
+        "John Deacon"
+      ],
+      "answer": 0,
+      "fact": "The song appeared on A Night at the Opera and the B-side of \"Bohemian Rhapsody\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q90",
+      "prompt": "Which Japanese stringed instrument did Brian May use in miniature form on \"The Prophet's Song\"?",
+      "choices": [
+        "Shamisen",
+        "Koto",
+        "Biwa",
+        "Sanshin"
+      ],
+      "answer": 1,
+      "fact": "The toy instrument adds to the unusual textures on May's long A Night at the Opera track.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q91",
+      "prompt": "Which orchestral instrument does Brian May play on Queen's studio version of \"Love of My Life\"?",
+      "choices": [
+        "Cello",
+        "Bassoon",
+        "Harp",
+        "Oboe"
+      ],
+      "answer": 2,
+      "fact": "The original A Night at the Opera arrangement differs from the familiar acoustic concert version.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q92",
+      "prompt": "Queen named A Night at the Opera after a film starring which comedy team?",
+      "choices": [
+        "Laurel and Hardy",
+        "Abbott and Costello",
+        "The Three Stooges",
+        "The Marx Brothers"
+      ],
+      "answer": 3,
+      "fact": "Their following album, A Day at the Races, borrowed another title from the same team's films.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q93",
+      "prompt": "Which instrumental closes Queen's A Night at the Opera?",
+      "choices": [
+        "God Save the Queen",
+        "Procession",
+        "Seven Seas of Rhye",
+        "Soul Brother"
+      ],
+      "answer": 0,
+      "fact": "Brian May arranged the British anthem as layers of electric guitar.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q94",
+      "prompt": "Who wrote and sings \"Try and Love Again\" on the Eagles' Hotel California?",
+      "choices": [
+        "Don Felder",
+        "Randy Meisner",
+        "Joe Walsh",
+        "Don Henley"
+      ],
+      "answer": 1,
+      "fact": "It was Meisner's final studio album with the Eagles before Timothy B. Schmit took over on bass.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q95",
+      "prompt": "Which Eagle sings \"Pretty Maids All in a Row\"?",
+      "choices": [
+        "Glenn Frey",
+        "Randy Meisner",
+        "Joe Walsh",
+        "Don Henley"
+      ],
+      "answer": 2,
+      "fact": "Walsh co-wrote the Hotel California ballad with Joe Vitale.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q96",
+      "prompt": "Who sings lead on the Eagles' \"New Kid in Town\"?",
+      "choices": [
+        "Don Henley",
+        "Joe Walsh",
+        "Randy Meisner",
+        "Glenn Frey"
+      ],
+      "answer": 3,
+      "fact": "The song was the first single released from Hotel California.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q97",
+      "prompt": "Who shares the writing credit for \"New Kid in Town\" with Glenn Frey and Don Henley?",
+      "choices": [
+        "J.D. Souther",
+        "Jackson Browne",
+        "Warren Zevon",
+        "Bob Seger"
+      ],
+      "answer": 0,
+      "fact": "Souther also shares a writing credit on the album's \"Victim of Love\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q98",
+      "prompt": "Who produced the Eagles' Hotel California album?",
+      "choices": [
+        "Glyn Johns",
+        "Bill Szymczyk",
+        "Ted Templeman",
+        "Keith Olsen"
+      ],
+      "answer": 1,
+      "fact": "The sessions took place at Criteria in Miami and the Record Plant in Los Angeles.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q99",
+      "prompt": "Which song is the seven-minute-plus closer of the Eagles' Hotel California?",
+      "choices": [
+        "Wasted Time",
+        "Try and Love Again",
+        "The Last Resort",
+        "Victim of Love"
+      ],
+      "answer": 2,
+      "fact": "Henley and Frey's song ends the album with a critique of expansion and the damage it brings.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q100",
+      "prompt": "Which Eagles lead singer also plays the drums on Hotel California?",
+      "choices": [
+        "Glenn Frey",
+        "Randy Meisner",
+        "Joe Walsh",
+        "Don Henley"
+      ],
+      "answer": 3,
+      "fact": "Henley sings the title track while Frey takes the lead on \"New Kid in Town\".",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q101",
+      "prompt": "Which Traffic keyboardist plays organ on Hendrix's long blues jam \"Voodoo Chile\"?",
+      "choices": [
+        "Steve Winwood",
+        "Al Kooper",
+        "Nicky Hopkins",
+        "Chris Wood"
+      ],
+      "answer": 0,
+      "fact": "The Electric Ladyland track is distinct from the shorter \"Voodoo Child (Slight Return)\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q102",
+      "prompt": "Which Jefferson Airplane member plays bass on Hendrix's \"Voodoo Chile\"?",
+      "choices": [
+        "Jorma Kaukonen",
+        "Jack Casady",
+        "Paul Kantner",
+        "Spencer Dryden"
+      ],
+      "answer": 1,
+      "fact": "Casady joined Steve Winwood and Mitch Mitchell for the long Electric Ladyland jam.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q103",
+      "prompt": "Who drums on Hendrix's \"Rainy Day, Dream Away\" and \"Still Raining, Still Dreaming\"?",
+      "choices": [
+        "Mitch Mitchell",
+        "Aynsley Dunbar",
+        "Buddy Miles",
+        "Carmine Appice"
+      ],
+      "answer": 2,
+      "fact": "Miles guests on Electric Ladyland before joining Hendrix's Band of Gypsys.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q104",
+      "prompt": "Which Experience member wrote \"Little Miss Strange\" on Electric Ladyland?",
+      "choices": [
+        "Mitch Mitchell",
+        "Jimi Hendrix",
+        "Billy Cox",
+        "Noel Redding"
+      ],
+      "answer": 3,
+      "fact": "The bassist's pop song is one of the double album's departures from Hendrix's own writing.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q105",
+      "prompt": "Which Hendrix album includes both \"Voodoo Chile\" and \"Voodoo Child (Slight Return)\"?",
+      "choices": [
+        "Electric Ladyland",
+        "Are You Experienced",
+        "Axis: Bold as Love",
+        "Band of Gypsys"
+      ],
+      "answer": 0,
+      "fact": "The 1968 double album places the long blues jam near the start and the shorter song at the end.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q106",
+      "prompt": "Which engineer worked with Hendrix on Electric Ladyland and later engineered albums for Led Zeppelin?",
+      "choices": [
+        "Alan Parsons",
+        "Eddie Kramer",
+        "Geoff Emerick",
+        "Ken Scott"
+      ],
+      "answer": 1,
+      "fact": "Kramer was one of the engineers credited on Hendrix's final studio album with the Experience.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q107",
+      "prompt": "Which Elvis Presley bassist plays on the Doors' L.A. Woman?",
+      "choices": [
+        "Donald Dunn",
+        "Joe Osborn",
+        "Jerry Scheff",
+        "Carol Kaye"
+      ],
+      "answer": 2,
+      "fact": "Scheff's electric bass gave Ray Manzarek more freedom on keyboards during the sessions.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q108",
+      "prompt": "Which guitarist joined the Doors as an additional player on L.A. Woman?",
+      "choices": [
+        "Jesse Ed Davis",
+        "Ry Cooder",
+        "David Lindley",
+        "Marc Benno"
+      ],
+      "answer": 3,
+      "fact": "Benno supplied rhythm guitar alongside Robby Krieger on several tracks.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q109",
+      "prompt": "Who co-produced L.A. Woman with the Doors after Paul A. Rothchild left the sessions?",
+      "choices": [
+        "Bruce Botnick",
+        "Paul Rothchild",
+        "Jac Holzman",
+        "David Rubinson"
+      ],
+      "answer": 0,
+      "fact": "Botnick had engineered the band's earlier records and now took a production role.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q110",
+      "prompt": "Where did Jim Morrison record vocals at the Doors' rehearsal space during L.A. Woman?",
+      "choices": [
+        "In a parked limousine",
+        "In the bathroom doorway",
+        "In a kitchen pantry",
+        "In a freight elevator"
+      ],
+      "answer": 1,
+      "fact": "The band converted its own workshop into a recording space instead of renting a conventional studio.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q111",
+      "prompt": "The Doors' phrase \"Mr. Mojo Risin'\" is an anagram of whose name?",
+      "choices": [
+        "John Densmore",
+        "Ray Manzarek",
+        "Jim Morrison",
+        "Robby Krieger"
+      ],
+      "answer": 2,
+      "fact": "Morrison repeats the rearranged name in the title track of L.A. Woman.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q112",
+      "prompt": "Which song closes the Doors' L.A. Woman with rain and thunder effects?",
+      "choices": [
+        "The Changeling",
+        "Love Her Madly",
+        "Hyacinth House",
+        "Riders on the Storm"
+      ],
+      "answer": 3,
+      "fact": "The atmospheric final track also layers Morrison's whispered voice beneath his main vocal.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q113",
+      "prompt": "Despite their bayou imagery, Creedence Clearwater Revival formed in which state?",
+      "choices": [
+        "California",
+        "Louisiana",
+        "Mississippi",
+        "Alabama"
+      ],
+      "answer": 0,
+      "fact": "The musicians came together in El Cerrito in the San Francisco Bay Area.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q114",
+      "prompt": "Which Creedence member's nickname supplied the title Cosmo's Factory?",
+      "choices": [
+        "John Fogerty",
+        "Doug Clifford",
+        "Tom Fogerty",
+        "Stu Cook"
+      ],
+      "answer": 1,
+      "fact": "The \"factory\" was the band's rehearsal warehouse, where John Fogerty insisted on regular practice.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q115",
+      "prompt": "Who played bass in Creedence Clearwater Revival?",
+      "choices": [
+        "Tom Fogerty",
+        "Doug Clifford",
+        "Stu Cook",
+        "John Fogerty"
+      ],
+      "answer": 2,
+      "fact": "Cook formed the rhythm section with drummer Doug Clifford.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q116",
+      "prompt": "What name did Creedence Clearwater Revival use immediately before adopting its familiar name?",
+      "choices": [
+        "The Beau Brummels",
+        "The Leaves",
+        "The Knickerbockers",
+        "The Golliwogs"
+      ],
+      "answer": 3,
+      "fact": "Before that, the core musicians had played together as the Blue Velvets.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q117",
+      "prompt": "Which Creedence member produced Cosmo's Factory?",
+      "choices": [
+        "John Fogerty",
+        "Tom Fogerty",
+        "Doug Clifford",
+        "Stu Cook"
+      ],
+      "answer": 0,
+      "fact": "The Fantasy Records album combines Fogerty originals with songs from the band's roots-music repertoire.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q118",
+      "prompt": "Which Creedence album contains the 11-minute version of \"I Heard It Through the Grapevine\"?",
+      "choices": [
+        "Green River",
+        "Cosmo's Factory",
+        "Pendulum",
+        "Willy and the Poor Boys"
+      ],
+      "answer": 1,
+      "fact": "The extended cover sits alongside compact singles such as \"Travelin' Band\" and \"Up Around the Bend\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q119",
+      "prompt": "Who painted the cover of the Band's Music from Big Pink?",
+      "choices": [
+        "Robbie Robertson",
+        "Joni Mitchell",
+        "Bob Dylan",
+        "Richard Manuel"
+      ],
+      "answer": 2,
+      "fact": "Dylan also shared writing credits on several songs, including \"Tears of Rage\" and \"This Wheel's on Fire\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q120",
+      "prompt": "What was the \"Big Pink\" in the title of the Band's debut album?",
+      "choices": [
+        "A nightclub in Toronto",
+        "A recording studio in Nashville",
+        "A hotel in Los Angeles",
+        "A house in West Saugerties"
+      ],
+      "answer": 3,
+      "fact": "Members lived and made music in the house, but the album itself was recorded in professional studios.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q121",
+      "prompt": "Who produced the Band's first two studio albums?",
+      "choices": [
+        "John Simon",
+        "Bob Johnston",
+        "Paul A. Rothchild",
+        "David Rubinson"
+      ],
+      "answer": 0,
+      "fact": "Simon also contributed instruments to the sessions for Music from Big Pink and The Band.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q122",
+      "prompt": "Which Band member played bass and co-wrote \"This Wheel's on Fire\" with Bob Dylan?",
+      "choices": [
+        "Levon Helm",
+        "Rick Danko",
+        "Garth Hudson",
+        "Robbie Robertson"
+      ],
+      "answer": 1,
+      "fact": "The song appeared on Music from Big Pink, with Danko singing the lead.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q123",
+      "prompt": "Which Band member was the pianist and co-writer of \"Tears of Rage\" with Bob Dylan?",
+      "choices": [
+        "Rick Danko",
+        "Garth Hudson",
+        "Richard Manuel",
+        "Levon Helm"
+      ],
+      "answer": 2,
+      "fact": "Manuel's lead vocal opens Music from Big Pink with that song.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q124",
+      "prompt": "Garth Hudson's introduction to \"Chest Fever\" was played on which make of organ?",
+      "choices": [
+        "Hammond",
+        "Farfisa",
+        "Vox",
+        "Lowrey"
+      ],
+      "answer": 3,
+      "fact": "Hudson's heavily treated organ sound became a signature of the Band's concerts as well as the debut album.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q125",
+      "prompt": "Whose painting Annunciation appears on Santana's Abraxas cover?",
+      "choices": [
+        "Mati Klarwein",
+        "Roger Dean",
+        "Martin Sharp",
+        "Rick Griffin"
+      ],
+      "answer": 0,
+      "fact": "The band used a detail of the painting for its second studio album.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q126",
+      "prompt": "Which Santana member sings lead and plays keyboards on Abraxas?",
+      "choices": [
+        "David Brown",
+        "Gregg Rolie",
+        "Michael Carabello",
+        "Michael Shrieve"
+      ],
+      "answer": 1,
+      "fact": "Rolie's keyboard work sits alongside Carlos Santana's guitar and the group's percussion section.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q127",
+      "prompt": "Who is the drummer on Santana's Abraxas?",
+      "choices": [
+        "Gregg Errico",
+        "Aynsley Dunbar",
+        "Michael Shrieve",
+        "Billy Cobham"
+      ],
+      "answer": 2,
+      "fact": "Shrieve plays the drum kit while José Areas and Michael Carabello add percussion.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q128",
+      "prompt": "Santana's album title Abraxas came from which Hermann Hesse novel?",
+      "choices": [
+        "Siddhartha",
+        "Steppenwolf",
+        "Narcissus and Goldmund",
+        "Demian"
+      ],
+      "answer": 3,
+      "fact": "A passage from the novel was quoted on the album's back cover.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q129",
+      "prompt": "Which Santana album places \"Black Magic Woman/Gypsy Queen\" beside \"Oye Como Va\"?",
+      "choices": [
+        "Abraxas",
+        "Caravanserai",
+        "Santana III",
+        "Welcome"
+      ],
+      "answer": 0,
+      "fact": "The 1970 album mixes songs by other writers with the band's own instrumental pieces.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q130",
+      "prompt": "What does Santana's instrumental title \"Samba Pa Ti\" mean in English?",
+      "choices": [
+        "Dance of the Moon",
+        "Samba for You",
+        "Song of the Wind",
+        "Rhythm of the Night"
+      ],
+      "answer": 1,
+      "fact": "Carlos Santana wrote the instrumental for Abraxas, where it appears on the second side.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q131",
+      "prompt": "Which future Mountain bassist produced Cream's Disraeli Gears?",
+      "choices": [
+        "Jack Douglas",
+        "Gus Dudgeon",
+        "Felix Pappalardi",
+        "Tony Visconti"
+      ],
+      "answer": 2,
+      "fact": "Tom Dowd engineered the sessions at Atlantic Studios in New York.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q132",
+      "prompt": "Which Australian artist designed Cream's psychedelic Disraeli Gears cover?",
+      "choices": [
+        "Mati Klarwein",
+        "Roger Dean",
+        "Barney Bubbles",
+        "Martin Sharp"
+      ],
+      "answer": 3,
+      "fact": "Sharp also wrote the words for \"Tales of Brave Ulysses\" with music by Eric Clapton.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q133",
+      "prompt": "Which poet shares the writing credit for Cream's \"Sunshine of Your Love\" with Jack Bruce and Eric Clapton?",
+      "choices": [
+        "Pete Brown",
+        "Keith Reid",
+        "Peter Sinfield",
+        "Bernie Taupin"
+      ],
+      "answer": 0,
+      "fact": "Brown became a regular lyric-writing partner for Bruce during and after Cream.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q134",
+      "prompt": "Which Cream member sings the original album version of \"Blue Condition\"?",
+      "choices": [
+        "Jack Bruce",
+        "Ginger Baker",
+        "Eric Clapton",
+        "Felix Pappalardi"
+      ],
+      "answer": 1,
+      "fact": "Baker wrote the song; an alternate take with Clapton singing appeared on a later reissue.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q135",
+      "prompt": "Cream's title Disraeli Gears was a mistaken version of which cycling term?",
+      "choices": [
+        "Cantilever brakes",
+        "Freewheel hubs",
+        "Derailleur gears",
+        "Cotterless cranks"
+      ],
+      "answer": 2,
+      "fact": "A roadie's verbal slip during a conversation about racing bicycles supplied the title.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q136",
+      "prompt": "Which Heartbreaker plays the piano and organ on Damn the Torpedoes?",
+      "choices": [
+        "Mike Campbell",
+        "Ron Blair",
+        "Stan Lynch",
+        "Benmont Tench"
+      ],
+      "answer": 3,
+      "fact": "Tench's keyboards are a central part of the band's sound alongside Petty and Campbell's guitars.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q137",
+      "prompt": "Which Heartbreaker co-wrote \"Refugee\" with Tom Petty?",
+      "choices": [
+        "Mike Campbell",
+        "Benmont Tench",
+        "Ron Blair",
+        "Stan Lynch"
+      ],
+      "answer": 0,
+      "fact": "Campbell also shares a writing credit on \"Here Comes My Girl\" from Damn the Torpedoes.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q138",
+      "prompt": "Which Stax bassist guests on \"You Tell Me\" from Damn the Torpedoes?",
+      "choices": [
+        "James Jamerson",
+        "Donald \"Duck\" Dunn",
+        "David Hood",
+        "Chuck Rainey"
+      ],
+      "answer": 1,
+      "fact": "The guest spot is separate from Ron Blair's role as the Heartbreakers' bassist.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q139",
+      "prompt": "Who was the Heartbreakers' drummer on Damn the Torpedoes?",
+      "choices": [
+        "Steve Ferrone",
+        "Jim Keltner",
+        "Stan Lynch",
+        "Phil Jones"
+      ],
+      "answer": 2,
+      "fact": "Lynch was part of the band that made the 1979 album with producer Jimmy Iovine.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q140",
+      "prompt": "Which producer worked with Tom Petty on Damn the Torpedoes?",
+      "choices": [
+        "Jeff Lynne",
+        "Rick Rubin",
+        "Denny Cordell",
+        "Jimmy Iovine"
+      ],
+      "answer": 3,
+      "fact": "Shelly Yakus engineered the album, recorded at Sound City and Cherokee.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q141",
+      "prompt": "Who drums on Springsteen's original studio recording of \"Born to Run\"?",
+      "choices": [
+        "Ernest Carter",
+        "Max Weinberg",
+        "Vini Lopez",
+        "Gary Mallaber"
+      ],
+      "answer": 0,
+      "fact": "Carter and pianist David Sancious left the E Street Band before the rest of the album was finished.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q142",
+      "prompt": "Who plays the piano on Springsteen's studio recording of \"Backstreets\"?",
+      "choices": [
+        "David Sancious",
+        "Roy Bittan",
+        "Danny Federici",
+        "Nicky Hopkins"
+      ],
+      "answer": 1,
+      "fact": "Bittan joined as David Sancious's replacement during the making of Born to Run.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q143",
+      "prompt": "Which long song closes Bruce Springsteen's Born to Run album?",
+      "choices": [
+        "Thunder Road",
+        "Backstreets",
+        "Jungleland",
+        "She's the One"
+      ],
+      "answer": 2,
+      "fact": "The closing track gives Clarence Clemons an extended saxophone feature.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q144",
+      "prompt": "Who worked out the horn arrangement in the studio for Springsteen's \"Tenth Avenue Freeze-Out\"?",
+      "choices": [
+        "Clarence Clemons",
+        "Danny Federici",
+        "Garry Tallent",
+        "Steven Van Zandt"
+      ],
+      "answer": 3,
+      "fact": "Van Zandt helped before formally joining the E Street Band.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q145",
+      "prompt": "Which song opens Bruce Springsteen's Born to Run album with harmonica and piano?",
+      "choices": [
+        "Thunder Road",
+        "Jungleland",
+        "Backstreets",
+        "Meeting Across the River"
+      ],
+      "answer": 0,
+      "fact": "Roy Bittan plays the piano part alongside Springsteen's harmonica.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q146",
+      "prompt": "Who sang the soaring lead vocals on Boston's 1976 debut?",
+      "choices": [
+        "Fran Cosmo",
+        "Brad Delp",
+        "Tommy DeCarlo",
+        "Tom Scholz"
+      ],
+      "answer": 1,
+      "fact": "Delp also wrote the closing track, \"Let Me Take You Home Tonight\".",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q147",
+      "prompt": "Which producer helped Tom Scholz make Boston's debut while keeping the label away from his basement sessions?",
+      "choices": [
+        "Roy Thomas Baker",
+        "Ted Templeman",
+        "John Boylan",
+        "Jack Douglas"
+      ],
+      "answer": 2,
+      "fact": "Boylan handled work in Los Angeles while Scholz recorded much of the album in Massachusetts.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q148",
+      "prompt": "Who plays drums on Boston's studio recording of \"Rock & Roll Band\"?",
+      "choices": [
+        "Sib Hashian",
+        "Doug Clifford",
+        "Roger Earl",
+        "Jim Masdea"
+      ],
+      "answer": 3,
+      "fact": "Masdea's performance comes from the sessions that grew into the debut album; Hashian plays on the other tracks.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q149",
+      "prompt": "Which song on Boston's debut was written solely by Brad Delp?",
+      "choices": [
+        "Let Me Take You Home Tonight",
+        "Peace of Mind",
+        "Something About You",
+        "Hitch a Ride"
+      ],
+      "answer": 0,
+      "fact": "Most of the album was written by Tom Scholz; Delp also shares credit on \"Smokin'\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q150",
+      "prompt": "The flying craft on Boston's debut album cover are shaped like which instruments?",
+      "choices": [
+        "Violins",
+        "Guitars",
+        "Saxophones",
+        "Trumpets"
+      ],
+      "answer": 1,
+      "fact": "The spaceship-guitar image became a recurring part of Boston's album art.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q151",
+      "prompt": "Who produced Aerosmith's Toys in the Attic?",
+      "choices": [
+        "Bob Ezrin",
+        "Roy Thomas Baker",
+        "Jack Douglas",
+        "Tom Werman"
+      ],
+      "answer": 2,
+      "fact": "Douglas also worked with the band on Get Your Wings and Rocks.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q152",
+      "prompt": "Which Aerosmith member came up with the bass riff for \"Sweet Emotion\"?",
+      "choices": [
+        "Joe Perry",
+        "Brad Whitford",
+        "Steven Tyler",
+        "Tom Hamilton"
+      ],
+      "answer": 3,
+      "fact": "Hamilton shares the writing credit with Tyler on the Toys in the Attic track.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q153",
+      "prompt": "Who plays drums in Aerosmith's classic Toys in the Attic lineup?",
+      "choices": [
+        "Joey Kramer",
+        "Tom Hamilton",
+        "Brad Whitford",
+        "Joe Perry"
+      ],
+      "answer": 0,
+      "fact": "Kramer supplies drums and percussion while Hamilton handles bass.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q154",
+      "prompt": "Which guitarist uses a talk box in the introduction to Aerosmith's \"Sweet Emotion\"?",
+      "choices": [
+        "Brad Whitford",
+        "Joe Perry",
+        "Tom Hamilton",
+        "Steven Tyler"
+      ],
+      "answer": 1,
+      "fact": "The effect joins Hamilton's bass riff in the track's slowly building introduction.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q155",
+      "prompt": "Who drew the caricatures on Aerosmith's Draw the Line cover?",
+      "choices": [
+        "R. Crumb",
+        "Rick Griffin",
+        "Al Hirschfeld",
+        "Robert Grossman"
+      ],
+      "answer": 2,
+      "fact": "The 1977 sleeve uses Hirschfeld's theatrical caricature style to depict the band.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q156",
+      "prompt": "Which Aerosmith album introduced both \"Sweet Emotion\" and \"Walk This Way\"?",
+      "choices": [
+        "Rocks",
+        "Get Your Wings",
+        "Draw the Line",
+        "Toys in the Attic"
+      ],
+      "answer": 3,
+      "fact": "The two songs appeared on the band's third studio album in 1975.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q157",
+      "prompt": "Which Wilson sister sings lead on Heart's original \"Magic Man\" and \"Crazy on You\"?",
+      "choices": [
+        "Ann Wilson",
+        "Nancy Wilson",
+        "Wendy Wilson",
+        "Carnie Wilson"
+      ],
+      "answer": 0,
+      "fact": "Both songs appear on Dreamboat Annie, recorded in Vancouver.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q158",
+      "prompt": "Which Wilson sister plays the acoustic guitar introduction to Heart's \"Crazy on You\"?",
+      "choices": [
+        "Ann Wilson",
+        "Nancy Wilson",
+        "Wendy Wilson",
+        "Carnie Wilson"
+      ],
+      "answer": 1,
+      "fact": "Her solo introduction leads into the full band's electric arrangement on Dreamboat Annie.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q159",
+      "prompt": "Besides singing, which wind instrument does Ann Wilson play on Dreamboat Annie?",
+      "choices": [
+        "Clarinet",
+        "Oboe",
+        "Flute",
+        "Saxophone"
+      ],
+      "answer": 2,
+      "fact": "Her flute is credited on \"Crazy on You\", \"Dreamboat Annie (Reprise)\" and \"Sing Child\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q160",
+      "prompt": "Who produced Heart's Dreamboat Annie?",
+      "choices": [
+        "Keith Olsen",
+        "Howard Leese",
+        "Ron Nevison",
+        "Mike Flicker"
+      ],
+      "answer": 3,
+      "fact": "Flicker helped the band make its debut at Can-Base Studios in Vancouver.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q161",
+      "prompt": "Which label released the original Dreamboat Annie and became embroiled in Heart's Magazine dispute?",
+      "choices": [
+        "Mushroom",
+        "Portrait",
+        "A&M",
+        "Capitol"
+      ],
+      "answer": 0,
+      "fact": "Heart moved to Portrait while Mushroom issued an unfinished version of Magazine.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q162",
+      "prompt": "Which Blue Öyster Cult album contains \"(Don't Fear) The Reaper\"?",
+      "choices": [
+        "Secret Treaties",
+        "Agents of Fortune",
+        "Tyranny and Mutation",
+        "Fire of Unknown Origin"
+      ],
+      "answer": 1,
+      "fact": "The 1976 album also features Patti Smith on \"The Revenge of Vera Gemini\".",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q163",
+      "prompt": "Blue Öyster Cult guitarist Buck Dharma's real name is what?",
+      "choices": [
+        "Allen Lanier",
+        "Eric Bloom",
+        "Donald Roeser",
+        "Joe Bouchard"
+      ],
+      "answer": 2,
+      "fact": "Roeser wrote and sang \"(Don't Fear) The Reaper\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q164",
+      "prompt": "Which singer-poet co-wrote \"Debbie Denise\" and guests on \"The Revenge of Vera Gemini\" by Blue Öyster Cult?",
+      "choices": [
+        "Jim Carroll",
+        "Richard Hell",
+        "Tom Verlaine",
+        "Patti Smith"
+      ],
+      "answer": 3,
+      "fact": "Both songs appeared on Agents of Fortune, with Albert Bouchard sharing the writing credits.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q165",
+      "prompt": "Which lyricist co-wrote Blue Öyster Cult's \"Sinful Love\" and \"Tattoo Vampire\"?",
+      "choices": [
+        "Helen Wheels",
+        "Patti Smith",
+        "Sandy Pearlman",
+        "Richard Meltzer"
+      ],
+      "answer": 0,
+      "fact": "Albert Bouchard wrote the music for both Agents of Fortune tracks.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q166",
+      "prompt": "Which Blue Öyster Cult member plays drums on Agents of Fortune?",
+      "choices": [
+        "Joe Bouchard",
+        "Albert Bouchard",
+        "Allen Lanier",
+        "Eric Bloom"
+      ],
+      "answer": 1,
+      "fact": "Joe plays bass; Albert also sings lead on several songs, including \"Sinful Love\".",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q167",
+      "prompt": "Bad Company bassist Boz Burrell had previously sung and played bass in which band?",
+      "choices": [
+        "Spooky Tooth",
+        "Traffic",
+        "King Crimson",
+        "Humble Pie"
+      ],
+      "answer": 2,
+      "fact": "He joined Paul Rodgers, Simon Kirke and Mick Ralphs in Bad Company's original lineup.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q168",
+      "prompt": "Which band did guitarist Mick Ralphs leave to form Bad Company?",
+      "choices": [
+        "Free",
+        "Uriah Heep",
+        "Savoy Brown",
+        "Mott the Hoople"
+      ],
+      "answer": 3,
+      "fact": "He brought \"Ready for Love\" from his former band's repertoire to Bad Company's debut.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q169",
+      "prompt": "Which Led Zeppelin-founded label released Bad Company's debut in the US?",
+      "choices": [
+        "Swan Song",
+        "Apple",
+        "Harvest",
+        "Track"
+      ],
+      "answer": 0,
+      "fact": "The album appeared on Island in the UK and Swan Song in the US.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q170",
+      "prompt": "Which Bad Company album includes \"Feel Like Makin' Love\" and \"Shooting Star\"?",
+      "choices": [
+        "Run with the Pack",
+        "Straight Shooter",
+        "Burnin' Sky",
+        "Desolation Angels"
+      ],
+      "answer": 1,
+      "fact": "The band's second album followed its self-titled debut.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q171",
+      "prompt": "Who plays rhythm guitar on Dire Straits' 1978 debut album?",
+      "choices": [
+        "Mark Knopfler",
+        "John Illsley",
+        "David Knopfler",
+        "Pick Withers"
+      ],
+      "answer": 2,
+      "fact": "Mark sings and plays lead guitar, with David, Illsley and Withers completing the quartet.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q172",
+      "prompt": "Who is the drummer on Dire Straits' 1978 debut?",
+      "choices": [
+        "Terry Williams",
+        "Omar Hakim",
+        "Chris Whitten",
+        "Pick Withers"
+      ],
+      "answer": 3,
+      "fact": "Withers stayed through Love over Gold before Terry Williams took over for the next tour.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q173",
+      "prompt": "Which former Spencer Davis Group bassist produced Dire Straits' debut?",
+      "choices": [
+        "Muff Winwood",
+        "Steve Winwood",
+        "Denny Cordell",
+        "Chris Thomas"
+      ],
+      "answer": 0,
+      "fact": "Rhett Davies engineered the album at Basing Street Studios in London.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q174",
+      "prompt": "Which 14-minute song opens Dire Straits' Love over Gold?",
+      "choices": [
+        "Private Investigations",
+        "Telegraph Road",
+        "Tunnel of Love",
+        "It Never Rains"
+      ],
+      "answer": 1,
+      "fact": "The long opener fills most of the original album's first side.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q175",
+      "prompt": "Which pair produced Journey's Escape?",
+      "choices": [
+        "Keith Olsen and Roy Thomas Baker",
+        "Ted Templeman and Donn Landee",
+        "Mike Stone and Kevin Elson",
+        "Robert John Lange and Tony Platt"
+      ],
+      "answer": 2,
+      "fact": "Stone also engineered the album, which was recorded at Fantasy Studios in Berkeley.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q176",
+      "prompt": "Which Journey member plays the opening piano figure on \"Don't Stop Believin'\"?",
+      "choices": [
+        "Neal Schon",
+        "Ross Valory",
+        "Steve Smith",
+        "Jonathan Cain"
+      ],
+      "answer": 3,
+      "fact": "Escape was Cain's first Journey album after Gregg Rolie left the band.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q177",
+      "prompt": "Which Journey guitarist had played in Santana before co-founding Journey?",
+      "choices": [
+        "Neal Schon",
+        "Gregg Rolie",
+        "Ross Valory",
+        "George Tickner"
+      ],
+      "answer": 0,
+      "fact": "Schon and keyboardist Rolie both came from Santana's early-1970s lineup.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q178",
+      "prompt": "Which singer made his first Journey studio album with Infinity?",
+      "choices": [
+        "Gregg Rolie",
+        "Steve Perry",
+        "Robert Fleischman",
+        "Steve Augeri"
+      ],
+      "answer": 1,
+      "fact": "Perry joined in 1977, before the band's commercial breakthrough with Infinity.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q179",
+      "prompt": "Before Journey, Jonathan Cain played keyboards in which British band?",
+      "choices": [
+        "Player",
+        "Ambrosia",
+        "The Babys",
+        "Pilot"
+      ],
+      "answer": 2,
+      "fact": "Cain joined Journey for Escape after Gregg Rolie's departure.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q180",
+      "prompt": "Which Kansas member played violin as well as sharing lead vocals in the 1970s?",
+      "choices": [
+        "Kerry Livgren",
+        "Steve Walsh",
+        "Rich Williams",
+        "Robby Steinhardt"
+      ],
+      "answer": 3,
+      "fact": "His violin adds a distinctive texture alongside the band's two guitars and keyboards.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q181",
+      "prompt": "Which producer worked with Kansas on Leftoverture and Point of Know Return?",
+      "choices": [
+        "Jeff Glixman",
+        "Terry Brown",
+        "Eddy Offord",
+        "David Hentschel"
+      ],
+      "answer": 0,
+      "fact": "Glixman also worked on the earlier Song for America album.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q182",
+      "prompt": "Which Kansas album opens with \"Carry On Wayward Son\"?",
+      "choices": [
+        "Masque",
+        "Leftoverture",
+        "Song for America",
+        "Monolith"
+      ],
+      "answer": 1,
+      "fact": "The album closes with the multi-part \"Magnum Opus\".",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q183",
+      "prompt": "Who sings the lead vocal on Kansas's original \"Dust in the Wind\"?",
+      "choices": [
+        "Robby Steinhardt",
+        "Kerry Livgren",
+        "Steve Walsh",
+        "Rich Williams"
+      ],
+      "answer": 2,
+      "fact": "The acoustic song appears on Point of Know Return.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q184",
+      "prompt": "Which Styx member wrote and sings \"Come Sail Away\"?",
+      "choices": [
+        "Tommy Shaw",
+        "James Young",
+        "Chuck Panozzo",
+        "Dennis DeYoung"
+      ],
+      "answer": 3,
+      "fact": "The piano-led song appears on The Grand Illusion.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q185",
+      "prompt": "Which Styx album marked Tommy Shaw's recording debut with the band?",
+      "choices": [
+        "Crystal Ball",
+        "Equinox",
+        "Man of Miracles",
+        "The Serpent Is Rising"
+      ],
+      "answer": 0,
+      "fact": "Shaw wrote the title track and sang \"Mademoiselle\" on the album.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q186",
+      "prompt": "Which Panozzo twin played bass in Styx?",
+      "choices": [
+        "John Panozzo",
+        "Chuck Panozzo",
+        "Dennis DeYoung",
+        "James Young"
+      ],
+      "answer": 1,
+      "fact": "John was the drummer in the lineup that made The Grand Illusion.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q187",
+      "prompt": "Which Styx album places \"Prelude 12\" immediately before \"Suite Madame Blue\"?",
+      "choices": [
+        "Crystal Ball",
+        "The Grand Illusion",
+        "Equinox",
+        "Pieces of Eight"
+      ],
+      "answer": 2,
+      "fact": "The short acoustic piece is credited to guitarist John Curulewski.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q188",
+      "prompt": "Jeff Lynne, Roy Wood and Bev Bevan were in which group before Electric Light Orchestra?",
+      "choices": [
+        "The Idle Race",
+        "The Action",
+        "The Creation",
+        "The Move"
+      ],
+      "answer": 3,
+      "fact": "ELO began as a project to bring orchestral instruments into a rock group.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q189",
+      "prompt": "Who was Electric Light Orchestra's drummer on its classic 1970s albums?",
+      "choices": [
+        "Bev Bevan",
+        "Roy Wood",
+        "Richard Tandy",
+        "Kelly Groucutt"
+      ],
+      "answer": 0,
+      "fact": "Bevan had also played drums in the Move.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q190",
+      "prompt": "Which violinist joined Electric Light Orchestra in 1973 and played on Out of the Blue?",
+      "choices": [
+        "Hugh McDowell",
+        "Mik Kaminski",
+        "Melvyn Gale",
+        "Kelly Groucutt"
+      ],
+      "answer": 1,
+      "fact": "McDowell and Gale played cellos, while Groucutt played bass.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q191",
+      "prompt": "What is the title of the four-song suite on side three of ELO's Out of the Blue?",
+      "choices": [
+        "Eldorado Overture",
+        "The Whale",
+        "Concerto for a Rainy Day",
+        "Fire on High"
+      ],
+      "answer": 2,
+      "fact": "The suite moves through weather-themed songs and ends with \"Mr. Blue Sky\".",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q192",
+      "prompt": "Electric Light Orchestra formed in which English city?",
+      "choices": [
+        "Manchester",
+        "Liverpool",
+        "Newcastle",
+        "Birmingham"
+      ],
+      "answer": 3,
+      "fact": "The band grew out of musicians associated with the Move.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q193",
+      "prompt": "Which guitar pair plays on Thin Lizzy's original \"The Boys Are Back in Town\"?",
+      "choices": [
+        "Scott Gorham and Brian Robertson",
+        "Eric Bell and Gary Moore",
+        "Gary Moore and Snowy White",
+        "John Sykes and Scott Gorham"
+      ],
+      "answer": 0,
+      "fact": "The two guitarists are part of the quartet on Jailbreak.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q194",
+      "prompt": "Who plays drums alongside Phil Lynott on Thin Lizzy's Jailbreak?",
+      "choices": [
+        "Brian Robertson",
+        "Brian Downey",
+        "Scott Gorham",
+        "Gary Moore"
+      ],
+      "answer": 1,
+      "fact": "Downey and Lynott had played together before forming Thin Lizzy.",
+      "difficulty": 1
+    },
+    {
+      "id": "classic-rock-q195",
+      "prompt": "Which guitarist partners Scott Gorham on Thin Lizzy's Black Rose: A Rock Legend?",
+      "choices": [
+        "Brian Robertson",
+        "Snowy White",
+        "Gary Moore",
+        "John Sykes"
+      ],
+      "answer": 2,
+      "fact": "Moore stayed long enough to make a full Thin Lizzy studio album with the 1979 release.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q196",
+      "prompt": "Who produced Thin Lizzy's Jailbreak?",
+      "choices": [
+        "Tony Visconti",
+        "Nick Tauber",
+        "Chris Tsangarides",
+        "John Alcock"
+      ],
+      "answer": 3,
+      "fact": "The band recorded at the Who's Ramport studio in London.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q197",
+      "prompt": "Which San Francisco venue supplied recordings for Frampton Comes Alive!?",
+      "choices": [
+        "Winterland Ballroom",
+        "Fillmore West",
+        "Avalon Ballroom",
+        "Great American Music Hall"
+      ],
+      "answer": 0,
+      "fact": "The double album combines material from several 1975 concerts.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q198",
+      "prompt": "Who is the keyboard player Peter Frampton introduces on Frampton Comes Alive!?",
+      "choices": [
+        "Chris Stainton",
+        "Bob Mayo",
+        "John Bundrick",
+        "John Gosling"
+      ],
+      "answer": 1,
+      "fact": "Mayo also plays rhythm guitar and sings backing vocals on the live album.",
+      "difficulty": 3
+    },
+    {
+      "id": "classic-rock-q199",
+      "prompt": "Which band did Peter Frampton form with Steve Marriott before his solo career?",
+      "choices": [
+        "Free",
+        "Spooky Tooth",
+        "Humble Pie",
+        "Savoy Brown"
+      ],
+      "answer": 2,
+      "fact": "Marriott had left the Small Faces while Frampton came from the Herd.",
+      "difficulty": 2
+    },
+    {
+      "id": "classic-rock-q200",
+      "prompt": "Which guitarist made \"Show Me the Way\" and \"Baby, I Love Your Way\" live hits in 1976?",
+      "choices": [
+        "Steve Marriott",
+        "Robin Trower",
+        "Rory Gallagher",
+        "Peter Frampton"
+      ],
+      "answer": 3,
+      "fact": "Both songs first appeared as studio recordings on his 1975 album Frampton.",
+      "difficulty": 1
     }
   ],
   "songs": [
@@ -791,6 +2741,142 @@
       "year": 1968,
       "album": "Music from Big Pink",
       "note": "Robbie Robertson wrote it, and the Staple Singers joined the Band to perform it in The Last Waltz."
+    },
+    {
+      "id": "classic-rock-s18",
+      "title": "Sunshine of Your Love",
+      "artist": "Cream",
+      "year": 1967,
+      "album": "Disraeli Gears",
+      "note": "Pete Brown shares the writing credit with Jack Bruce and Eric Clapton."
+    },
+    {
+      "id": "classic-rock-s19",
+      "title": "Purple Haze",
+      "artist": "The Jimi Hendrix Experience",
+      "year": 1967,
+      "album": "Are You Experienced",
+      "note": "A British single before it became the opening track of the debut album's North American edition."
+    },
+    {
+      "id": "classic-rock-s20",
+      "title": "Whole Lotta Love",
+      "artist": "Led Zeppelin",
+      "year": 1969,
+      "album": "Led Zeppelin II",
+      "note": "The opening track of Led Zeppelin II."
+    },
+    {
+      "id": "classic-rock-s21",
+      "title": "Fortunate Son",
+      "artist": "Creedence Clearwater Revival",
+      "year": 1969,
+      "album": "Willy and the Poor Boys",
+      "note": "John Fogerty wrote and sang the song."
+    },
+    {
+      "id": "classic-rock-s22",
+      "title": "Up on Cripple Creek",
+      "artist": "The Band",
+      "year": 1969,
+      "album": "The Band",
+      "note": "Levon Helm sings lead on the Band's second studio album."
+    },
+    {
+      "id": "classic-rock-s23",
+      "title": "Oye Como Va",
+      "artist": "Santana",
+      "year": 1970,
+      "album": "Abraxas",
+      "note": "Tito Puente wrote and recorded the song before Santana brought it to a rock audience."
+    },
+    {
+      "id": "classic-rock-s24",
+      "title": "Lola",
+      "artist": "The Kinks",
+      "year": 1970,
+      "album": "Lola Versus Powerman and the Moneygoround, Part One",
+      "note": "Ray Davies wrote the song, first released as a single before its parent album."
+    },
+    {
+      "id": "classic-rock-s25",
+      "title": "Do It Again",
+      "artist": "Steely Dan",
+      "year": 1972,
+      "album": "Can't Buy a Thrill",
+      "note": "Denny Dias plays the electric sitar solo."
+    },
+    {
+      "id": "classic-rock-s26",
+      "title": "Dream On",
+      "artist": "Aerosmith",
+      "year": 1973,
+      "album": "Aerosmith",
+      "note": "Steven Tyler wrote the piano-led ballad for the band's debut album."
+    },
+    {
+      "id": "classic-rock-s27",
+      "title": "Rebel Rebel",
+      "artist": "David Bowie",
+      "year": 1974,
+      "album": "Diamond Dogs",
+      "note": "The riff-driven single appeared before the Diamond Dogs album."
+    },
+    {
+      "id": "classic-rock-s28",
+      "title": "Slow Ride",
+      "artist": "Foghat",
+      "year": 1975,
+      "album": "Fool for the City",
+      "note": "Rod Price plays slide guitar on the extended blues-rock track."
+    },
+    {
+      "id": "classic-rock-s29",
+      "title": "Magic Man",
+      "artist": "Heart",
+      "year": 1975,
+      "album": "Dreamboat Annie",
+      "note": "First released in Canada before the album reached the US market."
+    },
+    {
+      "id": "classic-rock-s30",
+      "title": "Carry On Wayward Son",
+      "artist": "Kansas",
+      "year": 1976,
+      "album": "Leftoverture",
+      "note": "Kerry Livgren wrote the song that opens Leftoverture."
+    },
+    {
+      "id": "classic-rock-s31",
+      "title": "(Don't Fear) The Reaper",
+      "artist": "Blue Öyster Cult",
+      "year": 1976,
+      "album": "Agents of Fortune",
+      "note": "Buck Dharma, credited as Donald Roeser, wrote and sang the song."
+    },
+    {
+      "id": "classic-rock-s32",
+      "title": "Come Sail Away",
+      "artist": "Styx",
+      "year": 1977,
+      "album": "The Grand Illusion",
+      "note": "Dennis DeYoung wrote and sings the piano-led track."
+    },
+    {
+      "id": "classic-rock-s33",
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "year": 1981,
+      "album": "Escape",
+      "note": "Steve Perry, Neal Schon and Jonathan Cain share the writing credit."
+    },
+    {
+      "id": "classic-rock-s34",
+      "title": "Comfortably Numb",
+      "artist": "Pink Floyd",
+      "year": 1979,
+      "album": "The Wall",
+      "note": "David Gilmour and Roger Waters share the writing credit."
     }
   ],
   "stories": [
@@ -1029,6 +3115,126 @@
         "Billy Joel"
       ],
       "note": "Springsteen released it on his 1973 debut album. The Earth Band's recording reached number one on the US pop chart in early 1977."
+    },
+    {
+      "id": "classic-rock-c09",
+      "title": "All Along the Watchtower",
+      "artist": "The Jimi Hendrix Experience",
+      "year": 1968,
+      "album": "Electric Ladyland",
+      "original": "Bob Dylan",
+      "originalYear": 1967,
+      "decoys": [
+        "Neil Young",
+        "Leonard Cohen",
+        "Donovan"
+      ],
+      "note": "Dylan released it on John Wesley Harding in 1967. Hendrix recorded his electric version for Electric Ladyland."
+    },
+    {
+      "id": "classic-rock-c10",
+      "title": "Oye Como Va",
+      "artist": "Santana",
+      "year": 1970,
+      "album": "Abraxas",
+      "original": "Tito Puente",
+      "originalYear": 1962,
+      "decoys": [
+        "Mongo Santamaria",
+        "Ray Barretto",
+        "Willie Bobo"
+      ],
+      "note": "Puente released the song on El Rey Bravo in 1962. Santana adapted it for Abraxas, retaining the Spanish vocal."
+    },
+    {
+      "id": "classic-rock-c11",
+      "title": "Feelin' Alright",
+      "artist": "Joe Cocker",
+      "year": 1969,
+      "album": "With a Little Help from My Friends",
+      "original": "Traffic",
+      "originalYear": 1968,
+      "decoys": [
+        "The Spencer Davis Group",
+        "Procol Harum",
+        "The Small Faces"
+      ],
+      "note": "Dave Mason wrote it for Traffic's second album. Cocker recorded it for his 1969 debut."
+    },
+    {
+      "id": "classic-rock-c12",
+      "title": "Some Kind of Wonderful",
+      "artist": "Grand Funk Railroad",
+      "year": 1974,
+      "album": "All the Girls in the World Beware!!!",
+      "original": "Soul Brothers Six",
+      "originalYear": 1967,
+      "decoys": [
+        "The Temptations",
+        "The Four Tops",
+        "The Rascals"
+      ],
+      "note": "John Ellison wrote and sang the original with Soul Brothers Six. Grand Funk made a hit of their version in the following decade."
+    },
+    {
+      "id": "classic-rock-c13",
+      "title": "This Flight Tonight",
+      "artist": "Nazareth",
+      "year": 1973,
+      "album": "Loud 'n' Proud",
+      "original": "Joni Mitchell",
+      "originalYear": 1971,
+      "decoys": [
+        "Carole King",
+        "Carly Simon",
+        "Judy Collins"
+      ],
+      "note": "Mitchell released it on Blue. Nazareth turned her acoustic song into a hard-rock single."
+    },
+    {
+      "id": "classic-rock-c14",
+      "title": "After Midnight",
+      "artist": "Eric Clapton",
+      "year": 1970,
+      "album": "Eric Clapton",
+      "original": "J.J. Cale",
+      "originalYear": 1966,
+      "decoys": [
+        "Leon Russell",
+        "Delaney Bramlett",
+        "Tony Joe White"
+      ],
+      "note": "Cale first released it on a 1966 Liberty single, before his later Naturally recording. Clapton included it on his 1970 solo debut."
+    },
+    {
+      "id": "classic-rock-c15",
+      "title": "Evil Ways",
+      "artist": "Santana",
+      "year": 1969,
+      "album": "Santana",
+      "original": "Willie Bobo",
+      "originalYear": 1967,
+      "decoys": [
+        "Tito Puente",
+        "Mongo Santamaria",
+        "Ray Barretto"
+      ],
+      "note": "Clarence \"Sonny\" Henry wrote it, and Willie Bobo released it on Bobo Motion. Santana's recording appeared on their debut album."
+    },
+    {
+      "id": "classic-rock-c16",
+      "title": "You Really Got Me",
+      "artist": "Van Halen",
+      "year": 1978,
+      "album": "Van Halen",
+      "original": "The Kinks",
+      "originalYear": 1964,
+      "decoys": [
+        "The Who",
+        "The Yardbirds",
+        "The Troggs"
+      ],
+      "note": "Ray Davies wrote the Kinks' original. Van Halen chose it as the first single from their debut album."
     }
   ]
 }

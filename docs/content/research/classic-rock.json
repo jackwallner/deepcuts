@@ -1,0 +1,2543 @@
+{
+  "crate": "classic-rock",
+  "items": {
+    "classic-rock-q51": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+        "https://archive.pinkfloyd.com/music/musicians_studio.html",
+        "https://en.wikipedia.org/wiki/The_Great_Gig_in_the_Sky"
+      ],
+      "checked_answer": "Alan Parsons",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q52": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+        "https://archive.pinkfloyd.com/music/musicians_studio.html",
+        "https://en.wikipedia.org/wiki/The_Great_Gig_in_the_Sky"
+      ],
+      "checked_answer": "Clare Torry",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q53": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+        "https://archive.pinkfloyd.com/music/musicians_studio.html",
+        "https://en.wikipedia.org/wiki/The_Great_Gig_in_the_Sky"
+      ],
+      "checked_answer": "Dick Parry",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q54": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Money_(Pink_Floyd_song)",
+        "https://www.mixonline.com/recording/classic-tracks/classic-tracks-pink-floyds-money"
+      ],
+      "checked_answer": "7/4",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q55": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+        "https://archive.pinkfloyd.com/music/musicians_studio.html",
+        "https://en.wikipedia.org/wiki/The_Great_Gig_in_the_Sky"
+      ],
+      "checked_answer": "Richard Wright",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q56": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+        "https://archive.pinkfloyd.com/music/musicians_studio.html",
+        "https://en.wikipedia.org/wiki/The_Great_Gig_in_the_Sky"
+      ],
+      "checked_answer": "Richard Wright",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q57": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+        "https://archive.pinkfloyd.com/music/musicians_studio.html",
+        "https://en.wikipedia.org/wiki/The_Great_Gig_in_the_Sky"
+      ],
+      "checked_answer": "Nick Mason",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q58": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_album)",
+        "https://archive.pinkfloyd.com/history/timeline_1975",
+        "https://amateurphotographer.com/iconic-images/great-album-photography-wish-you-were-here-pink-floyd/"
+      ],
+      "checked_answer": "Roy Harper",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q59": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_album)",
+        "https://archive.pinkfloyd.com/history/timeline_1975",
+        "https://amateurphotographer.com/iconic-images/great-album-photography-wish-you-were-here-pink-floyd/"
+      ],
+      "checked_answer": "Ronnie Rondell Jr.",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q60": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_album)",
+        "https://archive.pinkfloyd.com/history/timeline_1975",
+        "https://amateurphotographer.com/iconic-images/great-album-photography-wish-you-were-here-pink-floyd/"
+      ],
+      "checked_answer": "Wish You Were Here",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q61": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "Sandy Denny",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q62": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "Ian Stewart",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q63": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "John Bonham used four drumsticks",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q64": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "Mandolin",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q65": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "John Paul Jones",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q66": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "An animal hanging around Headley Grange",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q67": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "Jimmy Page",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q68": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "John Paul Jones",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q69": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "Keep A-Knockin'",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q70": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      ],
+      "checked_answer": "Andy Johns",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q71": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Who%27s_Next",
+        "https://en.wikipedia.org/wiki/Going_Mobile",
+        "https://progrography.com/who/the-who-whos-next-1971/"
+      ],
+      "checked_answer": "Dave Arbus",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q72": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Who%27s_Next",
+        "https://en.wikipedia.org/wiki/Going_Mobile",
+        "https://progrography.com/who/the-who-whos-next-1971/"
+      ],
+      "checked_answer": "Nicky Hopkins",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q73": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Who%27s_Next",
+        "https://en.wikipedia.org/wiki/Going_Mobile",
+        "https://progrography.com/who/the-who-whos-next-1971/"
+      ],
+      "checked_answer": "John Entwistle",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q74": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Who%27s_Next",
+        "https://en.wikipedia.org/wiki/Going_Mobile",
+        "https://progrography.com/who/the-who-whos-next-1971/"
+      ],
+      "checked_answer": "Glyn Johns",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q75": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Who%27s_Next",
+        "https://en.wikipedia.org/wiki/Going_Mobile",
+        "https://progrography.com/who/the-who-whos-next-1971/"
+      ],
+      "checked_answer": "Won't Get Fooled Again",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q76": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Who%27s_Next",
+        "https://en.wikipedia.org/wiki/Going_Mobile",
+        "https://progrography.com/who/the-who-whos-next-1971/"
+      ],
+      "checked_answer": "Pete Townshend",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q77": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Who%27s_Next",
+        "https://en.wikipedia.org/wiki/Going_Mobile",
+        "https://progrography.com/who/the-who-whos-next-1971/"
+      ],
+      "checked_answer": "Roger Daltrey",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q78": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rumours_(album)",
+        "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+        "https://www.grammy.com/news/ken-caillat-revisits-rumours/"
+      ],
+      "checked_answer": "Christine McVie",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q79": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rumours_(album)",
+        "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+        "https://www.grammy.com/news/ken-caillat-revisits-rumours/"
+      ],
+      "checked_answer": "Zellerbach Auditorium",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q80": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rumours_(album)",
+        "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+        "https://www.grammy.com/news/ken-caillat-revisits-rumours/"
+      ],
+      "checked_answer": "The Chain",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q81": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Silver_Springs_(song)",
+        "https://www.rhino.com/article/the-rumours-are-true-fleetwood-mac-to-reissue-landmark-album"
+      ],
+      "checked_answer": "Silver Springs",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q82": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rumours_(album)",
+        "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+        "https://www.grammy.com/news/ken-caillat-revisits-rumours/"
+      ],
+      "checked_answer": "Christine McVie",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q83": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rumours_(album)",
+        "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+        "https://www.grammy.com/news/ken-caillat-revisits-rumours/"
+      ],
+      "checked_answer": "Stevie Nicks",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q84": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rumours_(album)",
+        "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+        "https://www.grammy.com/news/ken-caillat-revisits-rumours/"
+      ],
+      "checked_answer": "Lindsey Buckingham",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q85": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rumours_(album)",
+        "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+        "https://www.grammy.com/news/ken-caillat-revisits-rumours/"
+      ],
+      "checked_answer": "Ken Caillat and Richard Dashut",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q86": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)",
+        "https://brianmay.com/queen-news/2025/09/press-release-a-night-at-the-opera-album-and-bohemian-rhapsody-single-reissues/"
+      ],
+      "checked_answer": "John Deacon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q87": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)",
+        "https://brianmay.com/queen-news/2025/09/press-release-a-night-at-the-opera-album-and-bohemian-rhapsody-single-reissues/"
+      ],
+      "checked_answer": "Wurlitzer",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q88": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)",
+        "https://brianmay.com/queen-news/2025/09/press-release-a-night-at-the-opera-album-and-bohemian-rhapsody-single-reissues/"
+      ],
+      "checked_answer": "Time dilation",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q89": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)",
+        "https://brianmay.com/queen-news/2025/09/press-release-a-night-at-the-opera-album-and-bohemian-rhapsody-single-reissues/"
+      ],
+      "checked_answer": "Roger Taylor",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q90": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)",
+        "https://brianmay.com/queen-news/2025/09/press-release-a-night-at-the-opera-album-and-bohemian-rhapsody-single-reissues/"
+      ],
+      "checked_answer": "Koto",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q91": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)",
+        "https://brianmay.com/queen-news/2025/09/press-release-a-night-at-the-opera-album-and-bohemian-rhapsody-single-reissues/"
+      ],
+      "checked_answer": "Harp",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q92": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)",
+        "https://brianmay.com/queen-news/2025/09/press-release-a-night-at-the-opera-album-and-bohemian-rhapsody-single-reissues/"
+      ],
+      "checked_answer": "The Marx Brothers",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q93": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)",
+        "https://brianmay.com/queen-news/2025/09/press-release-a-night-at-the-opera-album-and-bohemian-rhapsody-single-reissues/"
+      ],
+      "checked_answer": "God Save the Queen",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q94": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hotel_California_(album)",
+        "https://www.donhenleyonline.com/eagles/hotelcalifornia/linernotes.htm"
+      ],
+      "checked_answer": "Randy Meisner",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q95": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hotel_California_(album)",
+        "https://www.donhenleyonline.com/eagles/hotelcalifornia/linernotes.htm"
+      ],
+      "checked_answer": "Joe Walsh",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q96": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hotel_California_(album)",
+        "https://www.donhenleyonline.com/eagles/hotelcalifornia/linernotes.htm"
+      ],
+      "checked_answer": "Glenn Frey",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q97": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hotel_California_(album)",
+        "https://www.donhenleyonline.com/eagles/hotelcalifornia/linernotes.htm"
+      ],
+      "checked_answer": "J.D. Souther",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q98": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hotel_California_(album)",
+        "https://www.donhenleyonline.com/eagles/hotelcalifornia/linernotes.htm"
+      ],
+      "checked_answer": "Bill Szymczyk",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q99": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hotel_California_(album)",
+        "https://www.donhenleyonline.com/eagles/hotelcalifornia/linernotes.htm"
+      ],
+      "checked_answer": "The Last Resort",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q100": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hotel_California_(album)",
+        "https://www.donhenleyonline.com/eagles/hotelcalifornia/linernotes.htm"
+      ],
+      "checked_answer": "Don Henley",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q101": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Ladyland",
+        "https://albumlinernotes.com/Electric_Ladyland__93_.html",
+        "https://www.jimihendrix.com/fr/music/the-making-of-electric-ladyland/",
+        "https://en.wikipedia.org/wiki/Eddie_Kramer"
+      ],
+      "checked_answer": "Steve Winwood",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q102": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Ladyland",
+        "https://albumlinernotes.com/Electric_Ladyland__93_.html",
+        "https://www.jimihendrix.com/fr/music/the-making-of-electric-ladyland/",
+        "https://en.wikipedia.org/wiki/Eddie_Kramer"
+      ],
+      "checked_answer": "Jack Casady",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q103": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Ladyland",
+        "https://albumlinernotes.com/Electric_Ladyland__93_.html",
+        "https://www.jimihendrix.com/fr/music/the-making-of-electric-ladyland/",
+        "https://en.wikipedia.org/wiki/Eddie_Kramer"
+      ],
+      "checked_answer": "Buddy Miles",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q104": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Ladyland",
+        "https://albumlinernotes.com/Electric_Ladyland__93_.html",
+        "https://www.jimihendrix.com/fr/music/the-making-of-electric-ladyland/",
+        "https://en.wikipedia.org/wiki/Eddie_Kramer"
+      ],
+      "checked_answer": "Noel Redding",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q105": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Ladyland",
+        "https://albumlinernotes.com/Electric_Ladyland__93_.html",
+        "https://www.jimihendrix.com/fr/music/the-making-of-electric-ladyland/",
+        "https://en.wikipedia.org/wiki/Eddie_Kramer"
+      ],
+      "checked_answer": "Electric Ladyland",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q106": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Ladyland",
+        "https://albumlinernotes.com/Electric_Ladyland__93_.html",
+        "https://www.jimihendrix.com/fr/music/the-making-of-electric-ladyland/",
+        "https://en.wikipedia.org/wiki/Eddie_Kramer"
+      ],
+      "checked_answer": "Eddie Kramer",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q107": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/L.A._Woman",
+        "https://www.stereophile.com/content/recording-february-2022-doors-la-woman-50th-anniversary-deluxe-edition"
+      ],
+      "checked_answer": "Jerry Scheff",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q108": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/L.A._Woman",
+        "https://www.stereophile.com/content/recording-february-2022-doors-la-woman-50th-anniversary-deluxe-edition"
+      ],
+      "checked_answer": "Marc Benno",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q109": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/L.A._Woman",
+        "https://www.stereophile.com/content/recording-february-2022-doors-la-woman-50th-anniversary-deluxe-edition"
+      ],
+      "checked_answer": "Bruce Botnick",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q110": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/L.A._Woman",
+        "https://www.stereophile.com/content/recording-february-2022-doors-la-woman-50th-anniversary-deluxe-edition"
+      ],
+      "checked_answer": "In the bathroom doorway",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q111": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/L.A._Woman",
+        "https://www.stereophile.com/content/recording-february-2022-doors-la-woman-50th-anniversary-deluxe-edition"
+      ],
+      "checked_answer": "Jim Morrison",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q112": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/L.A._Woman",
+        "https://www.stereophile.com/content/recording-february-2022-doors-la-woman-50th-anniversary-deluxe-edition"
+      ],
+      "checked_answer": "Riders on the Storm",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q113": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Creedence_Clearwater_Revival",
+        "https://dougcosmoclifford.com/bio/"
+      ],
+      "checked_answer": "California",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q114": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cosmo%27s_Factory"
+      ],
+      "checked_answer": "Doug Clifford",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q115": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Creedence_Clearwater_Revival",
+        "https://dougcosmoclifford.com/bio/"
+      ],
+      "checked_answer": "Stu Cook",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q116": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Creedence_Clearwater_Revival",
+        "https://dougcosmoclifford.com/bio/"
+      ],
+      "checked_answer": "The Golliwogs",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q117": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cosmo%27s_Factory"
+      ],
+      "checked_answer": "John Fogerty",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q118": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cosmo%27s_Factory"
+      ],
+      "checked_answer": "Cosmo's Factory",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q119": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_from_Big_Pink"
+      ],
+      "checked_answer": "Bob Dylan",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q120": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_from_Big_Pink"
+      ],
+      "checked_answer": "A house in West Saugerties",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q121": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_from_Big_Pink"
+      ],
+      "checked_answer": "John Simon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q122": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_from_Big_Pink"
+      ],
+      "checked_answer": "Rick Danko",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q123": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_from_Big_Pink"
+      ],
+      "checked_answer": "Richard Manuel",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q124": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chest_Fever",
+        "https://theband.hiof.no/articles/keyboard_magazine_garth_1983.html"
+      ],
+      "checked_answer": "Lowrey",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q125": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abraxas_(album)",
+        "https://www.kuvo.org/news/record-story-abraxas"
+      ],
+      "checked_answer": "Mati Klarwein",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q126": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abraxas_(album)",
+        "https://www.kuvo.org/news/record-story-abraxas"
+      ],
+      "checked_answer": "Gregg Rolie",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q127": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abraxas_(album)",
+        "https://www.kuvo.org/news/record-story-abraxas"
+      ],
+      "checked_answer": "Michael Shrieve",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q128": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abraxas_(album)",
+        "https://www.kuvo.org/news/record-story-abraxas"
+      ],
+      "checked_answer": "Demian",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q129": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abraxas_(album)",
+        "https://www.kuvo.org/news/record-story-abraxas"
+      ],
+      "checked_answer": "Abraxas",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q130": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abraxas_(album)",
+        "https://www.kuvo.org/news/record-story-abraxas"
+      ],
+      "checked_answer": "Samba for You",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q131": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disraeli_Gears",
+        "https://www.loudersound.com/features/cream-disraeli-gears-story-behind-album",
+        "https://albumlinernotes.com/Disraeli_Gears.html"
+      ],
+      "checked_answer": "Felix Pappalardi",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q132": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disraeli_Gears",
+        "https://www.loudersound.com/features/cream-disraeli-gears-story-behind-album",
+        "https://albumlinernotes.com/Disraeli_Gears.html"
+      ],
+      "checked_answer": "Martin Sharp",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q133": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disraeli_Gears",
+        "https://www.loudersound.com/features/cream-disraeli-gears-story-behind-album",
+        "https://albumlinernotes.com/Disraeli_Gears.html"
+      ],
+      "checked_answer": "Pete Brown",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q134": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disraeli_Gears",
+        "https://www.loudersound.com/features/cream-disraeli-gears-story-behind-album",
+        "https://albumlinernotes.com/Disraeli_Gears.html"
+      ],
+      "checked_answer": "Ginger Baker",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q135": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disraeli_Gears",
+        "https://www.loudersound.com/features/cream-disraeli-gears-story-behind-album",
+        "https://albumlinernotes.com/Disraeli_Gears.html"
+      ],
+      "checked_answer": "Derailleur gears",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q136": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Damn_the_Torpedoes_(album)",
+        "https://www.tompetty.com/pages/track-listing/damn-the-torpedoes"
+      ],
+      "checked_answer": "Benmont Tench",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q137": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Damn_the_Torpedoes_(album)",
+        "https://www.tompetty.com/pages/track-listing/damn-the-torpedoes"
+      ],
+      "checked_answer": "Mike Campbell",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q138": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Damn_the_Torpedoes_(album)",
+        "https://www.tompetty.com/pages/track-listing/damn-the-torpedoes"
+      ],
+      "checked_answer": "Donald \"Duck\" Dunn",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q139": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Damn_the_Torpedoes_(album)",
+        "https://www.tompetty.com/pages/track-listing/damn-the-torpedoes"
+      ],
+      "checked_answer": "Stan Lynch",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q140": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Damn_the_Torpedoes_(album)",
+        "https://www.tompetty.com/pages/track-listing/damn-the-torpedoes"
+      ],
+      "checked_answer": "Jimmy Iovine",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q141": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Born_to_Run",
+        "https://songlexikon.de/songs/borntorun/"
+      ],
+      "checked_answer": "Ernest Carter",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q142": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Born_to_Run",
+        "https://songlexikon.de/songs/borntorun/"
+      ],
+      "checked_answer": "Roy Bittan",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q143": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Born_to_Run",
+        "https://songlexikon.de/songs/borntorun/"
+      ],
+      "checked_answer": "Jungleland",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q144": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Born_to_Run",
+        "https://songlexikon.de/songs/borntorun/"
+      ],
+      "checked_answer": "Steven Van Zandt",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q145": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Born_to_Run",
+        "https://songlexikon.de/songs/borntorun/"
+      ],
+      "checked_answer": "Thunder Road",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q146": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boston_(album)",
+        "https://www.gonnahitcharide.com/media-library/albums/boston-original-recording"
+      ],
+      "checked_answer": "Brad Delp",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q147": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boston_(album)",
+        "https://www.gonnahitcharide.com/media-library/albums/boston-original-recording"
+      ],
+      "checked_answer": "John Boylan",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q148": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boston_(album)",
+        "https://www.gonnahitcharide.com/media-library/albums/boston-original-recording"
+      ],
+      "checked_answer": "Jim Masdea",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q149": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boston_(album)",
+        "https://www.gonnahitcharide.com/media-library/albums/boston-original-recording"
+      ],
+      "checked_answer": "Let Me Take You Home Tonight",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q150": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boston_(album)",
+        "https://www.gonnahitcharide.com/media-library/albums/boston-original-recording"
+      ],
+      "checked_answer": "Guitars",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q151": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Toys_in_the_Attic_(album)",
+        "https://www.universalmusic.it/popular-music/album/toys-in-the-attic_36159147645/",
+        "https://albumlinernotes.com/Toys_In_The_Attic.html"
+      ],
+      "checked_answer": "Jack Douglas",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q152": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Toys_in_the_Attic_(album)",
+        "https://www.universalmusic.it/popular-music/album/toys-in-the-attic_36159147645/",
+        "https://albumlinernotes.com/Toys_In_The_Attic.html"
+      ],
+      "checked_answer": "Tom Hamilton",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q153": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Toys_in_the_Attic_(album)",
+        "https://www.universalmusic.it/popular-music/album/toys-in-the-attic_36159147645/",
+        "https://albumlinernotes.com/Toys_In_The_Attic.html"
+      ],
+      "checked_answer": "Joey Kramer",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q154": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Toys_in_the_Attic_(album)",
+        "https://www.universalmusic.it/popular-music/album/toys-in-the-attic_36159147645/",
+        "https://albumlinernotes.com/Toys_In_The_Attic.html"
+      ],
+      "checked_answer": "Joe Perry",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q155": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Draw_the_Line_(Aerosmith_album)"
+      ],
+      "checked_answer": "Al Hirschfeld",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q156": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Toys_in_the_Attic_(album)",
+        "https://www.universalmusic.it/popular-music/album/toys-in-the-attic_36159147645/",
+        "https://albumlinernotes.com/Toys_In_The_Attic.html"
+      ],
+      "checked_answer": "Toys in the Attic",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q157": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dreamboat_Annie",
+        "https://albumlinernotes.com/Dreamboat_Annie.html",
+        "https://www.loudersound.com/bands-artists/hearts-dreamboat-annie"
+      ],
+      "checked_answer": "Ann Wilson",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q158": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Crazy_on_You",
+        "https://www.guitarworld.com/news/nancy-wilson-heart-acoustic-guitar-silver-wheels"
+      ],
+      "checked_answer": "Nancy Wilson",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q159": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dreamboat_Annie",
+        "https://albumlinernotes.com/Dreamboat_Annie.html",
+        "https://www.loudersound.com/bands-artists/hearts-dreamboat-annie"
+      ],
+      "checked_answer": "Flute",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q160": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dreamboat_Annie",
+        "https://albumlinernotes.com/Dreamboat_Annie.html",
+        "https://www.loudersound.com/bands-artists/hearts-dreamboat-annie"
+      ],
+      "checked_answer": "Mike Flicker",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q161": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Magazine_(Heart_album)"
+      ],
+      "checked_answer": "Mushroom",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q162": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Agents_of_Fortune",
+        "https://www.hotrails.co.uk/albertbouchard/helenwheels/"
+      ],
+      "checked_answer": "Agents of Fortune",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q163": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blue_%C3%96yster_Cult"
+      ],
+      "checked_answer": "Donald Roeser",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q164": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Agents_of_Fortune",
+        "https://www.hotrails.co.uk/albertbouchard/helenwheels/"
+      ],
+      "checked_answer": "Patti Smith",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q165": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Agents_of_Fortune",
+        "https://www.hotrails.co.uk/albertbouchard/helenwheels/"
+      ],
+      "checked_answer": "Helen Wheels",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q166": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Agents_of_Fortune",
+        "https://www.hotrails.co.uk/albertbouchard/helenwheels/"
+      ],
+      "checked_answer": "Albert Bouchard",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q167": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bad_Company_(album)",
+        "https://en.wikipedia.org/wiki/Bad_Company"
+      ],
+      "checked_answer": "King Crimson",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q168": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bad_Company_(album)",
+        "https://en.wikipedia.org/wiki/Bad_Company"
+      ],
+      "checked_answer": "Mott the Hoople",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q169": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bad_Company_(album)",
+        "https://en.wikipedia.org/wiki/Bad_Company"
+      ],
+      "checked_answer": "Swan Song",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q170": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Straight_Shooter_(Bad_Company_album)"
+      ],
+      "checked_answer": "Straight Shooter",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q171": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dire_Straits_(album)"
+      ],
+      "checked_answer": "David Knopfler",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q172": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dire_Straits_(album)"
+      ],
+      "checked_answer": "Pick Withers",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q173": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dire_Straits_(album)"
+      ],
+      "checked_answer": "Muff Winwood",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q174": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Love_over_Gold"
+      ],
+      "checked_answer": "Telegraph Road",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q175": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Escape_(Journey_album)"
+      ],
+      "checked_answer": "Mike Stone and Kevin Elson",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q176": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Escape_(Journey_album)"
+      ],
+      "checked_answer": "Jonathan Cain",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q177": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Journey_(band)",
+        "https://www.mixonline.com/recording/classic-tracks/classic-tracks-journeys-dont-stop-believin-365833"
+      ],
+      "checked_answer": "Neal Schon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q178": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Infinity_(Journey_album)"
+      ],
+      "checked_answer": "Steve Perry",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q179": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Journey_(band)",
+        "https://www.mixonline.com/recording/classic-tracks/classic-tracks-journeys-dont-stop-believin-365833"
+      ],
+      "checked_answer": "The Babys",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q180": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Leftoverture"
+      ],
+      "checked_answer": "Robby Steinhardt",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q181": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Leftoverture"
+      ],
+      "checked_answer": "Jeff Glixman",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q182": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Leftoverture"
+      ],
+      "checked_answer": "Leftoverture",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ],
+      "correction": "Removed instrumental from the explanation: Magnum Opus includes vocals."
+    },
+    "classic-rock-q183": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Point_of_Know_Return"
+      ],
+      "checked_answer": "Steve Walsh",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q184": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Grand_Illusion"
+      ],
+      "checked_answer": "Dennis DeYoung",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q185": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Crystal_Ball_(Styx_album)"
+      ],
+      "checked_answer": "Crystal Ball",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q186": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Grand_Illusion"
+      ],
+      "checked_answer": "Chuck Panozzo",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q187": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Equinox_(Styx_album)"
+      ],
+      "checked_answer": "Equinox",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q188": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Light_Orchestra"
+      ],
+      "checked_answer": "The Move",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q189": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Light_Orchestra"
+      ],
+      "checked_answer": "Bev Bevan",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q190": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Light_Orchestra"
+      ],
+      "checked_answer": "Mik Kaminski",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q191": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Out_of_the_Blue_(Electric_Light_Orchestra_album)"
+      ],
+      "checked_answer": "Concerto for a Rainy Day",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q192": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_Light_Orchestra"
+      ],
+      "checked_answer": "Birmingham",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q193": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jailbreak_(album)",
+        "https://www.vintageguitar.com/47675/?amp=&noamp=mobile",
+        "https://www.thinlizzyofficial.com/thin-lizzy-a-rocknroll-history/"
+      ],
+      "checked_answer": "Scott Gorham and Brian Robertson",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q194": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jailbreak_(album)",
+        "https://www.vintageguitar.com/47675/?amp=&noamp=mobile",
+        "https://www.thinlizzyofficial.com/thin-lizzy-a-rocknroll-history/"
+      ],
+      "checked_answer": "Brian Downey",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q195": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Black_Rose:_A_Rock_Legend"
+      ],
+      "checked_answer": "Gary Moore",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q196": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jailbreak_(album)",
+        "https://www.vintageguitar.com/47675/?amp=&noamp=mobile",
+        "https://www.thinlizzyofficial.com/thin-lizzy-a-rocknroll-history/"
+      ],
+      "checked_answer": "John Alcock",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q197": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Frampton_Comes_Alive!"
+      ],
+      "checked_answer": "Winterland Ballroom",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q198": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Frampton_Comes_Alive!"
+      ],
+      "checked_answer": "Bob Mayo",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q199": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Humble_Pie",
+        "https://www.thesmallfaces.com/biography/steve-marriott/"
+      ],
+      "checked_answer": "Humble Pie",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-q200": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Frampton_Comes_Alive!"
+      ],
+      "checked_answer": "Peter Frampton",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "classic-rock-s18": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disraeli_Gears",
+        "https://www.loudersound.com/features/cream-disraeli-gears-story-behind-album",
+        "https://albumlinernotes.com/Disraeli_Gears.html"
+      ],
+      "checked_answer": "Cream",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s19": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Purple_Haze"
+      ],
+      "checked_answer": "The Jimi Hendrix Experience",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s20": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Whole_Lotta_Love"
+      ],
+      "checked_answer": "Led Zeppelin",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s21": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fortunate_Son"
+      ],
+      "checked_answer": "Creedence Clearwater Revival",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s22": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Up_on_Cripple_Creek"
+      ],
+      "checked_answer": "The Band",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s23": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oye_Como_Va",
+        "https://secondhandsongs.com/work/23855/all"
+      ],
+      "checked_answer": "Santana",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s24": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lola_(song)"
+      ],
+      "checked_answer": "The Kinks",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s25": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Do_It_Again_(Steely_Dan_song)"
+      ],
+      "checked_answer": "Steely Dan",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s26": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dream_On_(Aerosmith_song)"
+      ],
+      "checked_answer": "Aerosmith",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s27": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rebel_Rebel"
+      ],
+      "checked_answer": "David Bowie",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s28": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fool_for_the_City",
+        "https://www.vintageguitar.com/90834/pop-n-hiss-foghats-fool-for-the-city/"
+      ],
+      "checked_answer": "Foghat",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s29": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dreamboat_Annie",
+        "https://albumlinernotes.com/Dreamboat_Annie.html",
+        "https://www.loudersound.com/bands-artists/hearts-dreamboat-annie"
+      ],
+      "checked_answer": "Heart",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s30": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Leftoverture"
+      ],
+      "checked_answer": "Kansas",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s31": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Agents_of_Fortune",
+        "https://www.hotrails.co.uk/albertbouchard/helenwheels/"
+      ],
+      "checked_answer": "Blue Öyster Cult",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s32": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Grand_Illusion"
+      ],
+      "checked_answer": "Styx",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s33": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Escape_(Journey_album)"
+      ],
+      "checked_answer": "Journey",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-s34": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Comfortably_Numb"
+      ],
+      "checked_answer": "Pink Floyd",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "classic-rock-c09": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/All_Along_the_Watchtower",
+        "https://en.wikipedia.org/wiki/John_Wesley_Harding"
+      ],
+      "checked_answer": "Bob Dylan",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "classic-rock-c10": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oye_Como_Va",
+        "https://secondhandsongs.com/work/23855/all"
+      ],
+      "checked_answer": "Tito Puente",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "classic-rock-c11": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Feelin%27_Alright%3F",
+        "https://www.davemasonmusic.com/feelin-alright"
+      ],
+      "checked_answer": "Traffic",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "classic-rock-c12": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Some_Kind_of_Wonderful_(Soul_Brothers_Six_song)",
+        "https://rochestermusic.org/inductees/class-of-2024/john-ellison/"
+      ],
+      "checked_answer": "Soul Brothers Six",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "classic-rock-c13": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/This_Flight_Tonight",
+        "https://www.jonimitchell.com/music/covers-song.cfm?f=c&id=This+Flight+Tonight"
+      ],
+      "checked_answer": "Joni Mitchell",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "classic-rock-c14": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/After_Midnight_(J._J._Cale_song)",
+        "https://musicbrainz.org/release/de8783f9-a434-4c4e-abfe-b74151d4e853"
+      ],
+      "checked_answer": "J.J. Cale",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "classic-rock-c15": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Evil_Ways_(Santana_song)",
+        "https://www.originals.be/en/originals/1709"
+      ],
+      "checked_answer": "Willie Bobo",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "classic-rock-c16": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/You_Really_Got_Me",
+        "https://www.vhnd.com/van-halen-i/you-really-got-me/"
+      ],
+      "checked_answer": "The Kinks",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    }
+  },
+  "cuts": [
+    {
+      "candidate": "Artist behind the Hermit illustration in Led Zeppelin IV",
+      "reason": "Surname differs between the sleeve credit (Colby) and the reported actual spelling (Coleby). Replaced with the Andy Johns engineering question.",
+      "kind": "conflicting sources",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Led_Zeppelin_IV",
+        "https://www.thisdayinmusic.com/classic-albums/led-zeppelin-led-zeppelin-iv/"
+      ]
+    },
+    {
+      "candidate": "Performer of the cowbell on (Don't Fear) The Reaper",
+      "reason": "Conflicting accounts name Albert Bouchard, David Lucas and Eric Bloom. Excluded.",
+      "kind": "conflicting sources",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Agents_of_Fortune"
+      ]
+    },
+    {
+      "candidate": "Springsteen recording Nebraska on a four-track cassette recorder",
+      "reason": "Already asked by folk-singer-songwriter-q30. Excluded as a duplicate concept.",
+      "kind": "duplicate concept",
+      "sources": [
+        "https://brucespringsteen.net/albums/nebraska/"
+      ]
+    }
+  ],
+  "disagreements": [],
+  "before": {
+    "questions": 50,
+    "songs": 17,
+    "covers": 8
+  },
+  "after": {
+    "questions": 200,
+    "songs": 34,
+    "covers": 16
+  },
+  "difficulty_counts": {
+    "1": 68,
+    "2": 68,
+    "3": 64
+  },
+  "scope": "New items only. Existing questions, songs, stories and covers retained.",
+  "verification": {
+    "initial_pass": "Live web searches, album credits and artist or label references before adding each batch.",
+    "adversarial_pass": "All 175 new items reread after the crate reached its target, with sources fetched again. Answer scope, plausible alternatives, release chronology and cross-crate duplicates checked.",
+    "checked_on": "2026-10-22",
+    "batch_validation": [
+      "100 questions: zero errors",
+      "150 questions: zero errors",
+      "200 questions: zero errors"
+    ],
+    "catalog_resolution": "All 25 new audio entries playable; rerun reports no problems."
+  },
+  "catalog_adjustments": [
+    {
+      "id": "classic-rock-s21",
+      "reason": "Original-album Apple listing incorrectly reports 1968. Selected the 1969 mono single from The Singles Collection. Kept the verified first release year, 1969.",
+      "trackId": 1440939490
+    },
+    {
+      "id": "classic-rock-c12",
+      "reason": "Album match includes a hidden track and runs 6:32. Selected the standard 3:23 studio recording from Greatest Hits.",
+      "trackId": 715534872
+    }
+  ],
+  "unresolved_no_match": []
+}

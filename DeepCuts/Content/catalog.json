@@ -398,6 +398,62 @@
   "trackId": 1199683718,
   "trackViewUrl": "https://music.apple.com/us/album/blinded-by-the-light-single-edit/1199683332?i=1199683718&uo=4"
  },
+ "classic-rock-c09": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/2e/35/10/2e3510a4-6579-adc1-f484-a217c79494e5/886447318416.jpg/600x600bb.jpg",
+  "key": "All Along the Watchtower|The Jimi Hendrix Experience",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/ba/f9/a0baf972-3f2f-bc5b-e05a-6a4b72e55a27/mzaf_13045887064646210972.plus.aac.p.m4a",
+  "trackId": 1435652290,
+  "trackViewUrl": "https://music.apple.com/us/album/all-along-the-watchtower/1435652266?i=1435652290&uo=4"
+ },
+ "classic-rock-c10": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/30/03/7f/30037fd6-3292-1806-c806-5341391c9aac/886444593038.jpg/600x600bb.jpg",
+  "key": "Oye Como Va|Santana",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/74/5e/0b745e71-f2da-d787-0243-c79ca4e82015/mzaf_5545306012475464542.plus.aac.p.m4a",
+  "trackId": 871146601,
+  "trackViewUrl": "https://music.apple.com/us/album/oye-como-va/871146591?i=871146601&uo=4"
+ },
+ "classic-rock-c11": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/14/f3/bc/14f3bcca-264a-959e-f3eb-51b404cc081b/00602567821977.rgb.jpg/600x600bb.jpg",
+  "key": "Feelin' Alright|Joe Cocker",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/56/80/db56801c-8d7d-097c-4d8d-aa641b35173a/mzaf_12043936240202151785.plus.aac.p.m4a",
+  "trackId": 1434915605,
+  "trackViewUrl": "https://music.apple.com/us/album/feelin-alright/1434915597?i=1434915605&uo=4"
+ },
+ "classic-rock-c12": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bf/16/f3/bf16f373-0718-4e21-d9fa-d45cc0906feb/13UABIM12071.rgb.jpg/600x600bb.jpg",
+  "key": "Some Kind of Wonderful|Grand Funk Railroad",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/dc/f5/e8dcf581-b138-1e2b-17bd-87917b972f9c/mzaf_4275955924961100991.plus.aac.p.m4a",
+  "trackId": 715534872,
+  "trackViewUrl": "https://music.apple.com/us/album/some-kind-of-wonderful/715534629?i=715534872&uo=4"
+ },
+ "classic-rock-c13": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1f/b7/ac/1fb7ac37-b384-2137-836d-9419878a6dd3/23UMGIM16269.rgb.jpg/600x600bb.jpg",
+  "key": "This Flight Tonight|Nazareth",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/49/75/09497547-9aaa-d963-3816-5c0f07e72404/mzaf_1244997276655906242.plus.aac.p.m4a",
+  "trackId": 1675402358,
+  "trackViewUrl": "https://music.apple.com/us/album/this-flight-tonight/1675402076?i=1675402358&uo=4"
+ },
+ "classic-rock-c14": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/e3/93/46/e393460d-b63f-5b9d-9072-18f09b7f2ff6/00602537803408.rgb.jpg/600x600bb.jpg",
+  "key": "After Midnight|Eric Clapton",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/5b/1a/195b1acc-3479-0188-5d65-95f33d3513f9/mzaf_1965105967468146063.plus.aac.p.m4a",
+  "trackId": 1440863592,
+  "trackViewUrl": "https://music.apple.com/us/album/after-midnight/1440863256?i=1440863592&uo=4"
+ },
+ "classic-rock-c15": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bc/fd/23/bcfd234d-657d-3e51-b92d-762fb4301b6d/886444593021.jpg/600x600bb.jpg",
+  "key": "Evil Ways|Santana",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/45/5e/e4455ebf-d6e5-3f49-9889-326911f6c079/mzaf_15924062297170934376.plus.aac.p.m4a",
+  "trackId": 871134137,
+  "trackViewUrl": "https://music.apple.com/us/album/evil-ways/871131767?i=871134137&uo=4"
+ },
+ "classic-rock-c16": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7a/ef/88/7aef88ad-25aa-be91-eb78-8917c3f114f7/603497894130.jpg/600x600bb.jpg",
+  "key": "You Really Got Me|Van Halen",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/a3/30/60a33000-01d2-e7b9-67c0-e8540e6ca6a6/mzaf_5925016001126453243.plus.aac.p.m4a",
+  "trackId": 976820537,
+  "trackViewUrl": "https://music.apple.com/us/album/you-really-got-me/976820530?i=976820537&uo=4"
+ },
  "classic-rock-s01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/43/f6/14/43f61467-931b-21af-6b22-13717edc8ed9/603497870295.jpg/600x600bb.jpg",
   "key": "Light My Fire|The Doors",
@@ -516,6 +572,125 @@
   "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/72/fe/2872fec5-a591-8966-b444-c517db510822/mzaf_7218909187133486494.plus.aac.p.m4a",
   "trackId": 1440815149,
   "trackViewUrl": "https://music.apple.com/us/album/the-weight/1440814725?i=1440815149&uo=4"
+ },
+ "classic-rock-s18": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/3f/da/9f3fdaab-98af-bec1-633c-212a2705ccf3/00602537802913.rgb.jpg/600x600bb.jpg",
+  "key": "Sunshine of Your Love|Cream",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/b3/6c/aab36c7f-c119-7ac9-0efb-71816b55652f/mzaf_14195930874658131713.plus.aac.p.m4a",
+  "trackId": 1440817744,
+  "trackViewUrl": "https://music.apple.com/us/album/sunshine-of-your-love/1440817229?i=1440817744&uo=4"
+ },
+ "classic-rock-s19": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/67/45/006745f5-95d5-5a06-35ed-d515e9cfd7d8/dj.tbwlxwoh.jpg/600x600bb.jpg",
+  "key": "Purple Haze|The Jimi Hendrix Experience",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/99/84/9f9984a6-e21f-c2da-cf74-e66fb824573f/mzaf_12825826496232280545.plus.aac.p.m4a",
+  "trackId": 357225355,
+  "trackViewUrl": "https://music.apple.com/us/album/purple-haze/357225315?i=357225355&uo=4"
+ },
+ "classic-rock-s20": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d5/12/a0/d512a003-fbb3-9e46-b956-0bb81ff937e9/603497920075.jpg/600x600bb.jpg",
+  "key": "Whole Lotta Love|Led Zeppelin",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/e0/4d/a3e04df1-cb28-8505-7557-cd19430b0a00/mzaf_8453176796272910147.plus.aac.p.m4a",
+  "trackId": 836967297,
+  "trackViewUrl": "https://music.apple.com/us/album/whole-lotta-love/836967288?i=836967297&uo=4"
+ },
+ "classic-rock-s21": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6d/79/6c/6d796cfd-722a-d61d-4f67-1cc28162a0fc/00888072319141.rgb.jpg/600x600bb.jpg",
+  "key": "Fortunate Son|Creedence Clearwater Revival",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/10/fe/8110fe93-1a39-7500-33a0-32854b49e28f/mzaf_6977222994282817257.plus.aac.p.m4a",
+  "trackId": 1440939490,
+  "trackViewUrl": "https://music.apple.com/us/album/fortunate-son-mono-single/1440939465?i=1440939490&uo=4"
+ },
+ "classic-rock-s22": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/b2/06/cab20688-46b7-e7be-c64a-dbbeeb2fc864/15UMGIM06558.rgb.jpg/600x600bb.jpg",
+  "key": "Up on Cripple Creek|The Band",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/c9/81/70c98185-4a2e-da83-1c71-7e247e689aee/mzaf_17554852964901599471.plus.aac.p.m4a",
+  "trackId": 1440847004,
+  "trackViewUrl": "https://music.apple.com/us/album/up-on-cripple-creek/1440846597?i=1440847004&uo=4"
+ },
+ "classic-rock-s23": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/30/03/7f/30037fd6-3292-1806-c806-5341391c9aac/886444593038.jpg/600x600bb.jpg",
+  "key": "Oye Como Va|Santana",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/74/5e/0b745e71-f2da-d787-0243-c79ca4e82015/mzaf_5545306012475464542.plus.aac.p.m4a",
+  "trackId": 871146601,
+  "trackViewUrl": "https://music.apple.com/us/album/oye-como-va/871146591?i=871146601&uo=4"
+ },
+ "classic-rock-s24": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7b/ed/f5/7bedf5ba-9f25-68f6-d6e8-9fc7a2cb9ad7/4050538643596.jpg/600x600bb.jpg",
+  "key": "Lola|The Kinks",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/e5/41/f8e5417f-a512-1630-d6e1-1f36f0668fa8/mzaf_8926206948038860060.plus.aac.p.m4a",
+  "trackId": 1542626668,
+  "trackViewUrl": "https://music.apple.com/us/album/lola/1542626662?i=1542626668&uo=4"
+ },
+ "classic-rock-s25": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/08/f3/f1/08f3f17c-e92a-516f-57c0-0a5d250c6cdc/22UM1IM01200.rgb.jpg/600x600bb.jpg",
+  "key": "Do It Again|Steely Dan",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/70/93/d97093af-577f-5990-9ad9-ce3d951968b4/mzaf_2914233933443481741.plus.aac.p.m4a",
+  "trackId": 1650885292,
+  "trackViewUrl": "https://music.apple.com/us/album/do-it-again/1650885288?i=1650885292&uo=4"
+ },
+ "classic-rock-s26": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e2/87/d9/e287d987-7b92-7749-737f-b5b8a6913f88/22UM1IM38560.rgb.jpg/600x600bb.jpg",
+  "key": "Dream On|Aerosmith",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/96/43/f89643b7-3efa-9f43-0a78-394abf12864b/mzaf_3399344087154345151.plus.aac.p.m4a",
+  "trackId": 1658644941,
+  "trackViewUrl": "https://music.apple.com/us/album/dream-on/1658644936?i=1658644941&uo=4"
+ },
+ "classic-rock-s27": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/05/3a/fb/053afbb1-d7ec-6a7f-57d9-0d7bea7c38c6/190295990381.jpg/600x600bb.jpg",
+  "key": "Rebel Rebel|David Bowie",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/55/ea/c755ea4a-1451-84cf-1fea-ff848ed8321d/mzaf_5473009728746742228.plus.aac.p.m4a",
+  "trackId": 1195108771,
+  "trackViewUrl": "https://music.apple.com/us/album/rebel-rebel/1195107058?i=1195108771&uo=4"
+ },
+ "classic-rock-s28": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/3e/14/b6/3e14b609-3b68-63b0-e9ea-f44e6259c5f5/603497877621.jpg/600x600bb.jpg",
+  "key": "Slow Ride|Foghat",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/b8/d8/ecb8d85a-9539-6c27-1eb6-2c5b7e83905a/mzaf_7837633841934886295.plus.aac.p.m4a",
+  "trackId": 1098935842,
+  "trackViewUrl": "https://music.apple.com/us/album/slow-ride/1098935593?i=1098935842&uo=4"
+ },
+ "classic-rock-s29": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6b/eb/a8/6beba879-07ae-a03f-c1bc-091ca7064842/13UMGIM47968.rgb.jpg/600x600bb.jpg",
+  "key": "Magic Man|Heart",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/bd/93/24bd93c5-2011-32c3-f67f-48f8ebbea41a/mzaf_137028963923356712.plus.aac.p.m4a",
+  "trackId": 1440830903,
+  "trackViewUrl": "https://music.apple.com/us/album/magic-man/1440830899?i=1440830903&uo=4"
+ },
+ "classic-rock-s30": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/56/5b/88/mzi.hpnqhyuu.jpg/600x600bb.jpg",
+  "key": "Carry On Wayward Son|Kansas",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/4e/97/714e9707-b396-30a2-83ee-9a0a411a77dc/mzaf_17771455412700079863.plus.aac.p.m4a",
+  "trackId": 190655992,
+  "trackViewUrl": "https://music.apple.com/us/album/carry-on-wayward-son/190655957?i=190655992&uo=4"
+ },
+ "classic-rock-s31": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/68/f3/5368f34c-7e41-3e4c-d2c5-0f0447c23f07/dj.diysopyd.jpg/600x600bb.jpg",
+  "key": "(Don't Fear) The Reaper|Blue \u00d6yster Cult",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4a/10/e8/4a10e8a0-e6fe-44ae-357f-15ea81f402eb/mzaf_15709773690911352688.plus.aac.p.m4a",
+  "trackId": 217556132,
+  "trackViewUrl": "https://music.apple.com/us/album/dont-fear-the-reaper/217555955?i=217556132&uo=4"
+ },
+ "classic-rock-s32": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/32/78/8c327836-f69c-a8aa-79f1-2fa65f1fa9ab/06UMGIM01288.rgb.jpg/600x600bb.jpg",
+  "key": "Come Sail Away|Styx",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/8c/88/b98c8858-bc0b-53fc-7bd4-35f1d0540f28/mzaf_13541992108153470356.plus.aac.p.m4a",
+  "trackId": 1440713347,
+  "trackViewUrl": "https://music.apple.com/us/album/come-sail-away/1440713335?i=1440713347&uo=4"
+ },
+ "classic-rock-s33": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/47/d6/fe/47d6fe2f-b14c-d8a7-597c-8a40e094364e/886449932795.jpg/600x600bb.jpg",
+  "key": "Don't Stop Believin'|Journey",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/d5/86/24d5863d-fa9f-ec0c-2f13-d2544a099e0f/mzaf_2942712645288810316.plus.aac.p.m4a",
+  "trackId": 1640102584,
+  "trackViewUrl": "https://music.apple.com/us/album/dont-stop-believin-2022-remaster/1640102583?i=1640102584&uo=4"
+ },
+ "classic-rock-s34": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/17/ec/3e17ec6d-f980-c64f-19e0-a6fd8bbf0c10/886445635850.jpg/600x600bb.jpg",
+  "key": "Comfortably Numb|Pink Floyd",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/1b/39/af1b3957-d1d3-06c9-d547-633cb081b677/mzaf_3421307010114212683.plus.aac.p.m4a",
+  "trackId": 1065976170,
+  "trackViewUrl": "https://music.apple.com/us/album/comfortably-numb/1065975633?i=1065976170&uo=4"
  },
  "country-c01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/42/cd/ac42cddb-98f0-a78b-6aac-4f08266d30c4/00602537277353.rgb.jpg/600x600bb.jpg",
