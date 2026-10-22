@@ -28,6 +28,8 @@
 	<string>$(DEEPCUTS_FEEDBACK_URL)</string>
 	<key>DEEPCUTS_FEEDBACK_KEY</key>
 	<string>$(DEEPCUTS_FEEDBACK_KEY)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Deep Cuts uses your location to find music venues near you. It is only used for that search and is never stored or shared.</string>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIColorName</key>

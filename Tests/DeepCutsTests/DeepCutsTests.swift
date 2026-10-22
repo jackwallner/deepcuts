@@ -274,3 +274,41 @@ final class LiveContentTests: XCTestCase {
         XCTAssertEqual(reloaded.all.compactMap(\.payload).count, 1)
     }
 }
+
+/// Feedback #6: the Live tab's touring acts and venue list.
+final class LiveMusicTests: XCTestCase {
+    func testTouringActsAreArtistsInTheirCrates() {
+        let library = ContentLibrary.shared
+        for (crate, names) in LiveMusic.touring {
+            let genre = library.genres.first { $0.id == crate }
+            XCTAssertNotNil(genre, crate)
+            let artists = Set(genre?.songs.map(\.artist) ?? [])
+            for name in names { XCTAssertTrue(artists.contains(name), "\(crate): \(name)") }
+        }
+    }
+
+    func testActsFollowCrateOrderOnceEachWithArt() {
+        let library = ContentLibrary.shared
+        let genres = ["classic-rock", "eighties"].compactMap { id in library.genres.first { $0.id == id } }
+        let acts = LiveMusic.acts(in: genres)
+        XCTAssertEqual(acts.first?.name, "Eagles")
+        XCTAssertEqual(acts.filter { $0.name == "Journey" }.count, 1)
+        XCTAssertEqual(acts.first { $0.name == "Journey" }?.genre.id, "classic-rock")
+        XCTAssertTrue(acts.allSatisfy { $0.songID != nil })
+    }
+
+    func testTourDatesURLEncodesTheName() {
+        XCTAssertEqual(LiveMusic.tourDatesURL(for: "Earth, Wind & Fire")?.absoluteString,
+                       "https://www.ticketmaster.com/search?q=Earth,%20Wind%20%26%20Fire")
+    }
+
+    func testVenuesNearestFirstWithoutDuplicates() {
+        func venue(_ name: String, _ miles: Double) -> Venue {
+            Venue(name: name, area: nil, miles: miles, latitude: 0, longitude: 0, website: nil)
+        }
+        let list = VenueFinder.closestUnique([venue("Far", 20), venue("Near", 1), venue("near", 3), venue("Mid", 5)])
+        XCTAssertEqual(list.map(\.name), ["Near", "Mid", "Far"])
+        XCTAssertEqual(venue("x", 3.25).distanceLabel, "3.2 mi")
+        XCTAssertEqual(venue("x", 12.6).distanceLabel, "13 mi")
+    }
+}
