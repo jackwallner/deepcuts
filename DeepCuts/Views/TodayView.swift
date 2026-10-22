@@ -10,11 +10,11 @@ struct TodayView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 28) {
                     header
-                    DailyMixCard()
                     if let pick = app.storyOfTheDay() {
                         storyCard(pick.story, genre: pick.genre)
                     }
                     moments
+                    DailyMixCard()
                     suggest
                 }
                 .padding(.horizontal, Theme.gutter)
