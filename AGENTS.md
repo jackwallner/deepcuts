@@ -12,18 +12,20 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
 ## Tech Stack
 - Swift 6 / SwiftUI (strict concurrency), iOS 17+, iPhone only. No packages, no paywall.
 - Content is bundled JSON (`DeepCuts/Content/`), progress is one JSON file in Application Support.
-- Network, all optional: iTunes lookup (preview refresh), Wikipedia On This Day, tester feedback.
+- Network, all optional: iTunes lookup (preview refresh), Wikipedia On This Day, tester feedback,
+  live content (new and corrected questions from Supabase, weekly; see `.claude/rules/live-content.md`).
 
 ## Layout
 - `Shared/Models`: `Content.swift` (Genre, Question, Song, Story, CatalogEntry), `Quiz.swift`
 - `Shared/Services`: `ContentLibrary` (loads `Content/genres/*.json` + `catalog.json`),
   `QuizBuilder` (rounds; daily mix is seeded by date + crates), `ProgressStore`,
-  `PreviewPlayer` (AVPlayer, 30s previews), `OnThisDayService`, `FeedbackService`
+  `PreviewPlayer` (AVPlayer, 30s previews), `OnThisDayService`, `FeedbackService`, `RemoteContent`
 - `DeepCuts/`: `DeepCutsApp` (launch args below), `AppModel` (environment object),
   `Views/` (Theme, Components, Onboarding/FocusPicker, Today, Play/Crate, Quiz/Result, Stories, You, Feedback)
 - `DeepCuts/Content/genres/<id>.json`: one crate each, schema in `docs/content/SCHEMA.md`.
   `DeepCuts/Content/catalog.json`: song id -> Apple Music track, written by `scripts/resolve-catalog.py`.
-- `supabase/`: `tester_feedback` table + `tester-feedback` edge function (in the Sports project).
+- `supabase/`: `tester_feedback` and `deepcuts_content` tables, `tester-feedback` and
+  `deepcuts-content` edge functions (in the Sports project).
 
 ## Rules that hold everywhere
 - **Accuracy first.** A wrong answer key ruins a trivia app for this audience. Every new or edited
@@ -56,11 +58,16 @@ silent #ops thread and starts an Opus session on the Air in this repo with the s
 prompt. That session implements it, tests, commits, pushes, runs `./scripts/testflight.sh`, and
 reports back with `python3 scripts/feedback.py status <id> shipped --build N --reply "..."`, which the
 tester sees under You > Suggestions. `scripts/feedback.py list` shows pending ones.
+A wrong question also gets its fix published live (`scripts/content-remote.py publish --fix`), and a
+`-live-` id exists only remotely; see `.claude/rules/live-content.md`.
 
 ## Release
 - TestFlight: `./scripts/testflight.sh` (validates content first). Internal group **Family**
   (Jack, John) gets every build; no Beta App Review.
 - Not submitted to the App Store yet; that needs Jack (listing, privacy label, previews licensing review).
+
+## Area rules (`.claude/rules/`)
+- `live-content.md`: live questions, `content-remote.py`, the weekly iMac job.
 
 ---
 Shared iOS conventions (build, simulator, release/TestFlight, ASC key, signing, gotchas):

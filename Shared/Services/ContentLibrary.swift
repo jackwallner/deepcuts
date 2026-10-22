@@ -50,6 +50,38 @@ final class ContentLibrary: Sendable {
 
     static let shared = ContentLibrary(bundle: .main)
 
+    /// These crates with live rows layered on: a row with a bundled id replaces that item,
+    /// a retired row drops it, and new rows join their crate. Rows for unknown crates are ignored.
+    func applying(_ rows: [RemoteItem]) -> ContentLibrary {
+        let crates = Set(genres.map(\.id))
+        var latest: [String: RemoteItem] = [:]
+        for row in rows where crates.contains(row.crate) && (row.payload != nil || !row.isLive) {
+            if row.rev >= latest[row.id]?.rev ?? .min { latest[row.id] = row }
+        }
+        guard !latest.isEmpty else { return self }
+        let added = latest.values.filter(\.isLive).sorted { $0.rev < $1.rev }
+
+        func layer<T: Identifiable>(_ items: [T], crate: String, _ pick: (RemoteItem.Payload) -> T?) -> [T] where T.ID == String {
+            var out = items.compactMap { item -> T? in
+                guard let row = latest[item.id] else { return item }
+                return row.isLive && row.crate == crate ? row.payload.flatMap(pick) : nil
+            }
+            let present = Set(out.map(\.id))
+            out += added.filter { $0.crate == crate && !present.contains($0.id) }.compactMap { $0.payload.flatMap(pick) }
+            return out
+        }
+
+        let merged = genres.map { g in
+            Genre(
+                id: g.id, name: g.name, blurb: g.blurb, era: g.era,
+                questions: layer(g.questions, crate: g.id) { if case .question(let v) = $0 { v } else { nil } },
+                songs: layer(g.songs, crate: g.id) { if case .song(let v) = $0 { v } else { nil } },
+                stories: layer(g.stories, crate: g.id) { if case .story(let v) = $0 { v } else { nil } },
+                covers: layer(g.coverSongs, crate: g.id) { if case .cover(let v) = $0 { v } else { nil } })
+        }
+        return ContentLibrary(genres: merged, catalog: catalog)
+    }
+
     func genre(_ id: String) -> Genre? { genresByID[id] }
     func song(_ id: String) -> Song? { songsByID[id] }
     func genre(forSong id: String) -> Genre? { genreBySongID[id].flatMap { genresByID[$0] } }

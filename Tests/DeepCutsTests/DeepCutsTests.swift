@@ -222,3 +222,55 @@ final class FeedbackTests: XCTestCase {
         XCTAssertTrue(items[0].isDone)
     }
 }
+
+final class LiveContentTests: XCTestCase {
+    static func genre(_ id: String, questions: [Question]) -> Genre {
+        Genre(id: id, name: id, blurb: "b", era: "1960-1970", questions: questions, songs: [], stories: [], covers: nil)
+    }
+
+    static func row(_ q: Question, crate: String, status: String = "live", rev: Int) -> RemoteItem {
+        RemoteItem(id: q.id, crate: crate, kind: "question", status: status, rev: rev, payload: .question(q))
+    }
+
+    func testRowsFixRetireAndAddQuestions() {
+        let q = QuizBuilderTests.question
+        let library = ContentLibrary(genres: [Self.genre("rock", questions: [q("r1", 1, 2), q("r2", 1, 2), q("r3", 1, 2)]),
+                                              Self.genre("soul", questions: [q("s1", 1, 2)])], catalog: [:])
+        let fixed = Question(id: "r1", prompt: "Fixed?", choices: ["a", "b", "c", "d"], answer: 0, fact: "f", difficulty: 2)
+        let merged = library.applying([
+            Self.row(fixed, crate: "rock", rev: 1),
+            Self.row(q("r2", 1, 2), crate: "rock", status: "retired", rev: 2),
+            Self.row(q("r9", 1, 2), crate: "rock", rev: 3),
+            Self.row(q("x1", 1, 2), crate: "jazz", rev: 4),
+        ])
+        let rock = merged.genre("rock")!.questions
+        XCTAssertEqual(rock.map(\.id), ["r1", "r3", "r9"])
+        XCTAssertEqual(rock.first?.prompt, "Fixed?")
+        XCTAssertEqual(merged.genre("soul")!.questions.map(\.id), ["s1"])
+        XCTAssertNil(merged.genre("jazz"))
+    }
+
+    func testBrokenBodiesAreIgnoredNotApplied() throws {
+        let raw = """
+        {"items": [
+          {"id": "rock-q1", "crate": "rock", "kind": "question", "status": "live", "rev": 5,
+           "body": {"id": "rock-q1", "prompt": "Bad?", "choices": ["a", "b"], "answer": 0, "fact": "f", "difficulty": 1}},
+          {"id": "rock-q2", "crate": "rock", "kind": "question", "status": "live", "rev": 6,
+           "body": {"id": "rock-q2", "prompt": "Good?", "choices": ["a", "b", "c", "d"], "answer": 3, "fact": "f", "difficulty": 3}}
+        ]}
+        """
+        struct Page: Decodable { let items: [RemoteItem] }
+        let rows = try JSONDecoder().decode(Page.self, from: Data(raw.utf8)).items
+        XCTAssertNil(rows[0].payload)
+        XCTAssertNotNil(rows[1].payload)
+        let q = QuizBuilderTests.question
+        let library = ContentLibrary(genres: [Self.genre("rock", questions: [q("rock-q1", 1, 2)])], catalog: [:])
+        XCTAssertEqual(library.applying(rows).genre("rock")!.questions.map(\.prompt), ["Q rock-q1?", "Good?"])
+
+        var cache = RemoteContentCache()
+        cache.merge(rows)
+        let reloaded = try JSONDecoder().decode(RemoteContentCache.self, from: JSONEncoder().encode(cache))
+        XCTAssertEqual(reloaded.rev, 6)
+        XCTAssertEqual(reloaded.all.compactMap(\.payload).count, 1)
+    }
+}
