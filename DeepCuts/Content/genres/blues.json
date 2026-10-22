@@ -445,6 +445,1111 @@
       "answer": 1,
       "fact": "He was also called the Master of the Telecaster, and instrumentals such as \"Frosty\" fed his cool image.",
       "difficulty": 3
+    },
+    {
+      "id": "blues-q35",
+      "prompt": "Who produced Muddy Waters's comeback album Hard Again?",
+      "choices": [
+        "Edgar Winter",
+        "Mike Bloomfield",
+        "Johnny Winter",
+        "Al Kooper"
+      ],
+      "answer": 2,
+      "fact": "Winter also plays guitar on the 1977 album.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q36",
+      "prompt": "Who plays harmonica on Muddy Waters's Hard Again?",
+      "choices": [
+        "Little Walter",
+        "Junior Wells",
+        "Carey Bell",
+        "James Cotton"
+      ],
+      "answer": 3,
+      "fact": "Cotton reunited with his former bandleader for the sessions.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q37",
+      "prompt": "Who plays piano on Muddy Waters's Hard Again?",
+      "choices": [
+        "Pinetop Perkins",
+        "Otis Spann",
+        "Lafayette Leake",
+        "Sunnyland Slim"
+      ],
+      "answer": 0,
+      "fact": "Perkins was part of Waters's touring band when the album was recorded.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q38",
+      "prompt": "Who plays drums on Hard Again?",
+      "choices": [
+        "Francis Clay",
+        "Willie \"Big Eyes\" Smith",
+        "Fred Below",
+        "Clifton James"
+      ],
+      "answer": 1,
+      "fact": "Smith supplies the drums behind Waters, Winter and James Cotton.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q39",
+      "prompt": "Which label released Muddy Waters's Hard Again in 1977?",
+      "choices": [
+        "Alligator",
+        "Delmark",
+        "Blue Sky",
+        "Blind Pig"
+      ],
+      "answer": 2,
+      "fact": "Waters made the album after leaving Chess Records.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q40",
+      "prompt": "Which Muddy Waters album, released in 1964, is an all-acoustic studio recording?",
+      "choices": [
+        "Electric Mud",
+        "Hard Again",
+        "After the Rain",
+        "Folk Singer"
+      ],
+      "answer": 3,
+      "fact": "Recorded in September 1963 and released in January 1964, it gave Waters a setting very different from his amplified Chicago band.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q41",
+      "prompt": "Which guest guitarist joins Muddy Waters on the acoustic album Folk Singer?",
+      "choices": [
+        "Buddy Guy",
+        "Hubert Sumlin",
+        "Jimmy Rogers",
+        "Robert Lockwood Jr."
+      ],
+      "answer": 0,
+      "fact": "Both men play acoustic guitar on the original album.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q42",
+      "prompt": "Who plays string bass on Muddy Waters's Folk Singer?",
+      "choices": [
+        "Jack Myers",
+        "Willie Dixon",
+        "Dave Myers",
+        "Andrew Stephens"
+      ],
+      "answer": 1,
+      "fact": "Dixon also shares the production credit with Ralph Bass.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q44",
+      "prompt": "Who plays piano on Muddy Waters's At Newport 1960?",
+      "choices": [
+        "Pinetop Perkins",
+        "Lafayette Leake",
+        "Sunnyland Slim",
+        "Otis Spann"
+      ],
+      "answer": 3,
+      "fact": "The festival band also included harmonica player James Cotton.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q45",
+      "prompt": "Which guitarist was Howlin' Wolf's longtime musical partner and appears on his London Sessions album?",
+      "choices": [
+        "Hubert Sumlin",
+        "Buddy Guy",
+        "Otis Rush",
+        "Magic Sam"
+      ],
+      "answer": 0,
+      "fact": "Sumlin traveled to London and played alongside Eric Clapton.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q46",
+      "prompt": "Which British guitarist joins Hubert Sumlin on The London Howlin' Wolf Sessions?",
+      "choices": [
+        "Peter Green",
+        "Eric Clapton",
+        "Mick Taylor",
+        "Jeff Beck"
+      ],
+      "answer": 1,
+      "fact": "The sessions took place at London's Olympic Studios in 1970.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q47",
+      "prompt": "Which Rolling Stones rhythm section plays on The London Howlin' Wolf Sessions?",
+      "choices": [
+        "Keith Richards and Charlie Watts",
+        "Bill Wyman and Jimmy Miller",
+        "Bill Wyman and Charlie Watts",
+        "Ronnie Wood and Kenney Jones"
+      ],
+      "answer": 2,
+      "fact": "The album places Wolf alongside musicians from the British rock generation.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q48",
+      "prompt": "Who produced The London Howlin' Wolf Sessions?",
+      "choices": [
+        "Mike Vernon",
+        "Giorgio Gomelsky",
+        "Jimmy Miller",
+        "Norman Dayron"
+      ],
+      "answer": 3,
+      "fact": "The Chess producer brought Wolf and his British admirers together.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q49",
+      "prompt": "Which Traffic musician adds keyboards to The London Howlin' Wolf Sessions?",
+      "choices": [
+        "Steve Winwood",
+        "Jim Capaldi",
+        "Dave Mason",
+        "Chris Wood"
+      ],
+      "answer": 0,
+      "fact": "Winwood plays piano or organ on several tracks of the 1971 album.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q50",
+      "prompt": "Which Stax house band backs Albert King on Born Under a Bad Sign?",
+      "choices": [
+        "The Mar-Keys",
+        "Booker T. & the M.G.'s",
+        "The Bar-Kays",
+        "The Dixie Flyers"
+      ],
+      "answer": 1,
+      "fact": "The Memphis Horns also contribute to the 1967 album.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q51",
+      "prompt": "Who plays drums behind Albert King on the Born Under a Bad Sign album?",
+      "choices": [
+        "Steve Jordan",
+        "Roger Hawkins",
+        "Al Jackson Jr.",
+        "Howard Grimes"
+      ],
+      "answer": 2,
+      "fact": "Jackson was the drummer in Booker T. & the M.G.'s.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q52",
+      "prompt": "Which pair wrote Albert King's \"Born Under a Bad Sign\"?",
+      "choices": [
+        "Isaac Hayes and David Porter",
+        "Eddie Floyd and Steve Cropper",
+        "Dan Penn and Spooner Oldham",
+        "William Bell and Booker T. Jones"
+      ],
+      "answer": 3,
+      "fact": "The song became the title track of King's 1967 Stax album.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q53",
+      "prompt": "Which Freddie King recording is an instrumental?",
+      "choices": [
+        "Hide Away",
+        "Have You Ever Loved a Woman",
+        "Going Down",
+        "I'm Tore Down"
+      ],
+      "answer": 0,
+      "fact": "The Federal single, cut in 1960, became a standard for blues guitarists.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q54",
+      "prompt": "Which blues guitarist released the album Texas Cannonball in 1972?",
+      "choices": [
+        "Albert King",
+        "Freddie King",
+        "B.B. King",
+        "Albert Collins"
+      ],
+      "answer": 1,
+      "fact": "It was one of the albums he made for Shelter Records.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q55",
+      "prompt": "Who shares the producer credit with Leon Russell on Freddie King's Getting Ready...?",
+      "choices": [
+        "Denny Cordell",
+        "Mike Vernon",
+        "Don Nix",
+        "Tom Dowd"
+      ],
+      "answer": 2,
+      "fact": "The album includes King's studio recording of \"Going Down\".",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q56",
+      "prompt": "Which label released Freddie King's Getting Ready...?",
+      "choices": [
+        "Federal",
+        "RSO",
+        "Cotillion",
+        "Shelter"
+      ],
+      "answer": 3,
+      "fact": "The 1971 album began his run of releases for the label.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q57",
+      "prompt": "In which city was B.B. King's Live at the Regal recorded?",
+      "choices": [
+        "Chicago",
+        "Memphis",
+        "Detroit",
+        "New York"
+      ],
+      "answer": 0,
+      "fact": "The concert was recorded at the Regal Theater in November 1964.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q58",
+      "prompt": "Who produced B.B. King's Live at the Regal?",
+      "choices": [
+        "Bill Szymczyk",
+        "Johnny Pate",
+        "Sid Feller",
+        "Maxwell Davis"
+      ],
+      "answer": 1,
+      "fact": "The recording captured King and his band in front of a Chicago audience.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q59",
+      "prompt": "Who recorded the 2000 album Riding with the King with B.B. King?",
+      "choices": [
+        "Buddy Guy",
+        "Robert Cray",
+        "Eric Clapton",
+        "John Lee Hooker"
+      ],
+      "answer": 2,
+      "fact": "The two guitarists made the album with producer Simon Climie.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q60",
+      "prompt": "Who wrote and first released the title song of B.B. King and Clapton's Riding with the King?",
+      "choices": [
+        "J.J. Cale",
+        "Delbert McClinton",
+        "Tony Joe White",
+        "John Hiatt"
+      ],
+      "answer": 3,
+      "fact": "Hiatt's own version was the title track of his 1983 album.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q61",
+      "prompt": "Which band recorded \"When Love Comes to Town\" with B.B. King?",
+      "choices": [
+        "U2",
+        "INXS",
+        "Simple Minds",
+        "The Pretenders"
+      ],
+      "answer": 0,
+      "fact": "The collaboration appears on Rattle and Hum.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q62",
+      "prompt": "Who was credited as \"Friendly Chap\" on early copies of Junior Wells's Hoodoo Man Blues?",
+      "choices": [
+        "Otis Rush",
+        "Buddy Guy",
+        "Magic Sam",
+        "Jimmy Dawkins"
+      ],
+      "answer": 1,
+      "fact": "Delmark initially believed the guitarist was under contract to another label.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q63",
+      "prompt": "Who plays bass on Junior Wells's Hoodoo Man Blues?",
+      "choices": [
+        "Dave Myers",
+        "Willie Dixon",
+        "Jack Myers",
+        "Ernest Johnson"
+      ],
+      "answer": 2,
+      "fact": "The bassist joins Wells, Buddy Guy and drummer Billy Warren.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q64",
+      "prompt": "Who plays drums on Junior Wells's Hoodoo Man Blues?",
+      "choices": [
+        "Fred Below",
+        "Odie Payne Jr.",
+        "Francis Clay",
+        "Billy Warren"
+      ],
+      "answer": 3,
+      "fact": "The four-piece band recorded the album in September 1965.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q65",
+      "prompt": "Which Chicago club's live sound was Junior Wells trying to capture on Hoodoo Man Blues?",
+      "choices": [
+        "Theresa's Lounge",
+        "The Checkerboard Lounge",
+        "Pepper's Lounge",
+        "Silvio's"
+      ],
+      "answer": 0,
+      "fact": "The band recorded in a studio, aiming for the feel of its regular club performances.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q66",
+      "prompt": "Which label released Buddy Guy's Damn Right, I've Got the Blues in 1991?",
+      "choices": [
+        "Alligator",
+        "Silvertone",
+        "Chess",
+        "Vanguard"
+      ],
+      "answer": 1,
+      "fact": "The album brought Guy together with guests including Clapton, Beck and Knopfler.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q67",
+      "prompt": "Who produced Buddy Guy's Damn Right, I've Got the Blues?",
+      "choices": [
+        "Mike Vernon",
+        "Tom Dowd",
+        "John Porter",
+        "Pete Anderson"
+      ],
+      "answer": 2,
+      "fact": "Porter also plays bass guitar on the album.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q68",
+      "prompt": "Which singer joins Buddy Guy on the title track of Feels Like Rain?",
+      "choices": [
+        "Susan Tedeschi",
+        "Marcia Ball",
+        "Angela Strehli",
+        "Bonnie Raitt"
+      ],
+      "answer": 3,
+      "fact": "She adds her voice and slide guitar to John Hiatt's song.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q69",
+      "prompt": "Which harmonica player was born Marion Walter Jacobs?",
+      "choices": [
+        "Little Walter",
+        "Sonny Boy Williamson I",
+        "Sonny Boy Williamson II",
+        "Junior Wells"
+      ],
+      "answer": 0,
+      "fact": "His records for Checker included \"Juke\" and \"My Babe\".",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q70",
+      "prompt": "Who wrote Little Walter's \"My Babe\"?",
+      "choices": [
+        "Little Walter",
+        "Willie Dixon",
+        "Muddy Waters",
+        "Jimmy Rogers"
+      ],
+      "answer": 1,
+      "fact": "The song became a hit for Walter in 1955.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q71",
+      "prompt": "Who wrote \"Crazy Blues\", the song Mamie Smith recorded in 1920?",
+      "choices": [
+        "W.C. Handy",
+        "Spencer Williams",
+        "Perry Bradford",
+        "Clarence Williams"
+      ],
+      "answer": 2,
+      "fact": "Smith recorded it with her Jazz Hounds for OKeh.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q72",
+      "prompt": "Who accompanies Bessie Smith on piano on \"Backwater Blues\"?",
+      "choices": [
+        "Clarence Williams",
+        "Fletcher Henderson",
+        "Fats Waller",
+        "James P. Johnson"
+      ],
+      "answer": 3,
+      "fact": "Smith recorded her own song in New York in February 1927.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q73",
+      "prompt": "Who wrote the standard \"Nobody Knows You When You're Down and Out\"?",
+      "choices": [
+        "Jimmie Cox",
+        "W.C. Handy",
+        "Spencer Williams",
+        "Perry Bradford"
+      ],
+      "answer": 0,
+      "fact": "Bessie Smith recorded it in 1929, several years after Cox wrote it.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q74",
+      "prompt": "What do the initials B.B. in B.B. King's stage name stand for?",
+      "choices": [
+        "Boogie Beat",
+        "Blues Boy",
+        "Big Boss",
+        "Blue Bird"
+      ],
+      "answer": 1,
+      "fact": "The name developed from his Memphis radio nickname, the Beale Street Blues Boy.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q75",
+      "prompt": "Elmore James is especially associated with which guitar technique?",
+      "choices": [
+        "Two-handed tapping",
+        "Sweep picking",
+        "Slide guitar",
+        "Travis picking"
+      ],
+      "answer": 2,
+      "fact": "His electric slide sound became a model for later blues and rock guitarists.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q76",
+      "prompt": "Which singer was widely known as the Queen of the Blues and recorded \"Wang Dang Doodle\"?",
+      "choices": [
+        "Etta James",
+        "Ruth Brown",
+        "Big Mama Thornton",
+        "Koko Taylor"
+      ],
+      "answer": 3,
+      "fact": "Willie Dixon produced her Checker recording of the song.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q77",
+      "prompt": "Which singer and saxophonist led the Tympany Five?",
+      "choices": [
+        "Louis Jordan",
+        "Big Joe Turner",
+        "Roy Milton",
+        "Wynonie Harris"
+      ],
+      "answer": 0,
+      "fact": "Jordan's small group helped define jump blues.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q78",
+      "prompt": "Which Mississippi town is especially associated with Skip James's distinctive blues style?",
+      "choices": [
+        "Clarksdale",
+        "Bentonia",
+        "Greenwood",
+        "Tunica"
+      ],
+      "answer": 1,
+      "fact": "James's intricate guitar playing often used an open minor tuning.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q79",
+      "prompt": "Which open tuning is closely associated with Skip James's dark guitar sound?",
+      "choices": [
+        "Open D major",
+        "Open G major",
+        "Open D minor",
+        "Open E major"
+      ],
+      "answer": 2,
+      "fact": "His fingerpicked arrangements include songs such as \"Devil Got My Woman\".",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q80",
+      "prompt": "Which bluesman recorded \"Hard Time Killing Floor Blues\" for Paramount in 1931?",
+      "choices": [
+        "Son House",
+        "Charley Patton",
+        "Blind Willie McTell",
+        "Skip James"
+      ],
+      "answer": 3,
+      "fact": "James returned to performing during the 1960s folk-blues revival.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q81",
+      "prompt": "Which Delta bluesman recorded the well-known 1965 version of \"Death Letter\"?",
+      "choices": [
+        "Son House",
+        "Muddy Waters",
+        "Bukka White",
+        "Mississippi John Hurt"
+      ],
+      "answer": 0,
+      "fact": "His forceful singing and slide guitar carry the song.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q82",
+      "prompt": "In which New York city was Son House living when blues enthusiasts found him in 1964?",
+      "choices": [
+        "Buffalo",
+        "Rochester",
+        "Syracuse",
+        "Albany"
+      ],
+      "answer": 1,
+      "fact": "House had moved north after leaving Mississippi in the 1940s.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q83",
+      "prompt": "Which future Canned Heat musician helped Son House relearn his old songs?",
+      "choices": [
+        "Bob Hite",
+        "Henry Vestine",
+        "Alan Wilson",
+        "Larry Taylor"
+      ],
+      "answer": 2,
+      "fact": "Wilson assisted House during his return to recording in the 1960s.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q84",
+      "prompt": "Mississippi John Hurt's guitar style is especially known for what?",
+      "choices": [
+        "Bottleneck slide",
+        "Two-handed tapping",
+        "Guitar slapping",
+        "Fingerpicking"
+      ],
+      "answer": 3,
+      "fact": "His gentle singing and interlocking picked parts set him apart from louder Delta styles.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q85",
+      "prompt": "Which record collector located Mississippi John Hurt in 1963?",
+      "choices": [
+        "Tom Hoskins",
+        "Dick Waterman",
+        "Sam Charters",
+        "Mack McCormick"
+      ],
+      "answer": 0,
+      "fact": "The search brought Hurt back to recording and public performances.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q86",
+      "prompt": "Which old John Hurt recording supplied the place-name clue used to find him in Mississippi?",
+      "choices": [
+        "Stack O' Lee Blues",
+        "Avalon Blues",
+        "Frankie",
+        "Spike Driver Blues"
+      ],
+      "answer": 1,
+      "fact": "The lyric named Avalon, where Hurt was still living when he was found in 1963.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q87",
+      "prompt": "What was Bukka White's full name?",
+      "choices": [
+        "Booker Taliaferro White",
+        "Booker Theodore White",
+        "Booker T. Washington White",
+        "Booker Thomas White"
+      ],
+      "answer": 2,
+      "fact": "The name \"Bukka\" appeared on records by the Mississippi singer and guitarist.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q88",
+      "prompt": "Bukka White's \"Parchman Farm Blues\" refers to what institution?",
+      "choices": [
+        "The Louisiana State Penitentiary",
+        "The Texas State Penitentiary",
+        "The Arkansas State Penitentiary",
+        "The Mississippi State Penitentiary"
+      ],
+      "answer": 3,
+      "fact": "White had served time at the Mississippi prison.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q89",
+      "prompt": "Who recorded \"Fixin' to Die Blues\" before Bob Dylan included it on his debut album?",
+      "choices": [
+        "Bukka White",
+        "Blind Willie McTell",
+        "Sleepy John Estes",
+        "Mississippi Fred McDowell"
+      ],
+      "answer": 0,
+      "fact": "White recorded the song in Chicago in 1940.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q90",
+      "prompt": "Blind Lemon Jefferson is most closely associated with which state's early blues scene?",
+      "choices": [
+        "Mississippi",
+        "Texas",
+        "Louisiana",
+        "Georgia"
+      ],
+      "answer": 1,
+      "fact": "He became one of the leading recorded blues performers of the 1920s.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q91",
+      "prompt": "Which label released most of Blind Lemon Jefferson's classic 1920s recordings?",
+      "choices": [
+        "Columbia",
+        "Victor",
+        "Paramount",
+        "Gennett"
+      ],
+      "answer": 2,
+      "fact": "His commercially successful sides helped build the label's blues catalogue.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q92",
+      "prompt": "Blind Blake's guitar playing is especially associated with which musical style?",
+      "choices": [
+        "Bebop",
+        "Surf rock",
+        "Heavy metal",
+        "Ragtime"
+      ],
+      "answer": 3,
+      "fact": "His intricate fingerpicking became influential among acoustic blues guitarists.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q93",
+      "prompt": "Who appeared at the 1938 From Spirituals to Swing concert after the death of intended guest Robert Johnson?",
+      "choices": [
+        "Big Bill Broonzy",
+        "Lead Belly",
+        "Blind Willie McTell",
+        "Bukka White"
+      ],
+      "answer": 0,
+      "fact": "John Hammond presented the concert at Carnegie Hall.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q94",
+      "prompt": "Big Bill Broonzy's \"Black, Brown and White\" addresses what subject?",
+      "choices": [
+        "The growth of railroads",
+        "Racial discrimination",
+        "Prohibition-era drinking",
+        "Flood damage"
+      ],
+      "answer": 1,
+      "fact": "Broonzy performed the song as part of his repertoire about everyday life and inequality.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q95",
+      "prompt": "Which blues guitarist was also known as Hudson Whittaker?",
+      "choices": [
+        "Kokomo Arnold",
+        "Bumble Bee Slim",
+        "Tampa Red",
+        "Barbecue Bob"
+      ],
+      "answer": 2,
+      "fact": "His birth name was Hudson Woodbridge.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q96",
+      "prompt": "Tampa Red's partner Georgia Tom later became famous in gospel under which name?",
+      "choices": [
+        "Reverend Gary Davis",
+        "Arizona Dranes",
+        "Blind Willie Johnson",
+        "Thomas A. Dorsey"
+      ],
+      "answer": 3,
+      "fact": "The pair had recorded the hokum hit \"It's Tight Like That\".",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q97",
+      "prompt": "Which white jazz guitarist recorded duets with Lonnie Johnson as \"Blind Willie Dunn\"?",
+      "choices": [
+        "Eddie Lang",
+        "Dick McDonough",
+        "Carl Kress",
+        "George Van Eps"
+      ],
+      "answer": 0,
+      "fact": "Their late-1920s recordings brought two major early guitar stylists together.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q98",
+      "prompt": "Besides guitar and singing, which instrument did Lonnie Johnson play?",
+      "choices": [
+        "Trumpet",
+        "Violin",
+        "Clarinet",
+        "Trombone"
+      ],
+      "answer": 1,
+      "fact": "His early career crossed blues and jazz.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q99",
+      "prompt": "Which major label issued Louis Jordan's classic 1940s hits with the Tympany Five?",
+      "choices": [
+        "Capitol",
+        "Mercury",
+        "Decca",
+        "Atlantic"
+      ],
+      "answer": 2,
+      "fact": "The small band's records helped make jump blues a commercial force.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q100",
+      "prompt": "Which Kansas City singer was known as the Boss of the Blues?",
+      "choices": [
+        "Jimmy Rushing",
+        "Wynonie Harris",
+        "Roy Brown",
+        "Big Joe Turner"
+      ],
+      "answer": 3,
+      "fact": "His powerful blues-shouting style connected swing, rhythm and blues, and rock and roll.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q101",
+      "prompt": "Who released \"Good Rocking Tonight\" before Wynonie Harris?",
+      "choices": [
+        "Roy Brown",
+        "Big Joe Turner",
+        "Louis Jordan",
+        "Amos Milburn"
+      ],
+      "answer": 0,
+      "fact": "Brown's original preceded Harris's hit version.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q102",
+      "prompt": "Which Chicago label released Jimmy Reed's \"Ain't That Lovin' You Baby\" and \"Bright Lights, Big City\"?",
+      "choices": [
+        "Chess",
+        "Vee-Jay",
+        "Cobra",
+        "Checker"
+      ],
+      "answer": 1,
+      "fact": "Reed became one of the independent label's leading blues artists.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q103",
+      "prompt": "Which guitarist's rhythm playing was central to many Jimmy Reed recordings?",
+      "choices": [
+        "Jimmy Rogers",
+        "Robert Lockwood Jr.",
+        "Eddie Taylor",
+        "Hubert Sumlin"
+      ],
+      "answer": 2,
+      "fact": "Taylor and Reed had known each other before their recording careers.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q104",
+      "prompt": "Which instrument did Jimmy Reed play in a neck rack while playing guitar?",
+      "choices": [
+        "Kazoo",
+        "Panpipes",
+        "Ocarina",
+        "Harmonica"
+      ],
+      "answer": 3,
+      "fact": "The rack let him combine his two instruments while singing between harp phrases.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q105",
+      "prompt": "Which bluesman was known as the King of the Boogie?",
+      "choices": [
+        "John Lee Hooker",
+        "Jimmy Reed",
+        "Lightnin' Hopkins",
+        "John Lee Williamson"
+      ],
+      "answer": 0,
+      "fact": "His repeating guitar patterns were a foundation of his sound.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q106",
+      "prompt": "Which label originally released John Lee Hooker's \"Boom Boom\" in 1962?",
+      "choices": [
+        "Modern",
+        "Vee-Jay",
+        "Specialty",
+        "Chess"
+      ],
+      "answer": 1,
+      "fact": "The single later appeared on the album Burnin'.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q107",
+      "prompt": "Which guitarist collaborates with John Lee Hooker on the title song of The Healer?",
+      "choices": [
+        "Eric Clapton",
+        "Stevie Ray Vaughan",
+        "Carlos Santana",
+        "Robert Cray"
+      ],
+      "answer": 2,
+      "fact": "The 1989 album brought Hooker together with a roster of guests.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q108",
+      "prompt": "Which band made the double album Hooker 'n Heat with John Lee Hooker?",
+      "choices": [
+        "Ten Years After",
+        "Savoy Brown",
+        "Chicken Shack",
+        "Canned Heat"
+      ],
+      "answer": 3,
+      "fact": "The collaboration was released in 1971.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q109",
+      "prompt": "Who co-founded Blues Incorporated with harmonica player Cyril Davies?",
+      "choices": [
+        "Alexis Korner",
+        "John Mayall",
+        "Graham Bond",
+        "Long John Baldry"
+      ],
+      "answer": 0,
+      "fact": "Their group became an important meeting place for the early British blues scene.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q110",
+      "prompt": "Which instrument was Paul Butterfield's specialty?",
+      "choices": [
+        "Slide guitar",
+        "Harmonica",
+        "Alto saxophone",
+        "Piano"
+      ],
+      "answer": 1,
+      "fact": "He led a Chicago blues band that included guitarists Mike Bloomfield and Elvin Bishop.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q111",
+      "prompt": "Which guitarists play on the Butterfield Blues Band's East-West?",
+      "choices": [
+        "Michael Bloomfield and Nick Gravenites",
+        "Elvin Bishop and Harvey Mandel",
+        "Mike Bloomfield and Elvin Bishop",
+        "Henry Vestine and Harvey Mandel"
+      ],
+      "answer": 2,
+      "fact": "Both guitarists contribute solos on the album.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q112",
+      "prompt": "Which drummer replaced Sam Lay for the Butterfield Blues Band's East-West?",
+      "choices": [
+        "Sam Carr",
+        "S. P. Leary",
+        "Fred Below",
+        "Billy Davenport"
+      ],
+      "answer": 3,
+      "fact": "Davenport brought a more jazz-oriented approach to the 1966 album.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q113",
+      "prompt": "Who plays keyboards on the Butterfield Blues Band's East-West?",
+      "choices": [
+        "Mark Naftalin",
+        "Barry Goldberg",
+        "Al Kooper",
+        "Nicky Hopkins"
+      ],
+      "answer": 0,
+      "fact": "Naftalin later released live recordings of the band's extended title piece.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q114",
+      "prompt": "Which guitarists back Taj Mahal on his 1968 debut album?",
+      "choices": [
+        "Ry Cooder and Danny Kalb",
+        "Jesse Ed Davis and Ry Cooder",
+        "Mike Bloomfield and Elvin Bishop",
+        "John Hammond and Robbie Robertson"
+      ],
+      "answer": 1,
+      "fact": "The album includes Taj's version of \"Statesboro Blues\".",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q115",
+      "prompt": "Which guest keyboardist appears on Taj Mahal's The Natch'l Blues?",
+      "choices": [
+        "Mark Naftalin",
+        "Nicky Hopkins",
+        "Al Kooper",
+        "Ian Stewart"
+      ],
+      "answer": 2,
+      "fact": "Kooper is credited on piano on the 1968 album.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q116",
+      "prompt": "What was the name of Hound Dog Taylor's band?",
+      "choices": [
+        "The Aces",
+        "The Red Devils",
+        "The Nightcats",
+        "The HouseRockers"
+      ],
+      "answer": 3,
+      "fact": "The trio had two guitars and drums, with no bassist.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q117",
+      "prompt": "Who founded Alligator Records to release Hound Dog Taylor's debut?",
+      "choices": [
+        "Bruce Iglauer",
+        "Bob Koester",
+        "Bruce Bromberg",
+        "Dick Shurman"
+      ],
+      "answer": 0,
+      "fact": "Taylor's album launched the Chicago label in 1971.",
+      "difficulty": 3
+    },
+    {
+      "id": "blues-q118",
+      "prompt": "Who joins Albert Collins and Robert Cray as the third guitarist on Showdown!?",
+      "choices": [
+        "Johnny Winter",
+        "Johnny Copeland",
+        "Lonnie Mack",
+        "Gatemouth Brown"
+      ],
+      "answer": 1,
+      "fact": "Alligator released the collaborative album in 1985.",
+      "difficulty": 2
+    },
+    {
+      "id": "blues-q119",
+      "prompt": "Which Robert Cray album includes \"Smoking Gun\" and \"Right Next Door (Because of Me)\"?",
+      "choices": [
+        "False Accusations",
+        "Bad Influence",
+        "Strong Persuader",
+        "Don't Be Afraid of the Dark"
+      ],
+      "answer": 2,
+      "fact": "The album was released in 1986.",
+      "difficulty": 1
+    },
+    {
+      "id": "blues-q120",
+      "prompt": "Which blues performer was born Kevin Roosevelt Moore?",
+      "choices": [
+        "Taj Mahal",
+        "Kenny Neal",
+        "Corey Harris",
+        "Keb' Mo'"
+      ],
+      "answer": 3,
+      "fact": "He released his self-titled Keb' Mo' album in 1994.",
+      "difficulty": 2
     }
   ],
   "songs": [
