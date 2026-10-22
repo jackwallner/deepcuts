@@ -63,7 +63,7 @@ A wrong question also gets its fix published live (`scripts/content-remote.py pu
 
 ## Release
 - TestFlight: `./scripts/testflight.sh` (validates content first). Internal group **Family**
-  (Jack, John) gets every build; no Beta App Review.
+  (Jack, John, Emi) gets every build; no Beta App Review.
 - Not submitted to the App Store yet; that needs Jack (listing, privacy label, previews licensing review).
 
 ## Area rules (`.claude/rules/`)
