@@ -4,3 +4,4 @@ Each record lists the new item IDs, sources checked during drafting and a separa
 
 - [Classic Rock](classic-rock.json): 150 questions, 17 songs and 8 covers added; source review and catalog corrections.
 - [Southern Rock](southern-rock.json): 146 questions, 16 songs and 8 covers added; one existing question corrected.
+- [British Invasion](british-invasion.json): 150 questions, 16 songs and 8 covers added; source review and recording/date corrections.
