@@ -500,15 +500,15 @@
     },
     {
       "id": "southern-rock-q39",
-      "prompt": "\"Gimme Three Steps\" was reportedly inspired by a night when Allen Collins asked a woman to do what?",
+      "prompt": "In \"Gimme Three Steps\", what is the name of the woman the narrator dances with?",
       "choices": [
-        "Sing",
-        "Marry him",
-        "Leave the bar",
-        "Dance"
+        "Sally Sue",
+        "Mary Ann",
+        "Delia Jo",
+        "Linda Lou"
       ],
       "answer": 3,
-      "fact": "Her boyfriend reportedly showed up with a gun, and Collins is said to have talked his way out of trouble.",
+      "fact": "Ronnie Van Zant and Allen Collins wrote the song, which appeared on the band's 1973 debut.",
       "difficulty": 2
     },
     {
@@ -705,6 +705,1904 @@
       "answer": 1,
       "fact": "The live tracks came from The Warehouse, and side two held new studio songs such as \"Tush\".",
       "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q55",
+      "prompt": "Who was the Allman Brothers Band's original bassist?",
+      "choices": [
+        "Lamar Williams",
+        "Allen Woody",
+        "Berry Oakley",
+        "Oteil Burbridge"
+      ],
+      "answer": 2,
+      "fact": "Oakley played on the band's first records and the opening sessions for Brothers and Sisters.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q56",
+      "prompt": "Dickey Betts and Berry Oakley played in which band before joining the Allman Brothers?",
+      "choices": [
+        "The 31st of February",
+        "Hour Glass",
+        "Cowboy",
+        "The Second Coming"
+      ],
+      "answer": 3,
+      "fact": "The Jacksonville group also included keyboardist Reese Wynans.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q57",
+      "prompt": "Which band had Butch Trucks played in before the Allman Brothers Band?",
+      "choices": [
+        "The 31st of February",
+        "The Second Coming",
+        "Hour Glass",
+        "The Escorts"
+      ],
+      "answer": 0,
+      "fact": "Duane and Gregg Allman cut demos with the group before forming their new band.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q58",
+      "prompt": "Which instrumental opens the Allman Brothers Band's 1969 debut?",
+      "choices": [
+        "In Memory of Elizabeth Reed",
+        "Don't Want You No More",
+        "Hot 'Lanta",
+        "Little Martha"
+      ],
+      "answer": 1,
+      "fact": "The instrumental leads directly into Gregg Allman's \"It's Not My Cross to Bear\".",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q59",
+      "prompt": "Which song immediately follows \"Don't Want You No More\" on the Allman Brothers' debut?",
+      "choices": [
+        "Dreams",
+        "Every Hungry Woman",
+        "It's Not My Cross to Bear",
+        "Black Hearted Woman"
+      ],
+      "answer": 2,
+      "fact": "The band connects the opening instrumental to this slow Gregg Allman blues.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q60",
+      "prompt": "Which song on the Allman Brothers' debut shares its title with a later Fleetwood Mac hit?",
+      "choices": [
+        "Revival",
+        "Melissa",
+        "Blue Sky",
+        "Dreams"
+      ],
+      "answer": 3,
+      "fact": "Gregg Allman wrote the Allmans' song, while Stevie Nicks wrote Fleetwood Mac's separate song.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q61",
+      "prompt": "Which Allman Brothers member sings lead on the Idlewild South version of \"Hoochie Coochie Man\"?",
+      "choices": [
+        "Berry Oakley",
+        "Gregg Allman",
+        "Dickey Betts",
+        "Duane Allman"
+      ],
+      "answer": 0,
+      "fact": "The bassist had performed the song with the Second Coming before the Allmans formed.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q62",
+      "prompt": "Which Allman Brothers studio album first released \"Midnight Rider\" and \"In Memory of Elizabeth Reed\"?",
+      "choices": [
+        "Eat a Peach",
+        "Idlewild South",
+        "Brothers and Sisters",
+        "Win, Lose or Draw"
+      ],
+      "answer": 1,
+      "fact": "The band's second studio album preceded the live breakthrough of At Fillmore East.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q63",
+      "prompt": "The title \"In Memory of Elizabeth Reed\" came from a name Dickey Betts saw where?",
+      "choices": [
+        "On a church foundation stone",
+        "On a hotel register",
+        "On a cemetery headstone",
+        "On a theater marquee"
+      ],
+      "answer": 2,
+      "fact": "Betts saw the name in Rose Hill Cemetery in Macon.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q64",
+      "prompt": "Who composed the Allman Brothers instrumental \"In Memory of Elizabeth Reed\"?",
+      "choices": [
+        "Duane Allman",
+        "Gregg Allman",
+        "Berry Oakley",
+        "Dickey Betts"
+      ],
+      "answer": 3,
+      "fact": "The studio version appeared on Idlewild South before the longer At Fillmore East performance.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q65",
+      "prompt": "Which guitarist wrote the Allman Brothers' \"Revival\"?",
+      "choices": [
+        "Dickey Betts",
+        "Duane Allman",
+        "Gregg Allman",
+        "Berry Oakley"
+      ],
+      "answer": 0,
+      "fact": "The song opens Idlewild South and was released as \"Revival (Love Is Everywhere)\".",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q66",
+      "prompt": "Which producer handled \"Please Call Home\", the exception to Tom Dowd's production on Idlewild South?",
+      "choices": [
+        "Johnny Sandlin",
+        "Joel Dorn",
+        "Adrian Barber",
+        "Jerry Wexler"
+      ],
+      "answer": 1,
+      "fact": "The rest of the album was produced by Dowd, but this track came from a New York session with Dorn.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q67",
+      "prompt": "The photograph on At Fillmore East was taken in which city?",
+      "choices": [
+        "New York",
+        "Atlanta",
+        "Macon",
+        "Miami"
+      ],
+      "answer": 2,
+      "fact": "The band posed with its equipment in Georgia, despite the album's New York concert title.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q68",
+      "prompt": "Who photographed the Allman Brothers with their equipment for the At Fillmore East cover?",
+      "choices": [
+        "Henry Diltz",
+        "Ethan Russell",
+        "Baron Wolman",
+        "Jim Marshall"
+      ],
+      "answer": 3,
+      "fact": "Marshall photographed the group in Macon rather than at the New York venue.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q69",
+      "prompt": "Which harmonica player guests on the Allman Brothers' At Fillmore East?",
+      "choices": [
+        "Thom Doucette",
+        "Charlie Musselwhite",
+        "James Cotton",
+        "Paul Butterfield"
+      ],
+      "answer": 0,
+      "fact": "Doucette had a longstanding association with the band and joined the Fillmore sessions.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q70",
+      "prompt": "\"Mountain Jam\" builds on the melody of which Donovan song?",
+      "choices": [
+        "Sunshine Superman",
+        "There Is a Mountain",
+        "Season of the Witch",
+        "Mellow Yellow"
+      ],
+      "answer": 1,
+      "fact": "The Allmans stretched the theme across two sides of the original Eat a Peach double LP.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q71",
+      "prompt": "Which acoustic instrumental is the Allman Brothers track credited solely to Duane Allman as its writer?",
+      "choices": [
+        "Jessica",
+        "Hot 'Lanta",
+        "Little Martha",
+        "Les Brers in A Minor"
+      ],
+      "answer": 2,
+      "fact": "It appeared on Eat a Peach after Duane's death.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q72",
+      "prompt": "Who plays the second acoustic guitar alongside Duane Allman on \"Little Martha\"?",
+      "choices": [
+        "Gregg Allman",
+        "Berry Oakley",
+        "Tommy Talton",
+        "Dickey Betts"
+      ],
+      "answer": 3,
+      "fact": "The recording pairs Duane's resonator guitar with Betts' flat-top acoustic.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q73",
+      "prompt": "Which Allman Brothers double album mixes \"Melissa\" and \"Blue Sky\" with the live \"Mountain Jam\"?",
+      "choices": [
+        "Eat a Peach",
+        "Brothers and Sisters",
+        "Win, Lose or Draw",
+        "Enlightened Rogues"
+      ],
+      "answer": 0,
+      "fact": "The album combines studio recordings with music taped at the Fillmore East.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q74",
+      "prompt": "Who replaced Berry Oakley on bass during the making of Brothers and Sisters?",
+      "choices": [
+        "Allen Woody",
+        "Lamar Williams",
+        "Oteil Burbridge",
+        "David Goldflies"
+      ],
+      "answer": 1,
+      "fact": "Oakley appears on the first two tracks, while Williams plays on later recordings.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q75",
+      "prompt": "Which guest guitarist trades lead parts with Dickey Betts on the studio \"Ramblin' Man\"?",
+      "choices": [
+        "Tommy Talton",
+        "Dan Toler",
+        "Les Dudek",
+        "Rick Vito"
+      ],
+      "answer": 2,
+      "fact": "Dudek also plays acoustic guitar on \"Jessica\" on Brothers and Sisters.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q76",
+      "prompt": "Who plays the featured piano part on the Allman Brothers' \"Jessica\"?",
+      "choices": [
+        "Gregg Allman",
+        "Nicky Hopkins",
+        "Johnny Neel",
+        "Chuck Leavell"
+      ],
+      "answer": 3,
+      "fact": "Leavell's piano shares the spotlight with the guitars on Brothers and Sisters.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q77",
+      "prompt": "Dickey Betts designed \"Jessica\" to be playable with two left-hand fingers in tribute to which guitarist?",
+      "choices": [
+        "Django Reinhardt",
+        "Wes Montgomery",
+        "Chet Atkins",
+        "Les Paul"
+      ],
+      "answer": 0,
+      "fact": "Reinhardt's injured hand led him to develop a distinctive two-finger fretting technique.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q78",
+      "prompt": "Which former Hour Glass drummer co-produced Brothers and Sisters with the Allman Brothers Band?",
+      "choices": [
+        "Tom Dowd",
+        "Johnny Sandlin",
+        "Adrian Barber",
+        "Joel Dorn"
+      ],
+      "answer": 1,
+      "fact": "Sandlin was a key figure at Capricorn Studios in Macon.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q79",
+      "prompt": "What was the title of Gregg Allman's 1973 solo debut, made during the Brothers and Sisters period?",
+      "choices": [
+        "Playin' Up a Storm",
+        "I'm No Angel",
+        "Laid Back",
+        "Just Before the Bullets Fly"
+      ],
+      "answer": 2,
+      "fact": "The solo album offered quieter arrangements, including a new version of \"Midnight Rider\".",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q80",
+      "prompt": "Who plays bass on most of Lynyrd Skynyrd's 1973 debut rather than the bassist pictured on its cover?",
+      "choices": [
+        "Leon Wilkeson",
+        "Larry Junstrom",
+        "Greg T. Walker",
+        "Ed King"
+      ],
+      "answer": 3,
+      "fact": "Wilkeson returned after the sessions, letting King move to guitar in the expanded lineup.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q81",
+      "prompt": "Who was Lynyrd Skynyrd's principal drummer on its 1973 debut?",
+      "choices": [
+        "Bob Burns",
+        "Artimus Pyle",
+        "Michael Cartellone",
+        "Owen Hale"
+      ],
+      "answer": 0,
+      "fact": "Artimus Pyle took over for the later Nuthin' Fancy album.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q82",
+      "prompt": "Which Atlanta Rhythm Section drummer guests on Skynyrd's studio recording of \"Tuesday's Gone\"?",
+      "choices": [
+        "Bob Burns",
+        "Robert Nix",
+        "Artimus Pyle",
+        "Paul Riddle"
+      ],
+      "answer": 1,
+      "fact": "Nix appears alongside the band on its 1973 debut.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q83",
+      "prompt": "Who plays bass and Mellotron on Lynyrd Skynyrd's original \"Tuesday's Gone\"?",
+      "choices": [
+        "Ed King",
+        "Billy Powell",
+        "Al Kooper",
+        "Leon Wilkeson"
+      ],
+      "answer": 2,
+      "fact": "The producer is credited under the pseudonym Roosevelt Gook on the debut album.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q84",
+      "prompt": "Which Blood, Sweat & Tears guitarist plays harmonica on Skynyrd's \"Mississippi Kid\"?",
+      "choices": [
+        "Al Kooper",
+        "Mike Bloomfield",
+        "David Clayton-Thomas",
+        "Steve Katz"
+      ],
+      "answer": 3,
+      "fact": "The acoustic-blues track appears on the band's debut, with Ed King on lead guitar.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q85",
+      "prompt": "Which producer plays mandolin on Skynyrd's \"Mississippi Kid\"?",
+      "choices": [
+        "Al Kooper",
+        "Tom Dowd",
+        "Jimmy Johnson",
+        "Tom Werman"
+      ],
+      "answer": 0,
+      "fact": "He also shares the song's writing credit with Ronnie Van Zant and Bob Burns.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q86",
+      "prompt": "Which guitarist co-wrote Lynyrd Skynyrd's \"Simple Man\" with Ronnie Van Zant?",
+      "choices": [
+        "Allen Collins",
+        "Gary Rossington",
+        "Ed King",
+        "Steve Gaines"
+      ],
+      "answer": 1,
+      "fact": "The song appeared on the 1973 debut, before Steve Gaines joined the band.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q87",
+      "prompt": "Who plays the extended lead-guitar solo in the second half of Skynyrd's studio \"Free Bird\"?",
+      "choices": [
+        "Gary Rossington",
+        "Ed King",
+        "Allen Collins",
+        "Steve Gaines"
+      ],
+      "answer": 2,
+      "fact": "Rossington plays the slide-guitar introduction, while Collins handles the long lead passage.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q88",
+      "prompt": "Which family member gives the advice at the heart of Skynyrd's \"Simple Man\"?",
+      "choices": [
+        "The narrator's father",
+        "The narrator's sister",
+        "The narrator's grandfather",
+        "The narrator's mother"
+      ],
+      "answer": 3,
+      "fact": "Rossington and Van Zant wrote the song for the band's debut album.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q89",
+      "prompt": "In which Georgia town was the street photograph for Skynyrd's debut cover taken?",
+      "choices": [
+        "Jonesboro",
+        "Macon",
+        "Athens",
+        "Valdosta"
+      ],
+      "answer": 0,
+      "fact": "The band stood and sat along Main Street for the photograph.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q90",
+      "prompt": "Which song opens Lynyrd Skynyrd's Second Helping?",
+      "choices": [
+        "Workin' for MCA",
+        "Sweet Home Alabama",
+        "Swamp Music",
+        "Don't Ask Me No Questions"
+      ],
+      "answer": 1,
+      "fact": "The album ends with the band's version of J.J. Cale's \"Call Me the Breeze\".",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q91",
+      "prompt": "The title character in \"The Ballad of Curtis Loew\" is remembered for playing what kind of music?",
+      "choices": [
+        "Bluegrass",
+        "Gospel",
+        "Blues",
+        "Country"
+      ],
+      "answer": 2,
+      "fact": "The Second Helping song tells its story through a child who brings the older musician money.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q92",
+      "prompt": "Which Skynyrd guitarist gives the spoken count-in at the start of \"Sweet Home Alabama\"?",
+      "choices": [
+        "Gary Rossington",
+        "Allen Collins",
+        "Steve Gaines",
+        "Ed King"
+      ],
+      "answer": 3,
+      "fact": "King shares the writing credit with Rossington and Ronnie Van Zant.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q93",
+      "prompt": "Which saxophonist associated with the Rolling Stones is in the horn section on Skynyrd's \"Call Me the Breeze\"?",
+      "choices": [
+        "Bobby Keys",
+        "Dick Parry",
+        "Raphael Ravenscroft",
+        "Mel Collins"
+      ],
+      "answer": 0,
+      "fact": "Keys, Trevor Lawrence and Steve Madaio are credited on the Second Helping track.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q94",
+      "prompt": "\"Workin' for MCA\" names which part of Lynyrd Skynyrd's music business?",
+      "choices": [
+        "Their booking agency",
+        "Their record company",
+        "Their publishing company",
+        "Their management company"
+      ],
+      "answer": 1,
+      "fact": "The song appears on Second Helping, released through MCA and its Sounds of the South imprint.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q95",
+      "prompt": "Which Van Zant brother took over lead vocals for Lynyrd Skynyrd's 1987 reunion?",
+      "choices": [
+        "Donnie Van Zant",
+        "Ronnie Van Zant",
+        "Johnny Van Zant",
+        "Jimmie Van Zant"
+      ],
+      "answer": 2,
+      "fact": "The surviving band returned to the road a decade after the 1977 plane crash.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q96",
+      "prompt": "Which Skynyrd studio album was the first with drummer Artimus Pyle?",
+      "choices": [
+        "Second Helping",
+        "Gimme Back My Bullets",
+        "Street Survivors",
+        "Nuthin' Fancy"
+      ],
+      "answer": 3,
+      "fact": "Pyle replaced Bob Burns before the band's third studio album.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q97",
+      "prompt": "Skynyrd's \"Saturday Night Special\" is a warning about which weapons?",
+      "choices": [
+        "Handguns",
+        "Land mines",
+        "Machine guns",
+        "Flamethrowers"
+      ],
+      "answer": 0,
+      "fact": "The song opens Nuthin' Fancy and questions the deadly ease of using a cheap pistol.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q98",
+      "prompt": "Who produced Lynyrd Skynyrd's Gimme Back My Bullets?",
+      "choices": [
+        "Al Kooper",
+        "Tom Dowd",
+        "Tom Werman",
+        "Keith Olsen"
+      ],
+      "answer": 1,
+      "fact": "Dowd succeeded Kooper as the band's studio producer for this album.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q99",
+      "prompt": "Gimme Back My Bullets was recorded between Ed King's departure and whose arrival as Skynyrd's third guitarist?",
+      "choices": [
+        "Allen Collins",
+        "Gary Rossington",
+        "Steve Gaines",
+        "Hughie Thomasson"
+      ],
+      "answer": 2,
+      "fact": "The 1976 studio album features Rossington and Collins on guitars.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q100",
+      "prompt": "Which Skynyrd studio album is the only one recorded with guitarist Steve Gaines?",
+      "choices": [
+        "Nuthin' Fancy",
+        "Gimme Back My Bullets",
+        "Second Helping",
+        "Street Survivors"
+      ],
+      "answer": 3,
+      "fact": "Gaines also appears on the live One More from the Road.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q101",
+      "prompt": "Who shares the lead vocal with Ronnie Van Zant on Skynyrd's \"You Got That Right\"?",
+      "choices": [
+        "Steve Gaines",
+        "Allen Collins",
+        "Gary Rossington",
+        "Billy Powell"
+      ],
+      "answer": 0,
+      "fact": "Gaines and Van Zant co-wrote the Street Survivors track.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q102",
+      "prompt": "Who sings lead on Lynyrd Skynyrd's \"Ain't No Good Life\"?",
+      "choices": [
+        "Ronnie Van Zant",
+        "Steve Gaines",
+        "Johnny Van Zant",
+        "Donnie Van Zant"
+      ],
+      "answer": 1,
+      "fact": "Gaines wrote the blues song that closes Street Survivors.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q103",
+      "prompt": "Which Skynyrd guitarist wrote \"I Know a Little\" before joining the band?",
+      "choices": [
+        "Ed King",
+        "Allen Collins",
+        "Steve Gaines",
+        "Gary Rossington"
+      ],
+      "answer": 2,
+      "fact": "The boogie appeared on Street Survivors, with Ronnie Van Zant singing.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q104",
+      "prompt": "Lynyrd Skynyrd recorded One More from the Road at which Atlanta venue?",
+      "choices": [
+        "The Omni",
+        "The Municipal Auditorium",
+        "The Roxy Theatre",
+        "The Fox Theatre"
+      ],
+      "answer": 3,
+      "fact": "The live album was drawn from three July 1976 concerts.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q105",
+      "prompt": "Which ZZ Top member sings lead on the original studio version of \"Tush\"?",
+      "choices": [
+        "Dusty Hill",
+        "Billy Gibbons",
+        "Frank Beard",
+        "Bill Ham"
+      ],
+      "answer": 0,
+      "fact": "The short blues-rock track closes the studio side of Fandango!",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q106",
+      "prompt": "What instrument did Dusty Hill mainly play in ZZ Top?",
+      "choices": [
+        "Lead guitar",
+        "Bass guitar",
+        "Drums",
+        "Keyboards"
+      ],
+      "answer": 1,
+      "fact": "Hill also sang lead on \"Tush\" and \"Ten Dollar Man\".",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q107",
+      "prompt": "ZZ Top's album title Tejas uses a Spanish spelling of which US state's name?",
+      "choices": [
+        "Arizona",
+        "Nevada",
+        "Texas",
+        "Colorado"
+      ],
+      "answer": 2,
+      "fact": "The 1976 album precedes the band's move from London Records to Warner Bros.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q108",
+      "prompt": "Which ZZ Top album contains \"I Thank You\" and \"Cheap Sunglasses\"?",
+      "choices": [
+        "Tejas",
+        "El Loco",
+        "Afterburner",
+        "Degüello"
+      ],
+      "answer": 3,
+      "fact": "The 1979 record was the band's first album for Warner Bros.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q109",
+      "prompt": "Which ZZ Top instrumental closes Tejas?",
+      "choices": [
+        "Asleep in the Desert",
+        "Apologies to Pearly",
+        "Leila",
+        "Esther Be the One"
+      ],
+      "answer": 0,
+      "fact": "The quiet guitar piece ends an album that opens with \"It's Only Love\".",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q110",
+      "prompt": "What nickname appears in Frank Beard's credit on Tres Hombres?",
+      "choices": [
+        "Slim Beard",
+        "Rube Beard",
+        "Red Beard",
+        "Tex Beard"
+      ],
+      "answer": 1,
+      "fact": "He also used the nickname on ZZ Top's First Album.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q111",
+      "prompt": "Which engineer began a long association with ZZ Top on Tres Hombres?",
+      "choices": [
+        "Glyn Johns",
+        "Tom Dowd",
+        "Terry Manning",
+        "Eddie Kramer"
+      ],
+      "answer": 2,
+      "fact": "Manning's work with the band continued through its synthesizer-heavy 1980s records.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q112",
+      "prompt": "Who shares the writing credit with Billy Gibbons on ZZ Top's \"Just Got Paid\"?",
+      "choices": [
+        "Dusty Hill",
+        "Frank Beard",
+        "Steve Perron",
+        "Bill Ham"
+      ],
+      "answer": 3,
+      "fact": "The song appears on Rio Grande Mud, where Ham is also credited as producer.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q113",
+      "prompt": "Which label released ZZ Top's First Album, Rio Grande Mud and Tres Hombres?",
+      "choices": [
+        "London",
+        "Warner Bros.",
+        "Atlantic",
+        "Epic"
+      ],
+      "answer": 0,
+      "fact": "The group switched to Warner Bros. for Degüello.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q114",
+      "prompt": "On Tres Hombres, \"Waitin' for the Bus\" leads straight into which song?",
+      "choices": [
+        "Beer Drinkers & Hell Raisers",
+        "Jesus Just Left Chicago",
+        "La Grange",
+        "Hot, Blue and Righteous"
+      ],
+      "answer": 1,
+      "fact": "The back-to-back pairing became one of the band's familiar concert sequences.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q115",
+      "prompt": "The hot rod on ZZ Top's Eliminator cover is which make of car?",
+      "choices": [
+        "Chevrolet",
+        "Cadillac",
+        "Ford",
+        "Dodge"
+      ],
+      "answer": 2,
+      "fact": "The customized 1933 coupe also appears in the album's music videos.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q116",
+      "prompt": "Who directed ZZ Top's videos for \"Gimme All Your Lovin'\", \"Sharp Dressed Man\" and \"Legs\"?",
+      "choices": [
+        "Russell Mulcahy",
+        "Steve Barron",
+        "David Mallet",
+        "Tim Newman"
+      ],
+      "answer": 3,
+      "fact": "The clips built a recurring world around the Eliminator car and three women.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q117",
+      "prompt": "The Marshall Tucker Band's original members came together in which South Carolina city?",
+      "choices": [
+        "Spartanburg",
+        "Charleston",
+        "Columbia",
+        "Greenville"
+      ],
+      "answer": 0,
+      "fact": "The lineup included brothers Toy and Tommy Caldwell.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q118",
+      "prompt": "Who sings lead on the Marshall Tucker Band's original \"Can't You See\"?",
+      "choices": [
+        "Doug Gray",
+        "Toy Caldwell",
+        "Tommy Caldwell",
+        "George McCorkle"
+      ],
+      "answer": 1,
+      "fact": "The lead guitarist also wrote the song, which appeared on the band's debut.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q119",
+      "prompt": "Which Marshall Tucker singer takes the lead on \"Heard It in a Love Song\"?",
+      "choices": [
+        "Toy Caldwell",
+        "Tommy Caldwell",
+        "Doug Gray",
+        "Jerry Eubanks"
+      ],
+      "answer": 2,
+      "fact": "The Toy Caldwell composition appears on Carolina Dreams.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q120",
+      "prompt": "Which Marshall Tucker member plays the flute introduction to \"Can't You See\"?",
+      "choices": [
+        "Doug Gray",
+        "George McCorkle",
+        "Paul Riddle",
+        "Jerry Eubanks"
+      ],
+      "answer": 3,
+      "fact": "Eubanks also played saxophone, adding jazz colors to the band's guitar sound.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q121",
+      "prompt": "Which Caldwell brother played bass in the original Marshall Tucker Band?",
+      "choices": [
+        "Tommy Caldwell",
+        "Toy Caldwell",
+        "George McCorkle",
+        "Paul Riddle"
+      ],
+      "answer": 0,
+      "fact": "Toy played lead guitar while Tommy anchored the rhythm section.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q122",
+      "prompt": "Toy Caldwell was known for picking his electric guitar with what instead of a flatpick?",
+      "choices": [
+        "His index finger",
+        "His thumb",
+        "His middle finger",
+        "His ring finger"
+      ],
+      "answer": 1,
+      "fact": "The approach helped give the Marshall Tucker guitarist his distinctive attack.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q123",
+      "prompt": "Which Marshall Tucker guitarist wrote \"Fire on the Mountain\"?",
+      "choices": [
+        "Toy Caldwell",
+        "Tommy Caldwell",
+        "George McCorkle",
+        "Doug Gray"
+      ],
+      "answer": 2,
+      "fact": "The song opens the studio material on Searchin' for a Rainbow.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q124",
+      "prompt": "Which former Hour Glass keyboardist produced the Marshall Tucker Band's early Capricorn albums?",
+      "choices": [
+        "Johnny Sandlin",
+        "Tom Dowd",
+        "Al Kooper",
+        "Paul Hornsby"
+      ],
+      "answer": 3,
+      "fact": "Hornsby also contributed piano and organ to the recordings.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q125",
+      "prompt": "Which Allman Brothers guitarist guests on the title track of Searchin' for a Rainbow?",
+      "choices": [
+        "Dickey Betts",
+        "Duane Allman",
+        "Dan Toler",
+        "Warren Haynes"
+      ],
+      "answer": 0,
+      "fact": "Betts plays the guitar solo on the Marshall Tucker recording.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q126",
+      "prompt": "Who adds fiddle to the Marshall Tucker Band's \"24 Hours at a Time\" on Where We All Belong?",
+      "choices": [
+        "Vassar Clements",
+        "Charlie Daniels",
+        "Johnny Gimble",
+        "Robby Steinhardt"
+      ],
+      "answer": 1,
+      "fact": "Daniels also guests on \"This Ol' Cowboy\" on the same double album.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q127",
+      "prompt": "Who sings lead on Molly Hatchet's original \"Flirtin' with Disaster\"?",
+      "choices": [
+        "Jimmy Farrar",
+        "Phil McCormack",
+        "Danny Joe Brown",
+        "Dave Hlubek"
+      ],
+      "answer": 2,
+      "fact": "Brown sang on the band's first two albums before Jimmy Farrar took over for Beatin' the Odds.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q128",
+      "prompt": "Which singer replaced Danny Joe Brown for Molly Hatchet's Beatin' the Odds?",
+      "choices": [
+        "Phil McCormack",
+        "Bobby Ingram",
+        "Riff West",
+        "Jimmy Farrar"
+      ],
+      "answer": 3,
+      "fact": "Farrar sang on the 1980 album and its follow-up, Take No Prisoners.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q129",
+      "prompt": "Who completed Molly Hatchet's debut guitar trio with Dave Hlubek and Steve Holland?",
+      "choices": [
+        "Duane Roland",
+        "Bobby Ingram",
+        "Bryan Bassett",
+        "Dru Lombar"
+      ],
+      "answer": 0,
+      "fact": "The six-man debut lineup also included Danny Joe Brown, Banner Thomas and Bruce Crump.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q130",
+      "prompt": "Who played bass on Molly Hatchet's 1978 debut?",
+      "choices": [
+        "Riff West",
+        "Banner Thomas",
+        "Tim Lindsey",
+        "Andy McKinney"
+      ],
+      "answer": 1,
+      "fact": "Thomas also shares writing credits on \"Gator Country\" and \"I'll Be Running\".",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q131",
+      "prompt": "Who plays drums on Molly Hatchet's 1978 debut?",
+      "choices": [
+        "B. B. Borden",
+        "David Hlubek",
+        "Bruce Crump",
+        "Derek Hess"
+      ],
+      "answer": 2,
+      "fact": "Crump shares writing credits on \"The Creeper\" and \"Trust Your Old Friend\".",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q132",
+      "prompt": "Which Frank Frazetta painting appears on Molly Hatchet's debut cover?",
+      "choices": [
+        "Dark Kingdom",
+        "Berserker",
+        "The Destroyer",
+        "Death Dealer"
+      ],
+      "answer": 3,
+      "fact": "The armored rider introduced the band's recurring use of fantasy art.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q133",
+      "prompt": "Who sings the lead on the Outlaws' original \"Green Grass and High Tides\"?",
+      "choices": [
+        "Hughie Thomasson",
+        "Henry Paul",
+        "Billy Jones",
+        "Monte Yoho"
+      ],
+      "answer": 0,
+      "fact": "Thomasson wrote the long closing track of the band's debut album.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q134",
+      "prompt": "Which Outlaws guitarist partners Hughie Thomasson in the long leads on \"Green Grass and High Tides\"?",
+      "choices": [
+        "Henry Paul",
+        "Billy Jones",
+        "Frank O'Keefe",
+        "Monte Yoho"
+      ],
+      "answer": 1,
+      "fact": "Jones and Thomasson supplied the band's electric lead-guitar exchanges.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q135",
+      "prompt": "Which Outlaws drummer co-wrote \"There Goes Another Love Song\" with Hughie Thomasson?",
+      "choices": [
+        "David Dix",
+        "Bruce Crump",
+        "Monte Yoho",
+        "Paul Riddle"
+      ],
+      "answer": 2,
+      "fact": "The song opens the 1975 debut, with Thomasson singing lead.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q136",
+      "prompt": "Which Doors producer made the Outlaws' 1975 debut?",
+      "choices": [
+        "Bruce Botnick",
+        "Tom Dowd",
+        "Johnny Sandlin",
+        "Paul A. Rothchild"
+      ],
+      "answer": 3,
+      "fact": "The album was recorded at Elektra Studios in Los Angeles.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q137",
+      "prompt": "Which label released the Outlaws' 1975 debut?",
+      "choices": [
+        "Arista",
+        "Capricorn",
+        "Epic",
+        "MCA"
+      ],
+      "answer": 0,
+      "fact": "The debut features the contrasting writing and singing of Thomasson, Henry Paul and Billy Jones.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q138",
+      "prompt": "Outlaws co-founder Henry Paul later helped form which country band?",
+      "choices": [
+        "Diamond Rio",
+        "BlackHawk",
+        "Little Texas",
+        "Restless Heart"
+      ],
+      "answer": 1,
+      "fact": "Paul's later group brought him back to vocal harmonies in a country setting.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q139",
+      "prompt": "Which Wet Willie singer also plays saxophone and harmonica?",
+      "choices": [
+        "Jack Hall",
+        "Ricky Hirsch",
+        "Jimmy Hall",
+        "Lewis Ross"
+      ],
+      "answer": 2,
+      "fact": "Hall fronts the band heard on \"Keep On Smilin'\".",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q140",
+      "prompt": "Who plays bass in Wet Willie's classic lineup alongside his brother Jimmy?",
+      "choices": [
+        "Ricky Hirsch",
+        "John Anthony",
+        "Lewis Ross",
+        "Jack Hall"
+      ],
+      "answer": 3,
+      "fact": "Their sister Donna was one of the band's backing singers.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q141",
+      "prompt": "What name was used for Wet Willie's backing singers Donna Hall and Ella Brown?",
+      "choices": [
+        "The Williettes",
+        "The Honkettes",
+        "The Sweet Inspirations",
+        "The Blackberries"
+      ],
+      "answer": 0,
+      "fact": "Their harmony vocals became a regular part of the band's sound.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q142",
+      "prompt": "Who produced Wet Willie's Keep On Smilin' album?",
+      "choices": [
+        "Johnny Sandlin",
+        "Tom Dowd",
+        "Paul Hornsby",
+        "Tom Werman"
+      ],
+      "answer": 1,
+      "fact": "The 1974 Capricorn album brought the band its best-known single.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q143",
+      "prompt": "Which Wet Willie song is both the title of a 1974 album and the band's familiar message of resilience?",
+      "choices": [
+        "Street Corner Serenade",
+        "Weekend",
+        "Keep On Smilin'",
+        "Dixie Rock"
+      ],
+      "answer": 2,
+      "fact": "The title track was produced by Tom Dowd.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q144",
+      "prompt": "Atlanta Rhythm Section grew out of session work at which Doraville studio?",
+      "choices": [
+        "FAME Studios",
+        "Criteria Studios",
+        "Sound City Studios",
+        "Studio One"
+      ],
+      "answer": 3,
+      "fact": "Doraville is near Atlanta, the city named in the band's name.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q145",
+      "prompt": "Which songwriter-producer guided Atlanta Rhythm Section's classic albums?",
+      "choices": [
+        "Buddy Buie",
+        "Paul Hornsby",
+        "Johnny Sandlin",
+        "Tom Dowd"
+      ],
+      "answer": 0,
+      "fact": "Buie produced A Rock and Roll Alternative and Champagne Jam.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q146",
+      "prompt": "Who sings lead on Atlanta Rhythm Section's \"So Into You\" and \"Imaginary Lover\"?",
+      "choices": [
+        "Rodney Justo",
+        "Ronnie Hammond",
+        "Jimmy Hall",
+        "Doug Gray"
+      ],
+      "answer": 1,
+      "fact": "Hammond followed original vocalist Rodney Justo in the early 1970s.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q147",
+      "prompt": "Who was Atlanta Rhythm Section's original lead singer, before Ronnie Hammond?",
+      "choices": [
+        "Ronnie Hammond",
+        "Dean Daughtry",
+        "Rodney Justo",
+        "J. R. Cobb"
+      ],
+      "answer": 2,
+      "fact": "Justo had also sung with the Candymen, a band that backed Roy Orbison.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q148",
+      "prompt": "Who played keyboards in Atlanta Rhythm Section's classic 1970s lineup?",
+      "choices": [
+        "Barry Bailey",
+        "Paul Goddard",
+        "J. R. Cobb",
+        "Dean Daughtry"
+      ],
+      "answer": 3,
+      "fact": "Daughtry had been part of the Candymen before the studio group became ARS.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q149",
+      "prompt": "Which bowed instrument is Charlie Daniels' trademark on \"The Devil Went Down to Georgia\"?",
+      "choices": [
+        "Fiddle",
+        "Cello",
+        "Double bass",
+        "Viola"
+      ],
+      "answer": 0,
+      "fact": "Daniels was also a guitarist and had worked as a Nashville session musician.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q150",
+      "prompt": "Which Charlie Daniels Band keyboardist was known as \"Taz\"?",
+      "choices": [
+        "Tom Crain",
+        "Joel DiGregorio",
+        "Charles Hayward",
+        "Fred Edwards"
+      ],
+      "answer": 1,
+      "fact": "DiGregorio shares a writing credit on \"The Devil Went Down to Georgia\".",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q151",
+      "prompt": "Which guitarist shares the Million Mile Reflections lineup with Charlie Daniels?",
+      "choices": [
+        "Barry Barnes",
+        "Toy Caldwell",
+        "Tommy Crain",
+        "George McCorkle"
+      ],
+      "answer": 2,
+      "fact": "Crain is credited as Tom Crain among the writers of \"The Devil Went Down to Georgia\".",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q152",
+      "prompt": "Which Charlie Daniels Band album includes \"The Devil Went Down to Georgia\"?",
+      "choices": [
+        "Fire on the Mountain",
+        "Nightrider",
+        "Full Moon",
+        "Million Mile Reflections"
+      ],
+      "answer": 3,
+      "fact": "The 1979 album was produced by John Boylan.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q153",
+      "prompt": "Which Charlie Daniels hit tells a spoken comic story about a bar encounter in Mississippi?",
+      "choices": [
+        "Uneasy Rider",
+        "The South's Gonna Do It",
+        "Long Haired Country Boy",
+        "Trudy"
+      ],
+      "answer": 0,
+      "fact": "The 1973 song's title plays on the name of the film Easy Rider.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q154",
+      "prompt": "Which Charlie Daniels Band album introduced \"Long Haired Country Boy\"?",
+      "choices": [
+        "Nightrider",
+        "Fire on the Mountain",
+        "Million Mile Reflections",
+        "Windows"
+      ],
+      "answer": 1,
+      "fact": "The song appeared on the 1974 album before its single release the following year.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q155",
+      "prompt": "Which Allman Brothers pianist became the keyboard leader of Sea Level?",
+      "choices": [
+        "Gregg Allman",
+        "Johnny Neel",
+        "Chuck Leavell",
+        "Paul Hornsby"
+      ],
+      "answer": 2,
+      "fact": "Sea Level grew from an Allmans side trio into a separate Macon-based band.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q156",
+      "prompt": "Before Sea Level became a separate band, Leavell, Lamar Williams and Jaimoe played as which trio?",
+      "choices": [
+        "The Second Coming",
+        "The 31st of February",
+        "Hour Glass",
+        "We Three"
+      ],
+      "answer": 3,
+      "fact": "The trio sometimes opened Allman Brothers shows before adding guitarist Jimmy Nalls.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q157",
+      "prompt": "Who joined Leavell, Lamar Williams and Jaimoe as Sea Level's original guitarist?",
+      "choices": [
+        "Jimmy Nalls",
+        "Davis Causey",
+        "Tommy Talton",
+        "Scott Boyer"
+      ],
+      "answer": 0,
+      "fact": "The four musicians made Sea Level's self-titled debut for Capricorn.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q158",
+      "prompt": "Which Allman Brothers bass-and-drums pair formed Sea Level with Chuck Leavell?",
+      "choices": [
+        "Berry Oakley and Butch Trucks",
+        "Lamar Williams and Jaimoe",
+        "Allen Woody and Matt Abts",
+        "Oteil Burbridge and Marc Quinones"
+      ],
+      "answer": 1,
+      "fact": "Guitarist Jimmy Nalls completed the original quartet.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q159",
+      "prompt": "Which saxophonist and singer joined Sea Level for Cats on the Coast?",
+      "choices": [
+        "Jimmy Hall",
+        "Jerry Eubanks",
+        "Randall Bramblett",
+        "Bobby Keys"
+      ],
+      "answer": 2,
+      "fact": "Bramblett co-wrote the album's opening song, \"That's Your Secret\", with Davis Causey.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q160",
+      "prompt": "Which Sea Level album opens with \"That's Your Secret\"?",
+      "choices": [
+        "On the Edge",
+        "Long Walk on a Short Pier",
+        "Ball Room",
+        "Cats on the Coast"
+      ],
+      "answer": 3,
+      "fact": "The album added Randall Bramblett and Davis Causey to the group's sound.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q161",
+      "prompt": "Which songwriting pair formed the core of Capricorn's band Cowboy?",
+      "choices": [
+        "Scott Boyer and Tommy Talton",
+        "Dru Lombar and Larry Howard",
+        "Toy Caldwell and George McCorkle",
+        "Chuck Leavell and Jimmy Nalls"
+      ],
+      "answer": 0,
+      "fact": "Cowboy's changing lineups centered on Boyer and Talton through their 1970s albums.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q162",
+      "prompt": "Who plays Dobro on Cowboy's original \"Please Be with Me\"?",
+      "choices": [
+        "Dickey Betts",
+        "Duane Allman",
+        "Tommy Talton",
+        "Jerry Douglas"
+      ],
+      "answer": 1,
+      "fact": "The recording appeared on 5'll Getcha Ten before Eric Clapton covered the song.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q163",
+      "prompt": "Which Cowboy member wrote \"Please Be with Me\"?",
+      "choices": [
+        "Tommy Talton",
+        "Bill Pillmore",
+        "Scott Boyer",
+        "Peter Kowalke"
+      ],
+      "answer": 2,
+      "fact": "Duane Allman guests on the original, and Clapton later recorded it for 461 Ocean Boulevard.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q164",
+      "prompt": "Which Capricorn band backed Gregg Allman on his 1974 solo tour?",
+      "choices": [
+        "Grinderswitch",
+        "Wet Willie",
+        "Sea Level",
+        "Cowboy"
+      ],
+      "answer": 3,
+      "fact": "The group also contributed to the live album The Gregg Allman Tour.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q165",
+      "prompt": "What was the title of Cowboy's 1970 debut album?",
+      "choices": [
+        "Reach for the Sky",
+        "5'll Getcha Ten",
+        "Boyer and Talton",
+        "Honest to Goodness"
+      ],
+      "answer": 0,
+      "fact": "The band followed it with 5'll Getcha Ten in 1971.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q166",
+      "prompt": "Which Grinderswitch guitarist and singer wrote most of Honest to Goodness?",
+      "choices": [
+        "Larry Howard",
+        "Dru Lombar",
+        "Joe Dan Petty",
+        "Rick Burnett"
+      ],
+      "answer": 1,
+      "fact": "Lombar's songs include the opener, \"Kiss the Blues Goodbye\".",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q167",
+      "prompt": "Who produced Grinderswitch's debut album Honest to Goodness?",
+      "choices": [
+        "Johnny Sandlin",
+        "Tom Dowd",
+        "Paul Hornsby",
+        "Al Kooper"
+      ],
+      "answer": 2,
+      "fact": "The album was recorded at Capricorn Sound Studios in Macon.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q168",
+      "prompt": "Which Allman Brothers guitarist guests on Grinderswitch's \"Kiss the Blues Goodbye\"?",
+      "choices": [
+        "Duane Allman",
+        "Dan Toler",
+        "Warren Haynes",
+        "Dickey Betts"
+      ],
+      "answer": 3,
+      "fact": "The guest appearance opens Grinderswitch's Honest to Goodness album.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q169",
+      "prompt": "Which BBC DJ used Grinderswitch's \"Pickin' the Blues\" as a radio theme?",
+      "choices": [
+        "John Peel",
+        "Bob Harris",
+        "Alan Freeman",
+        "Tommy Vance"
+      ],
+      "answer": 0,
+      "fact": "The band's Macon Tracks instrumental found a long second life on British radio.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q170",
+      "prompt": "Who sings lead and plays guitar in Blackfoot's Strikes lineup?",
+      "choices": [
+        "Charlie Hargrett",
+        "Rickey Medlocke",
+        "Greg T. Walker",
+        "Jakson Spires"
+      ],
+      "answer": 1,
+      "fact": "Medlocke fronts the band on \"Highway Song\" and \"Train, Train\".",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q171",
+      "prompt": "Before returning to Skynyrd as a guitarist, which instrument did Rickey Medlocke play in its early lineup?",
+      "choices": [
+        "Bass guitar",
+        "Piano",
+        "Drums",
+        "Saxophone"
+      ],
+      "answer": 2,
+      "fact": "His early recordings with the band were later released on Skynyrd's First and... Last.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q172",
+      "prompt": "Which Southern rock band recorded the long 1979 guitar anthem \"Highway Song\"?",
+      "choices": [
+        "Molly Hatchet",
+        "The Outlaws",
+        "Black Oak Arkansas",
+        "Blackfoot"
+      ],
+      "answer": 3,
+      "fact": "The song closes the band's Strikes album.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q173",
+      "prompt": "Which Blackfoot album includes both \"Highway Song\" and \"Train, Train\"?",
+      "choices": [
+        "Strikes",
+        "Tomcattin'",
+        "Marauder",
+        "Siogo"
+      ],
+      "answer": 0,
+      "fact": "The 1979 album combines the band's originals with songs such as Free's \"Wishing Well\".",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q174",
+      "prompt": "Which former Uriah Heep keyboardist joined Blackfoot for Siogo?",
+      "choices": [
+        "John Lawton",
+        "Ken Hensley",
+        "Lee Kerslake",
+        "John Wetton"
+      ],
+      "answer": 1,
+      "fact": "Hensley's keyboards expanded the group's sound beyond its earlier quartet.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q175",
+      "prompt": "Who plays the harmonica introduction to Blackfoot's \"Train, Train\"?",
+      "choices": [
+        "Rickey Medlocke",
+        "Charlie Musselwhite",
+        "Shorty Medlocke",
+        "Jimmy Hall"
+      ],
+      "answer": 2,
+      "fact": "Rickey's grandfather wrote the song; Cub Koda plays harmonica in the main recording.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q176",
+      "prompt": "Who plays bass on Blackfoot's Strikes?",
+      "choices": [
+        "Jakson Spires",
+        "Charlie Hargrett",
+        "Rickey Medlocke",
+        "Greg T. Walker"
+      ],
+      "answer": 3,
+      "fact": "Walker and drummer Spires form the rhythm section behind the two guitars.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q177",
+      "prompt": "38 Special formed in which Florida city?",
+      "choices": [
+        "Jacksonville",
+        "Tampa",
+        "Miami",
+        "Tallahassee"
+      ],
+      "answer": 0,
+      "fact": "The group began with Donnie Van Zant and Don Barnes among its founding members.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q178",
+      "prompt": "Who sings lead on 38 Special's \"Hold On Loosely\"?",
+      "choices": [
+        "Donnie Van Zant",
+        "Don Barnes",
+        "Max Carl",
+        "Danny Chauncey"
+      ],
+      "answer": 1,
+      "fact": "Barnes co-wrote the song with Jeff Carlisi and Jim Peterik.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q179",
+      "prompt": "Which Survivor co-founder helped write 38 Special's \"Hold On Loosely\" and \"Caught Up in You\"?",
+      "choices": [
+        "Frankie Sullivan",
+        "Dave Bickler",
+        "Jim Peterik",
+        "Jimi Jamison"
+      ],
+      "answer": 2,
+      "fact": "Peterik became a regular writing partner for the Jacksonville band.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q180",
+      "prompt": "Which two drummers appear in 38 Special's Wild-Eyed Southern Boys lineup?",
+      "choices": [
+        "Butch Trucks and Jaimoe",
+        "Jakson Spires and David Dix",
+        "Paul Riddle and Bruce Crump",
+        "Steve Brookins and Jack Grondin"
+      ],
+      "answer": 3,
+      "fact": "The band used two drummers alongside its guitars and bass.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q181",
+      "prompt": "Which 38 Special album introduced \"Hold On Loosely\"?",
+      "choices": [
+        "Wild-Eyed Southern Boys",
+        "Rockin' into the Night",
+        "Special Forces",
+        "Tour de Force"
+      ],
+      "answer": 0,
+      "fact": "The song opens the 1981 album.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q182",
+      "prompt": "Which 38 Special album includes \"Caught Up in You\"?",
+      "choices": [
+        "Wild-Eyed Southern Boys",
+        "Special Forces",
+        "Tour de Force",
+        "Strength in Numbers"
+      ],
+      "answer": 1,
+      "fact": "The 1982 album followed Wild-Eyed Southern Boys.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q183",
+      "prompt": "Which brothers front the Black Crowes on vocals and guitar?",
+      "choices": [
+        "Ronnie and Donnie Van Zant",
+        "Duane and Gregg Allman",
+        "Chris and Rich Robinson",
+        "Toy and Tommy Caldwell"
+      ],
+      "answer": 2,
+      "fact": "Chris sings while Rich plays guitar in the Atlanta-founded band.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q184",
+      "prompt": "What was the Black Crowes' 1990 debut album?",
+      "choices": [
+        "Amorica",
+        "Three Snakes and One Charm",
+        "By Your Side",
+        "Shake Your Money Maker"
+      ],
+      "answer": 3,
+      "fact": "The album includes \"Jealous Again\" and \"She Talks to Angels\".",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q185",
+      "prompt": "Who produced the Black Crowes' Shake Your Money Maker?",
+      "choices": [
+        "George Drakoulias",
+        "Brendan O'Brien",
+        "Rick Rubin",
+        "Paul Stacey"
+      ],
+      "answer": 0,
+      "fact": "Drakoulias also co-produced The Southern Harmony and Musical Companion.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q186",
+      "prompt": "Which Black Crowes album includes \"Remedy\" and \"Thorn in My Pride\"?",
+      "choices": [
+        "Shake Your Money Maker",
+        "The Southern Harmony and Musical Companion",
+        "Amorica",
+        "Three Snakes and One Charm"
+      ],
+      "answer": 1,
+      "fact": "The band's second studio album was released in 1992.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q187",
+      "prompt": "Which Allman Brothers guitarist co-founded Gov't Mule?",
+      "choices": [
+        "Dickey Betts",
+        "Derek Trucks",
+        "Warren Haynes",
+        "Dan Toler"
+      ],
+      "answer": 2,
+      "fact": "The original trio also included Allen Woody and Matt Abts.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q188",
+      "prompt": "Which Allman Brothers bassist co-founded Gov't Mule with Warren Haynes?",
+      "choices": [
+        "Berry Oakley",
+        "Lamar Williams",
+        "Oteil Burbridge",
+        "Allen Woody"
+      ],
+      "answer": 3,
+      "fact": "Woody played in the original Mule trio until his death in 2000.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q189",
+      "prompt": "Who was the drummer in Gov't Mule's original power trio?",
+      "choices": [
+        "Matt Abts",
+        "Butch Trucks",
+        "Jaimoe",
+        "Marc Quinones"
+      ],
+      "answer": 0,
+      "fact": "Abts formed the band with Haynes and Woody in 1994.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q190",
+      "prompt": "Which Gov't Mule project brought in guest bassists after Allen Woody's death?",
+      "choices": [
+        "Deja Voodoo",
+        "The Deep End",
+        "High & Mighty",
+        "By a Thread"
+      ],
+      "answer": 1,
+      "fact": "The sessions became two volumes and were documented in Mike Gordon's film Rising Low.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q191",
+      "prompt": "Which Allman Brothers guitarist sings lead on the original \"Blue Sky\"?",
+      "choices": [
+        "Duane Allman",
+        "Gregg Allman",
+        "Dickey Betts",
+        "Warren Haynes"
+      ],
+      "answer": 2,
+      "fact": "Betts wrote the song, which appeared on Eat a Peach.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q192",
+      "prompt": "Which guitarist partners Warren Haynes on the Allman Brothers' Hittin' the Note?",
+      "choices": [
+        "Dickey Betts",
+        "Dan Toler",
+        "Jack Pearson",
+        "Derek Trucks"
+      ],
+      "answer": 3,
+      "fact": "The 2003 release is the band's only studio album with Trucks and bassist Oteil Burbridge.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q193",
+      "prompt": "Allman Brothers guitarist Derek Trucks is the nephew of which band drummer?",
+      "choices": [
+        "Butch Trucks",
+        "Jaimoe",
+        "Marc Quinones",
+        "Matt Abts"
+      ],
+      "answer": 0,
+      "fact": "Derek joined the band as a guitarist decades after his uncle helped form it.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q194",
+      "prompt": "Berry Oakley's \"Tractor Bass\" was based on which model?",
+      "choices": [
+        "Gibson EB-3",
+        "Fender Jazz Bass",
+        "Rickenbacker 4001",
+        "Hofner 500/1"
+      ],
+      "answer": 1,
+      "fact": "The instrument combined a Fender body with a Guild Bisonic pickup.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q195",
+      "prompt": "Which Macon label was the Allman Brothers Band's home in the 1970s?",
+      "choices": [
+        "Swan Song",
+        "Harvest",
+        "Capricorn",
+        "Asylum"
+      ],
+      "answer": 2,
+      "fact": "The band's work helped make the label a center for Southern rock.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q196",
+      "prompt": "What was the highest Billboard Hot 100 position reached by the Allman Brothers' \"Ramblin' Man\"?",
+      "choices": [
+        "No. 1",
+        "No. 5",
+        "No. 9",
+        "No. 2"
+      ],
+      "answer": 3,
+      "fact": "The 1973 single became the group's highest-charting US pop hit.",
+      "difficulty": 3
+    },
+    {
+      "id": "southern-rock-q197",
+      "prompt": "Where did the Allman Brothers Band play its final concert in October 2014?",
+      "choices": [
+        "The Beacon Theatre in New York",
+        "The Fox Theatre in Atlanta",
+        "The Fillmore in San Francisco",
+        "The Ryman Auditorium in Nashville"
+      ],
+      "answer": 0,
+      "fact": "The last show took place on October 28 at a venue long associated with the band.",
+      "difficulty": 1
+    },
+    {
+      "id": "southern-rock-q198",
+      "prompt": "Which Allman Brothers album marked the band's 1990 return to the studio with \"Good Clean Fun\"?",
+      "choices": [
+        "Shades of Two Worlds",
+        "Seven Turns",
+        "Where It All Begins",
+        "Reach for the Sky"
+      ],
+      "answer": 1,
+      "fact": "The lineup included Warren Haynes, Allen Woody and Johnny Neel.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q199",
+      "prompt": "Dickey Betts released his first solo album under the name Richard Betts. What was it called?",
+      "choices": [
+        "Dickey Betts & Great Southern",
+        "Atlanta's Burning Down",
+        "Highway Call",
+        "Pattern Disruptive"
+      ],
+      "answer": 2,
+      "fact": "The 1974 album extended the country sound heard on Brothers and Sisters.",
+      "difficulty": 2
+    },
+    {
+      "id": "southern-rock-q200",
+      "prompt": "Which Allman Brothers instrumental did Dickey Betts name for his young daughter?",
+      "choices": [
+        "Melissa",
+        "Little Martha",
+        "In Memory of Elizabeth Reed",
+        "Jessica"
+      ],
+      "answer": 3,
+      "fact": "Betts watched his daughter moving to the music as he developed the melody.",
+      "difficulty": 1
     }
   ],
   "songs": [
@@ -835,6 +2733,134 @@
       "year": 1983,
       "album": "Eliminator",
       "note": "The video for the song became a staple of early MTV."
+    },
+    {
+      "id": "southern-rock-s17",
+      "title": "In Memory of Elizabeth Reed",
+      "artist": "The Allman Brothers Band",
+      "year": 1970,
+      "album": "Idlewild South",
+      "note": "Dickey Betts composed the instrumental, first heard in this studio version."
+    },
+    {
+      "id": "southern-rock-s18",
+      "title": "Jessica",
+      "artist": "The Allman Brothers Band",
+      "year": 1973,
+      "album": "Brothers and Sisters",
+      "note": "Chuck Leavell plays the featured piano part."
+    },
+    {
+      "id": "southern-rock-s19",
+      "title": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1973,
+      "album": "(Pronounced 'Leh-'nerd 'Skin-'nerd)",
+      "note": "Gary Rossington and Ronnie Van Zant wrote the song."
+    },
+    {
+      "id": "southern-rock-s20",
+      "title": "Saturday Night Special",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1975,
+      "album": "Nuthin' Fancy",
+      "note": "The opening track of the band's first album with drummer Artimus Pyle."
+    },
+    {
+      "id": "southern-rock-s21",
+      "title": "Gimme Back My Bullets",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1976,
+      "album": "Gimme Back My Bullets",
+      "note": "The title track of the band's first studio album produced by Tom Dowd."
+    },
+    {
+      "id": "southern-rock-s22",
+      "title": "La Grange",
+      "artist": "ZZ Top",
+      "year": 1973,
+      "album": "Tres Hombres",
+      "note": "The boogie track appears on the band's third studio album."
+    },
+    {
+      "id": "southern-rock-s23",
+      "title": "Just Got Paid",
+      "artist": "ZZ Top",
+      "year": 1972,
+      "album": "Rio Grande Mud",
+      "note": "Billy Gibbons and manager-producer Bill Ham share the writing credit."
+    },
+    {
+      "id": "southern-rock-s24",
+      "title": "Can't You See",
+      "artist": "The Marshall Tucker Band",
+      "year": 1973,
+      "album": "The Marshall Tucker Band",
+      "note": "Guitarist Toy Caldwell wrote and sings the song, with Jerry Eubanks on flute."
+    },
+    {
+      "id": "southern-rock-s25",
+      "title": "Fire on the Mountain",
+      "artist": "The Marshall Tucker Band",
+      "year": 1975,
+      "album": "Searchin' for a Rainbow",
+      "note": "Rhythm guitarist George McCorkle wrote the song."
+    },
+    {
+      "id": "southern-rock-s26",
+      "title": "Whiskey Man",
+      "artist": "Molly Hatchet",
+      "year": 1979,
+      "album": "Flirtin' with Disaster",
+      "note": "The opening track on the band's second album."
+    },
+    {
+      "id": "southern-rock-s27",
+      "title": "Highway Song",
+      "artist": "Blackfoot",
+      "year": 1979,
+      "album": "Strikes",
+      "note": "Rickey Medlocke and drummer Jakson Spires share the writing credit."
+    },
+    {
+      "id": "southern-rock-s28",
+      "title": "Jim Dandy",
+      "artist": "Black Oak Arkansas",
+      "year": 1973,
+      "album": "High on the Hog",
+      "note": "Jim Mangrum and Ruby Starr share the vocal spotlight."
+    },
+    {
+      "id": "southern-rock-s29",
+      "title": "Jackie Blue",
+      "artist": "The Ozark Mountain Daredevils",
+      "year": 1974,
+      "album": "It'll Shine When It Shines",
+      "note": "Drummer Larry Lee sings the song he co-wrote with Steve Cash."
+    },
+    {
+      "id": "southern-rock-s30",
+      "title": "So Into You",
+      "artist": "Atlanta Rhythm Section",
+      "year": 1976,
+      "album": "A Rock and Roll Alternative",
+      "note": "Ronnie Hammond sings lead on the Buddy Buie-produced album."
+    },
+    {
+      "id": "southern-rock-s31",
+      "title": "Caught Up in You",
+      "artist": "38 Special",
+      "year": 1982,
+      "album": "Special Forces",
+      "note": "Don Barnes, Jeff Carlisi and Jim Peterik share the writing credit."
+    },
+    {
+      "id": "southern-rock-s32",
+      "title": "(Ghost) Riders in the Sky",
+      "artist": "The Outlaws",
+      "year": 1980,
+      "album": "Ghost Riders",
+      "note": "The title track of the band's 1980 album."
     }
   ],
   "stories": [
@@ -1076,6 +3102,126 @@
         "Freddie King"
       ],
       "note": "Willie Cobbs recorded it in Memphis, adapting an earlier Bo Diddley song. The Allmans stretched it past nineteen minutes on At Fillmore East, built from both nights of the March 1971 shows."
+    },
+    {
+      "id": "southern-rock-c13",
+      "title": "Don't Want You No More",
+      "artist": "The Allman Brothers Band",
+      "year": 1969,
+      "album": "The Allman Brothers Band",
+      "original": "The Spencer Davis Group",
+      "originalYear": 1967,
+      "decoys": [
+        "Booker T. & the M.G.'s",
+        "The Graham Bond Organisation",
+        "John Mayall & the Bluesbreakers"
+      ],
+      "note": "The Spencer Davis Group released the song as the B-side of \"Time Seller\". The Allmans made it an instrumental opener for their debut."
+    },
+    {
+      "id": "southern-rock-c14",
+      "title": "Stormy Monday",
+      "artist": "The Allman Brothers Band",
+      "year": 1971,
+      "album": "At Fillmore East",
+      "original": "T-Bone Walker",
+      "originalYear": 1947,
+      "decoys": [
+        "Bobby Bland",
+        "Muddy Waters",
+        "Howlin' Wolf"
+      ],
+      "note": "Walker released \"Call It Stormy Monday (But Tuesday Is Just as Bad)\" in 1947. The Allmans expanded it on At Fillmore East."
+    },
+    {
+      "id": "southern-rock-c15",
+      "title": "Hoochie Coochie Man",
+      "artist": "The Allman Brothers Band",
+      "year": 1970,
+      "album": "Idlewild South",
+      "original": "Muddy Waters",
+      "originalYear": 1954,
+      "decoys": [
+        "Howlin' Wolf",
+        "Elmore James",
+        "Bo Diddley"
+      ],
+      "note": "Willie Dixon wrote it for Muddy Waters. Berry Oakley sings the Allmans' version on Idlewild South."
+    },
+    {
+      "id": "southern-rock-c16",
+      "title": "Crossroads",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1976,
+      "album": "One More from the Road",
+      "original": "Robert Johnson",
+      "originalYear": 1937,
+      "decoys": [
+        "Son House",
+        "Charley Patton",
+        "Skip James"
+      ],
+      "note": "Johnson first released \"Cross Road Blues\" in 1937. Skynyrd's live version appears on One More from the Road."
+    },
+    {
+      "id": "southern-rock-c17",
+      "title": "I Thank You",
+      "artist": "ZZ Top",
+      "year": 1979,
+      "album": "Degüello",
+      "original": "Sam & Dave",
+      "originalYear": 1968,
+      "decoys": [
+        "Otis Redding",
+        "Wilson Pickett",
+        "James Brown"
+      ],
+      "note": "Isaac Hayes and David Porter wrote the Sam & Dave single. ZZ Top opened Degüello with their version."
+    },
+    {
+      "id": "southern-rock-c18",
+      "title": "Viva Las Vegas",
+      "artist": "ZZ Top",
+      "year": 1992,
+      "album": "Greatest Hits",
+      "original": "Elvis Presley",
+      "originalYear": 1964,
+      "decoys": [
+        "Roy Orbison",
+        "Carl Perkins",
+        "Jerry Lee Lewis"
+      ],
+      "note": "Elvis recorded it for the film of the same name. ZZ Top added a new studio version to their 1992 Greatest Hits collection."
+    },
+    {
+      "id": "southern-rock-c19",
+      "title": "Jim Dandy",
+      "artist": "Black Oak Arkansas",
+      "year": 1973,
+      "album": "High on the Hog",
+      "original": "LaVern Baker",
+      "originalYear": 1956,
+      "decoys": [
+        "Ruth Brown",
+        "Big Mama Thornton",
+        "Etta James"
+      ],
+      "note": "Lincoln Chase wrote the original hit for Baker. Black Oak Arkansas recorded it with Ruby Starr joining Jim Mangrum."
+    },
+    {
+      "id": "southern-rock-c20",
+      "title": "It's All Over Now",
+      "artist": "Molly Hatchet",
+      "year": 1979,
+      "album": "Flirtin' with Disaster",
+      "original": "The Valentinos",
+      "originalYear": 1964,
+      "decoys": [
+        "The Rolling Stones",
+        "The Isley Brothers",
+        "The Animals"
+      ],
+      "note": "The Valentinos, with Bobby Womack, released the original in 1964. Molly Hatchet recorded it for their second album."
     }
   ]
 }
