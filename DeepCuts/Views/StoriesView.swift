@@ -35,7 +35,7 @@ struct StoriesView: View {
             if let title { SectionHeader(title: title) }
             ForEach(stories, id: \.story.id) { pair in
                 NavigationLink(value: pair.story) { StoryRow(story: pair.story, genre: pair.genre) }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressableStyle())
             }
         }
     }

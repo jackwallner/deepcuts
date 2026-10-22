@@ -86,6 +86,25 @@ final class DeepCutsUITests: XCTestCase {
         app.buttons["feedback-done"].tap()
     }
 
+
+    /// Feedback #3: the spinning record on "Got it" kept the screen busy, so Done never answered.
+    func testSuggestionDoneFromYouTabAtLargeText() {
+        let app = launch(["-ui-focus", "heavy-metal", "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXL"])
+        app.tabBars.buttons["You"].tap()
+        let suggest = app.buttons["suggest-you"]
+        for _ in 0..<6 where !suggest.isHittable { app.scrollViews.firstMatch.swipeUp() }
+        suggest.tap()
+        let text = app.textViews["feedback-text"]
+        XCTAssertTrue(text.waitForExistence(timeout: 5))
+        text.typeText("Check Done")
+        app.buttons["feedback-send"].tap()
+        let done = app.buttons["feedback-done"]
+        XCTAssertTrue(done.waitForExistence(timeout: 5))
+        done.tap()
+        XCTAssertFalse(done.waitForExistence(timeout: 2), "Done closes the sheet")
+        XCTAssertTrue(suggest.isHittable)
+    }
+
     /// Answers every item: choice 0 each time, skipping clips that can't load.
     private func playRound(_ app: XCUIApplication) {
         for _ in 0..<12 {

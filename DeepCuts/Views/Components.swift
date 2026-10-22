@@ -36,9 +36,33 @@ struct VinylView: View {
     var size: CGFloat = 240
     var labelColor: Color = Theme.accent
 
-    @State private var angle: Double = 0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    /// Where the record stopped last, and when the current spin began.
+    @State private var restAngle: Double = 0
+    @State private var spinStart: Date?
 
     var body: some View {
+        // Driven by the clock, not a repeatForever animation, which leaks into the
+        // surrounding layout and keeps the screen busy so taps feel unresponsive.
+        TimelineView(.animation(paused: spinStart == nil)) { context in
+            record.rotationEffect(.degrees(angle(at: context.date)))
+        }
+        .frame(width: size, height: size)
+        .shadow(color: .black.opacity(0.25), radius: 12, y: 6)
+        .onChange(of: spinning && !reduceMotion, initial: true) { _, isSpinning in
+            let now = Date()
+            restAngle = angle(at: now)
+            spinStart = isSpinning ? now : nil
+        }
+        .accessibilityHidden(true)
+    }
+
+    private func angle(at date: Date) -> Double {
+        guard let spinStart else { return restAngle }
+        return (restAngle + date.timeIntervalSince(spinStart) / 1.8 * 360).truncatingRemainder(dividingBy: 360)
+    }
+
+    private var record: some View {
         ZStack {
             Circle().fill(Color(hex: 0x111111))
             ForEach(0..<14, id: \.self) { ring in
@@ -67,16 +91,6 @@ struct VinylView: View {
             .clipShape(Circle())
         }
         .frame(width: size, height: size)
-        .rotationEffect(.degrees(angle))
-        .shadow(color: .black.opacity(0.25), radius: 12, y: 6)
-        .onChange(of: spinning, initial: true) { _, isSpinning in
-            if isSpinning {
-                withAnimation(.linear(duration: 1.8).repeatForever(autoreverses: false)) { angle += 360 }
-            } else {
-                withAnimation(.easeOut(duration: 0.6)) { angle = angle.truncatingRemainder(dividingBy: 360) + 20 }
-            }
-        }
-        .accessibilityHidden(true)
     }
 }
 

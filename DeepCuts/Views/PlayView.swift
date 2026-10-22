@@ -41,7 +41,7 @@ struct PlayView: View {
             SectionHeader(title: title)
             ForEach(genres) { genre in
                 NavigationLink(value: genre.id) { CrateRow(genre: genre) }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressableStyle())
                     .accessibilityIdentifier("open-\(genre.id)")
                 Divider().overlay(Theme.rule)
             }
@@ -73,7 +73,7 @@ struct ModeRow: View {
             .card()
             .contentShape(Rectangle())
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressableStyle())
         .accessibilityIdentifier("mode-\(mode.rawValue)")
     }
 }
@@ -127,7 +127,7 @@ struct CrateView: View {
                         SectionHeader(title: "Stories")
                         ForEach(genre.stories) { story in
                             NavigationLink(value: story) { StoryRow(story: story, genre: genre) }
-                                .buttonStyle(.plain)
+                                .buttonStyle(PressableStyle())
                         }
                     }
                 }

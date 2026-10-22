@@ -71,7 +71,9 @@ struct FocusPicker: View {
     private func row(_ genre: Genre) -> some View {
         let on = picked.contains(genre.id)
         return Button {
-            if on { picked.removeAll { $0 == genre.id } } else { picked.append(genre.id) }
+            withAnimation(.snappy) {
+                if on { picked.removeAll { $0 == genre.id } } else { picked.append(genre.id) }
+            }
         } label: {
             HStack(spacing: 14) {
                 ZStack {

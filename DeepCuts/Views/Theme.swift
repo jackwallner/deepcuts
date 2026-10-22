@@ -114,6 +114,16 @@ struct PrimaryButtonStyle: ButtonStyle {
     }
 }
 
+/// Plain look with a small press-down, so cards and answers answer the finger.
+struct PressableStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .opacity(configuration.isPressed ? 0.8 : 1)
+            .scaleEffect(configuration.isPressed ? 0.98 : 1)
+            .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
+    }
+}
+
 struct CardBackground: ViewModifier {
     func body(content: Content) -> some View {
         content

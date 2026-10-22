@@ -134,7 +134,7 @@ struct QuizView: View {
         VStack(spacing: 10) {
             ForEach(item.choices.indices, id: \.self) { i in
                 Button { answer(i) } label: { ChoiceLabel(choice: item.choices[i], state: state(of: i)) }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressableStyle())
                     .disabled(picked != nil || clipFailed)
                     .accessibilityIdentifier("choice-\(i)")
             }
@@ -179,7 +179,7 @@ struct QuizView: View {
                         .background(Theme.card, in: Capsule())
                         .overlay(Capsule().strokeBorder(Theme.rule))
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(PressableStyle())
                 .frame(maxWidth: .infinity)
                 .accessibilityIdentifier("clip-toggle")
             }
@@ -201,7 +201,7 @@ struct QuizView: View {
         HStack(alignment: .top, spacing: 12) {
             ForEach(item.choices.indices, id: \.self) { i in
                 Button { answer(i) } label: { MatchupTile(choice: item.choices[i], state: state(of: i)) }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressableStyle())
                     .disabled(picked != nil)
                     .accessibilityIdentifier("choice-\(i)")
             }
@@ -402,13 +402,17 @@ struct ResultView: View {
                         Label("Share score", systemImage: "square.and.arrow.up").font(.headline)
                             .frame(maxWidth: .infinity, minHeight: 52)
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressableStyle())
                     .foregroundStyle(Theme.ink)
                     .card()
-                    Button("Done", action: onDone)
-                        .font(.headline)
-                        .frame(maxWidth: .infinity, minHeight: 44)
-                        .foregroundStyle(Theme.inkSoft)
+                    // The frame goes on the label so the whole row is tappable, not just the word.
+                    Button(action: onDone) {
+                        Text("Done").font(.headline)
+                            .frame(maxWidth: .infinity, minHeight: 52)
+                            .contentShape(Rectangle())
+                    }
+                    .buttonStyle(PressableStyle())
+                    .foregroundStyle(Theme.inkSoft)
                         .accessibilityIdentifier("result-done")
                 }
             }
