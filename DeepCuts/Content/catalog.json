@@ -230,6 +230,62 @@
   "trackId": 1478805121,
   "trackViewUrl": "https://music.apple.com/us/album/do-wah-diddy-diddy/1478805036?i=1478805121&uo=4"
  },
+ "british-invasion-c09": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/eb/b0/5e/ebb05e71-1bd0-1a6b-344e-ef97655cc2f8/13ABKIM00095.rgb.jpg/600x600bb.jpg",
+  "key": "Don't Let Me Be Misunderstood|The Animals",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/55/28/06552832-8f45-e557-87ee-b4cf3fea7545/mzaf_4372414418084771203.plus.aac.p.m4a",
+  "trackId": 1443236080,
+  "trackViewUrl": "https://music.apple.com/us/album/dont-let-me-be-misunderstood/1443236074?i=1443236080&uo=4"
+ },
+ "british-invasion-c10": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/eb/b0/5e/ebb05e71-1bd0-1a6b-344e-ef97655cc2f8/13ABKIM00095.rgb.jpg/600x600bb.jpg",
+  "key": "Bring It On Home to Me|The Animals",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/70/05/277005b7-7cf9-1944-05c1-8501a8901547/mzaf_6614965981857846647.plus.aac.p.m4a",
+  "trackId": 1443236077,
+  "trackViewUrl": "https://music.apple.com/us/album/bring-it-on-home-to-me/1443236074?i=1443236077&uo=4"
+ },
+ "british-invasion-c11": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ff/b5/9cffb5a6-a37f-c84a-7240-0333a071bc92/00602567725275.rgb.jpg/600x600bb.jpg",
+  "key": "Boys|The Beatles",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/c0/a2/72c0a205-9e44-0b8f-f74e-1bbf8c9539de/mzaf_16357971775186847326.plus.aac.p.m4a",
+  "trackId": 1441165124,
+  "trackViewUrl": "https://music.apple.com/us/album/boys/1441164816?i=1441165124&uo=4"
+ },
+ "british-invasion-c12": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/eb/48/14/eb4814a0-6e02-9e8f-9402-6dac3e3e7316/825646223534.jpg/600x600bb.jpg",
+  "key": "He Ain't Heavy, He's My Brother|The Hollies",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/da/9f/01/da9f0148-dfc4-c4ff-1505-1513c9df7d2f/mzaf_2559929217326372294.plus.aac.p.m4a",
+  "trackId": 917647444,
+  "trackViewUrl": "https://music.apple.com/us/album/he-aint-heavy-hes-my-brother/917647396?i=917647444&uo=4"
+ },
+ "british-invasion-c13": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/cc/03/cf/cc03cfb4-c3d9-56b7-3d56-382d5e6d8c16/5050159115525.jpg/600x600bb.jpg",
+  "key": "Sweets for My Sweet|The Searchers",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/26/70/b82670c9-0801-70ee-8736-0d5bb5f90ef4/mzaf_10072981561659814921.plus.aac.p.m4a",
+  "trackId": 1435989773,
+  "trackViewUrl": "https://music.apple.com/us/album/sweets-for-my-sweet/1435989772?i=1435989773&uo=4"
+ },
+ "british-invasion-c14": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/19/cd/cf19cda6-69be-8e26-6334-60d23753ee34/00018771922827.rgb.jpg/600x600bb.jpg",
+  "key": "I'm into Something Good|Herman's Hermits",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/95/d8/8695d804-2012-4d85-169a-5d8de36dcae2/mzaf_8103819653579025268.plus.aac.p.m4a",
+  "trackId": 1440778178,
+  "trackViewUrl": "https://music.apple.com/us/album/im-into-something-good/1440778163?i=1440778178&uo=4"
+ },
+ "british-invasion-c15": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ff/e1/69/ffe16947-ca3b-51b6-af66-a180677ee107/PRCD008.jpg/600x600bb.jpg",
+  "key": "Hippy Hippy Shake|The Swinging Blue Jeans",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/db/84/ab/db84ab31-eee9-f6a4-52ab-f27638816f1c/mzaf_15391386605270138946.plus.aac.p.m4a",
+  "trackId": 1487394943,
+  "trackViewUrl": "https://music.apple.com/us/album/hippy-hippy-shake/1487394857?i=1487394943&uo=4"
+ },
+ "british-invasion-c16": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/dc/e9/1fdce90f-4c20-7519-79a6-b67678a09e34/198704630118_Cover.jpg/600x600bb.jpg",
+  "key": "It's All Over Now, Baby Blue|Them",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/6d/f1/016df132-65cf-071f-9241-6c46d059f7f3/mzaf_8462532505157984524.plus.aac.p.m4a",
+  "trackId": 1828581331,
+  "trackViewUrl": "https://music.apple.com/us/album/its-all-over-now-baby-blue/1828580897?i=1828581331&uo=4"
+ },
  "british-invasion-s01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ff/b5/9cffb5a6-a37f-c84a-7240-0333a071bc92/00602567725275.rgb.jpg/600x600bb.jpg",
   "key": "Love Me Do|The Beatles",
@@ -341,6 +397,118 @@
   "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/76/fd/6076fd8f-422a-d5e3-7b02-5953bc93cfbd/mzaf_3945462995290301839.plus.aac.p.m4a",
   "trackId": 1441164738,
   "trackViewUrl": "https://music.apple.com/us/album/let-it-be/1441164495?i=1441164738&uo=4"
+ },
+ "british-invasion-s17": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/02/d2/0302d204-77c1-0c87-e03a-698bd31cf038/00602567725619.rgb.jpg/600x600bb.jpg",
+  "key": "All My Loving|The Beatles",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/63/e8/c663e8c5-2eba-3d76-7029-c4dd8f54d390/mzaf_6995625099006091658.plus.aac.p.m4a",
+  "trackId": 1441164625,
+  "trackViewUrl": "https://music.apple.com/us/album/all-my-loving/1441164362?i=1441164625&uo=4"
+ },
+ "british-invasion-s18": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1a/19/db/1a19db26-17ad-b986-11a9-f72ac7a6194b/18UMGIM31214.rgb.jpg/600x600bb.jpg",
+  "key": "Ticket to Ride|The Beatles",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/58/5d/06585d28-684c-b319-fc9e-3c38658d048a/mzaf_680399913916269098.plus.aac.p.m4a",
+  "trackId": 1441164669,
+  "trackViewUrl": "https://music.apple.com/us/album/ticket-to-ride/1441164524?i=1441164669&uo=4"
+ },
+ "british-invasion-s19": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/01/69/02/01690216-48fc-1c54-b1de-48170d16b1c3/00602567725268.rgb.jpg/600x600bb.jpg",
+  "key": "Paperback Writer|The Beatles",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/4e/d5/634ed513-d8ea-9eab-a3db-e9ecb9bae625/mzaf_656866617124012419.plus.aac.p.m4a",
+  "trackId": 1441134100,
+  "trackViewUrl": "https://music.apple.com/us/album/paperback-writer/1441133181?i=1441134100&uo=4"
+ },
+ "british-invasion-s20": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/f1/14/cd/f114cd37-d577-61d6-5a0b-547c090989f4/4050538365184.jpg/600x600bb.jpg",
+  "key": "Sunny Afternoon|The Kinks",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/6a/3f/c76a3ff3-f2f5-9df4-d646-43cec855ccff/mzaf_15704575993880492445.plus.aac.p.m4a",
+  "trackId": 1439223723,
+  "trackViewUrl": "https://music.apple.com/us/album/sunny-afternoon/1439223710?i=1439223723&uo=4"
+ },
+ "british-invasion-s21": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b7/ca/3c/b7ca3c15-927e-f6c0-1d9e-9c2bb2126682/5414939496974.jpg/600x600bb.jpg",
+  "key": "Tired of Waiting for You|The Kinks",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/0f/09/840f09c2-b86a-176c-db56-ed91a09654c9/mzaf_9931378595823298259.plus.aac.p.m4a",
+  "trackId": 1444740071,
+  "trackViewUrl": "https://music.apple.com/us/album/tired-of-waiting-for-you/1444739915?i=1444740071&uo=4"
+ },
+ "british-invasion-s22": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/0f/90/0c0f9039-d926-99f1-7746-902e60cb7fe0/5099909624955.jpg/600x600bb.jpg",
+  "key": "Bus Stop|The Hollies",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/7f/1c/0d7f1ced-0ec5-3dfb-b9f3-d25a49825887/mzaf_10009001013387960457.plus.aac.p.m4a",
+  "trackId": 1750184080,
+  "trackViewUrl": "https://music.apple.com/us/album/bus-stop-2003-remaster/1750179879?i=1750184080&uo=4"
+ },
+ "british-invasion-s23": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/3e/1e/81/3e1e810a-9ef0-c73f-0aaa-0c4ea73ad7ca/4050538521481.jpg/600x600bb.jpg",
+  "key": "Glad All Over|The Dave Clark Five",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/54/2f/57542f5a-dba9-8ac4-4799-aa6c62d6a464/mzaf_4992621511574556023.plus.aac.p.m4a",
+  "trackId": 1469578024,
+  "trackViewUrl": "https://music.apple.com/us/album/glad-all-over-2019-remaster/1469578020?i=1469578024&uo=4"
+ },
+ "british-invasion-s24": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/40/e9/a0/40e9a0eb-a64b-a2ca-1b94-ef9bcc2da8fc/5414939486470.jpg/600x600bb.jpg",
+  "key": "When You Walk in the Room|The Searchers",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/e9/ec/59e9ec1e-53a0-3304-53cf-10ca9452e1ee/mzaf_10128278842761354558.plus.aac.p.m4a",
+  "trackId": 1439694829,
+  "trackViewUrl": "https://music.apple.com/us/album/when-you-walk-in-the-room/1439694791?i=1439694829&uo=4"
+ },
+ "british-invasion-s25": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/19/cd/cf19cda6-69be-8e26-6334-60d23753ee34/00018771922827.rgb.jpg/600x600bb.jpg",
+  "key": "I'm into Something Good|Herman's Hermits",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/95/d8/8695d804-2012-4d85-169a-5d8de36dcae2/mzaf_8103819653579025268.plus.aac.p.m4a",
+  "trackId": 1440778178,
+  "trackViewUrl": "https://music.apple.com/us/album/im-into-something-good/1440778163?i=1440778178&uo=4"
+ },
+ "british-invasion-s26": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/eb/b0/5e/ebb05e71-1bd0-1a6b-344e-ef97655cc2f8/13ABKIM00095.rgb.jpg/600x600bb.jpg",
+  "key": "Don't Let Me Be Misunderstood|The Animals",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/55/28/06552832-8f45-e557-87ee-b4cf3fea7545/mzaf_4372414418084771203.plus.aac.p.m4a",
+  "trackId": 1443236080,
+  "trackViewUrl": "https://music.apple.com/us/album/dont-let-me-be-misunderstood/1443236074?i=1443236080&uo=4"
+ },
+ "british-invasion-s27": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/81/83/8d8183b5-b60b-dae8-7c67-6ecaace68cfa/dj.dyyrjvau.jpg/600x600bb.jpg",
+  "key": "For Your Love|The Yardbirds",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/4e/b5/f34eb591-0c36-3b28-85ea-5ded65d0735b/mzaf_7496221891973304283.plus.aac.p.m4a",
+  "trackId": 1512244091,
+  "trackViewUrl": "https://music.apple.com/us/album/for-your-love-feat-eric-clapton-2015-remaster/1512244090?i=1512244091&uo=4"
+ },
+ "british-invasion-s28": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d1/e8/99/d1e8994f-fdbb-ab85-0809-8d9694dc1f3a/00602547793881.rgb.jpg/600x600bb.jpg",
+  "key": "Gimme Some Lovin'|The Spencer Davis Group",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/63/5b/70/635b70bd-7c92-4d8b-ba52-3d26f82012e7/mzaf_3460274956236023920.plus.aac.p.m4a",
+  "trackId": 1445312902,
+  "trackViewUrl": "https://music.apple.com/us/album/gimme-some-lovin/1445312892?i=1445312902&uo=4"
+ },
+ "british-invasion-s29": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c6/97/52/c69752f8-bc59-1326-f397-013c51a6d42c/00602527813417.rgb.jpg/600x600bb.jpg",
+  "key": "All or Nothing|Small Faces",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/f6/4b/49f64b01-85e7-57ce-50ec-ff951edbe51d/mzaf_14465590935117734683.plus.aac.p.m4a",
+  "trackId": 1443799134,
+  "trackViewUrl": "https://music.apple.com/us/album/all-or-nothing/1443798933?i=1443799134&uo=4"
+ },
+ "british-invasion-s30": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/d0/0e/37/d00e379d-4273-1541-5452-daa94eb39eb2/00602547780935.rgb.jpg/600x600bb.jpg",
+  "key": "Keep On Running|The Spencer Davis Group",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/96/46/89964620-0616-0df8-9c1a-609904586daf/mzaf_18253710747437182094.plus.aac.p.m4a",
+  "trackId": 1444077550,
+  "trackViewUrl": "https://music.apple.com/us/album/keep-on-running-mono-version/1444077546?i=1444077550&uo=4"
+ },
+ "british-invasion-s31": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/d6/64/21d66453-1a3a-8e16-52c2-0cc08832789f/810183320310.png/600x600bb.jpg",
+  "key": "She's Not There|The Zombies",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/5d/69/fd5d69c6-b33a-e39c-516e-0035a1a4dd2d/mzaf_10573038739728989875.plus.aac.p.m4a",
+  "trackId": 1876660558,
+  "trackViewUrl": "https://music.apple.com/us/album/shes-not-there-mono-remastered/1876660422?i=1876660558&uo=4"
+ },
+ "british-invasion-s32": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8d/d6/54/8dd654cc-47e0-bc4f-998a-e2604774d6e2/00731453891128.rgb.jpg/600x600bb.jpg",
+  "key": "You Don't Have to Say You Love Me|Dusty Springfield",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/c4/c4/d7c4c4f6-7b25-7bcb-1b25-8d8a182b00db/mzaf_14469573756418119222.plus.aac.p.m4a",
+  "trackId": 1444114537,
+  "trackViewUrl": "https://music.apple.com/us/album/you-dont-have-to-say-you-love-me-single/1444114535?i=1444114537&uo=4"
  },
  "classic-rock-c01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/30/03/7f/30037fd6-3292-1806-c806-5341391c9aac/886444593038.jpg/600x600bb.jpg",

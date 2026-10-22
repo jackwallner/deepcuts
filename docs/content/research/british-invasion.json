@@ -1,0 +1,2491 @@
+{
+  "crate": "british-invasion",
+  "items": {
+    "british-invasion-q51": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/While_My_Guitar_Gently_Weeps",
+        "https://www.thebeatles.com/while-my-guitar-gently-weeps"
+      ],
+      "checked_answer": "Eric Clapton",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q52": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Don%27t_Bother_Me"
+      ],
+      "checked_answer": "Don't Bother Me",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q53": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Don%27t_Pass_Me_By"
+      ],
+      "checked_answer": "Ringo Starr",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q54": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Get_Back"
+      ],
+      "checked_answer": "Billy Preston",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q55": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Revolution_(Beatles_song)"
+      ],
+      "checked_answer": "Nicky Hopkins",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q56": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/For_No_One",
+        "https://www.thebeatles.com/no-one"
+      ],
+      "checked_answer": "Alan Civil",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q57": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Penny_Lane",
+        "https://www.nevilleyoung.com/trumpet/pennylane/"
+      ],
+      "checked_answer": "David Mason",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q58": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/In_My_Life"
+      ],
+      "checked_answer": "George Martin",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q59": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Taxman"
+      ],
+      "checked_answer": "Paul McCartney",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q60": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maxwell%27s_Silver_Hammer"
+      ],
+      "checked_answer": "Mal Evans",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q61": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Continuing_Story_of_Bungalow_Bill"
+      ],
+      "checked_answer": "Yoko Ono",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q62": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Here,_There_and_Everywhere"
+      ],
+      "checked_answer": "Revolver",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q63": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Julia_(Beatles_song)"
+      ],
+      "checked_answer": "John Lennon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q64": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blackbird_(Beatles_song)"
+      ],
+      "checked_answer": "Paul McCartney",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q65": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mother_Nature%27s_Son"
+      ],
+      "checked_answer": "Paul McCartney",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q66": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Good_Night_(Beatles_song)"
+      ],
+      "checked_answer": "Ringo Starr",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q67": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Savoy_Truffle"
+      ],
+      "checked_answer": "Eric Clapton",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q68": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+      ],
+      "checked_answer": "Richard Hamilton",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q69": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+      ],
+      "checked_answer": "John Kelly",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q70": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Happiness_Is_a_Warm_Gun"
+      ],
+      "checked_answer": "A gun magazine",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q71": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Helter_Skelter_(song)"
+      ],
+      "checked_answer": "A spiral slide",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q72": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Piggies"
+      ],
+      "checked_answer": "Chris Thomas",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q73": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Martha_My_Dear"
+      ],
+      "checked_answer": "His dog",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q74": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rocky_Raccoon"
+      ],
+      "checked_answer": "George Martin",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q75": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/She%27s_Leaving_Home"
+      ],
+      "checked_answer": "Sheila Bromberg",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q76": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/She%27s_Leaving_Home"
+      ],
+      "checked_answer": "Mike Leander",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q77": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Being_for_the_Benefit_of_Mr._Kite!"
+      ],
+      "checked_answer": "An antique circus poster",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q78": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Within_You_Without_You"
+      ],
+      "checked_answer": "George Harrison",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q79": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Good_Morning_Good_Morning"
+      ],
+      "checked_answer": "Sounds Incorporated",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q80": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/When_I%27m_Sixty-Four"
+      ],
+      "checked_answer": "Clarinets",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q81": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Day_in_the_Life"
+      ],
+      "checked_answer": "John Lennon and Paul McCartney",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q82": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Love_Me_Do"
+      ],
+      "checked_answer": "John Lennon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q83": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strawberry_Fields_Forever"
+      ],
+      "checked_answer": "A Salvation Army children's home",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q84": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/I_Am_the_Walrus"
+      ],
+      "checked_answer": "Lewis Carroll",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q85": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/All_You_Need_Is_Love"
+      ],
+      "checked_answer": "La Marseillaise",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q86": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Norman_Smith_(music_producer)"
+      ],
+      "checked_answer": "Norman Smith",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q87": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Magical_Mystery_Tour_(film)"
+      ],
+      "checked_answer": "A bus",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q88": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blue_Jay_Way"
+      ],
+      "checked_answer": "Los Angeles",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q89": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baby,_You%27re_a_Rich_Man"
+      ],
+      "checked_answer": "Clavioline",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q90": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hello,_Goodbye"
+      ],
+      "checked_answer": "I Am the Walrus",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q91": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_End_(Beatles_song)"
+      ],
+      "checked_answer": "Ringo Starr",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q92": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_End_(Beatles_song)"
+      ],
+      "checked_answer": "McCartney, Harrison, Lennon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q93": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Her_Majesty_(song)"
+      ],
+      "checked_answer": "Her Majesty",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q94": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Because_(Beatles_song)",
+        "https://www.thebeatles.com/because"
+      ],
+      "checked_answer": "Three",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q95": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Here_Comes_the_Sun"
+      ],
+      "checked_answer": "Moog",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q96": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Geoff_Emerick"
+      ],
+      "checked_answer": "Geoff Emerick",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q97": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abbey_Road"
+      ],
+      "checked_answer": "She Came In Through the Bathroom Window",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q98": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Golden_Slumbers"
+      ],
+      "checked_answer": "Thomas Dekker",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q99": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Let_It_Be_(album)"
+      ],
+      "checked_answer": "Phil Spector",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q100": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Long_and_Winding_Road"
+      ],
+      "checked_answer": "Paul McCartney",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q101": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aftermath_(Rolling_Stones_album)"
+      ],
+      "checked_answer": "Aftermath",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q102": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Under_My_Thumb"
+      ],
+      "checked_answer": "Marimba",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q103": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lady_Jane_(song)"
+      ],
+      "checked_answer": "Dulcimer",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q104": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruby_Tuesday_(song)"
+      ],
+      "checked_answer": "Recorder",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q105": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/We_Love_You"
+      ],
+      "checked_answer": "John Lennon and Paul McCartney",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q106": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/She%27s_a_Rainbow"
+      ],
+      "checked_answer": "John Paul Jones",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q107": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sympathy_for_the_Devil_(1968_film)"
+      ],
+      "checked_answer": "Jean-Luc Godard",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q108": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sympathy_for_the_Devil"
+      ],
+      "checked_answer": "The Master and Margarita",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q109": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Love_in_Vain"
+      ],
+      "checked_answer": "Ry Cooder",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q110": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/You_Can%27t_Always_Get_What_You_Want"
+      ],
+      "checked_answer": "Jimmy Miller",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q111": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/You_Can%27t_Always_Get_What_You_Want"
+      ],
+      "checked_answer": "The London Bach Choir",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q112": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/You_Can%27t_Always_Get_What_You_Want"
+      ],
+      "checked_answer": "Al Kooper",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q113": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Let_It_Bleed",
+        "https://www.moma.org/explore/inside_out/2013/09/12/let-them-eat-delias-cake-or-robert-brownjohns-let-it-bleed/",
+        "https://www.deliaonline.com/features/2024/11/delias-biographical-details"
+      ],
+      "checked_answer": "Delia Smith",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q114": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Live_with_Me"
+      ],
+      "checked_answer": "Bobby Keys",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q115": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nanker_Phelge"
+      ],
+      "checked_answer": "A collective songwriting credit",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q116": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Little_Red_Rooster"
+      ],
+      "checked_answer": "Willie Dixon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q117": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/As_Tears_Go_By_(song)"
+      ],
+      "checked_answer": "Marianne Faithfull",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q118": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Beggars_Banquet",
+        "https://www.abkco.com/store/beggars-banquet-50th-anniversary-edition-sacd/"
+      ],
+      "checked_answer": "A graffiti-covered toilet",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q119": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Kinks"
+      ],
+      "checked_answer": "Pete Quaife",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q120": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Kinks"
+      ],
+      "checked_answer": "Mick Avory",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q121": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arthur_(Or_the_Decline_and_Fall_of_the_British_Empire)"
+      ],
+      "checked_answer": "John Dalton",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q122": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Face_to_Face_(The_Kinks_album)",
+        "https://www.kindakinks.net/misc/articles/19950101-hopkins-nyt.html"
+      ],
+      "checked_answer": "Nicky Hopkins",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q123": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Waterloo_Sunset"
+      ],
+      "checked_answer": "Rasa Davies",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q124": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Death_of_a_Clown"
+      ],
+      "checked_answer": "Dave Davies",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q125": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Kinks_Are_the_Village_Green_Preservation_Society"
+      ],
+      "checked_answer": "The Kinks Are the Village Green Preservation Society",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q126": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arthur_(Or_the_Decline_and_Fall_of_the_British_Empire)"
+      ],
+      "checked_answer": "A television play",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q127": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arthur_(Or_the_Decline_and_Fall_of_the_British_Empire)"
+      ],
+      "checked_answer": "Their brother-in-law",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q128": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arthur_(Or_the_Decline_and_Fall_of_the_British_Empire)",
+        "https://www.thekinks.info/latest/arthur/"
+      ],
+      "checked_answer": "Julian Mitchell",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q129": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lola_(song)"
+      ],
+      "checked_answer": "Coca-Cola",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q130": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lola_(song)"
+      ],
+      "checked_answer": "John Gosling",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q131": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dead_End_Street_(song)"
+      ],
+      "checked_answer": "As undertakers",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q132": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Kinks_Are_the_Village_Green_Preservation_Society"
+      ],
+      "checked_answer": "Under Milk Wood",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q133": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boris_the_Spider"
+      ],
+      "checked_answer": "John Entwistle",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q134": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cobwebs_and_Strange"
+      ],
+      "checked_answer": "Keith Moon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q135": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Quick_One,_While_He%27s_Away"
+      ],
+      "checked_answer": "Cello",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q136": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Quick_One,_While_He%27s_Away"
+      ],
+      "checked_answer": "Six",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q137": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Who_Sell_Out"
+      ],
+      "checked_answer": "A pirate radio programme",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q138": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Who_Sell_Out",
+        "https://www.thewho.com/beanz-meanz-the-who/"
+      ],
+      "checked_answer": "Roger Daltrey",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q139": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Odorono"
+      ],
+      "checked_answer": "Pete Townshend",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q140": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Armenia_City_in_the_Sky",
+        "https://en.wikipedia.org/wiki/John_Keen_(musician)"
+      ],
+      "checked_answer": "John \"Speedy\" Keen",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q141": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/I_Can_See_for_Miles",
+        "https://www.udiscovermusic.com/stories/the-who-i-can-see-for-miles-song/"
+      ],
+      "checked_answer": "Number 9",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q142": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Ox_(instrumental)"
+      ],
+      "checked_answer": "Nicky Hopkins",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q143": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Legal_Matter"
+      ],
+      "checked_answer": "Pete Townshend",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q144": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anyway,_Anyhow,_Anywhere"
+      ],
+      "checked_answer": "Roger Daltrey",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q145": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Happy_Jack_(song)"
+      ],
+      "checked_answer": "Pete Townshend",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q146": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Yardbirds"
+      ],
+      "checked_answer": "Keith Relf",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q147": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/For_Your_Love",
+        "https://music.apple.com/us/song/659695101"
+      ],
+      "checked_answer": "Brian Auger",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q148": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Roger_the_Engineer"
+      ],
+      "checked_answer": "Chris Dreja",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q149": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shapes_of_Things"
+      ],
+      "checked_answer": "Jeff Beck",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q150": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/For_Your_Love",
+        "https://en.wikipedia.org/wiki/Shapes_of_Things"
+      ],
+      "checked_answer": "Giorgio Gomelsky",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q151": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_House_of_the_Rising_Sun"
+      ],
+      "checked_answer": "Alan Price",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q152": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_House_of_the_Rising_Sun"
+      ],
+      "checked_answer": "Hilton Valentine",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q153": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chas_Chandler"
+      ],
+      "checked_answer": "Chas Chandler",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q154": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Animals"
+      ],
+      "checked_answer": "John Steel",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q155": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dave_Rowberry"
+      ],
+      "checked_answer": "Dave Rowberry",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q156": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Franciscan_Nights"
+      ],
+      "checked_answer": "Eric Burdon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q157": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Monterey_(Eric_Burdon_and_the_Animals_song)"
+      ],
+      "checked_answer": "The Monterey Pop Festival",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q158": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Don%27t_Bring_Me_Down_(The_Animals_song)"
+      ],
+      "checked_answer": "Gerry Goffin and Carole King",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q159": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/We_Gotta_Get_Out_of_This_Place"
+      ],
+      "checked_answer": "Barry Mann and Cynthia Weil",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q160": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bus_Stop_(album)",
+        "https://en.wikipedia.org/wiki/Allan_Clarke_(singer)"
+      ],
+      "checked_answer": "Allan Clarke",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q161": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tony_Hicks",
+        "https://www.theholliesofficial.com/tony-hicks"
+      ],
+      "checked_answer": "Tony Hicks",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q162": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bobby_Elliott",
+        "https://www.theholliesofficial.com/bobby-elliot"
+      ],
+      "checked_answer": "Bobby Elliott",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q163": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bernie_Calvert"
+      ],
+      "checked_answer": "Bernie Calvert",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q164": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carrie_Anne"
+      ],
+      "checked_answer": "Steelpan",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q165": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Butterfly_(Hollies_album)",
+        "https://www.rhino.com/product/butterfly-2lp"
+      ],
+      "checked_answer": "Butterfly",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q166": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/He_Ain%27t_Heavy,_He%27s_My_Brother"
+      ],
+      "checked_answer": "Elton John",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q167": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/She%27s_Not_There",
+        "https://en.wikipedia.org/wiki/Time_of_the_Season"
+      ],
+      "checked_answer": "Colin Blunstone",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q168": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Zombies"
+      ],
+      "checked_answer": "Rod Argent",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q169": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Odessey_and_Oracle"
+      ],
+      "checked_answer": "Chris White",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q170": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Whiter_Shade_of_Pale",
+        "https://procolharum.com/phalbum1a.htm"
+      ],
+      "checked_answer": "Denny Cordell",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q171": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Butcher%27s_Tale_(Western_Front_1914)",
+        "https://talkhouse.com/a-conversation-with-the-zombies-rod-argent-and-the-lemon-twigs"
+      ],
+      "checked_answer": "Chris White",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q172": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Odessey_and_Oracle",
+        "https://www.terryquirk.com/"
+      ],
+      "checked_answer": "Terry Quirk",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q173": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Begin_Here"
+      ],
+      "checked_answer": "Begin Here",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q174": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Small_Faces"
+      ],
+      "checked_answer": "Ronnie Lane",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q175": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Small_Faces"
+      ],
+      "checked_answer": "Ian McLagan",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q176": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ogdens%27_Nut_Gone_Flake"
+      ],
+      "checked_answer": "A tobacco tin",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q177": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ogdens%27_Nut_Gone_Flake"
+      ],
+      "checked_answer": "Stanley Unwin",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q178": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tin_Soldier_(song)"
+      ],
+      "checked_answer": "P. P. Arnold",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q179": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Itchycoo_Park"
+      ],
+      "checked_answer": "Flanging",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q180": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gimme_Some_Lovin%27"
+      ],
+      "checked_answer": "Steve Winwood",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q181": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Spencer_Davis_Group"
+      ],
+      "checked_answer": "Muff Winwood",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q182": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Spencer_Davis_Group"
+      ],
+      "checked_answer": "Pete York",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q183": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Do_Wah_Diddy_Diddy",
+        "https://en.wikipedia.org/wiki/Paul_Jones_(singer)",
+        "https://www.allmusic.com/song/do-wah-diddy-diddy-mt0030141809"
+      ],
+      "checked_answer": "Paul Jones",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q184": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Manfred_Mann"
+      ],
+      "checked_answer": "Mike d'Abo",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q185": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Manfred_Mann"
+      ],
+      "checked_answer": "Mike Hugg",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q186": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pretty_Flamingo"
+      ],
+      "checked_answer": "Mark Barkan",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q187": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Dave_Clark_Five"
+      ],
+      "checked_answer": "Mike Smith",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q188": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dave_Clark_(musician)"
+      ],
+      "checked_answer": "Drums",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q189": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Denis_Payton"
+      ],
+      "checked_answer": "Denis Payton",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q190": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/You%27ll_Never_Walk_Alone"
+      ],
+      "checked_answer": "Carousel",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q191": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ferry_Cross_the_Mersey"
+      ],
+      "checked_answer": "Gerry Marsden",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q192": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Herman%27s_Hermits"
+      ],
+      "checked_answer": "Peter Noone",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q193": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/I%27m_Henry_VIII,_I_Am"
+      ],
+      "checked_answer": "Harry Champion",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q194": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Searchers_(band)"
+      ],
+      "checked_answer": "Tony Jackson",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q195": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chris_Curtis"
+      ],
+      "checked_answer": "Chris Curtis",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q196": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Reg_Presley"
+      ],
+      "checked_answer": "Reg Presley",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q197": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wild_Thing_(The_Troggs_song)"
+      ],
+      "checked_answer": "Chip Taylor",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q198": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Springfields"
+      ],
+      "checked_answer": "The Springfields",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q199": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Son_of_a_Preacher_Man"
+      ],
+      "checked_answer": "John Hurley and Ronnie Wilkins",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-q200": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Downtown_(Petula_Clark_song)"
+      ],
+      "checked_answer": "Tony Hatch",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "british-invasion-s17": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/All_My_Loving"
+      ],
+      "checked_year": 1963,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s18": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ticket_to_Ride_(song)"
+      ],
+      "checked_year": 1965,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s19": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paperback_Writer"
+      ],
+      "checked_year": 1966,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s20": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunny_Afternoon"
+      ],
+      "checked_year": 1966,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s21": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tired_of_Waiting_for_You"
+      ],
+      "checked_year": 1965,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s22": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bus_Stop_(song)"
+      ],
+      "checked_year": 1966,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s23": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Glad_All_Over",
+        "https://www.officialcharts.com/songs/dave-clark-five-glad-all-over/"
+      ],
+      "checked_year": 1963,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s24": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/When_You_Walk_in_the_Room",
+        "https://www.cherryred.co.uk/the-searchers-when-you-walk-in-the-room-the-complete-pye-recordings-196367-6cd-clamshell-box-set",
+        "https://music.apple.com/us/song/1439694829"
+      ],
+      "checked_year": 1964,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s25": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/I%27m_into_Something_Good",
+        "https://music.apple.com/us/song/1440778178"
+      ],
+      "checked_year": 1964,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s26": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Don%27t_Let_Me_Be_Misunderstood"
+      ],
+      "checked_year": 1965,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s27": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/For_Your_Love"
+      ],
+      "checked_year": 1965,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s28": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gimme_Some_Lovin%27"
+      ],
+      "checked_year": 1966,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s29": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/All_or_Nothing_(Small_Faces_song)"
+      ],
+      "checked_year": 1966,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s30": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Keep_On_Running",
+        "https://en.wikipedia.org/wiki/The_Second_Album_(The_Spencer_Davis_Group_album)",
+        "https://music.apple.com/us/song/1444077550"
+      ],
+      "checked_year": 1965,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s31": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/She%27s_Not_There"
+      ],
+      "checked_year": 1964,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-s32": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/You_Don%27t_Have_to_Say_You_Love_Me",
+        "https://www.officialcharts.com/songs/dusty-springfield-you-dont-have-to-say-you-love-me/",
+        "https://en.wikipedia.org/wiki/You_Don%27t_Have_to_Say_You_Love_Me_(Dusty_Springfield_album)"
+      ],
+      "checked_year": 1966,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording"
+      ]
+    },
+    "british-invasion-c09": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Don%27t_Let_Me_Be_Misunderstood",
+        "https://www.ninasimone.com/albums/broadway-blues-ballads/"
+      ],
+      "checked_year": 1965,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording",
+        "first released original",
+        "original release year",
+        "decoys"
+      ],
+      "checked_original": "Nina Simone",
+      "checked_original_year": 1964
+    },
+    "british-invasion-c10": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bring_It_On_Home_to_Me"
+      ],
+      "checked_year": 1965,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording",
+        "first released original",
+        "original release year",
+        "decoys"
+      ],
+      "checked_original": "Sam Cooke",
+      "checked_original_year": 1962
+    },
+    "british-invasion-c11": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boys_(The_Shirelles_song)",
+        "https://www.thebeatles.com/boys"
+      ],
+      "checked_year": 1963,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording",
+        "first released original",
+        "original release year",
+        "decoys"
+      ],
+      "checked_original": "The Shirelles",
+      "checked_original_year": 1960
+    },
+    "british-invasion-c12": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/He_Ain%27t_Heavy,_He%27s_My_Brother",
+        "https://en.wikipedia.org/wiki/Hollies_Sing_Hollies",
+        "https://www.45cat.com/record/2442",
+        "https://www.officialcharts.com/songs/hollies-he-aint-heavy-hes-my-brother/"
+      ],
+      "checked_year": 1969,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording",
+        "first released original",
+        "original release year",
+        "decoys"
+      ],
+      "checked_original": "Kelly Gordon",
+      "checked_original_year": 1969
+    },
+    "british-invasion-c13": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sweets_for_My_Sweet"
+      ],
+      "checked_year": 1963,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording",
+        "first released original",
+        "original release year",
+        "decoys"
+      ],
+      "checked_original": "The Drifters",
+      "checked_original_year": 1961
+    },
+    "british-invasion-c14": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/I%27m_into_Something_Good",
+        "https://www.caroleking.com/discography/tracks/something-good-goffin-king-songbook/3/im-something-good",
+        "https://music.apple.com/us/song/1440778178"
+      ],
+      "checked_year": 1964,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording",
+        "first released original",
+        "original release year",
+        "decoys"
+      ],
+      "checked_original": "Earl-Jean",
+      "checked_original_year": 1964
+    },
+    "british-invasion-c15": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hippy_Hippy_Shake",
+        "https://www.thebeatles.com/hippy-hippy-shake",
+        "https://www.officialcharts.com/songs/swinging-blue-jeans-hippy-hippy-shake/"
+      ],
+      "checked_year": 1963,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording",
+        "first released original",
+        "original release year",
+        "decoys"
+      ],
+      "checked_original": "Chan Romero",
+      "checked_original_year": 1959
+    },
+    "british-invasion-c16": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/It%27s_All_Over_Now,_Baby_Blue",
+        "https://en.wikipedia.org/wiki/Them_Again",
+        "https://www.bobdylan.com/songs/its-all-over-now-baby-blue/"
+      ],
+      "checked_year": 1966,
+      "checked_fields": [
+        "first release year",
+        "artist",
+        "album",
+        "recording note",
+        "catalog recording",
+        "first released original",
+        "original release year",
+        "decoys"
+      ],
+      "checked_original": "Bob Dylan",
+      "checked_original_year": 1965
+    }
+  },
+  "verification": {
+    "drafting": "Live source searches and article checks for each new question, song and cover.",
+    "adversarial_review": "Separate reread of all 174 additions against freshly fetched source pages. Checked the answer index, explanation, alternate choices, first-release dates, original-artist order and duplicate concepts. Additional live searches resolved gaps in individual credits.",
+    "review_date": "2026-10-22",
+    "difficulty_counts": {
+      "1": 68,
+      "2": 68,
+      "3": 64
+    },
+    "validated_question_counts": [
+      100,
+      150,
+      200
+    ],
+    "original_items": "The original 50 questions, 16 songs, 8 covers and all stories are unchanged."
+  },
+  "cuts": [
+    {
+      "candidate": "Name the steelpan soloist on Carrie Anne",
+      "reason": "Accounts differ on Ralph Richardson and Mario Gibbins (also rendered Gagliardi). Kept only the undisputed steelpan instrument question.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carrie_Anne",
+        "https://www.panonthenet.com/history/first-first/pan-in-pop.htm"
+      ]
+    },
+    {
+      "candidate": "Dusty Springfield cover original: Io che non vivo (senza te)",
+      "reason": "Donaggio and Jody Miller both introduced the Italian song at Sanremo. The checked account did not settle first-release order, so the cover candidate was replaced with Boys. The verified 1966 Dusty clip remains.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/You_Don%27t_Have_to_Say_You_Love_Me"
+      ]
+    },
+    {
+      "candidate": "Name the Our World broadcast for All You Need Is Love",
+      "reason": "Too close to existing question q32 on the same broadcast. Replaced q86 with the verified Hurricane Smith engineering question."
+    }
+  ],
+  "facts_left_out": [
+    {
+      "fact": "Session Man was about Nicky Hopkins",
+      "reason": "Ray Davies described Hopkins as a partial inspiration; Hopkins denied being the subject in a 1993 interview. Removed the disputed inspiration detail, kept his verifiable harpsichord performance.",
+      "sources": [
+        "https://www.kindakinks.net/misc/articles/19950101-hopkins-nyt.html",
+        "https://www.latimes.com/archives/la-xpm-1993-02-27-ca-521-story.html"
+      ]
+    },
+    {
+      "fact": "The Carrie Anne steelpan player and a first-ever pop steelpan claim",
+      "reason": "Player attribution is contested; the first-ever claim is not established by the checked sources. Neither is used.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carrie_Anne",
+        "https://www.panonthenet.com/history/first-first/pan-in-pop.htm"
+      ]
+    }
+  ],
+  "catalog_review": {
+    "new_entries": 24,
+    "unresolved_no_match": [],
+    "manual_recording_selections": [
+      {
+        "ids": [
+          "british-invasion-s24"
+        ],
+        "track_id": 1439694829,
+        "reason": "Selected the original Searchers recording from The Definitive Pye Collection instead of a less clearly documented compilation."
+      },
+      {
+        "ids": [
+          "british-invasion-s25",
+          "british-invasion-c14"
+        ],
+        "track_id": 1440778178,
+        "reason": "Selected the original 1964 recording from Retrospective (2004 Remaster), replacing the longer single returned first by the resolver."
+      },
+      {
+        "ids": [
+          "british-invasion-s30"
+        ],
+        "track_id": 1444077550,
+        "reason": "Selected Keep on Running (Mono Version) from The Second Album, replacing a compilation entry dated 1985."
+      }
+    ],
+    "verified_apple_date_errors": [
+      {
+        "id": "british-invasion-s32",
+        "historical_year": 1966,
+        "apple_year": 1965,
+        "track_id": 1444114537,
+        "resolution": "Retained the correct original studio recording and the verified March 1966 release year. Apple assigns dates from the 1965 predecessor album to the retitled US album; the title single was added in 1966.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/You_Don%27t_Have_to_Say_You_Love_Me",
+          "https://www.officialcharts.com/songs/dusty-springfield-you-dont-have-to-say-you-love-me/",
+          "https://en.wikipedia.org/wiki/You_Don%27t_Have_to_Say_You_Love_Me_(Dusty_Springfield_album)"
+        ]
+      },
+      {
+        "id": "british-invasion-c12",
+        "historical_year": 1969,
+        "apple_year": 1964,
+        "track_id": 917647444,
+        "resolution": "Retained the original Hollies studio recording and verified 1969 year. Apple assigns 1964 or 1968 to multiple later songs across compilations. The Kelly Gordon original and the Hollies single both date to 1969.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/He_Ain%27t_Heavy,_He%27s_My_Brother",
+          "https://en.wikipedia.org/wiki/Hollies_Sing_Hollies",
+          "https://www.45cat.com/record/2442",
+          "https://www.officialcharts.com/songs/hollies-he-aint-heavy-hes-my-brother/"
+        ]
+      }
+    ],
+    "existing_missing_story_art": [
+      "british-invasion-st1: Meet the Beatles!",
+      "british-invasion-st4: 1967-1970",
+      "british-invasion-st7: The Beatles' Second Album",
+      "british-invasion-st8: Jimi Plays Monterey"
+    ],
+    "existing_story_art_note": "These pre-existing story-art keys were already absent from catalog.json. No existing catalog entries or story text were changed."
+  }
+}

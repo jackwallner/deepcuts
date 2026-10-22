@@ -653,6 +653,1956 @@
       "answer": 2,
       "fact": "Lester's quick, comic style is often credited with influencing later music videos.",
       "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q51",
+      "prompt": "Which guest guitarist plays the lead on the Beatles' \"While My Guitar Gently Weeps\"?",
+      "choices": [
+        "Jeff Beck",
+        "Jimmy Page",
+        "Eric Clapton",
+        "Peter Green"
+      ],
+      "answer": 2,
+      "fact": "George Harrison invited his friend into the White Album sessions, but Clapton was not credited on the original sleeve.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q52",
+      "prompt": "What was George Harrison's first solo composition released on a Beatles album?",
+      "choices": [
+        "I Need You",
+        "If I Needed Someone",
+        "You Like Me Too Much",
+        "Don't Bother Me"
+      ],
+      "answer": 3,
+      "fact": "The song appeared on With the Beatles in 1963.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q53",
+      "prompt": "Which Beatle wrote \"Don't Pass Me By\"?",
+      "choices": [
+        "Ringo Starr",
+        "John Lennon",
+        "Paul McCartney",
+        "George Harrison"
+      ],
+      "answer": 0,
+      "fact": "It became his first solo writing credit on a Beatles album when it appeared on the White Album.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q54",
+      "prompt": "Which guest plays electric piano on the Beatles' \"Get Back\"?",
+      "choices": [
+        "Nicky Hopkins",
+        "Billy Preston",
+        "Alan Price",
+        "Georgie Fame"
+      ],
+      "answer": 1,
+      "fact": "The original single was billed to the Beatles with Preston.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q55",
+      "prompt": "Who plays electric piano on the Beatles' fast 1968 single version of \"Revolution\"?",
+      "choices": [
+        "Billy Preston",
+        "George Martin",
+        "Nicky Hopkins",
+        "John Lennon"
+      ],
+      "answer": 2,
+      "fact": "The single differs from the slower \"Revolution 1\" on the White Album.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q56",
+      "prompt": "Who plays the French horn solo on the Beatles' \"For No One\"?",
+      "choices": [
+        "Dennis Brain",
+        "Barry Tuckwell",
+        "Neil Sanders",
+        "Alan Civil"
+      ],
+      "answer": 3,
+      "fact": "The orchestral horn sits alongside McCartney's keyboard parts on Revolver.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q57",
+      "prompt": "Who plays the piccolo trumpet solo on \"Penny Lane\"?",
+      "choices": [
+        "David Mason",
+        "Leon Calvert",
+        "Duncan Campbell",
+        "Eddie Calvert"
+      ],
+      "answer": 0,
+      "fact": "McCartney asked for the sound after seeing Mason play Bach on television.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q58",
+      "prompt": "Who plays the sped-up, baroque-style piano solo on the Beatles' \"In My Life\"?",
+      "choices": [
+        "Nicky Hopkins",
+        "George Martin",
+        "Paul McCartney",
+        "John Lennon"
+      ],
+      "answer": 1,
+      "fact": "Martin recorded with the tape at half speed so normal playback made the piano resemble a harpsichord.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q59",
+      "prompt": "Which Beatle plays the lead-guitar solo on George Harrison's \"Taxman\"?",
+      "choices": [
+        "George Harrison",
+        "John Lennon",
+        "Paul McCartney",
+        "Ringo Starr"
+      ],
+      "answer": 2,
+      "fact": "McCartney supplied the sharp solo on the opening track of Revolver.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q60",
+      "prompt": "Which Beatles assistant plays the anvil on the Abbey Road version of \"Maxwell's Silver Hammer\"?",
+      "choices": [
+        "Neil Aspinall",
+        "Peter Brown",
+        "Derek Taylor",
+        "Mal Evans"
+      ],
+      "answer": 3,
+      "fact": "The percussion effect punctuates McCartney's song on the album's first side.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q61",
+      "prompt": "Which guest singer has a solo line in \"The Continuing Story of Bungalow Bill\"?",
+      "choices": [
+        "Yoko Ono",
+        "Pattie Boyd",
+        "Maureen Starkey",
+        "Jane Asher"
+      ],
+      "answer": 0,
+      "fact": "The White Album recording also features a group singalong by people in the studio.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q62",
+      "prompt": "Which Beatles album includes the ballad \"Here, There and Everywhere\"?",
+      "choices": [
+        "Rubber Soul",
+        "Revolver",
+        "Help!",
+        "Beatles for Sale"
+      ],
+      "answer": 1,
+      "fact": "McCartney wrote the song late in the album's recording period.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q63",
+      "prompt": "Which Beatle wrote \"Julia\" about his mother?",
+      "choices": [
+        "Paul McCartney",
+        "George Harrison",
+        "John Lennon",
+        "Ringo Starr"
+      ],
+      "answer": 2,
+      "fact": "Lennon performs the White Album song alone with acoustic guitar.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q64",
+      "prompt": "Which Beatle performs the original \"Blackbird\" with acoustic guitar and foot tapping?",
+      "choices": [
+        "John Lennon",
+        "George Harrison",
+        "Ringo Starr",
+        "Paul McCartney"
+      ],
+      "answer": 3,
+      "fact": "The spare White Album recording features no other Beatle.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q65",
+      "prompt": "Which Beatle is the only band member performing on \"Mother Nature's Son\"?",
+      "choices": [
+        "Paul McCartney",
+        "John Lennon",
+        "George Harrison",
+        "Ringo Starr"
+      ],
+      "answer": 0,
+      "fact": "Four brass players add to his acoustic-guitar arrangement.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q66",
+      "prompt": "Who sings lead on the White Album's orchestral lullaby \"Good Night\"?",
+      "choices": [
+        "John Lennon",
+        "Ringo Starr",
+        "Paul McCartney",
+        "George Harrison"
+      ],
+      "answer": 1,
+      "fact": "Lennon wrote the song for his son Julian.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q67",
+      "prompt": "George Harrison's \"Savoy Truffle\" was inspired by whose fondness for chocolates?",
+      "choices": [
+        "Ringo Starr",
+        "Brian Epstein",
+        "Eric Clapton",
+        "Mick Jagger"
+      ],
+      "answer": 2,
+      "fact": "Harrison borrowed chocolate names from a Mackintosh's Good News assortment.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q68",
+      "prompt": "Which artist designed the Beatles' plain white 1968 album sleeve?",
+      "choices": [
+        "Peter Blake",
+        "Klaus Voormann",
+        "Robert Fraser",
+        "Richard Hamilton"
+      ],
+      "answer": 3,
+      "fact": "Hamilton worked with McCartney on a design deliberately unlike the colorful Sgt. Pepper cover.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q69",
+      "prompt": "Who took the four individual Beatles portraits included with the original White Album?",
+      "choices": [
+        "John Kelly",
+        "Iain Macmillan",
+        "Robert Freeman",
+        "Angus McBean"
+      ],
+      "answer": 0,
+      "fact": "The separate portraits accompanied the album's poster and stark sleeve.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q70",
+      "prompt": "The title \"Happiness Is a Warm Gun\" came from a headline in what kind of publication?",
+      "choices": [
+        "A railway timetable",
+        "A gun magazine",
+        "A football programme",
+        "A seed catalogue"
+      ],
+      "answer": 1,
+      "fact": "Lennon built the White Album song from several separate musical fragments.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q71",
+      "prompt": "In British fairground language, what is a helter-skelter?",
+      "choices": [
+        "A Ferris wheel",
+        "A roller coaster",
+        "A spiral slide",
+        "A carousel"
+      ],
+      "answer": 2,
+      "fact": "McCartney used the ride's name for one of the White Album's loudest tracks.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q72",
+      "prompt": "Who plays harpsichord on George Harrison's \"Piggies\"?",
+      "choices": [
+        "George Martin",
+        "Billy Preston",
+        "Nicky Hopkins",
+        "Chris Thomas"
+      ],
+      "answer": 3,
+      "fact": "Thomas also handled some production work while Martin was away during the White Album sessions.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q73",
+      "prompt": "McCartney took the name in \"Martha My Dear\" from what animal?",
+      "choices": [
+        "His dog",
+        "His cat",
+        "His horse",
+        "His parrot"
+      ],
+      "answer": 0,
+      "fact": "Martha was an Old English sheepdog, whose name became the White Album song's title.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q74",
+      "prompt": "Who plays the honky-tonk piano on the Beatles' \"Rocky Raccoon\"?",
+      "choices": [
+        "Paul McCartney",
+        "George Martin",
+        "Chris Thomas",
+        "Nicky Hopkins"
+      ],
+      "answer": 1,
+      "fact": "The piano contributes to the White Album track's old Western setting.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q75",
+      "prompt": "Who plays harp on the Beatles' \"She's Leaving Home\"?",
+      "choices": [
+        "Osian Ellis",
+        "Maria Korchinska",
+        "Sheila Bromberg",
+        "Sidonie Goossens"
+      ],
+      "answer": 2,
+      "fact": "The orchestral backing accompanies vocals by McCartney and Lennon.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q76",
+      "prompt": "Who wrote the orchestral arrangement for \"She's Leaving Home\" when George Martin was unavailable?",
+      "choices": [
+        "Richard Anthony Hewson",
+        "David Bedford",
+        "John Cameron",
+        "Mike Leander"
+      ],
+      "answer": 3,
+      "fact": "Martin still conducted the session, using Leander's score.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q77",
+      "prompt": "What inspired the names and circus imagery in \"Being for the Benefit of Mr. Kite!\"?",
+      "choices": [
+        "An antique circus poster",
+        "A seaside postcard",
+        "A railway advertisement",
+        "A fairground programme"
+      ],
+      "answer": 0,
+      "fact": "The poster advertised Pablo Fanque's Circus Royal and supplied many of Lennon's details.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q78",
+      "prompt": "Which Beatle wrote \"Within You Without You\"?",
+      "choices": [
+        "John Lennon",
+        "George Harrison",
+        "Paul McCartney",
+        "Ringo Starr"
+      ],
+      "answer": 1,
+      "fact": "The Sgt. Pepper track combines Indian musicians with orchestral strings.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q79",
+      "prompt": "Which British instrumental group supplies the horns on \"Good Morning Good Morning\"?",
+      "choices": [
+        "The Artwoods",
+        "The Alan Bown Set",
+        "Sounds Incorporated",
+        "The Graham Bond Organisation"
+      ],
+      "answer": 2,
+      "fact": "Their brass section contributes to the Sgt. Pepper recording.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q80",
+      "prompt": "Which woodwind instruments give \"When I'm Sixty-Four\" its distinctive chamber-music sound?",
+      "choices": [
+        "Oboes",
+        "Bassoons",
+        "Flutes",
+        "Clarinets"
+      ],
+      "answer": 3,
+      "fact": "George Martin arranged a trio of two clarinets and a bass clarinet.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q81",
+      "prompt": "Which pair share the lead vocals on \"A Day in the Life\"?",
+      "choices": [
+        "John Lennon and Paul McCartney",
+        "John Lennon and George Harrison",
+        "Paul McCartney and Ringo Starr",
+        "George Harrison and Ringo Starr"
+      ],
+      "answer": 0,
+      "fact": "McCartney's brisk middle section is set inside Lennon's slower song.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q82",
+      "prompt": "Which Beatle plays harmonica on the original \"Love Me Do\"?",
+      "choices": [
+        "Paul McCartney",
+        "John Lennon",
+        "George Harrison",
+        "Ringo Starr"
+      ],
+      "answer": 1,
+      "fact": "The harmonica is a central part of the band's 1962 debut single.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q83",
+      "prompt": "The place behind the Beatles' \"Strawberry Fields Forever\" was originally what?",
+      "choices": [
+        "A railway station",
+        "A primary school",
+        "A Salvation Army children's home",
+        "A recording studio"
+      ],
+      "answer": 2,
+      "fact": "John Lennon knew the grounds near his childhood home in Liverpool.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q84",
+      "prompt": "\"I Am the Walrus\" draws its walrus character from a poem by which writer?",
+      "choices": [
+        "Edward Lear",
+        "A. A. Milne",
+        "Hilaire Belloc",
+        "Lewis Carroll"
+      ],
+      "answer": 3,
+      "fact": "The poem was \"The Walrus and the Carpenter\", in Through the Looking-Glass.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q85",
+      "prompt": "Which national anthem opens the Beatles' \"All You Need Is Love\"?",
+      "choices": [
+        "La Marseillaise",
+        "God Save the Queen",
+        "The Star-Spangled Banner",
+        "O Canada"
+      ],
+      "answer": 0,
+      "fact": "The French anthem introduces George Martin's arrangement for the 1967 recording.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q86",
+      "prompt": "Which Beatles recording engineer later had hits under the name Hurricane Smith?",
+      "choices": [
+        "Norman Smith",
+        "Geoff Emerick",
+        "Ken Scott",
+        "Phil McDonald"
+      ],
+      "answer": 0,
+      "fact": "His solo hit \"Oh Babe, What Would You Say\" followed his engineering work on the Beatles' early EMI recordings.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q87",
+      "prompt": "The Beatles' Magical Mystery Tour television film centers on a trip in which vehicle?",
+      "choices": [
+        "A train",
+        "A ship",
+        "A bus",
+        "An aeroplane"
+      ],
+      "answer": 2,
+      "fact": "The band and a cast of fellow travelers take the fictional mystery trip together.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q88",
+      "prompt": "George Harrison wrote \"Blue Jay Way\" while staying in which American city?",
+      "choices": [
+        "San Francisco",
+        "New York",
+        "Nashville",
+        "Los Angeles"
+      ],
+      "answer": 3,
+      "fact": "The title is the street where he was renting a house while waiting for friends to arrive.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q89",
+      "prompt": "Which unusual keyboard does Lennon play on \"Baby, You're a Rich Man\"?",
+      "choices": [
+        "Clavioline",
+        "Mellotron",
+        "Moog synthesizer",
+        "Hammond organ"
+      ],
+      "answer": 0,
+      "fact": "Its electronic tone gives the 1967 recording a distinctive melodic voice.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q90",
+      "prompt": "What was the original UK B-side of the Beatles' \"Hello, Goodbye\"?",
+      "choices": [
+        "Strawberry Fields Forever",
+        "I Am the Walrus",
+        "Baby, You're a Rich Man",
+        "Revolution"
+      ],
+      "answer": 1,
+      "fact": "The single paired McCartney's A-side with Lennon's song in 1967.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q91",
+      "prompt": "Which Beatle plays the featured drum solo in \"The End\" on Abbey Road?",
+      "choices": [
+        "Paul McCartney",
+        "John Lennon",
+        "Ringo Starr",
+        "George Harrison"
+      ],
+      "answer": 2,
+      "fact": "The solo leads into the three guitarists' exchanges.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q92",
+      "prompt": "In what order do the guitar solos rotate in the Beatles' \"The End\"?",
+      "choices": [
+        "Harrison, Lennon, McCartney",
+        "Lennon, McCartney, Harrison",
+        "McCartney, Lennon, Harrison",
+        "McCartney, Harrison, Lennon"
+      ],
+      "answer": 3,
+      "fact": "The three guitarists trade short two-bar phrases.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q93",
+      "prompt": "Which brief song appears after \"The End\" on the original Abbey Road?",
+      "choices": [
+        "Her Majesty",
+        "Maggie Mae",
+        "Wild Honey Pie",
+        "Can You Take Me Back"
+      ],
+      "answer": 0,
+      "fact": "McCartney's short acoustic piece was left at the end after being cut from the medley.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q94",
+      "prompt": "How many Beatles sing the layered harmony parts on \"Because\"?",
+      "choices": [
+        "Two",
+        "Three",
+        "Four",
+        "One"
+      ],
+      "answer": 1,
+      "fact": "Lennon, McCartney and Harrison overdubbed the three-part harmony twice to create nine voices.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q95",
+      "prompt": "Which electronic keyboard is heard on the Beatles' \"Here Comes the Sun\"?",
+      "choices": [
+        "Clavioline",
+        "Moog",
+        "Ondioline",
+        "EMS VCS 3"
+      ],
+      "answer": 1,
+      "fact": "Harrison used the instrument as part of Abbey Road's expanding sound palette.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q96",
+      "prompt": "Which engineer returned for Abbey Road after walking out of the White Album sessions?",
+      "choices": [
+        "Norman Smith",
+        "Alan Parsons",
+        "Eddie Kramer",
+        "Geoff Emerick"
+      ],
+      "answer": 3,
+      "fact": "Emerick worked alongside Phil McDonald on Abbey Road.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q97",
+      "prompt": "In the Abbey Road medley, which song follows \"Polythene Pam\"?",
+      "choices": [
+        "She Came In Through the Bathroom Window",
+        "Golden Slumbers",
+        "Carry That Weight",
+        "Mean Mr. Mustard"
+      ],
+      "answer": 0,
+      "fact": "Lennon's fragment runs directly into McCartney's song.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q98",
+      "prompt": "Which poet's words did McCartney adapt for \"Golden Slumbers\"?",
+      "choices": [
+        "William Blake",
+        "Thomas Dekker",
+        "Robert Burns",
+        "Philip Sidney"
+      ],
+      "answer": 1,
+      "fact": "McCartney supplied new music for words from Dekker's lullaby.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q99",
+      "prompt": "Which producer added the orchestral overdubs to the Beatles' Let It Be in 1970?",
+      "choices": [
+        "George Martin",
+        "Glyn Johns",
+        "Phil Spector",
+        "Chris Thomas"
+      ],
+      "answer": 2,
+      "fact": "Much of the underlying music had been recorded during the band's 1969 sessions.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q100",
+      "prompt": "Which Beatle objected to Spector's orchestral additions to \"The Long and Winding Road\"?",
+      "choices": [
+        "John Lennon",
+        "George Harrison",
+        "Ringo Starr",
+        "Paul McCartney"
+      ],
+      "answer": 3,
+      "fact": "A stripped-back version later appeared on Let It Be... Naked.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q101",
+      "prompt": "What was the first Rolling Stones studio album made entirely of Jagger-Richards compositions?",
+      "choices": [
+        "Aftermath",
+        "Out of Our Heads",
+        "The Rolling Stones No. 2",
+        "12 X 5"
+      ],
+      "answer": 0,
+      "fact": "The 1966 album gave Brian Jones room to add instruments far beyond the group's usual guitars.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q102",
+      "prompt": "Which instrument plays the main melodic riff in the Stones' \"Under My Thumb\"?",
+      "choices": [
+        "Vibraphone",
+        "Marimba",
+        "Xylophone",
+        "Glockenspiel"
+      ],
+      "answer": 1,
+      "fact": "Brian Jones plays the wooden-bar percussion instrument on Aftermath.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q103",
+      "prompt": "Which instrument does Brian Jones play on the Stones' \"Lady Jane\"?",
+      "choices": [
+        "Autoharp",
+        "Sitar",
+        "Dulcimer",
+        "Mandolin"
+      ],
+      "answer": 2,
+      "fact": "The plucked instrument helps give the Aftermath ballad its old-fashioned sound.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q104",
+      "prompt": "Brian Jones plays which wind instrument on \"Ruby Tuesday\"?",
+      "choices": [
+        "Oboe",
+        "Flute",
+        "Clarinet",
+        "Recorder"
+      ],
+      "answer": 3,
+      "fact": "His countermelody is part of the Stones' 1967 recording.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q105",
+      "prompt": "Which two Beatles sing backing vocals on the Stones' \"We Love You\"?",
+      "choices": [
+        "John Lennon and Paul McCartney",
+        "John Lennon and George Harrison",
+        "Paul McCartney and Ringo Starr",
+        "George Harrison and Ringo Starr"
+      ],
+      "answer": 0,
+      "fact": "The 1967 single also features Brian Jones on Mellotron.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q106",
+      "prompt": "Who arranged the strings for the Stones' \"She's a Rainbow\"?",
+      "choices": [
+        "George Martin",
+        "John Paul Jones",
+        "Jack Nitzsche",
+        "Mike Leander"
+      ],
+      "answer": 1,
+      "fact": "The future Led Zeppelin bassist was still working as a session musician and arranger.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q107",
+      "prompt": "Which filmmaker documented the Stones recording \"Sympathy for the Devil\" in 1968?",
+      "choices": [
+        "François Truffaut",
+        "Michelangelo Antonioni",
+        "Jean-Luc Godard",
+        "Richard Lester"
+      ],
+      "answer": 2,
+      "fact": "The studio footage became part of his film One Plus One, also released as Sympathy for the Devil.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q108",
+      "prompt": "Which novel did Jagger cite as an influence on \"Sympathy for the Devil\"?",
+      "choices": [
+        "The Stranger",
+        "The Trial",
+        "Brave New World",
+        "The Master and Margarita"
+      ],
+      "answer": 3,
+      "fact": "Mikhail Bulgakov's novel was one of the literary influences Jagger named for the song.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q109",
+      "prompt": "Who plays mandolin on the Stones' Let It Bleed version of \"Love in Vain\"?",
+      "choices": [
+        "Ry Cooder",
+        "Dave Mason",
+        "Steve Winwood",
+        "Mick Taylor"
+      ],
+      "answer": 0,
+      "fact": "Keith Richards plays the guitars on the band's arrangement of Robert Johnson's song.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q110",
+      "prompt": "Who plays drums on the Stones' original \"You Can't Always Get What You Want\"?",
+      "choices": [
+        "Charlie Watts",
+        "Jimmy Miller",
+        "Jim Keltner",
+        "Ginger Baker"
+      ],
+      "answer": 1,
+      "fact": "The album's producer took the drum part on this Let It Bleed track.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q111",
+      "prompt": "Which choir sings on the Stones' original \"You Can't Always Get What You Want\"?",
+      "choices": [
+        "The Ambrosian Singers",
+        "The King's Singers",
+        "The London Bach Choir",
+        "The Mike Sammes Singers"
+      ],
+      "answer": 2,
+      "fact": "The choral passages frame a recording that also features Al Kooper.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q112",
+      "prompt": "Who plays French horn, piano and organ on \"You Can't Always Get What You Want\"?",
+      "choices": [
+        "Nicky Hopkins",
+        "Ian Stewart",
+        "Jack Nitzsche",
+        "Al Kooper"
+      ],
+      "answer": 3,
+      "fact": "Kooper is one of several guest musicians credited on Let It Bleed.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q113",
+      "prompt": "Which future television cook made the cake on the Let It Bleed cover?",
+      "choices": [
+        "Delia Smith",
+        "Mary Berry",
+        "Prue Leith",
+        "Fanny Cradock"
+      ],
+      "answer": 0,
+      "fact": "Robert Brownjohn designed the Stones' record-stack sculpture, including the cake.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q114",
+      "prompt": "Which saxophonist makes his Stones recording debut on \"Live with Me\"?",
+      "choices": [
+        "Jim Horn",
+        "Bobby Keys",
+        "King Curtis",
+        "Mel Collins"
+      ],
+      "answer": 1,
+      "fact": "The Let It Bleed track began a long musical association with the band.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q115",
+      "prompt": "The Stones used \"Nanker Phelge\" as what?",
+      "choices": [
+        "A pseudonym for their manager",
+        "The name of their first studio",
+        "A collective songwriting credit",
+        "A stage name for Brian Jones"
+      ],
+      "answer": 2,
+      "fact": "The name appeared on group compositions during the band's early years.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q116",
+      "prompt": "Who is the credited songwriter of \"Little Red Rooster\", the blues song the Stones took to number one in Britain?",
+      "choices": [
+        "Muddy Waters",
+        "Chuck Berry",
+        "John Lee Hooker",
+        "Willie Dixon"
+      ],
+      "answer": 3,
+      "fact": "Howlin' Wolf recorded the song before the Stones released their 1964 version.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q117",
+      "prompt": "Who released \"As Tears Go By\" before the Rolling Stones?",
+      "choices": [
+        "Marianne Faithfull",
+        "Dusty Springfield",
+        "Sandie Shaw",
+        "Petula Clark"
+      ],
+      "answer": 0,
+      "fact": "Faithfull's 1964 single preceded the Stones' own version of the Jagger-Richards-Oldham song.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q118",
+      "prompt": "What image was rejected as the original cover of the Stones' Beggars Banquet?",
+      "choices": [
+        "A burning hotel room",
+        "A graffiti-covered toilet",
+        "A wrecked limousine",
+        "A broken shop window"
+      ],
+      "answer": 1,
+      "fact": "The 1968 album initially appeared in a plain invitation-style sleeve instead.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q119",
+      "prompt": "Who was the Kinks' original bassist alongside the Davies brothers and Mick Avory?",
+      "choices": [
+        "John Dalton",
+        "Jim Rodford",
+        "Pete Quaife",
+        "Andy Pyle"
+      ],
+      "answer": 2,
+      "fact": "Quaife remained part of the classic lineup until 1969, apart from a temporary absence.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q120",
+      "prompt": "Who was the Kinks' drummer in their classic 1960s lineup?",
+      "choices": [
+        "Bobby Elliott",
+        "Dave Clark",
+        "Hugh Grundy",
+        "Mick Avory"
+      ],
+      "answer": 3,
+      "fact": "Avory joined Ray Davies, Dave Davies and Pete Quaife in the band.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q121",
+      "prompt": "Who replaced Pete Quaife as the Kinks' regular bassist in 1969?",
+      "choices": [
+        "John Dalton",
+        "Jim Rodford",
+        "Andy Pyle",
+        "John Gosling"
+      ],
+      "answer": 0,
+      "fact": "Dalton had briefly deputized for Quaife in 1966 and returned for Arthur.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q122",
+      "prompt": "Who plays the opening harpsichord on the Kinks' \"Session Man\"?",
+      "choices": [
+        "Ray Davies",
+        "Nicky Hopkins",
+        "Alan Price",
+        "Rod Argent"
+      ],
+      "answer": 1,
+      "fact": "The harpsichord introduction opens this track from the Kinks' 1966 album Face to Face.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q123",
+      "prompt": "Which singer, then Ray Davies's wife, adds backing vocals to \"Waterloo Sunset\"?",
+      "choices": [
+        "Beverley Martyn",
+        "Julie Felix",
+        "Rasa Davies",
+        "Marianne Faithfull"
+      ],
+      "answer": 2,
+      "fact": "She joins Dave Davies and Pete Quaife on the backing vocal track.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q124",
+      "prompt": "Which Kink sings lead on \"Death of a Clown\", released under his own name in 1967?",
+      "choices": [
+        "Ray Davies",
+        "Pete Quaife",
+        "Mick Avory",
+        "Dave Davies"
+      ],
+      "answer": 3,
+      "fact": "The recording also appears on Something Else by the Kinks.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q125",
+      "prompt": "Which Kinks album includes \"Do You Remember Walter?\" and \"Picture Book\"?",
+      "choices": [
+        "The Kinks Are the Village Green Preservation Society",
+        "Face to Face",
+        "Kinda Kinks",
+        "The Kink Kontroversy"
+      ],
+      "answer": 0,
+      "fact": "The 1968 album explores memory, change and the preservation of English village life.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q126",
+      "prompt": "The Kinks' Arthur was developed to accompany what kind of project?",
+      "choices": [
+        "A ballet",
+        "A television play",
+        "A radio detective serial",
+        "A feature-length cartoon"
+      ],
+      "answer": 1,
+      "fact": "The planned Granada Television production was never made.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q127",
+      "prompt": "Which relative of Ray and Dave Davies inspired the fictional Arthur Morgan on the Kinks' Arthur?",
+      "choices": [
+        "Their father",
+        "Their grandfather",
+        "Their brother-in-law",
+        "Their uncle"
+      ],
+      "answer": 2,
+      "fact": "Arthur Anning and the brothers' sister Rose had emigrated to Australia.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q128",
+      "prompt": "Who developed the Arthur television storyline with Ray Davies?",
+      "choices": [
+        "Dennis Potter",
+        "Alan Bennett",
+        "Harold Pinter",
+        "Julian Mitchell"
+      ],
+      "answer": 3,
+      "fact": "The writer collaborated on the unproduced television project behind the Kinks album.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q129",
+      "prompt": "Which brand name did Ray Davies replace with \"cherry cola\" for the \"Lola\" single?",
+      "choices": [
+        "Coca-Cola",
+        "Pepsi-Cola",
+        "R. White's",
+        "Schweppes"
+      ],
+      "answer": 0,
+      "fact": "The change avoided the BBC's rule against product advertising.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q130",
+      "prompt": "Which new Kinks member played piano on the original \"Lola\"?",
+      "choices": [
+        "Nicky Hopkins",
+        "John Gosling",
+        "Ian Gibbons",
+        "Gordon Edwards"
+      ],
+      "answer": 1,
+      "fact": "The 1970 recording was among Gosling's first work with the group.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q131",
+      "prompt": "How are the Kinks dressed in the promotional film for \"Dead End Street\"?",
+      "choices": [
+        "As policemen",
+        "As sailors",
+        "As undertakers",
+        "As schoolteachers"
+      ],
+      "answer": 2,
+      "fact": "The black-and-white film includes a coffin and was shot on London's Little Green Street.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q132",
+      "prompt": "Which Dylan Thomas work helped inspire the character studies on Village Green Preservation Society?",
+      "choices": [
+        "A Child's Christmas in Wales",
+        "Portrait of the Artist as a Young Dog",
+        "The Doctor and the Devils",
+        "Under Milk Wood"
+      ],
+      "answer": 3,
+      "fact": "Ray Davies drew on the radio drama's portraits of a small Welsh community.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q133",
+      "prompt": "Who wrote and sings the Who's \"Boris the Spider\"?",
+      "choices": [
+        "John Entwistle",
+        "Pete Townshend",
+        "Keith Moon",
+        "Roger Daltrey"
+      ],
+      "answer": 0,
+      "fact": "The bassist's macabre song appeared on A Quick One in 1966.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q134",
+      "prompt": "Which Who member receives the writing credit for \"Cobwebs and Strange\"?",
+      "choices": [
+        "John Entwistle",
+        "Keith Moon",
+        "Pete Townshend",
+        "Roger Daltrey"
+      ],
+      "answer": 1,
+      "fact": "The short instrumental appears on A Quick One.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q135",
+      "prompt": "In \"A Quick One, While He's Away\", the Who sing the name of which instrument instead of hiring players?",
+      "choices": [
+        "Violin",
+        "Tuba",
+        "Cello",
+        "Bassoon"
+      ],
+      "answer": 2,
+      "fact": "They chant the word during the mini-opera after being told real cellos would cost too much.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q136",
+      "prompt": "How many sections make up the Who's \"A Quick One, While He's Away\"?",
+      "choices": [
+        "Four",
+        "Five",
+        "Eight",
+        "Six"
+      ],
+      "answer": 3,
+      "fact": "The sequence runs from \"Her Man's Been Gone\" to \"You Are Forgiven\".",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q137",
+      "prompt": "The Who Sell Out is presented as what kind of broadcast?",
+      "choices": [
+        "A pirate radio programme",
+        "A television talent show",
+        "A football commentary",
+        "A parliamentary debate"
+      ],
+      "answer": 0,
+      "fact": "Songs are linked by advertising parodies and station jingles.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q138",
+      "prompt": "Which Who member sits in a tub of baked beans on The Who Sell Out cover?",
+      "choices": [
+        "Pete Townshend",
+        "Roger Daltrey",
+        "Keith Moon",
+        "John Entwistle"
+      ],
+      "answer": 1,
+      "fact": "The staged photograph advertises Heinz Baked Beans as part of the sleeve's commercial joke.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q139",
+      "prompt": "Who sings lead on the Who's \"Odorono\"?",
+      "choices": [
+        "Roger Daltrey",
+        "John Entwistle",
+        "Pete Townshend",
+        "Keith Moon"
+      ],
+      "answer": 2,
+      "fact": "Townshend's Sell Out song tells a story that turns on a deodorant brand.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q140",
+      "prompt": "Who wrote \"Armenia City in the Sky\", the opening song on The Who Sell Out?",
+      "choices": [
+        "Andy Newman",
+        "Jimmy McCulloch",
+        "Roy Wood",
+        "John \"Speedy\" Keen"
+      ],
+      "answer": 3,
+      "fact": "Keen later sang and played drums in Thunderclap Newman.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q141",
+      "prompt": "What was the Billboard Hot 100 peak of the Who's \"I Can See for Miles\"?",
+      "choices": [
+        "Number 9",
+        "Number 1",
+        "Number 3",
+        "Number 20"
+      ],
+      "answer": 0,
+      "fact": "It was the only Who single to reach the US Hot 100 top ten during the 1960s.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q142",
+      "prompt": "Which guest pianist plays on the Who's instrumental \"The Ox\"?",
+      "choices": [
+        "Alan Price",
+        "Nicky Hopkins",
+        "Brian Auger",
+        "Georgie Fame"
+      ],
+      "answer": 1,
+      "fact": "The instrumental closes the original UK edition of My Generation.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q143",
+      "prompt": "Who sings lead on the Who's original \"A Legal Matter\"?",
+      "choices": [
+        "Roger Daltrey",
+        "John Entwistle",
+        "Pete Townshend",
+        "Keith Moon"
+      ],
+      "answer": 2,
+      "fact": "The guitarist takes the lead vocal on this track from My Generation.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q144",
+      "prompt": "Who shares the writing credit with Townshend on \"Anyway, Anyhow, Anywhere\"?",
+      "choices": [
+        "John Entwistle",
+        "Keith Moon",
+        "Kit Lambert",
+        "Roger Daltrey"
+      ],
+      "answer": 3,
+      "fact": "Their joint composition became a Who single in 1965.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q145",
+      "prompt": "Whose voice calls \"I saw you!\" at the end of the Who's \"Happy Jack\"?",
+      "choices": [
+        "Pete Townshend",
+        "Roger Daltrey",
+        "John Entwistle",
+        "Keith Moon"
+      ],
+      "answer": 0,
+      "fact": "Townshend caught Moon trying to join the vocal recording.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q146",
+      "prompt": "Who was the Yardbirds' lead singer on \"For Your Love\" and \"Shapes of Things\"?",
+      "choices": [
+        "Jim McCarty",
+        "Keith Relf",
+        "Chris Dreja",
+        "Paul Samwell-Smith"
+      ],
+      "answer": 1,
+      "fact": "Relf also played harmonica in the band.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q147",
+      "prompt": "Who plays harpsichord on the Yardbirds' \"For Your Love\"?",
+      "choices": [
+        "Nicky Hopkins",
+        "Alan Price",
+        "Brian Auger",
+        "Manfred Mann"
+      ],
+      "answer": 2,
+      "fact": "The keyboard helps set the 1965 single apart from the band's earlier blues material.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q148",
+      "prompt": "Which Yardbird drew the cover caricature for Roger the Engineer?",
+      "choices": [
+        "Keith Relf",
+        "Jim McCarty",
+        "Jeff Beck",
+        "Chris Dreja"
+      ],
+      "answer": 3,
+      "fact": "The drawing depicts recording engineer Roger Cameron.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q149",
+      "prompt": "Which guitarist plays the feedback-filled solo on the Yardbirds' original \"Shapes of Things\"?",
+      "choices": [
+        "Jeff Beck",
+        "Eric Clapton",
+        "Jimmy Page",
+        "Chris Dreja"
+      ],
+      "answer": 0,
+      "fact": "Beck later recorded a different arrangement for his 1968 album Truth.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q150",
+      "prompt": "Who produced the Yardbirds' \"For Your Love\" and \"Shapes of Things\"?",
+      "choices": [
+        "Mickie Most",
+        "Giorgio Gomelsky",
+        "Shel Talmy",
+        "Andrew Loog Oldham"
+      ],
+      "answer": 1,
+      "fact": "Gomelsky managed the group as well as producing its early records.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q151",
+      "prompt": "Who plays the organ on the Animals' \"The House of the Rising Sun\"?",
+      "choices": [
+        "Rod Argent",
+        "Manfred Mann",
+        "Alan Price",
+        "Steve Winwood"
+      ],
+      "answer": 2,
+      "fact": "Price's Vox Continental organ answers Hilton Valentine's guitar introduction.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q152",
+      "prompt": "Who plays the opening guitar arpeggios on the Animals' \"The House of the Rising Sun\"?",
+      "choices": [
+        "Eric Burdon",
+        "Chas Chandler",
+        "Vic Briggs",
+        "Hilton Valentine"
+      ],
+      "answer": 3,
+      "fact": "Valentine turned the chord sequence into the recording's familiar picked pattern.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q153",
+      "prompt": "Which Animals bassist later helped launch Jimi Hendrix's career in Britain?",
+      "choices": [
+        "Chas Chandler",
+        "Pete Quaife",
+        "Eric Haydock",
+        "Rick Huxley"
+      ],
+      "answer": 0,
+      "fact": "Chandler was part of the Animals' original five-man lineup.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q154",
+      "prompt": "Who played drums in the Animals' original lineup?",
+      "choices": [
+        "Barry Jenkins",
+        "John Steel",
+        "Hugh Grundy",
+        "Bobby Elliott"
+      ],
+      "answer": 1,
+      "fact": "Steel's bandmates were Burdon, Price, Valentine and Chandler.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q155",
+      "prompt": "Which keyboardist replaced Alan Price in the Animals in 1965?",
+      "choices": [
+        "Zoot Money",
+        "Mike Hugg",
+        "Dave Rowberry",
+        "Graham Bond"
+      ],
+      "answer": 2,
+      "fact": "Rowberry had previously played with the Mike Cotton Sound.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q156",
+      "prompt": "Which singer and his Animals recorded \"San Franciscan Nights\" in 1967?",
+      "choices": [
+        "Alan Price",
+        "Paul Jones",
+        "Georgie Fame",
+        "Eric Burdon"
+      ],
+      "answer": 3,
+      "fact": "The single appeared on Winds of Change, made by Burdon's later Animals lineup.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q157",
+      "prompt": "The Animals' \"Monterey\" celebrates which 1967 event?",
+      "choices": [
+        "The Monterey Pop Festival",
+        "The Isle of Wight Festival",
+        "The Newport Folk Festival",
+        "The Reading Festival"
+      ],
+      "answer": 0,
+      "fact": "Burdon describes performers at the festival, including the Byrds, the Who and Hendrix.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q158",
+      "prompt": "Which songwriting pair wrote the Animals' \"Don't Bring Me Down\"?",
+      "choices": [
+        "Barry Mann and Cynthia Weil",
+        "Gerry Goffin and Carole King",
+        "Doc Pomus and Mort Shuman",
+        "Jerry Leiber and Mike Stoller"
+      ],
+      "answer": 1,
+      "fact": "The Animals recorded their song with producer Tom Wilson in 1966.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q159",
+      "prompt": "Who wrote \"We Gotta Get Out of This Place\" for the Animals?",
+      "choices": [
+        "Gerry Goffin and Carole King",
+        "Burt Bacharach and Hal David",
+        "Barry Mann and Cynthia Weil",
+        "Jerry Leiber and Mike Stoller"
+      ],
+      "answer": 2,
+      "fact": "The 1965 single was produced by Mickie Most.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q160",
+      "prompt": "Who sings lead on the Hollies' original \"Bus Stop\"?",
+      "choices": [
+        "Graham Nash",
+        "Tony Hicks",
+        "Terry Sylvester",
+        "Allan Clarke"
+      ],
+      "answer": 3,
+      "fact": "Clarke was one of the group's founders and its principal lead singer.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q161",
+      "prompt": "Which Hollies guitarist joined from the Dolphins in 1963?",
+      "choices": [
+        "Tony Hicks",
+        "Graham Nash",
+        "Terry Sylvester",
+        "Allan Clarke"
+      ],
+      "answer": 0,
+      "fact": "Hicks also contributed high harmony vocals to the group's sound.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q162",
+      "prompt": "Who became the Hollies' drummer in 1963?",
+      "choices": [
+        "Mick Avory",
+        "Bobby Elliott",
+        "John Steel",
+        "Hugh Grundy"
+      ],
+      "answer": 1,
+      "fact": "Elliott had played with future Hollies Hicks and Calvert in the Dolphins.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q163",
+      "prompt": "Who replaced Eric Haydock as the Hollies' bassist in 1966?",
+      "choices": [
+        "Rick Huxley",
+        "Pete Quaife",
+        "Bernie Calvert",
+        "John Dalton"
+      ],
+      "answer": 2,
+      "fact": "Calvert had earlier played with Tony Hicks and Bobby Elliott in the Dolphins.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q164",
+      "prompt": "Which percussion instrument takes the solo in the Hollies' \"Carrie Anne\"?",
+      "choices": [
+        "Marimba",
+        "Tabla",
+        "Vibraphone",
+        "Steelpan"
+      ],
+      "answer": 3,
+      "fact": "The steel-drum sound gives the 1967 single its distinctive instrumental break.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q165",
+      "prompt": "Which 1967 UK Hollies album includes \"Dear Eloise\" and \"Maker\"?",
+      "choices": [
+        "Butterfly",
+        "Evolution",
+        "For Certain Because",
+        "Would You Believe?"
+      ],
+      "answer": 0,
+      "fact": "The North American edition was reshaped and retitled Dear Eloise / King Midas in Reverse.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q166",
+      "prompt": "Which future solo star plays piano on the Hollies' \"He Ain't Heavy, He's My Brother\"?",
+      "choices": [
+        "Billy Joel",
+        "Elton John",
+        "Gilbert O'Sullivan",
+        "Rick Wakeman"
+      ],
+      "answer": 1,
+      "fact": "He was working as a session player when the Hollies recorded the song in 1969.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q167",
+      "prompt": "Who sings lead on the Zombies' \"She's Not There\" and \"Time of the Season\"?",
+      "choices": [
+        "Rod Argent",
+        "Chris White",
+        "Colin Blunstone",
+        "Paul Atkinson"
+      ],
+      "answer": 2,
+      "fact": "Blunstone's voice was central to the original band's sound.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q168",
+      "prompt": "Who plays keyboards in the Zombies' original lineup?",
+      "choices": [
+        "Chris White",
+        "Paul Atkinson",
+        "Hugh Grundy",
+        "Rod Argent"
+      ],
+      "answer": 3,
+      "fact": "Argent also wrote \"She's Not There\" and \"Time of the Season\".",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q169",
+      "prompt": "Which Zombies member wrote \"This Will Be Our Year\"?",
+      "choices": [
+        "Chris White",
+        "Rod Argent",
+        "Colin Blunstone",
+        "Hugh Grundy"
+      ],
+      "answer": 0,
+      "fact": "The hopeful song appears on Odessey and Oracle.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q170",
+      "prompt": "Who produced Procol Harum's original \"A Whiter Shade of Pale\"?",
+      "choices": [
+        "Tony Visconti",
+        "Denny Cordell",
+        "Ron Richards",
+        "Giorgio Gomelsky"
+      ],
+      "answer": 1,
+      "fact": "Cordell produced the band's 1967 debut single.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q171",
+      "prompt": "Who sings the lead vocal on the Zombies' \"Butcher's Tale (Western Front 1914)\"?",
+      "choices": [
+        "Colin Blunstone",
+        "Rod Argent",
+        "Chris White",
+        "Paul Atkinson"
+      ],
+      "answer": 2,
+      "fact": "The bassist delivers his own song while Argent plays pump organ.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q172",
+      "prompt": "Who painted the cover of the Zombies' Odessey and Oracle?",
+      "choices": [
+        "Klaus Voormann",
+        "Martin Sharp",
+        "John Hurford",
+        "Terry Quirk"
+      ],
+      "answer": 3,
+      "fact": "Quirk's artwork also supplied the album title's famous misspelling.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q173",
+      "prompt": "What was the title of the Zombies' 1965 UK debut album?",
+      "choices": [
+        "Begin Here",
+        "Animal Tracks",
+        "Having a Rave Up with the Yardbirds",
+        "Hollies"
+      ],
+      "answer": 0,
+      "fact": "It combined the band's own songs with rhythm-and-blues covers.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q174",
+      "prompt": "Who plays bass in the classic Small Faces lineup?",
+      "choices": [
+        "Steve Marriott",
+        "Ronnie Lane",
+        "Ian McLagan",
+        "Kenney Jones"
+      ],
+      "answer": 1,
+      "fact": "Lane also shared many of the group's songwriting credits with Marriott.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q175",
+      "prompt": "Which keyboard player joined Small Faces after Jimmy Winston's departure?",
+      "choices": [
+        "Steve Winwood",
+        "Rod Argent",
+        "Ian McLagan",
+        "Alan Price"
+      ],
+      "answer": 2,
+      "fact": "McLagan completed the lineup heard on the band's best-known records.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q176",
+      "prompt": "What did the original round sleeve of Ogdens' Nut Gone Flake imitate?",
+      "choices": [
+        "A film canister",
+        "A biscuit tin",
+        "A snuffbox",
+        "A tobacco tin"
+      ],
+      "answer": 3,
+      "fact": "The Small Faces album title and packaging parodied Ogden's Nut-brown Flake tobacco.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q177",
+      "prompt": "Who narrates the Happiness Stan story on Ogdens' Nut Gone Flake?",
+      "choices": [
+        "Stanley Unwin",
+        "Spike Milligan",
+        "Peter Sellers",
+        "Vivian Stanshall"
+      ],
+      "answer": 0,
+      "fact": "His comic language links the songs on the Small Faces album's second side.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q178",
+      "prompt": "Which American singer adds backing vocals to Small Faces' \"Tin Soldier\"?",
+      "choices": [
+        "Doris Troy",
+        "P. P. Arnold",
+        "Madeline Bell",
+        "Brenda Holloway"
+      ],
+      "answer": 1,
+      "fact": "Marriott kept the song for Small Faces after initially intending it for Arnold.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q179",
+      "prompt": "Which studio effect gives parts of Small Faces' \"Itchycoo Park\" their swirling sound?",
+      "choices": [
+        "Tremolo",
+        "Slapback echo",
+        "Flanging",
+        "Vibrato"
+      ],
+      "answer": 2,
+      "fact": "Engineer George Chkiantz introduced the technique to Glyn Johns, who demonstrated it to the band.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q180",
+      "prompt": "Who sings and plays organ on the Spencer Davis Group's \"Gimme Some Lovin'\"?",
+      "choices": [
+        "Spencer Davis",
+        "Muff Winwood",
+        "Pete York",
+        "Steve Winwood"
+      ],
+      "answer": 3,
+      "fact": "The young Winwood was the band's lead singer before leaving to form Traffic.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q181",
+      "prompt": "Which member of the original Spencer Davis Group played bass?",
+      "choices": [
+        "Muff Winwood",
+        "Steve Winwood",
+        "Spencer Davis",
+        "Pete York"
+      ],
+      "answer": 0,
+      "fact": "Muff and his younger brother Steve were both members of the original quartet.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q182",
+      "prompt": "Who played drums in the original Spencer Davis Group?",
+      "choices": [
+        "Jim Capaldi",
+        "Pete York",
+        "Ginger Baker",
+        "Ric Lee"
+      ],
+      "answer": 1,
+      "fact": "York completed the quartet with Davis and the Winwood brothers.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q183",
+      "prompt": "Who sings lead on Manfred Mann's \"Do Wah Diddy Diddy\"?",
+      "choices": [
+        "Mike d'Abo",
+        "Paul McCartney",
+        "Paul Jones",
+        "Chris Farlowe"
+      ],
+      "answer": 2,
+      "fact": "Jones fronted the band's early hit-making lineup.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q184",
+      "prompt": "Who replaced Paul Jones as Manfred Mann's lead singer in 1966?",
+      "choices": [
+        "Mike Hugg",
+        "Tom McGuinness",
+        "Klaus Voormann",
+        "Mike d'Abo"
+      ],
+      "answer": 3,
+      "fact": "The new lineup later recorded \"Ha! Ha! Said the Clown\" and \"Mighty Quinn\".",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q185",
+      "prompt": "Which drummer co-founded the group Manfred Mann with its keyboard player?",
+      "choices": [
+        "Mike Hugg",
+        "Pete York",
+        "Hugh Grundy",
+        "John Steel"
+      ],
+      "answer": 0,
+      "fact": "The group began as the Mann-Hugg Blues Brothers.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q186",
+      "prompt": "Who wrote Manfred Mann's \"Pretty Flamingo\"?",
+      "choices": [
+        "Tony Hatch",
+        "Mark Barkan",
+        "Geoff Stephens",
+        "Graham Gouldman"
+      ],
+      "answer": 1,
+      "fact": "The 1966 recording includes Jack Bruce during his brief time in the band.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q187",
+      "prompt": "Who was the Dave Clark Five's lead singer and keyboard player?",
+      "choices": [
+        "Lenny Davidson",
+        "Denis Payton",
+        "Mike Smith",
+        "Rick Huxley"
+      ],
+      "answer": 2,
+      "fact": "Smith's vocals helped drive the group's Tottenham sound.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q188",
+      "prompt": "Which instrument did bandleader Dave Clark play on stage with the Dave Clark Five?",
+      "choices": [
+        "Bass guitar",
+        "Saxophone",
+        "Piano",
+        "Drums"
+      ],
+      "answer": 3,
+      "fact": "Clark led the group from behind the drum kit.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q189",
+      "prompt": "Who was the Dave Clark Five's saxophone player?",
+      "choices": [
+        "Denis Payton",
+        "Lenny Davidson",
+        "Rick Huxley",
+        "Mike Smith"
+      ],
+      "answer": 0,
+      "fact": "Payton also contributed harmonica, guitar and vocals.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q190",
+      "prompt": "Gerry and the Pacemakers took \"You'll Never Walk Alone\" from which Rodgers and Hammerstein musical?",
+      "choices": [
+        "Oklahoma!",
+        "Carousel",
+        "South Pacific",
+        "The King and I"
+      ],
+      "answer": 1,
+      "fact": "The group's 1963 recording became an anthem for Liverpool supporters.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q191",
+      "prompt": "Who wrote Gerry and the Pacemakers' \"Ferry Cross the Mersey\"?",
+      "choices": [
+        "George Martin",
+        "Mitch Murray",
+        "Gerry Marsden",
+        "John Lennon"
+      ],
+      "answer": 2,
+      "fact": "The band's own frontman wrote the song, which George Martin produced.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q192",
+      "prompt": "Who was the lead singer known as \"Herman\" in Herman's Hermits?",
+      "choices": [
+        "Peter Frampton",
+        "Wayne Fontana",
+        "Billy J. Kramer",
+        "Peter Noone"
+      ],
+      "answer": 3,
+      "fact": "The Manchester group's frontman became one of the most recognizable British Invasion faces.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q193",
+      "prompt": "Which British music-hall singer made \"I'm Henery the Eighth, I Am\" famous long before Herman's Hermits?",
+      "choices": [
+        "Harry Champion",
+        "George Formby",
+        "George Robey",
+        "Max Miller"
+      ],
+      "answer": 0,
+      "fact": "The song dates to 1910; the Hermits revived it in 1965.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q194",
+      "prompt": "Who sings the main lead vocal on the Searchers' \"Sweets for My Sweet\"?",
+      "choices": [
+        "Mike Pender",
+        "Tony Jackson",
+        "Chris Curtis",
+        "John McNally"
+      ],
+      "answer": 1,
+      "fact": "Jackson was also the band's bassist on its early recordings.",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q195",
+      "prompt": "Who was the Searchers' drummer during their first wave of 1960s hits?",
+      "choices": [
+        "Tony Jackson",
+        "Mike Pender",
+        "Chris Curtis",
+        "John McNally"
+      ],
+      "answer": 2,
+      "fact": "Curtis was part of the lineup behind \"Sweets for My Sweet\" and \"Needles and Pins\".",
+      "difficulty": 2
+    },
+    {
+      "id": "british-invasion-q196",
+      "prompt": "Who sings lead on the Troggs' \"Wild Thing\"?",
+      "choices": [
+        "Colin Blunstone",
+        "Eric Burdon",
+        "Paul Jones",
+        "Reg Presley"
+      ],
+      "answer": 3,
+      "fact": "Presley fronted the band from Andover, Hampshire.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q197",
+      "prompt": "Who wrote \"Wild Thing\", the song the Troggs made famous?",
+      "choices": [
+        "Chip Taylor",
+        "Reg Presley",
+        "Larry Page",
+        "Joe South"
+      ],
+      "answer": 0,
+      "fact": "Taylor's song had first been recorded by the American band the Wild Ones.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q198",
+      "prompt": "Dusty Springfield first became famous as a member of which folk-pop group?",
+      "choices": [
+        "The Seekers",
+        "The Springfields",
+        "The Caravelles",
+        "The Beverley Sisters"
+      ],
+      "answer": 1,
+      "fact": "The trio included her brother Tom Springfield.",
+      "difficulty": 1
+    },
+    {
+      "id": "british-invasion-q199",
+      "prompt": "Who wrote Dusty Springfield's \"Son of a Preacher Man\"?",
+      "choices": [
+        "Dan Penn and Spooner Oldham",
+        "Wayne Carson and Mark James",
+        "John Hurley and Ronnie Wilkins",
+        "Eddie Floyd and Steve Cropper"
+      ],
+      "answer": 2,
+      "fact": "Her recording was released as a single in 1968 before appearing on Dusty in Memphis.",
+      "difficulty": 3
+    },
+    {
+      "id": "british-invasion-q200",
+      "prompt": "Who wrote and produced Petula Clark's \"Downtown\"?",
+      "choices": [
+        "Burt Bacharach",
+        "Mickie Most",
+        "Ron Richards",
+        "Tony Hatch"
+      ],
+      "answer": 3,
+      "fact": "Hatch worked with Clark on a string of 1960s hits.",
+      "difficulty": 1
     }
   ],
   "songs": [
@@ -783,6 +2733,134 @@
       "year": 1970,
       "album": "Let It Be",
       "note": "McCartney has said the song was inspired by a dream of his late mother."
+    },
+    {
+      "id": "british-invasion-s17",
+      "title": "All My Loving",
+      "artist": "The Beatles",
+      "year": 1963,
+      "album": "With the Beatles",
+      "note": "Lennon's rapid rhythm-guitar triplets accompany McCartney's walking bass line."
+    },
+    {
+      "id": "british-invasion-s18",
+      "title": "Ticket to Ride",
+      "artist": "The Beatles",
+      "year": 1965,
+      "album": "Help!",
+      "note": "The single paired this Help! song with the three-part harmonies of 'Yes It Is'."
+    },
+    {
+      "id": "british-invasion-s19",
+      "title": "Paperback Writer",
+      "artist": "The Beatles",
+      "year": 1966,
+      "album": "Past Masters",
+      "note": "The original single had 'Rain' on the other side."
+    },
+    {
+      "id": "british-invasion-s20",
+      "title": "Sunny Afternoon",
+      "artist": "The Kinks",
+      "year": 1966,
+      "album": "Face to Face",
+      "note": "Ray Davies tells the story through an idle rich man's complaints about his taxes."
+    },
+    {
+      "id": "british-invasion-s21",
+      "title": "Tired of Waiting for You",
+      "artist": "The Kinks",
+      "year": 1965,
+      "album": "Kinda Kinks",
+      "note": "This Ray Davies composition appeared on the band's second studio album."
+    },
+    {
+      "id": "british-invasion-s22",
+      "title": "Bus Stop",
+      "artist": "The Hollies",
+      "year": 1966,
+      "album": "Bus Stop",
+      "note": "Graham Gouldman's song builds a romance around a shared umbrella."
+    },
+    {
+      "id": "british-invasion-s23",
+      "title": "Glad All Over",
+      "artist": "The Dave Clark Five",
+      "year": 1963,
+      "album": "Glad All Over",
+      "note": "Dave Clark and Mike Smith share the writing credit on the group's breakthrough hit."
+    },
+    {
+      "id": "british-invasion-s24",
+      "title": "When You Walk in the Room",
+      "artist": "The Searchers",
+      "year": 1964,
+      "album": "The Very Best of The Searchers",
+      "note": "Jackie DeShannon wrote and recorded the song before the Searchers' version."
+    },
+    {
+      "id": "british-invasion-s25",
+      "title": "I'm into Something Good",
+      "artist": "Herman's Hermits",
+      "year": 1964,
+      "album": "Herman's Hermits",
+      "note": "Goffin and King wrote it, and Earl-Jean released an earlier recording that same year."
+    },
+    {
+      "id": "british-invasion-s26",
+      "title": "Don't Let Me Be Misunderstood",
+      "artist": "The Animals",
+      "year": 1965,
+      "album": "Animal Tracks",
+      "note": "The Animals turned a song first recorded by Nina Simone into a driving rock single."
+    },
+    {
+      "id": "british-invasion-s27",
+      "title": "For Your Love",
+      "artist": "The Yardbirds",
+      "year": 1965,
+      "album": "For Your Love",
+      "note": "Brian Auger's harpsichord gives the opening its unusual texture."
+    },
+    {
+      "id": "british-invasion-s28",
+      "title": "Gimme Some Lovin'",
+      "artist": "The Spencer Davis Group",
+      "year": 1966,
+      "album": "Gimme Some Lovin'",
+      "note": "Steve Winwood's Hammond organ and lead vocal drive the recording."
+    },
+    {
+      "id": "british-invasion-s29",
+      "title": "All or Nothing",
+      "artist": "Small Faces",
+      "year": 1966,
+      "album": "From the Beginning",
+      "note": "Marriott and Lane share the writing credit on this Decca-era single."
+    },
+    {
+      "id": "british-invasion-s30",
+      "title": "Keep On Running",
+      "artist": "The Spencer Davis Group",
+      "year": 1965,
+      "album": "The Second Album",
+      "note": "Jackie Edwards wrote the song and recorded it before the Spencer Davis Group."
+    },
+    {
+      "id": "british-invasion-s31",
+      "title": "She's Not There",
+      "artist": "The Zombies",
+      "year": 1964,
+      "album": "Begin Here",
+      "note": "Rod Argent wrote the song, with Colin Blunstone singing the lead."
+    },
+    {
+      "id": "british-invasion-s32",
+      "title": "You Don't Have to Say You Love Me",
+      "artist": "Dusty Springfield",
+      "year": 1966,
+      "album": "You Don't Have to Say You Love Me",
+      "note": "Vicki Wickham and Simon Napier-Bell supplied English words for an Italian song."
     }
   ],
   "stories": [
@@ -1022,6 +3100,126 @@
         "The Shirelles"
       ],
       "note": "Jeff Barry and Ellie Greenwich wrote it, and the Exciters recorded it in 1963. Manfred Mann's 1964 version reached number one in both the UK and the US."
+    },
+    {
+      "id": "british-invasion-c09",
+      "title": "Don't Let Me Be Misunderstood",
+      "artist": "The Animals",
+      "year": 1965,
+      "album": "Animal Tracks",
+      "original": "Nina Simone",
+      "originalYear": 1964,
+      "decoys": [
+        "Etta James",
+        "Aretha Franklin",
+        "Dionne Warwick"
+      ],
+      "note": "Simone introduced the song on Broadway-Blues-Ballads. The Animals followed with a faster rock arrangement."
+    },
+    {
+      "id": "british-invasion-c10",
+      "title": "Bring It On Home to Me",
+      "artist": "The Animals",
+      "year": 1965,
+      "album": "Animal Tracks",
+      "original": "Sam Cooke",
+      "originalYear": 1962,
+      "decoys": [
+        "Otis Redding",
+        "Solomon Burke",
+        "Wilson Pickett"
+      ],
+      "note": "Cooke's original has Lou Rawls answering his vocal. The Animals recorded their version with Mickie Most."
+    },
+    {
+      "id": "british-invasion-c11",
+      "title": "Boys",
+      "artist": "The Beatles",
+      "year": 1963,
+      "album": "Please Please Me",
+      "original": "The Shirelles",
+      "originalYear": 1960,
+      "decoys": [
+        "The Crystals",
+        "The Ronettes",
+        "The Marvelettes"
+      ],
+      "note": "The Shirelles released it on the reverse of 'Will You Love Me Tomorrow'. Ringo takes the lead on the Beatles' version."
+    },
+    {
+      "id": "british-invasion-c12",
+      "title": "He Ain't Heavy, He's My Brother",
+      "artist": "The Hollies",
+      "year": 1969,
+      "album": "He Ain't Heavy, He's My Brother",
+      "original": "Kelly Gordon",
+      "originalYear": 1969,
+      "decoys": [
+        "Bobby Goldsboro",
+        "B. J. Thomas",
+        "Glen Campbell"
+      ],
+      "note": "Gordon released the song before the Hollies. Elton John plays piano on their recording."
+    },
+    {
+      "id": "british-invasion-c13",
+      "title": "Sweets for My Sweet",
+      "artist": "The Searchers",
+      "year": 1963,
+      "album": "Meet the Searchers",
+      "original": "The Drifters",
+      "originalYear": 1961,
+      "decoys": [
+        "The Coasters",
+        "The Platters",
+        "The Miracles"
+      ],
+      "note": "Doc Pomus and Mort Shuman wrote it. Tony Hatch produced the Searchers' version."
+    },
+    {
+      "id": "british-invasion-c14",
+      "title": "I'm into Something Good",
+      "artist": "Herman's Hermits",
+      "year": 1964,
+      "album": "Herman's Hermits",
+      "original": "Earl-Jean",
+      "originalYear": 1964,
+      "decoys": [
+        "Little Eva",
+        "Dee Dee Sharp",
+        "Claudine Clark"
+      ],
+      "note": "The Cookies singer released the Goffin-King song before the Manchester band recorded it with Mickie Most."
+    },
+    {
+      "id": "british-invasion-c15",
+      "title": "Hippy Hippy Shake",
+      "artist": "The Swinging Blue Jeans",
+      "year": 1963,
+      "album": "Hippy Hippy Shake",
+      "original": "Chan Romero",
+      "originalYear": 1959,
+      "decoys": [
+        "Ritchie Valens",
+        "Freddy Cannon",
+        "Bobby Freeman"
+      ],
+      "note": "Romero wrote and recorded the song for Del-Fi. The Liverpool band's version followed four years later."
+    },
+    {
+      "id": "british-invasion-c16",
+      "title": "It's All Over Now, Baby Blue",
+      "artist": "Them",
+      "year": 1966,
+      "album": "Them Again",
+      "original": "Bob Dylan",
+      "originalYear": 1965,
+      "decoys": [
+        "Donovan",
+        "Tim Hardin",
+        "Fred Neil"
+      ],
+      "note": "Dylan closed Bringing It All Back Home with the song. Van Morrison sings Them's version."
     }
   ]
 }
