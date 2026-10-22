@@ -70,6 +70,19 @@ struct QuizBuilder {
         return items
     }
 
+    /// One playable cover to feature on Today, never the one that closes today's mix.
+    func coverOfTheDay(day: String, genres: [Genre]) -> (cover: CoverSong, genre: Genre)? {
+        let inMix = Set(daily(day: day, genres: genres).map(\.id))
+        let pool = genres.flatMap { genre in
+            genre.coverSongs.filter { library.hasPreview($0.id) }.map { (cover: $0, genre: genre) }
+        }
+        let fresh = pool.filter { !inMix.contains("cover-\($0.cover.id)") }
+        let choices = fresh.isEmpty ? pool : fresh
+        guard !choices.isEmpty else { return nil }
+        var rng = SeededRandom(string: "cover-\(day)")
+        return choices[Int(rng.next() % UInt64(choices.count))]
+    }
+
     // MARK: Item kinds
 
     /// Unseen questions first, spread across crates, ordered easy to hard, with at most `maxHard` at difficulty 3.

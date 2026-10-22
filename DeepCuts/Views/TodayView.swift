@@ -13,6 +13,9 @@ struct TodayView: View {
                     if let pick = app.storyOfTheDay() {
                         storyCard(pick.story, genre: pick.genre)
                     }
+                    if let pick = app.coverOfTheDay() {
+                        CoverOfTheDayCard(cover: pick.cover, genre: pick.genre)
+                    }
                     moments
                     DailyMixCard()
                     suggest
@@ -129,6 +132,62 @@ struct MomentRow: View {
                 .accessibilityLabel("Read on Wikipedia")
             }
         }
+    }
+}
+
+/// Today's famous cover: hear it, guess who had it first, then play a round of them.
+struct CoverOfTheDayCard: View {
+    @Environment(AppModel.self) private var app
+    let cover: CoverSong
+    let genre: Genre
+    @State private var revealed = false
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            SectionHeader(title: "Covered", trailing: "Who did it first?")
+            VStack(alignment: .leading, spacing: 14) {
+                HStack(alignment: .top, spacing: 14) {
+                    ArtworkView(songID: cover.id, size: 72, corner: 4)
+                    VStack(alignment: .leading, spacing: 4) {
+                        Kicker(text: "\(genre.name) · \(String(cover.year))", color: Theme.crate(genre.id))
+                        Text(cover.title).font(Theme.serif(.title3, weight: .bold)).foregroundStyle(Theme.ink)
+                        Text(cover.artist).font(.subheadline).foregroundStyle(Theme.inkSoft)
+                    }
+                    Spacer(minLength: 8)
+                    PlayButton(songID: cover.id, label: "\(cover.title) by \(cover.artist)")
+                }
+                Divider().overlay(Theme.rule)
+                if revealed {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("\(cover.original), \(String(cover.originalYear))")
+                            .font(Theme.serif(.headline, weight: .bold)).foregroundStyle(Theme.accent)
+                            .accessibilityIdentifier("cover-original")
+                        Text(cover.note).font(.footnote).foregroundStyle(Theme.inkSoft)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                } else {
+                    Button {
+                        withAnimation(.snappy) { revealed = true }
+                    } label: {
+                        HStack {
+                            Text("Who recorded it first?").font(.subheadline.weight(.semibold))
+                            Spacer()
+                            Text("Reveal").font(.subheadline.weight(.semibold)).foregroundStyle(Theme.accent)
+                        }
+                        .contentShape(Rectangle())
+                    }
+                    .buttonStyle(PressableStyle())
+                    .foregroundStyle(Theme.ink)
+                    .accessibilityIdentifier("cover-reveal")
+                }
+            }
+            .padding(16)
+            .card()
+            if app.offers(.covers, crate: nil) {
+                ModeRow(mode: .covers) { app.start(mode: .covers, crate: nil) }
+            }
+        }
+        .onChange(of: cover.id) { revealed = false }
     }
 }
 

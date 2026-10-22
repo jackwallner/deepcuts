@@ -47,6 +47,10 @@ final class AppModel {
         builder.daily(day: ProgressStore.dayKey(), genres: focusGenres).compactMap { $0.audioSongID ?? $0.choices.compactMap(\.songID).first }
     }
 
+    func coverOfTheDay() -> (cover: CoverSong, genre: Genre)? {
+        builder.coverOfTheDay(day: ProgressStore.dayKey(), genres: focusGenres)
+    }
+
     /// Words in a Wikipedia description that tie a musician to a crate.
     static let genreWords: [String: [String]] = [
         "classic-rock": ["rock"], "british-invasion": ["rock", "english singer", "english musician"],

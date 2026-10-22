@@ -53,6 +53,19 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["Listen"].waitForExistence(timeout: 5))
     }
 
+    func testCoverOfTheDayOnToday() {
+        let app = launch(["-ui-focus", "classic-rock,southern-rock"])
+        let reveal = app.buttons["cover-reveal"]
+        XCTAssertTrue(reveal.waitForExistence(timeout: 10))
+        reveal.tap()
+        XCTAssertTrue(app.staticTexts["cover-original"].waitForExistence(timeout: 5))
+        let round = app.buttons["mode-covers"]
+        if !round.isHittable { app.swipeUp() }
+        round.tap()
+        playRound(app)
+        XCTAssertTrue(app.staticTexts["result-score"].waitForExistence(timeout: 10))
+    }
+
     func testReportAProblemFromAnAnswer() {
         let app = launch(["-ui-focus", "classic-rock"])
         let play = app.buttons["play-daily"]

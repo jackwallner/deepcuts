@@ -88,6 +88,16 @@ final class QuizBuilderTests: XCTestCase {
         XCTAssertTrue(builder.offers(.covers, genres: [Self.genre]))
     }
 
+    func testCoverOfTheDayIsStableAndNotTheMixCover() {
+        for day in ["2026-10-21", "2026-10-22", "2026-10-23", "2026-10-24"] {
+            let pick = builder.coverOfTheDay(day: day, genres: [Self.genre])
+            XCTAssertNotNil(pick)
+            XCTAssertEqual(pick?.cover.id, builder.coverOfTheDay(day: day, genres: [Self.genre])?.cover.id)
+            let mixCover = builder.daily(day: day, genres: [Self.genre]).last { $0.mode == .covers }
+            XCTAssertNotEqual(mixCover?.id, pick.map { "cover-\($0.cover.id)" }, "Today's cover must not spoil the mix")
+        }
+    }
+
     func testTriviaKeepsTheRightAnswerAfterShufflingAndRampsUp() {
         var rng = SeededRandom(seed: 7)
         let items = builder.trivia(genres: [Self.genre], count: 10, seen: [], rng: &rng)
