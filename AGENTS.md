@@ -53,10 +53,9 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
 ## Tester feedback loop
 The You tab and Today screen have "Suggest a change", and every answer card has "Report a problem",
 which attaches the question id, prompt and answer as `screen` context. It posts to the `tester-feedback` function;
-the "Tester feedback dispatcher" session in Jack's Claude desktop app on the Air watches the queue
-(`scripts/feedback-watch.py` under Monitor) and runs the desktop task `tester-feedback-build`
-(`~/.claude/scheduled-tasks/`), which opens a new desktop session per suggestion. That session claims
-the oldest new row, implements it with no approval step (never `needs_jack`), tests on `gh-sim`,
+the ops poller on the MacBook Pro (`~/ios/ops/ops/feedback.py`) sees it within a minute, opens an
+#ops thread and starts an Opus session on the iMac in this repo (Remote Control, so it shows in Jack's
+Claude app). That session implements it with no approval step (never `needs_jack`), tests on `gh-sim`,
 commits, pushes, runs `./scripts/testflight.sh`, and reports back with `python3 scripts/feedback.py status <id> shipped --build N --reply "..."`, which the
 tester sees under You > Suggestions. `scripts/feedback.py list` shows pending ones.
 A wrong question also gets its fix published live (`scripts/content-remote.py publish --fix`), and a
