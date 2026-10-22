@@ -1,0 +1,2421 @@
+{
+  "crate": "southern-rock",
+  "items": {
+    "southern-rock-q55": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Allman_Brothers_Band_(album)"
+      ],
+      "checked_answer": "Berry Oakley",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q56": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Allman_Brothers_Band_(album)"
+      ],
+      "checked_answer": "The Second Coming",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q57": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Allman_Brothers_Band",
+        "https://allmanbrothersband.com/abb-chronology-seventies/"
+      ],
+      "checked_answer": "The 31st of February",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q58": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Allman_Brothers_Band_(album)"
+      ],
+      "checked_answer": "Don't Want You No More",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q59": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Allman_Brothers_Band_(album)"
+      ],
+      "checked_answer": "It's Not My Cross to Bear",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q60": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Allman_Brothers_Band_(album)"
+      ],
+      "checked_answer": "Dreams",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q61": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Idlewild_South",
+        "https://allmanbrothersband.com/discography/idlewild-south/",
+        "https://allmanbrothersband.com/biography/berry-oakley/"
+      ],
+      "checked_answer": "Berry Oakley",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q62": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Idlewild_South",
+        "https://allmanbrothersband.com/discography/idlewild-south/",
+        "https://allmanbrothersband.com/biography/berry-oakley/"
+      ],
+      "checked_answer": "Idlewild South",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q63": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/In_Memory_of_Elizabeth_Reed"
+      ],
+      "checked_answer": "On a cemetery headstone",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q64": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/In_Memory_of_Elizabeth_Reed"
+      ],
+      "checked_answer": "Dickey Betts",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q65": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Idlewild_South",
+        "https://allmanbrothersband.com/discography/idlewild-south/",
+        "https://allmanbrothersband.com/biography/berry-oakley/"
+      ],
+      "checked_answer": "Dickey Betts",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q66": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Idlewild_South",
+        "https://allmanbrothersband.com/discography/idlewild-south/",
+        "https://allmanbrothersband.com/biography/berry-oakley/"
+      ],
+      "checked_answer": "Joel Dorn",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q67": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/At_Fillmore_East"
+      ],
+      "checked_answer": "Macon",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q68": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/At_Fillmore_East"
+      ],
+      "checked_answer": "Jim Marshall",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q69": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/At_Fillmore_East"
+      ],
+      "checked_answer": "Thom Doucette",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q70": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mountain_Jam"
+      ],
+      "checked_answer": "There Is a Mountain",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q71": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Little_Martha"
+      ],
+      "checked_answer": "Little Martha",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q72": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Little_Martha"
+      ],
+      "checked_answer": "Dickey Betts",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q73": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eat_a_Peach"
+      ],
+      "checked_answer": "Eat a Peach",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q74": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brothers_and_Sisters_(album)",
+        "https://allmanbrothersband.com/discography/brothers-and-sisters/",
+        "https://allmanbrothersband.com/abb-chronology-seventies/"
+      ],
+      "checked_answer": "Lamar Williams",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q75": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brothers_and_Sisters_(album)",
+        "https://allmanbrothersband.com/discography/brothers-and-sisters/",
+        "https://allmanbrothersband.com/abb-chronology-seventies/"
+      ],
+      "checked_answer": "Les Dudek",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q76": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jessica_(instrumental)"
+      ],
+      "checked_answer": "Chuck Leavell",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q77": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jessica_(instrumental)"
+      ],
+      "checked_answer": "Django Reinhardt",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q78": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brothers_and_Sisters_(album)",
+        "https://allmanbrothersband.com/discography/brothers-and-sisters/",
+        "https://allmanbrothersband.com/abb-chronology-seventies/"
+      ],
+      "checked_answer": "Johnny Sandlin",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q79": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Laid_Back_(Gregg_Allman_album)"
+      ],
+      "checked_answer": "Laid Back",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q80": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/(Pronounced_%27L%C4%95h-%27n%C3%A9rd_%27Skin-%27n%C3%A9rd)",
+        "https://www.rhino.com/article/lynyrd-skynyrd"
+      ],
+      "checked_answer": "Ed King",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q81": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/(Pronounced_%27L%C4%95h-%27n%C3%A9rd_%27Skin-%27n%C3%A9rd)",
+        "https://www.rhino.com/article/lynyrd-skynyrd"
+      ],
+      "checked_answer": "Bob Burns",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q82": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/(Pronounced_%27L%C4%95h-%27n%C3%A9rd_%27Skin-%27n%C3%A9rd)",
+        "https://www.rhino.com/article/lynyrd-skynyrd"
+      ],
+      "checked_answer": "Robert Nix",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q83": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/(Pronounced_%27L%C4%95h-%27n%C3%A9rd_%27Skin-%27n%C3%A9rd)",
+        "https://www.rhino.com/article/lynyrd-skynyrd"
+      ],
+      "checked_answer": "Al Kooper",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q84": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/(Pronounced_%27L%C4%95h-%27n%C3%A9rd_%27Skin-%27n%C3%A9rd)",
+        "https://www.rhino.com/article/lynyrd-skynyrd"
+      ],
+      "checked_answer": "Steve Katz",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q85": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/(Pronounced_%27L%C4%95h-%27n%C3%A9rd_%27Skin-%27n%C3%A9rd)",
+        "https://www.rhino.com/article/lynyrd-skynyrd"
+      ],
+      "checked_answer": "Al Kooper",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q86": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/(Pronounced_%27L%C4%95h-%27n%C3%A9rd_%27Skin-%27n%C3%A9rd)",
+        "https://www.rhino.com/article/lynyrd-skynyrd"
+      ],
+      "checked_answer": "Gary Rossington",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q87": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Free_Bird",
+        "https://www.guitarworld.com/artists/hear-allen-collins-isolated-guitar-solo-lynyrd-skynyrds-free-bird",
+        "https://new.tapeop.com/interviews/73/al-kooper"
+      ],
+      "checked_answer": "Allen Collins",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q88": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Simple_Man_(Lynyrd_Skynyrd_song)"
+      ],
+      "checked_answer": "The narrator's mother",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q89": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/(Pronounced_%27L%C4%95h-%27n%C3%A9rd_%27Skin-%27n%C3%A9rd)",
+        "https://www.rhino.com/article/lynyrd-skynyrd"
+      ],
+      "checked_answer": "Jonesboro",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q90": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Helping"
+      ],
+      "checked_answer": "Sweet Home Alabama",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q91": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Ballad_of_Curtis_Loew"
+      ],
+      "checked_answer": "Blues",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q92": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sweet_Home_Alabama",
+        "https://www.soundonsound.com/techniques/classic-tracks-lynyrd-skynyrd-sweet-home-alabama"
+      ],
+      "checked_answer": "Ed King",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q93": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Helping"
+      ],
+      "checked_answer": "Bobby Keys",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q94": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Helping"
+      ],
+      "checked_answer": "Their record company",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q95": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lynyrd_Skynyrd",
+        "https://lynyrdskynyrd.com/history/"
+      ],
+      "checked_answer": "Johnny Van Zant",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q96": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nuthin%27_Fancy"
+      ],
+      "checked_answer": "Nuthin' Fancy",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q97": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saturday_Night_Special_(Lynyrd_Skynyrd_song)"
+      ],
+      "checked_answer": "Handguns",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q98": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gimme_Back_My_Bullets",
+        "https://en.wikipedia.org/wiki/Nuthin%27_Fancy",
+        "https://en.wikipedia.org/wiki/One_More_from_the_Road"
+      ],
+      "checked_answer": "Tom Dowd",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q99": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gimme_Back_My_Bullets",
+        "https://en.wikipedia.org/wiki/Nuthin%27_Fancy",
+        "https://en.wikipedia.org/wiki/One_More_from_the_Road"
+      ],
+      "checked_answer": "Steve Gaines",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q100": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Street_Survivors"
+      ],
+      "checked_answer": "Street Survivors",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q101": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Street_Survivors"
+      ],
+      "checked_answer": "Steve Gaines",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q102": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Street_Survivors"
+      ],
+      "checked_answer": "Steve Gaines",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q103": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Street_Survivors"
+      ],
+      "checked_answer": "Steve Gaines",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q104": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/One_More_from_the_Road"
+      ],
+      "checked_answer": "The Fox Theatre",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q105": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fandango!"
+      ],
+      "checked_answer": "Dusty Hill",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q106": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ZZ_Top",
+        "https://albumlinernotes.com/Tres_Hombres.html"
+      ],
+      "checked_answer": "Bass guitar",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q107": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tejas_(album)",
+        "https://es.wikipedia.org/wiki/Tejas_(%C3%A1lbum)",
+        "https://es.wikipedia.org/wiki/Tejas"
+      ],
+      "checked_answer": "Texas",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q108": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Deg%C3%BCello"
+      ],
+      "checked_answer": "Degüello",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q109": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tejas_(album)",
+        "https://es.wikipedia.org/wiki/Tejas_(%C3%A1lbum)",
+        "https://es.wikipedia.org/wiki/Tejas"
+      ],
+      "checked_answer": "Asleep in the Desert",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q110": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tres_Hombres",
+        "https://albumlinernotes.com/Tres_Hombres.html"
+      ],
+      "checked_answer": "Rube Beard",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q111": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tres_Hombres",
+        "https://albumlinernotes.com/Tres_Hombres.html"
+      ],
+      "checked_answer": "Terry Manning",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q112": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rio_Grande_Mud"
+      ],
+      "checked_answer": "Bill Ham",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q113": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ZZ_Top",
+        "https://albumlinernotes.com/Tres_Hombres.html"
+      ],
+      "checked_answer": "London",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q114": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tres_Hombres",
+        "https://albumlinernotes.com/Tres_Hombres.html"
+      ],
+      "checked_answer": "Jesus Just Left Chicago",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q115": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eliminator_(album)"
+      ],
+      "checked_answer": "Ford",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q116": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eliminator_(album)"
+      ],
+      "checked_answer": "Tim Newman",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q117": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Marshall_Tucker_Band",
+        "https://marshalltucker.com/pages/bio"
+      ],
+      "checked_answer": "Spartanburg",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q118": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Can%27t_You_See_(The_Marshall_Tucker_Band_song)"
+      ],
+      "checked_answer": "Toy Caldwell",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q119": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carolina_Dreams"
+      ],
+      "checked_answer": "Doug Gray",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q120": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Marshall_Tucker_Band_(album)",
+        "https://marshalltucker.com/pages/bio"
+      ],
+      "checked_answer": "Jerry Eubanks",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q121": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Marshall_Tucker_Band_(album)",
+        "https://marshalltucker.com/pages/bio"
+      ],
+      "checked_answer": "Tommy Caldwell",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q122": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Toy_Caldwell"
+      ],
+      "checked_answer": "His thumb",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q123": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Searchin%27_for_a_Rainbow"
+      ],
+      "checked_answer": "George McCorkle",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q124": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Marshall_Tucker_Band_(album)",
+        "https://marshalltucker.com/pages/bio"
+      ],
+      "checked_answer": "Paul Hornsby",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q125": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Searchin%27_for_a_Rainbow"
+      ],
+      "checked_answer": "Dickey Betts",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q126": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Where_We_All_Belong"
+      ],
+      "checked_answer": "Charlie Daniels",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q127": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Flirtin%27_with_Disaster"
+      ],
+      "checked_answer": "Danny Joe Brown",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q128": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Beatin%27_the_Odds_(Molly_Hatchet_album)"
+      ],
+      "checked_answer": "Jimmy Farrar",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q129": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Molly_Hatchet_(album)",
+        "https://www.rrauction.com/auctions/lot-detail/349824607130692-molly-hatchet-signed-poster/"
+      ],
+      "checked_answer": "Duane Roland",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q130": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Molly_Hatchet_(album)",
+        "https://www.rrauction.com/auctions/lot-detail/349824607130692-molly-hatchet-signed-poster/"
+      ],
+      "checked_answer": "Banner Thomas",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q131": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Molly_Hatchet_(album)",
+        "https://www.rrauction.com/auctions/lot-detail/349824607130692-molly-hatchet-signed-poster/"
+      ],
+      "checked_answer": "Bruce Crump",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q132": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Molly_Hatchet_(album)",
+        "https://www.rrauction.com/auctions/lot-detail/349824607130692-molly-hatchet-signed-poster/"
+      ],
+      "checked_answer": "Death Dealer",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q133": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Outlaws_(Outlaws_album)",
+        "https://www.vintageguitar.com/87367/outlaws/",
+        "https://www.loudersound.com/features/the-epic-story-of-the-outlaws-and-why-southern-rock-still-matters"
+      ],
+      "checked_answer": "Hughie Thomasson",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q134": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Outlaws_(Outlaws_album)",
+        "https://www.vintageguitar.com/87367/outlaws/",
+        "https://www.loudersound.com/features/the-epic-story-of-the-outlaws-and-why-southern-rock-still-matters"
+      ],
+      "checked_answer": "Billy Jones",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q135": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Outlaws_(Outlaws_album)",
+        "https://www.vintageguitar.com/87367/outlaws/",
+        "https://www.loudersound.com/features/the-epic-story-of-the-outlaws-and-why-southern-rock-still-matters"
+      ],
+      "checked_answer": "Monte Yoho",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q136": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Outlaws_(Outlaws_album)",
+        "https://www.vintageguitar.com/87367/outlaws/",
+        "https://www.loudersound.com/features/the-epic-story-of-the-outlaws-and-why-southern-rock-still-matters"
+      ],
+      "checked_answer": "Paul A. Rothchild",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q137": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Outlaws_(Outlaws_album)",
+        "https://www.vintageguitar.com/87367/outlaws/",
+        "https://www.loudersound.com/features/the-epic-story-of-the-outlaws-and-why-southern-rock-still-matters"
+      ],
+      "checked_answer": "Arista",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q138": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Henry_Paul_(musician)"
+      ],
+      "checked_answer": "BlackHawk",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q139": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wet_Willie"
+      ],
+      "checked_answer": "Jimmy Hall",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q140": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wet_Willie"
+      ],
+      "checked_answer": "Jack Hall",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q141": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wet_Willie"
+      ],
+      "checked_answer": "The Williettes",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q142": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Keep_On_Smilin%27_(Wet_Willie_song)",
+        "https://www.allmusic.com/album/keep-on-smilin-mw0000025119"
+      ],
+      "checked_answer": "Tom Dowd",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q143": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Keep_On_Smilin%27_(Wet_Willie_song)",
+        "https://www.allmusic.com/album/keep-on-smilin-mw0000025119"
+      ],
+      "checked_answer": "Keep On Smilin'",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q144": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Atlanta_Rhythm_Section",
+        "https://www.atlantarhythmsection.com/arsStory01.htm"
+      ],
+      "checked_answer": "Studio One",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q145": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Atlanta_Rhythm_Section",
+        "https://www.atlantarhythmsection.com/arsStory01.htm"
+      ],
+      "checked_answer": "Buddy Buie",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q146": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Atlanta_Rhythm_Section",
+        "https://www.atlantarhythmsection.com/arsStory01.htm"
+      ],
+      "checked_answer": "Ronnie Hammond",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q147": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Atlanta_Rhythm_Section",
+        "https://www.atlantarhythmsection.com/arsStory01.htm"
+      ],
+      "checked_answer": "Rodney Justo",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q148": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Atlanta_Rhythm_Section",
+        "https://www.atlantarhythmsection.com/arsStory01.htm"
+      ],
+      "checked_answer": "Dean Daughtry",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q149": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Charlie_Daniels"
+      ],
+      "checked_answer": "Fiddle",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q150": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Mile_Reflections",
+        "https://www.worldradiohistory.com/Archive-All-Music/Cash-Box/70s/1979/CB-1979-11-03.pdf"
+      ],
+      "checked_answer": "Joel DiGregorio",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q151": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Mile_Reflections",
+        "https://www.worldradiohistory.com/Archive-All-Music/Cash-Box/70s/1979/CB-1979-11-03.pdf"
+      ],
+      "checked_answer": "Tommy Crain",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q152": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Million_Mile_Reflections",
+        "https://www.worldradiohistory.com/Archive-All-Music/Cash-Box/70s/1979/CB-1979-11-03.pdf"
+      ],
+      "checked_answer": "Million Mile Reflections",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q153": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Uneasy_Rider"
+      ],
+      "checked_answer": "Uneasy Rider",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q154": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fire_on_the_Mountain_(album)"
+      ],
+      "checked_answer": "Fire on the Mountain",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q155": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sea_Level_(band)"
+      ],
+      "checked_answer": "Chuck Leavell",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q156": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sea_Level_(band)"
+      ],
+      "checked_answer": "We Three",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q157": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sea_Level_(band)"
+      ],
+      "checked_answer": "Jimmy Nalls",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q158": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sea_Level_(band)"
+      ],
+      "checked_answer": "Lamar Williams and Jaimoe",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q159": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cats_on_the_Coast",
+        "https://www.allmusic.com/album/cats-on-the-coast-mw0000025052"
+      ],
+      "checked_answer": "Randall Bramblett",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q160": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cats_on_the_Coast",
+        "https://www.allmusic.com/album/cats-on-the-coast-mw0000025052"
+      ],
+      "checked_answer": "Cats on the Coast",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q161": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cowboy_(band)",
+        "https://tommytaltonmusic.com/cowboy"
+      ],
+      "checked_answer": "Scott Boyer and Tommy Talton",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q162": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/5%27ll_Getcha_Ten",
+        "https://www.allmusic.com/album/5ll-getcha-ten-mw0000839318"
+      ],
+      "checked_answer": "Duane Allman",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q163": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/5%27ll_Getcha_Ten",
+        "https://www.allmusic.com/album/5ll-getcha-ten-mw0000839318"
+      ],
+      "checked_answer": "Scott Boyer",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q164": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cowboy_(band)",
+        "https://tommytaltonmusic.com/cowboy"
+      ],
+      "checked_answer": "Cowboy",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q165": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cowboy_(band)",
+        "https://tommytaltonmusic.com/cowboy"
+      ],
+      "checked_answer": "Reach for the Sky",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q166": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Honest_to_Goodness"
+      ],
+      "checked_answer": "Dru Lombar",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q167": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Honest_to_Goodness"
+      ],
+      "checked_answer": "Paul Hornsby",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q168": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Honest_to_Goodness"
+      ],
+      "checked_answer": "Dickey Betts",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q169": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grinderswitch",
+        "https://www.allmusic.com/album/macon-tracks-mw0000844647"
+      ],
+      "checked_answer": "John Peel",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q170": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strikes_(album)"
+      ],
+      "checked_answer": "Rickey Medlocke",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q171": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rickey_Medlocke"
+      ],
+      "checked_answer": "Drums",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q172": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strikes_(album)"
+      ],
+      "checked_answer": "Blackfoot",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q173": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strikes_(album)"
+      ],
+      "checked_answer": "Strikes",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q174": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siogo"
+      ],
+      "checked_answer": "Ken Hensley",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q175": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strikes_(album)"
+      ],
+      "checked_answer": "Shorty Medlocke",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q176": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strikes_(album)"
+      ],
+      "checked_answer": "Greg T. Walker",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q177": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/38_Special_(band)"
+      ],
+      "checked_answer": "Jacksonville",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q178": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wild-Eyed_Southern_Boys"
+      ],
+      "checked_answer": "Don Barnes",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q179": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/38_Special_(band)"
+      ],
+      "checked_answer": "Jim Peterik",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q180": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wild-Eyed_Southern_Boys"
+      ],
+      "checked_answer": "Steve Brookins and Jack Grondin",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q181": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wild-Eyed_Southern_Boys"
+      ],
+      "checked_answer": "Wild-Eyed Southern Boys",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q182": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Special_Forces_(38_Special_album)"
+      ],
+      "checked_answer": "Special Forces",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q183": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Black_Crowes"
+      ],
+      "checked_answer": "Chris and Rich Robinson",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q184": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Black_Crowes"
+      ],
+      "checked_answer": "Shake Your Money Maker",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q185": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Black_Crowes"
+      ],
+      "checked_answer": "George Drakoulias",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q186": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Southern_Harmony_and_Musical_Companion"
+      ],
+      "checked_answer": "The Southern Harmony and Musical Companion",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q187": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gov%27t_Mule"
+      ],
+      "checked_answer": "Warren Haynes",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q188": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gov%27t_Mule"
+      ],
+      "checked_answer": "Allen Woody",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q189": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gov%27t_Mule"
+      ],
+      "checked_answer": "Matt Abts",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q190": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gov%27t_Mule"
+      ],
+      "checked_answer": "The Deep End",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q191": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blue_Sky_(song)"
+      ],
+      "checked_answer": "Dickey Betts",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q192": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hittin%27_the_Note"
+      ],
+      "checked_answer": "Derek Trucks",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q193": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Derek_Trucks"
+      ],
+      "checked_answer": "Butch Trucks",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q194": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Berry_Oakley"
+      ],
+      "checked_answer": "Fender Jazz Bass",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q195": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Allman_Brothers_Band",
+        "https://allmanbrothersband.com/abb-chronology-seventies/"
+      ],
+      "checked_answer": "Capricorn",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q196": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ramblin%27_Man_(The_Allman_Brothers_Band_song)",
+        "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_top-ten_singles_in_1973"
+      ],
+      "checked_answer": "No. 2",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q197": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Allman_Brothers_Band",
+        "https://allmanbrothersband.com/abb20141028/",
+        "https://allmanbrothersband.com/allman-brothers-band-final-concert-10-28-14-coming-out-on-peach-records/"
+      ],
+      "checked_answer": "The Beacon Theatre in New York",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q198": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Seven_Turns"
+      ],
+      "checked_answer": "Seven Turns",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q199": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Highway_Call"
+      ],
+      "checked_answer": "Highway Call",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-q200": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jessica_(instrumental)"
+      ],
+      "checked_answer": "Jessica",
+      "checked_fields": [
+        "answer key",
+        "explanation",
+        "distractors",
+        "duplicate concepts"
+      ]
+    },
+    "southern-rock-s17": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/In_Memory_of_Elizabeth_Reed"
+      ],
+      "checked_answer": "The Allman Brothers Band",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s18": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jessica_(instrumental)"
+      ],
+      "checked_answer": "The Allman Brothers Band",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s19": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Simple_Man_(Lynyrd_Skynyrd_song)"
+      ],
+      "checked_answer": "Lynyrd Skynyrd",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s20": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nuthin%27_Fancy"
+      ],
+      "checked_answer": "Lynyrd Skynyrd",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s21": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gimme_Back_My_Bullets",
+        "https://en.wikipedia.org/wiki/Nuthin%27_Fancy",
+        "https://en.wikipedia.org/wiki/One_More_from_the_Road"
+      ],
+      "checked_answer": "Lynyrd Skynyrd",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s22": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tres_Hombres",
+        "https://albumlinernotes.com/Tres_Hombres.html"
+      ],
+      "checked_answer": "ZZ Top",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s23": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rio_Grande_Mud"
+      ],
+      "checked_answer": "ZZ Top",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s24": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Can%27t_You_See_(The_Marshall_Tucker_Band_song)"
+      ],
+      "checked_answer": "The Marshall Tucker Band",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s25": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Searchin%27_for_a_Rainbow"
+      ],
+      "checked_answer": "The Marshall Tucker Band",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s26": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Flirtin%27_with_Disaster"
+      ],
+      "checked_answer": "Molly Hatchet",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s27": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strikes_(album)"
+      ],
+      "checked_answer": "Blackfoot",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s28": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jim_Dandy_(song)",
+        "https://encyclopediaofarkansas.net/entries/Black-Oak-Arkansas-600/",
+        "https://www.jazzdisco.org/atlantic-records/discography-1956/"
+      ],
+      "checked_answer": "Black Oak Arkansas",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s29": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jackie_Blue_(song)",
+        "https://en.wikipedia.org/wiki/It%27ll_Shine_When_It_Shines"
+      ],
+      "checked_answer": "The Ozark Mountain Daredevils",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s30": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A_Rock_and_Roll_Alternative"
+      ],
+      "checked_answer": "Atlanta Rhythm Section",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s31": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Special_Forces_(38_Special_album)"
+      ],
+      "checked_answer": "38 Special",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-s32": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ghost_Riders_(Outlaws_album)"
+      ],
+      "checked_answer": "The Outlaws",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note"
+      ]
+    },
+    "southern-rock-c13": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/With_Their_New_Face_On",
+        "https://en.wikipedia.org/wiki/The_Spencer_Davis_Group",
+        "https://www.worldradiohistory.com/Archive-All-Music/Cash-Box/60s/1967/CB-1967-10-07.pdf"
+      ],
+      "checked_answer": "The Spencer Davis Group",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "southern-rock-c14": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stormy_Monday"
+      ],
+      "checked_answer": "T-Bone Walker",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "southern-rock-c15": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hoochie_Coochie_Man"
+      ],
+      "checked_answer": "Muddy Waters",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "southern-rock-c16": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cross_Road_Blues"
+      ],
+      "checked_answer": "Robert Johnson",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "southern-rock-c17": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/I_Thank_You_(song)"
+      ],
+      "checked_answer": "Sam & Dave",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "southern-rock-c18": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Viva_Las_Vegas_(song)",
+        "https://en.wikipedia.org/wiki/Greatest_Hits_(ZZ_Top_album)"
+      ],
+      "checked_answer": "Elvis Presley",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "southern-rock-c19": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jim_Dandy_(song)",
+        "https://encyclopediaofarkansas.net/entries/Black-Oak-Arkansas-600/",
+        "https://www.jazzdisco.org/atlantic-records/discography-1956/"
+      ],
+      "checked_answer": "LaVern Baker",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    },
+    "southern-rock-c20": {
+      "review": "passed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/It%27s_All_Over_Now"
+      ],
+      "checked_answer": "The Valentinos",
+      "checked_fields": [
+        "artist",
+        "first release year",
+        "album",
+        "note",
+        "first released original",
+        "original release year",
+        "decoys"
+      ]
+    }
+  },
+  "cuts": [
+    {
+      "candidate": "Done Somebody Wrong with Elmore James named as the original artist",
+      "kind": "ambiguous original",
+      "reason": "An earlier Eddie Kirkland recording under a longer title complicates the original-artist answer. The Allmans credit Elmore James; excluded the proposed cover entry.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Done_Somebody_Wrong",
+        "https://allmanbrothersband.com/song/dsw-done-somebody-wrong/"
+      ]
+    },
+    {
+      "candidate": "Ghost Riders in the Sky with Burl Ives named as the original artist",
+      "kind": "competing first-release accounts",
+      "reason": "Sources identify Stan Jones as the early recording, Burl Ives as an early release, and Bob Geddins Cavaliers as an original. Excluded from the cover quiz; retained the verified 1980 Outlaws recording as a song clip.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ghost_Riders_in_the_Sky",
+        "https://secondhandsongs.com/artist/34498/all",
+        "https://www.nationalparkstraveler.org/2014/11/book-review-ghost-riders-sky-life-stan-jones-singing-ranger25972"
+      ]
+    }
+  ],
+  "disagreements": [],
+  "edited_existing": {
+    "southern-rock-q39": {
+      "before": {
+        "id": "southern-rock-q39",
+        "prompt": "\"Gimme Three Steps\" was reportedly inspired by a night when Allen Collins asked a woman to do what?",
+        "choices": [
+          "Sing",
+          "Marry him",
+          "Leave the bar",
+          "Dance"
+        ],
+        "answer": 3,
+        "fact": "Her boyfriend reportedly showed up with a gun, and Collins is said to have talked his way out of trouble.",
+        "difficulty": 2
+      },
+      "reason": "Removed an anecdote wrongly attributing the incident to Allen Collins; substituted a settled detail from the recording.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gimme_Three_Steps"
+      ],
+      "review": "passed",
+      "checked_answer": "Linda Lou"
+    }
+  },
+  "before": {
+    "questions": 54,
+    "songs": 16,
+    "covers": 8
+  },
+  "after": {
+    "questions": 200,
+    "songs": 32,
+    "covers": 16
+  },
+  "difficulty_counts": {
+    "1": 56,
+    "2": 70,
+    "3": 74
+  },
+  "scope": "146 new questions, 16 new songs, 8 new covers, and one corrected existing question. Existing songs, covers and stories retained.",
+  "verification": {
+    "initial_pass": "Live web searches, album credits, original recordings and artist or label sources before adding each batch.",
+    "adversarial_pass": "All 170 additions and the corrected question reread after the target was met. Source pages fetched again, with follow-up checks for first releases, session credits, distractors and cross-crate duplication.",
+    "checked_on": "2026-10-22",
+    "batch_validation": [
+      "104 questions: zero errors",
+      "154 questions: zero errors",
+      "200 questions: zero errors"
+    ],
+    "catalog_resolution": "All 24 new audio entries resolved. No NO MATCH or YEAR warnings."
+  },
+  "review_corrections": [
+    {
+      "id": "southern-rock-q106",
+      "reason": "Used the solo Hill vocal Ten Dollar Man as the second example."
+    },
+    {
+      "id": "southern-rock-q107",
+      "reason": "Removed older from the Spanish spelling claim; Tejas remains a Spanish form of Texas."
+    },
+    {
+      "id": "southern-rock-q122",
+      "reason": "Made all four choices fingers, keeping the thumb as the verified answer."
+    },
+    {
+      "id": "southern-rock-q129",
+      "reason": "Replaced a drummer decoy with guitarist Dru Lombar."
+    }
+  ],
+  "unresolved_no_match": []
+}
