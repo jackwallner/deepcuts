@@ -1,0 +1,996 @@
+{
+  "id": "psychedelic-rock",
+  "name": "Psychedelic Rock",
+  "blurb": "San Francisco ballrooms, 12-string ragas and the long, strange trip of the Grateful Dead.",
+  "era": "1965-1972",
+  "questions": [
+    {
+      "id": "psychedelic-rock-q01",
+      "prompt": "What were the Grateful Dead called before they changed their name in late 1965?",
+      "choices": [
+        "The Mystery Trend",
+        "The Warlocks",
+        "The Matadors",
+        "The Great Society"
+      ],
+      "answer": 1,
+      "fact": "They learned another band already used the name. Jerry Garcia found the phrase \"grateful dead\" in a dictionary.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q02",
+      "prompt": "Besides \"Somebody to Love\", which Surrealistic Pillow song became a 1967 top 10 hit for Jefferson Airplane?",
+      "choices": [
+        "Volunteers",
+        "Crown of Creation",
+        "Wooden Ships",
+        "White Rabbit"
+      ],
+      "answer": 3,
+      "fact": "\"Somebody to Love\" reached number 5 and \"White Rabbit\" number 8, and the album climbed to number 3.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q03",
+      "prompt": "Grace Slick brought \"Somebody to Love\" and \"White Rabbit\" to Jefferson Airplane from which band?",
+      "choices": [
+        "The Great Society",
+        "Big Brother and the Holding Company",
+        "The Charlatans",
+        "Quicksilver Messenger Service"
+      ],
+      "answer": 0,
+      "fact": "\"Somebody to Love\" was written by her brother-in-law, Darby Slick, who played guitar in the Great Society.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q04",
+      "prompt": "\"White Rabbit\" takes its imagery from which book?",
+      "choices": [
+        "The Wizard of Oz",
+        "Peter Pan",
+        "Alice's Adventures in Wonderland",
+        "The Wind in the Willows"
+      ],
+      "answer": 2,
+      "fact": "Slick built its slow crescendo with Ravel's Bolero and Miles Davis's Sketches of Spain in mind.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q05",
+      "prompt": "Who played lead guitar in Jefferson Airplane?",
+      "choices": [
+        "John Cipollina",
+        "Jorma Kaukonen",
+        "Barry Melton",
+        "Sam Andrew"
+      ],
+      "answer": 1,
+      "fact": "Kaukonen and bassist Jack Casady also formed Hot Tuna, which began as a side project in 1969.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q06",
+      "prompt": "The Byrds said \"Eight Miles High\" was about what, though radio stations heard drug references?",
+      "choices": [
+        "A plane trip to England",
+        "A Coltrane solo",
+        "The Golden Gate Bridge",
+        "A night on Mount Tamalpais"
+      ],
+      "answer": 0,
+      "fact": "It described their 1965 flight to London and English tour. Years later David Crosby admitted it was a drug song too.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q07",
+      "prompt": "Roger McGuinn's chiming Byrds sound came from which guitar?",
+      "choices": [
+        "A Gretsch Country Gentleman",
+        "A Fender Telecaster",
+        "A Gibson SG",
+        "A Rickenbacker 12-string"
+      ],
+      "answer": 3,
+      "fact": "He took it up after seeing George Harrison play one in A Hard Day's Night.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q08",
+      "prompt": "Which member was fired from the Byrds in 1967 and soon joined Crosby, Stills & Nash?",
+      "choices": [
+        "Gene Clark",
+        "Chris Hillman",
+        "David Crosby",
+        "Michael Clarke"
+      ],
+      "answer": 2,
+      "fact": "McGuinn and Hillman let him go in October 1967. The Crosby, Stills & Nash debut came out in 1969.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q09",
+      "prompt": "Which 1966 Byrds album includes \"Eight Miles High\"?",
+      "choices": [
+        "Fifth Dimension",
+        "Turn! Turn! Turn!",
+        "Younger Than Yesterday",
+        "The Notorious Byrd Brothers"
+      ],
+      "answer": 0,
+      "fact": "Gene Clark, the song's main writer, left the band in March 1966, months before the album came out.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q10",
+      "prompt": "Which Grateful Dead sound man, nicknamed Bear, led the design of the band's 1974 Wall of Sound?",
+      "choices": [
+        "Bill Graham",
+        "Owsley Stanley",
+        "Chet Helms",
+        "Ken Kesey"
+      ],
+      "answer": 1,
+      "fact": "Before that he was one of the best-known makers of LSD in California. The Wall was retired after the Dead's October 1974 Winterland shows.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q11",
+      "prompt": "Ken Kesey's 1965-66 parties, where the Grateful Dead were the house band, were called what?",
+      "choices": [
+        "The Be-Ins",
+        "The Happenings",
+        "The Acid Tests",
+        "The Love-Ins"
+      ],
+      "answer": 2,
+      "fact": "Kesey's posters asked \"Can you pass the acid test?\", and Tom Wolfe told the story in The Electric Kool-Aid Acid Test (1968).",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q12",
+      "prompt": "Which 1970 Grateful Dead album includes \"Truckin'\", \"Ripple\" and \"Sugar Magnolia\"?",
+      "choices": [
+        "Workingman's Dead",
+        "Aoxomoxoa",
+        "Europe '72",
+        "American Beauty"
+      ],
+      "answer": 3,
+      "fact": "It came out in November 1970, only five months after Workingman's Dead.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q13",
+      "prompt": "Who wrote the lyrics for most of Jerry Garcia's Grateful Dead songs?",
+      "choices": [
+        "John Perry Barlow",
+        "Robert Hunter",
+        "Bernie Taupin",
+        "Pete Sinfield"
+      ],
+      "answer": 1,
+      "fact": "Barlow wrote mainly with Bob Weir. Hunter was the only non-performer inducted with the band into the Rock and Roll Hall of Fame.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q14",
+      "prompt": "Janis Joplin sang with which San Francisco band at the 1967 Monterey Pop Festival?",
+      "choices": [
+        "Country Joe and the Fish",
+        "Moby Grape",
+        "Quicksilver Messenger Service",
+        "Big Brother and the Holding Company"
+      ],
+      "answer": 3,
+      "fact": "Their manager refused to let them be filmed on Saturday, so the band played again on Sunday for D.A. Pennebaker's cameras.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q15",
+      "prompt": "Which underground cartoonist drew the cover of Big Brother and the Holding Company's Cheap Thrills?",
+      "choices": [
+        "Robert Crumb",
+        "Rick Griffin",
+        "Peter Max",
+        "Wes Wilson"
+      ],
+      "answer": 0,
+      "fact": "Crumb meant it for the back cover, but Joplin insisted it go on the front. The album spent eight weeks at number one in 1968.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q16",
+      "prompt": "Country Joe McDonald led the Woodstock crowd in the Fish Cheer before which anti-war song?",
+      "choices": [
+        "Eve of Destruction",
+        "Fortunate Son",
+        "I-Feel-Like-I'm-Fixin'-to-Die Rag",
+        "Ohio"
+      ],
+      "answer": 2,
+      "fact": "At Woodstock he spelled out a four-letter word instead of F-I-S-H.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q17",
+      "prompt": "Iron Butterfly's \"In-A-Gadda-Da-Vida\" fills a whole album side and runs about how long?",
+      "choices": [
+        "About 8 minutes",
+        "About 11 minutes",
+        "About 17 minutes",
+        "About 25 minutes"
+      ],
+      "answer": 2,
+      "fact": "The title is usually explained as singer Doug Ingle's slurred \"In the Garden of Eden\".",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q18",
+      "prompt": "What did Tommy Hall play in the 13th Floor Elevators?",
+      "choices": [
+        "Theremin",
+        "Electric jug",
+        "Sitar",
+        "Autoharp"
+      ],
+      "answer": 1,
+      "fact": "The Austin band's 1966 debut, The Psychedelic Sounds of the 13th Floor Elevators, was among the first albums to put \"psychedelic\" in its title.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q19",
+      "prompt": "Who sang the 13th Floor Elevators' \"You're Gonna Miss Me\"?",
+      "choices": [
+        "Sky Saxon",
+        "Arthur Lee",
+        "Skip Spence",
+        "Roky Erickson"
+      ],
+      "answer": 3,
+      "fact": "Erickson had first recorded the song with his earlier band, the Spades.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q20",
+      "prompt": "Which Los Angeles band, led by Arthur Lee, made the 1967 album Forever Changes?",
+      "choices": [
+        "Love",
+        "The Seeds",
+        "Spirit",
+        "The Music Machine"
+      ],
+      "answer": 0,
+      "fact": "It peaked at only number 154 in America but reached number 24 in Britain, and its reputation has grown ever since.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q21",
+      "prompt": "Columbia released how many singles from Moby Grape's 1967 debut on the same day?",
+      "choices": [
+        "Two",
+        "Three",
+        "Five",
+        "Ten"
+      ],
+      "answer": 2,
+      "fact": "Ten of the album's 13 songs came out at once in June 1967, and the stunt got the band branded as hype.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q22",
+      "prompt": "Skip Spence played drums on Jefferson Airplane's first album before co-founding which band?",
+      "choices": [
+        "Quicksilver Messenger Service",
+        "Moby Grape",
+        "Spirit",
+        "It's a Beautiful Day"
+      ],
+      "answer": 1,
+      "fact": "He was really a guitarist. His only solo album, Oar (1969), became a cult favorite.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q23",
+      "prompt": "Whose quivering, vibrato-heavy guitar defined Quicksilver Messenger Service?",
+      "choices": [
+        "John Cipollina",
+        "Jorma Kaukonen",
+        "Barry Melton",
+        "James Gurley"
+      ],
+      "answer": 0,
+      "fact": "Their 1969 album Happy Trails was recorded mostly live at the Fillmore East and Fillmore West.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q24",
+      "prompt": "Which promoter ran the Fillmore Auditorium in San Francisco and later the Fillmore East in New York?",
+      "choices": [
+        "Chet Helms",
+        "Sid Bernstein",
+        "Bill Graham",
+        "Lou Adler"
+      ],
+      "answer": 2,
+      "fact": "His first shows were 1965 benefits for the San Francisco Mime Troupe, which he managed.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q25",
+      "prompt": "Chet Helms and the Family Dog put on shows at which San Francisco ballroom?",
+      "choices": [
+        "Winterland",
+        "The Avalon Ballroom",
+        "The Carousel Ballroom",
+        "The Fillmore Auditorium"
+      ],
+      "answer": 1,
+      "fact": "Helms also helped bring Janis Joplin from Texas into Big Brother and the Holding Company.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q26",
+      "prompt": "The Human Be-In of January 1967 was held in which San Francisco park?",
+      "choices": [
+        "Dolores Park",
+        "The Presidio",
+        "Buena Vista Park",
+        "Golden Gate Park"
+      ],
+      "answer": 3,
+      "fact": "Timothy Leary urged the crowd to \"turn on, tune in, drop out\", and the Grateful Dead and Jefferson Airplane played.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q27",
+      "prompt": "Which San Francisco neighborhood was the center of 1967's Summer of Love?",
+      "choices": [
+        "North Beach",
+        "Haight-Ashbury",
+        "The Mission",
+        "The Castro"
+      ],
+      "answer": 1,
+      "fact": "The Grateful Dead lived at 710 Ashbury Street, a few blocks from the corner that gives the district its name.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q28",
+      "prompt": "Who wrote Scott McKenzie's 1967 hit \"San Francisco (Be Sure to Wear Flowers in Your Hair)\"?",
+      "choices": [
+        "Lou Adler",
+        "P.F. Sloan",
+        "Brian Wilson",
+        "John Phillips"
+      ],
+      "answer": 3,
+      "fact": "Phillips wrote it to promote the Monterey Pop Festival, which he helped organize.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q29",
+      "prompt": "At Altamont in December 1969, which band was on the bill but left without playing?",
+      "choices": [
+        "Jefferson Airplane",
+        "Santana",
+        "The Grateful Dead",
+        "The Flying Burrito Brothers"
+      ],
+      "answer": 2,
+      "fact": "They left after hearing that Marty Balin had been knocked out by a Hells Angel during Jefferson Airplane's set.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q30",
+      "prompt": "Which 1987 song was the Grateful Dead's only top 10 hit?",
+      "choices": [
+        "Touch of Grey",
+        "Truckin'",
+        "Casey Jones",
+        "Uncle John's Band"
+      ],
+      "answer": 0,
+      "fact": "It reached number 9 on the Billboard Hot 100 and came from the album In the Dark.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q31",
+      "prompt": "In 1984 the Grateful Dead set aside a section at their shows for fans doing what?",
+      "choices": [
+        "Selling merchandise",
+        "Camping overnight",
+        "Trading tickets",
+        "Recording the concert"
+      ],
+      "answer": 3,
+      "fact": "The band let fans tape and trade its shows as long as nobody sold the recordings.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q32",
+      "prompt": "Jerry Garcia lost two-thirds of which finger in a childhood accident?",
+      "choices": [
+        "Left index finger",
+        "Right middle finger",
+        "Left ring finger",
+        "Right thumb"
+      ],
+      "answer": 1,
+      "fact": "His older brother cut it off by accident while they were splitting wood in the Santa Cruz Mountains. Jerry was four.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q33",
+      "prompt": "Jerry Garcia's parents named him after which composer?",
+      "choices": [
+        "Jerome Kern",
+        "George Gershwin",
+        "Cole Porter",
+        "Irving Berlin"
+      ],
+      "answer": 0,
+      "fact": "His father, Jose Garcia, was a bandleader and clarinetist.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q34",
+      "prompt": "Which founding Grateful Dead member, the band's blues singer and organist, was known as Pigpen?",
+      "choices": [
+        "Bill Kreutzmann",
+        "Phil Lesh",
+        "Ron McKernan",
+        "Tom Constanten"
+      ],
+      "answer": 2,
+      "fact": "He sang \"Turn On Your Love Light\" and \"Good Lovin'\", and he died in March 1973 at 27.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q35",
+      "prompt": "Who joined Bill Kreutzmann in 1967 to give the Grateful Dead two drummers?",
+      "choices": [
+        "Spencer Dryden",
+        "Michael Shrieve",
+        "Joey Covington",
+        "Mickey Hart"
+      ],
+      "answer": 3,
+      "fact": "Hart left in 1971 and came back in 1974.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q36",
+      "prompt": "Which Grateful Dead member studied composition with Luciano Berio before joining the band?",
+      "choices": [
+        "Bob Weir",
+        "Phil Lesh",
+        "Keith Godchaux",
+        "Brent Mydland"
+      ],
+      "answer": 1,
+      "fact": "He had played trumpet and violin, and took up bass guitar only when Garcia asked him to join the Warlocks.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q37",
+      "prompt": "Jefferson Airplane's 1968 Manhattan rooftop concert was filmed for a project begun by which French director?",
+      "choices": [
+        "Francois Truffaut",
+        "Louis Malle",
+        "Jean-Luc Godard",
+        "Agnes Varda"
+      ],
+      "answer": 2,
+      "fact": "Police stopped the unpermitted show and arrested Marty Balin. The Beatles played their rooftop concert two months later.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q38",
+      "prompt": "Marty Balin formed Jefferson Airplane as the house band for which San Francisco club he helped open in 1965?",
+      "choices": [
+        "The Matrix",
+        "The Avalon",
+        "The hungry i",
+        "Winterland"
+      ],
+      "answer": 0,
+      "fact": "The band played the club's opening night on August 13, 1965.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q39",
+      "prompt": "Who sang with Jefferson Airplane on their first album, before Grace Slick joined?",
+      "choices": [
+        "Lydia Pense",
+        "Tracy Nelson",
+        "Janis Joplin",
+        "Signe Anderson"
+      ],
+      "answer": 3,
+      "fact": "She left in October 1966 after the birth of her daughter, and Slick played her first show with the band the next night.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q40",
+      "prompt": "Which song appears on both Jefferson Airplane's Volunteers and the debut album of Crosby, Stills & Nash?",
+      "choices": [
+        "Long Time Gone",
+        "Wooden Ships",
+        "Triad",
+        "We Can Be Together"
+      ],
+      "answer": 1,
+      "fact": "David Crosby, Stephen Stills and Paul Kantner wrote it together in 1968.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q41",
+      "prompt": "The Doors took their name from which Aldous Huxley book?",
+      "choices": [
+        "Brave New World",
+        "Island",
+        "The Doors of Perception",
+        "Point Counter Point"
+      ],
+      "answer": 2,
+      "fact": "Huxley borrowed the phrase from William Blake: \"If the doors of perception were cleansed...\"",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q42",
+      "prompt": "Pink Floyd's 1967 debut, The Piper at the Gates of Dawn, takes its title from a chapter of which book?",
+      "choices": [
+        "The Wind in the Willows",
+        "Peter Pan",
+        "The Hobbit",
+        "Winnie-the-Pooh"
+      ],
+      "answer": 0,
+      "fact": "They made it at EMI's Abbey Road studios in 1967 while the Beatles were recording Sgt. Pepper there.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q43",
+      "prompt": "Pink Floyd's first single, \"Arnold Layne\", is about a man who steals what?",
+      "choices": [
+        "Bicycles",
+        "Milk bottles",
+        "Women's clothes from washing lines",
+        "Garden gnomes"
+      ],
+      "answer": 2,
+      "fact": "Roger Waters said it was based on real thefts in Cambridge, where he and Syd Barrett grew up.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q44",
+      "prompt": "John Lennon took lines for \"Tomorrow Never Knows\" from a book based on which ancient text?",
+      "choices": [
+        "The Bhagavad Gita",
+        "The Tao Te Ching",
+        "The Egyptian Book of the Dead",
+        "The Tibetan Book of the Dead"
+      ],
+      "answer": 3,
+      "fact": "The book was The Psychedelic Experience by Timothy Leary, Ralph Metzner and Richard Alpert. The song closes Revolver.",
+      "difficulty": 2
+    },
+    {
+      "id": "psychedelic-rock-q45",
+      "prompt": "Matthew Fisher's organ line on Procol Harum's \"A Whiter Shade of Pale\" echoes which composer?",
+      "choices": [
+        "Handel",
+        "Bach",
+        "Mozart",
+        "Vivaldi"
+      ],
+      "answer": 1,
+      "fact": "In 2009 the House of Lords ruled that Fisher was entitled to a share of the songwriting credit.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q46",
+      "prompt": "Which Los Angeles band reached the top 20 in 1967 with \"I Had Too Much to Dream (Last Night)\"?",
+      "choices": [
+        "The Seeds",
+        "Count Five",
+        "The Electric Prunes",
+        "The Chocolate Watchband"
+      ],
+      "answer": 2,
+      "fact": "Songwriters Annette Tucker and Nancie Mantz wrote it, not the band.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q47",
+      "prompt": "Sky Saxon sang \"Pushin' Too Hard\" with which band?",
+      "choices": [
+        "Love",
+        "The Leaves",
+        "The Standells",
+        "The Seeds"
+      ],
+      "answer": 3,
+      "fact": "Some stations banned it, thinking the title was about drug dealing. It reached number 36 in February 1967.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q48",
+      "prompt": "Spirit's shaved-headed drummer Ed Cassidy was what relation to guitarist Randy California?",
+      "choices": [
+        "Stepfather",
+        "Uncle",
+        "Older brother",
+        "Cousin"
+      ],
+      "answer": 0,
+      "fact": "Jimi Hendrix gave Randy his stage name when they played together in New York in 1966.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q49",
+      "prompt": "Which pair drew the Grateful Dead's skull-and-roses artwork?",
+      "choices": [
+        "Rick Griffin and Victor Moscoso",
+        "Stanley Mouse and Alton Kelley",
+        "Wes Wilson and Bonnie MacLean",
+        "Robert Crumb and S. Clay Wilson"
+      ],
+      "answer": 1,
+      "fact": "They adapted an Edmund J. Sullivan illustration from an edition of the Rubaiyat of Omar Khayyam.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q50",
+      "prompt": "Which psychiatrist introduced the word \"psychedelic\" to the scientific world in 1957?",
+      "choices": [
+        "Timothy Leary",
+        "Albert Hofmann",
+        "Humphry Osmond",
+        "Stanislav Grof"
+      ],
+      "answer": 2,
+      "fact": "He had tried it out in letters with Aldous Huxley, whose first mescaline trip Osmond supervised in 1953.",
+      "difficulty": 3
+    },
+    {
+      "id": "psychedelic-rock-q51",
+      "prompt": "Which 1965 Beatles song was their first to feature George Harrison on sitar?",
+      "choices": [
+        "Love You To",
+        "Within You Without You",
+        "Tomorrow Never Knows",
+        "Norwegian Wood (This Bird Has Flown)"
+      ],
+      "answer": 3,
+      "fact": "He first came across the instrument on the set of Help! and later studied with Ravi Shankar.",
+      "difficulty": 1
+    },
+    {
+      "id": "psychedelic-rock-q52",
+      "prompt": "Before the Warlocks, Garcia, Bob Weir and Pigpen played in which jug band?",
+      "choices": [
+        "The Jim Kweskin Jug Band",
+        "Mother McCree's Uptown Jug Champions",
+        "The Even Dozen Jug Band",
+        "The Charlatans"
+      ],
+      "answer": 1,
+      "fact": "Garcia was teaching guitar and banjo around Palo Alto at the time.",
+      "difficulty": 3
+    }
+  ],
+  "songs": [
+    {
+      "id": "psychedelic-rock-s01",
+      "title": "White Rabbit",
+      "artist": "Jefferson Airplane",
+      "year": 1967,
+      "album": "Surrealistic Pillow",
+      "note": "Grace Slick first sang it with the Great Society; the Airplane cut it to about two and a half minutes."
+    },
+    {
+      "id": "psychedelic-rock-s02",
+      "title": "Somebody to Love",
+      "artist": "Jefferson Airplane",
+      "year": 1967,
+      "album": "Surrealistic Pillow",
+      "note": "Written by Darby Slick, Grace's brother-in-law, it reached number 5 on the Billboard Hot 100."
+    },
+    {
+      "id": "psychedelic-rock-s03",
+      "title": "Eight Miles High",
+      "artist": "The Byrds",
+      "year": 1966,
+      "album": "Fifth Dimension",
+      "note": "McGuinn's 12-string break was his attempt to play like John Coltrane's saxophone."
+    },
+    {
+      "id": "psychedelic-rock-s04",
+      "title": "Truckin'",
+      "artist": "Grateful Dead",
+      "year": 1970,
+      "album": "American Beauty",
+      "note": "Its line \"what a long, strange trip it's been\" became the band's unofficial motto."
+    },
+    {
+      "id": "psychedelic-rock-s05",
+      "title": "Casey Jones",
+      "artist": "Grateful Dead",
+      "year": 1970,
+      "album": "Workingman's Dead",
+      "note": "Robert Hunter turned the old railroad ballad into a song about cocaine."
+    },
+    {
+      "id": "psychedelic-rock-s06",
+      "title": "Touch of Grey",
+      "artist": "Grateful Dead",
+      "year": 1987,
+      "album": "In the Dark",
+      "note": "The band had played it live since 1982, five years before the studio version."
+    },
+    {
+      "id": "psychedelic-rock-s07",
+      "title": "Ball and Chain",
+      "artist": "Big Brother & The Holding Company",
+      "year": 1968,
+      "album": "Cheap Thrills",
+      "note": "Big Mama Thornton wrote it. It was the only track on Cheap Thrills actually recorded live, at Winterland."
+    },
+    {
+      "id": "psychedelic-rock-s08",
+      "title": "In-A-Gadda-Da-Vida",
+      "artist": "Iron Butterfly",
+      "year": 1968,
+      "album": "In-A-Gadda-Da-Vida",
+      "note": "The single cut the 17-minute album track to under three minutes."
+    },
+    {
+      "id": "psychedelic-rock-s09",
+      "title": "You're Gonna Miss Me",
+      "artist": "The 13th Floor Elevators",
+      "year": 1966,
+      "album": "The Psychedelic Sounds of the 13th Floor Elevators",
+      "note": "Tommy Hall's electric jug makes the bubbling sound under the guitar."
+    },
+    {
+      "id": "psychedelic-rock-s10",
+      "title": "Alone Again Or",
+      "artist": "Love",
+      "year": 1967,
+      "album": "Forever Changes",
+      "note": "Guitarist Bryan MacLean wrote it, one of only two songs on the album not by Arthur Lee."
+    },
+    {
+      "id": "psychedelic-rock-s11",
+      "title": "I Had Too Much to Dream (Last Night)",
+      "artist": "The Electric Prunes",
+      "year": 1966,
+      "album": "The Electric Prunes",
+      "note": "The swooping sound at the start is a guitar part played backward, an accident the producer kept."
+    },
+    {
+      "id": "psychedelic-rock-s12",
+      "title": "Astronomy Domine",
+      "artist": "Pink Floyd",
+      "year": 1967,
+      "album": "The Piper at the Gates of Dawn",
+      "note": "Syd Barrett wrote it, and it opens the band's first album."
+    },
+    {
+      "id": "psychedelic-rock-s13",
+      "title": "A Whiter Shade of Pale",
+      "artist": "Procol Harum",
+      "year": 1967,
+      "album": "Procol Harum",
+      "note": "The band's first single, it topped the UK chart for six weeks."
+    },
+    {
+      "id": "psychedelic-rock-s14",
+      "title": "I Got a Line on You",
+      "artist": "Spirit",
+      "year": 1968,
+      "album": "The Family That Plays Together",
+      "note": "Randy California wrote it, and it became the band's biggest single."
+    },
+    {
+      "id": "psychedelic-rock-s15",
+      "title": "Omaha",
+      "artist": "Moby Grape",
+      "year": 1967,
+      "album": "Moby Grape",
+      "note": "Skip Spence wrote it, and it was one of five singles Columbia released from the album on the same day."
+    },
+    {
+      "id": "psychedelic-rock-s16",
+      "title": "Time Has Come Today",
+      "artist": "The Chambers Brothers",
+      "year": 1967,
+      "album": "The Time Has Come",
+      "note": "The album version runs 11 minutes. The edited single spent five weeks at number 11 in 1968."
+    },
+    {
+      "id": "psychedelic-rock-s17",
+      "title": "Scarlet Begonias",
+      "artist": "Grateful Dead",
+      "year": 1974,
+      "album": "From the Mars Hotel",
+      "note": "Robert Hunter's lyric opens in London's Grosvenor Square. From 1977 the band almost always segued it into \"Fire on the Mountain\"."
+    },
+    {
+      "id": "psychedelic-rock-s18",
+      "title": "Incense and Peppermints",
+      "artist": "Strawberry Alarm Clock",
+      "year": 1967,
+      "album": "Incense and Peppermints",
+      "note": "It reached number one in 1967, sung by Greg Munford, a 16-year-old friend of the band."
+    }
+  ],
+  "stories": [
+    {
+      "id": "psychedelic-rock-st1",
+      "title": "The Acid Tests",
+      "dek": "How a jug band became the Grateful Dead",
+      "year": 1965,
+      "body": "In 1964 Jerry Garcia was a banjo player and guitar teacher in Palo Alto, California, playing bluegrass and jug band music with friends. One of those groups, Mother McCree's Uptown Jug Champions, included a teenage guitarist named Bob Weir and a blues singer and harmonica player named Ron McKernan, whom everyone called Pigpen. Early in 1965 they plugged in, added drummer Bill Kreutzmann, and called themselves the Warlocks. Phil Lesh, a classically trained trumpeter who had studied composition, learned bass to join them.\n\nThe name did not last. Another band was already using it, and late in 1965 Garcia opened a dictionary and found the phrase \"grateful dead\". The others were not sure at first, but it stuck.\n\nThe setting that shaped them was a series of parties run by the novelist Ken Kesey, author of One Flew Over the Cuckoo's Nest, and his friends the Merry Pranksters. Kesey called them Acid Tests, and his posters asked a simple question: \"Can you pass the acid test?\" LSD was still legal in California, and the Pranksters handed it out freely. The first Acid Test took place near Santa Cruz in late November 1965. A week later, at an Acid Test in San Jose, the band played for the first time as the Grateful Dead.\n\nThere was no stage in the usual sense and no set list. The Pranksters ran tape loops and light projections, Neal Cassady talked nonstop, and the band played for as long as the night lasted. It was chaotic and often went badly. But it taught the Dead to stretch a song out, follow one another and improvise in front of a crowd, habits that defined them for the next 30 years.\n\nThe Acid Tests also brought them a patron. Owsley Stanley, an engineer and LSD chemist known as Bear, began bankrolling the band and running its sound, the start of an obsession with audio quality that led to the Wall of Sound in 1974.\n\nIn January 1966 the Dead played the three-day Trips Festival at Longshoremen's Hall in San Francisco, which put the Acid Test idea in front of thousands of people. California outlawed LSD that October. By then the Dead had moved into a house in Haight-Ashbury, and the scene that would become the Summer of Love was taking shape around them. Tom Wolfe's book The Electric Kool-Aid Acid Test, published in 1968, made the parties famous long after they had ended.",
+      "songs": [
+        "psychedelic-rock-s04"
+      ],
+      "cover": {
+        "album": "The Grateful Dead",
+        "artist": "Grateful Dead"
+      }
+    },
+    {
+      "id": "psychedelic-rock-st2",
+      "title": "Eight Miles High",
+      "dek": "The Byrds leave folk rock behind",
+      "year": 1966,
+      "body": "In 1965 the Byrds were the most successful band in American folk rock. Their electric version of Bob Dylan's \"Mr. Tambourine Man\" went to number one, and \"Turn! Turn! Turn!\" followed it to the top before the year was out. The sound was Roger McGuinn's Rickenbacker 12-string, which he had taken up after seeing George Harrison play one in A Hard Day's Night, under the band's close harmonies.\n\nThat August the band flew to England for a tour that did not go well. The British press was unkind, the venues were wrong for them, and the long flight home gave them time to think. Gene Clark, the band's main songwriter, began a song about the trip, and McGuinn and David Crosby helped finish it. The title came from the height of the plane, which was really closer to six miles up, but \"eight\" sang better.\n\nThe music came from somewhere else. On tour the band had been playing recordings by John Coltrane and the Indian sitar master Ravi Shankar over and over. When the Byrds recorded \"Eight Miles High\" in Hollywood in January 1966, McGuinn opened it with a jagged 12-string solo that was his attempt to play like Coltrane's saxophone. Chris Hillman's droning bass line and the band's vocal harmonies gave it the sound of a raga. There is no sitar on the record, but many listeners assumed there was.\n\nColumbia released the single in March 1966. Within weeks the Gavin Report, a newsletter that radio programmers relied on, suggested that the lyrics were about drugs, and stations in several states stopped playing it. The band insisted it was about the flight to London, and their publicist backed them. Years later Crosby admitted it was both.\n\nThe song peaked at number 14, short of the band's earlier hits. Some writers blame the ban, while others point to its length and how strange it sounded on AM radio next to everything else. By the time it charted, Clark had left the band, worn down by touring and his fear of flying.\n\nThe Byrds included it on Fifth Dimension that July, and it is now regarded as one of the first psychedelic rock records. It showed that a pop band could bring jazz and Indian music into a three-minute single, and San Francisco bands were listening closely.",
+      "songs": [
+        "psychedelic-rock-s03"
+      ],
+      "cover": {
+        "album": "Fifth Dimension",
+        "artist": "The Byrds"
+      }
+    },
+    {
+      "id": "psychedelic-rock-st3",
+      "title": "Surrealistic Pillow",
+      "dek": "Jefferson Airplane finds its voice",
+      "year": 1967,
+      "body": "Jefferson Airplane began in the summer of 1965 as the house band at the Matrix, a small club in San Francisco's Marina district that singer Marty Balin had helped open. Balin recruited Paul Kantner, a folk singer, and Jorma Kaukonen, a blues guitarist. Jack Casady, a friend of Kaukonen's from Washington, D.C., came west to play bass. Their first album, Jefferson Airplane Takes Off, came out in 1966 with Signe Anderson singing beside Balin.\n\nThat fall Anderson left the band to raise her baby daughter. Her replacement was Grace Slick, a former model who had been singing with another local group, the Great Society. Slick played her first show with the Airplane in October 1966, the night after Anderson's last. She brought two songs from the Great Society with her. One, \"Somebody to Love\", had been written by her brother-in-law, Darby Slick. The other, \"White Rabbit\", was her own, a two-and-a-half-minute march through Alice's Adventures in Wonderland that built like Ravel's Bolero.\n\nThe band went into RCA's studio in Hollywood with producer Rick Jarrard at the end of 1966. They also brought along Jerry Garcia of the Grateful Dead, who played guitar on several tracks, helped with arrangements and was listed on the sleeve as \"musical and spiritual adviser\". Spencer Dryden, a jazz-minded drummer, had joined that year, and Kaukonen contributed a delicate acoustic instrumental called \"Embryonic Journey\".\n\nSurrealistic Pillow came out in February 1967, just weeks after the Human Be-In in Golden Gate Park. \"Somebody to Love\" reached number 5 on the Billboard Hot 100 that summer, and \"White Rabbit\" reached number 8. The album rose to number 3. For many Americans who had never been near Haight-Ashbury, this was the first sound of San Francisco they heard.\n\nThe success put Slick at the center of the band, and her voice, sharp and powerful against Balin's tender tenor, became its signature. Over the next few years the Airplane grew louder and more political, on albums such as After Bathing at Baxter's and Volunteers. They played Monterey, Woodstock and Altamont, the three festivals that bracketed the era.\n\nBut Surrealistic Pillow is where most listeners met them, and its two hits remain the songs people think of when they think of 1967.",
+      "songs": [
+        "psychedelic-rock-s01",
+        "psychedelic-rock-s02"
+      ],
+      "cover": {
+        "album": "Surrealistic Pillow",
+        "artist": "Jefferson Airplane"
+      }
+    },
+    {
+      "id": "psychedelic-rock-st4",
+      "title": "The Summer of Love",
+      "dek": "Haight-Ashbury, 1967",
+      "year": 1967,
+      "body": "By the end of 1966, a few blocks of San Francisco around the corner of Haight and Ashbury streets had become the home of a new way of living. Cheap Victorian houses filled with students, artists and musicians. The Grateful Dead lived at 710 Ashbury Street. Jefferson Airplane and Big Brother and the Holding Company were playing the Fillmore Auditorium, run by Bill Graham, and the Avalon Ballroom, run by Chet Helms and the Family Dog, under posters drawn in swirling, nearly unreadable lettering.\n\nOn January 14, 1967, at least 20,000 people gathered at the polo field in Golden Gate Park for what organizers called a Human Be-In. Poets Allen Ginsberg and Gary Snyder spoke, Timothy Leary told the crowd to \"turn on, tune in, drop out\", and the Dead, the Airplane and Quicksilver Messenger Service played. Newspapers across the country covered it, and word spread that something was happening in San Francisco.\n\nThat spring, local groups began planning for the young people they expected to arrive once school let out. The Diggers, a community group, handed out free food in the park and ran a free store. In May, Scott McKenzie released \"San Francisco (Be Sure to Wear Flowers in Your Hair)\", written by John Phillips of the Mamas and the Papas to promote the Monterey Pop Festival in June. It became a worldwide hit and an advertisement for the city.\n\nTens of thousands came, with estimates reaching as high as 100,000. The neighborhood could not absorb them. Many were teenagers with no money and nowhere to stay. Free clinics opened to treat bad drug reactions and illness, and crime and hard drugs followed the crowds. The music was the best part of it. Big Brother broke through at Monterey, and the Dead and the Airplane played free shows in the Panhandle.\n\nBy the fall, many of the people who had built the scene wanted out. On October 2, police raided the Dead's house on Ashbury. Four days later, residents staged a mock funeral procession called \"The Death of the Hippie\" through the Haight, declaring the whole thing finished.\n\nThe Summer of Love lasted only a few months, but the records made by its bands, from Surrealistic Pillow to Cheap Thrills, carried the sound of San Francisco far beyond the city.",
+      "songs": [
+        "psychedelic-rock-s02"
+      ],
+      "cover": {
+        "album": "Surrealistic Pillow",
+        "artist": "Jefferson Airplane"
+      }
+    },
+    {
+      "id": "psychedelic-rock-st5",
+      "title": "Barton Hall, May 1977",
+      "dek": "The Grateful Dead's most famous night",
+      "year": 1977,
+      "body": "By the spring of 1977 the Grateful Dead had been playing for twelve years, and they had just come back from a break. They had stopped touring in late 1974, retiring the huge Wall of Sound speaker system, and returned to the road in 1976. Their new album, Terrapin Station, was nearly finished, and the band that toured the East Coast in May 1977 was playing as well as it ever had.\n\nOn May 8 the tour reached Barton Hall, a field house at Cornell University in Ithaca, New York. General admission tickets cost $7.50. The day had started like spring, but the temperature dropped, and by the time fans lined up outside it was snowing, a rare May snowstorm that left people soaked and cold when they came in.\n\nThe first set was a run of shorter songs: \"New Minglewood Blues\", \"Loser\", \"Jack Straw\", \"Deal\" and others, closing with a long, funky \"Dancing in the Street\". It was the second set that made the night famous. The band opened with \"Scarlet Begonias\" and slid into \"Fire on the Mountain\", Jerry Garcia's guitar building patiently over Bill Kreutzmann and Mickey Hart's drums. After \"Estimated Prophet\" came \"St. Stephen\", then \"Not Fade Away\", then back to \"St. Stephen\".\n\nThey closed the set with \"Morning Dew\", the post-apocalyptic folk song by Bonnie Dobson that they had played since their first album. Garcia sang it softly and then built to a long, climactic solo. Many Deadheads still name it the best version they ever played. The encore was \"One More Saturday Night\".\n\nThe show did not stay in Ithaca for long. Betty Cantor-Jackson, the Dead's longtime recording engineer, had made a soundboard tape of the concert, and copies spread through the band's large network of fan tape traders. The Dead let fans record and trade shows as long as nobody sold the tapes, and over the years the Cornell recording was copied and passed around more than almost any other.\n\nIn 2011 the Library of Congress selected it for the National Recording Registry. In May 2017, just before the show's 40th anniversary, the band officially released it as Cornell 5/8/77. The music sounded as good as the legend said, and the fans who had stood in the snow had been right all along.",
+      "songs": [
+        "psychedelic-rock-s18"
+      ],
+      "cover": {
+        "album": "Cornell 5/8/77",
+        "artist": "Grateful Dead"
+      },
+      "kind": "concert"
+    }
+  ],
+  "covers": [
+    {
+      "id": "psychedelic-rock-c01",
+      "title": "Hey Joe",
+      "artist": "The Jimi Hendrix Experience",
+      "year": 1966,
+      "album": "Are You Experienced",
+      "original": "The Leaves",
+      "originalYear": 1965,
+      "decoys": [
+        "Love",
+        "The Byrds",
+        "Tim Rose"
+      ],
+      "note": "The Leaves had the first release, in late 1965. Hendrix based his slow version on Tim Rose's arrangement, and it was his first single."
+    },
+    {
+      "id": "psychedelic-rock-c02",
+      "title": "Morning Dew",
+      "artist": "Grateful Dead",
+      "year": 1967,
+      "album": "The Grateful Dead",
+      "original": "Bonnie Dobson",
+      "originalYear": 1962,
+      "decoys": [
+        "Joan Baez",
+        "Judy Collins",
+        "Buffy Sainte-Marie"
+      ],
+      "note": "Dobson wrote it about survivors after a nuclear war and first released it on a 1962 live album. It became one of the Dead's great closers."
+    },
+    {
+      "id": "psychedelic-rock-c03",
+      "title": "Me and Bobby McGee",
+      "artist": "Janis Joplin",
+      "year": 1971,
+      "album": "Pearl",
+      "original": "Roger Miller",
+      "originalYear": 1969,
+      "decoys": [
+        "Kris Kristofferson",
+        "Johnny Cash",
+        "Waylon Jennings"
+      ],
+      "note": "Kris Kristofferson wrote it with Fred Foster, but Roger Miller released it first. Joplin's version topped the chart months after her death."
+    },
+    {
+      "id": "psychedelic-rock-c04",
+      "title": "She's Not There",
+      "artist": "Santana",
+      "year": 1977,
+      "album": "Moonflower",
+      "original": "The Zombies",
+      "originalYear": 1964,
+      "decoys": [
+        "The Hollies",
+        "The Animals",
+        "The Yardbirds"
+      ],
+      "note": "Santana turned the Zombies' 1964 hit into a Latin rock workout with a long guitar break, and it went top 20 in Britain."
+    },
+    {
+      "id": "psychedelic-rock-c05",
+      "title": "Turn On Your Love Light",
+      "artist": "Grateful Dead",
+      "year": 1969,
+      "album": "Live/Dead",
+      "original": "Bobby \"Blue\" Bland",
+      "originalYear": 1961,
+      "decoys": [
+        "Ray Charles",
+        "Otis Redding",
+        "Wilson Pickett"
+      ],
+      "note": "Bland's original was a 1961 R&B hit. Pigpen made it a Dead showcase that could run past 20 minutes."
+    },
+    {
+      "id": "psychedelic-rock-c06",
+      "title": "Hush",
+      "artist": "Deep Purple",
+      "year": 1968,
+      "album": "Shades of Deep Purple",
+      "original": "Billy Joe Royal",
+      "originalYear": 1967,
+      "decoys": [
+        "Joe South",
+        "Tommy James and the Shondells",
+        "The Box Tops"
+      ],
+      "note": "Joe South wrote it and Billy Joe Royal released it first, in 1967. Deep Purple's version reached number 4 in America."
+    }
+  ]
+}

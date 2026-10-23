@@ -26,6 +26,9 @@ enum OnThisDay {
         "rapper", "band", "rock group", "vocalist", "record producer", "album", "single by", "song by",
     ]
 
+    /// Band names that are also everyday words in song titles ("Endless Love"), too loose to match on.
+    static let ambiguousArtists: Set<String> = ["Love", "Spirit"]
+
     static func moments(month: Int, day: Int, artists: [String], session: URLSession = .shared) async throws -> [MusicMoment] {
         let path = String(format: "%02d/%02d", month, day)
         guard let url = URL(string: "https://en.wikipedia.org/api/rest_v1/feed/onthisday/all/\(path)") else { return [] }
@@ -69,7 +72,7 @@ enum OnThisDay {
             // "Queen Elizabeth", a quoted "Queen of Pop-Rap".
             return artists.first { artist in
                 let name = NSRegularExpression.escapedPattern(for: artist)
-                return artist.count >= 4
+                return artist.count >= 4 && !ambiguousArtists.contains(artist)
                     && extract.range(of: "(?<![\"\u{201C}])\\b\(name)\\b(?! of\\b)(?! [A-Z])", options: .regularExpression) != nil
             }
         }

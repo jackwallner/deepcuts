@@ -6,7 +6,7 @@ final class ContentLibrary: Sendable {
     /// Display order for crates. Files not listed sort after these by name.
     static let order = [
         "classic-rock", "british-invasion", "southern-rock", "heavy-metal", "prog-rock",
-        "motown-soul", "folk-singer-songwriter", "yacht-rock", "punk-new-wave", "eighties",
+        "motown-soul", "folk-singer-songwriter", "psychedelic-rock", "yacht-rock", "punk-new-wave", "eighties",
         "grunge-alt", "pop", "modern-pop", "country", "blues", "disco-funk", "hip-hop",
     ]
 

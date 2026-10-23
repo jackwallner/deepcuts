@@ -53,6 +53,34 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["Listen"].waitForExistence(timeout: 5))
     }
 
+    func testPsychedelicCrateFromOnboarding() {
+        let app = launch()
+        let pick = app.buttons["crate-psychedelic-rock"]
+        XCTAssertTrue(pick.waitForExistence(timeout: 10))
+        pick.tap()
+        app.buttons["focus-done"].tap()
+        app.tabBars.buttons["Play"].tap()
+        let crate = app.buttons["open-psychedelic-rock"]
+        XCTAssertTrue(crate.waitForExistence(timeout: 10))
+        crate.tap()
+        attach(app, "psychedelic-crate")
+        let hard = app.buttons["mode-hard"]
+        XCTAssertTrue(hard.waitForExistence(timeout: 5))
+        hard.tap()
+        XCTAssertTrue(app.buttons["choice-1"].waitForExistence(timeout: 6))
+        attach(app, "psychedelic-hard-question")
+        playRound(app)
+        XCTAssertTrue(app.staticTexts["result-score"].waitForExistence(timeout: 10))
+    }
+
+    func attach(_ app: XCUIApplication, _ name: String) {
+        sleep(2)
+        let attachment = XCTAttachment(screenshot: app.screenshot())
+        attachment.name = name
+        attachment.lifetime = .keepAlways
+        add(attachment)
+    }
+
     func testCoverOfTheDayOnToday() {
         let app = launch(["-ui-focus", "classic-rock,southern-rock"])
         let reveal = app.buttons["cover-reveal"]
