@@ -31,6 +31,7 @@ struct YouView: View {
                     app.progress.setFocus(picked); Task { await app.loadMoments(force: true) }
                     editingFocus = false
                 }
+                .environment(app)
             }
         }
     }

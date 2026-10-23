@@ -55,11 +55,13 @@ struct RootView: View {
                 OnboardingView()
             }
         }
+        // Presented views get the model again: as an iPhone app on a Mac they can lose it,
+        // and the first @Environment(AppModel.self) read crashed (TestFlight, build 8).
         .fullScreenCover(item: $app.activeQuiz) { spec in
-            QuizView(spec: spec)
+            QuizView(spec: spec).environment(app)
         }
         .sheet(isPresented: $app.showingFeedback) {
-            FeedbackView(context: app.feedbackContext)
+            FeedbackView(context: app.feedbackContext).environment(app)
         }
         .onChange(of: app.activeQuiz) { _, quiz in
             if quiz == nil {
