@@ -1532,6 +1532,41 @@
   "trackId": 918534711,
   "trackViewUrl": "https://music.apple.com/us/album/in-the-court-of-the-crimson-king-expanded-edition/918534711?uo=4"
  },
+ "cover-psychedelic-rock-st1": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1e/35/8b/1e358b19-d9fa-3bea-bc6a-ab80386162bd/603497920969.jpg/600x600bb.jpg",
+  "key": "The Grateful Dead|Grateful Dead",
+  "previewUrl": null,
+  "trackId": 663678672,
+  "trackViewUrl": "https://music.apple.com/us/album/grateful-dead/663678672?uo=4"
+ },
+ "cover-psychedelic-rock-st2": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9b/a3/ef/9ba3efe7-c02b-0579-7fc6-d7050fbe225a/mzi.fakwjhti.jpg/600x600bb.jpg",
+  "key": "Fifth Dimension|The Byrds",
+  "previewUrl": null,
+  "trackId": 275689785,
+  "trackViewUrl": "https://music.apple.com/us/album/fifth-dimension-bonus-track-version/275689785?uo=4"
+ },
+ "cover-psychedelic-rock-st3": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/bd/17/5cbd17d6-ceea-e185-e889-ee494cc650da/828765035125.jpg/600x600bb.jpg",
+  "key": "Surrealistic Pillow|Jefferson Airplane",
+  "previewUrl": null,
+  "trackId": 281811707,
+  "trackViewUrl": "https://music.apple.com/us/album/surrealistic-pillow-2003-bonus-track-edition/281811707?uo=4"
+ },
+ "cover-psychedelic-rock-st4": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/bd/17/5cbd17d6-ceea-e185-e889-ee494cc650da/828765035125.jpg/600x600bb.jpg",
+  "key": "Surrealistic Pillow|Jefferson Airplane",
+  "previewUrl": null,
+  "trackId": 281811707,
+  "trackViewUrl": "https://music.apple.com/us/album/surrealistic-pillow-2003-bonus-track-edition/281811707?uo=4"
+ },
+ "cover-psychedelic-rock-st5": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/f3/ae/39f3aef8-f226-b196-7f75-35c9d23cc8ab/603497872121.jpg/600x600bb.jpg",
+  "key": "Cornell 5/8/77|Grateful Dead",
+  "previewUrl": null,
+  "trackId": 1204914175,
+  "trackViewUrl": "https://music.apple.com/us/album/cornell-5-8-77-live/1204914175?uo=4"
+ },
  "cover-punk-new-wave-st1": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features4/v4/e0/34/88/e03488bc-be97-55a9-6d9e-2dccab02c3b7/dj.quodxoxa.jpg/600x600bb.jpg",
   "key": "Ramones|Ramones",
@@ -3428,6 +3463,174 @@
   "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/09/52/280952fe-f81d-cbc3-42f6-9884fd7da784/mzaf_17013037088667352358.plus.aac.p.m4a",
   "trackId": 734725123,
   "trackViewUrl": "https://music.apple.com/us/album/owner-of-a-lonely-heart/734723208?i=734725123&uo=4"
+ },
+ "psychedelic-rock-c01": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/67/45/006745f5-95d5-5a06-35ed-d515e9cfd7d8/dj.tbwlxwoh.jpg/600x600bb.jpg",
+  "key": "Hey Joe|The Jimi Hendrix Experience",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/ea/5f/55ea5f7a-8a5c-5ceb-fd05-75ff60071b72/mzaf_12822588663393815938.plus.aac.p.m4a",
+  "trackId": 357225399,
+  "trackViewUrl": "https://music.apple.com/us/album/hey-joe/357225315?i=357225399&uo=4"
+ },
+ "psychedelic-rock-c02": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/fb/f3/5afbf38c-a7f7-cb85-dcaa-4a35f2ed48e0/603497870189.jpg/600x600bb.jpg",
+  "key": "Morning Dew|Grateful Dead",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/36/b1/0236b151-0bcd-82aa-c485-0bb281dc6f8f/mzaf_7536788469143804749.plus.aac.p.m4a",
+  "trackId": 1178259529,
+  "trackViewUrl": "https://music.apple.com/us/album/morning-dew/1178259490?i=1178259529&uo=4"
+ },
+ "psychedelic-rock-c03": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/9d/87/169d87fe-76ee-1c50-d186-14ac71ab237e/886443610538.jpg/600x600bb.jpg",
+  "key": "Me and Bobby McGee|Janis Joplin",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/1f/7d/d71f7d99-814a-e9c4-2093-26227915d01a/mzaf_3099168616896303081.plus.aac.p.m4a",
+  "trackId": 917030915,
+  "trackViewUrl": "https://music.apple.com/us/album/me-and-bobby-mcgee/917030890?i=917030915&uo=4"
+ },
+ "psychedelic-rock-c04": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/e0/ff/c5e0ff15-3f84-b12b-6327-76bcf6ad37f5/886444593168.jpg/600x600bb.jpg",
+  "key": "She's Not There|Santana",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/db/c4/46dbc4ce-6b62-fe42-029a-9bb44d130870/mzaf_14255437999938183304.plus.aac.p.m4a",
+  "trackId": 871147099,
+  "trackViewUrl": "https://music.apple.com/us/album/shes-not-there/871147087?i=871147099&uo=4"
+ },
+ "psychedelic-rock-c05": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/49/b4/5d/49b45d77-7185-037e-b412-2cbdd573ebee/081227439521.jpg/600x600bb.jpg",
+  "key": "Turn On Your Love Light|Grateful Dead",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/1d/08/131d0825-b111-e69e-6336-4ab82167cea1/mzaf_13106683769347835115.plus.aac.p.m4a",
+  "trackId": 673426221,
+  "trackViewUrl": "https://music.apple.com/us/album/turn-on-your-love-light-live-fillmore-west-san-francisco/673426079?i=673426221&uo=4"
+ },
+ "psychedelic-rock-c06": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c2/35/57/mzi.iiamnxxn.jpg/600x600bb.jpg",
+  "key": "Hush|Deep Purple",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/bf/05/13bf051c-e23e-efec-8a7a-28229a6c6ba3/mzaf_8246851483505232581.plus.aac.p.m4a",
+  "trackId": 83155547,
+  "trackViewUrl": "https://music.apple.com/us/album/hush/83155652?i=83155547&uo=4"
+ },
+ "psychedelic-rock-s01": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/bd/17/5cbd17d6-ceea-e185-e889-ee494cc650da/828765035125.jpg/600x600bb.jpg",
+  "key": "White Rabbit|Jefferson Airplane",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/9d/7f/c6/9d7fc652-907c-b040-3ee0-07de78b6e064/mzaf_5136406247672899456.plus.aac.p.m4a",
+  "trackId": 281811771,
+  "trackViewUrl": "https://music.apple.com/us/album/white-rabbit/281811707?i=281811771&uo=4"
+ },
+ "psychedelic-rock-s02": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/bd/17/5cbd17d6-ceea-e185-e889-ee494cc650da/828765035125.jpg/600x600bb.jpg",
+  "key": "Somebody to Love|Jefferson Airplane",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/60/a7/98/60a7986d-76ca-f4ea-7541-e07314ac480c/mzaf_14375096787608655761.plus.aac.p.m4a",
+  "trackId": 281811734,
+  "trackViewUrl": "https://music.apple.com/us/album/somebody-to-love/281811707?i=281811734&uo=4"
+ },
+ "psychedelic-rock-s03": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9b/a3/ef/9ba3efe7-c02b-0579-7fc6-d7050fbe225a/mzi.fakwjhti.jpg/600x600bb.jpg",
+  "key": "Eight Miles High|The Byrds",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/2a/36/382a36d2-46e6-f98c-364a-aa48acff88b2/mzaf_17962759597549202058.plus.aac.p.m4a",
+  "trackId": 275689910,
+  "trackViewUrl": "https://music.apple.com/us/album/eight-miles-high/275689785?i=275689910&uo=4"
+ },
+ "psychedelic-rock-s04": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/27/20/f5272061-2466-6375-c2d1-f20d14be569f/603497920952.jpg/600x600bb.jpg",
+  "key": "Truckin'|Grateful Dead",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/81/a6/a581a6c2-5a1b-f3cd-d807-553d81d4febb/mzaf_5426361927659242097.plus.aac.p.m4a",
+  "trackId": 664831858,
+  "trackViewUrl": "https://music.apple.com/us/album/truckin/664831661?i=664831858&uo=4"
+ },
+ "psychedelic-rock-s05": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/79/cc/eb/79ccebad-c071-ad53-2aa7-aeef95f8f4bf/603497920983.jpg/600x600bb.jpg",
+  "key": "Casey Jones|Grateful Dead",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/d4/10/93d41046-b0f6-96e3-1057-61c18c7a50e4/mzaf_3825468466057658928.plus.aac.p.m4a",
+  "trackId": 663696490,
+  "trackViewUrl": "https://music.apple.com/us/album/casey-jones/663696329?i=663696490&uo=4"
+ },
+ "psychedelic-rock-s06": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/1c/33/381c33fe-f2d1-10e8-a603-71c2fc71c970/603497920747.jpg/600x600bb.jpg",
+  "key": "Touch of Grey|Grateful Dead",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/51/a4/5651a42a-80cb-04ba-b7c6-c44f8364a00a/mzaf_2172798907967869455.plus.aac.p.m4a",
+  "trackId": 663662731,
+  "trackViewUrl": "https://music.apple.com/us/album/touch-of-grey/663662522?i=663662731&uo=4"
+ },
+ "psychedelic-rock-s07": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/5c/f3/9c5cf3ff-b840-e1be-ee06-4d9220b36901/074646578421.jpg/600x600bb.jpg",
+  "key": "Ball and Chain|Big Brother & The Holding Company",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/6b/17/726b173a-5b2e-a3d2-3ff1-5368d5494d89/mzaf_3232150089455847515.plus.aac.p.m4a",
+  "trackId": 203776364,
+  "trackViewUrl": "https://music.apple.com/us/album/ball-and-chain/203773381?i=203776364&uo=4"
+ },
+ "psychedelic-rock-s08": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c8/3a/fa/c83afa2a-a76b-a115-89db-e3cddcd8c7bf/075679039224.jpg/600x600bb.jpg",
+  "key": "In-A-Gadda-Da-Vida|Iron Butterfly",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/0c/42/f00c4297-cba3-deb9-c68d-6e4e6644312d/mzaf_10468474444712085633.plus.aac.p.m4a",
+  "trackId": 780234010,
+  "trackViewUrl": "https://music.apple.com/us/album/in-a-gadda-da-vida/780234002?i=780234010&uo=4"
+ },
+ "psychedelic-rock-s09": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/26/d8/bd/26d8bd70-be81-0d91-dcb7-82c266d05c2d/889176131967.jpg/600x600bb.jpg",
+  "key": "You're Gonna Miss Me|The 13th Floor Elevators",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/86/29/14862935-7421-68c9-b093-945474823f6b/mzaf_18288983763746402054.plus.aac.p.m4a",
+  "trackId": 938646950,
+  "trackViewUrl": "https://music.apple.com/us/album/youre-gonna-miss-me-alternate-walt-andrus-stereo-re-master/938644586?i=938646950&uo=4"
+ },
+ "psychedelic-rock-s10": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/ee/47/5aee470b-8df3-2b3d-f24e-5f79f24350a9/603497886968.jpg/600x600bb.jpg",
+  "key": "Alone Again Or|Love",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/a3/0b/04a30b70-d51a-6ce6-4860-3e7891a8908b/mzaf_10644169986161069953.plus.aac.p.m4a",
+  "trackId": 1125521742,
+  "trackViewUrl": "https://music.apple.com/us/album/alone-again-or/1125521386?i=1125521742&uo=4"
+ },
+ "psychedelic-rock-s11": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/13/96/771396ee-bfc5-b8a3-2cb7-1e2da4047fb4/603497920877.jpg/600x600bb.jpg",
+  "key": "I Had Too Much to Dream (Last Night)|The Electric Prunes",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/64/b7/ee64b727-8c65-4405-8059-95e2d35e9f55/mzaf_450567585727052771.plus.aac.p.m4a",
+  "trackId": 655575136,
+  "trackViewUrl": "https://music.apple.com/us/album/i-had-too-much-to-dream-last-night/655574615?i=655575136&uo=4"
+ },
+ "psychedelic-rock-s12": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/b4/d3/e7b4d3e0-66d5-0cea-4054-47f3e8bae778/886445635799.jpg/600x600bb.jpg",
+  "key": "Astronomy Domine|Pink Floyd",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/6a/4d/016a4db2-7b28-f79c-3b71-b9f37efb847f/mzaf_2105825885215249262.plus.aac.p.m4a",
+  "trackId": 1065975044,
+  "trackViewUrl": "https://music.apple.com/us/album/astronomy-domine/1065975041?i=1065975044&uo=4"
+ },
+ "psychedelic-rock-s13": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/9f/e7/f9/9fe7f9f4-ba2f-b369-707f-76899faf1f2c/06UMGIM07593.rgb.jpg/600x600bb.jpg",
+  "key": "A Whiter Shade of Pale|Procol Harum",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/a8/64/44a86412-3662-88f1-d37d-3a5ca09a97c3/mzaf_2280322670445406172.plus.aac.p.m4a",
+  "trackId": 1469579797,
+  "trackViewUrl": "https://music.apple.com/us/album/a-whiter-shade-of-pale/1469579642?i=1469579797&uo=4"
+ },
+ "psychedelic-rock-s14": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/dd/bf/71ddbf81-8cf6-66f7-7af4-ec746e36618d/mzi.rvvcpuvr.jpg/600x600bb.jpg",
+  "key": "I Got a Line on You|Spirit",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/4c/6a/c84c6ab5-f3ef-2de0-9f5c-563e62f6b90b/mzaf_4849418564542139548.plus.aac.p.m4a",
+  "trackId": 171076717,
+  "trackViewUrl": "https://music.apple.com/us/album/i-got-a-line-on-you/171076111?i=171076717&uo=4"
+ },
+ "psychedelic-rock-s15": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/03/69/72/036972e3-6779-5e39-e106-f35263618e14/dj.eythitsn.jpg/600x600bb.jpg",
+  "key": "Omaha|Moby Grape",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/1c/c8/ed1cc83c-cbae-9fa2-d165-464a888a2994/mzaf_17082783188393786440.plus.aac.p.m4a",
+  "trackId": 155679491,
+  "trackViewUrl": "https://music.apple.com/us/album/omaha/155678972?i=155679491&uo=4"
+ },
+ "psychedelic-rock-s16": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/88/ba/86/88ba868b-9050-385c-cd41-94a83f10ddd3/mzi.hrczplmh.jpg/600x600bb.jpg",
+  "key": "Time Has Come Today|The Chambers Brothers",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/03/39/e60339b0-7898-3c17-2ab4-fafd8ecc0547/mzaf_16840221290035190151.plus.aac.p.m4a",
+  "trackId": 206175407,
+  "trackViewUrl": "https://music.apple.com/us/album/time-has-come-today/206175371?i=206175407&uo=4"
+ },
+ "psychedelic-rock-s17": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ba/1d/93/ba1d93f7-1459-c147-b41b-cd1f83c53065/603497920921.jpg/600x600bb.jpg",
+  "key": "Scarlet Begonias|Grateful Dead",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/44/15/6a4415d1-880b-d93b-cedf-2fbd785d097e/mzaf_1025260370708332863.plus.aac.p.m4a",
+  "trackId": 663668221,
+  "trackViewUrl": "https://music.apple.com/us/album/scarlet-begonias/663668215?i=663668221&uo=4"
+ },
+ "psychedelic-rock-s18": {
+  "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/02/70/3e/02703e81-e2b9-a48f-a748-89a23bdfefc7/00602537759217.rgb.jpg/600x600bb.jpg",
+  "key": "Incense and Peppermints|Strawberry Alarm Clock",
+  "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/fd/6e/38fd6ef4-32fb-cf2e-911e-599b036c429a/mzaf_13052136333606062612.plus.aac.p.m4a",
+  "trackId": 1444212836,
+  "trackViewUrl": "https://music.apple.com/us/album/incense-and-peppermints/1444211856?i=1444212836&uo=4"
  },
  "punk-new-wave-c01": {
   "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/cd/a8/0bcda80a-0046-aa13-1416-71d844dfb711/886445500394.jpg/600x600bb.jpg",

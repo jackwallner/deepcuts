@@ -64,7 +64,7 @@ final class AppModel {
         "motown-soul": ["soul", "r&b", "rhythm and blues", "motown"], "folk-singer-songwriter": ["folk", "singer-songwriter"],
         "yacht-rock": ["soft rock", "rock"], "punk-new-wave": ["punk", "new wave"], "eighties": ["pop", "rock", "new wave"],
         "grunge-alt": ["grunge", "alternative", "indie"], "pop": ["pop"], "modern-pop": ["pop", "r&b"],
-        "country": ["country"], "blues": ["blues"], "disco-funk": ["disco", "funk"], "hip-hop": ["rapper", "hip hop", "hip-hop"],
+        "country": ["country"], "blues": ["blues"], "disco-funk": ["disco", "funk"], "psychedelic-rock": ["psychedelic", "rock"], "hip-hop": ["rapper", "hip hop", "hip-hop"],
     ]
 
     func offers(_ mode: QuizMode, crate: Genre?) -> Bool {

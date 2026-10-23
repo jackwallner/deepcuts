@@ -206,6 +206,12 @@ final class OnThisDayTests: XCTestCase {
         XCTAssertFalse(moments.contains { $0.connection == "Queen" }, "\"Queen of Salsa\" and \"Queen Elizabeth\" are not the band")
         XCTAssertTrue(moments.contains { $0.text.contains("Steve Cropper") && $0.connection == "Otis Redding" })
     }
+
+    func testCommonWordBandsDoNotCountAsArtists() throws {
+        let json = #"{"births":[{"text":"Ellie Greenwich, American singer-songwriter","year":1940,"pages":[{"description":"American singer-songwriter","extract":"She wrote \"Then He Kissed Me\" and songs about Love with Jeff Barry."}]}]}"#
+        let moments = OnThisDay.parse(Data(json.utf8), artists: ["Love", "Spirit", "Jeff Barry"])
+        XCTAssertEqual(moments.first?.connection, "Jeff Barry")
+    }
 }
 
 final class FeedbackTests: XCTestCase {
