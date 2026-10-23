@@ -10,7 +10,8 @@ import asc_lib
 APP_ID = "6825448110"
 GROUP = "Family"
 TESTERS = {"wallners@gmail.com": ("John", "Wallner"), "jackwallner@gmail.com": ("Jack", "Wallner"),
-           "emiwallner@gmail.com": ("Emi", "Wallner"), "michaelhonig@msn.com": ("Michael", "Honig")}
+           "emiwallner@gmail.com": ("Emi", "Wallner"), "michaelhonig@msn.com": ("Michael", "Honig"),
+           "ccsincorp93@gmail.com": ("Scott", "Johnston")}
 
 
 def main() -> None:
