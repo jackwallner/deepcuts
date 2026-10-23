@@ -64,6 +64,8 @@ A wrong question also gets its fix published live (`scripts/content-remote.py pu
 ## Release
 - TestFlight: `./scripts/testflight.sh` (validates content first). Internal group **Family**
   (Jack, John, Emi, Michael, Scott) gets every build; no Beta App Review.
+  `scripts/asc-testers.py` (hourly `deepcuts-testers.timer` on the iMac) adds accepted invitees and keeps
+  non-admin testers locked to Deep Cuts only.
 - Not submitted to the App Store yet; that needs Jack (listing, privacy label, previews licensing review).
 
 ## Area rules (`.claude/rules/`)
