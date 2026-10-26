@@ -22,8 +22,11 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
   `PreviewPlayer` (AVPlayer, 30s previews), `OnThisDayService`, `FeedbackService`, `RemoteContent`
 - `DeepCuts/`: `DeepCutsApp` (launch args below), `AppModel` (environment object),
   `Views/` (Theme, Components, Onboarding/FocusPicker, Today, Play/Crate, Quiz/Result, Stories, You, Feedback)
-- `DeepCuts/Content/genres/<id>.json`: one crate each, schema in `docs/content/SCHEMA.md`.
+- `DeepCuts/Content/genres/<id>.json`: one crate each, schema in `project-docs/content/SCHEMA.md`.
   `DeepCuts/Content/catalog.json`: song id -> Apple Music track, written by `scripts/resolve-catalog.py`.
+- `docs/`: marketing site (GitHub Pages, `main` /docs), mirrored to `https://jackwallner.com/ios/deepcuts/`
+  by `.github/workflows/sync-landing-page.yml`. Format: `~/ios/landing-pages/README.md`.
+  Working notes go in `project-docs/`.
 - `supabase/`: `tester_feedback` and `deepcuts_content` tables, `tester-feedback` and
   `deepcuts-content` edge functions (in the Sports project).
 
