@@ -84,33 +84,77 @@ struct Venue: Identifiable, Hashable, Sendable {
 }
 
 enum VenueFinder {
-    static let radiusMeters: CLLocationDistance = 40_000
+    static let distanceOptions = [10, 25, 50, 100]
+    static let defaultMiles = 25
+
+    /// Clubs, theaters, ballrooms and amphitheaters: the rooms a club or theater tour plays.
+    /// Each query is searched separately, since one Apple Maps search returns only about 25 places.
+    private static let queries: [(text: String, barsToo: Bool)] = [
+        ("live music venue", true),
+        ("music club", true),
+        ("concert hall", false),
+        ("theater live music", false),
+        ("amphitheater", false),
+        ("ballroom concerts", false),
+    ]
+
+    /// Places that come back for music searches but never host a touring band.
+    private static var excludedCategories: [MKPointOfInterestCategory] {
+        [.movieTheater, .stadium, .school, .university, .library, .museum, .store]
+    }
+    private static let excludedWords = [
+        "karaoke", "cinema", "cinemas", "movie", "movies", "imax", "stadium", "arena", "school",
+        "lessons", "music store", "guitar center", "dance studio", "comedy", "improv", "escape room",
+        "bowling", "kids", "children's",
+    ]
 
     @MainActor
-    static func nearby(_ location: CLLocation) async throws -> [Venue] {
+    static func nearby(_ location: CLLocation, miles: Int = defaultMiles) async throws -> [Venue] {
+        let radius = Double(miles) * 1609.344
+        var found: [Venue] = []
+        var failures = 0
+        for query in queries {
+            do {
+                found += try await search(query.text, barsToo: query.barsToo, around: location, radius: radius)
+            } catch {
+                failures += 1
+            }
+        }
+        if failures == queries.count { throw URLError(.cannotLoadFromNetwork) }
+        return closestUnique(found)
+    }
+
+    @MainActor
+    private static func search(_ text: String, barsToo: Bool, around location: CLLocation, radius: CLLocationDistance) async throws -> [Venue] {
         let request = MKLocalSearch.Request()
-        request.naturalLanguageQuery = "live music venue"
-        request.region = MKCoordinateRegion(center: location.coordinate, latitudinalMeters: radiusMeters * 2, longitudinalMeters: radiusMeters * 2)
+        request.naturalLanguageQuery = text
+        request.region = MKCoordinateRegion(center: location.coordinate, latitudinalMeters: radius * 2, longitudinalMeters: radius * 2)
         request.resultTypes = .pointOfInterest
         if #available(iOS 18, *) {
-            request.pointOfInterestFilter = MKPointOfInterestFilter(including: [.musicVenue, .nightlife, .theater])
+            request.pointOfInterestFilter = MKPointOfInterestFilter(including: barsToo ? [.musicVenue, .theater, .nightlife] : [.musicVenue, .theater])
         }
         let response = try await MKLocalSearch(request: request).start()
-        let venues = response.mapItems.compactMap { item -> Venue? in
-            guard let name = item.name else { return nil }
+        return response.mapItems.compactMap { item -> Venue? in
+            guard let name = item.name, isVenue(name: name, category: item.pointOfInterestCategory) else { return nil }
             let coordinate = item.placemark.coordinate
             let meters = location.distance(from: CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
-            guard meters <= radiusMeters else { return nil }
+            guard meters <= radius else { return nil }
             return Venue(name: name, area: item.placemark.locality, miles: meters / 1609.344,
                          latitude: coordinate.latitude, longitude: coordinate.longitude, website: item.url)
         }
-        return closestUnique(venues)
     }
 
-    /// Nearest first, one row per name (chains and duplicate pins collapse), at most 12.
+    /// Drops cinemas, stadiums, schools, karaoke bars and the like.
+    static func isVenue(name: String, category: MKPointOfInterestCategory?) -> Bool {
+        if let category, excludedCategories.contains(category) { return false }
+        let words = name.lowercased()
+        return !excludedWords.contains { words.range(of: "\\b\($0)\\b", options: .regularExpression) != nil }
+    }
+
+    /// Nearest first, one row per name (chains and duplicate pins collapse), at most 20.
     static func closestUnique(_ venues: [Venue]) -> [Venue] {
         var seen = Set<String>()
-        return Array(venues.sorted { $0.miles < $1.miles }.filter { seen.insert($0.name.lowercased()).inserted }.prefix(12))
+        return Array(venues.sorted { $0.miles < $1.miles }.filter { seen.insert($0.name.lowercased()).inserted }.prefix(20))
     }
 
     /// Screenshots and UI tests: two sample rows instead of a live search.

@@ -16,6 +16,7 @@ struct YouView: View {
 
                     stats
                     crates
+                    settings
                     suggestions
                     about
                 }
@@ -79,6 +80,27 @@ struct YouView: View {
                 .font(.subheadline.weight(.semibold))
                 .accessibilityIdentifier("change-crates")
         }
+    }
+
+    private var settings: some View {
+        NavigationLink {
+            SettingsView()
+        } label: {
+            HStack(spacing: 12) {
+                Image(systemName: "slider.horizontal.3").font(.title3).foregroundStyle(Theme.accent)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Settings").font(.headline).foregroundStyle(Theme.ink)
+                    Text("Order of the Today screen, and how far to look for venues").font(.subheadline).foregroundStyle(Theme.inkSoft)
+                        .multilineTextAlignment(.leading)
+                }
+                Spacer()
+                Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(Theme.inkSoft)
+            }
+            .padding(16)
+            .card()
+        }
+        .buttonStyle(PressableStyle())
+        .accessibilityIdentifier("open-settings")
     }
 
     private var suggestions: some View {
