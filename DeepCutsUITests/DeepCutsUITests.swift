@@ -293,3 +293,91 @@ final class Tour: XCTestCase {
         shot("feedback-sent")
     }
 }
+
+/// Temporary: marketing stills and the preview walkthrough.
+final class MarketingShots: XCTestCase {
+    var app: XCUIApplication!
+
+    func shot(_ name: String) {
+        let a = XCTAttachment(screenshot: XCUIScreen.main.screenshot())
+        a.name = name
+        a.lifetime = .keepAlways
+        add(a)
+    }
+
+    func pause(_ s: Double) { Thread.sleep(forTimeInterval: s) }
+
+    func answerRight() {
+        let right = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH 'choice-' AND value == 'answer'")).firstMatch
+        XCTAssertTrue(right.waitForExistence(timeout: 15))
+        right.tap()
+    }
+
+    func open(_ crate: String, _ mode: String) {
+        app.tabBars.buttons["Play"].tap()
+        let c = app.buttons["open-\(crate)"]
+        XCTAssertTrue(c.waitForExistence(timeout: 10))
+        c.tap()
+        let m = app.buttons["mode-\(mode)"]
+        XCTAssertTrue(m.waitForExistence(timeout: 10))
+        m.tap()
+    }
+
+    func close() {
+        app.buttons["quiz-close"].tap()
+        pause(1)
+        if app.navigationBars.buttons.firstMatch.exists { app.navigationBars.buttons.firstMatch.tap() }
+        pause(0.8)
+    }
+
+    func testTour() {
+        app = XCUIApplication()
+        app.launchArguments = ["-ui-reset", "-ui-feedback-stub", "-ui-answers", "-ui-focus", "classic-rock,southern-rock"]
+        app.launch()
+        XCTAssertTrue(app.buttons["cover-reveal"].waitForExistence(timeout: 20))
+        pause(4)
+        shot("01-today")
+        app.buttons["cover-reveal"].tap()
+        pause(3)
+
+        open("classic-rock", "trivia")
+        XCTAssertTrue(app.staticTexts["quiz-prompt"].waitForExistence(timeout: 10))
+        pause(3)
+        answerRight()
+        pause(3.5)
+        shot("02-trivia")
+        close()
+
+        open("southern-rock", "tune")
+        XCTAssertTrue(app.buttons["choice-0"].waitForExistence(timeout: 15))
+        pause(5)
+        shot("03-tune")
+        answerRight()
+        pause(3.5)
+        close()
+
+        open("classic-rock", "firstOf")
+        XCTAssertTrue(app.buttons["choice-0"].waitForExistence(timeout: 15))
+        pause(3)
+        answerRight()
+        pause(3.5)
+        shot("04-firstof")
+        close()
+
+        app.tabBars.buttons["Stories"].tap()
+        let story = app.buttons["story-classic-rock-st7"]
+        for _ in 0..<6 where !story.isHittable { app.swipeUp(velocity: .slow) }
+        story.tap()
+        pause(3)
+        shot("05-story")
+        app.swipeUp(velocity: .slow)
+        pause(3)
+        app.tabBars.buttons["Play"].tap()
+        pause(1.5)
+        if app.navigationBars.buttons.firstMatch.exists { app.navigationBars.buttons.firstMatch.tap() }
+        pause(2)
+        shot("06-play")
+        app.tabBars.buttons["Today"].tap()
+        pause(2)
+    }
+}

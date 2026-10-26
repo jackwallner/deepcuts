@@ -138,6 +138,7 @@ struct QuizView: View {
                     .buttonStyle(PressableStyle())
                     .disabled(picked != nil || clipFailed)
                     .accessibilityIdentifier("choice-\(i)")
+                    .accessibilityValue(ProcessInfo.processInfo.arguments.contains("-ui-answers") && i == item.correctIndex ? "answer" : "")
             }
         }
         .sensoryFeedback(trigger: picked) { _, new in
@@ -205,6 +206,7 @@ struct QuizView: View {
                     .buttonStyle(PressableStyle())
                     .disabled(picked != nil)
                     .accessibilityIdentifier("choice-\(i)")
+                    .accessibilityValue(ProcessInfo.processInfo.arguments.contains("-ui-answers") && i == item.correctIndex ? "answer" : "")
             }
         }
         .sensoryFeedback(trigger: picked) { _, new in

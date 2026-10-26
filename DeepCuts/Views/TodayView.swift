@@ -157,9 +157,9 @@ struct CoverOfTheDayCard: View {
                 HStack(alignment: .top, spacing: 14) {
                     ArtworkView(songID: cover.id, size: 72, corner: 4)
                     VStack(alignment: .leading, spacing: 4) {
-                        Kicker(text: "\(genre.name) · \(String(cover.year))", color: Theme.crate(genre.id))
+                        Kicker(text: genre.name, color: Theme.crate(genre.id))
                         Text(cover.title).font(Theme.serif(.title3, weight: .bold)).foregroundStyle(Theme.ink)
-                        Text(cover.artist).font(.subheadline).foregroundStyle(Theme.inkSoft)
+                        Text("\(cover.artist) · \(String(cover.year))").font(.subheadline).foregroundStyle(Theme.inkSoft)
                     }
                     Spacer(minLength: 8)
                     PlayButton(songID: cover.id, label: "\(cover.title) by \(cover.artist)")
