@@ -22,6 +22,47 @@ struct ProgressData: Codable, Sendable {
     var bestScores: [String: Int] = [:]
     var readStories: Set<String> = []
     var feedbackIDs: [Int] = []
+    /// Today screen sections, top to bottom, as `TodaySection` raw values.
+    var todayOrder: [String] = []
+    /// How far the Live tab looks for venues.
+    var venueMiles = VenueFinder.defaultMiles
+}
+
+extension ProgressData {
+    /// Every field is optional on disk, so a file saved by an older build still loads.
+    init(from decoder: Decoder) throws {
+        self.init()
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        installID = try c.decodeIfPresent(String.self, forKey: .installID) ?? installID
+        onboarded = try c.decodeIfPresent(Bool.self, forKey: .onboarded) ?? onboarded
+        focus = try c.decodeIfPresent([String].self, forKey: .focus) ?? focus
+        testerName = try c.decodeIfPresent(String.self, forKey: .testerName) ?? testerName
+        answered = try c.decodeIfPresent([String: Bool].self, forKey: .answered) ?? answered
+        crateTallies = try c.decodeIfPresent([String: Tally].self, forKey: .crateTallies) ?? crateTallies
+        modeTallies = try c.decodeIfPresent([String: Tally].self, forKey: .modeTallies) ?? modeTallies
+        daily = try c.decodeIfPresent([String: QuizResult].self, forKey: .daily) ?? daily
+        bestScores = try c.decodeIfPresent([String: Int].self, forKey: .bestScores) ?? bestScores
+        readStories = try c.decodeIfPresent(Set<String>.self, forKey: .readStories) ?? readStories
+        feedbackIDs = try c.decodeIfPresent([Int].self, forKey: .feedbackIDs) ?? feedbackIDs
+        todayOrder = try c.decodeIfPresent([String].self, forKey: .todayOrder) ?? todayOrder
+        venueMiles = try c.decodeIfPresent(Int.self, forKey: .venueMiles) ?? venueMiles
+    }
+}
+
+/// The reorderable sections of the Today screen.
+enum TodaySection: String, CaseIterable, Identifiable, Sendable {
+    case linerNotes, covered, onThisDay, dailyMix
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .linerNotes: "Liner Notes"
+        case .covered: "Covered"
+        case .onThisDay: "On This Day"
+        case .dailyMix: "Today's Mix"
+        }
+    }
 }
 
 /// Everything the player has done, saved as one JSON file in Application Support.
@@ -64,6 +105,27 @@ final class ProgressStore {
 
     func setTesterName(_ name: String) {
         data.testerName = name
+        save()
+    }
+
+    // MARK: Settings
+
+    /// The saved order, with unknown sections dropped and new ones added at the end.
+    var todayOrder: [TodaySection] {
+        var order = data.todayOrder.compactMap(TodaySection.init(rawValue:))
+        order = order.enumerated().filter { order.firstIndex(of: $0.element) == $0.offset }.map(\.element)
+        return order + TodaySection.allCases.filter { !order.contains($0) }
+    }
+
+    func setTodayOrder(_ order: [TodaySection]) {
+        data.todayOrder = order.map(\.rawValue)
+        save()
+    }
+
+    var venueMiles: Int { VenueFinder.distanceOptions.contains(data.venueMiles) ? data.venueMiles : VenueFinder.defaultMiles }
+
+    func setVenueMiles(_ miles: Int) {
+        data.venueMiles = miles
         save()
     }
 

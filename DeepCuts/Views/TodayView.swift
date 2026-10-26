@@ -10,14 +10,7 @@ struct TodayView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 28) {
                     header
-                    if let pick = app.storyOfTheDay() {
-                        storyCard(pick.story, genre: pick.genre)
-                    }
-                    if let pick = app.coverOfTheDay() {
-                        CoverOfTheDayCard(cover: pick.cover, genre: pick.genre)
-                    }
-                    moments
-                    DailyMixCard()
+                    ForEach(app.progress.todayOrder) { section($0) }
                     suggest
                 }
                 .padding(.horizontal, Theme.gutter)
@@ -37,6 +30,21 @@ struct TodayView: View {
         }
         .padding(.top, 12)
         .accessibilityElement(children: .combine)
+    }
+
+    /// Sections follow the order set in You > Settings.
+    @ViewBuilder
+    private func section(_ section: TodaySection) -> some View {
+        switch section {
+        case .linerNotes:
+            if let pick = app.storyOfTheDay() { storyCard(pick.story, genre: pick.genre) }
+        case .covered:
+            if let pick = app.coverOfTheDay() { CoverOfTheDayCard(cover: pick.cover, genre: pick.genre) }
+        case .onThisDay:
+            moments
+        case .dailyMix:
+            DailyMixCard()
+        }
     }
 
     private func storyCard(_ story: Story, genre: Genre) -> some View {

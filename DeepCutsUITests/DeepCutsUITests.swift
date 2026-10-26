@@ -163,6 +163,31 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertFalse(stubbed.buttons["live-locate"].exists)
     }
 
+    /// Feedback #8: You > Settings reorders the Today screen and sets how far to look for venues.
+    func testSettingsReorderTodayAndVenueDistance() {
+        let app = launch(["-ui-focus", "classic-rock", "-ui-venues-stub"])
+        app.tabBars.buttons["You"].tap()
+        let open = app.buttons["open-settings"]
+        XCTAssertTrue(open.waitForExistence(timeout: 5))
+        open.tap()
+        let up = app.buttons["move-up-dailyMix"]
+        XCTAssertTrue(up.waitForExistence(timeout: 5))
+        for _ in 0..<3 { up.tap() }
+        XCTAssertFalse(up.isEnabled, "Today's Mix is now first")
+        XCTAssertTrue(app.buttons["today-order-reset"].exists)
+        app.buttons["50 mi"].tap()
+
+        app.tabBars.buttons["Today"].tap()
+        let play = app.buttons["play-daily"]
+        let story = app.buttons["story-of-the-day"]
+        XCTAssertTrue(play.waitForExistence(timeout: 5))
+        XCTAssertTrue(story.waitForExistence(timeout: 5))
+        XCTAssertLessThan(play.frame.minY, story.frame.minY, "the mix moved above Liner Notes")
+
+        app.tabBars.buttons["Live"].tap()
+        XCTAssertTrue(app.staticTexts["Within 50 mi"].waitForExistence(timeout: 5))
+    }
+
     /// Answers every item: choice 0 each time, skipping clips that can't load.
     private func playRound(_ app: XCUIApplication) {
         for _ in 0..<12 {
@@ -254,6 +279,9 @@ final class Tour: XCTestCase {
         shot("live-scrolled")
         app.tabBars.buttons["You"].tap()
         shot("you")
+        app.buttons["open-settings"].tap()
+        shot("settings")
+        app.navigationBars.buttons.firstMatch.tap()
         app.swipeUp()
         shot("you-scrolled")
         app.buttons["suggest-you"].tap()

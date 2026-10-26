@@ -34,13 +34,14 @@ struct LiveView: View {
                 if stubVenues { venues = VenueFinder.sample } else { locator.resume() }
             }
             .task(id: locator.location) { await search() }
+            .onChange(of: app.progress.venueMiles) { Task { await search() } }
         }
     }
 
     private func search() async {
         guard let location = locator.location else { return }
         do {
-            venues = try await VenueFinder.nearby(location)
+            venues = try await VenueFinder.nearby(location, miles: app.progress.venueMiles)
             searchFailed = false
         } catch {
             searchFailed = venues == nil
@@ -51,10 +52,10 @@ struct LiveView: View {
 
     private var nearby: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Near You")
+            SectionHeader(title: "Near You", trailing: "Within \(app.progress.venueMiles) mi")
             if let venues {
                 if venues.isEmpty {
-                    note("No music venues turned up within 25 miles.")
+                    note("No music venues turned up within \(app.progress.venueMiles) miles. You can look farther in You > Settings.")
                 } else {
                     VStack(spacing: 0) {
                         ForEach(venues) { venue in
@@ -62,7 +63,7 @@ struct LiveView: View {
                             if venue != venues.last { Divider().overlay(Theme.rule) }
                         }
                     }
-                    note("Tap a venue for its calendar, or the map when it has no website.")
+                    note("Clubs, theaters and amphitheaters that book touring acts. Tap one for its calendar, or the map when it has no website. Change the distance in You > Settings.")
                 }
             } else {
                 locationState

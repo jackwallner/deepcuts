@@ -186,6 +186,30 @@ final class ProgressTests: XCTestCase {
         XCTAssertEqual(reloaded.tally(crate: "classic-rock").correct, 1)
         XCTAssertEqual(reloaded.data.installID, store.data.installID)
     }
+
+    /// Feedback #8: a file from an older build, with no settings saved, still loads.
+    func testOldProgressFileLoadsWithDefaultSettings() throws {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent("progress-\(UUID()).json")
+        try Data(#"{"installID":"abc","onboarded":true,"focus":["classic-rock"],"answered":{"q":true}}"#.utf8).write(to: url)
+        let store = ProgressStore(url: url)
+        XCTAssertEqual(store.data.installID, "abc")
+        XCTAssertEqual(store.focus, ["classic-rock"])
+        XCTAssertEqual(store.data.answered["q"], true)
+        XCTAssertEqual(store.todayOrder, TodaySection.allCases)
+        XCTAssertEqual(store.venueMiles, 25)
+    }
+
+    func testTodayOrderAndDistancePersistAndRepair() {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent("progress-\(UUID()).json")
+        let store = ProgressStore(url: url)
+        store.setTodayOrder([.dailyMix, .onThisDay])
+        store.setVenueMiles(100)
+        let reloaded = ProgressStore(url: url)
+        XCTAssertEqual(reloaded.todayOrder, [.dailyMix, .onThisDay, .linerNotes, .covered])
+        XCTAssertEqual(reloaded.venueMiles, 100)
+        reloaded.setVenueMiles(7)
+        XCTAssertEqual(reloaded.venueMiles, 25, "only offered distances")
+    }
 }
 
 final class OnThisDayTests: XCTestCase {
@@ -316,5 +340,16 @@ final class LiveMusicTests: XCTestCase {
         XCTAssertEqual(list.map(\.name), ["Near", "Mid", "Far"])
         XCTAssertEqual(venue("x", 3.25).distanceLabel, "3.2 mi")
         XCTAssertEqual(venue("x", 12.6).distanceLabel, "13 mi")
+    }
+
+    /// Feedback #8: venues are rooms a touring band plays, not cinemas, stadiums or karaoke bars.
+    func testVenueFilterKeepsMusicRooms() {
+        for name in ["The Crocodile", "Neptune Theatre", "Showbox SoDo", "White River Amphitheatre", "Brixton Academy", "Studio 7"] {
+            XCTAssertTrue(VenueFinder.isVenue(name: name, category: .theater), name)
+        }
+        for name in ["Regal Cinemas", "Lumen Field Stadium", "Rock Star Karaoke", "Seattle Music Lessons", "Climate Pledge Arena"] {
+            XCTAssertFalse(VenueFinder.isVenue(name: name, category: nil), name)
+        }
+        XCTAssertFalse(VenueFinder.isVenue(name: "The Paramount", category: .movieTheater))
     }
 }
