@@ -26,6 +26,8 @@ struct ProgressData: Codable, Sendable {
     var todayOrder: [String] = []
     /// How far the Live tab looks for venues.
     var venueMiles = VenueFinder.defaultMiles
+    /// A city typed on the Live tab, searched instead of the listener's location.
+    var venueCity: String?
 }
 
 extension ProgressData {
@@ -46,6 +48,7 @@ extension ProgressData {
         feedbackIDs = try c.decodeIfPresent([Int].self, forKey: .feedbackIDs) ?? feedbackIDs
         todayOrder = try c.decodeIfPresent([String].self, forKey: .todayOrder) ?? todayOrder
         venueMiles = try c.decodeIfPresent(Int.self, forKey: .venueMiles) ?? venueMiles
+        venueCity = try c.decodeIfPresent(String.self, forKey: .venueCity)
     }
 }
 
@@ -126,6 +129,14 @@ final class ProgressStore {
 
     func setVenueMiles(_ miles: Int) {
         data.venueMiles = miles
+        save()
+    }
+
+    var venueCity: String? { data.venueCity }
+
+    func setVenueCity(_ city: String?) {
+        let trimmed = city?.trimmingCharacters(in: .whitespacesAndNewlines)
+        data.venueCity = trimmed?.isEmpty == false ? trimmed : nil
         save()
     }
 

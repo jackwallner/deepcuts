@@ -1,3 +1,4 @@
+import CoreLocation
 import XCTest
 @testable import DeepCuts
 
@@ -209,6 +210,10 @@ final class ProgressTests: XCTestCase {
         XCTAssertEqual(reloaded.venueMiles, 100)
         reloaded.setVenueMiles(7)
         XCTAssertEqual(reloaded.venueMiles, 25, "only offered distances")
+        reloaded.setVenueCity("  Seattle, WA ")
+        XCTAssertEqual(ProgressStore(url: url).venueCity, "Seattle, WA")
+        reloaded.setVenueCity(" ")
+        XCTAssertNil(ProgressStore(url: url).venueCity)
     }
 }
 
@@ -336,10 +341,43 @@ final class LiveMusicTests: XCTestCase {
         func venue(_ name: String, _ miles: Double) -> Venue {
             Venue(name: name, area: nil, miles: miles, latitude: 0, longitude: 0, website: nil)
         }
-        let list = VenueFinder.closestUnique([venue("Far", 20), venue("Near", 1), venue("near", 3), venue("Mid", 5)])
-        XCTAssertEqual(list.map(\.name), ["Near", "Mid", "Far"])
+        let hits = [venue("Far", 20), venue("Near", 1), venue("near", 3), venue("Mid", 5)].map { VenueFinder.Hit(venue: $0, musicVenue: false) }
+        XCTAssertEqual(VenueFinder.best(hits).map(\.name), ["Near", "Mid", "Far"])
         XCTAssertEqual(venue("x", 3.25).distanceLabel, "3.2 mi")
         XCTAssertEqual(venue("x", 12.6).distanceLabel, "13 mi")
+    }
+
+    /// Feedback #10: real music venues make the list ahead of the bars and theaters closer by.
+    func testMusicVenuesOutrankCloserBars() {
+        func hit(_ name: String, _ miles: Double, music: Bool = false) -> VenueFinder.Hit {
+            VenueFinder.Hit(venue: Venue(name: name, area: nil, miles: miles, latitude: 0, longitude: 0, website: nil), musicVenue: music)
+        }
+        var hits = (0..<40).map { hit("Corner Bar \($0)", 0.1 + Double($0) / 100) }
+        hits += [hit("The Showbox", 9, music: true), hit("Tractor Tavern", 12), hit("Tractor Tavern", 12), hit("Tractor Tavern", 12)]
+        let list = VenueFinder.best(hits)
+        XCTAssertEqual(list.count, VenueFinder.limit)
+        XCTAssertTrue(list.contains { $0.name == "The Showbox" })
+        XCTAssertTrue(list.contains { $0.name == "Tractor Tavern" }, "found by several music searches")
+        XCTAssertEqual(list.last?.name, "Tractor Tavern", "shown nearest first")
+    }
+
+    /// Feedback #10: Apple Maps' answer for Seattle has the rooms a Seattle fan would name.
+    @MainActor
+    func testSeattleVenuesFromAppleMaps() async throws {
+        let seattle: (name: String, location: CLLocation)?
+        let venues: [Venue]
+        do {
+            seattle = try await VenueFinder.place("Seattle, WA")
+            venues = try await VenueFinder.nearby(CLLocation(latitude: 47.6062, longitude: -122.3321))
+        } catch {
+            throw XCTSkip("Apple Maps unreachable: \(error)")
+        }
+        print("SEATTLE VENUES:", venues.map { "\($0.name) (\($0.distanceLabel))" }.joined(separator: "; "))
+        XCTAssertEqual(seattle?.name, "Seattle")
+        let names = venues.map { $0.name.lowercased() }
+        for expected in ["showbox", "crocodile", "tractor tavern"] {
+            XCTAssertTrue(names.contains { $0.contains(expected) }, expected)
+        }
     }
 
     /// Feedback #8: venues are rooms a touring band plays, not cinemas, stadiums or karaoke bars.
