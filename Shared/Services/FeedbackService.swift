@@ -1,5 +1,20 @@
 import Foundation
 
+/// TestFlight testers' suggestions start a build session on Jack's Mac, so only they see the
+/// build pipeline. App Store feedback reaches Jack without starting one.
+enum Distribution {
+    static let isTestFlight: Bool = {
+        #if DEBUG
+        true
+        #else
+        Bundle.main.appStoreReceiptURL?.lastPathComponent == "sandboxReceipt"
+        #endif
+    }()
+
+    /// Sent with every suggestion; the ops poller builds only "testflight" ones.
+    static var channel: String { isTestFlight ? "testflight" : "app_store" }
+}
+
 /// A tester's suggestion and how far it has got. Status is written by the build session
 /// on Jack's Mac: new -> queued -> working -> shipped (or needs_jack / declined).
 struct FeedbackItem: Codable, Identifiable, Hashable, Sendable {

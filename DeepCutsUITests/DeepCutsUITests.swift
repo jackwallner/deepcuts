@@ -57,6 +57,7 @@ final class DeepCutsUITests: XCTestCase {
         let app = launch()
         let pick = app.buttons["crate-psychedelic-rock"]
         XCTAssertTrue(pick.waitForExistence(timeout: 10))
+        app.scrollViews.firstMatch.swipeUp()  // the last rows sit under the pinned Continue bar
         pick.tap()
         app.buttons["focus-done"].tap()
         app.tabBars.buttons["Play"].tap()
@@ -170,10 +171,11 @@ final class DeepCutsUITests: XCTestCase {
         let open = app.buttons["open-settings"]
         XCTAssertTrue(open.waitForExistence(timeout: 5))
         open.tap()
-        let up = app.buttons["move-up-dailyMix"]
+        let up = app.buttons["move-up-linerNotes"]
         XCTAssertTrue(up.waitForExistence(timeout: 5))
-        for _ in 0..<3 { up.tap() }
-        XCTAssertFalse(up.isEnabled, "Today's Mix is now first")
+        XCTAssertFalse(app.buttons["move-up-dailyMix"].isEnabled, "Today's Mix leads by default")
+        up.tap()
+        XCTAssertFalse(up.isEnabled, "Liner Notes is now first")
         XCTAssertTrue(app.buttons["today-order-reset"].exists)
         app.buttons["50 mi"].tap()
 
@@ -182,7 +184,7 @@ final class DeepCutsUITests: XCTestCase {
         let story = app.buttons["story-of-the-day"]
         XCTAssertTrue(play.waitForExistence(timeout: 5))
         XCTAssertTrue(story.waitForExistence(timeout: 5))
-        XCTAssertLessThan(play.frame.minY, story.frame.minY, "the mix moved above Liner Notes")
+        XCTAssertLessThan(story.frame.minY, play.frame.minY, "Liner Notes moved above the mix")
 
         app.tabBars.buttons["Live"].tap()
         XCTAssertTrue(app.staticTexts["Within 50 mi"].waitForExistence(timeout: 5))
@@ -273,6 +275,7 @@ final class Tour: XCTestCase {
         shot("story")
         app.swipeUp()
         shot("story-body")
+        app.navigationBars.buttons.firstMatch.tap()  // a story hides the tab bar
         app.tabBars.buttons["Live"].tap()
         shot("live")
         app.swipeUp()

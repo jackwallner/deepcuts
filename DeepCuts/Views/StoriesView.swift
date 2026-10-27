@@ -51,7 +51,7 @@ struct StoryRow: View {
         HStack(alignment: .top, spacing: 14) {
             ArtworkView(songID: app.library.artKey(for: story), size: 76, corner: 4)
             VStack(alignment: .leading, spacing: 4) {
-                Kicker(text: "\(genre.name) · \(String(story.year))", color: Theme.crate(genre.id))
+                Kicker(text: "\(genre.name) · \(String(story.year))", color: Theme.accent)
                 Text(story.title).font(Theme.serif(.headline, weight: .bold)).foregroundStyle(Theme.ink)
                     .multilineTextAlignment(.leading)
                 Text(story.dek).font(.subheadline).foregroundStyle(Theme.inkSoft).lineLimit(2)
@@ -82,7 +82,7 @@ struct StoryView: View {
                     .padding(.top, 8)
                 VStack(alignment: .leading, spacing: 8) {
                     if let genre {
-                        Kicker(text: "\(genre.name) · \(String(story.year))", color: Theme.crate(genre.id))
+                        Kicker(text: "\(genre.name) · \(String(story.year))", color: Theme.accent)
                     }
                     Text(story.title).font(Theme.display(32)).foregroundStyle(Theme.ink)
                         .fixedSize(horizontal: false, vertical: true)
@@ -121,6 +121,7 @@ struct StoryView: View {
         }
         .paperPage()
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar(.hidden, for: .tabBar)
         .onAppear { app.progress.markRead(story) }
         .onDisappear { app.player.stop() }
     }

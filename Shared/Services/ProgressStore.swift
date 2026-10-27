@@ -51,7 +51,7 @@ extension ProgressData {
 
 /// The reorderable sections of the Today screen.
 enum TodaySection: String, CaseIterable, Identifiable, Sendable {
-    case linerNotes, covered, onThisDay, dailyMix
+    case dailyMix, linerNotes, covered, onThisDay
 
     var id: String { rawValue }
 

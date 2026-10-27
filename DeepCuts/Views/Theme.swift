@@ -20,7 +20,7 @@ enum Theme {
 
     static func display(_ size: CGFloat) -> Font {
         let scaled = UIFontMetrics(forTextStyle: .largeTitle).scaledValue(for: size)
-        return .system(size: min(scaled, size * 1.35), weight: .bold, design: .serif)
+        return .system(size: min(scaled, size * 2), weight: .bold, design: .serif)
     }
 
     static func serif(_ style: Font.TextStyle, weight: Font.Weight = .semibold) -> Font {
@@ -34,7 +34,7 @@ enum Theme {
         Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(hex: dark) : UIColor(hex: light) })
     }
 
-    /// One muted color per crate, like the dividers in a record store bin.
+    /// One muted color per crate, for the record labels and art in a round.
     static func crate(_ id: String) -> Color {
         let palette: [String: UInt32] = [
             "classic-rock": 0xB5532F, "british-invasion": 0x2F5D8A, "southern-rock": 0x8C5A2B,
@@ -44,18 +44,6 @@ enum Theme {
             "blues": 0x2C4E7A, "disco-funk": 0xB8862E, "hip-hop": 0x3B3B3B, "psychedelic-rock": 0x7A3E5E,
         ]
         return Color(hex: palette[id] ?? 0x7A6F60)
-    }
-
-    static func crateSymbol(_ id: String) -> String {
-        let symbols: [String: String] = [
-            "classic-rock": "guitars", "british-invasion": "crown", "southern-rock": "sun.dust",
-            "heavy-metal": "bolt", "prog-rock": "infinity", "motown-soul": "music.mic",
-            "folk-singer-songwriter": "leaf", "yacht-rock": "sailboat", "punk-new-wave": "safetypin",
-            "eighties": "tv", "grunge-alt": "cloud.drizzle", "pop": "pianokeys", "modern-pop": "headphones", "country": "road.lanes",
-            "blues": "moon.stars", "disco-funk": "circle.hexagongrid", "hip-hop": "headphones",
-            "psychedelic-rock": "swirl.circle.righthalf.filled",
-        ]
-        return symbols[id] ?? "music.note"
     }
 }
 

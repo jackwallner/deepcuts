@@ -11,7 +11,7 @@ struct TodayView: View {
                 VStack(alignment: .leading, spacing: 28) {
                     header
                     ForEach(app.progress.todayOrder) { section($0) }
-                    suggest
+                    if Distribution.isTestFlight { suggest }
                 }
                 .padding(.horizontal, Theme.gutter)
                 .padding(.bottom, 32)
@@ -43,7 +43,7 @@ struct TodayView: View {
         case .onThisDay:
             moments
         case .dailyMix:
-            DailyMixCard()
+            DailyMixCard { tab = .play }
         }
     }
 
@@ -54,7 +54,7 @@ struct TodayView: View {
                 HStack(alignment: .top, spacing: 14) {
                     ArtworkView(songID: app.library.artKey(for: story), size: 92, corner: 4)
                     VStack(alignment: .leading, spacing: 6) {
-                        Kicker(text: "\(genre.name) · \(String(story.year))", color: Theme.crate(genre.id))
+                        Kicker(text: "\(genre.name) · \(String(story.year))", color: Theme.accent)
                         Text(story.title).font(Theme.serif(.title3, weight: .bold)).foregroundStyle(Theme.ink)
                             .multilineTextAlignment(.leading)
                         Text(story.dek).font(.subheadline).foregroundStyle(Theme.inkSoft)
@@ -152,12 +152,12 @@ struct CoverOfTheDayCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Covered", trailing: "Who did it first?")
+            SectionHeader(title: "Covered")
             VStack(alignment: .leading, spacing: 14) {
                 HStack(alignment: .top, spacing: 14) {
                     ArtworkView(songID: cover.id, size: 72, corner: 4)
                     VStack(alignment: .leading, spacing: 4) {
-                        Kicker(text: genre.name, color: Theme.crate(genre.id))
+                        Kicker(text: genre.name, color: Theme.accent)
                         Text(cover.title).font(Theme.serif(.title3, weight: .bold)).foregroundStyle(Theme.ink)
                         Text("\(cover.artist) · \(String(cover.year))").font(.subheadline).foregroundStyle(Theme.inkSoft)
                     }
@@ -191,8 +191,11 @@ struct CoverOfTheDayCard: View {
             }
             .padding(16)
             .card()
-            if app.offers(.covers, crate: nil) {
-                ModeRow(mode: .covers) { app.start(mode: .covers, crate: nil) }
+            if revealed && app.offers(.covers, crate: nil) {
+                Button("Play a round of covers") { app.start(mode: .covers, crate: nil) }
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.accent)
+                    .accessibilityIdentifier("mode-covers")
             }
         }
         .onChange(of: cover.id) { revealed = false }
@@ -202,10 +205,10 @@ struct CoverOfTheDayCard: View {
 /// The inverted "sleeve" card with today's mix: play it, or see how you did.
 struct DailyMixCard: View {
     @Environment(AppModel.self) private var app
+    var morePlay: () -> Void = {}
 
     var body: some View {
         let result = app.progress.dailyResult()
-        let streak = app.progress.streak()
         let songs = Array(app.dailyPreviewSongs().prefix(3))
         VStack(alignment: .leading, spacing: 16) {
             HStack(alignment: .top) {
@@ -222,18 +225,14 @@ struct DailyMixCard: View {
                 Spacer(minLength: 8)
                 fan(songs)
             }
-            if streak > 1 {
-                Text("\(streak) days in a row")
-                    .font(.subheadline.weight(.semibold))
-                    .foregroundStyle(Theme.onSleeve.opacity(0.8))
-            }
             if result == nil {
                 Button("Play today's mix") { app.startDaily() }
                     .buttonStyle(PrimaryButtonStyle())
                     .accessibilityIdentifier("play-daily")
             } else {
-                Text("A new mix lands tomorrow. Keep going in Play.")
-                    .font(.footnote).foregroundStyle(Theme.onSleeve.opacity(0.7))
+                Button("More ways to play", action: morePlay)
+                    .buttonStyle(PrimaryButtonStyle(fill: Theme.onSleeve, text: Theme.sleeve))
+                    .accessibilityIdentifier("daily-more")
             }
         }
         .padding(20)

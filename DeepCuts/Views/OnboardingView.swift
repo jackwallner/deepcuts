@@ -6,9 +6,9 @@ struct OnboardingView: View {
 
     var body: some View {
         FocusPicker(
-            title: "What do you\nlisten to?",
-            subtitle: "Pick your crates. Your daily mix, clips and stories come from these. Change them anytime.",
-            action: "Start digging",
+            title: "Pick the music\nyou know",
+            subtitle: "Choose one or more. You can change these later.",
+            action: "Continue",
             initial: []
         ) { picked in
             app.progress.setFocus(picked)
@@ -42,7 +42,7 @@ struct FocusPicker: View {
                 VStack(spacing: 0) {
                     ForEach(app.library.genres) { genre in
                         row(genre)
-                        if genre.id != app.library.genres.last?.id { Divider().overlay(Theme.rule).padding(.leading, 64) }
+                        if genre.id != app.library.genres.last?.id { Divider().overlay(Theme.rule).padding(.leading, 14) }
                     }
                 }
                 .card()
@@ -53,7 +53,7 @@ struct FocusPicker: View {
         .background(Theme.paper.ignoresSafeArea())
         .safeAreaInset(edge: .bottom) {
             VStack(spacing: 8) {
-                Button(picked.isEmpty ? "Pick at least one" : "\(action) (\(picked.count))") {
+                Button(picked.isEmpty ? "Pick at least one" : action) {
                     onDone(app.library.genres.map(\.id).filter(picked.contains))
                 }
                 .buttonStyle(PrimaryButtonStyle(fill: picked.isEmpty ? Theme.rule : Theme.accent, text: picked.isEmpty ? Theme.inkSoft : .white))
@@ -76,11 +76,6 @@ struct FocusPicker: View {
             }
         } label: {
             HStack(spacing: 14) {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 8, style: .continuous).fill(Theme.crate(genre.id))
-                    Image(systemName: Theme.crateSymbol(genre.id)).font(.system(size: 17, weight: .semibold)).foregroundStyle(.white)
-                }
-                .frame(width: 38, height: 38)
                 VStack(alignment: .leading, spacing: 2) {
                     Text(genre.name).font(.headline).foregroundStyle(Theme.ink)
                     Text(genre.eraLabel).font(.subheadline).foregroundStyle(Theme.inkSoft)
