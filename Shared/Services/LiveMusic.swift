@@ -86,12 +86,15 @@ struct Venue: Identifiable, Hashable, Sendable {
 enum VenueFinder {
     static let distanceOptions = [10, 25, 50, 100]
     static let defaultMiles = 25
+    static let limit = 30
 
     /// Clubs, theaters, ballrooms and amphitheaters: the rooms a club or theater tour plays.
     /// Each query is searched separately, since one Apple Maps search returns only about 25 places.
     private static let queries: [(text: String, barsToo: Bool)] = [
         ("live music venue", true),
+        ("concert venue", true),
         ("music club", true),
+        ("live music", true),
         ("concert hall", false),
         ("theater live music", false),
         ("amphitheater", false),
@@ -105,27 +108,45 @@ enum VenueFinder {
     private static let excludedWords = [
         "karaoke", "cinema", "cinemas", "movie", "movies", "imax", "stadium", "arena", "school",
         "lessons", "music store", "guitar center", "dance studio", "comedy", "improv", "escape room",
-        "bowling", "kids", "children's",
+        "bowling", "kids", "children's", "climbing", "office",
     ]
+
+    /// One search result: the place, and whether Apple Maps files it under music venues.
+    struct Hit {
+        let venue: Venue
+        let musicVenue: Bool
+    }
 
     @MainActor
     static func nearby(_ location: CLLocation, miles: Int = defaultMiles) async throws -> [Venue] {
         let radius = Double(miles) * 1609.344
-        var found: [Venue] = []
+        var hits: [Hit] = []
         var failures = 0
         for query in queries {
             do {
-                found += try await search(query.text, barsToo: query.barsToo, around: location, radius: radius)
+                hits += try await search(query.text, barsToo: query.barsToo, around: location, radius: radius)
             } catch {
                 failures += 1
             }
         }
         if failures == queries.count { throw URLError(.cannotLoadFromNetwork) }
-        return closestUnique(found)
+        return best(hits)
+    }
+
+    /// A typed city or ZIP code: its name and center, for searching away from home.
+    @MainActor
+    static func place(_ text: String) async throws -> (name: String, location: CLLocation)? {
+        let request = MKLocalSearch.Request()
+        request.naturalLanguageQuery = text
+        request.resultTypes = .address
+        guard let item = try await MKLocalSearch(request: request).start().mapItems.first else { return nil }
+        let coordinate = item.placemark.coordinate
+        let name = item.placemark.locality ?? item.name ?? text
+        return (name, CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
     }
 
     @MainActor
-    private static func search(_ text: String, barsToo: Bool, around location: CLLocation, radius: CLLocationDistance) async throws -> [Venue] {
+    private static func search(_ text: String, barsToo: Bool, around location: CLLocation, radius: CLLocationDistance) async throws -> [Hit] {
         let request = MKLocalSearch.Request()
         request.naturalLanguageQuery = text
         request.region = MKCoordinateRegion(center: location.coordinate, latitudinalMeters: radius * 2, longitudinalMeters: radius * 2)
@@ -134,13 +155,16 @@ enum VenueFinder {
             request.pointOfInterestFilter = MKPointOfInterestFilter(including: barsToo ? [.musicVenue, .theater, .nightlife] : [.musicVenue, .theater])
         }
         let response = try await MKLocalSearch(request: request).start()
-        return response.mapItems.compactMap { item -> Venue? in
+        return response.mapItems.compactMap { item -> Hit? in
             guard let name = item.name, isVenue(name: name, category: item.pointOfInterestCategory) else { return nil }
             let coordinate = item.placemark.coordinate
             let meters = location.distance(from: CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
             guard meters <= radius else { return nil }
-            return Venue(name: name, area: item.placemark.locality, miles: meters / 1609.344,
-                         latitude: coordinate.latitude, longitude: coordinate.longitude, website: item.url)
+            var musicVenue = false
+            if #available(iOS 18, *) { musicVenue = item.pointOfInterestCategory == .musicVenue }
+            let venue = Venue(name: name, area: item.placemark.locality, miles: meters / 1609.344,
+                              latitude: coordinate.latitude, longitude: coordinate.longitude, website: item.url)
+            return Hit(venue: venue, musicVenue: musicVenue)
         }
     }
 
@@ -151,10 +175,25 @@ enum VenueFinder {
         return !excludedWords.contains { words.range(of: "\\b\($0)\\b", options: .regularExpression) != nil }
     }
 
-    /// Nearest first, one row per name (chains and duplicate pins collapse), at most 20.
-    static func closestUnique(_ venues: [Venue]) -> [Venue] {
-        var seen = Set<String>()
-        return Array(venues.sorted { $0.miles < $1.miles }.filter { seen.insert($0.name.lowercased()).inserted }.prefix(20))
+    /// The real rooms first, then nearest first: a place Apple Maps files as a music venue, or one that
+    /// several music searches agree on, beats the bar or community theater down the street.
+    /// One row per name (chains and duplicate pins collapse), at most `limit`.
+    static func best(_ hits: [Hit]) -> [Venue] {
+        var byName: [String: (venue: Venue, musicVenue: Bool, hits: Int)] = [:]
+        for hit in hits {
+            let key = hit.venue.name.lowercased()
+            var entry = byName[key] ?? (hit.venue, false, 0)
+            if hit.venue.miles < entry.venue.miles { entry.venue = hit.venue }
+            entry.musicVenue = entry.musicVenue || hit.musicVenue
+            entry.hits += 1
+            byName[key] = entry
+        }
+        let ranked = byName.values.sorted {
+            if $0.musicVenue != $1.musicVenue { return $0.musicVenue }
+            if $0.hits != $1.hits { return $0.hits > $1.hits }
+            return $0.venue.miles < $1.venue.miles
+        }
+        return ranked.prefix(limit).map(\.venue).sorted { $0.miles < $1.miles }
     }
 
     /// Screenshots and UI tests: two sample rows instead of a live search.

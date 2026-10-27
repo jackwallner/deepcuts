@@ -1,3 +1,4 @@
+import CoreLocation
 import SwiftUI
 import UIKit
 
@@ -8,11 +9,17 @@ struct LiveView: View {
     @State private var locator = LocationProvider()
     @State private var venues: [Venue]?
     @State private var searchFailed = false
+    @State private var cityText = ""
+    @State private var city: (name: String, location: CLLocation)?
+    @State private var cityMissing = false
+    @FocusState private var cityFocused: Bool
     #if DEBUG
     private let stubVenues = ProcessInfo.processInfo.arguments.contains("-ui-venues-stub")
     #else
     private let stubVenues = false
     #endif
+
+    private var searchLocation: CLLocation? { city?.location ?? locator.location }
 
     var body: some View {
         NavigationStack {
@@ -33,30 +40,82 @@ struct LiveView: View {
                 .padding(.horizontal, Theme.gutter)
                 .padding(.bottom, 32)
             }
+            .scrollDismissesKeyboard(.immediately)
             .paperPage()
             .task {
-                if stubVenues { venues = VenueFinder.sample } else { locator.resume() }
+                if let saved = app.progress.venueCity {
+                    cityText = saved
+                    await findCity()
+                } else if stubVenues {
+                    venues = VenueFinder.sample
+                } else {
+                    locator.resume()
+                }
             }
-            .task(id: locator.location) { await search() }
+            .task(id: searchLocation) { await search() }
             .onChange(of: app.progress.venueMiles) { Task { await search() } }
         }
     }
 
     private func search() async {
-        guard let location = locator.location else { return }
+        guard let location = searchLocation else { return }
+        if stubVenues {
+            venues = VenueFinder.sample
+            return
+        }
         do {
-            venues = try await VenueFinder.nearby(location, miles: app.progress.venueMiles)
+            let found = try await VenueFinder.nearby(location, miles: app.progress.venueMiles)
+            guard location == searchLocation else { return }
+            venues = found
             searchFailed = false
         } catch {
+            guard location == searchLocation else { return }
             searchFailed = venues == nil
         }
+    }
+
+    /// Looks up the typed city, then searches around it.
+    private func findCity() async {
+        let text = cityText.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !text.isEmpty else { return useMyLocation() }
+        app.progress.setVenueCity(text)
+        venues = nil
+        cityMissing = false
+        searchFailed = false
+        if stubVenues {
+            city = (text, CLLocation(latitude: 0, longitude: 0))
+            return
+        }
+        do {
+            if let place = try await VenueFinder.place(text) {
+                city = place
+                cityText = place.name
+            } else {
+                city = nil
+                cityMissing = true
+            }
+        } catch {
+            city = nil
+            searchFailed = true
+        }
+    }
+
+    private func useMyLocation() {
+        app.progress.setVenueCity(nil)
+        city = nil
+        cityText = ""
+        cityMissing = false
+        searchFailed = false
+        venues = nil
+        if stubVenues { venues = VenueFinder.sample } else { locator.request() }
     }
 
     // MARK: Near you
 
     private var nearby: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Near You", trailing: "Within \(app.progress.venueMiles) mi")
+            SectionHeader(title: city.map { "Near \($0.name)" } ?? "Near You", trailing: "Within \(app.progress.venueMiles) mi")
+            cityField
             if let venues {
                 if venues.isEmpty {
                     note("No music venues turned up within \(app.progress.venueMiles) miles. You can look farther in You > Settings.")
@@ -70,43 +129,78 @@ struct LiveView: View {
                     note("Clubs, theaters and amphitheaters that book touring acts. Tap one for its calendar, or the map when it has no website. Change the distance in You > Settings.")
                 }
             } else {
-                locationState
+                searchState
             }
         }
     }
 
-    @ViewBuilder
-    private var locationState: some View {
-        switch locator.status {
-        case .notAsked:
-            VStack(alignment: .leading, spacing: 12) {
-                note("Deep Cuts can look up concert halls, clubs and theaters around you on Apple Maps. Your location is only used for this search and is never stored or shared.")
-                Button("Find venues near me") { locator.request() }
-                    .buttonStyle(PrimaryButtonStyle())
-                    .accessibilityIdentifier("live-locate")
+    private var cityField: some View {
+        HStack(spacing: 10) {
+            Image(systemName: "magnifyingglass").foregroundStyle(Theme.inkSoft)
+            TextField("City or ZIP code", text: $cityText)
+                .textContentType(.addressCity)
+                .autocorrectionDisabled()
+                .submitLabel(.search)
+                .focused($cityFocused)
+                .onSubmit { Task { await findCity() } }
+                .accessibilityIdentifier("live-city")
+            if city != nil || app.progress.venueCity != nil {
+                Button {
+                    cityFocused = false
+                    useMyLocation()
+                } label: {
+                    Image(systemName: "location")
+                }
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(Theme.accent)
+                .accessibilityLabel("Use my location")
+                .accessibilityIdentifier("live-my-location")
             }
-        case .locating, .located where !searchFailed:
+        }
+        .padding(12)
+        .card()
+    }
+
+    @ViewBuilder
+    private var searchState: some View {
+        if cityMissing {
+            note("Apple Maps couldn't find that place. Try a city and state, or a ZIP code.")
+        } else if searchFailed || (city == nil && app.progress.venueCity == nil && locator.status == .failed) {
+            VStack(alignment: .leading, spacing: 10) {
+                note("Couldn't find venues right now. Check your connection and try again.")
+                Button("Try again") {
+                    searchFailed = false
+                    if app.progress.venueCity != nil, city == nil {
+                        Task { await findCity() }
+                    } else if searchLocation == nil {
+                        locator.request()
+                    } else {
+                        Task { await search() }
+                    }
+                }
+                .font(.subheadline.weight(.semibold))
+            }
+        } else if city != nil || app.progress.venueCity != nil || locator.status == .locating || locator.status == .located {
             HStack(spacing: 10) {
                 ProgressView()
-                Text("Finding venues near you").font(.subheadline).foregroundStyle(Theme.inkSoft)
+                Text("Finding venues near \(city?.name ?? app.progress.venueCity ?? "you")")
+                    .font(.subheadline).foregroundStyle(Theme.inkSoft)
             }
             .padding(.vertical, 8)
-        case .denied:
+        } else if locator.status == .denied {
             VStack(alignment: .leading, spacing: 10) {
-                note("Location is off for Deep Cuts, so it can't look up venues near you. You can turn it on in Settings, or use the tour dates below.")
+                note("Location is off for Deep Cuts. Search a city above, or turn location on in Settings.")
                 Button("Open Settings") {
                     if let url = URL(string: UIApplication.openSettingsURLString) { openURL(url) }
                 }
                 .font(.subheadline.weight(.semibold))
             }
-        case .failed, .located:
-            VStack(alignment: .leading, spacing: 10) {
-                note("Couldn't find venues right now. Check your connection and try again.")
-                Button("Try again") {
-                    searchFailed = false
-                    if locator.location == nil { locator.request() } else { Task { await search() } }
-                }
-                    .font(.subheadline.weight(.semibold))
+        } else {
+            VStack(alignment: .leading, spacing: 12) {
+                note("Search a city, or find venues around you on Apple Maps. Your location is only used for this search and is never stored or shared.")
+                Button("Find venues near me") { locator.request() }
+                    .buttonStyle(PrimaryButtonStyle())
+                    .accessibilityIdentifier("live-locate")
             }
         }
     }
