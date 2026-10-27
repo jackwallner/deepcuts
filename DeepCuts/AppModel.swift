@@ -22,6 +22,10 @@ final class AppModel {
     var momentsDay = ""
     var momentsFailed = false
     var myFeedback: [FeedbackItem] = []
+    /// The open story: pushed on the Stories tab, or shown in the reading pane when unfolded.
+    var storyPath: [Story] = []
+    /// Where the next round opens, for screenshots (DEBUG only).
+    var quizPreset: QuizPreset?
 
     init(library: ContentLibrary = .shared, progress: ProgressStore = ProgressStore(), feedback: FeedbackService = .live,
          content: RemoteContentService = .off) {

@@ -391,3 +391,40 @@ final class LiveMusicTests: XCTestCase {
         XCTAssertFalse(VenueFinder.isVenue(name: "The Paramount", category: .movieTheater))
     }
 }
+
+/// The unfolded iPhone Duo's two panes: fold-aligned when the system reports a fold.
+final class UnfoldedSplitTests: XCTestCase {
+    func testCompactWidthKeepsOneColumn() {
+        XCTAssertNil(UnfoldedSplit.make(width: 466, isRegularWidth: false, fold: nil))
+        // The folded outer display, and an unfolded phone held in portrait.
+        XCTAssertNil(UnfoldedSplit.make(width: 951, isRegularWidth: false, fold: 472...479))
+        XCTAssertNil(UnfoldedSplit.make(width: 669, isRegularWidth: true, fold: nil))
+    }
+
+    func testPanesMeetTheFoldEdges() {
+        let split = UnfoldedSplit.make(width: 951, isRegularWidth: true, fold: 472...479)
+        XCTAssertEqual(split, UnfoldedSplit(primaryWidth: 472, secondaryX: 479, secondaryWidth: 472))
+    }
+
+    func testNoFoldSplitsEvenly() {
+        let split = UnfoldedSplit.make(width: 951, isRegularWidth: true, fold: nil)
+        XCTAssertEqual(split, UnfoldedSplit(primaryWidth: 475, secondaryX: 475, secondaryWidth: 476))
+    }
+
+    func testFoldThatLeavesANarrowPaneSplitsEvenly() {
+        let split = UnfoldedSplit.make(width: 951, isRegularWidth: true, fold: 300...310)
+        XCTAssertEqual(split?.primaryWidth, 475)
+        XCTAssertEqual(split?.secondaryWidth, 476)
+    }
+
+    func testEveryPaneFitsThePhoneLayout() {
+        for width in stride(from: CGFloat(720), through: 1400, by: 37) {
+            guard let split = UnfoldedSplit.make(width: width, isRegularWidth: true, fold: nil) else {
+                return XCTFail("no split at \(width)")
+            }
+            XCTAssertGreaterThanOrEqual(split.primaryWidth, UnfoldedSplit.minimumPaneWidth)
+            XCTAssertGreaterThanOrEqual(split.secondaryWidth, UnfoldedSplit.minimumPaneWidth)
+            XCTAssertEqual(split.secondaryX + split.secondaryWidth, width)
+        }
+    }
+}

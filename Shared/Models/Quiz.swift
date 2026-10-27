@@ -79,6 +79,13 @@ struct QuizSpec: Hashable, Sendable, Identifiable {
     }
 }
 
+/// A round opened partway through: the question on screen, answers so far, and the pick shown.
+struct QuizPreset: Hashable, Sendable {
+    let index: Int
+    let outcomes: [Bool?]
+    let picked: Int?
+}
+
 struct QuizResult: Codable, Hashable, Sendable {
     let correct: Int
     let total: Int

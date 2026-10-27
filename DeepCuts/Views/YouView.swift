@@ -2,6 +2,7 @@ import SwiftUI
 
 struct YouView: View {
     @Environment(AppModel.self) private var app
+    @Environment(\.isUnfoldedPane) private var inPane
     @State private var editingFocus = false
 
     var body: some View {
@@ -25,11 +26,11 @@ struct YouView: View {
             .paperPage()
             .task { await app.refreshFeedback() }
             .refreshable { await app.refreshFeedback() }
-            .sheet(isPresented: $editingFocus) {
+            .paneSheet(isPresented: $editingFocus, inPane: inPane) { close in
                 FocusPicker(title: "Your crates", subtitle: "Today's mix, clips and stories come from these.",
                             action: "Save", initial: app.progress.focus) { picked in
                     app.progress.setFocus(picked); Task { await app.loadMoments(force: true) }
-                    editingFocus = false
+                    close()
                 }
                 .environment(app)
             }
