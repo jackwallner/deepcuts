@@ -8,7 +8,11 @@ struct LiveView: View {
     @State private var locator = LocationProvider()
     @State private var venues: [Venue]?
     @State private var searchFailed = false
+    #if DEBUG
     private let stubVenues = ProcessInfo.processInfo.arguments.contains("-ui-venues-stub")
+    #else
+    private let stubVenues = false
+    #endif
 
     var body: some View {
         NavigationStack {
