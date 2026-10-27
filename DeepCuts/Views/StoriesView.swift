@@ -4,40 +4,102 @@ struct StoriesView: View {
     @Environment(AppModel.self) private var app
 
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    VStack(alignment: .leading, spacing: 6) {
-                        Kicker(text: "Liner notes")
-                        Text("Stories").font(Theme.display(40)).foregroundStyle(Theme.ink)
-                        Text("How the records got made, the people who made them, and the nights they played live.")
-                            .font(.subheadline).foregroundStyle(Theme.inkSoft)
-                    }
-                    .padding(.top, 12)
-
-                    let all = app.library.stories(focus: app.progress.focus)
-                    let concerts = all.filter { $0.story.isConcert }
-                    if !concerts.isEmpty {
-                        shelf("Concerts", concerts)
-                    }
-                    shelf(concerts.isEmpty ? nil : "Records & People", all.filter { !$0.story.isConcert })
-                }
-                .padding(.horizontal, Theme.gutter)
-                .padding(.bottom, 32)
-            }
-            .paperPage()
-            .navigationDestination(for: Story.self) { StoryView(story: $0) }
+        @Bindable var app = app
+        NavigationStack(path: $app.storyPath) {
+            StoriesShelf()
+                .navigationDestination(for: Story.self) { StoryView(story: $0) }
         }
+    }
+}
+
+/// The trailing pane of the unfolded split: the shelf, or the story opened from any pane.
+/// It has no navigation bar of its own, so its back button stays inside the pane.
+struct StoriesPane: View {
+    @Environment(AppModel.self) private var app
+
+    var body: some View {
+        ZStack {
+            StoriesShelf()
+                .accessibilityHidden(!app.storyPath.isEmpty)
+            if let story = app.storyPath.last {
+                VStack(alignment: .leading, spacing: 0) {
+                    Button {
+                        withAnimation(.snappy) { app.storyPath.removeAll() }
+                    } label: {
+                        Label("Stories", systemImage: "chevron.left")
+                            .font(.body.weight(.semibold))
+                            .frame(minHeight: 44)
+                            .contentShape(Rectangle())
+                    }
+                    .padding(.horizontal, Theme.gutter - 4)
+                    .accessibilityIdentifier("pane-back")
+                    StoryView(story: story)
+                        .id(story.id)
+                }
+                .background(Theme.paper.ignoresSafeArea())
+                .transition(.move(edge: .trailing))
+            }
+        }
+        .animation(.snappy, value: app.storyPath.last?.id)
+    }
+}
+
+/// Every story from your crates, concerts first.
+struct StoriesShelf: View {
+    @Environment(AppModel.self) private var app
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 24) {
+                VStack(alignment: .leading, spacing: 6) {
+                    Kicker(text: "Liner notes")
+                    Text("Stories").font(Theme.display(40)).foregroundStyle(Theme.ink)
+                    Text("How the records got made, the people who made them, and the nights they played live.")
+                        .font(.subheadline).foregroundStyle(Theme.inkSoft)
+                }
+                .padding(.top, 12)
+
+                let all = app.library.stories(focus: app.progress.focus)
+                let concerts = all.filter { $0.story.isConcert }
+                if !concerts.isEmpty {
+                    shelf("Concerts", concerts)
+                }
+                shelf(concerts.isEmpty ? nil : "Records & People", all.filter { !$0.story.isConcert })
+            }
+            .padding(.horizontal, Theme.gutter)
+            .padding(.bottom, 32)
+        }
+        .paperPage()
     }
 
     private func shelf(_ title: String?, _ stories: [(story: Story, genre: Genre)]) -> some View {
         VStack(alignment: .leading, spacing: 16) {
             if let title { SectionHeader(title: title) }
             ForEach(stories, id: \.story.id) { pair in
-                NavigationLink(value: pair.story) { StoryRow(story: pair.story, genre: pair.genre) }
-                    .buttonStyle(PressableStyle())
+                StoryLink(story: pair.story) { StoryRow(story: pair.story, genre: pair.genre) }
             }
         }
+    }
+}
+
+/// Opens a story: pushed on the phone, in the reading pane when unfolded.
+struct StoryLink<Label: View>: View {
+    @Environment(AppModel.self) private var app
+    @Environment(\.isUnfoldedPane) private var inPane
+    let story: Story
+    @ViewBuilder let label: Label
+
+    var body: some View {
+        Group {
+            if inPane {
+                Button {
+                    withAnimation(.snappy) { app.storyPath = [story] }
+                } label: { label }
+            } else {
+                NavigationLink(value: story) { label }
+            }
+        }
+        .buttonStyle(PressableStyle())
     }
 }
 

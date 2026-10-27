@@ -1,5 +1,22 @@
 import XCTest
 
+extension XCTestCase {
+    /// A tab button: in the bottom tab bar, or in the vertical bar iOS 27.1 uses on iPhone Duo.
+    func tab(_ app: XCUIApplication, _ name: String) -> XCUIElement {
+        let bar = app.tabBars.buttons[name]
+        if bar.waitForExistence(timeout: 2) { return bar }
+        let button = app.buttons[name].firstMatch
+        _ = button.waitForExistence(timeout: 5)
+        return button
+    }
+
+    /// The back button: in the navigation bar, or in the iPhone Duo's vertical bar.
+    func back(_ app: XCUIApplication) {
+        let bar = app.navigationBars.buttons.firstMatch
+        if bar.exists { bar.tap() } else { app.buttons["BackButton"].firstMatch.tap() }
+    }
+}
+
 /// The first-run path a new tester takes: pick crates, play today's mix, see the score,
 /// browse a crate and a story, and send a suggestion (stubbed, so no build session starts).
 final class DeepCutsUITests: XCTestCase {
@@ -34,7 +51,7 @@ final class DeepCutsUITests: XCTestCase {
 
     func testCrateRoundsAndStory() {
         let app = launch(["-ui-focus", "classic-rock"])
-        app.tabBars.buttons["Play"].tap()
+        tab(app, "Play").tap()
         let crate = app.buttons["open-classic-rock"]
         XCTAssertTrue(crate.waitForExistence(timeout: 10))
         crate.tap()
@@ -46,7 +63,7 @@ final class DeepCutsUITests: XCTestCase {
             XCTAssertTrue(app.staticTexts["result-score"].waitForExistence(timeout: 10))
             app.buttons["result-done"].tap()
         }
-        app.tabBars.buttons["Stories"].tap()
+        tab(app, "Stories").tap()
         let story = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH 'story-'")).firstMatch
         XCTAssertTrue(story.waitForExistence(timeout: 5))
         story.tap()
@@ -60,7 +77,7 @@ final class DeepCutsUITests: XCTestCase {
         app.scrollViews.firstMatch.swipeUp()  // the last rows sit under the pinned Continue bar
         pick.tap()
         app.buttons["focus-done"].tap()
-        app.tabBars.buttons["Play"].tap()
+        tab(app, "Play").tap()
         let crate = app.buttons["open-psychedelic-rock"]
         XCTAssertTrue(crate.waitForExistence(timeout: 10))
         crate.tap()
@@ -109,7 +126,7 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertTrue(app.textViews["feedback-text"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.staticTexts["Report a problem"].exists)
         XCTAssertTrue(app.descendants(matching: .any)["feedback-reported"].exists, "shows the question being reported")
-        app.buttons["Cancel"].tap()
+        app.buttons["feedback-cancel"].tap()
         XCTAssertTrue(app.buttons["quiz-next"].waitForExistence(timeout: 5), "back on the same question")
     }
 
@@ -132,7 +149,7 @@ final class DeepCutsUITests: XCTestCase {
     /// Feedback #3: the spinning record on "Got it" kept the screen busy, so Done never answered.
     func testSuggestionDoneFromYouTabAtLargeText() {
         let app = launch(["-ui-focus", "heavy-metal", "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXL"])
-        app.tabBars.buttons["You"].tap()
+        tab(app, "You").tap()
         let suggest = app.buttons["suggest-you"]
         for _ in 0..<6 where !suggest.isHittable { app.scrollViews.firstMatch.swipeUp() }
         suggest.tap()
@@ -150,7 +167,7 @@ final class DeepCutsUITests: XCTestCase {
     /// Feedback #6: the Live tab asks for location only on tap and lists touring acts from your crates.
     func testLiveTabShowsVenuesAndTouringActs() {
         let app = launch(["-ui-focus", "classic-rock,southern-rock", "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXXXL"])
-        app.tabBars.buttons["Live"].tap()
+        tab(app, "Live").tap()
         XCTAssertTrue(app.buttons["live-locate"].waitForExistence(timeout: 5))
         let skynyrd = app.buttons["act-Lynyrd Skynyrd"]
         for _ in 0..<8 where !skynyrd.exists || !skynyrd.isHittable { app.scrollViews.firstMatch.swipeUp() }
@@ -159,7 +176,7 @@ final class DeepCutsUITests: XCTestCase {
 
         app.terminate()
         let stubbed = launch(["-ui-focus", "classic-rock", "-ui-venues-stub"])
-        stubbed.tabBars.buttons["Live"].tap()
+        tab(stubbed, "Live").tap()
         XCTAssertTrue(stubbed.buttons["venue-The Old Mill Ballroom"].waitForExistence(timeout: 5))
         XCTAssertFalse(stubbed.buttons["live-locate"].exists)
 
@@ -176,7 +193,7 @@ final class DeepCutsUITests: XCTestCase {
     /// Feedback #8: You > Settings reorders the Today screen and sets how far to look for venues.
     func testSettingsReorderTodayAndVenueDistance() {
         let app = launch(["-ui-focus", "classic-rock", "-ui-venues-stub"])
-        app.tabBars.buttons["You"].tap()
+        tab(app, "You").tap()
         let open = app.buttons["open-settings"]
         XCTAssertTrue(open.waitForExistence(timeout: 5))
         open.tap()
@@ -188,14 +205,14 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertTrue(app.buttons["today-order-reset"].exists)
         app.buttons["50 mi"].tap()
 
-        app.tabBars.buttons["Today"].tap()
+        tab(app, "Today").tap()
         let play = app.buttons["play-daily"]
         let story = app.buttons["story-of-the-day"]
         XCTAssertTrue(play.waitForExistence(timeout: 5))
         XCTAssertTrue(story.waitForExistence(timeout: 5))
         XCTAssertLessThan(story.frame.minY, play.frame.minY, "Liner Notes moved above the mix")
 
-        app.tabBars.buttons["Live"].tap()
+        tab(app, "Live").tap()
         XCTAssertTrue(app.staticTexts["Within 50 mi"].waitForExistence(timeout: 5))
     }
 
@@ -268,7 +285,7 @@ final class Tour: XCTestCase {
         shot("result-scrolled")
         app.buttons["result-done"].tap()
         shot("today-done")
-        app.tabBars.buttons["Play"].tap()
+        tab(app, "Play").tap()
         shot("play")
         app.buttons["open-classic-rock"].tap()
         shot("crate")
@@ -277,15 +294,15 @@ final class Tour: XCTestCase {
         app.swipeUp()
         app.swipeUp()
         shot("crate-essentials")
-        app.tabBars.buttons["Stories"].tap()
+        tab(app, "Stories").tap()
         shot("stories")
         app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH 'story-'")).firstMatch.tap()
         sleep(2)
         shot("story")
         app.swipeUp()
         shot("story-body")
-        app.navigationBars.buttons.firstMatch.tap()  // a story hides the tab bar
-        app.tabBars.buttons["Live"].tap()
+        back(app)  // a story hides the tab bar
+        tab(app, "Live").tap()
         shot("live")
         let city = app.textFields["live-city"]
         city.tap()
@@ -294,11 +311,11 @@ final class Tour: XCTestCase {
         shot("live-seattle")
         app.swipeUp()
         shot("live-scrolled")
-        app.tabBars.buttons["You"].tap()
+        tab(app, "You").tap()
         shot("you")
         app.buttons["open-settings"].tap()
         shot("settings")
-        app.navigationBars.buttons.firstMatch.tap()
+        back(app)
         app.swipeUp()
         shot("you-scrolled")
         app.buttons["suggest-you"].tap()

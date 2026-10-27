@@ -50,7 +50,7 @@ struct TodayView: View {
     private func storyCard(_ story: Story, genre: Genre) -> some View {
         VStack(alignment: .leading, spacing: 12) {
             SectionHeader(title: "Liner Notes", trailing: "\(story.readingMinutes) min read")
-            NavigationLink(value: story) {
+            StoryLink(story: story) {
                 HStack(alignment: .top, spacing: 14) {
                     ArtworkView(songID: app.library.artKey(for: story), size: 92, corner: 4)
                     VStack(alignment: .leading, spacing: 6) {
@@ -64,7 +64,6 @@ struct TodayView: View {
                 }
                 .contentShape(Rectangle())
             }
-            .buttonStyle(PressableStyle())
             .accessibilityIdentifier("story-of-the-day")
         }
     }

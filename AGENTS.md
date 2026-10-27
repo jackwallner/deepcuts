@@ -44,7 +44,7 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
   the feedback URL and app key; without it the app builds (gh-sim works) but can't send suggestions. Values live in `~/.tester_feedback`.
 - Tests: `xcodebuild test -project DeepCuts.xcodeproj -scheme DeepCuts -destination id=<leased UDID>`.
   UI tests launch with `-ui-reset -ui-feedback-stub` (never send real feedback from a test: a real
-  suggestion starts a build session). `-ui-focus classic-rock,southern-rock` skips onboarding, `-ui-tab play|stories|live|you` opens a tab.
+  suggestion starts a build session). `-ui-focus classic-rock,southern-rock` skips onboarding, `-ui-tab play|stories|live|you` opens a tab, `-ui-screen <scene>` a seeded store surface (`.claude/rules/iphone-duo.md`).
 
 ## Target users (check every change against them)
 - **John (Jack's dad), 60s**: grew up on '60s/'70s rock, knows the records cold, reads on an iPhone
@@ -76,6 +76,7 @@ A wrong question also gets its fix published live (`scripts/content-remote.py pu
 
 ## Area rules (`.claude/rules/`)
 - `live-content.md`: live questions, `content-remote.py`, the weekly iMac job.
+- `iphone-duo.md`: the unfolded two-pane layout (tabs beside the reading pane), `-ui-screen` capture scenes.
 
 ---
 Shared iOS conventions (build, simulator, release/TestFlight, ASC key, signing, gotchas):

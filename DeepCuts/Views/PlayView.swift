@@ -127,8 +127,7 @@ struct CrateView: View {
                     VStack(alignment: .leading, spacing: 12) {
                         SectionHeader(title: "Stories")
                         ForEach(genre.stories) { story in
-                            NavigationLink(value: story) { StoryRow(story: story, genre: genre) }
-                                .buttonStyle(PressableStyle())
+                            StoryLink(story: story) { StoryRow(story: story, genre: genre) }
                         }
                     }
                 }

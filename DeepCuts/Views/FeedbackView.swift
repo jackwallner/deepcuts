@@ -17,6 +17,8 @@ struct FeedbackView: View {
         : "What should we fix or add?"
     /// The question and answer being reported, shown above the text box.
     var reported: (prompt: String, answer: String)?
+    /// Closes the sheet, or the pane it covers when unfolded.
+    var onClose: (() -> Void)?
 
     @State private var text = ""
     @State private var name = ""
@@ -33,19 +35,30 @@ struct FeedbackView: View {
                 if sent { confirmation } else { form }
             }
             .background(Theme.paper.ignoresSafeArea())
-            .toolbar {
+            // Drawn in the sheet rather than as a toolbar item: on iPhone Duo the system moves
+            // bar items into its vertical bar at the display's edge, outside an unfolded pane.
+            .safeAreaInset(edge: .top, spacing: 0) {
                 if !sent {
-                    ToolbarItem(placement: .cancellationAction) {
-                        Button("Cancel") { dismiss() }
+                    HStack {
+                        Button("Cancel") { close() }
+                            .frame(minHeight: 44)
+                            .accessibilityIdentifier("feedback-cancel")
+                        Spacer()
                     }
+                    .padding(.horizontal, Theme.gutter)
+                    .background(Theme.paper)
                 }
             }
-            .navigationBarTitleDisplayMode(.inline)
+            .toolbar(.hidden, for: .navigationBar)
         }
         .onAppear {
             name = app.progress.data.testerName
             focused = true
         }
+    }
+
+    private func close() {
+        if let onClose { onClose() } else { dismiss() }
     }
 
     private var form: some View {
@@ -137,7 +150,7 @@ struct FeedbackView: View {
                 .font(.body).foregroundStyle(Theme.inkSoft).multilineTextAlignment(.center)
                 .padding(.horizontal, 32)
             Spacer()
-            Button("Done") { dismiss() }
+            Button("Done") { close() }
                 .buttonStyle(PrimaryButtonStyle(fill: Theme.ink, text: Theme.paper))
                 .padding(.horizontal, Theme.gutter)
                 .padding(.bottom, 16)

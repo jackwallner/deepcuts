@@ -4,6 +4,7 @@ import SwiftUI
 struct QuizView: View {
     @Environment(AppModel.self) private var app
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.horizontalSizeClass) private var sizeClass
     let spec: QuizSpec
 
     @State private var index = 0
@@ -11,20 +12,69 @@ struct QuizView: View {
     @State private var outcomes: [Bool?] = []
     @State private var finished = false
     @State private var reporting = false
+    @State private var panes = PaneGeometry()
 
     private var item: QuizItem { spec.items[index] }
 
+    /// Unfolded, the round sits on the leading side of the fold and its sheet on the trailing side.
+    private var split: UnfoldedSplit? {
+        UnfoldedSplit.make(width: panes.width, isRegularWidth: sizeClass == .regular, fold: panes.fold)
+    }
+
     var body: some View {
+        ZStack(alignment: .topLeading) {
+            round
+                .environment(\.horizontalSizeClass, split == nil ? sizeClass : .compact)
+                .paneSheet(isPresented: $reporting, inPane: split != nil) { close in
+                    FeedbackView(
+                        context: "question \(item.id): \(item.prompt) | answer shown: \(item.choices[item.correctIndex].label)",
+                        title: "Report a problem",
+                        pitch: Distribution.isTestFlight
+                            ? "A wrong answer, a typo, a fact that doesn't sound right. It goes straight to Jack's build assistant with this question attached."
+                            : nil,
+                        placeholder: "What's wrong with this one?",
+                        reported: (item.prompt, item.choices[item.correctIndex].label),
+                        onClose: close)
+                    .environment(app)
+                }
+                // After the bottom inset inside `round`, which fills its proposal and would
+                // centre a narrower pane across the fold.
+                .frame(maxWidth: split?.primaryWidth ?? .infinity, maxHeight: .infinity)
+            if let split {
+                RoundSheet(spec: spec, index: index, outcomes: outcomes, finished: finished) { answerPanel }
+                    .environment(\.horizontalSizeClass, .compact)
+                    .frame(width: split.secondaryWidth)
+                    .frame(maxHeight: .infinity)
+                    .padding(.leading, split.secondaryX)
+            }
+        }
+        .background(Theme.paper.ignoresSafeArea())
+        .measuringPanes(into: $panes)
+        .onAppear {
+            outcomes = Array(repeating: nil, count: spec.items.count)
+            if let preset = app.quizPreset, preset.outcomes.count == spec.items.count {
+                app.quizPreset = nil
+                index = preset.index
+                outcomes = preset.outcomes
+                picked = preset.picked
+            }
+        }
+        .onChange(of: index, initial: true) { _, _ in autoplay() }
+        .onDisappear { app.player.stop() }
+    }
+
+    private var round: some View {
         VStack(spacing: 0) {
             topBar
             if finished {
-                ResultView(spec: spec, outcomes: outcomes) { dismiss() }
+                ResultView(spec: spec, outcomes: outcomes, showsRecap: split == nil) { dismiss() }
             } else {
                 ScrollViewReader { proxy in
                     ScrollView {
                         VStack(alignment: .leading, spacing: 20) {
                             question
-                            if let picked { reveal(picked).id("reveal") }
+                            // Unfolded, the answer sits in the round's sheet beside the question.
+                            if let picked, split == nil { reveal(picked).id("reveal") }
                         }
                         .padding(.horizontal, Theme.gutter)
                         .padding(.top, 12)
@@ -35,7 +85,7 @@ struct QuizView: View {
                     .scrollBounceBehavior(.basedOnSize)
                     // On small screens the clip's record pushes the answer card under Next.
                     .onChange(of: picked) { _, new in
-                        guard new != nil else { return }
+                        guard new != nil, split == nil else { return }
                         // Wait for the card to lay out, or there is nothing to scroll to yet.
                         Task {
                             try? await Task.sleep(for: .milliseconds(120))
@@ -43,24 +93,31 @@ struct QuizView: View {
                         }
                     }
                 }
-                .safeAreaInset(edge: .bottom) { bottomBar }
+                .safeAreaInset(edge: .bottom) { if split == nil { bottomBar } }
+                .paneBottomFade(split != nil)
             }
         }
         .background(Theme.paper.ignoresSafeArea())
-        .onAppear { outcomes = Array(repeating: nil, count: spec.items.count) }
-        .onChange(of: index, initial: true) { _, _ in autoplay() }
-        .onDisappear { app.player.stop() }
-        .sheet(isPresented: $reporting) {
-            FeedbackView(
-                context: "question \(item.id): \(item.prompt) | answer shown: \(item.choices[item.correctIndex].label)",
-                title: "Report a problem",
-                pitch: Distribution.isTestFlight
-                    ? "A wrong answer, a typo, a fact that doesn't sound right. It goes straight to Jack's build assistant with this question attached."
-                    : nil,
-                placeholder: "What's wrong with this one?",
-                reported: (item.prompt, item.choices[item.correctIndex].label))
-            .environment(app)
+    }
+
+    /// Unfolded: the answer and Next, at the top of the round's sheet.
+    @ViewBuilder
+    private var answerPanel: some View {
+        if !finished, picked != nil || clipFailed {
+            VStack(spacing: 12) {
+                if let picked { reveal(picked) }
+                nextButton
+            }
+            .padding(.horizontal, Theme.gutter)
+            .padding(.top, 12)
+            .padding(.bottom, 4)
         }
+    }
+
+    private var nextButton: some View {
+        Button(index + 1 < spec.items.count ? "Next" : "See results") { advance() }
+            .buttonStyle(PrimaryButtonStyle(fill: Theme.ink, text: Theme.paper))
+            .accessibilityIdentifier("quiz-next")
     }
 
     // MARK: Chrome
@@ -99,12 +156,10 @@ struct QuizView: View {
     @ViewBuilder
     private var bottomBar: some View {
         if picked != nil || clipFailed {
-            Button(index + 1 < spec.items.count ? "Next" : "See results") { advance() }
-                .buttonStyle(PrimaryButtonStyle(fill: Theme.ink, text: Theme.paper))
+            nextButton
                 .padding(.horizontal, Theme.gutter)
                 .padding(.vertical, 10)
                 .background(Theme.paper.opacity(0.96))
-                .accessibilityIdentifier("quiz-next")
         }
     }
 
@@ -164,7 +219,7 @@ struct QuizView: View {
     private var turntable: some View {
         let playing = app.player.songID == item.audioSongID && app.player.state == .playing
         return VStack(spacing: 14) {
-            VinylView(labelSongID: item.audioSongID, revealed: picked != nil, spinning: playing, size: 210,
+            VinylView(labelSongID: item.audioSongID, revealed: picked != nil, spinning: playing, size: split == nil ? 210 : 160,
                       labelColor: Theme.crate(item.genreID))
                 .frame(maxWidth: .infinity)
             if clipFailed {
@@ -360,11 +415,110 @@ struct MatchupTile: View {
     }
 }
 
+/// The unfolded round's trailing pane: every question so far with its answer, the one
+/// on screen, and how many are left.
+struct RoundSheet<Answer: View>: View {
+    @Environment(AppModel.self) private var app
+    let spec: QuizSpec
+    let index: Int
+    let outcomes: [Bool?]
+    let finished: Bool
+    @ViewBuilder let answer: Answer
+
+    var body: some View {
+        let answered = outcomes.compactMap { $0 }
+        let right = answered.filter { $0 }.count
+        let shown = finished ? spec.items.count : min(index + 1, spec.items.count)
+        let left = spec.items.count - shown
+        VStack(spacing: 0) {
+            answer
+            ScrollViewReader { proxy in
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 20) {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Kicker(text: spec.isDaily ? "Today's Mix" : "\(spec.title) · \(spec.mode?.title ?? "")", color: Theme.accent)
+                            Text("This Round").font(Theme.display(34)).foregroundStyle(Theme.ink)
+                            if !answered.isEmpty {
+                                Text("\(right) of \(answered.count) right")
+                                    .font(.subheadline.weight(.semibold)).foregroundStyle(Theme.inkSoft)
+                                    .monospacedDigit()
+                            }
+                        }
+                        .padding(.top, 16)
+    
+                        VStack(alignment: .leading, spacing: 0) {
+                            ForEach(Array(spec.items.prefix(shown).enumerated()), id: \.offset) { i, item in
+                                row(i, item).id(i)
+                                Divider().overlay(Theme.rule)
+                            }
+                        }
+                        .overlay(alignment: .top) { Rectangle().fill(Theme.ink).frame(height: 1.5) }
+                        if left > 0 {
+                            Text(left == 1 ? "1 to go" : "\(left) to go")
+                                .font(.subheadline).foregroundStyle(Theme.inkSoft)
+                        }
+                    }
+                    .padding(.horizontal, Theme.gutter)
+                    .padding(.bottom, 32)
+                }
+                // Not on appear: a round opened partway through starts at the top.
+                .onChange(of: index) { _, new in
+                    withAnimation(.snappy) { proxy.scrollTo(new, anchor: .bottom) }
+                }
+                .paneBottomFade(true)
+            }
+        }
+        .background(Theme.paper.ignoresSafeArea())
+        .accessibilityElement(children: .contain)
+        .accessibilityIdentifier("round-sheet")
+    }
+
+    private func row(_ i: Int, _ item: QuizItem) -> some View {
+        let outcome = outcomes[safe: i] ?? nil
+        let current = i == index && !finished
+        let genre = app.library.genre(item.genreID)
+        return HStack(alignment: .firstTextBaseline, spacing: 14) {
+            Text("\(i + 1)")
+                .font(Theme.serif(.headline, weight: .bold))
+                .foregroundStyle(current ? Theme.accent : Theme.inkSoft)
+                .frame(width: 24, alignment: .leading)
+                .monospacedDigit()
+            VStack(alignment: .leading, spacing: 3) {
+                Kicker(text: [genre?.name, item.mode == .trivia ? nil : item.mode.title].compactMap { $0 }.joined(separator: " · "),
+                       color: Theme.crate(item.genreID))
+                if let outcome {
+                    if item.mode == .trivia || item.mode == .hard || item.mode == .covers {
+                        Text(item.prompt).font(.subheadline).foregroundStyle(Theme.inkSoft)
+                            .lineLimit(2)
+                    }
+                    Text(item.choices[item.correctIndex].label)
+                        .font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)
+                        .accessibilityValue(outcome ? "Right" : "Missed")
+                } else {
+                    Text(item.audioSongID == nil ? "Your turn" : "Now playing")
+                        .font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)
+                }
+            }
+            Spacer(minLength: 8)
+            if let outcome {
+                Image(systemName: outcome ? "checkmark.circle.fill" : "xmark.circle.fill")
+                    .font(.body)
+                    .foregroundStyle(outcome ? Theme.correct : Theme.accent)
+                    .accessibilityHidden(true)
+            }
+        }
+        .padding(.vertical, 12)
+        .accessibilityElement(children: .combine)
+    }
+}
+
 /// End of a round: the score, a recap of every question, and what to do next.
 struct ResultView: View {
     @Environment(AppModel.self) private var app
     let spec: QuizSpec
     let outcomes: [Bool?]
+    /// Off when the round's sheet already lists every answer beside the score.
+    var showsRecap = true
     let onDone: () -> Void
 
     var body: some View {
@@ -379,14 +533,16 @@ struct ResultView: View {
                 }
                 .padding(.top, 8)
 
-                VStack(alignment: .leading, spacing: 0) {
-                    ForEach(Array(spec.items.enumerated()), id: \.offset) { i, item in
-                        recapRow(item, outcome: outcomes[safe: i] ?? nil)
-                        if i < spec.items.count - 1 { Divider().overlay(Theme.rule) }
+                if showsRecap {
+                    VStack(alignment: .leading, spacing: 0) {
+                        ForEach(Array(spec.items.enumerated()), id: \.offset) { i, item in
+                            recapRow(item, outcome: outcomes[safe: i] ?? nil)
+                            if i < spec.items.count - 1 { Divider().overlay(Theme.rule) }
+                        }
                     }
+                    .padding(.horizontal, 16)
+                    .card()
                 }
-                .padding(.horizontal, 16)
-                .card()
 
                 VStack(spacing: 10) {
                     if !spec.isDaily, let mode = spec.mode {
