@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Draw the app icon: a black single on record-label red, cream label, offset like it's sliding out of a sleeve."""
+"""Draw the app icon: a black single on record-label red, cream label, sliding out of a sleeve marked with a question mark."""
 import math
 import pathlib
 
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 S = 4096  # draw large, downsample for clean edges
 OUT = pathlib.Path(__file__).resolve().parent.parent / "DeepCuts/Assets.xcassets/AppIcon.appiconset/icon-1024.png"
@@ -47,10 +47,11 @@ d.ellipse((cx - hr, cy - hr, cx + hr, cy + hr), fill=INK)
 d.rectangle(sleeve, fill=CREAM)
 x0, y0, x1, y1 = sleeve
 d.rectangle((x1 - 26, y0, x1, y1), fill=(222, 214, 200))
-# Two thin rules on the sleeve, like a plain record-store jacket.
-for k, w in ((0.70, 30), (0.76, 14)):
-    y = y0 + int((y1 - y0) * k)
-    d.rectangle((x0 + 150, y, x1 - 190, y + w), fill=RED)
+# A big serif question mark on the sleeve: what's the record?
+mark = ImageFont.truetype("/System/Library/Fonts/Supplemental/Georgia Bold.ttf", 1900)
+l, t, r_, b = d.textbbox((0, 0), "?", font=mark)
+mx, my = (x0 + x1 - 26) // 2, (y0 + y1) // 2
+d.text((mx - (r_ - l) // 2 - l, my - (b - t) // 2 - t), "?", font=mark, fill=INK)
 
 img.resize((1024, 1024), Image.LANCZOS).save(OUT)
 print(OUT)
