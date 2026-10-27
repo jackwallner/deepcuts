@@ -5,8 +5,9 @@ struct DeepCutsApp: App {
     @State private var app: AppModel
 
     init() {
-        let args = ProcessInfo.processInfo.arguments
         let progress = ProgressStore()
+        #if DEBUG
+        let args = ProcessInfo.processInfo.arguments
         if args.contains("-ui-reset") { progress.reset() }
         if let index = args.firstIndex(of: "-ui-focus"), index + 1 < args.count {
             progress.setFocus(args[index + 1].split(separator: ",").map(String.init))
@@ -14,6 +15,10 @@ struct DeepCutsApp: App {
         let feedback: FeedbackService = args.contains("-ui-feedback-stub") ? .stub : .live
         // UI tests play the bundled crates only, so rounds don't change under them.
         let live = !args.contains("-ui-reset")
+        #else
+        let feedback: FeedbackService = .live
+        let live = true
+        #endif
         let library = live ? ContentLibrary.shared.applying(RemoteContentCache.load().all) : .shared
         _app = State(initialValue: AppModel(library: library, progress: progress, feedback: feedback,
                                             content: live ? .live : .off))
