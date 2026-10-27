@@ -2,14 +2,19 @@ import PhotosUI
 import SwiftUI
 import UIKit
 
-/// "Suggest a change": goes to the tester-feedback endpoint, which starts a build session on Jack's Mac.
+/// "Suggest a change": goes to the tester-feedback endpoint. From TestFlight it starts a build
+/// session on Jack's Mac; from the App Store it goes to Jack.
 struct FeedbackView: View {
     @Environment(AppModel.self) private var app
     @Environment(\.dismiss) private var dismiss
     let context: String
-    var title = "Suggest a change"
-    var pitch = "Add a genre, fix a wrong answer, change how something works. Jack's build assistant picks it up right away and sends a new TestFlight build, usually within the hour."
-    var placeholder = "For example: Add a crate for '50s rock and roll, Elvis, Chuck Berry, Buddy Holly."
+    var title = Distribution.isTestFlight ? "Suggest a change" : "Send feedback"
+    var pitch: String? = Distribution.isTestFlight
+        ? "Add a genre, fix a wrong answer, change how something works. Jack's build assistant picks it up right away and sends a new TestFlight build, usually within the hour."
+        : nil
+    var placeholder = Distribution.isTestFlight
+        ? "For example: Add a crate for '50s rock and roll, Elvis, Chuck Berry, Buddy Holly."
+        : "What should we fix or add?"
     /// The question and answer being reported, shown above the text box.
     var reported: (prompt: String, answer: String)?
 
@@ -48,9 +53,11 @@ struct FeedbackView: View {
             VStack(alignment: .leading, spacing: 18) {
                 VStack(alignment: .leading, spacing: 6) {
                     Text(title).font(Theme.display(30)).foregroundStyle(Theme.ink)
-                    Text(pitch)
-                        .font(.subheadline).foregroundStyle(Theme.inkSoft)
-                        .fixedSize(horizontal: false, vertical: true)
+                    if let pitch {
+                        Text(pitch)
+                            .font(.subheadline).foregroundStyle(Theme.inkSoft)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
                 }
                 .padding(.top, 8)
 
@@ -122,9 +129,11 @@ struct FeedbackView: View {
     private var confirmation: some View {
         VStack(spacing: 18) {
             Spacer()
-            VinylView(labelSongID: nil, revealed: false, spinning: true, size: 160)
-            Text("Got it").font(Theme.display(34)).foregroundStyle(Theme.ink)
-            Text("Jack's build assistant is on it. When the new build is ready, TestFlight will let you know. Follow along under You, then Suggestions.")
+            Image(systemName: "checkmark.circle").font(.system(size: 56, weight: .light)).foregroundStyle(Theme.accent)
+            Text("Sent").font(Theme.display(34)).foregroundStyle(Theme.ink)
+            Text(Distribution.isTestFlight
+                 ? "Jack's build assistant is on it. Follow along under You, then Suggestions."
+                 : "Thanks. Jack reads every one.")
                 .font(.body).foregroundStyle(Theme.inkSoft).multilineTextAlignment(.center)
                 .padding(.horizontal, 32)
             Spacer()
@@ -162,6 +171,7 @@ struct FeedbackView: View {
                 "os": "\(device.systemName) \(device.systemVersion)",
                 "crates": app.progress.focus.joined(separator: ","),
                 "text_size": UIApplication.shared.preferredContentSizeCategory.rawValue,
+                "channel": Distribution.channel,
             ],
             screenshot: screenshot.flatMap(Self.encode))
         do {

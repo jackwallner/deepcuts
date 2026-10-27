@@ -6,7 +6,7 @@ Web page: https://jackwallner.com/ios/deepcuts/
 
 ## Music trivia for fans who know the records
 
-Deep Cuts is a music trivia app for iPhone. Pick your crates, play a daily ten, name the tune from a real preview, and read the story behind every answer.
+I made Deep Cuts, a music trivia app for iPhone, for my dad, who knows his '60s and '70s records cold. Play a daily ten, name the tune from a real preview, and read the story behind every answer.
 
 iPhone · 18 crates · Free
 

@@ -36,9 +36,20 @@ struct DeepCutsApp: App {
 struct RootView: View {
     @Environment(AppModel.self) private var app
     @Environment(\.scenePhase) private var scenePhase
-    @State private var tab = Tab.today
+    @State private var tab = Self.launchTab
 
-    enum Tab: Hashable { case today, play, stories, live, you }
+    enum Tab: String, Hashable { case today, play, stories, live, you }
+
+    /// `-ui-tab play` opens on that tab, for screenshots (DEBUG only).
+    private static var launchTab: Tab {
+        #if DEBUG
+        let args = ProcessInfo.processInfo.arguments
+        if let index = args.firstIndex(of: "-ui-tab"), index + 1 < args.count, let tab = Tab(rawValue: args[index + 1]) {
+            return tab
+        }
+        #endif
+        return .today
+    }
 
     var body: some View {
         @Bindable var app = app

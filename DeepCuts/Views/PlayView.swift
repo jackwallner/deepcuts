@@ -13,10 +13,8 @@ struct PlayView: View {
                     }
                     .padding(.top, 12)
 
-                    VStack(spacing: 10) {
-                        ForEach(QuizMode.allCases.filter { app.offers($0, crate: nil) }) { mode in
-                            ModeRow(mode: mode) { app.start(mode: mode, crate: nil) }
-                        }
+                    ModeList(modes: QuizMode.allCases.filter { app.offers($0, crate: nil) }) {
+                        app.start(mode: $0, crate: nil)
                     }
 
                     crateList(title: "Your Crates", genres: app.library.genres.filter { app.progress.focus.contains($0.id) })
@@ -49,28 +47,40 @@ struct PlayView: View {
     }
 }
 
+/// The ways to play, as a ruled menu: name on the left, length on the right.
+struct ModeList: View {
+    let modes: [QuizMode]
+    let start: (QuizMode) -> Void
+
+    var body: some View {
+        VStack(spacing: 0) {
+            ForEach(modes) { mode in
+                ModeRow(mode: mode) { start(mode) }
+                Divider().overlay(Theme.rule)
+            }
+        }
+        .overlay(alignment: .top) { Rectangle().fill(Theme.ink).frame(height: 1.5) }
+    }
+}
+
 struct ModeRow: View {
     let mode: QuizMode
-    var compact = false
     let action: () -> Void
 
     var body: some View {
         Button(action: action) {
-            HStack(spacing: 14) {
-                Image(systemName: mode.symbol)
-                    .font(.system(size: 20, weight: .semibold))
-                    .foregroundStyle(Theme.accent)
-                    .frame(width: 44, height: 44)
-                    .background(Theme.accent.opacity(0.1), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+            HStack(alignment: .firstTextBaseline, spacing: 12) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(mode.title).font(.headline).foregroundStyle(Theme.ink)
-                    Text(mode.pitch).font(.subheadline).foregroundStyle(Theme.inkSoft)
+                    Text(mode.title).font(Theme.serif(.title3, weight: .bold)).foregroundStyle(Theme.ink)
+                    if let detail = mode.detail {
+                        Text(detail).font(.subheadline).foregroundStyle(Theme.inkSoft)
+                    }
                 }
-                Spacer()
-                Image(systemName: "play.fill").font(.footnote).foregroundStyle(Theme.inkSoft)
+                Spacer(minLength: 8)
+                Text(mode.length).font(.subheadline).foregroundStyle(Theme.inkSoft)
+                Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(Theme.inkSoft)
             }
-            .padding(12)
-            .card()
+            .padding(.vertical, 14)
             .contentShape(Rectangle())
         }
         .buttonStyle(PressableStyle())
@@ -83,16 +93,10 @@ struct CrateRow: View {
     let genre: Genre
 
     var body: some View {
-        let tally = app.progress.tally(crate: genre.id)
         HStack(spacing: 14) {
-            ZStack {
-                RoundedRectangle(cornerRadius: 8, style: .continuous).fill(Theme.crate(genre.id))
-                Image(systemName: Theme.crateSymbol(genre.id)).font(.system(size: 17, weight: .semibold)).foregroundStyle(.white)
-            }
-            .frame(width: 40, height: 40)
             VStack(alignment: .leading, spacing: 2) {
                 Text(genre.name).font(.headline).foregroundStyle(Theme.ink)
-                Text(subtitle(tally)).font(.subheadline).foregroundStyle(Theme.inkSoft)
+                Text(subtitle).font(.subheadline).foregroundStyle(Theme.inkSoft)
             }
             Spacer()
             Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(Theme.inkSoft)
@@ -101,10 +105,9 @@ struct CrateRow: View {
         .contentShape(Rectangle())
     }
 
-    private func subtitle(_ tally: Tally) -> String {
+    private var subtitle: String {
         let seen = app.progress.seenCount(in: genre)
-        guard let accuracy = tally.accuracy else { return genre.eraLabel }
-        return "\(Int((accuracy * 100).rounded()))% right · \(seen) of \(genre.questions.count) questions seen"
+        return seen == 0 ? genre.eraLabel : "\(genre.eraLabel) · \(seen) of \(genre.questions.count) played"
     }
 }
 
@@ -117,10 +120,8 @@ struct CrateView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 28) {
                 header
-                VStack(spacing: 10) {
-                    ForEach(QuizMode.allCases.filter { app.offers($0, crate: genre) }) { mode in
-                        ModeRow(mode: mode) { app.start(mode: mode, crate: genre) }
-                    }
+                ModeList(modes: QuizMode.allCases.filter { app.offers($0, crate: genre) }) {
+                    app.start(mode: $0, crate: genre)
                 }
                 if !genre.stories.isEmpty {
                     VStack(alignment: .leading, spacing: 12) {
@@ -158,35 +159,21 @@ struct CrateView: View {
     }
 
     private var header: some View {
-        let tally = app.progress.tally(crate: genre.id)
-        return VStack(alignment: .leading, spacing: 10) {
-            HStack(spacing: 8) {
-                Image(systemName: Theme.crateSymbol(genre.id))
-                Kicker(text: genre.eraLabel, color: .white.opacity(0.85))
-            }
-            .font(.caption.weight(.bold))
-            .foregroundStyle(.white.opacity(0.85))
-            Text(genre.name).font(Theme.display(36)).foregroundStyle(.white)
-            Text(genre.blurb).font(.body).foregroundStyle(.white.opacity(0.9))
+        VStack(alignment: .leading, spacing: 10) {
+            Kicker(text: genre.eraLabel, color: Theme.onSleeve.opacity(0.7))
+            Text(genre.name).font(Theme.display(36)).foregroundStyle(Theme.onSleeve)
+            Text(genre.blurb).font(.body).foregroundStyle(Theme.onSleeve.opacity(0.9))
                 .fixedSize(horizontal: false, vertical: true)
-            if let accuracy = tally.accuracy {
-                HStack(spacing: 18) {
-                    stat("\(Int((accuracy * 100).rounded()))%", "right")
-                    stat("\(app.progress.seenCount(in: genre))/\(genre.questions.count)", "questions seen")
-                }
-                .padding(.top, 4)
+            let seen = app.progress.seenCount(in: genre)
+            if seen > 0 {
+                Text("\(seen) of \(genre.questions.count) played")
+                    .font(.subheadline.weight(.semibold)).foregroundStyle(Theme.onSleeve.opacity(0.7))
+                    .padding(.top, 4)
             }
         }
         .padding(20)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Theme.crate(genre.id), in: RoundedRectangle(cornerRadius: Theme.radius + 4, style: .continuous))
+        .background(Theme.sleeve, in: RoundedRectangle(cornerRadius: Theme.radius + 4, style: .continuous))
         .padding(.top, 8)
-    }
-
-    private func stat(_ value: String, _ label: String) -> some View {
-        VStack(alignment: .leading, spacing: 0) {
-            Text(value).font(Theme.serif(.title3, weight: .bold)).foregroundStyle(.white)
-            Text(label).font(.caption).foregroundStyle(.white.opacity(0.8))
-        }
     }
 }

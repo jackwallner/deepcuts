@@ -14,7 +14,6 @@ struct YouView: View {
                     }
                     .padding(.top, 12)
 
-                    stats
                     crates
                     settings
                     suggestions
@@ -37,47 +36,24 @@ struct YouView: View {
         }
     }
 
-    private var stats: some View {
-        let overall = app.progress.overall
-        return HStack(spacing: 0) {
-            stat("\(app.progress.streak())", app.progress.streak() == 1 ? "day in a row" : "days in a row")
-            Divider().frame(height: 44).overlay(Theme.rule)
-            stat("\(overall.answered)", "answered")
-            Divider().frame(height: 44).overlay(Theme.rule)
-            stat(overall.accuracy.map { "\(Int(($0 * 100).rounded()))%" } ?? "–", "right")
-        }
-        .padding(.vertical, 16)
-        .card()
-    }
-
-    private func stat(_ value: String, _ label: String) -> some View {
-        VStack(spacing: 2) {
-            Text(value).font(Theme.serif(.title, weight: .bold)).foregroundStyle(Theme.ink).monospacedDigit()
-            Text(label).font(.caption).foregroundStyle(Theme.inkSoft)
-        }
-        .frame(maxWidth: .infinity)
-        .accessibilityElement(children: .combine)
-    }
-
     private var crates: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack {
-                SectionHeader(title: "Your Crates")
-            }
+        VStack(alignment: .leading, spacing: 4) {
+            SectionHeader(title: "Your Crates")
             ForEach(app.focusGenres) { genre in
-                let tally = app.progress.tally(crate: genre.id)
-                VStack(alignment: .leading, spacing: 6) {
-                    HStack {
-                        Text(genre.name).font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)
-                        Spacer()
-                        Text(tally.answered == 0 ? "Not played yet" : "\(tally.correct) of \(tally.answered) right")
-                            .font(.caption).foregroundStyle(Theme.inkSoft)
-                    }
-                    Meter(value: tally.accuracy ?? 0, color: Theme.crate(genre.id))
+                let seen = app.progress.seenCount(in: genre)
+                HStack(alignment: .firstTextBaseline) {
+                    Text(genre.name).font(.headline).foregroundStyle(Theme.ink)
+                    Spacer()
+                    Text("\(seen) of \(genre.questions.count) played")
+                        .font(.subheadline).foregroundStyle(Theme.inkSoft).monospacedDigit()
                 }
+                .padding(.vertical, 10)
+                .accessibilityElement(children: .combine)
+                Divider().overlay(Theme.rule)
             }
             Button("Change crates") { editingFocus = true }
                 .font(.subheadline.weight(.semibold))
+                .padding(.top, 8)
                 .accessibilityIdentifier("change-crates")
         }
     }
@@ -88,11 +64,7 @@ struct YouView: View {
         } label: {
             HStack(spacing: 12) {
                 Image(systemName: "slider.horizontal.3").font(.title3).foregroundStyle(Theme.accent)
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Settings").font(.headline).foregroundStyle(Theme.ink)
-                    Text("Order of the Today screen, and how far to look for venues").font(.subheadline).foregroundStyle(Theme.inkSoft)
-                        .multilineTextAlignment(.leading)
-                }
+                Text("Settings").font(.headline).foregroundStyle(Theme.ink)
                 Spacer()
                 Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(Theme.inkSoft)
             }
@@ -103,7 +75,19 @@ struct YouView: View {
         .accessibilityIdentifier("open-settings")
     }
 
+    @ViewBuilder
     private var suggestions: some View {
+        if Distribution.isTestFlight {
+            testerSuggestions
+        } else {
+            Button("Send feedback") { app.requestFeedback(context: "You tab") }
+                .buttonStyle(PrimaryButtonStyle(fill: Theme.ink, text: Theme.paper))
+                .accessibilityIdentifier("suggest-you")
+        }
+    }
+
+    /// TestFlight only: each suggestion becomes a build, and its status shows here.
+    private var testerSuggestions: some View {
         VStack(alignment: .leading, spacing: 12) {
             SectionHeader(title: "Suggestions")
             Text("Ideas, fixes, anything you'd change. Each one goes to Jack's build assistant, which works on it and sends a new TestFlight build.")

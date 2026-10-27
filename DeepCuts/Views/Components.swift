@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Album art from Apple Music, or the crate's color and symbol while it loads or when offline.
+/// Album art from Apple Music, or a plain sleeve while it loads or when offline.
 struct ArtworkView: View {
     @Environment(AppModel.self) private var app
     let songID: String?
@@ -8,16 +8,14 @@ struct ArtworkView: View {
     var corner: CGFloat = 6
 
     var body: some View {
-        let genreID = songID.flatMap { app.library.genre(forSong: $0)?.id } ?? ""
         AsyncImage(url: songID.flatMap { app.library.artworkURL(for: $0, size: size > 120 ? 600 : 300) }, transaction: Transaction(animation: .easeOut(duration: 0.25))) { phase in
             if let image = phase.image {
                 image.resizable().scaledToFill()
             } else {
                 ZStack {
-                    Theme.crate(genreID).opacity(0.85)
-                    Image(systemName: Theme.crateSymbol(genreID))
-                        .font(.system(size: size * 0.32, weight: .medium))
-                        .foregroundStyle(.white.opacity(0.85))
+                    Theme.sleeve
+                    Circle().strokeBorder(Theme.onSleeve.opacity(0.18), lineWidth: 1).padding(size * 0.14)
+                    Circle().fill(Theme.onSleeve.opacity(0.18)).frame(width: size * 0.06)
                 }
             }
         }
@@ -70,9 +68,6 @@ struct VinylView: View {
                     .stroke(Color.white.opacity(ring.isMultiple(of: 3) ? 0.07 : 0.035), lineWidth: 1)
                     .padding(size * 0.04 + CGFloat(ring) * size * 0.022)
             }
-            // Sheen.
-            Circle()
-                .fill(AngularGradient(colors: [.clear, .white.opacity(0.10), .clear, .clear, .white.opacity(0.07), .clear], center: .center))
             ZStack {
                 if revealed, let labelSongID {
                     ArtworkView(songID: labelSongID, size: size * 0.38, corner: size)
@@ -156,21 +151,5 @@ struct PlayButton: View {
         }
         .buttonStyle(.plain)
         .accessibilityLabel(active ? "Stop preview" : "Play preview of \(label)")
-    }
-}
-
-/// Thin progress bar, used for accuracy by crate.
-struct Meter: View {
-    let value: Double
-    var color: Color = Theme.accent
-
-    var body: some View {
-        GeometryReader { geo in
-            ZStack(alignment: .leading) {
-                Capsule().fill(Theme.rule)
-                Capsule().fill(color).frame(width: max(4, geo.size.width * value))
-            }
-        }
-        .frame(height: 6)
     }
 }

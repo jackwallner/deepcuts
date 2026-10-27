@@ -179,12 +179,12 @@ struct QuizBuilder {
             used.formUnion([a.id, b.id])
             let pair = [a, b].shuffled(using: &rng)
             let older = pair[0].year < pair[1].year ? 0 : 1
-            let gap = abs(a.year - b.year)
             items.append(QuizItem(
                 id: "first-\(a.id)-\(b.id)", mode: .firstOf, genreID: genre.id, prompt: "Which came first?",
                 choices: pair.map { Choice(title: $0.title, subtitle: $0.artist, songID: $0.id) },
                 correctIndex: older,
-                fact: "\"\(pair[older].title)\" (\(pair[older].year)) came out \(gap) years before \"\(pair[1 - older].title)\" (\(pair[1 - older].year))."))
+                // The tiles already show both years, so the fact is about the older record.
+                fact: pair[older].note))
         }
         return items
     }

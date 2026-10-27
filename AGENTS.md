@@ -37,14 +37,14 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
   and for new songs `python3 scripts/resolve-catalog.py` (about 20 lookups a minute) then review its
   NO MATCH / YEAR lines. `scripts/edit-content.py <crate> <id> '<json>'` sets fields on one item
   without reformatting the file. A new crate also needs an entry in `ContentLibrary.order` and
-  `Theme.crate`/`Theme.crateSymbol`.
+  `Theme.crate` (its color, used only inside a round).
 - Design: warm paper, ink, one record-label red (`Theme`), New York serif headlines, real album art.
   No gradients, no emoji icons, nothing that looks generated. Keep it simple.
 - `Config/App.xcconfig` optionally includes `Config/Secrets.xcconfig` (not committed), which holds
   the feedback URL and app key; without it the app builds (gh-sim works) but can't send suggestions. Values live in `~/.tester_feedback`.
 - Tests: `xcodebuild test -project DeepCuts.xcodeproj -scheme DeepCuts -destination id=<leased UDID>`.
   UI tests launch with `-ui-reset -ui-feedback-stub` (never send real feedback from a test: a real
-  suggestion starts a build session). `-ui-focus classic-rock,southern-rock` skips onboarding.
+  suggestion starts a build session). `-ui-focus classic-rock,southern-rock` skips onboarding, `-ui-tab play|stories|live|you` opens a tab.
 
 ## Target users (check every change against them)
 - **John (Jack's dad), 60s**: grew up on '60s/'70s rock, knows the records cold, reads on an iPhone
@@ -61,6 +61,9 @@ the ops poller on the MacBook Pro (`~/ios/ops/ops/feedback.py`) sees it within a
 Claude app). That session implements it with no approval step (never `needs_jack`), tests on `gh-sim`,
 commits, pushes, runs `./scripts/testflight.sh`, and reports back with `python3 scripts/feedback.py status <id> shipped --build N --reply "..."`, which the
 tester sees under You > Suggestions. `scripts/feedback.py list` shows pending ones.
+Only TestFlight builds show the build pipeline (`Distribution.isTestFlight`: Suggestions list, Today's
+suggest card, build copy). App Store builds send `channel: app_store`, which the poller holds for the
+#ops digest instead of starting a session; nobody outside TestFlight can start a build.
 A wrong question also gets its fix published live (`scripts/content-remote.py publish --fix`), and a
 `-live-` id exists only remotely; see `.claude/rules/live-content.md`.
 

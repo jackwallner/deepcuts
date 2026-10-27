@@ -15,23 +15,21 @@ enum QuizMode: String, Codable, CaseIterable, Identifiable, Sendable {
         }
     }
 
-    var symbol: String {
+    /// Only where the name doesn't say what you do.
+    var detail: String? {
         switch self {
-        case .trivia: "questionmark.bubble"
-        case .hard: "dial.high"
-        case .tune: "waveform"
-        case .covers: "arrow.triangle.2.circlepath"
-        case .firstOf: "calendar"
+        case .covers: "Name the original artist"
+        case .firstOf: "Pick the older record"
+        default: nil
         }
     }
 
-    var pitch: String {
+    var length: String {
         switch self {
-        case .trivia: "10 questions, easy to deep cut"
-        case .hard: "10 of the toughest. For collectors."
-        case .tune: "6 clips. Name the song."
-        case .covers: "6 famous covers. Name the original artist."
-        case .firstOf: "8 matchups. Pick the older record."
+        case .trivia, .hard: "10 questions"
+        case .tune: "6 clips"
+        case .covers: "6 covers"
+        case .firstOf: "8 matchups"
         }
     }
 }
