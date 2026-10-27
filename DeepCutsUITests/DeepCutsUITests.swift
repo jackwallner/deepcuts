@@ -161,6 +161,15 @@ final class DeepCutsUITests: XCTestCase {
         stubbed.tabBars.buttons["Live"].tap()
         XCTAssertTrue(stubbed.buttons["venue-The Old Mill Ballroom"].waitForExistence(timeout: 5))
         XCTAssertFalse(stubbed.buttons["live-locate"].exists)
+
+        // Feedback #10: search a city instead of here.
+        let field = stubbed.textFields["live-city"]
+        field.tap()
+        field.typeText("Seattle\n")
+        XCTAssertTrue(stubbed.staticTexts["Near Seattle"].waitForExistence(timeout: 5))
+        XCTAssertTrue(stubbed.buttons["venue-The Old Mill Ballroom"].waitForExistence(timeout: 5))
+        stubbed.buttons["live-my-location"].tap()
+        XCTAssertTrue(stubbed.staticTexts["Near You"].waitForExistence(timeout: 5))
     }
 
     /// Feedback #8: You > Settings reorders the Today screen and sets how far to look for venues.
