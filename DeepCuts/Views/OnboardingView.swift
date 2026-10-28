@@ -20,7 +20,7 @@ struct OnboardingView: View {
                 // A member (a reinstall, say) goes straight in.
                 app.progress.setFocus(ids, onboarded: app.isPlus)
                 guard !app.isPlus else { return }
-                withAnimation(.snappy) { picked = ids }
+                withMotion(.snappy) { picked = ids }
             }
             .task { await app.membership.loadOfferings() }
         }
@@ -91,7 +91,7 @@ struct FocusPicker: View {
     private func row(_ genre: Genre) -> some View {
         let on = picked.contains(genre.id)
         return Button {
-            withAnimation(.snappy) {
+            withMotion(.snappy) {
                 if on { picked.removeAll { $0 == genre.id } } else { picked.append(genre.id) }
             }
         } label: {

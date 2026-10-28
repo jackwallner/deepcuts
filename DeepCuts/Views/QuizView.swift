@@ -89,7 +89,7 @@ struct QuizView: View {
                         // Wait for the card to lay out, or there is nothing to scroll to yet.
                         Task {
                             try? await Task.sleep(for: .milliseconds(120))
-                            withAnimation(.snappy) { proxy.scrollTo("reveal", anchor: .bottom) }
+                            withMotion(.snappy) { proxy.scrollTo("reveal", anchor: .bottom) }
                         }
                     }
                 }
@@ -313,7 +313,7 @@ struct QuizView: View {
     private func answer(_ choice: Int) {
         guard picked == nil else { return }
         let right = choice == item.correctIndex
-        withAnimation(.spring(duration: 0.35)) {
+        withMotion(.spring(duration: 0.35)) {
             picked = choice
             outcomes[index] = right
         }
@@ -326,10 +326,10 @@ struct QuizView: View {
             app.player.stop()
             let counted = outcomes.compactMap { $0 }
             app.progress.finish(spec: spec, result: QuizResult(correct: counted.filter { $0 }.count, total: counted.count))
-            withAnimation(.snappy) { finished = true }
+            withMotion(.snappy) { finished = true }
             return
         }
-        withAnimation(.snappy) {
+        withMotion(.snappy) {
             picked = nil
             index += 1
         }
@@ -465,7 +465,7 @@ struct RoundSheet<Answer: View>: View {
                 }
                 // Not on appear: a round opened partway through starts at the top.
                 .onChange(of: index) { _, new in
-                    withAnimation(.snappy) { proxy.scrollTo(new, anchor: .bottom) }
+                    withMotion(.snappy) { proxy.scrollTo(new, anchor: .bottom) }
                 }
                 .paneBottomFade(true)
             }

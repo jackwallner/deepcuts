@@ -167,7 +167,7 @@ struct RootView: View {
         try? await Task.sleep(for: .seconds(2))
         if let story {
             tab = .stories
-            withAnimation(.snappy) { app.storyPath = [story] }
+            withMotion(.snappy) { app.storyPath = [story] }
         }
         try? await Task.sleep(for: .seconds(2))
         tab = .play

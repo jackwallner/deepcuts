@@ -24,7 +24,7 @@ struct StoriesPane: View {
             if let story = app.storyPath.last {
                 VStack(alignment: .leading, spacing: 0) {
                     Button {
-                        withAnimation(.snappy) { app.storyPath.removeAll() }
+                        withMotion(.snappy) { app.storyPath.removeAll() }
                     } label: {
                         Label("Stories", systemImage: "chevron.left")
                             .font(.body.weight(.semibold))
@@ -40,7 +40,7 @@ struct StoriesPane: View {
                 .transition(.move(edge: .trailing))
             }
         }
-        .animation(.snappy, value: app.storyPath.last?.id)
+        .motion(.snappy, value: app.storyPath.last?.id)
     }
 }
 
@@ -95,7 +95,7 @@ struct StoryLink<Label: View>: View {
                 Button { app.paywall = .story } label: { label }
             } else if inPane {
                 Button {
-                    withAnimation(.snappy) { app.storyPath = [story] }
+                    withMotion(.snappy) { app.storyPath = [story] }
                 } label: { label }
             } else {
                 NavigationLink(value: story) { label }

@@ -83,7 +83,7 @@ struct TodayView: View {
                 }
                 if all.count > 5 {
                     Button(showAllMoments ? "Show fewer" : "Show all \(all.count)") {
-                        withAnimation(.snappy) { showAllMoments.toggle() }
+                        withMotion(.snappy) { showAllMoments.toggle() }
                     }
                     .font(.subheadline.weight(.semibold))
                 }
@@ -174,7 +174,7 @@ struct CoverOfTheDayCard: View {
                     }
                 } else {
                     Button {
-                        withAnimation(.snappy) { revealed = true }
+                        withMotion(.snappy) { revealed = true }
                     } label: {
                         HStack {
                             Text("Who recorded it first?").font(.subheadline.weight(.semibold))
