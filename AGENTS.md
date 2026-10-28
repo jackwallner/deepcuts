@@ -74,7 +74,8 @@ A wrong question also gets its fix published live (`scripts/content-remote.py pu
   (Jack, John, Emi, Michael, Scott) gets every build; no Beta App Review.
   `scripts/asc-testers.py` (hourly `deepcuts-testers.timer` on the iMac) adds accepted invitees and keeps
   non-admin testers locked to Deep Cuts only.
-- Not submitted to the App Store yet; that needs Jack (listing, privacy label, previews licensing review).
+- 1.0.0 (build 18) submitted to App Store review 2026-10-28 with Deep Cuts+ (both subscriptions and lifetime), MANUAL release:
+  `python3 ~/ios/release/release.py release --app ~/deepcuts --apply` once approved.
 
 ## Area rules (`.claude/rules/`)
 - `live-content.md`: live questions, `content-remote.py`, the weekly iMac job.
