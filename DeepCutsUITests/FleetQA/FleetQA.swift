@@ -89,7 +89,7 @@ enum QA {
                 Paywall.check(app, leaves, rendered, context: context)
             }
             // Apple's audit re-renders the app at other text sizes; its motion is not the app's.
-            system("audit", journey: context.journey) { Audit.run(app, shot: shot, context: context) }
+            system("audit", journey: context.journey) { Audit.run(app, shot: shot, leaves: leaves, context: context) }
             Idle.check(app, first: shot, ambient: leaves.filter { ambient.contains($0.label) || ambient.contains($0.identifier) },
                        context: context)
             // Data that lands a few seconds late still jumps under the user's eye, so
@@ -522,7 +522,7 @@ enum Audit {
         }
     }
 
-    static func run(_ app: XCUIApplication, shot: UIImage, context: QA.Context) {
+    static func run(_ app: XCUIApplication, shot: UIImage, leaves: [Leaf] = [], context: QA.Context) {
         let pixels = Idle.pixels(shot)
         do {
             var checked = 0
@@ -541,9 +541,14 @@ enum Audit {
                 if issue.auditType == .contrast, let target = issue.element, let pixels {
                     // The audit flags text that passes (white on a dark brand color, iOS's own
                     // headers); a finding stands only when the drawn pixels fail WCAG too.
-                    guard let ratio = contrast(in: target.frame, pixels, scale: CGFloat(pixels.width) / shot.size.width)
+                    // The audit scrolls and re-renders as it goes, so the live frame can sit
+                    // elsewhere than the screenshot drew the element; take the frame the
+                    // tree had when the screenshot was taken.
+                    let label = target.label, type = target.elementType
+                    let frame = leaves.first { $0.label == label && $0.type == type }?.frame ?? target.frame
+                    guard let ratio = contrast(in: frame, pixels, scale: CGFloat(pixels.width) / shot.size.width)
                     else { return true }
-                    if ratio >= (target.frame.height >= 24 ? 3 : 4.5) { return true }
+                    if ratio >= (frame.height >= 24 ? 3 : 4.5) { return true }
                     measured = String(format: " (measured %.1f:1)", ratio)
                 }
                 QA.record(context, "a11y-" + name(issue.auditType), severity(issue.auditType), element,
