@@ -1,17 +1,10 @@
 {
   "project": "DeepCuts.xcodeproj",
   "scheme": "DeepCuts",
+  "unit_scheme": "DeepCutsUnitTests",
   "uitests_dir": "DeepCutsUITests",
-  "journeys": [
-    "DeepCutsUITests/ReleaseJourneysUITests"
-  ],
-  "personas": [
-    "newcomer",
-    "accessibility",
-    "reduce-motion",
-    "german",
-    "duo"
-  ],
+  "journeys": ["DeepCutsUITests/ReleaseJourneysUITests"],
+  "personas": ["newcomer", "accessibility", "reduce-motion", "german", "duo"],
   "persona_overrides": {},
   "slot": null
 }

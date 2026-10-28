@@ -39,6 +39,16 @@ schemes:
     run:
       config: Debug
 
+  DeepCutsUnitTests:
+    build:
+      targets:
+        DeepCuts: all
+        DeepCutsTests: [test]
+    test:
+      config: Debug
+      targets:
+        - DeepCutsTests
+
 targets:
   DeepCuts:
     type: application
