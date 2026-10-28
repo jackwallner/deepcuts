@@ -879,9 +879,19 @@ enum Paywall {
         return (saysSo && (restore || priced || pitch)) || (priced && restore)
     }
 
-    /// An element anywhere in the tree, scrolled off or not, whose label contains `text`.
+    /// The words each paywall control goes by in the persona languages
+    /// (the `german` persona included), so a localized paywall passes.
+    static let words: [String: [String]] = [
+        "restore": ["restore", "wiederherstellen"],
+        "terms": ["terms", "EULA", "nutzungsbedingungen", "bedingungen"],
+        "privacy": ["privacy", "datenschutz"],
+    ]
+
+    /// An element anywhere in the tree, scrolled off or not, whose label contains `text`
+    /// or one of its translations in `words`.
     static func find(_ app: XCUIApplication, _ text: String) -> XCUIElement? {
-        let predicate = NSPredicate(format: "label CONTAINS[c] %@", text)
+        let predicates = (words[text] ?? [text]).map { NSPredicate(format: "label CONTAINS[c] %@", $0) }
+        let predicate = NSCompoundPredicate(orPredicateWithSubpredicates: predicates)
         return [app.buttons, app.links, app.staticTexts].lazy.map { $0.matching(predicate).firstMatch }.first { $0.exists }
     }
 
@@ -899,7 +909,7 @@ enum Paywall {
         if drawn.isEmpty && !leaves.contains(where: { $0.label.range(of: price, options: .regularExpression) != nil }) {
             QA.record(context, "paywall-price", "P0", "", "a paywall with no price on screen: the plans did not load or the price is hidden")
         }
-        if find(app, "terms") == nil && find(app, "EULA") == nil {
+        if find(app, "terms") == nil {
             QA.record(context, "paywall-terms", "P1", "", "no Terms of Use (EULA) link anywhere on the paywall (3.1.2)")
         }
         if find(app, "privacy") == nil {
