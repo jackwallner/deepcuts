@@ -99,7 +99,7 @@ struct PrimaryButtonStyle: ButtonStyle {
             .background(fill, in: RoundedRectangle(cornerRadius: Theme.radius, style: .continuous))
             .opacity(configuration.isPressed ? 0.85 : 1)
             .scaleEffect(configuration.isPressed ? 0.98 : 1)
-            .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
+            .motion(.easeOut(duration: 0.15), value: configuration.isPressed)
     }
 }
 
@@ -109,7 +109,7 @@ struct PressableStyle: ButtonStyle {
         configuration.label
             .opacity(configuration.isPressed ? 0.8 : 1)
             .scaleEffect(configuration.isPressed ? 0.98 : 1)
-            .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
+            .motion(.easeOut(duration: 0.15), value: configuration.isPressed)
     }
 }
 
@@ -128,5 +128,18 @@ extension View {
     func paperPage() -> some View {
         background(Theme.paper.ignoresSafeArea())
             .toolbarBackground(Theme.paper, for: .navigationBar)
+    }
+}
+
+/// `withAnimation` that does nothing when the listener has Reduce Motion on.
+@MainActor
+func withMotion<Result>(_ animation: Animation = .snappy, _ body: () throws -> Result) rethrows -> Result {
+    try withAnimation(UIAccessibility.isReduceMotionEnabled ? nil : animation, body)
+}
+
+extension View {
+    /// `animation(_:value:)` that is skipped when the listener has Reduce Motion on.
+    func motion<V: Equatable>(_ animation: Animation = .snappy, value: V) -> some View {
+        self.animation(UIAccessibility.isReduceMotionEnabled ? nil : animation, value: value)
     }
 }

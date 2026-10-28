@@ -190,7 +190,7 @@ struct FeedbackView: View {
         do {
             let id = try await app.feedback.send(draft)
             app.progress.rememberFeedback(id)
-            withAnimation(.snappy) { sent = true }
+            withMotion(.snappy) { sent = true }
             await app.refreshFeedback()
         } catch {
             self.error = "Couldn't send: \(error.localizedDescription) Try again in a minute."

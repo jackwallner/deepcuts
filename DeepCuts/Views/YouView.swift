@@ -78,6 +78,9 @@ struct YouView: View {
             .card()
         }
         .buttonStyle(PressableStyle())
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Settings")
+        .accessibilityAddTraits(.isButton)
         .accessibilityIdentifier("open-settings")
     }
 

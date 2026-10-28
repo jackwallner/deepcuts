@@ -82,7 +82,7 @@ struct SettingsView: View {
     private func move(_ change: (inout [TodaySection]) -> Void) {
         var order = app.progress.todayOrder
         change(&order)
-        withAnimation(.snappy) { app.progress.setTodayOrder(order) }
+        withMotion(.snappy) { app.progress.setTodayOrder(order) }
     }
 
     // MARK: Venue distance

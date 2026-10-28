@@ -118,6 +118,6 @@ private struct PaneSheet<Sheet: View>: ViewModifier {
                         .transition(.move(edge: .bottom))
                 }
             }
-            .animation(.snappy, value: inPane && isPresented)
+            .motion(.snappy, value: inPane && isPresented)
     }
 }
