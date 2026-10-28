@@ -69,14 +69,20 @@ struct PlusLegalFooter: View {
     var body: some View {
         let layout = typeSize.isAccessibilitySize ? AnyLayout(VStackLayout(spacing: 4)) : AnyLayout(HStackLayout(spacing: 20))
         layout {
-            Button("Restore", action: restore).disabled(disabled)
+            Button(action: restore) { Text("Restore").footerTarget() }.disabled(disabled)
                 .accessibilityIdentifier("plus-restore")
-            Link("Terms of Use", destination: PlusLinks.terms)
-            Link("Privacy Policy", destination: PlusLinks.privacy)
+            Link(destination: PlusLinks.terms) { Text("Terms of Use").footerTarget() }
+            Link(destination: PlusLinks.privacy) { Text("Privacy Policy").footerTarget() }
         }
         .font(.footnote)
         .foregroundStyle(Theme.inkSoft)
-        .frame(minHeight: 44)
+    }
+}
+
+private extension View {
+    /// Pads a footer link to a 44 pt tap target.
+    func footerTarget() -> some View {
+        frame(minWidth: 44, minHeight: 44).contentShape(Rectangle())
     }
 }
 
