@@ -1,17 +1,28 @@
 import SwiftUI
 
-/// First run: pick the crates you want questions and stories from.
+/// First run: pick the crates you want questions and stories from, then the Deep Cuts+ trial.
 struct OnboardingView: View {
     @Environment(AppModel.self) private var app
+    @State private var picked: [String]?
 
     var body: some View {
-        FocusPicker(
-            title: "Pick the music\nyou know",
-            subtitle: "Choose one or more. You can change these later.",
-            action: "Continue",
-            initial: []
-        ) { picked in
-            app.progress.setFocus(picked)
+        if let picked {
+            TrialPage(crates: picked) { app.progress.finishOnboarding() }
+                .transition(.move(edge: .trailing))
+        } else {
+            FocusPicker(
+                title: "Pick the music\nyou know",
+                subtitle: "Choose one or more. You can change these later.",
+                action: "Continue",
+                initial: [],
+                reservesLegalFooter: true
+            ) { ids in
+                // A member (a reinstall, say) goes straight in.
+                app.progress.setFocus(ids, onboarded: app.isPlus)
+                guard !app.isPlus else { return }
+                withAnimation(.snappy) { picked = ids }
+            }
+            .task { await app.membership.loadOfferings() }
         }
     }
 }
@@ -23,6 +34,9 @@ struct FocusPicker: View {
     let subtitle: String
     let action: String
     let initial: [String]
+    /// Onboarding keeps an invisible legal footer under the button, so the trial page's
+    /// button lands in exactly the same place.
+    var reservesLegalFooter = false
     let onDone: ([String]) -> Void
 
     @State private var picked: [String] = []
@@ -59,6 +73,12 @@ struct FocusPicker: View {
                 .buttonStyle(PrimaryButtonStyle(fill: picked.isEmpty ? Theme.rule : Theme.accent, text: picked.isEmpty ? Theme.inkSoft : .white))
                 .disabled(picked.isEmpty)
                 .accessibilityIdentifier("focus-done")
+                if reservesLegalFooter {
+                    PlusLegalFooter(restore: {})
+                        .opacity(0)
+                        .allowsHitTesting(false)
+                        .accessibilityHidden(true)
+                }
             }
             .padding(.horizontal, Theme.gutter)
             .padding(.vertical, 12)

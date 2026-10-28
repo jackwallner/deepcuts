@@ -24,9 +24,10 @@ final class DeepCutsUITests: XCTestCase {
         continueAfterFailure = false
     }
 
-    func launch(_ extra: [String] = []) -> XCUIApplication {
+    /// `plus: true` plays as a Deep Cuts+ member, so a test can play any number of rounds.
+    func launch(_ extra: [String] = [], plus: Bool = true) -> XCUIApplication {
         let app = XCUIApplication()
-        app.launchArguments = ["-ui-reset", "-ui-feedback-stub"] + extra
+        app.launchArguments = ["-ui-reset", "-ui-feedback-stub"] + (plus ? ["-ui-plus"] : []) + extra
         app.launch()
         return app
     }
@@ -217,6 +218,78 @@ final class DeepCutsUITests: XCTestCase {
     }
 
     /// Answers every item: choice 0 each time, skipping clips that can't load.
+    /// Free: the trial page after the crates, one round a day in each mode, today's story.
+    func testFreeTierTrialPageAndLimits() {
+        let app = launch(plus: false)
+        let done = app.buttons["focus-done"]
+        XCTAssertTrue(done.waitForExistence(timeout: 10))
+        app.buttons["crate-classic-rock"].tap()
+        done.tap()
+
+        XCTAssertTrue(app.staticTexts["trial-headline"].waitForExistence(timeout: 10))
+        XCTAssertTrue(app.buttons["trial-start"].exists)
+        XCTAssertTrue(app.buttons["plus-restore"].exists)
+        XCTAssertTrue(app.links["Terms of Use"].exists)
+        XCTAssertTrue(app.links["Privacy Policy"].exists)
+        attach(app, "trial-page")
+        app.buttons["trial-skip"].tap()
+        XCTAssertTrue(app.buttons["play-daily"].waitForExistence(timeout: 10))
+
+        tab(app, "Play").tap()
+        let crate = app.buttons["open-classic-rock"]
+        XCTAssertTrue(crate.waitForExistence(timeout: 10))
+        crate.tap()
+        let trivia = app.buttons["mode-trivia"]
+        XCTAssertTrue(trivia.waitForExistence(timeout: 5))
+        trivia.tap()
+        playRound(app)
+        XCTAssertTrue(app.staticTexts["result-score"].waitForExistence(timeout: 10))
+        app.buttons["play-again"].tap()
+        XCTAssertTrue(app.staticTexts["paywall-headline"].waitForExistence(timeout: 10), "the second round of a mode is Deep Cuts+")
+        XCTAssertEqual(app.staticTexts["paywall-headline"].label, "Keep playing")
+        XCTAssertTrue(app.buttons["paywall-buy"].exists)
+        XCTAssertTrue(app.buttons["plan-lifetime"].exists)
+        attach(app, "paywall-round")
+        app.buttons["paywall-close"].tap()
+        XCTAssertTrue(trivia.waitForExistence(timeout: 5))
+        XCTAssertEqual(trivia.value as? String, "Deep Cuts+")
+        attach(app, "crate-locked-mode")
+
+        let hard = app.buttons["mode-hard"]
+        XCTAssertEqual(hard.value as? String ?? "", "", "other modes still have today's free round")
+
+        tab(app, "Stories").tap()
+        let locked = app.buttons.matching(NSPredicate(format: "label CONTAINS 'Deep Cuts+'")).firstMatch
+        XCTAssertTrue(locked.waitForExistence(timeout: 5))
+        attach(app, "stories-locked")
+        locked.tap()
+        XCTAssertTrue(app.staticTexts["paywall-headline"].waitForExistence(timeout: 10))
+        XCTAssertEqual(app.staticTexts["paywall-headline"].label, "Read every story")
+        app.buttons["paywall-close"].tap()
+
+        tab(app, "You").tap()
+        XCTAssertTrue(app.buttons["plus-get"].waitForExistence(timeout: 5))
+        attach(app, "you-free")
+    }
+
+    /// One screenshot per plan, for each product's App Review screenshot.
+    func testPaywallPlanShots() {
+        let app = launch(["-ui-focus", "classic-rock"], plus: false)
+        tab(app, "You").tap()
+        let get = app.buttons["plus-get"]
+        XCTAssertTrue(get.waitForExistence(timeout: 10))
+        get.tap()
+        let buy = app.buttons["paywall-buy"]
+        XCTAssertTrue(buy.waitForExistence(timeout: 15))
+        let deadline = Date().addingTimeInterval(20)
+        while !buy.isEnabled && Date() < deadline { RunLoop.current.run(until: Date().addingTimeInterval(0.5)) }
+        XCTAssertTrue(buy.isEnabled, "prices loaded")
+        for plan in ["yearly", "monthly", "lifetime"] {
+            app.buttons["plan-\(plan)"].tap()
+            attach(app, "paywall-\(plan)")
+        }
+    }
+
     private func playRound(_ app: XCUIApplication) {
         for _ in 0..<12 {
             let next = app.buttons["quiz-next"]
@@ -255,7 +328,7 @@ final class Tour: XCTestCase {
     func testTour() {
         app = XCUIApplication()
         let extra = ProcessInfo.processInfo.environment["TOUR_ARGS"]?.split(separator: " ").map(String.init) ?? []
-        app.launchArguments = ["-ui-reset", "-ui-feedback-stub"] + extra
+        app.launchArguments = ["-ui-reset", "-ui-feedback-stub", "-ui-plus"] + extra
         app.launch()
         XCTAssertTrue(app.buttons["focus-done"].waitForExistence(timeout: 10))
         shot("onboarding")

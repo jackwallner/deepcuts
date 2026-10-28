@@ -91,7 +91,9 @@ struct StoryLink<Label: View>: View {
 
     var body: some View {
         Group {
-            if inPane {
+            if !app.canRead(story) {
+                Button { app.paywall = .story } label: { label }
+            } else if inPane {
                 Button {
                     withAnimation(.snappy) { app.storyPath = [story] }
                 } label: { label }
@@ -110,6 +112,7 @@ struct StoryRow: View {
 
     var body: some View {
         let read = app.progress.data.readStories.contains(story.id)
+        let locked = !app.canRead(story)
         HStack(alignment: .top, spacing: 14) {
             ArtworkView(songID: app.library.artKey(for: story), size: 76, corner: 4)
             VStack(alignment: .leading, spacing: 4) {
@@ -118,9 +121,15 @@ struct StoryRow: View {
                     .multilineTextAlignment(.leading)
                 Text(story.dek).font(.subheadline).foregroundStyle(Theme.inkSoft).lineLimit(2)
                     .multilineTextAlignment(.leading)
-                Text(read ? "Read" : "\(story.readingMinutes) min read")
-                    .font(.caption.weight(.semibold))
-                    .foregroundStyle(read ? Theme.correct : Theme.inkSoft)
+                if locked {
+                    Label("Deep Cuts+", systemImage: "lock.fill")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(Theme.inkSoft)
+                } else {
+                    Text(read ? "Read" : "\(story.readingMinutes) min read")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(read ? Theme.correct : Theme.inkSoft)
+                }
             }
             Spacer(minLength: 0)
         }
