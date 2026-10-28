@@ -14,8 +14,7 @@ struct Genre: Codable, Identifiable, Sendable {
 
     var coverSongs: [CoverSong] { covers ?? [] }
 
-    /// "1969–1983", with a proper en dash for display.
-    var eraLabel: String { era.replacingOccurrences(of: "-", with: "\u{2013}") }
+    var eraLabel: String { era }
 }
 
 struct Question: Codable, Identifiable, Hashable, Sendable {

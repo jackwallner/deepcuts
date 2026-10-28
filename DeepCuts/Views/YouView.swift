@@ -55,6 +55,7 @@ struct YouView: View {
             Button("Change crates") { editingFocus = true }
                 .font(.subheadline.weight(.semibold))
                 .padding(.top, 8)
+                .frame(minHeight: 44, alignment: .leading)
                 .accessibilityIdentifier("change-crates")
         }
     }

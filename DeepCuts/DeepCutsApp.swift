@@ -113,23 +113,26 @@ struct RootView: View {
     /// so neither side is rebuilt and both keep their scroll and navigation.
     private var panesView: some View {
         @Bindable var app = app
+        let floatingTabs = split != nil || ProcessInfo.processInfo.isOperatingSystemAtLeast(
+            OperatingSystemVersion(majorVersion: 26, minorVersion: 0, patchVersion: 0))
         return ZStack(alignment: .topLeading) {
             TabView(selection: $tab) {
                 TodayView(tab: $tab)
-                    .tabBarBackdrop(split != nil)
+                    .tabBarBackdrop(floatingTabs)
                     .tabItem { Label("Today", systemImage: "sun.horizon") }.tag(Tab.today)
                 PlayView()
-                    .tabBarBackdrop(split != nil)
+                    .tabBarBackdrop(floatingTabs)
                     .tabItem { Label("Play", systemImage: "opticaldisc") }.tag(Tab.play)
                 if split == nil {
                     StoriesView()
+                        .tabBarBackdrop(floatingTabs)
                         .tabItem { Label("Stories", systemImage: "book") }.tag(Tab.stories)
                 }
                 LiveView()
-                    .tabBarBackdrop(split != nil)
+                    .tabBarBackdrop(floatingTabs)
                     .tabItem { Label("Live", systemImage: "ticket") }.tag(Tab.live)
                 YouView()
-                    .tabBarBackdrop(split != nil)
+                    .tabBarBackdrop(floatingTabs)
                     .tabItem { Label("You", systemImage: "person.crop.circle") }.tag(Tab.you)
             }
             .environment(\.horizontalSizeClass, paneSizeClass)

@@ -181,6 +181,7 @@ struct CoverOfTheDayCard: View {
                             Spacer()
                             Text("Reveal").font(.subheadline.weight(.semibold)).foregroundStyle(Theme.accent)
                         }
+                        .frame(minHeight: 44)
                         .contentShape(Rectangle())
                     }
                     .buttonStyle(PressableStyle())
