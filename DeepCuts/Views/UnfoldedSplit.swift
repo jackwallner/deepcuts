@@ -76,17 +76,11 @@ extension View {
         }
     }
 
-    /// Unfolded, the floating tab bar sits over the leading pane: paper behind it, with a
-    /// short fade above, so rows never show through the bar, and as much scroll room so the
-    /// last row clears it. No effect when `on` is false.
+    /// Keep scrolling content clear of the floating tab bar.
     func tabBarBackdrop(_ on: Bool) -> some View {
         contentMargins(.bottom, on ? UnfoldedSplit.tabBarClearance : 0, for: .scrollContent)
             .overlay(alignment: .bottom) {
-                VStack(spacing: 0) {
-                    LinearGradient(colors: [Theme.paper.opacity(0), Theme.paper], startPoint: .top, endPoint: .bottom)
-                        .frame(height: 20)
-                    Theme.paper.frame(height: UnfoldedSplit.tabBarClearance)
-                }
+                Theme.paper.frame(height: UnfoldedSplit.tabBarClearance)
                 // Measured from the display's bottom edge: the floating bar isn't part of the
                 // content's bottom safe area there.
                 .ignoresSafeArea(.container, edges: .bottom)

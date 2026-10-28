@@ -8,7 +8,7 @@ enum Theme {
     static let ink = dynamic(light: 0x1D1A16, dark: 0xF2ECE1)
     static let inkSoft = dynamic(light: 0x6E665B, dark: 0xA79F92)
     static let rule = dynamic(light: 0xE2D9C9, dark: 0x35302A)
-    static let accent = dynamic(light: 0xC8452C, dark: 0xE0603F)
+    static let accent = dynamic(light: 0xB63C25, dark: 0xE0603F)
     static let correct = dynamic(light: 0x2F7A4A, dark: 0x67B57F)
     /// The inverted "sleeve" used for the daily mix card.
     static let sleeve = dynamic(light: 0x1D1A16, dark: 0x2B2722)

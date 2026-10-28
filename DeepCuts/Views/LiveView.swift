@@ -258,7 +258,7 @@ struct LiveView: View {
                 VStack(alignment: .leading, spacing: 2) {
                     Text(act.name).font(.headline).foregroundStyle(Theme.ink)
                         .multilineTextAlignment(.leading)
-                    Kicker(text: act.genre.name, color: Theme.crate(act.genre.id))
+                    Kicker(text: act.genre.name, color: Theme.accent)
                 }
                 Spacer(minLength: 8)
                 Label("Dates", systemImage: "arrow.up.right")

@@ -62,7 +62,7 @@ struct FocusPicker: View {
             }
             .padding(.horizontal, Theme.gutter)
             .padding(.vertical, 12)
-            .background(Theme.paper.opacity(0.97))
+            .background(Theme.paper)
             .overlay(alignment: .top) { Rectangle().fill(Theme.rule).frame(height: 1) }
         }
         .onAppear { picked = initial }

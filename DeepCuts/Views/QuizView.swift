@@ -170,7 +170,7 @@ struct QuizView: View {
         let genre = app.library.genre(item.genreID)
         VStack(alignment: .leading, spacing: 10) {
             Kicker(text: [genre?.name, item.mode == .trivia ? nil : item.mode.title].compactMap { $0 }.joined(separator: " · "),
-                   color: Theme.crate(item.genreID))
+                   color: Theme.accent)
             Text(item.prompt)
                 .font(Theme.serif(item.mode == .trivia || item.mode == .covers ? .title2 : .title, weight: .bold))
                 .foregroundStyle(Theme.ink)
@@ -289,10 +289,12 @@ struct QuizView: View {
                 if let id = item.audioSongID, let link = app.library.catalog[id]?.trackViewUrl.flatMap(URL.init(string:)) {
                     Link(destination: link) {
                         Label("Full song", systemImage: "arrow.up.right.square")
+                            .frame(minHeight: 44)
                     }
                 }
                 Button { reporting = true } label: {
                     Label("Report a problem", systemImage: "flag")
+                        .frame(minHeight: 44)
                 }
                 .foregroundStyle(Theme.inkSoft)
                 .accessibilityIdentifier("quiz-report")
@@ -485,7 +487,7 @@ struct RoundSheet<Answer: View>: View {
                 .monospacedDigit()
             VStack(alignment: .leading, spacing: 3) {
                 Kicker(text: [genre?.name, item.mode == .trivia ? nil : item.mode.title].compactMap { $0 }.joined(separator: " · "),
-                       color: Theme.crate(item.genreID))
+                       color: Theme.accent)
                 if let outcome {
                     if item.mode == .trivia || item.mode == .hard || item.mode == .covers {
                         Text(item.prompt).font(.subheadline).foregroundStyle(Theme.inkSoft)
