@@ -53,10 +53,13 @@ struct YouView: View {
                 .accessibilityElement(children: .combine)
                 Divider().overlay(Theme.rule)
             }
-            Button("Change crates") { editingFocus = true }
+            Button { editingFocus = true } label: {
+                Text("Change crates")
+                    .frame(minWidth: 44, minHeight: 44, alignment: .leading)
+                    .contentShape(Rectangle())
+            }
                 .font(.subheadline.weight(.semibold))
                 .padding(.top, 8)
-                .frame(minHeight: 44, alignment: .leading)
                 .accessibilityIdentifier("change-crates")
         }
     }

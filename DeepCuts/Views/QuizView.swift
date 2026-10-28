@@ -491,7 +491,6 @@ struct RoundSheet<Answer: View>: View {
                 if let outcome {
                     if item.mode == .trivia || item.mode == .hard || item.mode == .covers {
                         Text(item.prompt).font(.subheadline).foregroundStyle(Theme.inkSoft)
-                            .lineLimit(2)
                     }
                     Text(item.choices[item.correctIndex].label)
                         .font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)

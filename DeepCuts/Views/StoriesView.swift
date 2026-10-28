@@ -119,7 +119,7 @@ struct StoryRow: View {
                 Kicker(text: "\(genre.name) · \(String(story.year))", color: Theme.accent)
                 Text(story.title).font(Theme.serif(.headline, weight: .bold)).foregroundStyle(Theme.ink)
                     .multilineTextAlignment(.leading)
-                Text(story.dek).font(.subheadline).foregroundStyle(Theme.inkSoft).lineLimit(2)
+                Text(story.dek).font(.subheadline).foregroundStyle(Theme.inkSoft)
                     .multilineTextAlignment(.leading)
                 if locked {
                     Label("Deep Cuts+", systemImage: "lock.fill")
