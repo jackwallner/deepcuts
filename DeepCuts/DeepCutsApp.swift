@@ -24,6 +24,7 @@ struct DeepCutsApp: App {
         #if DEBUG
         ScreenshotScene.current?.apply(to: model)
         #endif
+        model.membership.start()
         _app = State(initialValue: model)
     }
 
@@ -85,6 +86,9 @@ struct RootView: View {
         // and the first @Environment(AppModel.self) read crashed (TestFlight, build 8).
         .fullScreenCover(item: $app.activeQuiz) { spec in
             QuizView(spec: spec).environment(app)
+        }
+        .sheet(item: $app.paywall) { reason in
+            PaywallView(reason: reason).environment(app)
         }
         .onChange(of: app.activeQuiz) { _, quiz in
             if quiz == nil {

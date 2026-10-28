@@ -64,8 +64,12 @@ struct ModeList: View {
 }
 
 struct ModeRow: View {
+    @Environment(AppModel.self) private var app
     let mode: QuizMode
     let action: () -> Void
+
+    /// Today's free round in this mode is played; the next one is Deep Cuts+.
+    private var locked: Bool { app.isLocked(mode) }
 
     var body: some View {
         Button(action: action) {
@@ -78,12 +82,13 @@ struct ModeRow: View {
                 }
                 Spacer(minLength: 8)
                 Text(mode.length).font(.subheadline).foregroundStyle(Theme.inkSoft)
-                Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(Theme.inkSoft)
+                Image(systemName: locked ? "lock.fill" : "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(Theme.inkSoft)
             }
             .padding(.vertical, 14)
             .contentShape(Rectangle())
         }
         .buttonStyle(PressableStyle())
+        .accessibilityValue(locked ? "Deep Cuts+" : "")
         .accessibilityIdentifier("mode-\(mode.rawValue)")
     }
 }

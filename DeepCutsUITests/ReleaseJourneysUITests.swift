@@ -15,6 +15,11 @@ final class ReleaseJourneysUITests: XCTestCase {
         app.buttons["crate-classic-rock"].tap()
         done.tap()
 
+        let skip = app.buttons["trial-skip"]
+        XCTAssertTrue(skip.waitForExistence(timeout: 15))
+        QA.checkpoint(app, "onboarding-trial", paywall: true)
+        skip.tap()
+
         let play = app.buttons["play-daily"]
         XCTAssertTrue(play.waitForExistence(timeout: 15))
         QA.checkpoint(app, "today")
@@ -43,6 +48,25 @@ final class ReleaseJourneysUITests: XCTestCase {
         XCTAssertTrue(app.buttons["daily-more"].waitForExistence(timeout: 15))
         XCTAssertFalse(app.buttons["play-daily"].exists)
         QA.checkpoint(app, "daily-persisted")
+    }
+
+    func testDeepCutsPlusPaywall() {
+        let app = XCUIApplication()
+        QA.launch(app, arguments: ["-ui-reset", "-ui-feedback-stub", "-ui-focus", "classic-rock"])
+        XCTAssertTrue(app.buttons["play-daily"].waitForExistence(timeout: 15))
+        tab(app, "You").tap()
+        let get = app.buttons["plus-get"]
+        XCTAssertTrue(get.waitForExistence(timeout: 10))
+        QA.checkpoint(app, "you-free")
+        get.tap()
+        XCTAssertTrue(app.buttons["paywall-buy"].waitForExistence(timeout: 15))
+        QA.checkpoint(app, "paywall", paywall: true)
+        app.buttons["plan-monthly"].tap()
+        QA.checkpoint(app, "paywall-monthly", paywall: true)
+        app.buttons["plan-lifetime"].tap()
+        QA.checkpoint(app, "paywall-lifetime", paywall: true)
+        app.buttons["paywall-close"].tap()
+        XCTAssertTrue(get.waitForExistence(timeout: 10))
     }
 
     func testBrowseCratesLiveAndSettings() {

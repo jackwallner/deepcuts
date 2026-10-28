@@ -11,6 +11,7 @@ final class AppModel {
     let player: PreviewPlayer
     let feedback: FeedbackService
     let content: RemoteContentService
+    let membership: Membership
     private var pendingLibrary: ContentLibrary?
     private var contentCheckedAt = Date.distantPast
 
@@ -26,15 +27,20 @@ final class AppModel {
     var storyPath: [Story] = []
     /// Where the next round opens, for screenshots (DEBUG only).
     var quizPreset: QuizPreset?
+    /// Why the Deep Cuts+ sheet is up, if it is.
+    var paywall: PaywallReason?
 
     init(library: ContentLibrary = .shared, progress: ProgressStore = ProgressStore(), feedback: FeedbackService = .live,
-         content: RemoteContentService = .off) {
+         content: RemoteContentService = .off, membership: Membership = Membership()) {
         self.library = library
         self.progress = progress
         self.player = PreviewPlayer(library: library)
         self.feedback = feedback
         self.content = content
+        self.membership = membership
     }
+
+    var isPlus: Bool { membership.isPlus }
 
     var focusGenres: [Genre] {
         let focus = progress.focus
@@ -75,11 +81,21 @@ final class AppModel {
         builder.offers(mode, genres: crate.map { [$0] } ?? focusGenres)
     }
 
+    /// Free: one round a day in each mode. Deep Cuts+: unlimited.
+    func isLocked(_ mode: QuizMode) -> Bool {
+        !isPlus && !progress.hasFreeRound(mode)
+    }
+
     func start(mode: QuizMode, crate: Genre?) {
+        guard !isLocked(mode) else {
+            paywall = .round(mode)
+            return
+        }
         var rng = SystemRandomNumberGenerator()
         let genres = crate.map { [$0] } ?? focusGenres
         let items = builder.round(mode: mode, genres: genres, seen: progress.seenQuestions, rng: &rng)
         guard !items.isEmpty else { return }
+        if !isPlus { progress.useFreeRound(mode) }
         activeQuiz = QuizSpec(source: crate.map { .crate($0.id) } ?? .mix, mode: mode, title: crate?.name ?? "Your Crates", items: items)
     }
 
@@ -94,9 +110,14 @@ final class AppModel {
         let pool = focusGenres.flatMap { genre in genre.stories.map { ($0, genre) } }
         guard !pool.isEmpty else { return nil }
         var rng = SeededRandom(string: "story-\(ProgressStore.dayKey())")
-        let unread = pool.filter { !progress.data.readStories.contains($0.0.id) }
+        let unread = pool.filter { progress.isUnreadBeforeToday($0.0.id) }
         let choices = unread.isEmpty ? pool : unread
         return choices[Int(rng.next() % UInt64(choices.count))]
+    }
+
+    /// Free: today's story, and any story already read. Deep Cuts+: every story.
+    func canRead(_ story: Story) -> Bool {
+        isPlus || progress.data.readStories.contains(story.id) || storyOfTheDay()?.story.id == story.id
     }
 
     // MARK: On this day

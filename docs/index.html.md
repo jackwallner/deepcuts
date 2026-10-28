@@ -108,7 +108,7 @@ Deep Cuts plays a preview of a real recording from Apple Music and you pick the 
 
 ## Is Deep Cuts free?
 
-Yes. Deep Cuts is free, with no ads and no account.
+Yes. Today's Mix, one round a day in each game and today's story are free, with no ads and no account. Deep Cuts+ adds unlimited rounds and every story, with a 7-day free trial.
 
 ## Does Deep Cuts work offline?
 

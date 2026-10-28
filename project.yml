@@ -6,6 +6,11 @@ options:
   xcodeVersion: "16.0"
   minimumXcodeGenVersion: "2.38"
 
+packages:
+  RevenueCat:
+    url: https://github.com/RevenueCat/purchases-ios-spm.git
+    from: 5.72.0
+
 configFiles:
   Debug: Config/App.xcconfig
   Release: Config/App.xcconfig
@@ -61,6 +66,9 @@ targets:
         type: folder
         buildPhase: resources
       - path: Shared
+    dependencies:
+      - package: RevenueCat
+        product: RevenueCat
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.jackwallner.deepcuts

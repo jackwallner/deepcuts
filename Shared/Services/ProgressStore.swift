@@ -21,6 +21,10 @@ struct ProgressData: Codable, Sendable {
     var daily: [String: QuizResult] = [:]
     var bestScores: [String: Int] = [:]
     var readStories: Set<String> = []
+    /// Story id -> the day it was first read, so today's story holds still once it's read.
+    var storyReadOn: [String: String] = [:]
+    /// Mode -> the last day its free round was played.
+    var freeRounds: [String: String] = [:]
     var feedbackIDs: [Int] = []
     /// Today screen sections, top to bottom, as `TodaySection` raw values.
     var todayOrder: [String] = []
@@ -45,6 +49,8 @@ extension ProgressData {
         daily = try c.decodeIfPresent([String: QuizResult].self, forKey: .daily) ?? daily
         bestScores = try c.decodeIfPresent([String: Int].self, forKey: .bestScores) ?? bestScores
         readStories = try c.decodeIfPresent(Set<String>.self, forKey: .readStories) ?? readStories
+        storyReadOn = try c.decodeIfPresent([String: String].self, forKey: .storyReadOn) ?? storyReadOn
+        freeRounds = try c.decodeIfPresent([String: String].self, forKey: .freeRounds) ?? freeRounds
         feedbackIDs = try c.decodeIfPresent([Int].self, forKey: .feedbackIDs) ?? feedbackIDs
         todayOrder = try c.decodeIfPresent([String].self, forKey: .todayOrder) ?? todayOrder
         venueMiles = try c.decodeIfPresent(Int.self, forKey: .venueMiles) ?? venueMiles
@@ -100,9 +106,15 @@ final class ProgressStore {
 
     var focus: [String] { data.focus }
 
-    func setFocus(_ ids: [String]) {
+    /// `onboarded: false` keeps first run going (the trial page comes after the crates).
+    func setFocus(_ ids: [String], onboarded: Bool = true) {
         data.focus = ids
-        data.onboarded = !ids.isEmpty
+        data.onboarded = onboarded && !ids.isEmpty
+        save()
+    }
+
+    func finishOnboarding() {
+        data.onboarded = !data.focus.isEmpty
         save()
     }
 
@@ -198,9 +210,27 @@ final class ProgressStore {
 
     // MARK: Stories and feedback
 
-    func markRead(_ story: Story) {
+    func markRead(_ story: Story, on date: Date = .now) {
         guard !data.readStories.contains(story.id) else { return }
         data.readStories.insert(story.id)
+        data.storyReadOn[story.id] = Self.dayKey(date)
+        save()
+    }
+
+    /// Unread, or first read today: the pool today's story is drawn from, stable all day.
+    func isUnreadBeforeToday(_ id: String, today: Date = .now) -> Bool {
+        !data.readStories.contains(id) || data.storyReadOn[id] == Self.dayKey(today)
+    }
+
+    // MARK: Free rounds
+
+    /// Without Plus, each mode plays one round a day.
+    func hasFreeRound(_ mode: QuizMode, today: Date = .now) -> Bool {
+        data.freeRounds[mode.rawValue] != Self.dayKey(today)
+    }
+
+    func useFreeRound(_ mode: QuizMode, today: Date = .now) {
+        data.freeRounds[mode.rawValue] = Self.dayKey(today)
         save()
     }
 

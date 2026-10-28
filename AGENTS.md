@@ -10,7 +10,8 @@ XcodeGen project/scheme: `DeepCuts`, sim lease owner `deepcuts`.
 App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com.jackwallner.deepcuts`.
 
 ## Tech Stack
-- Swift 6 / SwiftUI (strict concurrency), iOS 17+, iPhone only. No packages, no paywall.
+- Swift 6 / SwiftUI (strict concurrency), iOS 17+, iPhone only. One package: RevenueCat (Deep Cuts+,
+  entitlement `pro`, project `85797d3e`; see `.claude/rules/deep-cuts-plus.md`).
 - Content is bundled JSON (`DeepCuts/Content/`), progress is one JSON file in Application Support.
 - Network, all optional: iTunes lookup (preview refresh), Wikipedia On This Day, tester feedback,
   live content (new and corrected questions from Supabase, weekly; see `.claude/rules/live-content.md`).
@@ -44,7 +45,8 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
   the feedback URL and app key; without it the app builds (gh-sim works) but can't send suggestions. Values live in `~/.tester_feedback`.
 - Tests: `xcodebuild test -project DeepCuts.xcodeproj -scheme DeepCuts -destination id=<leased UDID>`.
   UI tests launch with `-ui-reset -ui-feedback-stub` (never send real feedback from a test: a real
-  suggestion starts a build session). `-ui-focus classic-rock,southern-rock` skips onboarding, `-ui-tab play|stories|live|you` opens a tab, `-ui-screen <scene>` a seeded store surface (`.claude/rules/iphone-duo.md`).
+  suggestion starts a build session). `-ui-plus` plays as a Deep Cuts+ member (every test that plays more
+  than one round a mode needs it). `-ui-focus classic-rock,southern-rock` skips onboarding, `-ui-tab play|stories|live|you` opens a tab, `-ui-screen <scene>` a seeded store surface (`.claude/rules/iphone-duo.md`).
 
 ## Target users (check every change against them)
 - **John (Jack's dad), 60s**: grew up on '60s/'70s rock, knows the records cold, reads on an iPhone
@@ -77,6 +79,7 @@ A wrong question also gets its fix published live (`scripts/content-remote.py pu
 ## Area rules (`.claude/rules/`)
 - `live-content.md`: live questions, `content-remote.py`, the weekly iMac job.
 - `iphone-duo.md`: the unfolded two-pane layout (tabs beside the reading pane), `-ui-screen` capture scenes.
+- `deep-cuts-plus.md`: the free/Plus split, products and prices, the trial page and paywall, RevenueCat.
 
 ---
 Shared iOS conventions (build, simulator, release/TestFlight, ASC key, signing, gotchas):

@@ -15,6 +15,7 @@ struct YouView: View {
                     }
                     .padding(.top, 12)
 
+                    PlusCard()
                     crates
                     settings
                     suggestions
@@ -144,5 +145,41 @@ struct YouView: View {
         let version = info?["CFBundleShortVersionString"] as? String ?? "?"
         let build = info?["CFBundleVersion"] as? String ?? "?"
         return "Deep Cuts \(version) (\(build))"
+    }
+}
+
+/// Deep Cuts+ in You: the way in for a free player, the plan and Manage for a member.
+struct PlusCard: View {
+    @Environment(AppModel.self) private var app
+
+    var body: some View {
+        let membership = app.membership
+        if membership.isPlus {
+            HStack(alignment: .firstTextBaseline, spacing: 12) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Deep Cuts+").font(.headline).foregroundStyle(Theme.ink)
+                    if let status { Text(status).font(.subheadline).foregroundStyle(Theme.inkSoft) }
+                }
+                Spacer()
+                if membership.expirationDate != nil {
+                    Link("Manage", destination: PlusLinks.manage).font(.subheadline.weight(.semibold))
+                }
+            }
+            .padding(16)
+            .card()
+            .accessibilityIdentifier("plus-member")
+        } else {
+            Button("Get Deep Cuts+") { app.paywall = .you }
+                .buttonStyle(PrimaryButtonStyle())
+                .accessibilityIdentifier("plus-get")
+        }
+    }
+
+    private var status: String? {
+        let membership = app.membership
+        guard let end = membership.expirationDate else { return nil }
+        let date = end.formatted(date: .abbreviated, time: .omitted)
+        if membership.isTrialing { return membership.willRenew ? "Free trial until \(date)" : "Free trial ends \(date)" }
+        return membership.willRenew ? "Renews \(date)" : "Ends \(date)"
     }
 }

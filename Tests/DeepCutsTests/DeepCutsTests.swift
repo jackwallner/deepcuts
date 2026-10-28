@@ -428,3 +428,67 @@ final class UnfoldedSplitTests: XCTestCase {
         }
     }
 }
+
+@MainActor
+final class PlusTests: XCTestCase {
+    func model() -> AppModel {
+        let store = ProgressStore(url: FileManager.default.temporaryDirectory.appendingPathComponent("progress-\(UUID()).json"))
+        store.setFocus(["classic-rock"])
+        return AppModel(progress: store)
+    }
+
+    func testOneFreeRoundADayInEachMode() {
+        let app = model()
+        XCTAssertFalse(app.isLocked(.trivia))
+        app.start(mode: .trivia, crate: nil)
+        XCTAssertNotNil(app.activeQuiz)
+        XCTAssertNil(app.paywall)
+        app.activeQuiz = nil
+
+        XCTAssertTrue(app.isLocked(.trivia))
+        app.start(mode: .trivia, crate: app.library.genre("classic-rock"))
+        XCTAssertNil(app.activeQuiz, "the second round is Deep Cuts+, in any crate")
+        XCTAssertEqual(app.paywall, .round(.trivia))
+        XCTAssertFalse(app.isLocked(.hard), "each mode has its own free round")
+    }
+
+    func testFreeRoundComesBackTomorrow() {
+        let store = ProgressStore(url: FileManager.default.temporaryDirectory.appendingPathComponent("progress-\(UUID()).json"))
+        let today = Date(timeIntervalSince1970: 1_793_000_000)
+        store.useFreeRound(.tune, today: today)
+        XCTAssertFalse(store.hasFreeRound(.tune, today: today))
+        XCTAssertTrue(store.hasFreeRound(.tune, today: today.addingTimeInterval(86_400)))
+        XCTAssertTrue(store.hasFreeRound(.covers, today: today))
+    }
+
+    func testTodaysStoryStaysReadableAndStillAfterReading() throws {
+        let app = model()
+        let pick = try XCTUnwrap(app.storyOfTheDay())
+        XCTAssertTrue(app.canRead(pick.story))
+        let other = try XCTUnwrap(app.focusGenres.flatMap(\.stories).first { $0.id != pick.story.id })
+        XCTAssertFalse(app.canRead(other), "the archive is Deep Cuts+")
+
+        app.progress.markRead(pick.story)
+        XCTAssertEqual(app.storyOfTheDay()?.story.id, pick.story.id, "reading today's story doesn't open another")
+        XCTAssertTrue(app.canRead(pick.story))
+        XCTAssertFalse(app.canRead(other))
+    }
+
+    func testOnboardingWaitsForTheTrialPage() {
+        let store = ProgressStore(url: FileManager.default.temporaryDirectory.appendingPathComponent("progress-\(UUID()).json"))
+        store.setFocus(["blues"], onboarded: false)
+        XCTAssertFalse(store.data.onboarded)
+        XCTAssertEqual(store.focus, ["blues"])
+        store.finishOnboarding()
+        XCTAssertTrue(store.data.onboarded)
+    }
+
+    func testTermsNameTheTrialAndRenewal() {
+        let membership = Membership()
+        XCTAssertEqual(PlusPricing.terms(membership, .yearly, trial: true), "7 days free. Auto-renews until canceled.")
+        XCTAssertEqual(PlusPricing.terms(membership, .monthly, trial: false), "Billed today. Auto-renews until canceled.")
+        XCTAssertEqual(PlusPricing.cta(.yearly, trial: true), "Start 7-Day Free Trial")
+        XCTAssertEqual(PlusPricing.cta(.lifetime, trial: true), "Unlock Deep Cuts+ Forever")
+        XCTAssertNil(PlusPricing.price(membership, .yearly), "no price until StoreKit gives one")
+    }
+}

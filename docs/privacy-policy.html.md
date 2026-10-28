@@ -6,11 +6,11 @@ Web page: https://jackwallner.com/ios/deepcuts/privacy-policy.html
 
 ## Deep Cuts Privacy Policy
 
-Last updated: October 25, 2026
+Last updated: October 28, 2026
 
 Deep Cuts needs no account. Your chosen crates, scores, streak and
-preferences are stored on your iPhone. There are no ads, no analytics
-or advertising SDKs, and nothing is sold.
+preferences are stored on your iPhone. There are no ads or
+advertising SDKs, and nothing is sold.
 
 ## Song previews and artwork
 
@@ -30,6 +30,17 @@ request carries only the date. See the
 When the app opens, it may check our server, hosted by Supabase, for
 new or corrected questions. The request carries no personal
 information.
+
+## Deep Cuts+ purchases
+
+Deep Cuts+ is sold through the App Store, so Apple handles payment and
+we never see your card or Apple Account details. RevenueCat, our
+purchase service, keeps a random app user ID with your purchase
+history so Deep Cuts+ unlocks on your devices and can be restored. It
+also records when the Deep Cuts+ screen is shown and, through Apple's
+AdServices framework, which App Store ad led to a download, if any.
+No tracking prompt is used and nothing is shared with advertisers. See
+[RevenueCat's privacy policy](https://www.revenuecat.com/privacy).
 
 ## Location
 
