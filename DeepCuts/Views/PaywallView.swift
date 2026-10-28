@@ -69,10 +69,10 @@ struct PlusLegalFooter: View {
     var body: some View {
         let layout = typeSize.isAccessibilitySize ? AnyLayout(VStackLayout(spacing: 4)) : AnyLayout(HStackLayout(spacing: 20))
         layout {
-            Button(action: restore) { Text("Restore").footerTarget() }.disabled(disabled)
+            Button(action: restore) { Text("Restore") }.footerTarget().disabled(disabled)
                 .accessibilityIdentifier("plus-restore")
-            Link(destination: PlusLinks.terms) { Text("Terms of Use").footerTarget() }
-            Link(destination: PlusLinks.privacy) { Text("Privacy Policy").footerTarget() }
+            Link("Terms of Use", destination: PlusLinks.terms).footerTarget()
+            Link("Privacy Policy", destination: PlusLinks.privacy).footerTarget()
         }
         .font(.footnote)
         .foregroundStyle(Theme.inkSoft)

@@ -55,9 +55,9 @@ struct YouView: View {
             }
             Button { editingFocus = true } label: {
                 Text("Change crates")
-                    .frame(minWidth: 44, minHeight: 44, alignment: .leading)
-                    .contentShape(Rectangle())
             }
+                .frame(minWidth: 44, minHeight: 44, alignment: .leading)
+                .contentShape(Rectangle())
                 .font(.subheadline.weight(.semibold))
                 .padding(.top, 8)
                 .accessibilityIdentifier("change-crates")
@@ -70,9 +70,9 @@ struct YouView: View {
         } label: {
             HStack(spacing: 12) {
                 Image(systemName: "slider.horizontal.3").font(.title3).foregroundStyle(Theme.accent)
-                Text("Settings").font(.headline).foregroundStyle(Theme.ink)
-                Spacer()
-                Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(Theme.inkSoft)
+                Text("Settings").font(.headline).foregroundStyle(Theme.ink).lineLimit(1).minimumScaleFactor(0.7)
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(Theme.inkSoft).fixedSize()
             }
             .padding(16)
             .card()
