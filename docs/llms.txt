@@ -6,6 +6,10 @@
 
 - [Music Trivia App for Rock Fans | Deep Cuts: Music Trivia](https://jackwallner.com/ios/deepcuts/index.html.md): Deep Cuts is a music trivia app for iPhone: classic rock, Southern rock, metal, Motown and more, with Name That Tune, covers and the story behind every answer.
 
+## Guides
+
+- [Best Music Trivia App for iPhone: 5 Compared](https://jackwallner.com/ios/deepcuts/best-music-trivia-app.html.md): Five iPhone music trivia apps compared: song-clip guessing, multiplayer, and genre questions with the story behind each answer. Ratings as of October 2026.
+
 ## Optional
 
 - [Deep Cuts Privacy Policy](https://jackwallner.com/ios/deepcuts/privacy-policy.html.md): Deep Cuts needs no account. Your crates, scores and streak stay on your iPhone, and nothing is sold or used for ads.
