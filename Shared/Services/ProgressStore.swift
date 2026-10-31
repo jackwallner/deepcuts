@@ -187,15 +187,15 @@ final class ProgressStore {
 
     // MARK: Daily
 
-    static func dayKey(_ date: Date = .now, calendar: Calendar = .current) -> String {
+    static func dayKey(_ date: Date = .appNow, calendar: Calendar = .current) -> String {
         let c = calendar.dateComponents([.year, .month, .day], from: date)
         return String(format: "%04d-%02d-%02d", c.year ?? 0, c.month ?? 0, c.day ?? 0)
     }
 
-    func dailyResult(on date: Date = .now) -> QuizResult? { data.daily[Self.dayKey(date)] }
+    func dailyResult(on date: Date = .appNow) -> QuizResult? { data.daily[Self.dayKey(date)] }
 
     /// Consecutive days with a finished mix, ending today (or yesterday, if today is not played yet).
-    func streak(today: Date = .now, calendar: Calendar = .current) -> Int {
+    func streak(today: Date = .appNow, calendar: Calendar = .current) -> Int {
         var day = calendar.startOfDay(for: today)
         if data.daily[Self.dayKey(day, calendar: calendar)] == nil {
             day = calendar.date(byAdding: .day, value: -1, to: day) ?? day
@@ -210,7 +210,7 @@ final class ProgressStore {
 
     // MARK: Stories and feedback
 
-    func markRead(_ story: Story, on date: Date = .now) {
+    func markRead(_ story: Story, on date: Date = .appNow) {
         guard !data.readStories.contains(story.id) else { return }
         data.readStories.insert(story.id)
         data.storyReadOn[story.id] = Self.dayKey(date)
@@ -218,18 +218,18 @@ final class ProgressStore {
     }
 
     /// Unread, or first read today: the pool today's story is drawn from, stable all day.
-    func isUnreadBeforeToday(_ id: String, today: Date = .now) -> Bool {
+    func isUnreadBeforeToday(_ id: String, today: Date = .appNow) -> Bool {
         !data.readStories.contains(id) || data.storyReadOn[id] == Self.dayKey(today)
     }
 
     // MARK: Free rounds
 
     /// Without Plus, each mode plays one round a day.
-    func hasFreeRound(_ mode: QuizMode, today: Date = .now) -> Bool {
+    func hasFreeRound(_ mode: QuizMode, today: Date = .appNow) -> Bool {
         data.freeRounds[mode.rawValue] != Self.dayKey(today)
     }
 
-    func useFreeRound(_ mode: QuizMode, today: Date = .now) {
+    func useFreeRound(_ mode: QuizMode, today: Date = .appNow) {
         data.freeRounds[mode.rawValue] = Self.dayKey(today)
         save()
     }
@@ -246,6 +246,23 @@ final class ProgressStore {
         try? raw.write(to: url, options: .atomic)
     }
 }
+
+extension Date {
+    /// The current time for anything tied to the calendar day. A UI test can move it a day ahead (DEBUG only).
+    static var appNow: Date {
+        #if DEBUG
+        return Date.now.addingTimeInterval(DebugClock.offset)
+        #else
+        return Date.now
+        #endif
+    }
+}
+
+#if DEBUG
+enum DebugClock {
+    nonisolated(unsafe) static var offset: TimeInterval = 0
+}
+#endif
 
 extension Tally {
     mutating func add(_ correct: Bool) {

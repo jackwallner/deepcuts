@@ -25,7 +25,7 @@ struct TodayView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Kicker(text: Date.now.formatted(.dateTime.weekday(.wide).month(.wide).day()))
+            Kicker(text: Date.appNow.formatted(.dateTime.weekday(.wide).month(.wide).day()))
             Text("Deep Cuts").font(Theme.display(40)).foregroundStyle(Theme.ink)
         }
         .padding(.top, 12)
@@ -73,7 +73,7 @@ struct TodayView: View {
         let all = app.moments
         if !all.isEmpty || app.momentsFailed {
             VStack(alignment: .leading, spacing: 12) {
-                SectionHeader(title: "On This Day", trailing: Date.now.formatted(.dateTime.month(.abbreviated).day()))
+                SectionHeader(title: "On This Day", trailing: Date.appNow.formatted(.dateTime.month(.abbreviated).day()))
                 if all.isEmpty {
                     Text("Music history needs a connection. Pull down to try again.")
                         .font(.subheadline).foregroundStyle(Theme.inkSoft)

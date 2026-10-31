@@ -125,7 +125,7 @@ final class AppModel {
     func loadMoments(force: Bool = false) async {
         let today = ProgressStore.dayKey()
         guard force || momentsDay != today else { return }
-        let parts = Calendar.current.dateComponents([.month, .day], from: .now)
+        let parts = Calendar.current.dateComponents([.month, .day], from: .appNow)
         let artists = Array(Set(focusGenres.flatMap { $0.songs.map(\.artist) }))
         do {
             let all = try await OnThisDay.moments(month: parts.month ?? 1, day: parts.day ?? 1, artists: artists)
