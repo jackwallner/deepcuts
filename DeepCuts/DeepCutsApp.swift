@@ -1,3 +1,4 @@
+import Combine
 import SwiftUI
 import UIKit
 
@@ -123,10 +124,13 @@ struct RootView: View {
             app.refreshDay()
             Task { await app.refreshContent() }
         }
-        .onReceive(NotificationCenter.default.publisher(for: UIApplication.significantTimeChangeNotification)) { _ in
+        // Foundation doesn't say which thread these are posted from, and the handler is main-actor isolated.
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.significantTimeChangeNotification)
+            .receive(on: DispatchQueue.main)) { _ in
             app.refreshDay()
         }
-        .onReceive(NotificationCenter.default.publisher(for: .NSCalendarDayChanged)) { _ in
+        .onReceive(NotificationCenter.default.publisher(for: .NSCalendarDayChanged)
+            .receive(on: DispatchQueue.main)) { _ in
             app.refreshDay()
         }
         #if DEBUG
