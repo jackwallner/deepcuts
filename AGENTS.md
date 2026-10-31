@@ -48,7 +48,8 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
   suggestion starts a build session). `-ui-plus` plays as a Deep Cuts+ member (every test that plays more
   than one round a mode needs it). `-ui-focus classic-rock,southern-rock` skips onboarding, `-ui-tab play|stories|live|you` opens a tab, `-ui-screen <scene>` a seeded store surface (`.claude/rules/iphone-duo.md`),
   `-ui-daily-played` starts with today's mix done, `-ui-day-flip N` moves the clock a day ahead N seconds after launch
-  (`DayRolloverUITests`; anything tied to the date reads `Date.appNow`, never `Date.now`).
+  (`DayRolloverUITests`; anything tied to the date reads `Date.appNow`, never `Date.now`, and a screen drawn from it
+  reads `AppModel.day` so it redraws at midnight: `isLocked` and `storyOfTheDay` do, `DayRedrawTests`).
 
 ## Target users (check every change against them)
 - **John (Jack's dad), 60s**: grew up on '60s/'70s rock, knows the records cold, reads on an iPhone
