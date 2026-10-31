@@ -29,6 +29,9 @@ final class AppModel {
     var quizPreset: QuizPreset?
     /// Why the Deep Cuts+ sheet is up, if it is.
     var paywall: PaywallReason?
+    /// The calendar day the app last looked at, as a `ProgressStore.dayKey`. Screens drawn from the
+    /// date read it, so a new day redraws them instead of leaving yesterday on screen.
+    private(set) var day = ProgressStore.dayKey()
 
     init(library: ContentLibrary = .shared, progress: ProgressStore = ProgressStore(), feedback: FeedbackService = .live,
          content: RemoteContentService = .off, membership: Membership = Membership()) {
@@ -41,6 +44,15 @@ final class AppModel {
     }
 
     var isPlus: Bool { membership.isPlus }
+
+    /// Called when the app comes forward and when the system reports midnight or a clock change.
+    func refreshDay(now: Date = .appNow) {
+        let today = ProgressStore.dayKey(now)
+        guard today != day else { return }
+        day = today
+        // Yesterday's On This Day must not sit under today's date if the reload fails.
+        moments = []
+    }
 
     var focusGenres: [Genre] {
         let focus = progress.focus
@@ -127,7 +139,7 @@ final class AppModel {
     func loadMoments(force: Bool = false) async {
         let today = ProgressStore.dayKey()
         guard force || momentsDay != today else { return }
-        let parts = Calendar.current.dateComponents([.month, .day], from: .now)
+        let parts = Calendar.current.dateComponents([.month, .day], from: .appNow)
         let artists = Array(Set(focusGenres.flatMap { $0.songs.map(\.artist) }))
         do {
             let all = try await OnThisDay.moments(month: parts.month ?? 1, day: parts.day ?? 1, artists: artists)
