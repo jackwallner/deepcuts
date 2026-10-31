@@ -98,9 +98,17 @@ struct FeedbackService: Sendable {
         let (data, response) = try await session.data(for: request)
         struct Created: Decodable { let id: Int }
         guard (response as? HTTPURLResponse)?.statusCode == 200, let created = try? JSONDecoder().decode(Created.self, from: data) else {
-            throw Failure.server(String(data: data, encoding: .utf8).map { String($0.prefix(200)) } ?? "The server didn't answer.")
+            throw Failure.server(Self.message(from: data))
         }
         return created.id
+    }
+
+    /// The `error` sentence the function wrote for the tester, else the start of whatever came back.
+    private static func message(from data: Data) -> String {
+        struct Body: Decodable { let error: String }
+        if let body = try? JSONDecoder().decode(Body.self, from: data) { return body.error }
+        let text = String(decoding: data.prefix(200), as: UTF8.self).trimmingCharacters(in: .whitespacesAndNewlines)
+        return text.isEmpty ? "The server didn't answer." : text
     }
 
     func mine(installID: String) async throws -> [FeedbackItem] {
