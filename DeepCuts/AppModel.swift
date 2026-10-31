@@ -95,7 +95,8 @@ final class AppModel {
 
     /// Free: one round a day in each mode. Deep Cuts+: unlimited.
     func isLocked(_ mode: QuizMode) -> Bool {
-        !isPlus && !progress.hasFreeRound(mode)
+        _ = day  // a new day hands the free round back, so a lock drawn yesterday has to redraw
+        return !isPlus && !progress.hasFreeRound(mode)
     }
 
     func start(mode: QuizMode, crate: Genre?) {
@@ -121,6 +122,7 @@ final class AppModel {
     // MARK: Story of the day
 
     func storyOfTheDay() -> (story: Story, genre: Genre)? {
+        _ = day  // the pick, and which story is free, change with the day: redraw whatever drew them
         let pool = focusGenres.flatMap { genre in genre.stories.map { ($0, genre) } }
         guard !pool.isEmpty else { return nil }
         var rng = SeededRandom(string: "story-\(ProgressStore.dayKey())")
