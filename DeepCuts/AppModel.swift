@@ -87,6 +87,8 @@ final class AppModel {
     }
 
     func start(mode: QuizMode, crate: Genre?) {
+        // A second tap while the first round comes up finds the free round spent and would raise the paywall over it.
+        guard activeQuiz == nil else { return }
         guard !isLocked(mode) else {
             paywall = .round(mode)
             return
