@@ -34,7 +34,10 @@ enum OnThisDay {
         guard let url = URL(string: "https://en.wikipedia.org/api/rest_v1/feed/onthisday/all/\(path)") else { return [] }
         var request = URLRequest(url: url, timeoutInterval: 15)
         request.setValue("DeepCuts/1.0 (iOS; jackwallner@gmail.com)", forHTTPHeaderField: "Api-User-Agent")
-        let (data, _) = try await session.data(for: request)
+        let (data, response) = try await session.data(for: request)
+        // An error status or a captive portal's page is a failure to retry, not a day without music history.
+        guard (response as? HTTPURLResponse)?.statusCode == 200,
+              (try? JSONSerialization.jsonObject(with: data)) is [String: Any] else { throw URLError(.badServerResponse) }
         return parse(data, artists: artists)
     }
 
