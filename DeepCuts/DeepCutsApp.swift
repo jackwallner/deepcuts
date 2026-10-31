@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 @main
 struct DeepCutsApp: App {
@@ -11,6 +12,18 @@ struct DeepCutsApp: App {
         if args.contains("-ui-reset") { progress.reset() }
         if let index = args.firstIndex(of: "-ui-focus"), index + 1 < args.count {
             progress.setFocus(args[index + 1].split(separator: ",").map(String.init))
+        }
+        // `-ui-daily-played` starts with today's mix done; `-ui-day-flip N` moves the clock to
+        // tomorrow N seconds after launch and posts the notification the system sends at midnight.
+        if args.contains("-ui-daily-played") {
+            progress.finish(spec: QuizSpec(source: .daily(day: ProgressStore.dayKey()), mode: nil, title: "", items: []),
+                            result: QuizResult(correct: 7, total: 10))
+        }
+        if let index = args.firstIndex(of: "-ui-day-flip"), index + 1 < args.count, let seconds = Double(args[index + 1]) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
+                DebugClock.offset = 86_400
+                NotificationCenter.default.post(name: UIApplication.significantTimeChangeNotification, object: nil)
+            }
         }
         let feedback: FeedbackService = args.contains("-ui-feedback-stub") ? .stub : .live
         // UI tests play the bundled crates only, so rounds don't change under them.
