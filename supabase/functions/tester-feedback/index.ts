@@ -12,7 +12,7 @@ import { createClient } from "npm:@supabase/supabase-js@2.45.4";
 const db = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!);
 const APP_KEY = Deno.env.get("TESTER_FEEDBACK_APP_KEY") ?? "";
 const ADMIN_KEY = Deno.env.get("TESTER_FEEDBACK_ADMIN_KEY") ?? "";
-const APPS = new Set(["deepcuts"]);
+const APPS = new Set(["deepcuts", "pet"]);
 const STATUSES = new Set(["new", "queued", "working", "shipped", "needs_jack", "declined", "failed"]);
 const LIST = "id, created_at, updated_at, app, install_id, name, text, context, status, reply, build, session_url, thread_id";
 const PER_DAY = 20;
