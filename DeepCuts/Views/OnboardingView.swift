@@ -42,6 +42,7 @@ struct FocusPicker: View {
     @State private var picked: [String] = []
 
     var body: some View {
+        VStack(spacing: 0) {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 VStack(alignment: .leading, spacing: 10) {
@@ -64,8 +65,13 @@ struct FocusPicker: View {
             .padding(.horizontal, Theme.gutter)
             .padding(.bottom, 120)
         }
+        footer
+        }
         .background(Theme.paper.ignoresSafeArea())
-        .safeAreaInset(edge: .bottom) {
+        .onAppear { picked = initial }
+    }
+
+    private var footer: some View {
             VStack(spacing: 8) {
                 Button(picked.isEmpty ? "Pick at least one" : action) {
                     onDone(app.library.genres.map(\.id).filter(picked.contains))
@@ -84,8 +90,6 @@ struct FocusPicker: View {
             .padding(.vertical, 12)
             .background(Theme.paper)
             .overlay(alignment: .top) { Rectangle().fill(Theme.rule).frame(height: 1) }
-        }
-        .onAppear { picked = initial }
     }
 
     private func row(_ genre: Genre) -> some View {
