@@ -206,6 +206,7 @@ struct CoverOfTheDayCard: View {
 /// The inverted "sleeve" card with today's mix: play it, or see how you did.
 struct DailyMixCard: View {
     @Environment(AppModel.self) private var app
+    @Environment(\.dynamicTypeSize) private var typeSize
     var morePlay: () -> Void = {}
 
     var body: some View {
@@ -219,12 +220,13 @@ struct DailyMixCard: View {
                         Text("\(result.correct) of \(result.total)").font(Theme.display(44)).foregroundStyle(Theme.onSleeve)
                     } else {
                         Text("10 questions").font(Theme.display(32)).foregroundStyle(Theme.onSleeve)
+                            .fixedSize(horizontal: false, vertical: true)
                         Text(crateLine).font(.subheadline).foregroundStyle(Theme.onSleeve.opacity(0.8))
                             .lineLimit(2)
                     }
                 }
                 Spacer(minLength: 8)
-                fan(songs)
+                if !typeSize.isAccessibilitySize { fan(songs) }
             }
             if result == nil {
                 Button("Play today's mix") { app.startDaily() }
