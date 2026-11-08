@@ -491,4 +491,16 @@ final class PlusTests: XCTestCase {
         XCTAssertEqual(PlusPricing.cta(.lifetime, trial: true), "Unlock Deep Cuts+ Forever")
         XCTAssertNil(PlusPricing.price(membership, .yearly), "no price until StoreKit gives one")
     }
+
+    /// Offerings that land with the tap (a slow or retried load) must not sell on stale terms.
+    func testSaleWaitsForTheTermsTheScreenShowed() {
+        XCTAssertTrue(PlusPricing.showedTerms(priceShown: true, trialShown: true, trialEligible: true))
+        XCTAssertTrue(PlusPricing.showedTerms(priceShown: true, trialShown: false, trialEligible: false))
+        XCTAssertFalse(PlusPricing.showedTerms(priceShown: true, trialShown: true, trialEligible: false),
+                       "a lapsed subscriber is never charged under a free-week button")
+        XCTAssertFalse(PlusPricing.showedTerms(priceShown: true, trialShown: false, trialEligible: true),
+                       "an eligible buyer sees the free week before tapping")
+        XCTAssertFalse(PlusPricing.showedTerms(priceShown: false, trialShown: true, trialEligible: true),
+                       "no sale before the price was on screen")
+    }
 }
