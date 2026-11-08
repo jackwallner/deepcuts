@@ -144,7 +144,9 @@ struct PaywallView: View {
         .onChange(of: plan) { _, _ in Task { await checkTrial() } }
         .task {
             membership.trackImpression(reason.impressionID)
-            if !priceReady { await loadPrices() }
+            guard priceReady else { return await loadPrices() }
+            // A plan the store left out then offers Try again instead of a spinner that never ends.
+            loadAttempted = true
             await checkTrial()
         }
     }
