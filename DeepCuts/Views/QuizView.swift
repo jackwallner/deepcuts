@@ -138,11 +138,19 @@ struct QuizView: View {
                 }
             }
             .accessibilityHidden(true)
-            Text(finished ? "Done" : "\(index + 1)/\(spec.items.count)")
-                .font(.subheadline.monospacedDigit().weight(.semibold))
-                .foregroundStyle(Theme.inkSoft)
-                .frame(minWidth: 44)
-                .accessibilityLabel(finished ? "Round finished" : "Question \(index + 1) of \(spec.items.count)")
+            if finished {
+                Button("Done") { dismiss() }
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.inkSoft)
+                    .frame(minWidth: 44, minHeight: 44)
+                    .accessibilityIdentifier("quiz-done")
+            } else {
+                Text("\(index + 1)/\(spec.items.count)")
+                    .font(.subheadline.monospacedDigit().weight(.semibold))
+                    .foregroundStyle(Theme.inkSoft)
+                    .frame(minWidth: 44)
+                    .accessibilityLabel("Question \(index + 1) of \(spec.items.count)")
+            }
         }
         .padding(.horizontal, 8)
         .padding(.top, 4)

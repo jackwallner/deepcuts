@@ -38,7 +38,7 @@ final class ReleaseJourneysUITests: XCTestCase {
 
         XCTAssertTrue(app.staticTexts["result-score"].waitForExistence(timeout: 15))
         QA.checkpoint(app, "daily-result")
-        app.buttons["result-done"].tap()
+        app.buttons["quiz-done"].tap()
         XCTAssertTrue(app.buttons["daily-more"].waitForExistence(timeout: 10))
         QA.checkpoint(app, "today-completed")
         QA.interrupt(app)
