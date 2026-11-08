@@ -5,6 +5,7 @@ struct QuizView: View {
     @Environment(AppModel.self) private var app
     @Environment(\.dismiss) private var dismiss
     @Environment(\.horizontalSizeClass) private var sizeClass
+    @Environment(\.dynamicTypeSize) private var sizeCategory
     let spec: QuizSpec
 
     @State private var index = 0
@@ -89,7 +90,7 @@ struct QuizView: View {
                         // Wait for the card to lay out, or there is nothing to scroll to yet.
                         Task {
                             try? await Task.sleep(for: .milliseconds(120))
-                            withMotion(.snappy) { proxy.scrollTo("reveal", anchor: .bottom) }
+                            withMotion(.snappy) { proxy.scrollTo("reveal", anchor: sizeCategory.isAccessibilitySize ? .top : .bottom) }
                         }
                     }
                 }
@@ -139,11 +140,14 @@ struct QuizView: View {
             }
             .accessibilityHidden(true)
             if finished {
-                Button("Done") { dismiss() }
-                    .font(.subheadline.weight(.semibold))
-                    .foregroundStyle(Theme.inkSoft)
-                    .frame(minWidth: 44, minHeight: 44)
-                    .accessibilityIdentifier("quiz-done")
+                Button { dismiss() } label: {
+                    Text("Done")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(Theme.inkSoft)
+                        .frame(minWidth: 44, minHeight: 44)
+                        .contentShape(Rectangle())
+                }
+                .accessibilityIdentifier("quiz-done")
             } else {
                 Text("\(index + 1)/\(spec.items.count)")
                     .font(.subheadline.monospacedDigit().weight(.semibold))
