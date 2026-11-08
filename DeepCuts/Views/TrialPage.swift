@@ -94,9 +94,15 @@ struct TrialPage: View {
     private func start() async {
         purchasing = true
         defer { purchasing = false }
+        let priceShown = PlusPricing.price(membership, .yearly) != nil
         // No product to sell (offline, store down): the full plan picker can retry.
         guard await membership.ensureOfferings(), membership.package(for: .yearly) != nil else {
             showingPlans = true
+            return
+        }
+        let eligible = await membership.isTrialEligible(for: .yearly)
+        guard PlusPricing.showedTerms(priceShown: priceShown, trialShown: trialEligible, trialEligible: eligible) else {
+            trialEligible = eligible
             return
         }
         do {

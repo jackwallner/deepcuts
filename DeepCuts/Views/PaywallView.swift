@@ -58,6 +58,12 @@ enum PlusPricing {
         if plan == .lifetime { return "Unlock Deep Cuts+ Forever" }
         return trial ? "Start 7-Day Free Trial" : "Subscribe"
     }
+
+    /// A sale goes ahead only on the terms the screen showed: a real price, and the free week
+    /// only when the store will give it. Offerings that land with the tap update the screen instead.
+    static func showedTerms(priceShown: Bool, trialShown: Bool, trialEligible: Bool) -> Bool {
+        priceShown && trialShown == trialEligible
+    }
 }
 
 /// Restore, Terms of Use and Privacy Policy: on every surface that sells Plus.
@@ -258,6 +264,7 @@ struct PaywallView: View {
         await membership.loadOfferings()
         loading = false
         loadAttempted = true
+        await checkTrial()
     }
 
     private func checkTrial() async {
@@ -267,6 +274,13 @@ struct PaywallView: View {
     private func buy() async {
         purchasing = true
         defer { purchasing = false }
+        let eligible = await membership.isTrialEligible(for: plan)
+        // Lifetime's terms never mention a trial, whatever the last plan's check left behind.
+        let trialShown = plan != .lifetime && trialEligible
+        guard PlusPricing.showedTerms(priceShown: priceReady, trialShown: trialShown, trialEligible: eligible) else {
+            trialEligible = eligible
+            return
+        }
         do {
             guard try await membership.purchase(plan) == .purchased else { return }
             if await !membership.confirmEntitlement() {
