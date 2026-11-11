@@ -30,6 +30,12 @@ struct TrialPage: View {
                     benefit("Every story, from the studio to the stage")
                     benefit("Today's Mix stays free, always")
                 }
+                // Monthly and Lifetime live on the full picker. App Review couldn't find them from here (2.1(b), 1.0.0).
+                Button("See all plans") { showingPlans = true }
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.accent)
+                    .frame(minHeight: 44)
+                    .accessibilityIdentifier("trial-all-plans")
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.horizontal, Theme.gutter)

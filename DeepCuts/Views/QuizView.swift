@@ -533,6 +533,7 @@ struct ResultView: View {
     /// Off when the round's sheet already lists every answer beside the score.
     var showsRecap = true
     let onDone: () -> Void
+    @State private var plans: PaywallReason?
 
     var body: some View {
         let correct = outcomes.compactMap { $0 }.filter { $0 }.count
@@ -560,6 +561,8 @@ struct ResultView: View {
                 VStack(spacing: 10) {
                     if !spec.isDaily, let mode = spec.mode {
                         Button("Play another round") {
+                            // Locked: sell it here. The root sheet can't show while this cover is still leaving.
+                            if app.isLocked(mode) { plans = .round(mode); return }
                             let crate: Genre? = if case .crate(let id) = spec.source { app.library.genre(id) } else { nil }
                             onDone()
                             Task { @MainActor in
@@ -590,6 +593,9 @@ struct ResultView: View {
             }
             .padding(.horizontal, Theme.gutter)
             .padding(.bottom, 32)
+        }
+        .sheet(item: $plans) { reason in
+            PaywallView(reason: reason).environment(app)
         }
     }
 
