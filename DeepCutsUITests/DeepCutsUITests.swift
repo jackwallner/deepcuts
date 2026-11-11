@@ -232,6 +232,13 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertTrue(app.links["Terms of Use"].exists)
         XCTAssertTrue(app.links["Privacy Policy"].exists)
         attach(app, "trial-page")
+        let allPlans = app.buttons["trial-all-plans"]
+        XCTAssertTrue(allPlans.exists, "monthly and lifetime are one tap from the trial page")
+        allPlans.tap()
+        XCTAssertTrue(app.buttons["plan-monthly"].waitForExistence(timeout: 10))
+        XCTAssertTrue(app.buttons["plan-lifetime"].exists)
+        app.buttons["paywall-close"].tap()
+        XCTAssertTrue(app.buttons["trial-skip"].waitForExistence(timeout: 5))
         app.buttons["trial-skip"].tap()
         XCTAssertTrue(app.buttons["play-daily"].waitForExistence(timeout: 10))
 
@@ -251,6 +258,9 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertTrue(app.buttons["plan-lifetime"].exists)
         attach(app, "paywall-round")
         app.buttons["paywall-close"].tap()
+        let resultDone = app.buttons["result-done"]
+        XCTAssertTrue(resultDone.waitForExistence(timeout: 5), "closing the plans returns to the result")
+        resultDone.tap()
         XCTAssertTrue(trivia.waitForExistence(timeout: 5))
         XCTAssertEqual(trivia.value as? String, "Deep Cuts+")
         attach(app, "crate-locked-mode")
