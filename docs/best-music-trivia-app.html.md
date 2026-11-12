@@ -6,11 +6,11 @@ Web page: https://jackwallner.com/ios/deepcuts/best-music-trivia-app.html
 
 ## Best music trivia app for iPhone (November 2026)
 
-By [Jack Wallner](https://jackwallner.com/). Last updated November 11, 2026.
+By [Jack Wallner](https://jackwallner.com/). Last updated November 12, 2026.
 
 A music trivia app asks you questions about songs, artists and records, and many also play clips for you to name. Best for competing with friends on song clips today: SongPop Classic. Best for untimed challenges with no purchases: Record Clerk. Best for genre-deep questions on classic rock, Southern rock, Motown and more, with the story behind every answer: Deep Cuts, which is in testing and coming soon to the App Store.
 
-**How we compared.** I read each App Store listing and pulled its rating and update date from Apple's public lookup on October 30, 2026 (US storefront), and took feature claims from the listings. I did not install the competing apps, so every claim about them comes from their listings. Deep Cuts is not on the App Store yet, so it has no rating, and its details come from its own page. Jack Wallner makes Deep Cuts, so read its entries with that in mind.
+**How we compared.** I read each App Store listing and pulled its rating and update date from Apple's public lookup on November 12, 2026 (US storefront), and took feature claims from the listings. I did not install the competing apps, so every claim about them comes from their listings. Deep Cuts is not on the App Store yet, so it has no rating, and its details come from its own page. Jack Wallner makes Deep Cuts, so read its entries with that in mind.
 
 ## How do the music trivia apps compare?
 
@@ -19,12 +19,12 @@ SongPop Classic and BopQuiz are song-clip games with online play, Record Clerk a
 | App | Best for | Song clips | Play with others | Rating (count) | Last updated |
 | --- | --- | --- | --- | --- | --- |
 | Deep Cuts: Music Trivia | Genre-deep trivia, Name That Tune and the story behind every answer | Yes | Solo play | Not yet on the App Store | Coming soon |
-| SongPop Classic - Music Trivia | Guessing songs against friends and players worldwide | Yes | Yes, online | 4.68 (63,314) | Oct 26, 2026 |
+| SongPop Classic - Music Trivia | Guessing songs against friends and players worldwide | Yes | Yes, online | 4.68 (63,319) | Oct 26, 2026 |
 | Record Clerk: Music Trivia | Untimed challenges by genre and year, with no purchases | Not stated in listing | Not stated in listing | 4.79 (1,264) | Oct 10, 2026 |
-| Trivial Music Quiz | Timed question rounds on songs, bands and albums, with images | Not stated in listing | Not stated in listing | 4.57 (643) | Oct 23, 2025 |
-| BopQuiz - Guess the Song | Guessing songs from playlists, for Apple Music subscribers | Yes | Yes, duels and local play | 4.67 (278) | Oct 12, 2026 |
+| Trivial Music Quiz | Timed question rounds on songs, bands and albums, with images | Not stated in listing | Not stated in listing | 4.57 (644) | Oct 23, 2025 |
+| BopQuiz - Guess the Song | Guessing songs from playlists, for Apple Music subscribers | Yes | Yes, duels and local play | 4.68 (278) | Oct 12, 2026 |
 
-Ratings and update dates come from Apple's App Store lookup on October 30, 2026. Deep Cuts is not released, so it has no rating or update date. "Not stated" means the listing does not say.
+Ratings and update dates come from Apple's App Store lookup on November 12, 2026. Deep Cuts is not released, so it has no rating or update date. "Not stated" means the listing does not say.
 
 ## Deep Cuts: Music Trivia
 
