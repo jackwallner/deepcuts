@@ -170,10 +170,13 @@ final class DeepCutsUITests: XCTestCase {
         let app = launch(["-ui-focus", "classic-rock,southern-rock", "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXXXL"])
         tab(app, "Live").tap()
         XCTAssertTrue(app.buttons["live-locate"].waitForExistence(timeout: 5))
-        let skynyrd = app.buttons["act-Lynyrd Skynyrd"]
-        for _ in 0..<8 where !skynyrd.exists || !skynyrd.isHittable { app.scrollViews.firstMatch.swipeUp() }
-        XCTAssertTrue(skynyrd.isHittable)
+        let tucker = app.buttons["act-The Marshall Tucker Band"]
+        for _ in 0..<8 where !tucker.exists || !tucker.isHittable { app.scrollViews.firstMatch.swipeUp() }
+        XCTAssertTrue(tucker.isHittable)
         XCTAssertFalse(app.buttons["act-Metallica"].exists, "only acts from the chosen crates")
+        // Feedback #18: no band touring with nobody from the records.
+        XCTAssertFalse(app.buttons["act-Lynyrd Skynyrd"].exists)
+        XCTAssertFalse(app.buttons["act-Molly Hatchet"].exists)
 
         app.terminate()
         let stubbed = launch(["-ui-focus", "classic-rock", "-ui-venues-stub"])

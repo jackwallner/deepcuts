@@ -84,6 +84,7 @@ A wrong question also gets its fix published live (`scripts/content-remote.py pu
 - `live-content.md`: live questions, `content-remote.py`, the weekly iMac job.
 - `iphone-duo.md`: the unfolded two-pane layout (tabs beside the reading pane), `-ui-screen` capture scenes.
 - `deep-cuts-plus.md`: the free/Plus split, products and prices, the trial page and paywall, RevenueCat.
+- `live-tab.md`: which acts Your Artists Live lists (dates on sale, no tribute-like lineups), `check-touring.py`.
 
 ---
 Shared iOS conventions (build, simulator, release/TestFlight, ASC key, signing, gotchas):

@@ -334,14 +334,17 @@ final class LiveMusicTests: XCTestCase {
 
     /// Feedback: tour dates listed tribute bands. Acts open their own artist page, never a name search.
     func testTourDatesOpenTheActsOwnArtistPage() {
-        XCTAssertEqual(LiveMusic.tourDatesURL(for: "AC/DC")?.absoluteString, "https://www.ticketmaster.com/artist/1170951")
-        let missing = LiveMusic.touring.values.joined().filter { $0 != "Devo" && LiveMusic.ticketmasterIDs[$0] == nil }
+        XCTAssertEqual(LiveMusic.tourDatesURL(for: "Eagles")?.absoluteString, "https://www.ticketmaster.com/artist/734977")
+        let missing = LiveMusic.touring.values.joined().filter { LiveMusic.ticketmasterIDs[$0] == nil }
         XCTAssertEqual(missing, [])
+        XCTAssertNil(LiveMusic.tourDatesURL(for: "Devo"), "a name search turns up tribute acts")
     }
 
-    func testTourDatesFallbackSearchEncodesTheName() {
-        XCTAssertEqual(LiveMusic.tourDatesURL(for: "Earth Wind & Friends")?.absoluteString,
-                       "https://www.ticketmaster.com/search?q=Earth%20Wind%20%26%20Friends")
+    /// Feedback #18: Your Artists Live listed bands that tour with nobody from the records.
+    func testNoBandWithoutAnOriginalMember() {
+        let listed = Set(LiveMusic.touring.values.joined())
+        XCTAssertTrue(listed.isDisjoint(with: LiveMusic.withoutOriginalMembers))
+        XCTAssertTrue(LiveMusic.withoutOriginalMembers.allSatisfy { LiveMusic.ticketmasterIDs[$0] == nil })
     }
 
     func testVenuesNearestFirstWithoutDuplicates() {

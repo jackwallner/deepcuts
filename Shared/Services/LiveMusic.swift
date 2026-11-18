@@ -7,28 +7,30 @@ import Observation
 /// No concert listing API is free without an account, so tour dates open on Ticketmaster and
 /// venues come from Apple Maps, whose sites carry their calendars.
 enum LiveMusic {
-    /// Acts in each crate still playing shows as of 2025-26. Names match the crate's song artists.
+    /// Acts in each crate with dates on sale on their own Ticketmaster page, checked 2026-11-18 with
+    /// `scripts/check-touring.py`. Names match the crate's song artists. A band stays only while someone
+    /// who played on its hits is still in it: Lynyrd Skynyrd, Molly Hatchet and Atlanta Rhythm Section
+    /// tour with none, which a fan hears as a tribute act.
     static let touring: [String: [String]] = [
         "classic-rock": ["Eagles", "Journey", "Heart", "Styx", "Kansas", "Santana", "Foghat", "Blue Öyster Cult"],
-        "southern-rock": ["Lynyrd Skynyrd", "ZZ Top", "38 Special", "The Marshall Tucker Band",
-                          "Molly Hatchet", "Atlanta Rhythm Section"],
+        "southern-rock": ["38 Special", "The Marshall Tucker Band"],
         "british-invasion": ["Herman's Hermits"],
-        "heavy-metal": ["Metallica", "Iron Maiden", "Judas Priest", "AC/DC", "Scorpions", "Deep Purple"],
+        "heavy-metal": ["Metallica", "Iron Maiden", "Judas Priest", "Scorpions", "Deep Purple"],
         "prog-rock": ["Yes", "Jethro Tull", "Kansas"],
-        "motown-soul": ["Stevie Wonder", "The Temptations", "Gladys Knight & The Pips"],
-        "folk-singer-songwriter": ["Bob Dylan", "Neil Young", "James Taylor", "Bruce Springsteen"],
-        "yacht-rock": ["The Doobie Brothers", "Toto", "Michael McDonald", "Boz Scaggs", "Christopher Cross", "Air Supply"],
-        "punk-new-wave": ["Duran Duran", "Devo", "New Order", "The Human League", "Echo & the Bunnymen"],
-        "eighties": ["Journey", "Guns N' Roses", "Bruce Springsteen"],
-        "grunge-alt": ["Pearl Jam", "Green Day", "Weezer", "The Smashing Pumpkins", "Pixies", "Nine Inch Nails",
-                       "Alanis Morissette"],
+        "motown-soul": ["Stevie Wonder", "The Temptations"],
+        "folk-singer-songwriter": ["Bob Dylan"],
+        "yacht-rock": ["The Doobie Brothers", "Toto", "Air Supply"],
+        "punk-new-wave": ["New Order", "The Human League", "Echo & the Bunnymen"],
+        "eighties": ["Journey", "Guns N' Roses"],
+        "grunge-alt": ["Weezer", "Pixies", "Alanis Morissette"],
         "pop": ["The Beach Boys"],
-        "modern-pop": ["Lady Gaga", "Billie Eilish", "Dua Lipa", "The Weeknd", "Olivia Rodrigo", "Ariana Grande", "Mariah Carey"],
-        "country": ["George Strait", "Willie Nelson", "Alan Jackson", "Shania Twain"],
-        "blues": ["Buddy Guy"],
+        "modern-pop": ["Olivia Rodrigo", "Mariah Carey"],
+        "country": ["Shania Twain"],
         "disco-funk": ["Earth, Wind & Fire", "KC and the Sunshine Band", "Chic", "Diana Ross"],
-        "hip-hop": ["Kendrick Lamar", "Cardi B"],
     ]
+
+    /// Bands that tour under the name with nobody from the records. Never listed.
+    static let withoutOriginalMembers: Set<String> = ["Lynyrd Skynyrd", "Molly Hatchet", "Atlanta Rhythm Section"]
 
     struct Act: Identifiable, Hashable {
         let name: String
@@ -54,12 +56,13 @@ enum LiveMusic {
     }
 
     /// Each act's own Ticketmaster artist page, checked by name 2026-11-18. A name search mixes in
-    /// tribute bands ("AC/DC" returns only tribute acts), so a search is the fallback only.
+    /// tribute bands ("Devo" returns Devolucion), so every listed act needs one. Acts between tours
+    /// stay here so `scripts/check-touring.py` can spot their next dates.
     static let ticketmasterIDs: [String: Int] = [
         "Eagles": 734977, "Journey": 735415, "Heart": 735257, "Styx": 736216, "Kansas": 735426,
-        "Santana": 741473, "Foghat": 735102, "Blue Öyster Cult": 734593, "Lynyrd Skynyrd": 735560,
-        "ZZ Top": 736523, "38 Special": 767057, "The Marshall Tucker Band": 735594, "Molly Hatchet": 769300,
-        "Atlanta Rhythm Section": 767275, "Herman's Hermits": 821381, "Metallica": 735647,
+        "Santana": 741473, "Foghat": 735102, "Blue Öyster Cult": 734593,
+        "ZZ Top": 736523, "38 Special": 767057, "The Marshall Tucker Band": 735594,
+        "Herman's Hermits": 821381, "Metallica": 735647,
         "Iron Maiden": 735341, "Judas Priest": 807246, "AC/DC": 1170951, "Scorpions": 736062,
         "Deep Purple": 734897, "Yes": 736506, "Jethro Tull": 735387, "Stevie Wonder": 772848,
         "The Temptations": 736274, "Gladys Knight & The Pips": 735460, "Bob Dylan": 734972,
@@ -76,12 +79,10 @@ enum LiveMusic {
         "Chic": 734745, "Diana Ross": 736009, "Kendrick Lamar": 1480454, "Cardi B": 2223707,
     ]
 
-    /// The act's Ticketmaster artist page, which lists only their own dates.
+    /// The act's Ticketmaster artist page, which lists only their own dates. No name search: that
+    /// is where the tribute bands are.
     static func tourDatesURL(for artist: String) -> URL? {
-        if let id = ticketmasterIDs[artist] { return URL(string: "https://www.ticketmaster.com/artist/\(id)") }
-        var parts = URLComponents(string: "https://www.ticketmaster.com/search")
-        parts?.queryItems = [URLQueryItem(name: "q", value: artist)]
-        return parts?.url
+        ticketmasterIDs[artist].flatMap { URL(string: "https://www.ticketmaster.com/artist/\($0)") }
     }
 }
 

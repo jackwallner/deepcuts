@@ -236,9 +236,9 @@ struct LiveView: View {
         return VStack(alignment: .leading, spacing: 12) {
             SectionHeader(title: "Your Artists Live")
             if acts.isEmpty {
-                note("None of the artists in your crates are on the road right now.")
+                note("None of the artists in your crates have shows on sale right now.")
             } else {
-                note("Acts from your crates who still play shows. Tap one to see upcoming dates on Ticketmaster.")
+                note("Acts from your crates with shows on sale. Tap one for their dates on Ticketmaster.")
                 VStack(spacing: 0) {
                     ForEach(acts) { act in
                         actRow(act)
