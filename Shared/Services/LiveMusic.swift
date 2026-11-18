@@ -53,8 +53,32 @@ enum LiveMusic {
         }
     }
 
-    /// Ticketmaster's search, which lists the act's upcoming dates near the listener first.
+    /// Each act's own Ticketmaster artist page, checked by name 2026-11-18. A name search mixes in
+    /// tribute bands ("AC/DC" returns only tribute acts), so a search is the fallback only.
+    static let ticketmasterIDs: [String: Int] = [
+        "Eagles": 734977, "Journey": 735415, "Heart": 735257, "Styx": 736216, "Kansas": 735426,
+        "Santana": 741473, "Foghat": 735102, "Blue Öyster Cult": 734593, "Lynyrd Skynyrd": 735560,
+        "ZZ Top": 736523, "38 Special": 767057, "The Marshall Tucker Band": 735594, "Molly Hatchet": 769300,
+        "Atlanta Rhythm Section": 767275, "Herman's Hermits": 821381, "Metallica": 735647,
+        "Iron Maiden": 735341, "Judas Priest": 807246, "AC/DC": 1170951, "Scorpions": 736062,
+        "Deep Purple": 734897, "Yes": 736506, "Jethro Tull": 735387, "Stevie Wonder": 772848,
+        "The Temptations": 736274, "Gladys Knight & The Pips": 735460, "Bob Dylan": 734972,
+        "Neil Young": 736511, "James Taylor": 736262, "Bruce Springsteen": 736179,
+        "The Doobie Brothers": 734946, "Toto": 736321, "Michael McDonald": 735614, "Boz Scaggs": 736052,
+        "Christopher Cross": 734843, "Air Supply": 734403, "Duran Duran": 734969, "New Order": 735746,
+        "The Human League": 735308, "Echo & the Bunnymen": 734986, "Guns N' Roses": 735218,
+        "Pearl Jam": 735836, "Green Day": 768353, "Weezer": 766591, "The Smashing Pumpkins": 736143,
+        "Pixies": 906179, "Nine Inch Nails": 735762, "Alanis Morissette": 775998, "The Beach Boys": 734518,
+        "Lady Gaga": 1249444, "Billie Eilish": 2257710, "Dua Lipa": 2179476, "The Weeknd": 1697014,
+        "Olivia Rodrigo": 2836194, "Ariana Grande": 1688071, "Mariah Carey": 767870,
+        "George Strait": 732947, "Willie Nelson": 732878, "Alan Jackson": 769574, "Shania Twain": 764367,
+        "Buddy Guy": 731721, "Earth, Wind & Fire": 734980, "KC and the Sunshine Band": 769791,
+        "Chic": 734745, "Diana Ross": 736009, "Kendrick Lamar": 1480454, "Cardi B": 2223707,
+    ]
+
+    /// The act's Ticketmaster artist page, which lists only their own dates.
     static func tourDatesURL(for artist: String) -> URL? {
+        if let id = ticketmasterIDs[artist] { return URL(string: "https://www.ticketmaster.com/artist/\(id)") }
         var parts = URLComponents(string: "https://www.ticketmaster.com/search")
         parts?.queryItems = [URLQueryItem(name: "q", value: artist)]
         return parts?.url

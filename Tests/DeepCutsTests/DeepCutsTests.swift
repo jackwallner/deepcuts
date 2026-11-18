@@ -332,9 +332,16 @@ final class LiveMusicTests: XCTestCase {
         XCTAssertTrue(acts.allSatisfy { $0.songID != nil })
     }
 
-    func testTourDatesURLEncodesTheName() {
-        XCTAssertEqual(LiveMusic.tourDatesURL(for: "Earth, Wind & Fire")?.absoluteString,
-                       "https://www.ticketmaster.com/search?q=Earth,%20Wind%20%26%20Fire")
+    /// Feedback: tour dates listed tribute bands. Acts open their own artist page, never a name search.
+    func testTourDatesOpenTheActsOwnArtistPage() {
+        XCTAssertEqual(LiveMusic.tourDatesURL(for: "AC/DC")?.absoluteString, "https://www.ticketmaster.com/artist/1170951")
+        let missing = LiveMusic.touring.values.joined().filter { $0 != "Devo" && LiveMusic.ticketmasterIDs[$0] == nil }
+        XCTAssertEqual(missing, [])
+    }
+
+    func testTourDatesFallbackSearchEncodesTheName() {
+        XCTAssertEqual(LiveMusic.tourDatesURL(for: "Earth Wind & Friends")?.absoluteString,
+                       "https://www.ticketmaster.com/search?q=Earth%20Wind%20%26%20Friends")
     }
 
     func testVenuesNearestFirstWithoutDuplicates() {
