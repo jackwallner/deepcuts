@@ -400,6 +400,33 @@ final class LiveMusicTests: XCTestCase {
         }
         XCTAssertFalse(VenueFinder.isVenue(name: "The Paramount", category: .movieTheater))
     }
+
+    /// Feedback #19: looking up any artist lists close matches, never tribute or cover bands.
+    func testArtistLookUpDropsTributesAndWeakMatches() {
+        let found = ArtistFinder.matches([
+            ("1", "Journey", 100, "American rock band", "United States"),
+            ("2", "Escape", 90, "Journey tribute band", nil),
+            ("3", "Frontiers", 88, "covers band from Ohio", nil),
+            ("4", "Journey Unauthorized", 85, nil, nil),
+            ("5", "Bronn Journey", 68, nil, nil),
+            ("6", "Journey South", 80, "", "United Kingdom"),
+        ])
+        XCTAssertEqual(found.map(\.name), ["Journey", "Journey Unauthorized", "Journey South"])
+        XCTAssertEqual(found.first?.detail, "American rock band")
+        XCTAssertEqual(found.last?.detail, "United Kingdom", "the country when MusicBrainz has no note")
+    }
+
+    /// The act's own page: Ticketmaster first, then Bandsintown, then Songkick, never a name search.
+    func testArtistTourPagePrefersTicketmasterThenBandsintown() {
+        let links = ["https://www.metallica.com/", "https://www.songkick.com/artists/331163",
+                     "https://www.bandsintown.com/a/128", "https://www.ticketmaster.com/artist/735647"]
+        XCTAssertEqual(ArtistFinder.tourPage(in: links)?.absoluteString, "https://www.ticketmaster.com/artist/735647")
+        XCTAssertEqual(ArtistFinder.tourPage(in: Array(links.prefix(3)))?.absoluteString, "https://www.bandsintown.com/a/128")
+        XCTAssertEqual(ArtistFinder.tourPage(in: Array(links.prefix(2)))?.absoluteString, "https://www.songkick.com/artists/331163")
+        XCTAssertNil(ArtistFinder.tourPage(in: ["https://www.metallica.com/", "https://www.ticketmaster.com/search?q=metallica"]))
+        XCTAssertEqual(ArtistFinder.escaped("AC/DC"), "AC\\/DC")
+        XCTAssertNil(Venue(name: "x", area: nil, miles: nil, latitude: 0, longitude: 0, website: nil).distanceLabel)
+    }
 }
 
 /// The unfolded iPhone Duo's two panes: fold-aligned when the system reports a fold.

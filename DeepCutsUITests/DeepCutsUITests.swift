@@ -194,6 +194,26 @@ final class DeepCutsUITests: XCTestCase {
         XCTAssertTrue(stubbed.staticTexts["Near You"].waitForExistence(timeout: 5))
     }
 
+    /// Feedback #19: look up any artist's tour dates or any venue's calendar by name.
+    func testLiveLookUpArtistAndVenue() {
+        let app = launch(["-ui-focus", "classic-rock", "-ui-venues-stub", "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXXXL"])
+        tab(app, "Live").tap()
+        let field = app.textFields["lookup-field"]
+        XCTAssertTrue(field.waitForExistence(timeout: 5))
+        field.tap()
+        field.typeText("Journey\n")
+        XCTAssertTrue(app.buttons["artist-Journey"].waitForExistence(timeout: 5))
+        attach(app, "live-lookup-artist")
+
+        app.segmentedControls["lookup-kind"].buttons["Venue"].tap()
+        XCTAssertFalse(app.buttons["artist-Journey"].exists)
+        XCTAssertTrue(app.buttons["found-The Old Mill Ballroom"].waitForExistence(timeout: 5), "switching searches the same text as a venue")
+        attach(app, "live-lookup-venue")
+        app.buttons["lookup-clear"].tap()
+        XCTAssertFalse(app.buttons["found-The Old Mill Ballroom"].exists)
+        XCTAssertEqual(field.value as? String, "Venue name")
+    }
+
     /// Feedback #8: You > Settings reorders the Today screen and sets how far to look for venues.
     func testSettingsReorderTodayAndVenueDistance() {
         let app = launch(["-ui-focus", "classic-rock", "-ui-venues-stub"])

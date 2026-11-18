@@ -3,7 +3,22 @@ import SwiftUI
 import UIKit
 
 /// Live music for the listener's crates: venues nearby, and tour dates for acts still on the road.
+/// Look Up finds any artist's tour dates or any venue's calendar by name (feedback #19).
 struct LiveView: View {
+    enum LookUp: String, CaseIterable, Identifiable {
+        case artist = "Artist", venue = "Venue"
+        var id: String { rawValue }
+    }
+    enum LookUpState { case idle, searching, failed }
+
+    @State private var lookUp = LookUp.artist
+    @State private var lookUpText = ""
+    @State private var lookUpState = LookUpState.idle
+    @State private var artistMatches: [ArtistFinder.Match]?
+    @State private var venueMatches: [Venue]?
+    @State private var opening: String?
+    @State private var noTourPage: String?
+    @FocusState private var lookUpFocused: Bool
     @Environment(AppModel.self) private var app
     @Environment(\.openURL) private var openURL
     @State private var locator = LocationProvider()
@@ -28,12 +43,13 @@ struct LiveView: View {
                     VStack(alignment: .leading, spacing: 6) {
                         Kicker(text: "On the road")
                         Text("Live").font(Theme.display(40)).foregroundStyle(Theme.ink)
-                        Text("Music venues near you, and tour dates for the artists in your crates.")
+                        Text("Tour dates for any artist, calendars for any venue, and the music venues near you.")
                             .font(.subheadline).foregroundStyle(Theme.inkSoft)
                             .fixedSize(horizontal: false, vertical: true)
                     }
                     .padding(.top, 12)
 
+                    lookUpSection
                     nearby
                     onTour
                 }
@@ -108,6 +124,167 @@ struct LiveView: View {
         searchFailed = false
         venues = nil
         if stubVenues { venues = VenueFinder.sample } else { locator.request() }
+    }
+
+    // MARK: Look up
+
+    private var lookUpSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            SectionHeader(title: "Look Up")
+            Picker("Look up", selection: $lookUp) {
+                ForEach(LookUp.allCases) { Text($0.rawValue).tag($0) }
+            }
+            .pickerStyle(.segmented)
+            .accessibilityIdentifier("lookup-kind")
+            .onChange(of: lookUp) {
+                clearLookUp(keepText: true)
+                if !lookUpText.trimmingCharacters(in: .whitespaces).isEmpty { Task { await runLookUp() } }
+            }
+            lookUpField
+            lookUpResults
+        }
+    }
+
+    private var lookUpField: some View {
+        HStack(spacing: 10) {
+            Image(systemName: "magnifyingglass").foregroundStyle(Theme.inkSoft)
+            TextField(lookUp == .artist ? "Artist or band" : "Venue name", text: $lookUpText)
+                .autocorrectionDisabled()
+                .submitLabel(.search)
+                .focused($lookUpFocused)
+                .onSubmit { Task { await runLookUp() } }
+                .accessibilityIdentifier("lookup-field")
+            if !lookUpText.isEmpty {
+                Button {
+                    clearLookUp(keepText: false)
+                } label: {
+                    Image(systemName: "xmark.circle.fill")
+                }
+                .foregroundStyle(Theme.inkSoft)
+                .accessibilityLabel("Clear")
+                .accessibilityIdentifier("lookup-clear")
+            }
+        }
+        .padding(12)
+        .card()
+    }
+
+    @ViewBuilder
+    private var lookUpResults: some View {
+        switch lookUpState {
+        case .searching:
+            HStack(spacing: 10) {
+                ProgressView()
+                Text("Searching").font(.subheadline).foregroundStyle(Theme.inkSoft)
+            }
+            .padding(.vertical, 8)
+        case .failed:
+            note("Couldn't search right now. Check your connection and try again.")
+        case .idle:
+            if lookUp == .artist, let artistMatches {
+                if artistMatches.isEmpty {
+                    note("No artist by that name turned up. Check the spelling.")
+                } else {
+                    VStack(spacing: 0) {
+                        ForEach(artistMatches) { match in
+                            artistRow(match)
+                            if match != artistMatches.last { Divider().overlay(Theme.rule) }
+                        }
+                    }
+                    if let noTourPage { note(noTourPage) }
+                }
+            } else if lookUp == .venue, let venueMatches {
+                if venueMatches.isEmpty {
+                    note("Apple Maps couldn't find a venue by that name. Try adding the city.")
+                } else {
+                    VStack(spacing: 0) {
+                        ForEach(venueMatches) { venue in
+                            venueRow(venue, id: "found")
+                            if venue != venueMatches.last { Divider().overlay(Theme.rule) }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private func artistRow(_ match: ArtistFinder.Match) -> some View {
+        Button {
+            Task { await openTourPage(match) }
+        } label: {
+            HStack(alignment: .center, spacing: 12) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(match.name).font(.headline).foregroundStyle(Theme.ink)
+                        .multilineTextAlignment(.leading)
+                    if let detail = match.detail {
+                        Text(detail).font(.subheadline).foregroundStyle(Theme.inkSoft)
+                            .multilineTextAlignment(.leading)
+                    }
+                }
+                Spacer(minLength: 8)
+                if opening == match.id {
+                    ProgressView()
+                } else {
+                    Label("Dates", systemImage: "arrow.up.right")
+                        .labelStyle(TrailingIconLabelStyle())
+                        .font(.footnote.weight(.semibold))
+                        .foregroundStyle(Theme.accent)
+                }
+            }
+            .padding(.vertical, 10)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(PressableStyle())
+        .disabled(opening != nil)
+        .accessibilityLabel("\(match.name), tour dates")
+        .accessibilityIdentifier("artist-\(match.name)")
+    }
+
+    private func runLookUp() async {
+        let text = lookUpText.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !text.isEmpty else { return clearLookUp(keepText: false) }
+        let kind = lookUp
+        lookUpState = .searching
+        noTourPage = nil
+        do {
+            switch kind {
+            case .artist:
+                let found = stubVenues ? ArtistFinder.sample : try await ArtistFinder.search(text)
+                guard kind == lookUp, text == lookUpText.trimmingCharacters(in: .whitespacesAndNewlines) else { return }
+                artistMatches = found
+            case .venue:
+                let found = stubVenues ? VenueFinder.sample : try await VenueFinder.named(text, near: searchLocation)
+                guard kind == lookUp, text == lookUpText.trimmingCharacters(in: .whitespacesAndNewlines) else { return }
+                venueMatches = found
+            }
+            lookUpState = .idle
+        } catch {
+            guard kind == lookUp else { return }
+            lookUpState = .failed
+        }
+    }
+
+    private func openTourPage(_ match: ArtistFinder.Match) async {
+        opening = match.id
+        noTourPage = nil
+        defer { opening = nil }
+        do {
+            if let url = try await ArtistFinder.tourPage(for: match) {
+                openURL(url)
+            } else {
+                noTourPage = "\(match.name) has no tour page listed. They may not be touring."
+            }
+        } catch {
+            noTourPage = "Couldn't load \(match.name)'s dates. Try again in a moment."
+        }
+    }
+
+    private func clearLookUp(keepText: Bool) {
+        if !keepText { lookUpText = "" }
+        lookUpState = .idle
+        artistMatches = nil
+        venueMatches = nil
+        noTourPage = nil
     }
 
     // MARK: Near you
@@ -205,7 +382,7 @@ struct LiveView: View {
         }
     }
 
-    private func venueRow(_ venue: Venue) -> some View {
+    private func venueRow(_ venue: Venue, id prefix: String = "venue") -> some View {
         Button {
             if let url = venue.website ?? venue.mapURL { openURL(url) }
         } label: {
@@ -226,7 +403,7 @@ struct LiveView: View {
             .contentShape(Rectangle())
         }
         .buttonStyle(PressableStyle())
-        .accessibilityIdentifier("venue-\(venue.name)")
+        .accessibilityIdentifier("\(prefix)-\(venue.name)")
     }
 
     // MARK: On tour
