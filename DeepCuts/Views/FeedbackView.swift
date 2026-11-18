@@ -112,25 +112,30 @@ struct FeedbackView: View {
                 .card()
                 .foregroundStyle(Theme.accent)
                 .onChange(of: photo) { _, item in Task { await loadPhoto(item) } }
-
-                if let error {
-                    Text(error).font(.footnote).foregroundStyle(Theme.accent)
-                }
             }
             .padding(.horizontal, Theme.gutter)
             .padding(.bottom, 32)
         }
         .scrollDismissesKeyboard(.interactively)
-        // Pinned so it rides above the keyboard.
+        // Pinned so it rides above the keyboard, with a failed send's reason right above it
+        // (in the form it sat under the keyboard and the button looked dead).
         .safeAreaInset(edge: .bottom) {
-            Button {
-                Task { await send() }
-            } label: {
-                if sending { ProgressView().tint(.white) } else { Text("Send to Jack") }
+            VStack(spacing: 8) {
+                if let error {
+                    Text(error).font(.footnote).foregroundStyle(Theme.accent)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .accessibilityIdentifier("feedback-error")
+                }
+                Button {
+                    Task { await send() }
+                } label: {
+                    if sending { ProgressView().tint(.white) } else { Text("Send to Jack") }
+                }
+                .buttonStyle(PrimaryButtonStyle(fill: canSend ? Theme.accent : Theme.rule, text: canSend ? .white : Theme.inkSoft))
+                .disabled(!canSend || sending)
+                .accessibilityIdentifier("feedback-send")
             }
-            .buttonStyle(PrimaryButtonStyle(fill: canSend ? Theme.accent : Theme.rule, text: canSend ? .white : Theme.inkSoft))
-            .disabled(!canSend || sending)
-            .accessibilityIdentifier("feedback-send")
             .padding(.horizontal, Theme.gutter)
             .padding(.vertical, 10)
             .background(Theme.paper)
