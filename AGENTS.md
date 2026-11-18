@@ -75,7 +75,7 @@ A wrong question also gets its fix published live (`scripts/content-remote.py pu
 ## Release
 - TestFlight: `./scripts/testflight.sh` (validates content first). Internal group **Family**
   (Jack, John, Emi, Michael, Scott) gets every build; no Beta App Review.
-  `scripts/asc-testers.py` (hourly `deepcuts-testers.timer` on the iMac) adds accepted invitees and keeps
+  `scripts/asc-testers.py` (hourly `deepcuts-testers.timer` on the iMac; tester names and emails live in `~/.appstoreconnect/deepcuts-testers.json`, never in this public repo) adds accepted invitees and keeps
   non-admin testers locked to Deep Cuts only.
 - 1.0.0 (build 18) submitted to App Store review 2026-10-28 with Deep Cuts+ (both subscriptions and lifetime), MANUAL release:
   `python3 ~/ios/release/release.py release --app ~/deepcuts --apply` once approved.

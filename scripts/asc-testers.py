@@ -6,13 +6,16 @@ Non-admin testers are locked to Deep Cuts: any other app access they gain is rem
 """
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 import asc_lib
 
 APP_ID = "6825448110"
 GROUP = "Family"
-TESTERS = {"tester1@example.com": ("Tester", "1"), "jackwallner@gmail.com": ("Jack", "Wallner"),
-           "tester2@example.com": ("Tester", "2"), "tester3@example.com": ("Tester", "3"),
-           "tester4@example.com": ("Tester", "4")}
+# Names and emails stay out of the repo (it is public): {"email": ["First", "Last"], ...}
+TESTERS_FILE = Path.home() / ".appstoreconnect" / "deepcuts-testers.json"
+TESTERS = {email: tuple(name) for email, name in json.loads(TESTERS_FILE.read_text()).items()}
 
 
 def main() -> None:
