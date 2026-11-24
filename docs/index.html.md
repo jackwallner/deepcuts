@@ -10,7 +10,7 @@ I made Deep Cuts, a music trivia app for iPhone, for my dad, who knows his '60s 
 
 iPhone · 18 crates · Free
 
-Coming soon to the App Store
+[Download for free](https://apps.apple.com/us/app/deep-cuts-music-trivia/id6825448110?pt=128748779&ct=jw-deepcuts-home&mt=8)
 
 ## What's in Deep Cuts?
 
@@ -114,12 +114,12 @@ Yes. Today's Mix, one round a day in each game and today's story are free, with 
 
 The trivia, matchups, cover questions and stories work offline. Song previews, On This Day and the venue search need a connection.
 
-## When is Deep Cuts on the App Store?
+## Is Deep Cuts on the App Store?
 
-Deep Cuts is in testing now and coming soon to the App Store for iPhone.
+Yes. Deep Cuts is free on the App Store for iPhone.
 
 ## Dig into the crates
 
 Free on iPhone. No account, no ads.
 
-Coming soon to the App Store
+[Download for free](https://apps.apple.com/us/app/deep-cuts-music-trivia/id6825448110?pt=128748779&ct=jw-deepcuts-home&mt=8)

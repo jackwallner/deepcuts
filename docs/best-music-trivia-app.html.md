@@ -6,31 +6,31 @@ Web page: https://jackwallner.com/ios/deepcuts/best-music-trivia-app.html
 
 ## Best music trivia app for iPhone (November 2026)
 
-By [Jack Wallner](https://jackwallner.com/). Last updated November 12, 2026.
+By [Jack Wallner](https://jackwallner.com/). Last updated November 24, 2026.
 
-A music trivia app asks you questions about songs, artists and records, and many also play clips for you to name. Best for competing with friends on song clips today: SongPop Classic. Best for untimed challenges with no purchases: Record Clerk. Best for genre-deep questions on classic rock, Southern rock, Motown and more, with the story behind every answer: Deep Cuts, which is in testing and coming soon to the App Store.
+A music trivia app asks you questions about songs, artists and records, and many also play clips for you to name. Best for competing with friends on song clips today: SongPop Classic. Best for untimed challenges with no purchases: Record Clerk. Best for genre-deep questions on classic rock, Southern rock, Motown and more, with the story behind every answer: Deep Cuts.
 
-**How we compared.** I read each App Store listing and pulled its rating and update date from Apple's public lookup on November 12, 2026 (US storefront), and took feature claims from the listings. I did not install the competing apps, so every claim about them comes from their listings. Deep Cuts is not on the App Store yet, so it has no rating, and its details come from its own page. Jack Wallner makes Deep Cuts, so read its entries with that in mind.
+**How we compared.** I read each App Store listing and pulled its rating and update date from Apple's public lookup on November 12, 2026 (US storefront), and took feature claims from the listings. I did not install the competing apps, so every claim about them comes from their listings. Deep Cuts came out on November 24, 2026, so it has no ratings yet. Jack Wallner makes Deep Cuts, so read its entries with that in mind.
 
 ## How do the music trivia apps compare?
 
-SongPop Classic and BopQuiz are song-clip games with online play, Record Clerk and Trivial Music Quiz are solo quizzes, and Deep Cuts is a genre-deep trivia app that is not released yet.
+SongPop Classic and BopQuiz are song-clip games with online play, Record Clerk and Trivial Music Quiz are solo quizzes, and Deep Cuts is a genre-deep trivia app.
 
 | App | Best for | Song clips | Play with others | Rating (count) | Last updated |
 | --- | --- | --- | --- | --- | --- |
-| Deep Cuts: Music Trivia | Genre-deep trivia, Name That Tune and the story behind every answer | Yes | Solo play | Not yet on the App Store | Coming soon |
+| Deep Cuts: Music Trivia | Genre-deep trivia, Name That Tune and the story behind every answer | Yes | Solo play | No ratings yet | Nov 24, 2026 |
 | SongPop Classic - Music Trivia | Guessing songs against friends and players worldwide | Yes | Yes, online | 4.68 (63,319) | Oct 26, 2026 |
 | Record Clerk: Music Trivia | Untimed challenges by genre and year, with no purchases | Not stated in listing | Not stated in listing | 4.79 (1,264) | Oct 10, 2026 |
 | Trivial Music Quiz | Timed question rounds on songs, bands and albums, with images | Not stated in listing | Not stated in listing | 4.57 (644) | Oct 23, 2025 |
 | BopQuiz - Guess the Song | Guessing songs from playlists, for Apple Music subscribers | Yes | Yes, duels and local play | 4.68 (278) | Oct 12, 2026 |
 
-Ratings and update dates come from Apple's App Store lookup on November 12, 2026. Deep Cuts is not released, so it has no rating or update date. "Not stated" means the listing does not say.
+Ratings and update dates come from Apple's App Store lookup on November 12, 2026. Deep Cuts came out on November 24, 2026 and has no ratings yet. "Not stated" means the listing does not say.
 
 ## Deep Cuts: Music Trivia
 
-Deep Cuts is a music trivia app for iPhone built in crates, the way a record store is. There are 18 crates, including Classic Rock, British Invasion, Southern Rock, Heavy Metal, Prog Rock, Motown & Soul, Yacht Rock, Grunge & Alternative, Country, Blues and Hip-Hop, and you pick the ones you want. It has a daily ten of mixed questions, Name That Tune with a preview of the real recording from Apple Music, Who Did It First? for famous covers, Which Came First? matchups, The Hard Ones, long-form stories and On This Day in music. Every answer comes with the story behind it. It is free to play with one round a day in each game, no account and no ads, and Deep Cuts+ adds unlimited rounds and every story. The trade-offs: it is not on the App Store yet, so it has no rating, it is iPhone only (iOS 17 or later), and it is solo play with no multiplayer.
+Deep Cuts is a music trivia app for iPhone built in crates, the way a record store is. There are 18 crates, including Classic Rock, British Invasion, Southern Rock, Heavy Metal, Prog Rock, Motown & Soul, Yacht Rock, Grunge & Alternative, Country, Blues and Hip-Hop, and you pick the ones you want. It has a daily ten of mixed questions, Name That Tune with a preview of the real recording from Apple Music, Who Did It First? for famous covers, Which Came First? matchups, The Hard Ones, long-form stories and On This Day in music. Every answer comes with the story behind it. It is free to play with one round a day in each game, no account and no ads, and Deep Cuts+ adds unlimited rounds and every story. The trade-offs: it is new, so it has no ratings yet, it is iPhone only (iOS 17 or later), and it is solo play with no multiplayer.
 
-Coming soon to the App Store
+[Download for free](https://apps.apple.com/us/app/deep-cuts-music-trivia/id6825448110?pt=128748779&ct=jw-deepcuts-compare&mt=8)
 [About Deep Cuts](https://jackwallner.com/ios/deepcuts/)
 
 ## SongPop Classic - Music Trivia
@@ -70,19 +70,19 @@ To race friends on song clips today, pick SongPop Classic or BopQuiz. For genre-
 
 ### What is the best music trivia app for iPhone?
 
-It depends on how you like to play. SongPop Classic for competing with friends on song clips, BopQuiz if you have Apple Music, Record Clerk for untimed challenges, and Deep Cuts for genre-deep questions with the story behind each answer once it reaches the App Store.
+It depends on how you like to play. SongPop Classic for competing with friends on song clips, BopQuiz if you have Apple Music, Record Clerk for untimed challenges, and Deep Cuts for genre-deep questions with the story behind each answer.
 
 ### Is there a trivia app for classic rock fans?
 
-Deep Cuts is built around crates such as Classic Rock, British Invasion, Southern Rock, Prog Rock and Psychedelic Rock, with questions that go past what a radio listener knows. It is in testing and not on the App Store yet.
+Deep Cuts is built around crates such as Classic Rock, British Invasion, Southern Rock, Prog Rock and Psychedelic Rock, with questions that go past what a radio listener knows.
 
-### Is Deep Cuts on the App Store yet?
+### Is Deep Cuts on the App Store?
 
-Not yet. Deep Cuts is in testing now and coming soon to the App Store for iPhone.
+Yes. Deep Cuts is free on the App Store for iPhone.
 
 ### What is the best app to play Name That Tune on iPhone?
 
-SongPop Classic and BopQuiz are built around guessing songs from clips. Deep Cuts will have a Name That Tune game that plays a preview of the real recording from Apple Music and asks you to pick the song from four choices.
+SongPop Classic and BopQuiz are built around guessing songs from clips. Deep Cuts has a Name That Tune game that plays a preview of the real recording from Apple Music and asks you to pick the song from four choices.
 
 ### Which music trivia apps work offline?
 
