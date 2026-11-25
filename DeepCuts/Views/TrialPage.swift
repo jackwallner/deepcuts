@@ -12,6 +12,8 @@ struct TrialPage: View {
     @State private var restoring = false
     @State private var showingPlans = false
     @State private var message: String?
+    /// Ask to Buy sent the request to a parent. Held by this page only, so it ends when onboarding does.
+    @State private var awaitingApproval = false
 
     private var membership: Membership { app.membership }
 
@@ -53,6 +55,7 @@ struct TrialPage: View {
                     .foregroundStyle(Theme.inkSoft)
                     .frame(minHeight: 44)
                     .accessibilityIdentifier("trial-skip")
+                if awaitingApproval { PendingApprovalNote() }
                 Text(PlusPricing.terms(membership, .yearly, trial: trialEligible))
                     .font(.footnote).foregroundStyle(Theme.inkSoft)
                     .multilineTextAlignment(.center)
@@ -116,13 +119,16 @@ struct TrialPage: View {
             return
         }
         do {
-            guard try await membership.purchase(.yearly) == .purchased else { return }
+            let outcome = try await membership.purchase(.yearly)
+            awaitingApproval = outcome == .pending
+            guard outcome == .purchased else { return }
             if await membership.confirmEntitlement() {
                 onFinish()
             } else {
                 message = "Your purchase went through, but Deep Cuts+ hasn't unlocked yet. Give it a moment, then tap Restore. You won't be charged twice."
             }
         } catch {
+            awaitingApproval = false
             message = error.localizedDescription
         }
     }

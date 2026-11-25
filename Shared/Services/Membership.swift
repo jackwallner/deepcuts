@@ -17,6 +17,10 @@ enum RevenueCatConfig {
 enum PurchaseOutcome: Sendable {
     case purchased
     case cancelled
+    /// Ask to Buy: a parent has the request. The customer-info stream unlocks Plus once it is approved.
+    case pending
+
+    static let waitingForApproval = "Waiting for approval. Your purchase unlocks once it is approved."
 }
 
 enum PurchaseError: LocalizedError {
@@ -24,6 +28,19 @@ enum PurchaseError: LocalizedError {
 
     var errorDescription: String? {
         "The App Store isn't reachable right now. Check your connection and try again."
+    }
+
+    /// A store error as the customer sees it: a lost connection reads as the line above,
+    /// not RevenueCat's own description. Everything else passes through.
+    static func shown(_ error: Error) -> Error {
+        switch error as? RevenueCat.ErrorCode {
+        case .networkError?, .offlineConnectionError?: return PurchaseError.productsUnavailable
+        default: return error
+        }
+    }
+
+    static func isPending(_ error: Error) -> Bool {
+        (error as? RevenueCat.ErrorCode) == .paymentPendingError
     }
 }
 
@@ -154,7 +171,13 @@ final class Membership {
     func purchase(_ plan: PlusPlan) async throws -> PurchaseOutcome {
         await ensureOfferings()
         guard isConfigured, let package = package(for: plan) else { throw PurchaseError.productsUnavailable }
-        let result = try await Purchases.shared.purchase(package: package)
+        let result: PurchaseResultData
+        do {
+            result = try await Purchases.shared.purchase(package: package)
+        } catch {
+            if PurchaseError.isPending(error) { return .pending }
+            throw PurchaseError.shown(error)
+        }
         if result.userCancelled { return .cancelled }
         apply(result.customerInfo)
         return .purchased
@@ -173,7 +196,11 @@ final class Membership {
 
     func restore() async throws {
         guard isConfigured else { return }
-        apply(try await Purchases.shared.restorePurchases())
+        do {
+            apply(try await Purchases.shared.restorePurchases())
+        } catch {
+            throw PurchaseError.shown(error)
+        }
     }
 
     /// A reinstall is a new anonymous customer. If this Apple Account already owns Plus,

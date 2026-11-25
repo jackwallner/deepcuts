@@ -66,6 +66,17 @@ enum PlusPricing {
     }
 }
 
+/// Ask to Buy: the request is with a parent. Not an error, and Plus unlocks on its own once approved.
+struct PendingApprovalNote: View {
+    var body: some View {
+        Text(PurchaseOutcome.waitingForApproval)
+            .font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)
+            .multilineTextAlignment(.center)
+            .fixedSize(horizontal: false, vertical: true)
+            .accessibilityIdentifier("purchase-pending")
+    }
+}
+
 /// Restore, Terms of Use and Privacy Policy: on every surface that sells Plus.
 struct PlusLegalFooter: View {
     let restore: () -> Void
@@ -106,6 +117,8 @@ struct PaywallView: View {
     @State private var loading = false
     @State private var loadAttempted = false
     @State private var message: String?
+    /// Ask to Buy sent the request to a parent. Held by this sheet only, so it ends when the sheet closes.
+    @State private var awaitingApproval = false
 
     private var membership: Membership { app.membership }
     private var priceReady: Bool { PlusPricing.price(membership, plan) != nil }
@@ -237,6 +250,7 @@ struct PaywallView: View {
                 Button("Prices didn't load. Try again") { Task { await loadPrices() } }
                     .font(.subheadline.weight(.semibold))
             }
+            if awaitingApproval { PendingApprovalNote() }
             Text(PlusPricing.terms(membership, plan, trial: trialEligible))
                 .font(.footnote).foregroundStyle(Theme.inkSoft)
                 .multilineTextAlignment(.center)
@@ -282,11 +296,14 @@ struct PaywallView: View {
             return
         }
         do {
-            guard try await membership.purchase(plan) == .purchased else { return }
+            let outcome = try await membership.purchase(plan)
+            awaitingApproval = outcome == .pending
+            guard outcome == .purchased else { return }
             if await !membership.confirmEntitlement() {
                 message = "Your purchase went through, but Deep Cuts+ hasn't unlocked yet. Give it a moment, then tap Restore. You won't be charged twice."
             }
         } catch {
+            awaitingApproval = false
             message = error.localizedDescription
         }
     }
