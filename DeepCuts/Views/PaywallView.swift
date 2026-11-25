@@ -54,9 +54,11 @@ enum PlusPricing {
         }
     }
 
-    static func cta(_ plan: PlusPlan, trial: Bool) -> String {
+    /// The wording arm comes from offering metadata `trial_cta`; an account without a free week
+    /// is never promised one (3.1.2), whatever the arm.
+    static func cta(_ plan: PlusPlan, trial: Bool, arm: TrialCTA = .sevenDay, on surface: TrialCTA.Surface = .paywall) -> String {
         if plan == .lifetime { return "Unlock Deep Cuts+ Forever" }
-        return trial ? "Start 7-Day Free Trial" : "Subscribe"
+        return trial ? arm.title(surface) : "Subscribe"
     }
 
     /// A sale goes ahead only on the terms the screen showed: a real price, and the free week
@@ -262,7 +264,7 @@ struct PaywallView: View {
                 if purchasing || loading || (!loadAttempted && !priceReady) {
                     ProgressView().tint(.white)
                 } else {
-                    Text(PlusPricing.cta(plan, trial: trialEligible))
+                    Text(PlusPricing.cta(plan, trial: trialEligible, arm: membership.trialCTA, on: .paywall))
                 }
             }
             .buttonStyle(PrimaryButtonStyle())

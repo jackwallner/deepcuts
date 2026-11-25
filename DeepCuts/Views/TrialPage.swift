@@ -64,7 +64,7 @@ struct TrialPage: View {
                 Button {
                     Task { await start() }
                 } label: {
-                    if purchasing { ProgressView().tint(.white) } else { Text(PlusPricing.cta(.yearly, trial: trialEligible)) }
+                    if purchasing { ProgressView().tint(.white) } else { Text(PlusPricing.cta(.yearly, trial: trialEligible, arm: membership.trialCTA, on: .onboarding)) }
                 }
                 .buttonStyle(PrimaryButtonStyle())
                 .disabled(purchasing || restoring)

@@ -12,6 +12,8 @@ App Store name **Deep Cuts: Music Trivia**, ASC app ID `6825448110`, bundle `com
 ## Tech Stack
 - Swift 6 / SwiftUI (strict concurrency), iOS 17+, iPhone only. One package: RevenueCat (Deep Cuts+,
   entitlement `pro`, project `85797d3e`; see `.claude/rules/deep-cuts-plus.md`).
+- Trial button wording tests go through offering metadata `trial_cta` (`RemoteConfig.swift`; missing or unknown
+  is today's copy). Keys a switch reads (`rating_prompt`) must be set the same on every offering.
 - Content is bundled JSON (`DeepCuts/Content/`), progress is one JSON file in Application Support.
 - Network, all optional: iTunes lookup (preview refresh), Wikipedia On This Day, tester feedback,
   live content (new and corrected questions from Supabase, weekly; see `.claude/rules/live-content.md`).
