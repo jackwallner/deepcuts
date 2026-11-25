@@ -7,8 +7,10 @@ first. Other crates are in the same folder; read their prompts too so you don't 
 
 Write {{COUNT}} new questions to {{OUT}} as a JSON array of
   {"crate": "{{CRATE}}", "kind": "question",
-   "body": {"prompt": "...?", "choices": ["", "", "", ""], "answer": <0-3>, "fact": "...", "difficulty": <1-3>}}
-with no "id" (one is assigned on publish). Match the existing questions' voice, length and `fact`
+   "body": {"prompt": "...?", "choices": ["", "", "", ""], "answer": <0-3>, "fact": "...", "difficulty": <1-3>},
+   "sources": ["<url you verified it against>", "..."]}
+with no "id" (one is assigned on publish). Every question needs at least one source URL; two independent
+checkers re-verify each one against them, and anything they can't confirm is cut. Match the existing questions' voice, length and `fact`
 style exactly.
 
 Rules:
