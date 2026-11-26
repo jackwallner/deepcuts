@@ -156,6 +156,7 @@ final class DeepCutsUITests: XCTestCase {
         suggest.tap()
         let text = app.textViews["feedback-text"]
         XCTAssertTrue(text.waitForExistence(timeout: 5))
+        text.tap()  // typeText needs keyboard focus, which the sheet does not give the box at large text
         text.typeText("Check Done")
         app.buttons["feedback-send"].tap()
         let done = app.buttons["feedback-done"]
